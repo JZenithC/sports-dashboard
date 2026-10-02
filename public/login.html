@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Sign in — Broadcast Dashboard</title>
+<script>
+  // Same pre-paint theme script as index.html, so the login page matches
+  // whatever theme you'd already chosen instead of flashing the wrong one.
+  (function () {
+    var saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") {
+      document.documentElement.setAttribute("data-theme", saved);
+    }
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* A small subset of index.html's own design tokens — just enough to make
+     this feel like part of the same app rather than a bare unstyled form. */
+  :root {
+    --page-bg: #faf7f0;
+    --page-text: #1a1f1c;
+    --page-text-muted: #5c6a62;
+    --panel-bg: #ffffff;
+    --panel-bg-2: #f3efe2;
+    --panel-border: #e2ddcb;
+    --floodlight: #ffb64d;
+    --floodlight-text: #241705;
+    --zone-danger: #c94f4f;
+    --zone-danger-bg: rgba(201, 79, 79, 0.14);
+    --font-display: "Oswald", sans-serif;
+    --font-body: "Inter", sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --page-bg: #0d130f;
+      --page-text: #eef2ee;
+      --page-text-muted: #93a49b;
+      --panel-bg: #14231c;
+      --panel-bg-2: #1a2b22;
+      --panel-border: #24382f;
+      --zone-danger: #e8726f;
+      --zone-danger-bg: rgba(232, 114, 111, 0.16);
+    }
+  }
+  :root[data-theme="dark"] {
+    --page-bg: #0d130f;
+    --page-text: #eef2ee;
+    --page-text-muted: #93a49b;
+    --panel-bg: #14231c;
+    --panel-bg-2: #1a2b22;
+    --panel-border: #24382f;
+    --zone-danger: #e8726f;
+    --zone-danger-bg: rgba(232, 114, 111, 0.16);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--page-bg);
+    color: var(--page-text);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    padding: 1.5rem;
+  }
+  .card {
+    width: 100%;
+    max-width: 340px;
+    background: linear-gradient(155deg, var(--panel-bg-2), var(--panel-bg));
+    border: 1px solid var(--panel-border);
+    border-radius: 12px;
+    padding: 2rem 1.75rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  }
+  h1 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.3rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    margin: 0 0 0.3rem;
+    text-align: center;
+  }
+  .subtitle {
+    text-align: center;
+    color: var(--page-text-muted);
+    font-size: 0.85rem;
+    margin: 0 0 1.5rem;
+  }
+  label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--page-text-muted);
+    margin-bottom: 0.3rem;
+  }
+  .field { margin-bottom: 1.1rem; }
+  input {
+    width: 100%;
+    padding: 0.6rem 0.75rem;
+    border-radius: 7px;
+    border: 1px solid var(--panel-border);
+    background: var(--panel-bg);
+    color: var(--page-text);
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+  }
+  input:focus { outline: 2px solid var(--floodlight); outline-offset: 1px; }
+  button {
+    width: 100%;
+    padding: 0.7rem;
+    border: 0;
+    border-radius: 999px;
+    background: var(--floodlight);
+    color: var(--floodlight-text);
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 0.4rem;
+  }
+  button:hover { filter: brightness(1.05); }
+  .error {
+    background: var(--zone-danger-bg);
+    color: var(--zone-danger);
+    border-radius: 7px;
+    padding: 0.55rem 0.75rem;
+    font-size: 0.82rem;
+    margin-bottom: 1.1rem;
+  }
+</style>
+</head>
+<body>
+  <form class="card" method="POST" action="/api/login">
+    <h1>Broadcast Dashboard</h1>
+    <p class="subtitle">Sign in to continue</p>
+    <div class="error" id="error" hidden>Incorrect username or password.</div>
+    <div class="field">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" autocomplete="username" required autofocus>
+    </div>
+    <div class="field">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" autocomplete="current-password" required>
+    </div>
+    <!-- Where to send you back after a successful sign-in — the page you
+         were actually trying to reach, filled in by middleware.js's
+         redirect. api/login.js re-validates this is a same-site path
+         before ever using it, so a tampered value here can't become an
+         open redirect. -->
+    <input type="hidden" name="redirect" id="redirectField" value="/">
+    <button type="submit">Sign in</button>
+  </form>
+  <script>
+    var params = new URLSearchParams(location.search);
+    var redirect = params.get("redirect");
+    if (redirect && redirect.startsWith("/") && !redirect.startsWith("//")) {
+      document.getElementById("redirectField").value = redirect;
+    }
+    if (params.get("error")) document.getElementById("error").hidden = false;
+  </script>
+</body>
+</html>

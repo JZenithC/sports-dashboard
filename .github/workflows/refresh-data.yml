@@ -1,0 +1,81 @@
+name: Refresh fixture data
+
+# Runs the same build-data.js script we run locally, then commits whatever
+# changed straight back into the repo. Any static host watching this repo
+# (Vercel, Cloudflare Pages, GitHub Pages) picks up the new
+# public/data/fixtures.json and logos on its own next deploy — this workflow
+# doesn't need to know anything about hosting.
+#
+# THE REAL TRIGGER IS workflow_dispatch, fired by a Vercel cron job (see
+# vercel.json and api/refresh.js). GitHub's own `schedule` trigger is a
+# backstop only, because it is not punctual — measured across eight
+# consecutive days, the "13 6 * * *" cron below created its run between 1h55m
+# and 6h18m late, every single day. On all eight, created_at equals
+# run_started_at, so the delay is GitHub queueing the run globally, not
+# waiting for a runner, and no choice of minute avoids it (06:00 -> 06:13 had
+# already been tried). A dispatched run, by contrast, starts immediately.
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Deliberately hours after the Vercel cron: this only needs to fire on days
+    # when that trigger failed, and the freshness guard below makes it a no-op
+    # otherwise. Not on the hour — that is the single most congested minute
+    # across all of GitHub Actions, which their own docs recommend avoiding.
+    - cron: "47 11 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      # The backstop must not re-scrape ~25 sources when the punctual trigger
+      # already refreshed them hours earlier — CLAUDE.md's scraping hygiene is
+      # one fetch per day per source. fixtures.json's own generatedAt is the
+      # freshness marker rather than the commit date, since it is what the page
+      # actually serves. A manual or Vercel-dispatched run always proceeds.
+      - name: Check whether the data is already fresh
+        id: freshness
+        run: |
+          generated=$(jq -r '.generatedAt // empty' public/data/fixtures.json)
+          if [ "${{ github.event_name }}" != "schedule" ] || [ -z "$generated" ]; then
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          age=$(( $(date -u +%s) - $(date -u -d "$generated" +%s) ))
+          if [ "$age" -lt 36000 ]; then
+            echo "Data is $(( age / 3600 ))h old — the punctual trigger ran, nothing to do."
+            echo "stale=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "Data is $(( age / 3600 ))h old — the punctual trigger did not run."
+            echo "stale=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-node@v7
+        if: steps.freshness.outputs.stale == 'true'
+        with:
+          node-version: 22
+
+      - run: npm ci
+        if: steps.freshness.outputs.stale == 'true'
+
+      - run: npm run build-data
+        if: steps.freshness.outputs.stale == 'true'
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+
+      - name: Commit and push if anything changed
+        if: steps.freshness.outputs.stale == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/fixtures.json public/data/changelog.json public/data/standings.json public/data/mlb.json public/data/fights.json public/data/health.json public/data/updates.json public/logos
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Automated fixture data refresh"
+            git push
+          fi

@@ -1,0 +1,3587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Broadcast Dashboard</title>
+<script>
+  // Applied synchronously, before first paint, so a saved theme choice never
+  // flashes the wrong colors for a frame.
+  (function () {
+    var saved = localStorage.getItem("theme");
+    if (saved === "light" || saved === "dark") {
+      document.documentElement.setAttribute("data-theme", saved);
+    }
+  })();
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  /* ---- Design tokens ---- */
+  :root {
+    --page-bg: #faf7f0;
+    --page-text: #1a1f1c;
+    --page-text-muted: #5c6a62;
+    --rule: #dcd6c8;
+
+    /* Match cards are styled as a "broadcast panel" — the signature device of
+       this design (every match reads like a lit screen) — in both themes,
+       light and dark, rather than being fixed to one. */
+    --panel-bg: #ffffff;
+    --panel-bg-2: #f3efe2;
+    --panel-text: #16201a;
+    --panel-text-muted: #5c6a62;
+    --panel-border: #e2ddcb;
+
+    --floodlight: #ffb64d;
+    --floodlight-text: #241705;
+
+    --brazil: #cc9900;
+    --argentina: #2b7cb0;
+    --mexico: #1f8a4c;
+    --europe: #7c5cbf;
+
+    --chip-bg: #eef2ec;
+    --chip-text: #1a231d;
+
+    /* Standings zone highlighting (title race / relegation) */
+    --zone-primary: #2f9e58;
+    --zone-primary-bg: rgba(47, 158, 88, 0.14);
+    --zone-secondary: #2b7cb0;
+    --zone-secondary-bg: rgba(43, 124, 176, 0.14);
+    --zone-danger: #c94f4f;
+    --zone-danger-bg: rgba(201, 79, 79, 0.14);
+
+    --font-display: "Oswald", sans-serif;
+    --font-body: "Inter", sans-serif;
+    --font-mono: "Roboto Mono", monospace;
+  }
+  /* Dark tokens apply either when the OS prefers dark (and the user hasn't
+     explicitly overridden it) or when the theme toggle has explicitly set
+     dark — see the toggle script below, which stores the explicit choice in
+     localStorage as a `data-theme` attribute on <html>. */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --page-bg: #0d130f;
+      --page-text: #eef2ee;
+      --page-text-muted: #93a49b;
+      --rule: #253229;
+
+      --panel-bg: #14231c;
+      --panel-bg-2: #1a2b22;
+      --panel-text: #f2f4ef;
+      --panel-text-muted: #9db3a6;
+      --panel-border: #24382f;
+
+      --brazil: #ffcc29;
+      --argentina: #7ec4e8;
+      --mexico: #2fae66;
+      --europe: #b39ddb;
+
+      --chip-bg: #1d3229;
+      --chip-text: #e8ede9;
+
+      --zone-primary: #4ad080;
+      --zone-primary-bg: rgba(74, 208, 128, 0.16);
+      --zone-secondary: #7ec4e8;
+      --zone-secondary-bg: rgba(126, 196, 232, 0.16);
+      --zone-danger: #e8726f;
+      --zone-danger-bg: rgba(232, 114, 111, 0.16);
+    }
+  }
+  :root[data-theme="dark"] {
+    --page-bg: #0d130f;
+    --page-text: #eef2ee;
+    --page-text-muted: #93a49b;
+    --rule: #253229;
+
+    --panel-bg: #14231c;
+    --panel-bg-2: #1a2b22;
+    --panel-text: #f2f4ef;
+    --panel-text-muted: #9db3a6;
+    --panel-border: #24382f;
+
+    --brazil: #ffcc29;
+    --argentina: #7ec4e8;
+    --mexico: #2fae66;
+    --europe: #b39ddb;
+
+    --chip-bg: #1d3229;
+    --chip-text: #e8ede9;
+
+    --zone-primary: #4ad080;
+    --zone-primary-bg: rgba(74, 208, 128, 0.16);
+    --zone-secondary: #7ec4e8;
+    --zone-secondary-bg: rgba(126, 196, 232, 0.16);
+    --zone-danger: #e8726f;
+    --zone-danger-bg: rgba(232, 114, 111, 0.16);
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page-bg);
+    color: var(--page-text);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* The schedule is a full-width table now, not a column of cards, so it
+     wants more room than the old 760px and more air at the edges — at 1.25rem
+     the time rail sat almost against the window frame. */
+  .page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 2rem clamp(1.25rem, 4vw, 3rem) 4rem;
+  }
+  @media (min-width: 960px) {
+    .page { max-width: 1180px; padding: 2.5rem 2rem 4rem; }
+  }
+
+  /* ---- Two-column layout: main fixture list + sidebar (standings, recap, etc) ---- */
+  .layout {
+    display: grid;
+    grid-template-areas: "sidebar" "main";
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .main-col { grid-area: main; min-width: 0; }
+  .side-col { grid-area: sidebar; }
+  @media (min-width: 960px) {
+    .layout {
+      grid-template-areas: "main sidebar";
+      grid-template-columns: minmax(0, 1fr) 340px;
+      align-items: start;
+    }
+    .side-col { position: sticky; top: 1.75rem; }
+  }
+  /* Half of a 4K screen leaves the fixed 340px sidebar looking pinched —
+     give standings room to breathe once the viewport can spare it. */
+  @media (min-width: 1500px) {
+    .layout { grid-template-columns: minmax(0, 1fr) 430px; }
+  }
+
+  header.site-header {
+    margin-bottom: 2.5rem;
+  }
+  header.site-header h1 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(1.6rem, 4vw, 2.1rem);
+    letter-spacing: 0.01em;
+    margin: 0 0 0.35rem;
+    text-transform: uppercase;
+  }
+  .meta {
+    color: var(--page-text-muted);
+    font-size: 0.85rem;
+  }
+  /* Every vertical's meta line sits in its own main column, directly
+     above the content — same position on all three tabs so it doesn't
+     jump around when switching sport. */
+  #meta, #mlbMeta, #fightsMeta { margin-bottom: 1.15rem; }
+
+  /* ---- Catch up view: flat, airing-ordered replay schedule (one row per
+     airing, the same event repeating per re-air) — sorted by when you can
+     actually watch rather than by which game it was. ---- */
+  .catchup-list {
+    background: var(--panel-bg);
+    border: 1px solid var(--panel-border);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 1.1rem;
+  }
+  .catchup-row {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding: 0.55rem 0.8rem;
+    border-bottom: 1px solid var(--panel-border);
+    flex-wrap: wrap;
+  }
+  .catchup-row:last-child { border-bottom: none; }
+  .catchup-time {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.88rem;
+    min-width: 3em;
+  }
+  .catchup-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-weight: 600;
+    font-size: 0.85rem;
+    min-width: 0;
+  }
+  .catchup-label img { width: 1.1rem; height: 1.1rem; object-fit: contain; }
+  .catchup-sub {
+    color: var(--page-text-muted);
+    font-size: 0.74rem;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+  .catchup-market {
+    font-family: var(--font-mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.03em;
+    padding: 0.12rem 0.28rem;
+    border: 1px solid var(--floodlight);
+    border-radius: 3px;
+    color: var(--floodlight-text);
+    background: var(--floodlight);
+  }
+  /* Trailing action, same reasoning as a to-do list: the row's content
+     reads left to right, the "done" control sits at the end. */
+  .catchup-row .watch-toggle { flex: none; }
+  .catchup-row:has(.watch-input:checked) { opacity: 0.55; }
+  /* Already under way — still listed so you can join in progress. */
+  .catchup-row.on-now { background: var(--zone-primary-bg); }
+  .on-now-tag {
+    margin-left: 0.4rem;
+    padding: 0.05rem 0.4rem;
+    border-radius: 999px;
+    background: var(--floodlight);
+    color: var(--floodlight-text);
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .header-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  /* ---- Source health ----
+     A scraper that quietly breaks used to be visible only in a build log,
+     so the page would just show less without saying why. The chip sits in
+     the header on every tab: green when every source reported in, amber
+     when something is degraded, red when a source is down. It expands into
+     the per-source list so a specific broken scraper can be named. */
+  .health-chip {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-left: auto;
+    padding: 0.3rem 0.75rem;
+    border-radius: 999px;
+    border: 1px solid var(--rule);
+    background: var(--panel-bg);
+    color: var(--page-text-muted);
+    font-family: inherit;
+    font-size: 0.75rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .health-chip::before {
+    content: "";
+    width: 0.55rem;
+    height: 0.55rem;
+    border-radius: 50%;
+    background: var(--health-dot, #4ade80);
+  }
+  .health-chip.ok { --health-dot: #4ade80; }
+  .health-chip.degraded { --health-dot: #fbbf24; color: var(--page-text); border-color: #fbbf24; }
+  /* Solid, not outlined. This chip is now the only signal that a scraper has
+     failed — the panel no longer opens itself — so it has to carry that
+     weight on its own. Degraded stays outlined: it is a note, not an alarm. */
+  .health-chip.down {
+    --health-dot: #fff;
+    background: #c0392b;
+    color: #fff;
+    border-color: #c0392b;
+    font-weight: 600;
+  }
+  .health-chip.down:hover { background: #a93226; border-color: #a93226; }
+  .health-chip:hover { border-color: var(--floodlight); }
+  .health-chip:focus-visible { outline: 2px solid var(--floodlight); outline-offset: 2px; }
+
+  .health-panel {
+    margin-top: 0.75rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--rule);
+    border-radius: 0.6rem;
+    background: var(--panel-bg);
+    font-size: 0.78rem;
+    /* Twenty-seven sources with per-channel accounting is a report, not a
+       header element. Capped and scrolled in place so opening it never
+       pushes the schedule off the screen. */
+    max-height: 60vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .health-panel[hidden] { display: none; }
+  .health-group-label {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--page-text-muted);
+    margin: 0.6rem 0 0.3rem;
+  }
+  .health-group-label:first-child { margin-top: 0; }
+  .health-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    padding: 0.28rem 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  .health-row:last-child { border-bottom: none; }
+  .health-status {
+    flex-shrink: 0;
+    width: 5.2rem;
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  .health-status.ok { color: #4ade80; }
+  .health-status.degraded { color: #fbbf24; }
+  .health-status.down { color: #f87171; }
+  .health-name { flex: 1 1 auto; color: var(--page-text); }
+  .health-detail {
+    flex: 0 1 auto;
+    color: var(--page-text-muted);
+    font-size: 0.72rem;
+    text-align: right;
+  }
+  .health-error {
+    color: #f87171;
+    font-size: 0.72rem;
+    margin: 0.1rem 0 0.35rem 5.7rem;
+    word-break: break-word;
+  }
+  .health-foot { margin-top: 0.6rem; color: var(--page-text-muted); font-size: 0.72rem; }
+  /* Per-channel accounting under each catch-up source: where the airings
+     that never became rows actually went. Indented to the same 5.7rem
+     gutter as .health-error so the panel reads as one column. */
+  .health-channels {
+    display: flex;
+    flex-direction: column;
+    gap: 0.12rem;
+    margin: 0.05rem 0 0.4rem 5.7rem;
+    font-size: 0.72rem;
+    color: var(--page-text-muted);
+  }
+  .health-channels strong { color: var(--page-text); font-weight: 600; }
+  .health-drops { opacity: 0.78; }
+  .health-silent { color: #fbbf24; }
+  @media (max-width: 640px) {
+    .health-row { flex-wrap: wrap; }
+    .health-detail { text-align: left; width: 100%; padding-left: 5.7rem; }
+    .health-error { margin-left: 0; }
+    .health-channels { margin-left: 0; }
+  }
+
+  /* Scraping-error log in the Updates tab. Reuses the health panel's
+     status/name/detail typography so the two read as one system. */
+  .incident {
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--rule);
+    border-radius: 0.4rem;
+    padding: 0.5rem 0.75rem;
+    margin-bottom: 0.5rem;
+    background: var(--panel-bg);
+  }
+  .incident.down { border-left-color: #f87171; }
+  .incident.degraded { border-left-color: #fbbf24; }
+  .incident.resolved { border-left-color: #4ade80; opacity: 0.75; }
+  .incident-head { display: flex; align-items: baseline; gap: 0.5rem; flex-wrap: wrap; }
+  .incident-when { font-size: 0.72rem; color: var(--page-text-muted); margin-top: 0.15rem; }
+  .incident .health-error { margin-left: 0; }
+  .all-clear { font-size: 0.82rem; color: var(--page-text-muted); margin: 0.2rem 0 0.8rem; }
+
+  .theme-toggle {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    border: 1px solid var(--rule);
+    background: var(--panel-bg);
+    color: var(--page-text);
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: transform 0.15s ease;
+  }
+  .theme-toggle:hover { transform: scale(1.08); }
+  .theme-toggle:focus-visible { outline: 2px solid var(--floodlight); outline-offset: 2px; }
+
+  /* ---- Sport switcher (top-level Football/MLB — internal ids stay
+     "soccer": renaming data-sport/localStorage values would break saved
+     preferences for a label-only change) ---- */
+  .sport-switcher {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.75rem;
+  }
+  .sport-tab {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--panel-bg);
+    border: 1px solid var(--panel-border);
+    color: var(--page-text-muted);
+    border-radius: 999px;
+    padding: 0.5rem 1.1rem;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .sport-tab:focus-visible { outline: 2px solid var(--floodlight); outline-offset: 2px; }
+  .sport-tab.active { background: var(--floodlight); border-color: var(--floodlight); color: var(--floodlight-text); }
+  .sport-view { display: none; }
+  .sport-view.active { display: block; }
+
+  /* ---- MLB Upcoming/Past toggle — primary content, not a sidebar tab
+     (unlike soccer's "Recently played", MLB's past window is too large for
+     a narrow scrollable panel to be the right home for it). ---- */
+  .mlb-toggle {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .mlb-toggle-btn {
+    background: var(--chip-bg);
+    color: var(--chip-text);
+    border: 1px solid var(--panel-border);
+    border-radius: 999px;
+    padding: 0.4rem 1rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .mlb-toggle-btn:focus-visible { outline: 2px solid var(--floodlight); outline-offset: 2px; }
+  .mlb-toggle-btn.active { background: var(--floodlight); border-color: var(--floodlight); color: var(--floodlight-text); }
+
+  .replay-note {
+    display: none;
+    font-size: 0.78rem;
+    font-style: italic;
+    color: var(--page-text-muted);
+    margin-bottom: 1.25rem;
+  }
+  .replay-note.visible { display: block; }
+
+  /* ---- Replay section on a past game's card — same broadcast-group
+     language as the main channel listing, visually set apart so "this is a
+     rebroadcast, not the original airing" reads at a glance. ---- */
+  .replay-section {
+    margin-top: 0.7rem;
+    padding-top: 0.7rem;
+    border-top: 1px dashed var(--panel-border);
+  }
+  .replay-label {
+    text-align: center;
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--panel-text-muted);
+    margin-bottom: 0.4rem;
+  }
+  .channel-time {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    opacity: 0.75;
+    margin-left: 0.1rem;
+  }
+
+  /* ---- MLB standings: division leader / wild-card cutoff ---- */
+  .wildcard-cutoff td { border-bottom: 2px solid var(--floodlight) !important; }
+  .mlb-standings-heading {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--page-text-muted);
+    margin-bottom: 0.85rem;
+  }
+  /* Heading + AL/NL switch on one row, so either league is a click away
+     instead of a long scroll past the other's four tables. Chips reuse the
+     Upcoming/Past toggle's look, just compacted to sidebar scale. */
+  .mlb-standings-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.85rem;
+  }
+  .mlb-standings-header .mlb-standings-heading { margin-bottom: 0; }
+  .mlb-standings-header .mlb-toggle { margin-bottom: 0; gap: 0.35rem; }
+  .mlb-standings-header .mlb-toggle-btn { padding: 0.22rem 0.7rem; font-size: 0.72rem; }
+
+  /* ---- Sidebar tabs (recently played, standings, team history, updates) ----
+     Exactly one panel is visible at a time — avoids the nested-scrollbar
+     mess of several independently-scrolling always-open sections stacked in
+     a sticky column. */
+  .side-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 0.85rem;
+  }
+  .side-tab {
+    background: var(--panel-bg);
+    border: 1px solid var(--panel-border);
+    color: var(--page-text-muted);
+    border-radius: 999px;
+    padding: 0.35rem 0.8rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .side-tab:focus-visible { outline: 2px solid var(--floodlight); outline-offset: 2px; }
+  .side-tab.active {
+    background: var(--floodlight);
+    border-color: var(--floodlight);
+    color: var(--floodlight-text);
+  }
+  .updates-panel {
+    display: none;
+    background: var(--panel-bg);
+    border: 1px solid var(--panel-border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 0.78rem;
+    color: var(--panel-text-muted);
+  }
+  .updates-panel.open { display: block; }
+  /* Only one panel is ever visible, so a single bounded height + scroll
+     region is enough — no scrollbar-in-scrollbar. */
+  #recentPanel, #standingsPanel, #teamPanel, #updatesPanel {
+    max-height: 65vh;
+    overflow-y: auto;
+    font-size: 1rem;
+  }
+  #updatesPanel { font-size: 0.78rem; }
+  #recentPanel .date-group:first-child { margin-top: 0; }
+  @media (min-width: 960px) {
+    #recentPanel, #standingsPanel, #teamPanel, #updatesPanel {
+      max-height: calc(100vh - 8.5rem);
+    }
+  }
+  .updates-panel .run { margin-bottom: 0.75rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--panel-border); }
+  .updates-panel .run:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+  .updates-panel .run-time { font-family: var(--font-mono); color: var(--panel-text); font-weight: 500; }
+  .updates-panel .run-summary { margin: 0.2rem 0; }
+  .updates-panel ul { margin: 0.2rem 0 0.4rem; padding-left: 1.1rem; }
+  .updates-panel .no-changes { font-style: italic; }
+
+  /* ---- Date grouping ---- */
+  .date-group { margin-bottom: 2.75rem; }
+  .date-heading {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.15rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  /* ==== THE SCHEDULE ====================================================
+     Day → time slot → fixture row.
+
+     The layout that came before this was a stack of poster cards, one per
+     match, each listing every channel in every market inline. That made the
+     page's height a product of matches AND sources — so every new market
+     made the dashboard worse, which is exactly backwards. Here a market
+     costs one short code in the row's carriage strip, and the channels sit
+     behind the row's own disclosure. Growth widens a strip instead of
+     lengthening the page.
+
+     The vertical rule down the left is the time rail: kickoff printed once
+     per slot, in tabular figures so the digits stack, with the matches at
+     that moment docked to it. Simultaneity is real information here — six
+     Bundesliga matches at 15:30 genuinely are one moment on one app. */
+
+  .day { margin-bottom: 2.25rem; }
+  .day-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 0 0 0.9rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--page-text);
+  }
+  .day-name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.3rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .day-count {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--page-text-muted);
+    letter-spacing: 0.02em;
+  }
+
+  .slot {
+    display: grid;
+    grid-template-columns: 4.75rem minmax(0, 1fr);
+    gap: 0 1rem;
+    align-items: start;
+  }
+  /* The rail: one continuous line down the day, so the slots read as
+     stations on a timeline rather than as detached blocks. */
+  .slot-time {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0.55rem 0.75rem 0.55rem 0;
+    border-right: 2px solid var(--rule);
+  }
+  .slot-time::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    top: 0.95rem;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--rule);
+  }
+  .slot-hh {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1;
+    color: var(--page-text);
+  }
+  .slot-zone {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+    color: var(--page-text-muted);
+    margin-top: 0.2rem;
+  }
+  /* A container query, not a media query: this same row renders in the main
+     column, in the 340px "Recently played" sidebar and on a phone. Keyed to
+     the viewport it collapsed the teams to zero width in the sidebar while
+     the viewport was still "desktop". Keyed to its own width it adapts
+     wherever it is put. */
+  .slot-rows { padding: 0.35rem 0; min-width: 0; container-type: inline-size; }
+
+  .fixture {
+    border: 1px solid var(--panel-border);
+    border-radius: 8px;
+    background: var(--panel-bg);
+    margin-bottom: 0.4rem;
+    overflow: hidden;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .fixture:hover { border-color: var(--page-text-muted); }
+  .fixture.open { box-shadow: 0 4px 14px rgba(0,0,0,0.12); }
+  /* The floodlight is spent here and nowhere else: a match in progress. */
+  .fixture.on-now {
+    border-color: var(--floodlight);
+    box-shadow: inset 3px 0 0 var(--floodlight);
+  }
+
+  .fx-head {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    align-items: center;
+    gap: 0.9rem;
+    padding: 0.5rem 0.7rem;
+    background: none;
+    border: 0;
+    font: inherit;
+    color: var(--panel-text);
+    text-align: left;
+    cursor: pointer;
+  }
+  .fx-head:focus-visible { outline: 2px solid var(--floodlight); outline-offset: -2px; }
+  /* Watched games fade rather than disappear, so the schedule still reads as
+     a complete list while making what's left to watch easy to scan. */
+  .fixture:has(.watch-input:checked) .fx-head { opacity: 0.5; }
+
+  .fx-teams {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-width: 0;
+  }
+  .fx-side {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    min-width: 0;
+    flex: 1;
+  }
+  /* The away side mirrors so both crests sit against the "v" — the matchup
+     reads as a meeting rather than as two list items. */
+  .fx-side:last-of-type { flex-direction: row-reverse; text-align: right; }
+  .fx-side img, .fx-side .monogram {
+    width: 1.4rem;
+    height: 1.4rem;
+    flex: none;
+  }
+  .fx-name {
+    font-size: 0.86rem;
+    font-weight: 600;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .fx-v {
+    font-family: var(--font-display);
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--panel-text-muted);
+    flex: none;
+  }
+
+  /* Fixed widths, not auto: each row is its own grid, so without them every
+     row sizes its own columns and the tags and carriage strips end up
+     ragged down the page. Aligned columns are what make a schedule scannable
+     — the eye should be able to run down the market strips alone. */
+  .fx-tags {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex: none;
+    width: 6.75rem;
+    overflow: hidden;
+  }
+  .fx-markets { width: 7.5rem; justify-content: flex-end; }
+  .fx-comp {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-family: var(--font-display);
+    font-size: 0.65rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--panel-text-muted);
+    white-space: nowrap;
+  }
+  /* Colour carries REGION, never country — three hues stay tellable apart
+     where ten would not. The country itself is named by its code. */
+  .cc {
+    font-family: var(--font-mono);
+    font-size: 0.6rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    padding: 0.1rem 0.3rem;
+    border-radius: 3px;
+    background: var(--region-bg);
+    color: var(--region-fg);
+  }
+  [data-region="sa"] { --region-bg: rgba(204,153,0,0.16); --region-fg: var(--brazil); }
+  [data-region="na"] { --region-bg: rgba(31,138,76,0.16); --region-fg: var(--mexico); }
+  [data-region="eu"] { --region-bg: rgba(124,92,191,0.16); --region-fg: var(--europe); }
+
+  .fx-derby {
+    font-family: var(--font-display);
+    font-size: 0.6rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--floodlight-text);
+    background: var(--floodlight);
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+  }
+
+  /* ---- The carriage strip ---- */
+  .fx-markets { display: flex; align-items: center; gap: 0.2rem; flex: none; overflow: hidden; }
+  .fx-markets.empty {
+    font-size: 0.68rem;
+    color: var(--panel-text-muted);
+    font-style: italic;
+  }
+  .mk {
+    font-family: var(--font-mono);
+    font-size: 0.58rem;
+    letter-spacing: 0.03em;
+    padding: 0.12rem 0.28rem;
+    border-radius: 3px;
+    border: 1px solid var(--panel-border);
+    color: var(--panel-text-muted);
+    white-space: nowrap;
+  }
+  .mk.home { border-color: currentColor; color: var(--panel-text); }
+  .mk.replay { border-style: dashed; }
+  .mk-count {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    color: var(--panel-text-muted);
+    margin-left: 0.15rem;
+    min-width: 1.1rem;
+    text-align: right;
+  }
+  .fixture.open .fx-markets .mk { opacity: 0.45; }
+
+  .fx-detail {
+    padding: 0.1rem 0.7rem 0.7rem;
+    border-top: 1px dashed var(--panel-border);
+    margin-top: 0.1rem;
+  }
+  .fx-notes {
+    font-size: 0.72rem;
+    color: var(--panel-text-muted);
+    margin: 0.5rem 0;
+  }
+  /* Lives beside the channels, not on the collapsed row — see fixtureRowHtml. */
+  .fx-watched-row {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-size: 0.72rem;
+    color: var(--panel-text-muted);
+    margin: 0.5rem 0;
+  }
+  .fx-replays { margin-top: 0.6rem; }
+  .fx-sub {
+    font-family: var(--font-display);
+    font-size: 0.62rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--panel-text-muted);
+    margin-bottom: 0.35rem;
+  }
+  /* Label ABOVE its chips, not in a column beside them. The label column was
+     both pushing the chips out of alignment with each other and stealing
+     5rem of width from every row of logos — and because `.channels` centres
+     itself (right for a poster card, wrong here) the chips then floated in
+     the middle of what was left, so no two blocks lined up. Everything is
+     left-aligned against one edge now and each block owns its full width. */
+  .mkt-list { display: flex; flex-direction: column; gap: 0.7rem; margin-top: 0.6rem; }
+  .mkt-label {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    margin: 0 0 0.3rem;
+    font-family: var(--font-display);
+    font-size: 0.63rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--panel-text-muted);
+  }
+  .mkt-label .mk { font-size: 0.55rem; }
+  .fx-detail .channels { justify-content: flex-start; gap: 0.3rem; }
+  /* Smaller than the poster-card chip: there can be fifteen of these open at
+     once, and at the old size a single fixture filled the screen. */
+  .fx-detail .channel { font-size: 0.73rem; padding: 0.1rem 0.5rem 0.1rem 0.1rem; }
+  .fx-detail .channel img, .fx-detail .channel .monogram { width: 1.1rem; height: 1.1rem; }
+  .mkt-empty { font-size: 0.75rem; color: var(--panel-text-muted); font-style: italic; margin-top: 0.5rem; }
+  .fx-replays .broadcast-group { margin-bottom: 0.4rem; }
+  .fx-replays .broadcast-group-label { text-align: left; }
+
+  .empty-state {
+    color: var(--page-text-muted);
+    font-size: 0.9rem;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  /* Narrow-container form of the row, for the 340px "Recently played"
+     sidebar and for phones. A CONTAINER query, not a media query: keyed to
+     the viewport, this collapsed the teams column to zero width inside the
+     sidebar while the viewport was still comfortably "desktop".
+     It must come after the base row rules above — a container query adds no
+     specificity, so placed earlier it silently loses to them. */
+  /* 36rem, measured rather than guessed: at 40.8rem the three-column row has
+     371px for the teams and 11 of 156 names truncate; at 31.2rem it has 219px
+     and 81 truncate. The switch belongs between those. */
+  @container (max-width: 36rem) {
+    /* 0.5rem, not the wide layout's 0.9rem column-gap — measured against the
+       row's own 0.5rem top/bottom padding: at 0.35rem the three stacked
+       pieces (teams/tags/markets) sat visibly tighter than the padding
+       around the whole block, which is what read as cramped. */
+    .fx-head { grid-template-columns: minmax(0, 1fr); gap: 0.5rem; }
+    .fx-tags, .fx-markets { width: auto; justify-content: flex-start; }
+    .fx-side:last-of-type { flex-direction: row; text-align: left; }
+    .fx-teams { flex-wrap: wrap; }
+    /* Stacked, the bare count sits alone on its own line and reads as a
+       stray number. On one line beside the market codes it needed no label;
+       here it does. */
+    .mk-count { min-width: 0; }
+    .mk-count::after { content: " channels"; }
+    .fx-markets:has(.mk-count:only-child) .mk-count::after { content: " channels listed"; }
+  }
+
+  /* The rail sits outside .slot-rows, so it narrows by viewport and by
+     sidebar placement rather than by container query.
+     3.2rem/3.4rem weren't actually narrower layouts, they were a bug: a
+     "20:00"-shaped time is ~50.4px wide (mono, 1.05rem), and .slot-time's
+     own 0.75rem right padding leaves only ~39-42px of the box for it at
+     those widths — so the flex-end-aligned text overflowed its own left
+     edge by ~10px, spilling into the page's margin instead of respecting
+     it. That's what read as "too close to the edge", not a padding value
+     anywhere. Widened both to fit the text plus a few px of slack (measured
+     live via getBoundingClientRect, not eyeballed). */
+  .side-col .slot { grid-template-columns: 4.25rem minmax(0, 1fr); gap: 0 0.5rem; }
+  @media (max-width: 640px) {
+    .slot { grid-template-columns: 4.25rem minmax(0, 1fr); gap: 0 0.6rem; }
+    .fx-head { padding: 0.6rem; }
+  }
+
+  .day.hidden, .slot.hidden, .fixture.hidden, .date-group.hidden, .meta.hidden,
+  .quick-nav.hidden, #events.hidden, #soccerCatchUp.hidden, #soccerCatchupMode.hidden,
+  #soccerToggle.hidden, #soccerSearchResults.hidden { display: none; }
+  /* Keeps the sticky filter bar from covering the day it scrolled to. */
+  .day { scroll-margin-top: 4.75rem; }
+
+  /* ---- Quick nav (country filter) ---- */
+  /* Wraps, never scrolls sideways. This used to be a horizontally scrolling
+     strip with `scrollbar-width: none`, which meant that at anything under
+     ~1080px four of the nine countries were off the end of the bar with no
+     scrollbar, no fade and no arrow to say so — the countries were simply
+     unreachable. There are nine of these, not ninety: they all fit on two
+     rows, so showing every one is both simpler and honest. */
+  .quick-nav {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    padding: 0.6rem 0.1rem;
+    margin: 0 -0.1rem 1.5rem;
+    background: var(--page-bg);
+    border-bottom: 1px solid var(--rule);
+  }
+  .quick-nav::-webkit-scrollbar { display: none; }
+  .quick-nav-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-shrink: 0;
+    background: var(--chip-bg);
+    color: var(--chip-text);
+    border: 1px solid var(--panel-border);
+    border-radius: 999px;
+    padding: 0.35rem 0.8rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  }
+  .quick-nav-pill:focus-visible { outline: 2px solid var(--floodlight); outline-offset: 2px; }
+  .quick-nav-pill .dot { width: 0.5rem; height: 0.5rem; border-radius: 50%; background: var(--country-color, var(--rule)); flex-shrink: 0; }
+  .quick-nav-pill .quick-nav-count { opacity: 0.7; font-weight: 500; }
+  .quick-nav-pill.active { background: var(--floodlight); border-color: var(--floodlight); color: var(--floodlight-text); }
+
+  /* ---- Search (football) ----
+     Search cuts ACROSS the Fixtures/Catch up toggle instead of filtering
+     inside whichever one happens to be open. "Boca" has to answer both
+     "when do they play and who shows it" and "where can I still watch the
+     last one", and those two answers live in different data sets — so an
+     active query replaces the mode's view with a combined results view, and
+     clearing it restores the mode exactly as it was. */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--panel-bg);
+    border: 1px solid var(--panel-border);
+    border-radius: 999px;
+    padding: 0.35rem 0.45rem 0.35rem 0.85rem;
+    margin-bottom: 0.9rem;
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  }
+  .search-bar:focus-within { border-color: var(--floodlight); box-shadow: 0 0 0 3px rgba(255, 182, 77, 0.28); }
+  .search-icon { font-size: 0.85rem; opacity: 0.55; flex: none; }
+  .search-input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    background: none;
+    color: var(--page-text);
+    font: 500 0.9rem var(--font-body);
+    padding: 0.3rem 0;
+  }
+  .search-input:focus { outline: none; }
+  .search-input::-webkit-search-cancel-button, .search-input::-webkit-search-decoration { -webkit-appearance: none; }
+  .search-clear {
+    flex: none;
+    border: 0;
+    background: var(--chip-bg);
+    color: var(--chip-text);
+    border-radius: 999px;
+    width: 1.65rem;
+    height: 1.65rem;
+    font-size: 1rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .search-clear:focus-visible { outline: 2px solid var(--floodlight); outline-offset: 2px; }
+  .search-group + .search-group { margin-top: 2.25rem; }
+  .search-group-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 0 0 0.9rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--rule);
+  }
+  .search-group-name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  .search-group-count { font-family: var(--font-mono); font-size: 0.72rem; color: var(--page-text-muted); letter-spacing: 0.02em; }
+  .search-group-note { font-size: 0.75rem; font-style: italic; color: var(--page-text-muted); margin: -0.5rem 0 0.9rem; }
+  .search-empty { color: var(--page-text-muted); font-size: 0.9rem; }
+
+  /* ---- Fight card: the "broadcast panel" ---- */
+  .event {
+    position: relative;
+    background: linear-gradient(155deg, var(--panel-bg-2), var(--panel-bg));
+    color: var(--panel-text);
+    border: 1px solid var(--panel-border);
+    border-radius: 10px;
+    padding: 0.9rem 1rem 1rem;
+    margin-bottom: 0.7rem;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    opacity: 0;
+    animation: rise 0.35s ease forwards;
+  }
+  .event:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+  }
+  .event .watch-toggle { position: absolute; top: 0.8rem; right: 0.8rem; }
+  .event:has(.watch-input:checked) { opacity: 0.65 !important; }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .event { animation: none; opacity: 1; }
+    .event:hover { transform: none; }
+  }
+
+  .matchup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    margin-bottom: 0.7rem;
+  }
+  .side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.35rem;
+    flex: 1;
+    min-width: 0;
+  }
+  .side img, .side .monogram {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .side .name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.15;
+  }
+  .vs {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    color: var(--panel-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    padding-top: 1.2rem;
+  }
+
+  .kickoff {
+    display: flex;
+    justify-content: center;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.7rem;
+  }
+  .time-pill {
+    font-family: var(--font-mono);
+    font-weight: 700;
+    font-size: 0.8rem;
+    background: var(--floodlight);
+    color: var(--floodlight-text);
+    border-radius: 999px;
+    padding: 0.2rem 0.65rem;
+  }
+  .time-pill.uk {
+    background: transparent;
+    border: 1px solid var(--panel-border);
+    color: var(--panel-text-muted);
+  }
+
+  .channels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    justify-content: center;
+  }
+  .channel {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--chip-bg);
+    color: var(--chip-text);
+    border-radius: 999px;
+    padding: 0.15rem 0.6rem 0.15rem 0.15rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+  }
+  .channel-link { text-decoration: none; }
+  .channel-link:hover { filter: brightness(1.12); }
+  .channel .monogram { width: 1.3rem; height: 1.3rem; font-size: 0.55rem; }
+  .tbc {
+    color: var(--panel-text-muted);
+    font-style: italic;
+    font-size: 0.8rem;
+  }
+  .broadcast-group { margin-bottom: 0.5rem; }
+  .broadcast-group:last-child { margin-bottom: 0; }
+  .broadcast-group-label {
+    display: block;
+    text-align: center;
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--panel-text-muted);
+    margin-bottom: 0.3rem;
+  }
+
+  /* ---- Rivalry badge ---- */
+  .rivalry-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--floodlight-text);
+    background: var(--floodlight);
+    border-radius: 999px;
+    padding: 0.1rem 0.55rem;
+    margin: 0 auto 0.55rem;
+    width: fit-content;
+  }
+
+  /* ---- Watched toggle ----
+     One shared control across three contexts: the schedule row's expanded
+     detail panel (.fx-watched-row, next to the channels — not the collapsed
+     row, which stays uncluttered), the fight poster card (.event) and the
+     catch-up list (.catchup-row).
+     Ticking it anywhere sets the same synced key (see api/watched.js), so a
+     game marked watched live or from one re-air shows as watched on every
+     other re-air too — that's the point of the feature, not a side effect.
+     A real checkbox (visually hidden, not display:none, so it stays in the
+     tab order and announces correctly) under a styled box, the standard
+     custom-checkbox pattern. Reuses --zone-primary (already "good/leading"
+     elsewhere on this page) rather than a new color, so green keeps one
+     meaning across the app. */
+  .watch-toggle {
+    position: relative;
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    cursor: pointer;
+  }
+  .watch-toggle .watch-input {
+    position: absolute;
+    inset: 0;
+    width: 1.35rem;
+    height: 1.35rem;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .watch-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.35rem;
+    height: 1.35rem;
+    border-radius: 5px;
+    border: 1.5px solid var(--panel-border);
+    color: transparent;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1;
+    transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+  }
+  .watch-input:checked + .watch-box {
+    background: var(--zone-primary);
+    border-color: var(--zone-primary);
+    color: var(--panel-bg);
+  }
+  .watch-input:focus-visible + .watch-box {
+    outline: 2px solid var(--floodlight);
+    outline-offset: 1px;
+  }
+  .watch-toggle:hover .watch-box { border-color: var(--zone-primary); }
+
+  /* ---- Two-legged cup tie context (leg-1 result on the leg-2 card) ---- */
+  .leg-info {
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--panel-text-muted);
+    margin-bottom: 0.6rem;
+  }
+
+  /* ---- Matchday context ("Round 22 of 38", "Round of 16 · Leg 2") ---- */
+  .matchday-tag {
+    text-align: center;
+    font-size: 0.68rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--panel-text-muted);
+    margin-bottom: 0.5rem;
+  }
+
+  /* ---- Fights: one identity graphic per card — the event's own poster
+     where the source supplies one, otherwise the promotion's mark (or an
+     emoji badge for boxing cards with neither). Fighter badges hold
+     country flags, which need no special sizing: they're square 500x500
+     canvases and the global `img { object-fit: contain }` already keeps
+     any non-square art undistorted. ---- */
+  /* Event artwork is 16:9 landscape and already composed around both
+     fighters, so it's shown whole and centered rather than cropped into a
+     full-width strip — kept at/below the source's own width so it stays
+     sharp instead of upscaled. */
+  .fight-poster {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.6rem;
+  }
+  .fight-poster img {
+    display: block;
+    width: 100%;
+    max-width: 270px;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid var(--panel-border);
+    background: var(--chip-bg);
+  }
+  .fight-org-mark {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0.4rem;
+  }
+  .fight-org-mark img {
+    width: 2.3rem;
+    height: 2.3rem;
+  }
+  .fight-org-mark .fight-org-emoji { font-size: 1.7rem; line-height: 1; }
+  /* The rest of the card, under the broadcast row — quieter than the
+     headline matchup so it reads as supporting detail. */
+  .undercard {
+    margin-top: 0.6rem;
+    padding-top: 0.5rem;
+    border-top: 1px dashed var(--panel-border);
+  }
+  .undercard-label {
+    font-size: 0.62rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--panel-text-muted);
+    margin-bottom: 0.3rem;
+  }
+  .undercard-bout {
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: var(--panel-text);
+  }
+  .undercard-weight {
+    font-size: 0.66rem;
+    color: var(--panel-text-muted);
+    margin-left: 0.25rem;
+  }
+  .fight-demand {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid var(--panel-border);
+  }
+  .fight-demand-title {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--panel-text-muted);
+    margin-bottom: 0.25rem;
+  }
+  .fight-demand-note {
+    font-size: 0.74rem;
+    color: var(--panel-text-muted);
+    margin-bottom: 0.65rem;
+  }
+  .fight-demand-card {
+    padding: 0.65rem 0;
+    border-bottom: 1px dashed var(--panel-border);
+  }
+  .fight-demand-card:last-child { border-bottom: 0; }
+  .fight-demand-name { font-weight: 600; font-size: 0.84rem; margin-bottom: 0.35rem; }
+  .fight-demand-date { color: var(--panel-text-muted); font-size: 0.7rem; margin-left: 0.35rem; }
+
+  /* Cards whose headline bout isn't announced yet show the event's name in
+     place of the two-fighter matchup. */
+  .matchup.card-title-only .name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  /* ---- Standings & cup progress panel ---- */
+  .standings-select {
+    width: 100%;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    border: 1px solid var(--panel-border);
+    background: var(--panel-bg);
+    color: var(--panel-text);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+  }
+  .standings-comp-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+  }
+  .standings-comp-heading img, .standings-comp-heading .monogram { width: 1.2rem; height: 1.2rem; }
+  .standings-group-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--panel-text-muted);
+    margin: 0.75rem 0 0.35rem;
+  }
+  /* table-layout: fixed + a narrow, equal width for every stat column means
+     the Team column gets whatever space is left, and a truncating name span
+     (below) absorbs any overflow with an ellipsis — the table fits the
+     sidebar's width without needing horizontal scroll, even for a full
+     20-team table with long names like "Red Bull Bragantino". */
+  .standings-table-wrap { overflow-x: auto; }
+  .standings-table { width: 100%; border-collapse: collapse; table-layout: fixed; font-size: 0.72rem; }
+  .standings-table th, .standings-table td {
+    padding: 0.25rem 0.2rem;
+    text-align: center;
+    border-bottom: 1px solid var(--panel-border);
+  }
+  .standings-table th { color: var(--panel-text-muted); font-weight: 600; }
+  .standings-table th:first-child, .standings-table td:first-child { width: 1.4em; }
+  .standings-table th:not(:first-child):not(:nth-child(2)),
+  .standings-table td:not(:first-child):not(:nth-child(2)) { width: 1.9em; }
+  .standings-team {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    text-align: left;
+    overflow: hidden;
+  }
+  .standings-team img, .standings-team .monogram { width: 1.05rem; height: 1.05rem; flex-shrink: 0; }
+  .standings-team-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .standings-table td.pts { font-weight: 700; }
+
+  /* MLB variant (mlbStandingsTableShell): the fixed 1.9em stat columns
+     above are sized for soccer's 1-3 char values — MLB's ".559" PCTs,
+     "15.5" GBs and "WC10" ranks overflow them and smear into the next
+     column (plus a phantom horizontal scrollbar). Auto layout + nowrap
+     sizes every column to its widest value; the Team cell soaks up the
+     slack so the numbers sit together as a compact right-hand block.
+     !important is needed to beat the higher-specificity :not() width
+     rules above without duplicating them. */
+  .standings-table.mlb-standings-table { table-layout: auto; }
+  .standings-table.mlb-standings-table th,
+  .standings-table.mlb-standings-table td {
+    width: auto !important;
+    white-space: nowrap;
+    padding: 0.25rem 0.45rem;
+  }
+  .standings-table.mlb-standings-table td.standings-team { width: 100% !important; }
+
+  /* Title-race / relegation zone highlighting — a left-edge stripe (applied
+     to the first cell, since border-left on a <tr> doesn't render reliably
+     under border-collapse) plus a faint row tint. */
+  .standings-table tr.zone-primary td:first-child { box-shadow: inset 3px 0 0 var(--zone-primary); }
+  .standings-table tr.zone-secondary td:first-child { box-shadow: inset 3px 0 0 var(--zone-secondary); }
+  .standings-table tr.zone-danger td:first-child { box-shadow: inset 3px 0 0 var(--zone-danger); }
+  .standings-table tr.zone-primary { background: var(--zone-primary-bg); }
+  .standings-table tr.zone-secondary { background: var(--zone-secondary-bg); }
+  .standings-table tr.zone-danger { background: var(--zone-danger-bg); }
+
+  .zone-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.9rem;
+    margin-top: 0.65rem;
+    font-size: 0.7rem;
+    color: var(--panel-text-muted);
+  }
+  .zone-legend-item { display: inline-flex; align-items: center; gap: 0.35rem; }
+  .zone-dot { width: 0.55rem; height: 0.55rem; border-radius: 50%; flex-shrink: 0; }
+  .zone-dot.zone-primary { background: var(--zone-primary); }
+  .zone-dot.zone-secondary { background: var(--zone-secondary); }
+  .zone-dot.zone-danger { background: var(--zone-danger); }
+
+  .standings-note {
+    font-size: 0.72rem;
+    font-style: italic;
+    color: var(--panel-text-muted);
+    margin-bottom: 0.65rem;
+    padding: 0.5rem 0.65rem;
+    background: var(--chip-bg);
+    border-radius: 6px;
+  }
+
+  /* ---- Team history (compact recap rows, no scores) ---- */
+  .history-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.45rem 0;
+    border-bottom: 1px solid var(--panel-border);
+    font-size: 0.8rem;
+  }
+  .history-row:last-child { border-bottom: none; }
+  .history-date {
+    font-family: var(--font-mono);
+    color: var(--panel-text-muted);
+    font-size: 0.7rem;
+    flex-shrink: 0;
+    width: 3.4rem;
+  }
+  .history-opponent { display: inline-flex; align-items: center; gap: 0.35rem; font-weight: 600; }
+  .history-opponent img, .history-opponent .monogram { width: 1.15rem; height: 1.15rem; }
+  .history-meta { color: var(--panel-text-muted); font-size: 0.72rem; flex: 1 1 100%; }
+
+  /* ---- Cup tie card — same "broadcast panel" language as the fixture cards,
+     scaled down for the sidebar: two team rows (logo + name, truncating
+     rather than wrapping) with the leg/result info as clear score chips
+     underneath, instead of one cramped line of text. ---- */
+  .bracket-ties { display: flex; flex-direction: column; gap: 0.6rem; }
+  .bracket-tie {
+    background: linear-gradient(155deg, var(--panel-bg-2), var(--panel-bg));
+    border: 1px solid var(--panel-border);
+    border-radius: 10px;
+    padding: 0.6rem 0.7rem;
+  }
+  .bracket-team-row {
+    display: flex;
+    align-items: center;
+    gap: 0.45rem;
+    padding: 0.15rem 0;
+    min-width: 0;
+  }
+  .bracket-team-row img, .bracket-team-row .monogram { width: 1.3rem; height: 1.3rem; flex-shrink: 0; }
+  .bracket-team-row .name {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--panel-text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .bracket-team-row.winner .name { font-weight: 700; }
+  .bracket-team-row.winner::after { content: "✓"; color: var(--zone-primary); font-weight: 700; margin-left: auto; flex-shrink: 0; }
+  .bracket-legs { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
+  .bracket-leg-chip {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.3rem;
+    background: var(--chip-bg);
+    color: var(--chip-text);
+    border-radius: 999px;
+    padding: 0.15rem 0.6rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+  }
+  .bracket-leg-chip .label {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: 0.6rem;
+    opacity: 0.75;
+  }
+  .bracket-leg-chip.played {
+    background: var(--floodlight);
+    color: var(--floodlight-text);
+  }
+
+  /* ---- Generated monogram badge (teams/competitions/channels without a real logo) ---- */
+  .monogram {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: var(--font-display);
+    font-weight: 600;
+    color: #fff;
+    flex-shrink: 0;
+    font-size: 0.75rem;
+    line-height: 1;
+  }
+
+  img { object-fit: contain; }
+
+  @media (max-width: 480px) {
+    .side .name { font-size: 0.78rem; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="site-header">
+    <div class="header-row">
+      <h1>Broadcast Dashboard</h1>
+      <button class="health-chip" id="healthChip" type="button" aria-expanded="false" aria-controls="healthPanel" hidden></button>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light/dark theme">🌙</button>
+    </div>
+    <div class="health-panel" id="healthPanel" hidden></div>
+  </header>
+
+  <div class="sport-switcher" id="sportSwitcher" role="tablist" aria-label="Choose sport">
+    <button class="sport-tab" type="button" role="tab" data-sport="mlb" aria-selected="false">⚾ MLB</button>
+    <button class="sport-tab" type="button" role="tab" data-sport="soccer" aria-selected="false">⚽ Football</button>
+    <button class="sport-tab" type="button" role="tab" data-sport="fights" aria-selected="false">🥊 Fights</button>
+    <button class="sport-tab" type="button" role="tab" data-sport="updates" aria-selected="false">🛠 Updates</button>
+  </div>
+
+  <section class="sport-view" id="soccerView">
+  <div class="layout">
+    <div class="main-col">
+      <div class="search-bar">
+        <span class="search-icon" aria-hidden="true">🔍</span>
+        <input class="search-input" id="soccerSearchInput" type="search" autocomplete="off" spellcheck="false"
+          placeholder="Search a team, competition or channel — try Boca" aria-label="Search football matches and replays">
+        <button class="search-clear" id="soccerSearchClear" type="button" aria-label="Clear search" hidden>×</button>
+      </div>
+      <div class="mlb-toggle" id="soccerToggle" role="tablist" aria-label="Fixtures or catch up">
+        <button class="mlb-toggle-btn active" type="button" role="tab" data-mode="fixtures" aria-selected="true">Fixtures</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-mode="catchup" aria-selected="false">Catch up</button>
+      </div>
+      <div class="quick-nav" id="quickNav" role="group" aria-label="Filter matches by country"></div>
+      <div class="replay-note" id="soccerNote">Replays and highlights of matches you've missed, in the order they air, UK time. All channels shows the current/upcoming guide across every tracked market. The Brazil, Argentina, Mexico and Spain guides make each local market easier to scan.</div>
+      <div class="mlb-toggle hidden" id="soccerCatchupMode" role="tablist" aria-label="Choose football catch-up view">
+        <button class="mlb-toggle-btn active" type="button" role="tab" data-catchup-mode="all" aria-selected="true">All replays</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-catchup-mode="all-guide" aria-selected="false">All channels</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-catchup-mode="brazil-replays" aria-selected="false">Brazil replays</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-catchup-mode="brazil-guide" aria-selected="false">Brazil guide</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-catchup-mode="argentina-replays" aria-selected="false">Argentina replays</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-catchup-mode="argentina-guide" aria-selected="false">Argentina guide</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-catchup-mode="mexico-replays" aria-selected="false">Mexico replays</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-catchup-mode="mexico-guide" aria-selected="false">Mexico guide</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-catchup-mode="spain-replays" aria-selected="false">Spain replays</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-catchup-mode="spain-guide" aria-selected="false">Spain guide</button>
+      </div>
+      <div class="meta" id="meta">Loading…</div>
+      <div id="events"></div>
+      <div id="soccerCatchUp" class="hidden"></div>
+      <div id="soccerSearchResults" class="hidden"></div>
+    </div>
+
+    <aside class="side-col">
+      <div class="side-tabs" role="tablist">
+        <button class="side-tab" id="recentToggle" type="button" role="tab" data-panel="recentPanel" aria-selected="false">Recently played</button>
+        <button class="side-tab" type="button" role="tab" data-panel="standingsPanel" aria-selected="false">Standings</button>
+        <button class="side-tab" type="button" role="tab" data-panel="teamPanel" aria-selected="false">Team history</button>
+        <button class="side-tab" type="button" role="tab" data-panel="updatesPanel" aria-selected="false">Recent updates</button>
+      </div>
+      <div class="updates-panel" id="recentPanel"></div>
+      <div class="updates-panel" id="standingsPanel"></div>
+      <div class="updates-panel" id="teamPanel"></div>
+      <div class="updates-panel" id="updatesPanel"></div>
+    </aside>
+  </div>
+  </section>
+
+  <section class="sport-view" id="mlbView">
+  <div class="layout">
+    <div class="main-col">
+      <div class="mlb-toggle" id="mlbToggle" role="tablist" aria-label="Upcoming, past, or catch up">
+        <button class="mlb-toggle-btn active" type="button" role="tab" data-mode="upcoming" aria-selected="true">Upcoming</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-mode="past" aria-selected="false">Past</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-mode="catchup" aria-selected="false">Catch up</button>
+      </div>
+      <div class="replay-note" id="replayNote">Past games show the original broadcast plus confirmed U.S. linear re-airs in UK time from regional networks (including CHSN) and national channels such as MLB Network, FS1, FOX, ESPN, TBS and NBCSN. App-only services such as MLB.TV, team .TV products, Peacock, Apple TV and Netflix do not publish a standard linear replay guide, so they are not invented as catch-up airings. Never any results.</div>
+      <div class="meta" id="mlbMeta"></div>
+      <div id="mlbGames"></div>
+    </div>
+
+    <aside class="side-col">
+      <div class="mlb-standings-header">
+        <div class="mlb-standings-heading">Standings</div>
+        <div class="mlb-toggle" id="mlbLeagueToggle" role="tablist" aria-label="American or National League standings">
+          <button class="mlb-toggle-btn active" type="button" role="tab" data-league="AL" aria-selected="true">AL</button>
+          <button class="mlb-toggle-btn" type="button" role="tab" data-league="NL" aria-selected="false">NL</button>
+        </div>
+      </div>
+      <div class="updates-panel open" id="mlbStandingsPanel"></div>
+    </aside>
+  </div>
+  </section>
+
+  <section class="sport-view" id="fightsView">
+    <div class="main-col">
+      <div class="mlb-toggle" id="fightsToggle" role="tablist" aria-label="Upcoming, past, or catch up">
+        <button class="mlb-toggle-btn active" type="button" role="tab" data-mode="upcoming" aria-selected="true">Upcoming</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-mode="past" aria-selected="false">Past</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-mode="catchup" aria-selected="false">Catch up</button>
+      </div>
+      <div class="quick-nav" id="fightsNav" role="group" aria-label="Filter cards by promotion"></div>
+      <div class="replay-note" id="fightsNote">Past cards keep their original channels and show confirmed re-airs in UK time when a public EPG lists one. Catch up also links the official services to check for on-demand replay; availability varies by country and provider. Never any results.</div>
+      <div class="meta" id="fightsMeta"></div>
+      <div id="fightGames"></div>
+    </div>
+  </section>
+
+  <section class="sport-view" id="updatesView">
+    <div class="main-col">
+      <div class="mlb-toggle" id="updatesToggle" role="tablist" aria-label="Updates for which sport">
+        <button class="mlb-toggle-btn active" type="button" role="tab" data-sport="football" aria-selected="true">⚽ Football</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-sport="mlb" aria-selected="false">⚾ MLB</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-sport="fights" aria-selected="false">🥊 Fights</button>
+        <button class="mlb-toggle-btn" type="button" role="tab" data-sport="errors" aria-selected="false">⚠ Scraping errors</button>
+      </div>
+      <div class="meta" id="updatesMeta"></div>
+      <div id="updatesBody"></div>
+    </div>
+  </section>
+</div>
+
+<script type="module">
+// Country identity is carried by a THREE-LETTER CODE, not a colour swatch.
+// The codes are the football world's own (ENG, ESP, BRA), so they need no
+// legend, and they render identically everywhere — unlike flag emoji, which
+// Windows draws as bare letter pairs anyway.
+//
+// Colour is kept for REGION only. Ten country hues would be mutually
+// indistinguishable (three of them would be blues); three regional ones stay
+// legible in both themes. Two encodings, two separate jobs.
+const COUNTRIES = {
+  Brazil: { code: "BRA", region: "sa" },
+  Argentina: { code: "ARG", region: "sa" },
+  Mexico: { code: "MEX", region: "na" },
+  England: { code: "ENG", region: "eu" },
+  Spain: { code: "ESP", region: "eu" },
+  Italy: { code: "ITA", region: "eu" },
+  Germany: { code: "GER", region: "eu" },
+  France: { code: "FRA", region: "eu" },
+  Europe: { code: "UEFA", region: "eu" },
+};
+const COUNTRY_ORDER = ["Brazil", "Argentina", "Mexico", "England", "Spain", "Italy", "Germany", "France", "Europe"];
+
+// The market codes on a fixture's carriage strip. Same vernacular as the
+// country codes above so one visual language answers both "whose league is
+// this" and "who carries it".
+const MARKET_CODE = {
+  UK: "UK",
+  "United Kingdom": "UK",
+  "United States": "US",
+  Canada: "CAN",
+  Mexico: "MEX",
+  Australia: "AUS",
+  Ireland: "IRL",
+  Brazil: "BRA",
+  "Rest of the World": "ROW",
+  International: "INT",
+  Worldwide: "WW",
+  Spain: "ESP",
+  Italy: "ITA",
+  Germany: "GER",
+  Portugal: "POR",
+  Brazil: "BRA",
+  Argentina: "ARG",
+  "US & Canada (English)": "US",
+  "US & Canada (Spanish)": "US-ES",
+};
+const countryCode = (c) => COUNTRIES[c]?.code ?? (c ?? "").slice(0, 3).toUpperCase();
+const countryRegion = (c) => COUNTRIES[c]?.region ?? "eu";
+
+// MLB's groups are per-club, not per-market ("Tampa Bay Rays (home)"), so
+// they compress on their own axis instead. Same strip, same grammar.
+function marketCode(label) {
+  if (MARKET_CODE[label]) return MARKET_CODE[label];
+  if (/\(home\)$/.test(label)) return "HOME";
+  if (/\(away\)$/.test(label)) return "AWAY";
+  if (/^national$/i.test(label)) return "NAT";
+  if (/^replay$/i.test(label)) return "RPL";
+  return label.length > 6 ? label.slice(0, 5).toUpperCase() : label.toUpperCase();
+}
+
+// Domestic league first, then domestic cup, then continental cups in
+// prestige order (Libertadores outranks Sudamericana) — otherwise groups
+// order however their day's first match happens to sort by kickoff time,
+// which flips around arbitrarily from one day to the next. The 5 European
+// leagues then Champions League follow the same "domestic first, continental
+// cup last" convention.
+const COMPETITION_ORDER = [
+  "Campeonato Brasileiro Série A",
+  "Liga Profesional de Fútbol",
+  "Liga MX",
+  "Copa do Brasil",
+  "Copa Argentina",
+  "CONMEBOL Libertadores",
+  "CONMEBOL Sudamericana",
+  "Premier League",
+  "La Liga",
+  "Bundesliga",
+  "Serie A",
+  "Ligue 1",
+  "UEFA Champions League",
+];
+function competitionRank(name) {
+  const idx = COMPETITION_ORDER.indexOf(name);
+  return idx === -1 ? COMPETITION_ORDER.length : idx;
+}
+
+// Short forms for the row tag. A fixture row gives the competition a few
+// centimetres beside the team names, and "Campeonato Brasileiro Série A" set
+// in uppercase eats the space the teams need. These are the names the
+// competitions are actually called, not truncations — the full name still
+// heads the standings tables and the sidebar.
+const COMPETITION_SHORT = {
+  "Campeonato Brasileiro Série A": "Brasileirão",
+  "Liga Profesional de Fútbol": "Liga Profesional",
+  "CONMEBOL Libertadores": "Libertadores",
+  "CONMEBOL Sudamericana": "Sudamericana",
+  "UEFA Champions League": "Champions League",
+};
+const competitionShort = (name) => COMPETITION_SHORT[name] ?? name ?? "";
+
+// Filter bar above the schedule — one pill per country present, with a live
+// count. Country is a FACET here, not a nesting level: nesting the schedule
+// by country fragmented every day into "Saturday → Spain → La Liga → 1
+// match" stubs, which is what made the page feel messy as more countries
+// arrived. Faceting scales; nesting on a facet does not.
+function buildQuickNav(events) {
+  const counts = new Map();
+  for (const e of events) {
+    const key = e.crossCountry ?? e.country ?? "Other";
+    for (const part of key.split(" vs ")) counts.set(part, (counts.get(part) ?? 0) + 1);
+  }
+  const pillsHtml = COUNTRY_ORDER.filter((c) => counts.has(c))
+    .map(
+      (c) => `
+      <button class="quick-nav-pill" type="button" data-country="${c}" aria-pressed="false" data-region="${countryRegion(c)}">
+        <span class="cc">${countryCode(c)}</span>${c}<span class="quick-nav-count">${counts.get(c)}</span>
+      </button>`
+    )
+    .join("");
+  document.getElementById("quickNav").innerHTML = `
+    <button class="quick-nav-pill active" type="button" data-country="All" aria-pressed="true">All<span class="quick-nav-count">${events.length}</span></button>
+    ${pillsHtml}
+  `;
+}
+
+// Hides every fixture row not matching the chosen country (a composite
+// "Brazil vs Argentina" tie matches either side, since it matters to both),
+// then cascades to hide any time slot and any day left with nothing visible,
+// so an empty heading never shows. Deliberately not persisted across reloads
+// — a stale filter silently hiding everything would be a bad trap.
+function applyCountryFilter(country) {
+  const nav = document.getElementById("quickNav");
+  for (const pill of nav.querySelectorAll(".quick-nav-pill")) {
+    const isActive = pill.dataset.country === country;
+    pill.classList.toggle("active", isActive);
+    pill.setAttribute("aria-pressed", String(isActive));
+  }
+  const events = document.getElementById("events");
+  for (const row of events.querySelectorAll(".fixture")) {
+    const tokens = (row.dataset.country ?? "").split(" ");
+    row.classList.toggle("hidden", !(country === "All" || tokens.includes(country)));
+  }
+  for (const slot of events.querySelectorAll(".slot")) {
+    const any = [...slot.querySelectorAll(".fixture")].some((r) => !r.classList.contains("hidden"));
+    slot.classList.toggle("hidden", !any);
+  }
+  let firstDay = null;
+  for (const day of events.querySelectorAll(".day")) {
+    const any = [...day.querySelectorAll(".fixture")].some((r) => !r.classList.contains("hidden"));
+    day.classList.toggle("hidden", !any);
+    if (any && !firstDay) firstDay = day;
+  }
+  if (country !== "All" && firstDay) firstDay.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function initQuickNav() {
+  document.getElementById("quickNav").addEventListener("click", (e) => {
+    const pill = e.target.closest(".quick-nav-pill");
+    if (!pill) return;
+    applyCountryFilter(pill.classList.contains("active") ? "All" : pill.dataset.country);
+  });
+}
+
+// Deterministic monogram generator — mirrors spike/logos.js's palette/logic so
+// results look consistent, but kept inline here since this file must also
+// work as a plain static deployment where only public/ is served (no access
+// to sibling project folders over HTTP).
+const PALETTE = ["#e07a3f", "#3f7ae0", "#3fae5c", "#c94f6d", "#8a5fd1", "#d1a63f", "#3f9fd1", "#d15f3f"];
+function monogramFor(name) {
+  const clean = (name || "").trim();
+  let hash = 0;
+  for (let i = 0; i < clean.length; i++) hash = (hash * 31 + clean.charCodeAt(i)) >>> 0;
+  const color = PALETTE[hash % PALETTE.length];
+  const words = clean.split(/\s+/).filter(Boolean);
+  const initials = words.length >= 2 ? words[0][0] + words[1][0] : clean.slice(0, 2);
+  return { initials: initials.toUpperCase(), color };
+}
+
+function badgeHtml(name, logoUrl, sizeClass) {
+  if (logoUrl) {
+    const { initials, color } = monogramFor(name);
+    return `<img src="${logoUrl}" alt="${name}" class="${sizeClass}"
+      onerror="this.outerHTML='<span class=&quot;monogram ${sizeClass}&quot; style=&quot;background:${color}&quot;>${initials}</span>'">`;
+  }
+  const { initials, color } = monogramFor(name);
+  return `<span class="monogram ${sizeClass}" style="background:${color}">${initials}</span>`;
+}
+
+function groupBy(items, keyFn) {
+  const map = new Map();
+  for (const item of items) {
+    const key = keyFn(item);
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(item);
+  }
+  return map;
+}
+
+function formatDateHeading(localDate) {
+  const [y, m, d] = localDate.split("-").map(Number);
+  const date = new Date(Date.UTC(y, m - 1, d, 12));
+  return new Intl.DateTimeFormat("en-GB", { timeZone: "UTC", weekday: "long", day: "numeric", month: "long" }).format(date);
+}
+
+// Simplified (accent/case/punctuation-insensitive) name match used only to
+// cross-reference a fixture against the standings.json bracket data client
+// side — the two sources' team names aren't guaranteed to align exactly the
+// way the curated normalizeTeam()/alias tables (server-side only) do.
+function simplifyName(s) {
+  return (s || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(new RegExp("[\\u0300-\\u036f]", "g"), "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function pairKey(a, b) {
+  return [simplifyName(a), simplifyName(b)].sort().join("|");
+}
+
+// Bracket ties (see scrape-brackets.js) don't carry logo URLs — Promiedos'
+// bracket data has no crest images, only team names. Rather than leave those
+// cards logo-less, reuse whatever logo the same team already has from the
+// fixtures data (built from the domestic-league/cup broadcast scrapes, which
+// do include crests) — the same team usually appears there too.
+let teamLogoLookup = new Map();
+function buildTeamLogoLookup(events, recentEvents) {
+  teamLogoLookup = new Map();
+  for (const e of [...events, ...recentEvents]) {
+    if (e.homeLogo) teamLogoLookup.set(simplifyName(e.homeTeam), e.homeLogo);
+    if (e.awayLogo) teamLogoLookup.set(simplifyName(e.awayTeam), e.awayLogo);
+  }
+}
+function logoForTeam(name) {
+  return teamLogoLookup.get(simplifyName(name)) ?? null;
+}
+
+// Total rounds/matchdays per league competition, for "Round N of M" context.
+// Argentina is deliberately absent — its zone tables (Group A/B) don't map
+// to one meaningful overall round number this season (see
+// spike/standings-zones.js for the full reasoning), so showing a number
+// here would be a confident-looking guess, not a fact.
+const TOTAL_ROUNDS = {
+  "Campeonato Brasileiro Série A": 38,
+  "Liga MX": 17,
+  "CONMEBOL Libertadores": 6,
+  "CONMEBOL Sudamericana": 6,
+};
+
+let bracketTieLookup = new Map();
+function buildBracketTieLookup(standings) {
+  bracketTieLookup = new Map();
+  for (const bracket of standings?.brackets ?? []) {
+    for (const round of bracket.rounds) {
+      for (const tie of round.ties) {
+        const entry = { ...tie, round: round.round, legs: bracket.legs };
+        bracketTieLookup.set(pairKey(tie.teamA, tie.teamB), entry);
+        // Also under the alias-resolved keys the fixtures carry, since the
+        // bracket source names several clubs differently (see tieKeys in
+        // scrape-brackets.js).
+        if (tie.teamKeys) bracketTieLookup.set(tie.teamKeys.join("|"), entry);
+      }
+    }
+  }
+}
+
+// A fixture's own normalized keys are alias-aware; its display names aren't.
+function tieFor(e) {
+  const byKey = e.homeTeamKey && e.awayTeamKey ? bracketTieLookup.get([e.homeTeamKey, e.awayTeamKey].sort().join("|")) : null;
+  return byKey ?? bracketTieLookup.get(pairKey(e.homeTeam, e.awayTeam));
+}
+
+let leagueRoundByCompetition = new Map();
+function buildLeagueRoundLookup(standings) {
+  leagueRoundByCompetition = new Map();
+  for (const table of standings?.tables ?? []) {
+    const total = TOTAL_ROUNDS[table.competition];
+    if (!total) continue;
+    const played = table.groups.flatMap((g) => g.rows.map((r) => r.played)).filter((n) => Number.isFinite(n));
+    if (!played.length) continue;
+    // Most teams share the same played-count on a well-behaved schedule;
+    // the mode (+1) is the current round. Approximate — postponements can
+    // throw a few teams off — but good enough for a personal dashboard.
+    const counts = new Map();
+    for (const p of played) counts.set(p, (counts.get(p) ?? 0) + 1);
+    const mode = [...counts.entries()].sort((a, b) => b[1] - a[1])[0][0];
+    // Once every team has played the full group programme, any remaining
+    // fixture is a knockout tie, not a group match. Clamping mode+1 back to
+    // `total` used to claim the last group round was still to come — which
+    // read as "Round 6 of 6" above a Libertadores round-of-16 first leg,
+    // directly contradicting the table showing all six games played.
+    leagueRoundByCompetition.set(table.competition, { round: mode + 1, total, groupStageDone: mode >= total });
+  }
+}
+
+// Only surface leg-1 context once leg 1 is actually decided and leg 2 hasn't
+// been played yet — that's the one narrow case this feature targets (see the
+// carve-out documented in claude.md).
+function legContextFor(e) {
+  const tie = tieFor(e);
+  return tie && tie.legs === 2 && tie.leg1Score && !tie.leg2Score ? tie : null;
+}
+
+function matchdayLabelFor(e) {
+  const tie = tieFor(e);
+  if (tie) return tie.legs === 1 ? tie.round : `${tie.round} · ${tie.leg1Score ? "Leg 2" : "Leg 1"}`;
+  const stage = leagueRoundByCompetition.get(e.competition);
+  if (!stage) return null;
+  // No bracket data exists for the CONMEBOL cups (see scrape-brackets.js,
+  // which covers the domestic cups only), so the exact round can't be named
+  // — "Knockout stage" is what's actually known.
+  return stage.groupStageDone ? "Knockout stage" : `Round ${stage.round} of ${stage.total}`;
+}
+
+// A single channel chip — c.timeUK is present only on MLB replay entries
+// (see build-mlb.js), appended as a small mono-font time so a "Replay"
+// group can show the channel and when it airs without a separate element
+// per entry. UK time only, by explicit preference — it's the zone this
+// dashboard's owner watches in; the "UK" suffix keeps it unambiguous next
+// to the kickoff row's dual local·UK display. (The data still carries
+// timeLocal should that preference ever flip back.)
+function channelChipHtml(c) {
+  const timeHtml = c.timeUK ? ` <span class="channel-time">${c.timeUK} UK</span>` : "";
+  const body = `${badgeHtml(c.name, c.logo, "monogram")}${c.name}${timeHtml}`;
+  const href = typeof c.url === "string" && /^https:\/\//i.test(c.url)
+    ? c.url.replace(/&/g, "&amp;").replace(/"/g, "&quot;")
+    : null;
+  return href
+    ? `<a class="channel channel-link" href="${href}" target="_blank" rel="noopener noreferrer" title="Open official broadcaster">${body}</a>`
+    : `<span class="channel">${body}</span>`;
+}
+
+function broadcastGroupsHtml(groups) {
+  return groups
+    .map((group) => {
+      const chips = group.channels.length ? group.channels.map(channelChipHtml).join("") : `<span class="tbc">TBC</span>`;
+      return `<div class="broadcast-group"><span class="broadcast-group-label">${group.label}</span><div class="channels">${chips}</div></div>`;
+    })
+    .join("");
+}
+
+// Older South America/Mexico rows used one flat, unlabeled row of chips.
+// Current rows promote each local fixture source into a market group;
+// Europe/MLB continue to use their broadcast-market groups.
+function broadcastHtml(e) {
+  // Older South American fixtures carry their scraped channels as one flat
+  // row. Newer rows promote each fixture source into a labelled market group;
+  // only the residual flat channels need to be returned alongside those groups.
+  const groupedNames = new Set((e.broadcastGroups ?? []).flatMap((g) => (g.channels ?? []).map((c) => c.name)));
+  const residual = (e.channels ?? []).filter((c) => !groupedNames.has(c.name));
+  const flat = residual.length ? `<div class="channels">${residual.map(channelChipHtml).join("")}</div>` : "";
+  if (!e.broadcastGroups) {
+    return flat || `<div class="channels"><span class="tbc">Channel TBC</span></div>`;
+  }
+  return flat + broadcastGroupsHtml(e.broadcastGroups);
+}
+
+// ---- Watched tracker ----
+// Synced across devices via /api/watched (see that file for the storage
+// choice) rather than localStorage, which wouldn't follow you between
+// devices. A game's watchKey is computed once at build time and shared by
+// its fixture/card row and every one of its replay rows (see the build
+// scripts' watchKey fields), so ticking the box anywhere flags all of them.
+// watchedMap is loaded before any sport's data renders (see the bootstrap
+// at the bottom of this file), so there's no flash of unchecked state.
+let watchedMap = {};
+async function loadWatched() {
+  try {
+    const res = await fetch("/api/watched");
+    const data = await res.json();
+    watchedMap = data.watched ?? {};
+  } catch (err) {
+    console.error("Failed to load watched state:", err);
+    watchedMap = {};
+  }
+}
+
+function watchToggleHtml(key) {
+  if (!key) return ""; // no parent game to key against (e.g. an unmatched catch-up row) — nothing to tick
+  const checked = Boolean(watchedMap[key]);
+  const safeKey = key.replace(/"/g, "&quot;");
+  return `<label class="watch-toggle" title="${checked ? "Watched" : "Mark watched"}">
+    <input type="checkbox" class="watch-input" data-watch-key="${safeKey}"${checked ? " checked" : ""}>
+    <span class="watch-box">✓</span>
+  </label>`;
+}
+
+// One delegated listener for every watched checkbox on the page, since the
+// same key can appear more than once at a time (a fixture row and a
+// catch-up row for the same game). Optimistic: flips every matching
+// checkbox immediately, then persists — and reverts all of them together if
+// the save fails, rather than leaving a state on screen that didn't stick.
+function initWatchToggles() {
+  document.addEventListener("change", (ev) => {
+    const input = ev.target.closest(".watch-input");
+    if (input) setWatched(input.dataset.watchKey, input.checked);
+  });
+}
+async function setWatched(key, watched) {
+  const syncInputs = (checked) => {
+    for (const input of document.querySelectorAll(".watch-input")) {
+      if (input.dataset.watchKey === key) input.checked = checked;
+    }
+  };
+  if (watched) watchedMap[key] = new Date().toISOString();
+  else delete watchedMap[key];
+  syncInputs(watched);
+  try {
+    const res = await fetch("/api/watched", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ key, watched }),
+    });
+    if (!res.ok) {
+      // The server puts a real reason in the JSON body (see api/watched.js)
+      // — surface it here rather than just the status code, so a failure is
+      // diagnosable from the console alone instead of needing the Network
+      // tab's Response pane.
+      const body = await res.json().catch(() => null);
+      throw new Error(body?.error ? `HTTP ${res.status}: ${body.error}` : `HTTP ${res.status}`);
+    }
+  } catch (err) {
+    console.error("Failed to save watched state:", err);
+    if (watched) delete watchedMap[key];
+    else watchedMap[key] = new Date().toISOString();
+    syncInputs(!watched);
+  }
+}
+
+function renderEvent(e) {
+  const div = document.createElement("div");
+  div.className = "event";
+
+  const rivalryHtml = e.rivalry ? `<div class="rivalry-badge">🔥 Derby</div>` : "";
+
+  // Fights only: the card's identity graphic (see the .fight-poster CSS).
+  let fightMarkHtml = "";
+  if (e.poster) {
+    const credit = e.poster.attribution ? ` (${e.poster.attribution})` : "";
+    fightMarkHtml = `<div class="fight-poster"><img src="${e.poster.src}" alt="${e.eventName ?? ""} poster${credit}" loading="lazy"></div>`;
+  } else if (e.orgLogo) {
+    fightMarkHtml = `<div class="fight-org-mark"><img src="${e.orgLogo}" alt="${e.orgName}" loading="lazy"></div>`;
+  } else if (e.orgName) {
+    fightMarkHtml = `<div class="fight-org-mark"><span class="fight-org-emoji" role="img" aria-label="${e.orgName}">🥊</span></div>`;
+  }
+
+  // Fights set a prebuilt eventTag ("UFC 330 · venue · main card time");
+  // soccer derives its matchday label from the bracket/round lookups.
+  const matchdayLabel = e.eventTag ?? matchdayLabelFor(e);
+  const matchdayHtml = matchdayLabel ? `<div class="matchday-tag">${matchdayLabel}</div>` : "";
+
+  const legTie = legContextFor(e);
+  const legInfoHtml = legTie
+    ? `<div class="leg-info">Leg 1: ${legTie.teamA} ${legTie.leg1Score} ${legTie.teamB}</div>`
+    : "";
+
+  // MLB past games only (see build-mlb.js) — a "Replay" broadcast-group for
+  // any team with a confirmed replay source. Absent entirely (not a "TBC")
+  // for teams without one yet, and for every soccer event.
+  const replayHtml = e.replayGroups
+    ? `<div class="replay-section"><div class="replay-label">Catch it later</div>${broadcastGroupsHtml(e.replayGroups)}</div>`
+    : "";
+
+  // Fight cards are several bouts, not one — listing the rest of the card
+  // stops the dashboard looking like it's missing fights that are in fact
+  // on an event it already shows.
+  const undercardHtml = e.undercard?.length
+    ? `<div class="undercard"><div class="undercard-label">Also on the card</div>${e.undercard
+        .map(
+          (b) =>
+            `<div class="undercard-bout">${b.title}${b.weightClass ? ` <span class="undercard-weight">${b.weightClass}</span>` : ""}</div>`
+        )
+        .join("")}</div>`
+    : "";
+
+  div.innerHTML = `
+    ${watchToggleHtml(e.watchKey)}
+    ${fightMarkHtml}
+    ${matchdayHtml}
+    ${rivalryHtml}
+    ${
+      e.cardTitle
+        ? `<div class="matchup card-title-only"><span class="name">${e.cardTitle}</span></div>`
+        : `<div class="matchup">
+      <div class="side">${badgeHtml(e.homeTeam, e.homeLogo, "")}<span class="name">${e.homeTeam}</span></div>
+      <div class="vs">vs</div>
+      <div class="side">${badgeHtml(e.awayTeam, e.awayLogo, "")}<span class="name">${e.awayTeam}</span></div>
+    </div>`
+    }
+    <div class="kickoff">
+      ${e.kickoffLocal ? `<span class="time-pill">${e.kickoffLocal} local</span>` : ""}
+      <span class="time-pill uk">${e.kickoffUK ? `${e.kickoffUK} UK` : "Time TBC"}</span>
+    </div>
+    ${legInfoHtml}
+    ${broadcastHtml(e)}
+    ${undercardHtml}
+    ${replayHtml}
+  `;
+  return div;
+}
+
+function currentTheme() {
+  const saved = localStorage.getItem("theme");
+  if (saved === "light" || saved === "dark") return saved;
+  return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function applyThemeIcon() {
+  const toggle = document.getElementById("themeToggle");
+  toggle.textContent = currentTheme() === "dark" ? "☀️" : "🌙";
+  toggle.setAttribute("aria-label", currentTheme() === "dark" ? "Switch to light mode" : "Switch to dark mode");
+}
+
+function initThemeToggle() {
+  applyThemeIcon();
+  document.getElementById("themeToggle").addEventListener("click", () => {
+    const next = currentTheme() === "dark" ? "light" : "dark";
+    localStorage.setItem("theme", next);
+    document.documentElement.setAttribute("data-theme", next);
+    applyThemeIcon();
+  });
+}
+
+function renderChangelogRun(run) {
+  const time = new Date(run.timestamp).toLocaleString("en-GB");
+  const hasChanges = run.added.length || run.removed.length || run.channelsChanged.length;
+  const list = (label, items) =>
+    items.length ? `<div>${label} (${items.length}):</div><ul>${items.map((i) => `<li>${i}</li>`).join("")}</ul>` : "";
+
+  return `
+    <div class="run">
+      <div class="run-time">${time}</div>
+      <div class="run-summary">${run.totalEvents} match(es) in window${hasChanges ? "" : " — <span class=\"no-changes\">no changes</span>"}</div>
+      ${list("Added", run.added)}
+      ${list("Removed", run.removed)}
+      ${list("Channels updated", run.channelsChanged)}
+    </div>
+  `;
+}
+
+function renderUpdatesPanel(panel, runs) {
+  panel.innerHTML = runs.length ? runs.map(renderChangelogRun).join("") : "<em>No update history yet.</em>";
+}
+
+// ---- The schedule -------------------------------------------------------
+//
+// Day → time slot → fixture row. Time is the ruling axis because the question
+// this page exists to answer is "what's on, and where can I watch it" — and
+// a schedule read chronologically is how every broadcast listing in the world
+// is organised. Country and competition ride along as tags and filters.
+//
+// Printing the kickoff ONCE per slot rather than once per row is both denser
+// and more truthful: six Bundesliga matches at 15:30 really are one moment,
+// and seeing them stacked under a single time is the fact a viewer needs.
+
+/** UK kickoff as a sortable "HH:MM", or null when the source has no time. */
+function slotKeyFor(e) {
+  const m = /(\d{2}:\d{2})\s*$/.exec(e.kickoffUK ?? "");
+  return m ? m[1] : null;
+}
+
+// Days are grouped by the UK date, not the venue-local one, because the time
+// rail is in UK time and the two must agree. A Liga MX match kicking off
+// 19:10 in Monterrey is 02:10 UK — filing it under the Mexican Saturday
+// while the rail says 02:10 puts a match on a day it cannot be watched on.
+// The venue-local kick-off is still shown, inside the row's detail, where it
+// is context rather than the organising axis.
+const UK_DATE_FMT = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Europe/London",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit",
+});
+function scheduleDateKey(e) {
+  if (!e.kickoffUTC) return e.localDate;
+  return UK_DATE_FMT.format(new Date(e.kickoffUTC));
+}
+
+// Minutes either side of kickoff during which a match is treated as in
+// progress. 115 covers a 90-minute match plus half-time and stoppage.
+const IN_PROGRESS_MINUTES = 115;
+function isOnNow(e) {
+  if (!e.kickoffUTC) return false;
+  const delta = (Date.now() - Date.parse(e.kickoffUTC)) / 60000;
+  return delta >= 0 && delta <= IN_PROGRESS_MINUTES;
+}
+
+// The carriage strip — the device that makes this layout survive growth.
+// The old cards listed every channel in every market inline, so each new
+// source (Germany was the ninth) added rows of chips and tens of pixels to
+// EVERY card: the page got worse as the data got better. Here a market costs
+// one short code, and the channels themselves live behind the row's own
+// disclosure. Adding a tenth market widens a strip; it doesn't lengthen the
+// page.
+function marketStripHtml(e) {
+  const groups = e.broadcastGroups ?? [];
+  // Country fixture sources are now promoted into market groups, so don't
+  // count their legacy combined channel row a second time. Older archived
+  // rows without groups retain the flat-row fallback below.
+  const groupedNames = new Set(groups.flatMap((g) => (g.channels ?? []).map((c) => c.name)));
+  const flatCount = (e.channels ?? []).filter((c) => !groupedNames.has(c.name)).length;
+  const codes = groups.map((g) => `<span class="mk">${marketCode(g.label)}</span>`).join("");
+  const replayCodes = (e.replayGroups ?? []).length ? `<span class="mk replay">RPL</span>` : "";
+  const total =
+    flatCount +
+    groups.reduce((n, g) => n + g.channels.length, 0) +
+    (e.replayGroups ?? []).reduce((n, g) => n + g.channels.length, 0);
+  if (!total) return `<span class="fx-markets empty">No channel yet</span>`;
+  // Legacy flat rows carry no market label of their own. New rows expose the
+  // country groups explicitly, so the strip can show Brazil/Argentina/Mexico
+  // rather than hiding their local coverage behind a generic count.
+  return `<span class="fx-markets">${codes}${replayCodes}<span class="mk-count" title="${total} channel${total === 1 ? "" : "s"} listed">${total}</span></span>`;
+}
+
+/**
+ * The expanded row's channel list. Every block is labelled and left-aligned,
+ * which the old shared `broadcastHtml` could not give it:
+ *
+ *  - Archived rows with one mixed scraped channel row retain a "Listed
+ *    locally" caption. Current rows label each country source separately, so
+ *    Brazilian channels are visibly grouped as Brazil instead of being lost
+ *    in an unlabeled list.
+ *  - Each market keeps the same short code it wears in the collapsed row's
+ *    carriage strip, so the two views read as one thing.
+ *
+ * `broadcastHtml` is left alone — the fight cards still use it, and their
+ * centred single row is right for a card.
+ */
+function fixtureBroadcastHtml(e) {
+  const blocks = [];
+  // New fixture data has market-labelled groups for Brazil/Argentina/Mexico;
+  // keep the old mixed flat row only for archived data written before that
+  // promotion existed, otherwise every local channel would appear twice.
+  const groupedNames = new Set((e.broadcastGroups ?? []).flatMap((g) => (g.channels ?? []).map((c) => c.name)));
+  const residual = (e.channels ?? []).filter((c) => !groupedNames.has(c.name));
+  if (residual.length) {
+    blocks.push({ label: (e.broadcastGroups ?? []).length ? "Other listed" : "Listed locally", code: null, channels: residual });
+  }
+  for (const g of e.broadcastGroups ?? []) {
+    const code = marketCode(g.label);
+    // "UK UK" — the code is only worth showing when it abbreviates something.
+    blocks.push({ label: g.label, code: code.toUpperCase() === g.label.toUpperCase() ? null : code, channels: g.channels });
+  }
+  if (!blocks.length) return `<div class="mkt-empty">No channel listed yet.</div>`;
+  return `<div class="mkt-list">${blocks
+    .map(
+      (b) => `
+      <section class="mkt">
+        <h4 class="mkt-label">${b.code ? `<span class="mk">${b.code}</span>` : ""}${b.label}</h4>
+        <div class="channels">${
+          b.channels.length ? b.channels.map(channelChipHtml).join("") : `<span class="tbc">TBC</span>`
+        }</div>
+      </section>`
+    )
+    .join("")}</div>`;
+}
+
+function fixtureRowHtml(e) {
+  const legTie = legContextFor(e);
+  const notes = [matchdayLabelFor(e), legTie ? `Leg 1: ${legTie.teamA} ${legTie.leg1Score} ${legTie.teamB}` : null]
+    .filter(Boolean)
+    .join(" · ");
+  // MLB games carry no competition or country — one league, one nation — so
+  // the tag slot is simply absent rather than filled with a placeholder.
+  const compHtml = e.competition
+    ? `<span class="fx-comp" data-region="${countryRegion(e.country)}" title="${e.competition}"><span class="cc">${countryCode(e.country)}</span>${competitionShort(e.competition)}</span>`
+    : "";
+  const replayHtml = e.replayGroups
+    ? `<div class="fx-replays"><div class="fx-sub">Catch it later</div>${broadcastGroupsHtml(e.replayGroups)}</div>`
+    : "";
+  // The watched checkbox lives in .fx-detail, not on the collapsed row — a
+  // schedule of 15-20 rows a day shouldn't carry a checkbox on every one
+  // before you've even looked at it; it belongs next to the channels, which
+  // is the same click (the user: "put it where I click on it and it shows the
+  // channels").
+  return `
+    <button class="fx-head" type="button" aria-expanded="false">
+      <span class="fx-teams">
+        <span class="fx-side">${badgeHtml(e.homeTeam, e.homeLogo, "")}<span class="fx-name" title="${e.homeTeam}">${e.homeTeam}</span></span>
+        <span class="fx-v">vs</span>
+        <span class="fx-side">${badgeHtml(e.awayTeam, e.awayLogo, "")}<span class="fx-name" title="${e.awayTeam}">${e.awayTeam}</span></span>
+      </span>
+      <span class="fx-tags">
+        ${e.rivalry ? `<span class="fx-derby">Derby</span>` : ""}
+        ${compHtml}
+      </span>
+      ${marketStripHtml(e)}
+    </button>
+    <div class="fx-detail" hidden>
+      ${notes ? `<div class="fx-notes">${notes}</div>` : ""}
+      ${e.kickoffLocal ? `<div class="fx-notes">Kick-off ${e.kickoffLocal} local · ${e.kickoffUK ?? ""} UK</div>` : ""}
+      ${e.watchKey ? `<div class="fx-watched-row">${watchToggleHtml(e.watchKey)}<span class="fx-watched-label">Watched</span></div>` : ""}
+      ${fixtureBroadcastHtml(e)}
+      ${replayHtml}
+    </div>`;
+}
+
+function fixtureRow(e) {
+  const row = document.createElement("div");
+  row.className = "fixture";
+  // "Brazil vs Argentina" -> "Brazil Argentina", so applyCountryFilter's
+  // token check matches a composite tie from either side.
+  row.dataset.country = (e.crossCountry ?? e.country ?? "Other").replace(/ vs /g, " ");
+  if (isOnNow(e)) row.classList.add("on-now");
+  row.innerHTML = fixtureRowHtml(e);
+  return row;
+}
+
+function renderEventsGrouped(container, events, { descending = false } = {}) {
+  container.innerHTML = "";
+  const byDate = groupBy(events, scheduleDateKey);
+  const sortedDates = [...byDate.entries()].sort((a, b) => (descending ? b[0].localeCompare(a[0]) : a[0].localeCompare(b[0])));
+
+  for (const [localDate, dateEvents] of sortedDates) {
+    const day = document.createElement("section");
+    day.className = "day";
+    // MLB has no competition axis — one league — so the day line counts
+    // games and stops there rather than reporting "1 competition".
+    const comps = new Set(dateEvents.map((e) => e.competition).filter(Boolean));
+    const n = dateEvents.length;
+    const nouns = dateEvents[0]?.competition ? ["match", "matches"] : ["game", "games"];
+    const countText =
+      `${n} ${n === 1 ? nouns[0] : nouns[1]}` +
+      (comps.size ? ` · ${comps.size} ${comps.size === 1 ? "competition" : "competitions"}` : "");
+    day.innerHTML = `
+      <h3 class="day-head">
+        <span class="day-name">${formatDateHeading(localDate)}</span>
+        <span class="day-count">${countText}</span>
+      </h3>`;
+
+    const bySlot = groupBy(dateEvents, (e) => slotKeyFor(e) ?? "~");
+    const slots = [...bySlot.entries()].sort((a, b) => a[0].localeCompare(b[0]));
+    for (const [time, slotEvents] of slots) {
+      const slot = document.createElement("div");
+      slot.className = "slot";
+      slot.innerHTML = `<div class="slot-time"><span class="slot-hh">${time === "~" ? "TBC" : time}</span><span class="slot-zone">UK</span></div>`;
+      const list = document.createElement("div");
+      list.className = "slot-rows";
+      // Within one kickoff minute, order by competition standing so the
+      // sequence doesn't reshuffle between builds.
+      for (const e of [...slotEvents].sort((a, b) => competitionRank(a.competition) - competitionRank(b.competition))) {
+        list.appendChild(fixtureRow(e));
+      }
+      slot.appendChild(list);
+      day.appendChild(slot);
+    }
+    container.appendChild(day);
+  }
+}
+
+// One delegated listener for the whole schedule rather than one per row —
+// the list is rebuilt on every filter and sport switch.
+function initScheduleDisclosure() {
+  document.addEventListener("click", (ev) => {
+    const head = ev.target.closest(".fx-head");
+    if (!head) return;
+    const open = head.getAttribute("aria-expanded") === "true";
+    head.setAttribute("aria-expanded", String(!open));
+    head.parentElement.classList.toggle("open", !open);
+    head.nextElementSibling.hidden = open;
+  });
+}
+
+// MLB games: date-grouped, flat per day — no country/competition nesting,
+// since it's a single league (unlike renderEventsGrouped, built for
+// soccer's country > competition hierarchy). Cards are the same renderEvent
+// used everywhere else; MLB games simply don't set the fields (rivalry,
+// competitionLogo, etc.) that make the soccer-only parts of that function
+// render anything.
+// MLB is a schedule too — ~15 games a day, every one with the same shape as a
+// fixture — so it uses the same day/slot/row structure rather than a second
+// layout that would have to be maintained in parallel. Fights keep their own
+// card renderer: a handful of events a week, each with real poster artwork
+// and an undercard, is genuinely a card problem, not a schedule one.
+function renderMlbGames(container, games, { descending = false } = {}) {
+  if (!games.length) {
+    container.innerHTML = `<p class="empty-state">No games in this window. The schedule covers seven days either side of today.</p>`;
+    return;
+  }
+  renderEventsGrouped(container, games, { descending });
+}
+
+// Fight cards stay cards, and that is a decision rather than an omission: a
+// handful of events a week, each carrying real poster artwork, an org mark
+// and a full undercard, is genuinely a card problem. The schedule row exists
+// to compress a hundred near-identical fixtures — there is nothing here to
+// compress, and a row would throw away the artwork that makes these legible.
+function renderFightCards(container, events, { descending = false } = {}) {
+  container.innerHTML = "";
+  if (!events.length) {
+    container.innerHTML = `<p class="empty-state">No cards in this window.</p>`;
+    return;
+  }
+  const byDate = groupBy(events, scheduleDateKey);
+  const sorted = [...byDate.entries()].sort((a, b) => (descending ? b[0].localeCompare(a[0]) : a[0].localeCompare(b[0])));
+  for (const [date, dayEvents] of sorted) {
+    const day = document.createElement("section");
+    day.className = "day";
+    day.innerHTML = `
+      <h3 class="day-head">
+        <span class="day-name">${formatDateHeading(date)}</span>
+        <span class="day-count">${dayEvents.length} ${dayEvents.length === 1 ? "card" : "cards"}</span>
+      </h3>`;
+    for (const e of dayEvents) day.appendChild(renderEvent(e));
+    container.appendChild(day);
+  }
+}
+
+// "Catch up": the flat, airing-ordered replay schedule both MLB and Fights
+// emit (replaySchedule in their JSON) — one row per airing, the same event
+// repeating for each re-air, sorted by when it can actually be watched.
+// Airings are dropped at render time only once they've actually finished —
+// an airing already under way stays listed (marked "on now") so you can
+// join it part-way through. Uses the listing's real end time where the
+// source gave a duration, falling back to a 3h slot for older data.
+// A catch-up row stays listed until its programme ENDS, not until it starts,
+// so something already under way can still be joined in progress. tvguide
+// publishes no duration, hence the 3h stand-in for rows without one.
+const catchUpEndsAt = (r) => (r.endsAtUTC ? Date.parse(r.endsAtUTC) : Date.parse(r.airTimeUTC) + 3 * 3600000);
+
+function renderCatchUp(container, schedule, { emptyText }) {
+  container.innerHTML = "";
+  const now = Date.now();
+  const rows = (schedule ?? []).filter((r) => catchUpEndsAt(r) >= now);
+  if (!rows.length) {
+    container.innerHTML = `<em>${emptyText}</em>`;
+    return;
+  }
+  const ukDay = (iso) => new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/London" }).format(new Date(iso));
+  const ukClock = (iso) =>
+    new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/London", hour: "2-digit", minute: "2-digit", hour12: false }).format(
+      new Date(iso)
+    );
+  const byDate = groupBy(rows, (r) => ukDay(r.airTimeUTC));
+  for (const [day, dayRows] of [...byDate.entries()].sort((a, b) => a[0].localeCompare(b[0]))) {
+    const div = document.createElement("div");
+    div.className = "date-group";
+    const rowsHtml = dayRows
+      .map((r) => {
+        const logos = (r.logos ?? []).filter(Boolean).map((l) => `<img src="${l}" alt="" loading="lazy">`).join("");
+        const started = Date.parse(r.airTimeUTC) <= now;
+        const market = r.market ? `<span class="catchup-market">${marketCode(r.market)}</span>` : "";
+        return `<div class="catchup-row${started ? " on-now" : ""}">
+            <span class="catchup-time">${ukClock(r.airTimeUTC)}</span>
+            ${channelChipHtml(r.channel)}
+            ${market}
+            <span class="catchup-label">${logos}${r.label}${started ? `<span class="on-now-tag">on now</span>` : ""}</span>
+            <span class="catchup-sub">${r.sublabel ?? ""}</span>
+            ${watchToggleHtml(r.watchKey)}
+          </div>`;
+      })
+      .join("");
+    div.innerHTML = `<div class="date-heading">${formatDateHeading(day)}</div><div class="catchup-list">${rowsHtml}</div>`;
+    container.appendChild(div);
+  }
+}
+
+// A linear re-air is not the only way to catch up with a fight card. Recent
+// cards also retain the official services that carried them, so the viewer
+// can check the provider's replay catalogue even when no public EPG slot is
+// scheduled. This is labelled as a check, never as a guarantee of retention.
+function renderFightCatchUp(container, data) {
+  renderCatchUp(container, data.replaySchedule, {
+    emptyText: "No replay airings scheduled yet — check the recent cards below for official replay services.",
+  });
+  const recent = (data.recent ?? []).filter((e) => (e.broadcastGroups ?? []).some((g) => g.channels?.length));
+  if (!recent.length) return;
+  const section = document.createElement("section");
+  section.className = "fight-demand";
+  section.innerHTML = `
+    <div class="fight-demand-title">Recent cards — check official replay services</div>
+    <div class="fight-demand-note">Availability and replay windows vary by country and provider.</div>
+    ${recent
+      .map(
+        (e) => `<div class="fight-demand-card">
+          <div class="fight-demand-name">${e.eventName ?? e.cardTitle ?? `${e.homeTeam ?? ""} v ${e.awayTeam ?? ""}`}<span class="fight-demand-date">${e.kickoffUK ?? e.localDate ?? ""}</span></div>
+          ${broadcastGroupsHtml(e.broadcastGroups)}
+        </div>`
+      )
+      .join("")}`;
+  container.appendChild(section);
+}
+
+// rank/gb are passed explicitly (rather than always reading t.divisionRank/
+// t.gamesBack) since the same row renders differently in a division table
+// vs. the wild-card table (see mlbWildcardTableHtml below).
+function mlbRowHtml(t, rank, gb, extraClass = "") {
+  const classes = [t.zone ? `zone-${t.zone.tier}` : "", extraClass].filter(Boolean).join(" ");
+  return `
+    <tr class="${classes}">
+      <td>${rank ?? "-"}</td>
+      <td class="standings-team">${badgeHtml(t.team, t.teamLogo, "")}<span class="standings-team-name" title="${t.team}">${t.team}</span></td>
+      <td>${t.wins}</td><td>${t.losses}</td><td>${t.pct ?? "-"}</td><td>${gb ?? "-"}</td>
+    </tr>`;
+}
+
+function mlbStandingsTableShell(rowsHtml) {
+  return `
+    <div class="standings-table-wrap">
+      <table class="standings-table mlb-standings-table">
+        <thead><tr><th>#</th><th>Team</th><th>W</th><th>L</th><th>PCT</th><th>GB</th></tr></thead>
+        <tbody>${rowsHtml}</tbody>
+      </table>
+    </div>`;
+}
+
+function mlbDivisionTableHtml(division) {
+  const rows = division.teams.map((t) => mlbRowHtml(t, t.divisionRank, t.gamesBack)).join("");
+  return `<div class="standings-group-label">${division.name}</div>${mlbStandingsTableShell(rows)}`;
+}
+
+// Today's 3-team wild-card format — a divider line after the 3rd spot marks
+// the current cutoff, the same "if the season ended today" read the zone
+// highlight colors already convey per-row.
+function mlbWildcardTableHtml(wildcard) {
+  if (!wildcard.length) return "";
+  const rows = wildcard
+    .map((t, i) => mlbRowHtml(t, `WC${t.wildCardRank}`, t.wildCardGamesBack, i === 2 ? "wildcard-cutoff" : ""))
+    .join("");
+  return `<div class="standings-group-label">Wild Card</div>${mlbStandingsTableShell(rows)}`;
+}
+
+// One league at a time, chosen by the AL/NL chips beside the heading —
+// showing both stacked meant scrolling past four AL tables to reach the NL.
+let mlbLeague = "AL";
+function renderMlbStandings(panel, standings) {
+  const label = mlbLeague === "AL" ? "American League" : "National League";
+  const data = standings[mlbLeague];
+  panel.innerHTML = `
+    <div class="standings-comp-heading">${label}</div>
+    ${data.divisions.map(mlbDivisionTableHtml).join("")}
+    ${mlbWildcardTableHtml(data.wildcard)}
+    <div class="zone-legend">
+      <span class="zone-legend-item"><span class="zone-dot zone-primary"></span>Leads division</span>
+      <span class="zone-legend-item"><span class="zone-dot zone-secondary"></span>Wild Card position</span>
+    </div>
+  `;
+}
+function initMlbLeagueToggle() {
+  document.getElementById("mlbLeagueToggle").addEventListener("click", (e) => {
+    const btn = e.target.closest(".mlb-toggle-btn");
+    if (!btn || btn.dataset.league === mlbLeague) return;
+    mlbLeague = btn.dataset.league;
+    for (const b of document.querySelectorAll("#mlbLeagueToggle .mlb-toggle-btn")) {
+      const isActive = b.dataset.league === mlbLeague;
+      b.classList.toggle("active", isActive);
+      b.setAttribute("aria-selected", String(isActive));
+    }
+    if (mlbData) renderMlbStandings(document.getElementById("mlbStandingsPanel"), mlbData.standings);
+  });
+}
+
+function renderStandingsGroup(group) {
+  return `
+    ${group.label ? `<div class="standings-group-label">${group.label}</div>` : ""}
+    <div class="standings-table-wrap">
+      <table class="standings-table">
+        <thead><tr><th>#</th><th>Team</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GD</th><th>Pts</th></tr></thead>
+        <tbody>
+          ${group.rows
+            .map(
+              (r) => `
+            <tr class="${r.zone ? `zone-${r.zone.tier}` : ""}">
+              <td>${r.position}</td>
+              <td class="standings-team">${badgeHtml(r.team, r.teamLogo, "")}<span class="standings-team-name" title="${r.team}">${r.team}</span></td>
+              <td>${r.played}</td><td>${r.win}</td><td>${r.draw}</td><td>${r.loss}</td><td>${r.gd}</td><td class="pts">${r.points}</td>
+            </tr>`
+            )
+            .join("")}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+// Legend built from whatever zone tiers actually appear in this table's data
+// — no separate client-side config to keep in sync with
+// spike/standings-zones.js.
+function zoneLegend(table) {
+  const seen = new Map();
+  for (const group of table.groups) {
+    for (const row of group.rows) {
+      if (row.zone) seen.set(row.zone.tier, row.zone.label);
+    }
+  }
+  if (!seen.size) return "";
+  const items = [...seen.entries()]
+    .map(([tier, label]) => `<span class="zone-legend-item"><span class="zone-dot zone-${tier}"></span>${label}</span>`)
+    .join("");
+  return `<div class="zone-legend">${items}</div>`;
+}
+
+function renderStandingsTable(table) {
+  return `
+    <div class="standings-comp-heading">${badgeHtml(table.competition, table.competitionLogo, "")}${table.competition}</div>
+    ${table.note ? `<div class="standings-note">${table.note}</div>` : ""}
+    ${table.groups.map(renderStandingsGroup).join("")}
+    ${zoneLegend(table)}
+  `;
+}
+
+// bracket.legs distinguishes a two-legged tie (Copa do Brasil: leg1Score/
+// leg2Score/leg2Date/aggregate fields) from a single-match tie (Copa
+// Argentina: score/date/winner fields) — see scrape-brackets.js. Returns the
+// small set of score/status chips shown under a tie's two team rows.
+function bracketChips(tie, legs) {
+  if (legs === 1) {
+    return tie.score
+      ? [{ label: "Result", value: tie.score, played: true }]
+      : [{ label: "Scheduled", value: tie.date ?? "TBD", played: false }];
+  }
+  const chips = [
+    { label: "Leg 1", value: tie.leg1Score ?? "TBD", played: Boolean(tie.leg1Score) },
+    { label: "Leg 2", value: tie.leg2Score ?? tie.leg2Date ?? "TBD", played: Boolean(tie.leg2Score) },
+  ];
+  if (tie.aggregate) chips.push({ label: "Agg", value: tie.aggregate, played: true });
+  return chips;
+}
+
+// Bracket data itself carries no logo URLs — logoForTeam() looks one up from
+// the fixtures data instead (see buildTeamLogoLookup above). badgeHtml still
+// falls back to a monogram if that lookup also comes up empty.
+function renderBracketTie(tie, legs) {
+  const chips = bracketChips(tie, legs)
+    .map((c) => `<span class="bracket-leg-chip${c.played ? " played" : ""}"><span class="label">${c.label}</span>${c.value}</span>`)
+    .join("");
+  return `
+    <div class="bracket-tie">
+      <div class="bracket-team-row${tie.winner === tie.teamA ? " winner" : ""}">${badgeHtml(tie.teamA, logoForTeam(tie.teamA), "")}<span class="name">${tie.teamA}</span></div>
+      <div class="bracket-team-row${tie.winner === tie.teamB ? " winner" : ""}">${badgeHtml(tie.teamB, logoForTeam(tie.teamB), "")}<span class="name">${tie.teamB}</span></div>
+      <div class="bracket-legs">${chips}</div>
+    </div>
+  `;
+}
+
+function renderBracket(bracket) {
+  return `
+    <div class="standings-comp-heading">${bracket.competition}</div>
+    ${bracket.rounds
+      .map(
+        (round) => `
+      <div class="standings-group-label">${round.round}</div>
+      <div class="bracket-ties">
+        ${round.ties.map((tie) => renderBracketTie(tie, bracket.legs)).join("")}
+      </div>`
+      )
+      .join("")}
+  `;
+}
+
+function renderStandingsPanel(panel, standings) {
+  const options = [
+    ...standings.tables.map((t) => ({ label: t.competition, kind: "table", data: t })),
+    ...standings.brackets.map((b) => ({ label: `${b.competition} (progress)`, kind: "bracket", data: b })),
+  ];
+  if (!options.length) {
+    panel.innerHTML = "<em>No standings available right now.</em>";
+    return;
+  }
+  panel.innerHTML = `
+    <select class="standings-select">
+      ${options.map((o, i) => `<option value="${i}">${o.label}</option>`).join("")}
+    </select>
+    <div class="standings-content"></div>
+  `;
+  const select = panel.querySelector(".standings-select");
+  const content = panel.querySelector(".standings-content");
+  function renderSelected() {
+    const opt = options[Number(select.value)];
+    content.innerHTML = opt.kind === "table" ? renderStandingsTable(opt.data) : renderBracket(opt.data);
+  }
+  select.addEventListener("change", renderSelected);
+  renderSelected();
+}
+
+function collectAllTeams(events, recentEvents) {
+  const names = new Set();
+  for (const e of [...events, ...recentEvents]) {
+    names.add(e.homeTeam);
+    names.add(e.awayTeam);
+  }
+  return [...names].sort((a, b) => a.localeCompare(b));
+}
+
+// Fixture history only — no results/scores, per the "no live scores" spec
+// rule (see claude.md). This is a recap of what a team played and where to
+// watch it, not a results feed.
+function historyRow(e, opponent, opponentLogo) {
+  const channelText = e.channels.length ? e.channels.map((c) => c.name).join(", ") : "TBC";
+  return `
+    <div class="history-row">
+      <span class="history-date">${e.localDate}</span>
+      <span class="history-opponent">${badgeHtml(opponent, opponentLogo, "")}${opponent}</span>
+      <span class="history-meta">${e.competition} · ${channelText}</span>
+    </div>
+  `;
+}
+
+function renderTeamHistory(container, team, events, recentEvents) {
+  const rowsFor = (list) =>
+    list
+      .filter((e) => e.homeTeam === team || e.awayTeam === team)
+      .map((e) => {
+        const isHome = e.homeTeam === team;
+        return historyRow(e, isHome ? e.awayTeam : e.homeTeam, isHome ? e.awayLogo : e.homeLogo);
+      })
+      .join("");
+
+  const upcomingHtml = rowsFor(events);
+  const recentHtml = rowsFor(recentEvents);
+
+  container.innerHTML =
+    (upcomingHtml ? `<div class="standings-group-label">Upcoming</div>${upcomingHtml}` : "") +
+    (recentHtml ? `<div class="standings-group-label">Recently played</div>${recentHtml}` : "") +
+    (upcomingHtml || recentHtml ? "" : "<em>No matches found for this team in the current window.</em>");
+}
+
+function initTeamHistoryPanel(panel, events, recentEvents) {
+  const teams = collectAllTeams(events, recentEvents);
+  if (!teams.length) {
+    panel.innerHTML = "<em>No teams found.</em>";
+    return;
+  }
+  panel.innerHTML = `
+    <select class="standings-select">
+      ${teams.map((t) => `<option value="${t}">${t}</option>`).join("")}
+    </select>
+    <div class="history-list"></div>
+  `;
+  const select = panel.querySelector("select");
+  const list = panel.querySelector(".history-list");
+  select.addEventListener("change", () => renderTeamHistory(list, select.value, events, recentEvents));
+  renderTeamHistory(list, select.value, events, recentEvents);
+}
+
+// Sidebar tabs: exactly one panel visible at a time (see .side-tab /
+// .updates-panel CSS) — simpler than four independently-toggled sections,
+// and avoids nesting a scroll region inside a scroll region.
+function initSideTabs() {
+  const tabs = [...document.querySelectorAll(".side-tab")];
+  for (const tab of tabs) {
+    tab.addEventListener("click", () => {
+      for (const t of tabs) {
+        const isActive = t === tab;
+        t.classList.toggle("active", isActive);
+        t.setAttribute("aria-selected", String(isActive));
+        document.getElementById(t.dataset.panel).classList.toggle("open", isActive);
+      }
+    });
+  }
+  tabs[0]?.click();
+}
+
+// Top-level Football/MLB switcher — persisted so returning to the page keeps
+// your last-viewed sport, same rationale as collapsedCompetitions above.
+const SPORT_KEY = "activeSport";
+function loadActiveSport() {
+  const saved = localStorage.getItem(SPORT_KEY);
+  return saved === "mlb" || saved === "soccer" || saved === "fights" ? saved : "soccer";
+}
+function setActiveSport(sport) {
+  localStorage.setItem(SPORT_KEY, sport);
+  document.getElementById("soccerView").classList.toggle("active", sport === "soccer");
+  document.getElementById("mlbView").classList.toggle("active", sport === "mlb");
+  document.getElementById("fightsView").classList.toggle("active", sport === "fights");
+  document.getElementById("updatesView").classList.toggle("active", sport === "updates");
+  for (const tab of document.querySelectorAll(".sport-tab")) {
+    const isActive = tab.dataset.sport === sport;
+    tab.classList.toggle("active", isActive);
+    tab.setAttribute("aria-selected", String(isActive));
+  }
+}
+function initSportSwitcher() {
+  document.getElementById("sportSwitcher").addEventListener("click", (e) => {
+    const tab = e.target.closest(".sport-tab");
+    if (tab) setActiveSport(tab.dataset.sport);
+  });
+  setActiveSport(loadActiveSport());
+}
+
+// Upcoming/Past toggle — primary content for the MLB view (see the CSS
+// comment on .mlb-toggle for why this isn't a sidebar tab like soccer's
+// "Recently played"). mlbData is populated once by loadMlb() below and read
+// here on every toggle click, rather than re-fetching.
+let mlbData = null;
+function renderMlbMode(mode) {
+  if (!mlbData) return;
+  const container = document.getElementById("mlbGames");
+  const updated = `updated ${new Date(mlbData.generatedAt).toLocaleString("en-GB")}`;
+  if (mode === "catchup") {
+    renderCatchUp(container, mlbData.replaySchedule, { emptyText: "No upcoming replay airings right now — check back after tonight's games." });
+    const n = (mlbData.replaySchedule ?? []).filter((r) => Date.parse(r.airTimeUTC) >= Date.now() - 2 * 3600000).length;
+    document.getElementById("mlbMeta").textContent = `${n} replay airing${n === 1 ? "" : "s"} coming up · ${updated}`;
+  } else {
+    const list = mode === "past" ? mlbData.recentGames : mlbData.games;
+    renderMlbGames(container, list, { descending: mode === "past" });
+    const windowLabel = mode === "past" ? "played in the last 7 days" : "in the next 7 days";
+    document.getElementById("mlbMeta").textContent = `${list.length} game${list.length === 1 ? "" : "s"} ${windowLabel} · ${updated}`;
+  }
+  document.getElementById("replayNote").classList.toggle("visible", mode !== "upcoming");
+}
+function initMlbToggle() {
+  document.getElementById("mlbToggle").addEventListener("click", (e) => {
+    const btn = e.target.closest(".mlb-toggle-btn");
+    if (!btn) return;
+    // Scoped to this toggle's own buttons — the AL/NL standings switch
+    // shares the .mlb-toggle-btn styling but not this handler's state.
+    for (const b of document.querySelectorAll("#mlbToggle .mlb-toggle-btn")) {
+      const isActive = b === btn;
+      b.classList.toggle("active", isActive);
+      b.setAttribute("aria-selected", String(isActive));
+    }
+    renderMlbMode(btn.dataset.mode);
+  });
+}
+
+async function loadMlb() {
+  const data = await fetch("/data/mlb.json")
+    .then((r) => r.json())
+    .catch(() => null);
+  if (!data) {
+    document.getElementById("mlbGames").innerHTML = "<em>MLB data unavailable right now.</em>";
+    return;
+  }
+  mlbData = data;
+  renderMlbMode("upcoming");
+  renderMlbStandings(document.getElementById("mlbStandingsPanel"), data.standings);
+}
+
+// Fights view — same three-mode pattern as MLB (Upcoming / Past / Catch
+// up), same date-grouped card renderer; fights just have no standings
+// sidebar, so the view is single-column.
+let fightsData = null;
+// Promotion filter — with ~60 cards in a 90-day window a single PFL or
+// boxing event is easy to miss, and unlike the football side (grouped by
+// country) the fights list is one flat chronological run.
+let fightsOrgFilter = "All";
+const FIGHT_ORG_ORDER = ["UFC", "PFL", "Boxing", "MMA"];
+function buildFightsNav(list) {
+  const counts = new Map();
+  for (const c of list) counts.set(c.orgName, (counts.get(c.orgName) ?? 0) + 1);
+  const pills = FIGHT_ORG_ORDER.filter((o) => counts.has(o))
+    .map(
+      (o) =>
+        `<button class="quick-nav-pill${fightsOrgFilter === o ? " active" : ""}" type="button" data-org="${o}" aria-pressed="${fightsOrgFilter === o}">${o} <span class="quick-nav-count">${counts.get(o)}</span></button>`
+    )
+    .join("");
+  document.getElementById("fightsNav").innerHTML =
+    `<button class="quick-nav-pill${fightsOrgFilter === "All" ? " active" : ""}" type="button" data-org="All" aria-pressed="${fightsOrgFilter === "All"}">All <span class="quick-nav-count">${list.length}</span></button>${pills}`;
+}
+function initFightsNav() {
+  document.getElementById("fightsNav").addEventListener("click", (e) => {
+    const pill = e.target.closest(".quick-nav-pill");
+    if (!pill) return;
+    fightsOrgFilter = pill.dataset.org;
+    renderFightsMode(document.querySelector("#fightsToggle .mlb-toggle-btn.active")?.dataset.mode ?? "upcoming");
+  });
+}
+
+function renderFightsMode(mode) {
+  if (!fightsData) return;
+  const container = document.getElementById("fightGames");
+  const updated = `updated ${new Date(fightsData.generatedAt).toLocaleString("en-GB")}`;
+  if (mode === "catchup") {
+    renderFightCatchUp(container, fightsData);
+    const n = (fightsData.replaySchedule ?? []).filter((r) => Date.parse(r.airTimeUTC) >= Date.now() - 2 * 3600000).length;
+    const onDemand = (fightsData.recent ?? []).filter((e) => (e.broadcastGroups ?? []).some((g) => g.channels?.length)).length;
+    document.getElementById("fightsMeta").textContent = `${n} scheduled replay airing${n === 1 ? "" : "s"} · ${onDemand} recent card${onDemand === 1 ? "" : "s"} to check · ${updated}`;
+  } else {
+    const all = mode === "past" ? fightsData.recent : fightsData.upcoming;
+    const list = fightsOrgFilter === "All" ? all : all.filter((c) => c.orgName === fightsOrgFilter);
+    renderFightCards(container, list, { descending: mode === "past" });
+    if (!list.length)
+      container.innerHTML = `<p class="empty-state">No ${fightsOrgFilter === "All" ? "" : fightsOrgFilter + " "}cards ${mode === "past" ? "in the last 14 days" : "in the next 90 days"}.</p>`;
+    const windowLabel = mode === "past" ? "in the last 14 days" : "in the next 90 days";
+    const scope = fightsOrgFilter === "All" ? "" : `${fightsOrgFilter} `;
+    document.getElementById("fightsMeta").textContent = `${list.length} ${scope}fight card${list.length === 1 ? "" : "s"} ${windowLabel} · ${updated}`;
+  }
+  // The filter counts describe the list being browsed, so they follow the
+  // Upcoming/Past toggle; Catch up is airing-ordered and isn't filtered.
+  document.getElementById("fightsNav").classList.toggle("hidden", mode === "catchup");
+  if (mode !== "catchup") buildFightsNav(mode === "past" ? fightsData.recent : fightsData.upcoming);
+  document.getElementById("fightsNote").classList.toggle("visible", mode !== "upcoming");
+}
+function initFightsToggle() {
+  document.getElementById("fightsToggle").addEventListener("click", (e) => {
+    const btn = e.target.closest(".mlb-toggle-btn");
+    if (!btn) return;
+    for (const b of document.querySelectorAll("#fightsToggle .mlb-toggle-btn")) {
+      const isActive = b === btn;
+      b.classList.toggle("active", isActive);
+      b.setAttribute("aria-selected", String(isActive));
+    }
+    renderFightsMode(btn.dataset.mode);
+  });
+}
+async function loadFights() {
+  const data = await fetch("/data/fights.json")
+    .then((r) => r.json())
+    .catch(() => null);
+  if (!data) {
+    document.getElementById("fightGames").innerHTML = "<em>Fight data unavailable right now.</em>";
+    return;
+  }
+  fightsData = data;
+  renderFightsMode("upcoming");
+}
+
+// ---- Updates tab ----
+// A top-level view rather than a per-sport sidebar panel, because the two
+// questions it answers ("what changed?" and "is anything broken?") are
+// asked ABOUT the dashboard, not about a sport. Per-sport sub-tabs plus a
+// full scraping-error log, so a source that broke and self-healed
+// overnight is still reportable rather than invisible.
+let updatesData = null;
+let healthData = null;
+
+function renderRunEntry(run) {
+  const time = new Date(run.timestamp).toLocaleString("en-GB");
+  const changes = run.added.length + run.removed.length + run.channelsChanged.length;
+  const list = (label, items) =>
+    items.length ? `<div>${label} (${items.length}):</div><ul>${items.map((i) => `<li>${i}</li>`).join("")}</ul>` : "";
+  return `
+    <div class="run">
+      <div class="run-time">${time}</div>
+      <div class="run-summary">${run.total ?? run.totalEvents ?? 0} in window${changes ? "" : ' — <span class="no-changes">no changes</span>'}</div>
+      ${list("Added", run.added)}
+      ${list("Removed", run.removed)}
+      ${list("Channels updated", run.channelsChanged)}
+    </div>`;
+}
+
+function renderIncidents(container) {
+  const incidents = healthData?.incidents ?? [];
+  const open = incidents.filter((i) => !i.resolvedAt);
+  const closed = incidents.filter((i) => i.resolvedAt);
+  const row = (i) => {
+    const since = new Date(i.startedAt).toLocaleString("en-GB");
+    const until = i.resolvedAt ? ` → recovered ${new Date(i.resolvedAt).toLocaleString("en-GB")}` : "";
+    return `<div class="incident ${i.resolvedAt ? "resolved" : i.state}">
+        <div class="incident-head">
+          <span class="health-status ${i.resolvedAt ? "ok" : i.state}">${i.resolvedAt ? "fixed" : i.state}</span>
+          <span class="health-name">${i.label}</span>
+          <span class="health-detail">${i.group}</span>
+        </div>
+        <div class="incident-when">${since}${until}</div>
+        ${i.error ? `<div class="health-error">${i.error}</div>` : ""}
+      </div>`;
+  };
+  container.innerHTML =
+    (open.length
+      ? `<div class="health-group-label">Currently failing (${open.length})</div>${open.map(row).join("")}`
+      : `<div class="health-group-label">Currently failing</div><p class="all-clear">Nothing is failing right now — all ${healthData?.sources?.length ?? 0} sources reported in on the last build.</p>`) +
+    (closed.length ? `<div class="health-group-label">Earlier problems, since recovered (${closed.length})</div>${closed.map(row).join("")}` : "");
+}
+
+function renderUpdatesMode(sport) {
+  const body = document.getElementById("updatesBody");
+  const meta = document.getElementById("updatesMeta");
+  if (sport === "errors") {
+    renderIncidents(body);
+    const open = (healthData?.incidents ?? []).filter((i) => !i.resolvedAt).length;
+    meta.textContent = open
+      ? `${open} source${open === 1 ? "" : "s"} failing · every scraping error is logged here`
+      : "No scraping errors outstanding · every error is logged here, including ones already fixed";
+    return;
+  }
+  const runs = updatesData?.sports?.[sport] ?? [];
+  body.innerHTML = runs.length
+    ? runs.map(renderRunEntry).join("")
+    : "<em>No update history for this sport yet — it fills in from the next build.</em>";
+  const changed = runs.filter((r) => r.added.length + r.removed.length + r.channelsChanged.length).length;
+  meta.textContent = `${runs.length} build${runs.length === 1 ? "" : "s"} recorded · ${changed} with changes`;
+}
+
+function initUpdatesToggle() {
+  document.getElementById("updatesToggle").addEventListener("click", (e) => {
+    const btn = e.target.closest(".mlb-toggle-btn");
+    if (!btn) return;
+    for (const b of document.querySelectorAll("#updatesToggle .mlb-toggle-btn")) {
+      const isActive = b === btn;
+      b.classList.toggle("active", isActive);
+      b.setAttribute("aria-selected", String(isActive));
+    }
+    renderUpdatesMode(btn.dataset.sport);
+  });
+}
+
+async function loadUpdates() {
+  const [updates, health] = await Promise.all([
+    fetch("/data/updates.json").then((r) => r.json()).catch(() => null),
+    fetch("/data/health.json").then((r) => r.json()).catch(() => null),
+  ]);
+  updatesData = updates;
+  healthData = health;
+  if (health) renderHealth(health);
+  renderUpdatesMode(document.querySelector("#updatesToggle .mlb-toggle-btn.active")?.dataset.sport ?? "football");
+}
+
+// ---- Source health ----
+// Every build script records how each of its data sources fared into
+// health.json (see spike/source-health.js). This surfaces that in the app,
+// because a scraper breaking is otherwise invisible here — the page just
+// quietly shows less. "Degraded" means the source worked but some of its
+// channels errored; "down" means it produced nothing.
+function relativeAge(iso) {
+  if (!iso) return "never";
+  const mins = Math.round((Date.now() - Date.parse(iso)) / 60000);
+  if (mins < 60) return `${Math.max(mins, 0)}m ago`;
+  const hours = Math.round(mins / 60);
+  if (hours < 48) return `${hours}h ago`;
+  return `${Math.round(hours / 24)}d ago`;
+}
+
+function renderHealth(health) {
+  const chip = document.getElementById("healthChip");
+  const panel = document.getElementById("healthPanel");
+  const sources = health?.sources ?? [];
+  if (!sources.length) return; // stays hidden until a build has reported
+
+  const down = sources.filter((s) => !s.ok);
+  const degraded = sources.filter((s) => s.ok && s.degraded);
+  const state = down.length ? "down" : degraded.length ? "degraded" : "ok";
+  chip.hidden = false;
+  chip.className = `health-chip ${state}`;
+  chip.textContent = down.length
+    ? `${down.length} source${down.length === 1 ? "" : "s"} down`
+    : degraded.length
+      ? `${degraded.length} degraded`
+      : `All ${sources.length} sources OK`;
+  chip.setAttribute("aria-label", `Data source health: ${chip.textContent}. Click for detail.`);
+
+  // Per-channel accounting, grouped by the source that fetched it. A scraper
+  // being reachable is not the same as it still working: a channel that
+  // fetches plenty and lists nothing is either having a quiet week or has
+  // quietly stopped parsing, and until this was surfaced the two looked
+  // identical from here.
+  const bySource = new Map();
+  for (const c of health?.channels ?? []) {
+    if (!bySource.has(c.source)) bySource.set(c.source, []);
+    bySource.get(c.source).push(c);
+  }
+  const DROP_LABELS = {
+    notFootball: "other sport",
+    unparsed: "no matchup in the listing",
+    live: "live broadcast",
+    archive: "old season",
+    untracked: "not a tracked match",
+    window: "outside the replay window",
+    duplicate: "already listed",
+  };
+  function channelDetail(sourceId) {
+    const list = bySource.get(sourceId);
+    if (!list?.length) return "";
+    const total = (k) => list.reduce((t, c) => t + (c[k] ?? 0), 0);
+    const listed = total("attributed") + total("supplemented");
+    const drops = Object.entries(
+      list.reduce((acc, c) => {
+        for (const [k, n] of Object.entries(c.drops ?? {})) acc[k] = (acc[k] ?? 0) + n;
+        return acc;
+      }, {})
+    ).sort((a, b) => b[1] - a[1]);
+    const silent = list.filter((c) => c.fetched > 0 && c.attributed + (c.supplemented ?? 0) === 0).map((c) => c.channel);
+    return `<div class="health-channels">
+        <span>${total("fetched")} programmes read · ${total("parsed")} named two teams · <strong>${listed} listed</strong>${total("supplemented") ? ` <span class="health-supplemented">(${total("supplemented")} direct VT listings)</span>` : ""}</span>
+        ${drops.length ? `<span class="health-drops">${drops.map(([k, n]) => `${n} ${DROP_LABELS[k] ?? k}`).join(" · ")}</span>` : ""}
+        ${silent.length ? `<span class="health-silent">nothing listed from: ${silent.join(", ")}</span>` : ""}
+      </div>`;
+  }
+
+  const groups = groupBy(sources, (s) => s.group);
+  panel.innerHTML =
+    [...groups.entries()]
+      .map(([group, list]) => {
+        const rows = list
+          .map((s) => {
+            const status = !s.ok ? "down" : s.degraded ? "degraded" : "ok";
+            const detail = [
+              s.channelsTotal != null ? `${s.channelsOk}/${s.channelsTotal} channels` : null,
+              s.items != null ? `${s.items} items` : null,
+              `checked ${relativeAge(s.checkedAt)}`,
+              // Only worth saying when it isn't the same as "checked".
+              !s.ok ? `last OK ${relativeAge(s.lastOkAt)}` : null,
+            ]
+              .filter(Boolean)
+              .join(" · ");
+            return `<div class="health-row">
+                <span class="health-status ${status}">${status}</span>
+                <span class="health-name">${s.label}</span>
+                <span class="health-detail">${detail}</span>
+              </div>${s.error && status !== "ok" ? `<div class="health-error">${s.error}</div>` : ""}${channelDetail(s.id)}`;
+          })
+          .join("");
+        return `<div class="health-group-label">${group}</div>${rows}`;
+      })
+      .join("") +
+    `<div class="health-foot">Last build ${relativeAge(health.generatedAt)}. Anything down or degraded is worth reporting so it can be fixed.</div>`;
+
+  chip.addEventListener("click", () => {
+    const open = panel.hidden;
+    panel.hidden = !open;
+    chip.setAttribute("aria-expanded", String(open));
+  });
+  // A down source used to auto-open this panel. That was right when nothing
+  // was ever down, and wrong the moment something stayed down: the panel is
+  // ~1400px of diagnostics, so it buried the entire dashboard below the fold
+  // on every single load. The red chip in the header already makes a failure
+  // impossible to miss, and it costs no vertical space — so the chip shouts
+  // and the panel stays a click away.
+}
+
+// Football's two modes. Unlike MLB and Fights there's no "Past" button —
+// the sidebar's "Recently played" panel already is that, and it stays
+// available in both modes. Catch up swaps the fixtures list (and the
+// country filter, which doesn't apply to an airing-ordered list) for the
+// shared replay schedule rather than re-rendering #events, so the fixtures'
+// collapse state and quick-nav filtering survive the round trip untouched.
+let soccerData = null;
+let soccerFixturesMeta = "";
+let soccerCatchupMode = "all";
+
+// ==== SEARCH (football only) ============================================
+// Search cuts across the Fixtures/Catch up toggle rather than filtering
+// inside whichever one is open: "Boca" has to answer both "when do they play
+// and who shows it" and "where can I still watch the last one", and those
+// answers live in different data sets. An active query therefore replaces
+// the mode's view with a combined results view; clearing it restores the
+// mode untouched.
+const SEARCH_MIN_CHARS = 2;
+let soccerSearchQuery = "";
+let soccerMode = "fixtures";
+
+// Built once per item and cached, since every keystroke re-scans ~3000
+// catch-up rows on top of the fixtures.
+const searchHaystacks = new WeakMap();
+function haystackFor(item, build) {
+  let text = searchHaystacks.get(item);
+  if (text === undefined) {
+    text = build(item);
+    searchHaystacks.set(item, text);
+  }
+  return text;
+}
+
+// Matching uses the same simplified form the rest of the page does
+// (lowercase, accents stripped), so "atletico" finds "Atlético". Channels and
+// competition are in the haystack too — with a multi-market channel list, "Premiere" or
+// "Libertadores" is as natural a question as a club name.
+const eventHaystack = (e) =>
+  haystackFor(e, (x) =>
+    simplifyName(
+      [
+        x.homeTeam,
+        x.awayTeam,
+        x.homeTeamKey,
+        x.awayTeamKey,
+        x.competition,
+        x.country,
+        x.crossCountry,
+        ...(x.channels ?? []).map((c) => c.name),
+        ...[...(x.broadcastGroups ?? []), ...(x.replayGroups ?? [])].flatMap((g) => [
+          g.label,
+          ...(g.channels ?? []).map((c) => c.name),
+        ]),
+      ]
+        .filter(Boolean)
+        .join(" ")
+    )
+  );
+
+// Deliberately includes the normalized watchKey as well as the display
+// label: a guide writes "U. Catolica" where the key correlated to it reads
+// "universidad catolica", so a query hits whichever form it happens to match
+// instead of depending on which source wrote the row.
+const rowHaystack = (r) =>
+  haystackFor(r, (x) => simplifyName([x.label, x.sublabel, x.watchKey, x.market, x.channel?.name].filter(Boolean).join(" ")));
+
+const searchTokens = (q) => simplifyName(q).split(" ").filter(Boolean);
+// Every token must appear, so "boca river" narrows to the derby while "boca"
+// alone keeps everything Boca.
+const matchesQuery = (haystack, tokens) => tokens.every((t) => haystack.includes(t));
+const escapeHtml = (s) => (s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const airingKey = (r) => `${r.channel?.name}|${r.airTimeUTC}|${r.label}`;
+
+// Every replay feed, not only the general one: the country feeds carry rows
+// the strict tracked-match feed deliberately leaves out (Brazil's native
+// "VT -" replay markers, for one), and a search for a team should find its
+// replay wherever it was listed. Deduped on channel + air time + label, since
+// the same airing legitimately appears in more than one feed.
+function soccerReplayRows() {
+  const seen = new Set();
+  const rows = [];
+  for (const feed of [
+    soccerData?.replaySchedule,
+    soccerData?.brazilReplaySchedule,
+    soccerData?.argentinaReplaySchedule,
+    soccerData?.mexicoReplaySchedule,
+    soccerData?.spainReplaySchedule,
+  ]) {
+    for (const r of feed ?? []) {
+      const key = airingKey(r);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      rows.push(r);
+    }
+  }
+  return rows;
+}
+
+function searchGroup(container, name, countText, note) {
+  const section = document.createElement("section");
+  section.className = "search-group";
+  section.innerHTML =
+    `<div class="search-group-head"><span class="search-group-name">${name}</span><span class="search-group-count">${countText}</span></div>` +
+    (note ? `<div class="search-group-note">${note}</div>` : "");
+  const body = document.createElement("div");
+  section.appendChild(body);
+  container.appendChild(section);
+  return body;
+}
+
+const countLabel = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+
+function renderSoccerSearch(query) {
+  const container = document.getElementById("soccerSearchResults");
+  container.innerHTML = "";
+  const tokens = searchTokens(query);
+  const now = Date.now();
+  // Counted and rendered off the same filtered list, so a heading can't claim
+  // rows renderCatchUp has already dropped as finished.
+  const stillAiring = (rows) => rows.filter((r) => catchUpEndsAt(r) >= now && matchesQuery(rowHaystack(r), tokens));
+
+  const events = (soccerData?.events ?? []).filter((e) => matchesQuery(eventHaystack(e), tokens));
+  const recent = (soccerData?.recentEvents ?? []).filter((e) => matchesQuery(eventHaystack(e), tokens));
+  const replays = stillAiring(soccerReplayRows());
+  const alreadyShown = new Set(replays.map(airingKey));
+  const guide = stillAiring(soccerData?.allGuideSchedule ?? []).filter((r) => !alreadyShown.has(airingKey(r)));
+
+  if (events.length) {
+    renderEventsGrouped(
+      searchGroup(
+        container,
+        "Scheduled matches",
+        countLabel(events.length, "match", "matches"),
+        "Open a row for kick-off times and every channel carrying it."
+      ),
+      events
+    );
+  }
+  if (replays.length) {
+    renderCatchUp(
+      searchGroup(container, "Catch up", countLabel(replays.length, "airing", "airings"), "Replays and highlights still to air, in UK time."),
+      replays,
+      { emptyText: "" }
+    );
+  }
+  if (guide.length) {
+    renderCatchUp(
+      searchGroup(
+        container,
+        "Channel listings",
+        countLabel(guide.length, "listing", "listings"),
+        "Live and upcoming slots from every tracked market's guide, not pinned to a tracked fixture."
+      ),
+      guide,
+      { emptyText: "" }
+    );
+  }
+  if (recent.length) {
+    renderEventsGrouped(
+      searchGroup(
+        container,
+        "Recently played",
+        countLabel(recent.length, "match", "matches"),
+        "What carried it originally, plus any confirmed re-air."
+      ),
+      recent,
+      { descending: true }
+    );
+  }
+
+  const summary = [
+    events.length ? countLabel(events.length, "scheduled match", "scheduled matches") : null,
+    replays.length ? countLabel(replays.length, "catch-up airing", "catch-up airings") : null,
+    guide.length ? countLabel(guide.length, "channel listing", "channel listings") : null,
+    recent.length ? countLabel(recent.length, "recent match", "recent matches") : null,
+  ].filter(Boolean);
+  if (!summary.length) {
+    container.innerHTML = `<div class="search-empty">Nothing scheduled, listed or re-airing for &ldquo;${escapeHtml(
+      query
+    )}&rdquo;. Try a club (Boca), a competition (Libertadores) or a channel (Premiere).</div>`;
+  }
+  document.getElementById("meta").textContent = summary.length
+    ? `${summary.join(" · ")} for “${query}”`
+    : `No football results for “${query}”`;
+}
+
+function applySoccerSearch(rawQuery) {
+  soccerSearchQuery = (rawQuery ?? "").trim();
+  const active = soccerSearchQuery.length >= SEARCH_MIN_CHARS;
+  document.getElementById("soccerSearchClear").hidden = !(rawQuery ?? "").length;
+  document.getElementById("soccerSearchResults").classList.toggle("hidden", !active);
+  document.getElementById("soccerToggle").classList.toggle("hidden", active);
+  if (!active) {
+    renderSoccerMode(soccerMode);
+    return;
+  }
+  // Search supersedes the mode's own view and both of its filter bars — a
+  // country pill filtering only part of the results would be a trap.
+  document.getElementById("events").classList.add("hidden");
+  document.getElementById("soccerCatchUp").classList.add("hidden");
+  document.getElementById("quickNav").classList.add("hidden");
+  document.getElementById("soccerCatchupMode").classList.add("hidden");
+  document.getElementById("soccerNote").classList.remove("visible");
+  renderSoccerSearch(soccerSearchQuery);
+}
+
+function initSoccerSearch() {
+  const input = document.getElementById("soccerSearchInput");
+  input.addEventListener("input", () => applySoccerSearch(input.value));
+  input.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape" || !input.value) return;
+    input.value = "";
+    applySoccerSearch("");
+  });
+  document.getElementById("soccerSearchClear").addEventListener("click", () => {
+    input.value = "";
+    applySoccerSearch("");
+    input.focus();
+  });
+}
+
+
+function renderSoccerMode(mode) {
+  const isCatchUp = mode === "catchup";
+  const catchUp = document.getElementById("soccerCatchUp");
+  const catchupMode = document.getElementById("soccerCatchupMode");
+  document.getElementById("events").classList.toggle("hidden", isCatchUp);
+  document.getElementById("quickNav").classList.toggle("hidden", isCatchUp);
+  catchUp.classList.toggle("hidden", !isCatchUp);
+  catchupMode.classList.toggle("hidden", !isCatchUp);
+  document.getElementById("soccerNote").classList.toggle("visible", isCatchUp);
+  if (!isCatchUp) {
+    document.getElementById("meta").textContent = soccerFixturesMeta;
+    return;
+  }
+  const scheduleByMode = {
+    all: soccerData?.replaySchedule,
+    "all-guide": soccerData?.allGuideSchedule,
+    "brazil-replays": soccerData?.brazilReplaySchedule ?? (soccerData?.replaySchedule ?? []).filter((r) => r.market === "Brazil"),
+    "brazil-guide": soccerData?.brazilGuideSchedule,
+    "argentina-replays": soccerData?.argentinaReplaySchedule ?? (soccerData?.replaySchedule ?? []).filter((r) => r.market === "Argentina"),
+    "argentina-guide": soccerData?.argentinaGuideSchedule,
+    "mexico-replays": soccerData?.mexicoReplaySchedule ?? (soccerData?.replaySchedule ?? []).filter((r) => r.market === "Mexico"),
+    "mexico-guide": soccerData?.mexicoGuideSchedule,
+    "spain-replays": soccerData?.spainReplaySchedule ?? (soccerData?.replaySchedule ?? []).filter((r) => r.market === "Spain"),
+    "spain-guide": soccerData?.spainGuideSchedule,
+  };
+  const schedule = scheduleByMode[soccerCatchupMode] ?? soccerData?.replaySchedule;
+  const emptyTextByMode = {
+    "all-guide": "No current channel listings right now.",
+    "brazil-guide": "No current Brazilian guide listings right now.",
+    "argentina-guide": "No current Argentine guide listings right now.",
+    "mexico-guide": "No current Mexican guide listings right now.",
+    "spain-guide": "No current Spanish guide listings right now.",
+  };
+  renderCatchUp(catchUp, schedule, {
+    emptyText:
+      emptyTextByMode[soccerCatchupMode] ??
+      "No replay or highlights airings scheduled right now — check All channels for current/upcoming broadcasts.",
+  });
+  // Counted the same way renderCatchUp filters, so the number matches the
+  // rows actually on screen.
+  const now = Date.now();
+  const n = (schedule ?? []).filter(
+    (r) => (r.endsAtUTC ? Date.parse(r.endsAtUTC) : Date.parse(r.airTimeUTC) + 2 * 3600000) >= now
+  ).length;
+  const labelByMode = {
+    "all-guide": "channel listing",
+    "brazil-guide": "Brazil guide listing",
+    "brazil-replays": "Brazil replay airing",
+    "argentina-guide": "Argentina guide listing",
+    "argentina-replays": "Argentina replay airing",
+    "mexico-guide": "Mexico guide listing",
+    "mexico-replays": "Mexico replay airing",
+    "spain-guide": "Spain guide listing",
+    "spain-replays": "Spain replay airing",
+  };
+  const label = labelByMode[soccerCatchupMode] ?? "replay airing";
+  document.getElementById("meta").textContent = `${n} ${label}${n === 1 ? "" : "s"} coming up · updated ${new Date(soccerData.generatedAt).toLocaleString("en-GB")}`;
+}
+
+function initSoccerToggle() {
+  document.getElementById("soccerToggle").addEventListener("click", (e) => {
+    const btn = e.target.closest(".mlb-toggle-btn");
+    if (!btn) return;
+    for (const b of document.querySelectorAll("#soccerToggle .mlb-toggle-btn")) {
+      const isActive = b === btn;
+      b.classList.toggle("active", isActive);
+      b.setAttribute("aria-selected", String(isActive));
+    }
+    soccerMode = btn.dataset.mode;
+    renderSoccerMode(soccerMode);
+  });
+  document.getElementById("soccerCatchupMode").addEventListener("click", (e) => {
+    const btn = e.target.closest(".mlb-toggle-btn");
+    if (!btn) return;
+    soccerCatchupMode = btn.dataset.catchupMode;
+    for (const b of document.querySelectorAll("#soccerCatchupMode .mlb-toggle-btn")) {
+      const isActive = b === btn;
+      b.classList.toggle("active", isActive);
+      b.setAttribute("aria-selected", String(isActive));
+    }
+    renderSoccerMode("catchup");
+  });
+}
+
+async function load() {
+  // Fixture data is regenerated daily and must not be held at an older CDN
+  // snapshot after the refresh workflow publishes a new file.
+  const fixturesUrl = `/data/fixtures.json?refresh=${Date.now()}`;
+  const [data, standings, changelogRuns] = await Promise.all([
+    fetch(fixturesUrl, { cache: "no-store" }).then((r) => r.json()),
+    fetch("/data/standings.json").then((r) => r.json()).catch(() => null),
+    fetch("/data/changelog.json").then((r) => r.json()).catch(() => []),
+  ]);
+
+  if (standings) {
+    buildBracketTieLookup(standings);
+    buildLeagueRoundLookup(standings);
+  }
+
+  soccerData = data;
+  soccerFixturesMeta =
+    `${data.events.length} match${data.events.length === 1 ? "" : "es"} in the next 7 days · updated ${new Date(data.generatedAt).toLocaleString("en-GB")}`;
+  document.getElementById("meta").textContent = soccerFixturesMeta;
+
+  buildQuickNav(data.events);
+  renderEventsGrouped(document.getElementById("events"), data.events);
+  initQuickNav();
+
+  const recentEvents = data.recentEvents ?? [];
+  buildTeamLogoLookup(data.events, recentEvents);
+  document.getElementById("recentToggle").textContent = `Recently played (${recentEvents.length})`;
+  const recentPanel = document.getElementById("recentPanel");
+  recentEvents.length
+    ? renderEventsGrouped(recentPanel, recentEvents, { descending: true })
+    : (recentPanel.innerHTML = "<em>Nothing played in the last day yet.</em>");
+
+  const standingsPanel = document.getElementById("standingsPanel");
+  standings ? renderStandingsPanel(standingsPanel, standings) : (standingsPanel.innerHTML = "<em>Standings unavailable right now.</em>");
+
+  initTeamHistoryPanel(document.getElementById("teamPanel"), data.events, recentEvents);
+  renderUpdatesPanel(document.getElementById("updatesPanel"), changelogRuns);
+
+  initSideTabs();
+
+  // The search box is usable before the fetch resolves, so a query typed
+  // during the initial load has to be re-run against the data that just
+  // arrived rather than being left showing an empty result.
+  if (soccerSearchQuery.length >= SEARCH_MIN_CHARS) renderSoccerSearch(soccerSearchQuery);
+}
+
+initThemeToggle();
+initScheduleDisclosure();
+initSportSwitcher();
+initMlbToggle();
+initMlbLeagueToggle();
+initSoccerToggle();
+initSoccerSearch();
+initFightsToggle();
+initFightsNav();
+initUpdatesToggle();
+initWatchToggles();
+// Loads both the per-sport update history and the health/incident log; the
+// header chip is rendered from the same fetch rather than a second one.
+loadUpdates().catch(() => {}); // missing files on a first run aren't worth surfacing
+// Watched state loads BEFORE any sport's data renders, so every fixture/
+// catch-up row paints with the right checkbox state from the start instead
+// of flashing unchecked and then flipping once the sync catches up.
+loadWatched()
+  .catch(() => {})
+  .then(() => {
+    load().catch((err) => {
+      document.getElementById("meta").textContent = "Failed to load data: " + err.message;
+    });
+    loadMlb().catch((err) => {
+      document.getElementById("mlbGames").innerHTML = "Failed to load MLB data: " + err.message;
+    });
+    loadFights().catch((err) => {
+      document.getElementById("fightGames").innerHTML = "Failed to load fight data: " + err.message;
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,3048 @@
+{
+  "generatedAt": "2026-10-02T16:53:41.023Z",
+  "tables": [
+    {
+      "competition": "Campeonato Brasileiro Série A",
+      "competitionLogo": "/logos/competitions/brasileirao.svg",
+      "note": null,
+      "groups": [
+        {
+          "label": null,
+          "rows": [
+            {
+              "position": 1,
+              "team": "Palmeiras",
+              "teamLogo": "/logos/teams/72067aa64323f561c3a0.png",
+              "played": 24,
+              "win": 15,
+              "draw": 6,
+              "loss": 3,
+              "gf": 44,
+              "ga": 20,
+              "gd": 24,
+              "points": 51,
+              "zone": {
+                "tier": "primary",
+                "label": "Libertadores"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Flamengo",
+              "teamLogo": "/logos/teams/702deecd34000bf1dd73.png",
+              "played": 23,
+              "win": 13,
+              "draw": 6,
+              "loss": 4,
+              "gf": 45,
+              "ga": 21,
+              "gd": 24,
+              "points": 45,
+              "zone": {
+                "tier": "primary",
+                "label": "Libertadores"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Athletico Paranaense",
+              "teamLogo": "/logos/teams/328654b52683e9c3fe15.png",
+              "played": 24,
+              "win": 13,
+              "draw": 5,
+              "loss": 6,
+              "gf": 34,
+              "ga": 22,
+              "gd": 12,
+              "points": 44,
+              "zone": {
+                "tier": "primary",
+                "label": "Libertadores"
+              }
+            },
+            {
+              "position": 4,
+              "team": "Fluminense",
+              "teamLogo": "/logos/teams/a7bb0258b7c304ef8e2b.png",
+              "played": 24,
+              "win": 11,
+              "draw": 8,
+              "loss": 5,
+              "gf": 36,
+              "ga": 29,
+              "gd": 7,
+              "points": 41,
+              "zone": {
+                "tier": "primary",
+                "label": "Libertadores"
+              }
+            },
+            {
+              "position": 5,
+              "team": "Cruzeiro",
+              "teamLogo": "/logos/teams/ce4cbf535c20ef96f812.png",
+              "played": 24,
+              "win": 11,
+              "draw": 6,
+              "loss": 7,
+              "gf": 34,
+              "ga": 33,
+              "gd": 1,
+              "points": 39,
+              "zone": {
+                "tier": "primary",
+                "label": "Libertadores"
+              }
+            },
+            {
+              "position": 6,
+              "team": "Bahia",
+              "teamLogo": "/logos/teams/cc8dc4dabf86b8319062.png",
+              "played": 24,
+              "win": 9,
+              "draw": 10,
+              "loss": 5,
+              "gf": 34,
+              "ga": 28,
+              "gd": 6,
+              "points": 37,
+              "zone": {
+                "tier": "secondary",
+                "label": "Sudamericana"
+              }
+            },
+            {
+              "position": 7,
+              "team": "Red Bull Bragantino",
+              "teamLogo": "/logos/teams/fd55152f8d343231a882.png",
+              "played": 23,
+              "win": 10,
+              "draw": 5,
+              "loss": 8,
+              "gf": 28,
+              "ga": 23,
+              "gd": 5,
+              "points": 35,
+              "zone": {
+                "tier": "secondary",
+                "label": "Sudamericana"
+              }
+            },
+            {
+              "position": 8,
+              "team": "Coritiba",
+              "teamLogo": "/logos/teams/8c9fcd8a34218524d00b.png",
+              "played": 24,
+              "win": 9,
+              "draw": 7,
+              "loss": 8,
+              "gf": 30,
+              "ga": 31,
+              "gd": -1,
+              "points": 34,
+              "zone": {
+                "tier": "secondary",
+                "label": "Sudamericana"
+              }
+            },
+            {
+              "position": 9,
+              "team": "Atlético-MG",
+              "teamLogo": "/logos/teams/f194b6559737e5efc127.png",
+              "played": 23,
+              "win": 9,
+              "draw": 6,
+              "loss": 8,
+              "gf": 30,
+              "ga": 27,
+              "gd": 3,
+              "points": 33,
+              "zone": {
+                "tier": "secondary",
+                "label": "Sudamericana"
+              }
+            },
+            {
+              "position": 10,
+              "team": "Corinthians",
+              "teamLogo": "/logos/teams/1e18486ad465f96c5ae5.png",
+              "played": 24,
+              "win": 8,
+              "draw": 8,
+              "loss": 8,
+              "gf": 26,
+              "ga": 24,
+              "gd": 2,
+              "points": 32,
+              "zone": {
+                "tier": "secondary",
+                "label": "Sudamericana"
+              }
+            },
+            {
+              "position": 11,
+              "team": "Botafogo",
+              "teamLogo": "/logos/teams/d5215b86e474034f6005.png",
+              "played": 23,
+              "win": 8,
+              "draw": 6,
+              "loss": 9,
+              "gf": 37,
+              "ga": 37,
+              "gd": 0,
+              "points": 30,
+              "zone": {
+                "tier": "secondary",
+                "label": "Sudamericana"
+              }
+            },
+            {
+              "position": 12,
+              "team": "Vitória",
+              "teamLogo": "/logos/teams/b1c7a6020145b530d2ec.png",
+              "played": 24,
+              "win": 8,
+              "draw": 5,
+              "loss": 11,
+              "gf": 23,
+              "ga": 35,
+              "gd": -12,
+              "points": 29,
+              "zone": null
+            },
+            {
+              "position": 13,
+              "team": "São Paulo",
+              "teamLogo": "/logos/teams/e300716ed346e469a9c8.png",
+              "played": 23,
+              "win": 7,
+              "draw": 6,
+              "loss": 10,
+              "gf": 27,
+              "ga": 27,
+              "gd": 0,
+              "points": 27,
+              "zone": null
+            },
+            {
+              "position": 14,
+              "team": "Santos",
+              "teamLogo": "/logos/teams/6cf2fb885b4996c81d7f.png",
+              "played": 23,
+              "win": 6,
+              "draw": 8,
+              "loss": 9,
+              "gf": 33,
+              "ga": 36,
+              "gd": -3,
+              "points": 26,
+              "zone": null
+            },
+            {
+              "position": 15,
+              "team": "Grêmio",
+              "teamLogo": "/logos/teams/4e4521fa2a95bbb308d2.png",
+              "played": 23,
+              "win": 6,
+              "draw": 7,
+              "loss": 10,
+              "gf": 24,
+              "ga": 31,
+              "gd": -7,
+              "points": 25,
+              "zone": null
+            },
+            {
+              "position": 16,
+              "team": "Internacional",
+              "teamLogo": "/logos/teams/16a04bd2db3036cef3f0.png",
+              "played": 24,
+              "win": 5,
+              "draw": 10,
+              "loss": 9,
+              "gf": 24,
+              "ga": 28,
+              "gd": -4,
+              "points": 25,
+              "zone": null
+            },
+            {
+              "position": 17,
+              "team": "Mirassol",
+              "teamLogo": "/logos/teams/ed539d8647f863d11e1f.png",
+              "played": 23,
+              "win": 6,
+              "draw": 6,
+              "loss": 11,
+              "gf": 26,
+              "ga": 36,
+              "gd": -10,
+              "points": 24,
+              "zone": {
+                "tier": "danger",
+                "label": "Relegation"
+              }
+            },
+            {
+              "position": 18,
+              "team": "Remo",
+              "teamLogo": "/logos/teams/a74f93d10947bddf161d.png",
+              "played": 24,
+              "win": 5,
+              "draw": 8,
+              "loss": 11,
+              "gf": 28,
+              "ga": 39,
+              "gd": -11,
+              "points": 23,
+              "zone": {
+                "tier": "danger",
+                "label": "Relegation"
+              }
+            },
+            {
+              "position": 19,
+              "team": "Vasco da Gama",
+              "teamLogo": "/logos/teams/fc154bafeeb7e5b2fa7d.png",
+              "played": 23,
+              "win": 5,
+              "draw": 7,
+              "loss": 11,
+              "gf": 24,
+              "ga": 38,
+              "gd": -14,
+              "points": 22,
+              "zone": {
+                "tier": "danger",
+                "label": "Relegation"
+              }
+            },
+            {
+              "position": 20,
+              "team": "Chapecoense",
+              "teamLogo": "/logos/teams/85d99a08c339a8959652.png",
+              "played": 23,
+              "win": 2,
+              "draw": 8,
+              "loss": 13,
+              "gf": 24,
+              "ga": 46,
+              "gd": -22,
+              "points": 14,
+              "zone": {
+                "tier": "danger",
+                "label": "Relegation"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competition": "Liga Profesional de Fútbol",
+      "competitionLogo": "/logos/competitions/liga-profesional.svg",
+      "note": "Zone position doesn't determine qualification or relegation this season — both use separate cross-zone tables (Tabla Anual, Promedios) not tracked here.",
+      "groups": [
+        {
+          "label": "Group A",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Instituto (Córdoba)",
+              "teamLogo": "/logos/teams/62841d91c835a220c396.png",
+              "played": 6,
+              "win": 4,
+              "draw": 1,
+              "loss": 1,
+              "gf": 5,
+              "ga": 2,
+              "gd": 3,
+              "points": 13,
+              "zone": null
+            },
+            {
+              "position": 2,
+              "team": "Vélez Sarsfield",
+              "teamLogo": "/logos/teams/7c01cf40c79d4cb166ab.png",
+              "played": 6,
+              "win": 3,
+              "draw": 3,
+              "loss": 0,
+              "gf": 9,
+              "ga": 5,
+              "gd": 4,
+              "points": 12,
+              "zone": null
+            },
+            {
+              "position": 3,
+              "team": "Gimnasia (Mendoza)",
+              "teamLogo": "/logos/teams/44ea88062e8d37a48637.png",
+              "played": 6,
+              "win": 4,
+              "draw": 0,
+              "loss": 2,
+              "gf": 9,
+              "ga": 5,
+              "gd": 4,
+              "points": 12,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Defensa y Justicia",
+              "teamLogo": "/logos/teams/2ad982da5cf4784080e8.png",
+              "played": 6,
+              "win": 3,
+              "draw": 2,
+              "loss": 1,
+              "gf": 8,
+              "ga": 8,
+              "gd": 0,
+              "points": 11,
+              "zone": null
+            },
+            {
+              "position": 5,
+              "team": "Independiente",
+              "teamLogo": "/logos/teams/f203a7900f4cd33f8933.png",
+              "played": 6,
+              "win": 3,
+              "draw": 1,
+              "loss": 2,
+              "gf": 6,
+              "ga": 3,
+              "gd": 3,
+              "points": 10,
+              "zone": null
+            },
+            {
+              "position": 6,
+              "team": "Newell's Old Boys",
+              "teamLogo": "/logos/teams/170c853ea2de6a74bc01.png",
+              "played": 6,
+              "win": 3,
+              "draw": 1,
+              "loss": 2,
+              "gf": 8,
+              "ga": 6,
+              "gd": 2,
+              "points": 10,
+              "zone": null
+            },
+            {
+              "position": 7,
+              "team": "Platense",
+              "teamLogo": "/logos/teams/fd2c01f299217d3d7bd8.png",
+              "played": 6,
+              "win": 2,
+              "draw": 2,
+              "loss": 2,
+              "gf": 7,
+              "ga": 10,
+              "gd": -3,
+              "points": 8,
+              "zone": null
+            },
+            {
+              "position": 8,
+              "team": "Deportivo Riestra",
+              "teamLogo": "/logos/teams/2a70e9a6f4b57fbede0d.png",
+              "played": 6,
+              "win": 2,
+              "draw": 1,
+              "loss": 3,
+              "gf": 6,
+              "ga": 5,
+              "gd": 1,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 9,
+              "team": "Lanús",
+              "teamLogo": "/logos/teams/f7b6849b4415764235f7.png",
+              "played": 6,
+              "win": 2,
+              "draw": 1,
+              "loss": 3,
+              "gf": 7,
+              "ga": 7,
+              "gd": 0,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 10,
+              "team": "Unión (Santa Fe)",
+              "teamLogo": "/logos/teams/1d35884d109a338a9276.png",
+              "played": 6,
+              "win": 2,
+              "draw": 1,
+              "loss": 3,
+              "gf": 8,
+              "ga": 9,
+              "gd": -1,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 11,
+              "team": "Boca Juniors",
+              "teamLogo": "/logos/teams/b7ffea676a4666959790.png",
+              "played": 6,
+              "win": 1,
+              "draw": 4,
+              "loss": 1,
+              "gf": 6,
+              "ga": 8,
+              "gd": -2,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 12,
+              "team": "San Lorenzo",
+              "teamLogo": "/logos/teams/66e906eab57bb4a525b7.png",
+              "played": 6,
+              "win": 2,
+              "draw": 1,
+              "loss": 3,
+              "gf": 2,
+              "ga": 4,
+              "gd": -2,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 13,
+              "team": "Estudiantes de La Plata",
+              "teamLogo": "/logos/teams/db1874c3a9fb8c9e2243.png",
+              "played": 6,
+              "win": 2,
+              "draw": 0,
+              "loss": 4,
+              "gf": 7,
+              "ga": 7,
+              "gd": 0,
+              "points": 6,
+              "zone": null
+            },
+            {
+              "position": 14,
+              "team": "Central Córdoba (Santiago del Estero)",
+              "teamLogo": "/logos/teams/013df6d85e75fe662af1.png",
+              "played": 6,
+              "win": 2,
+              "draw": 0,
+              "loss": 4,
+              "gf": 4,
+              "ga": 7,
+              "gd": -3,
+              "points": 6,
+              "zone": null
+            },
+            {
+              "position": 15,
+              "team": "Talleres (Córdoba)",
+              "teamLogo": "/logos/teams/da614851724c31e1421d.png",
+              "played": 6,
+              "win": 1,
+              "draw": 1,
+              "loss": 4,
+              "gf": 8,
+              "ga": 12,
+              "gd": -4,
+              "points": 4,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group B",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Argentinos Juniors",
+              "teamLogo": "/logos/teams/a48d00446d130b55d063.png",
+              "played": 6,
+              "win": 4,
+              "draw": 1,
+              "loss": 1,
+              "gf": 10,
+              "ga": 6,
+              "gd": 4,
+              "points": 13,
+              "zone": null
+            },
+            {
+              "position": 2,
+              "team": "Sarmiento (Junín)",
+              "teamLogo": "/logos/teams/964c4f5b5027a0ca1df9.png",
+              "played": 6,
+              "win": 4,
+              "draw": 0,
+              "loss": 2,
+              "gf": 12,
+              "ga": 8,
+              "gd": 4,
+              "points": 12,
+              "zone": null
+            },
+            {
+              "position": 3,
+              "team": "Tigre",
+              "teamLogo": "/logos/teams/8645c0a47bac59748d09.png",
+              "played": 6,
+              "win": 3,
+              "draw": 2,
+              "loss": 1,
+              "gf": 6,
+              "ga": 3,
+              "gd": 3,
+              "points": 11,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Rosario Central",
+              "teamLogo": "/logos/teams/75057e8f73a893f9cb8a.png",
+              "played": 6,
+              "win": 3,
+              "draw": 2,
+              "loss": 1,
+              "gf": 7,
+              "ga": 5,
+              "gd": 2,
+              "points": 11,
+              "zone": null
+            },
+            {
+              "position": 5,
+              "team": "Belgrano (Córdoba)",
+              "teamLogo": "/logos/teams/c9cfdd487cad3f292d91.png",
+              "played": 6,
+              "win": 3,
+              "draw": 1,
+              "loss": 2,
+              "gf": 7,
+              "ga": 4,
+              "gd": 3,
+              "points": 10,
+              "zone": null
+            },
+            {
+              "position": 6,
+              "team": "Atlético Tucumán",
+              "teamLogo": "/logos/teams/e1b14ca26d5557cb7cc9.png",
+              "played": 6,
+              "win": 2,
+              "draw": 3,
+              "loss": 1,
+              "gf": 4,
+              "ga": 2,
+              "gd": 2,
+              "points": 9,
+              "zone": null
+            },
+            {
+              "position": 7,
+              "team": "Barracas Central",
+              "teamLogo": "/logos/teams/602f5563b677cd749192.png",
+              "played": 6,
+              "win": 3,
+              "draw": 0,
+              "loss": 3,
+              "gf": 4,
+              "ga": 5,
+              "gd": -1,
+              "points": 9,
+              "zone": null
+            },
+            {
+              "position": 8,
+              "team": "Gimnasia La Plata",
+              "teamLogo": "/logos/teams/5ab44bc1127d68d86b25.png",
+              "played": 6,
+              "win": 3,
+              "draw": 0,
+              "loss": 3,
+              "gf": 8,
+              "ga": 10,
+              "gd": -2,
+              "points": 9,
+              "zone": null
+            },
+            {
+              "position": 9,
+              "team": "Huracán",
+              "teamLogo": "/logos/teams/d989fc2f7c7040e88bf6.png",
+              "played": 6,
+              "win": 2,
+              "draw": 2,
+              "loss": 2,
+              "gf": 4,
+              "ga": 4,
+              "gd": 0,
+              "points": 8,
+              "zone": null
+            },
+            {
+              "position": 10,
+              "team": "Independiente Rivadavia",
+              "teamLogo": "/logos/teams/80a921471972e2cc53e2.png",
+              "played": 6,
+              "win": 2,
+              "draw": 2,
+              "loss": 2,
+              "gf": 5,
+              "ga": 6,
+              "gd": -1,
+              "points": 8,
+              "zone": null
+            },
+            {
+              "position": 11,
+              "team": "Banfield",
+              "teamLogo": "/logos/teams/04e6f47edc3f62fe01ed.png",
+              "played": 6,
+              "win": 2,
+              "draw": 1,
+              "loss": 3,
+              "gf": 5,
+              "ga": 7,
+              "gd": -2,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 12,
+              "team": "Racing Club",
+              "teamLogo": "/logos/teams/7652d5af753c3a9a9049.png",
+              "played": 6,
+              "win": 1,
+              "draw": 2,
+              "loss": 3,
+              "gf": 5,
+              "ga": 8,
+              "gd": -3,
+              "points": 5,
+              "zone": null
+            },
+            {
+              "position": 13,
+              "team": "Estudiantes de Río Cuarto",
+              "teamLogo": "/logos/teams/36ec42acf847e795690a.png",
+              "played": 6,
+              "win": 1,
+              "draw": 2,
+              "loss": 3,
+              "gf": 2,
+              "ga": 6,
+              "gd": -4,
+              "points": 5,
+              "zone": null
+            },
+            {
+              "position": 14,
+              "team": "River Plate",
+              "teamLogo": "/logos/teams/37da0483b9b25bb1f67b.png",
+              "played": 6,
+              "win": 1,
+              "draw": 1,
+              "loss": 4,
+              "gf": 4,
+              "ga": 6,
+              "gd": -2,
+              "points": 4,
+              "zone": null
+            },
+            {
+              "position": 15,
+              "team": "Aldosivi",
+              "teamLogo": "/logos/teams/04046922e5efa7bae7f0.png",
+              "played": 6,
+              "win": 0,
+              "draw": 2,
+              "loss": 4,
+              "gf": 4,
+              "ga": 9,
+              "gd": -5,
+              "points": 2,
+              "zone": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competition": "Liga MX",
+      "competitionLogo": "/logos/competitions/liga-mx.svg",
+      "note": null,
+      "groups": [
+        {
+          "label": null,
+          "rows": [
+            {
+              "position": 1,
+              "team": "América",
+              "teamLogo": "/logos/teams/8c8b3cc399b66596b08c.png",
+              "played": 5,
+              "win": 4,
+              "draw": 1,
+              "loss": 0,
+              "gf": 10,
+              "ga": 2,
+              "gd": 8,
+              "points": 13,
+              "zone": {
+                "tier": "primary",
+                "label": "Liguilla"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Atlas",
+              "teamLogo": "/logos/teams/bd0f5a6767da5df00721.png",
+              "played": 5,
+              "win": 4,
+              "draw": 0,
+              "loss": 1,
+              "gf": 8,
+              "ga": 5,
+              "gd": 3,
+              "points": 12,
+              "zone": {
+                "tier": "primary",
+                "label": "Liguilla"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Toluca",
+              "teamLogo": "/logos/teams/919c1e294be4642b1fee.png",
+              "played": 5,
+              "win": 3,
+              "draw": 1,
+              "loss": 1,
+              "gf": 8,
+              "ga": 4,
+              "gd": 4,
+              "points": 10,
+              "zone": {
+                "tier": "primary",
+                "label": "Liguilla"
+              }
+            },
+            {
+              "position": 4,
+              "team": "Guadalajara",
+              "teamLogo": "/logos/teams/595ee8b3830d5d9fbaec.png",
+              "played": 5,
+              "win": 3,
+              "draw": 1,
+              "loss": 1,
+              "gf": 8,
+              "ga": 5,
+              "gd": 3,
+              "points": 10,
+              "zone": {
+                "tier": "primary",
+                "label": "Liguilla"
+              }
+            },
+            {
+              "position": 5,
+              "team": "Puebla",
+              "teamLogo": "/logos/teams/617863ea4292b46ccafa.png",
+              "played": 5,
+              "win": 3,
+              "draw": 1,
+              "loss": 1,
+              "gf": 9,
+              "ga": 7,
+              "gd": 2,
+              "points": 10,
+              "zone": {
+                "tier": "primary",
+                "label": "Liguilla"
+              }
+            },
+            {
+              "position": 6,
+              "team": "Tijuana",
+              "teamLogo": "/logos/teams/ca6fbf42aa69bfd7cfd6.png",
+              "played": 5,
+              "win": 3,
+              "draw": 1,
+              "loss": 1,
+              "gf": 8,
+              "ga": 7,
+              "gd": 1,
+              "points": 10,
+              "zone": {
+                "tier": "primary",
+                "label": "Liguilla"
+              }
+            },
+            {
+              "position": 7,
+              "team": "Monterrey",
+              "teamLogo": "/logos/teams/db8839beb7690cedb617.png",
+              "played": 5,
+              "win": 3,
+              "draw": 0,
+              "loss": 2,
+              "gf": 12,
+              "ga": 7,
+              "gd": 5,
+              "points": 9,
+              "zone": {
+                "tier": "primary",
+                "label": "Liguilla"
+              }
+            },
+            {
+              "position": 8,
+              "team": "León",
+              "teamLogo": "/logos/teams/5e0d50f559839d826d43.png",
+              "played": 5,
+              "win": 3,
+              "draw": 0,
+              "loss": 2,
+              "gf": 7,
+              "ga": 5,
+              "gd": 2,
+              "points": 9,
+              "zone": {
+                "tier": "primary",
+                "label": "Liguilla"
+              }
+            },
+            {
+              "position": 9,
+              "team": "Pumas UNAM",
+              "teamLogo": "/logos/teams/950082ea0ffc4059a0f2.png",
+              "played": 5,
+              "win": 2,
+              "draw": 2,
+              "loss": 1,
+              "gf": 8,
+              "ga": 6,
+              "gd": 2,
+              "points": 8,
+              "zone": null
+            },
+            {
+              "position": 10,
+              "team": "Querétaro",
+              "teamLogo": "/logos/teams/c9162b25bed8c9cc58b1.png",
+              "played": 5,
+              "win": 2,
+              "draw": 1,
+              "loss": 2,
+              "gf": 6,
+              "ga": 6,
+              "gd": 0,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 11,
+              "team": "Necaxa",
+              "teamLogo": "/logos/teams/35e7c6cf5645bfe439ce.png",
+              "played": 5,
+              "win": 2,
+              "draw": 1,
+              "loss": 2,
+              "gf": 7,
+              "ga": 8,
+              "gd": -1,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 12,
+              "team": "Cruz Azul",
+              "teamLogo": "/logos/teams/381a0a71498b6e55f612.png",
+              "played": 5,
+              "win": 2,
+              "draw": 0,
+              "loss": 3,
+              "gf": 8,
+              "ga": 10,
+              "gd": -2,
+              "points": 6,
+              "zone": null
+            },
+            {
+              "position": 13,
+              "team": "Atlante",
+              "teamLogo": "/logos/teams/1dfaccfcb35701190f06.png",
+              "played": 5,
+              "win": 1,
+              "draw": 2,
+              "loss": 2,
+              "gf": 5,
+              "ga": 7,
+              "gd": -2,
+              "points": 5,
+              "zone": null
+            },
+            {
+              "position": 14,
+              "team": "Pachuca",
+              "teamLogo": "/logos/teams/51bad6608f9a6b9eba2a.png",
+              "played": 5,
+              "win": 1,
+              "draw": 1,
+              "loss": 3,
+              "gf": 7,
+              "ga": 7,
+              "gd": 0,
+              "points": 4,
+              "zone": null
+            },
+            {
+              "position": 15,
+              "team": "Tigres UANL",
+              "teamLogo": "/logos/teams/4dc65decac7bfa2008ea.png",
+              "played": 5,
+              "win": 1,
+              "draw": 1,
+              "loss": 3,
+              "gf": 8,
+              "ga": 10,
+              "gd": -2,
+              "points": 4,
+              "zone": null
+            },
+            {
+              "position": 16,
+              "team": "Atlético de San Luis",
+              "teamLogo": "/logos/teams/bd07eade51dc0343e12c.png",
+              "played": 5,
+              "win": 0,
+              "draw": 3,
+              "loss": 2,
+              "gf": 5,
+              "ga": 9,
+              "gd": -4,
+              "points": 3,
+              "zone": null
+            },
+            {
+              "position": 17,
+              "team": "Santos",
+              "teamLogo": "/logos/teams/62f8df00473159838258.png",
+              "played": 5,
+              "win": 0,
+              "draw": 0,
+              "loss": 5,
+              "gf": 4,
+              "ga": 11,
+              "gd": -7,
+              "points": 0,
+              "zone": null
+            },
+            {
+              "position": 18,
+              "team": "FC Juarez",
+              "teamLogo": "/logos/teams/9b2d82795a655357b349.png",
+              "played": 5,
+              "win": 0,
+              "draw": 0,
+              "loss": 5,
+              "gf": 3,
+              "ga": 15,
+              "gd": -12,
+              "points": 0,
+              "zone": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competition": "CONMEBOL Libertadores",
+      "competitionLogo": "/logos/competitions/libertadores.svg",
+      "note": null,
+      "groups": [
+        {
+          "label": "Group A",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Flamengo",
+              "teamLogo": "/logos/teams/702deecd34000bf1dd73.png",
+              "played": 6,
+              "win": 5,
+              "draw": 1,
+              "loss": 0,
+              "gf": 14,
+              "ga": 2,
+              "gd": 12,
+              "points": 16,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Estudiantes de La Plata",
+              "teamLogo": "/logos/teams/db1874c3a9fb8c9e2243.png",
+              "played": 6,
+              "win": 2,
+              "draw": 3,
+              "loss": 1,
+              "gf": 6,
+              "ga": 5,
+              "gd": 1,
+              "points": 9,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Independiente Medellín",
+              "teamLogo": "/logos/teams/8a85f2cb4cdcf3c060de.png",
+              "played": 6,
+              "win": 2,
+              "draw": 1,
+              "loss": 3,
+              "gf": 6,
+              "ga": 11,
+              "gd": -5,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Cusco FC",
+              "teamLogo": "/logos/teams/389ea15385ee41ae351d.png",
+              "played": 6,
+              "win": 0,
+              "draw": 1,
+              "loss": 5,
+              "gf": 4,
+              "ga": 12,
+              "gd": -8,
+              "points": 1,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group B",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Coquimbo Unido",
+              "teamLogo": "/logos/teams/413796519f121021719d.png",
+              "played": 6,
+              "win": 3,
+              "draw": 1,
+              "loss": 2,
+              "gf": 8,
+              "ga": 6,
+              "gd": 2,
+              "points": 10,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Deportes Tolima",
+              "teamLogo": "/logos/teams/08660d60a568ac55f7a5.png",
+              "played": 6,
+              "win": 2,
+              "draw": 2,
+              "loss": 2,
+              "gf": 7,
+              "ga": 6,
+              "gd": 1,
+              "points": 8,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Nacional",
+              "teamLogo": "/logos/teams/dbd8eccda691aaa2c647.png",
+              "played": 6,
+              "win": 2,
+              "draw": 2,
+              "loss": 2,
+              "gf": 7,
+              "ga": 9,
+              "gd": -2,
+              "points": 8,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Universitario",
+              "teamLogo": "/logos/teams/8c704f73422a0832bf21.png",
+              "played": 6,
+              "win": 1,
+              "draw": 3,
+              "loss": 2,
+              "gf": 5,
+              "ga": 6,
+              "gd": -1,
+              "points": 6,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group C",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Independiente Rivadavia",
+              "teamLogo": "/logos/teams/80a921471972e2cc53e2.png",
+              "played": 6,
+              "win": 5,
+              "draw": 1,
+              "loss": 0,
+              "gf": 15,
+              "ga": 6,
+              "gd": 9,
+              "points": 16,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Fluminense",
+              "teamLogo": "/logos/teams/a7bb0258b7c304ef8e2b.png",
+              "played": 6,
+              "win": 2,
+              "draw": 2,
+              "loss": 2,
+              "gf": 7,
+              "ga": 7,
+              "gd": 0,
+              "points": 8,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Bolívar",
+              "teamLogo": "/logos/teams/93538659fc2128d99f58.png",
+              "played": 6,
+              "win": 1,
+              "draw": 2,
+              "loss": 3,
+              "gf": 6,
+              "ga": 8,
+              "gd": -2,
+              "points": 5,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Deportivo La Guaira",
+              "teamLogo": "/logos/teams/222ffa0fcbf2f1535049.png",
+              "played": 6,
+              "win": 0,
+              "draw": 3,
+              "loss": 3,
+              "gf": 6,
+              "ga": 13,
+              "gd": -7,
+              "points": 3,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group D",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Universidad Católica",
+              "teamLogo": "/logos/teams/6f296628a78f0a397064.png",
+              "played": 6,
+              "win": 4,
+              "draw": 1,
+              "loss": 1,
+              "gf": 8,
+              "ga": 4,
+              "gd": 4,
+              "points": 13,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Cruzeiro",
+              "teamLogo": "/logos/teams/ce4cbf535c20ef96f812.png",
+              "played": 6,
+              "win": 3,
+              "draw": 2,
+              "loss": 1,
+              "gf": 8,
+              "ga": 3,
+              "gd": 5,
+              "points": 11,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Boca Juniors",
+              "teamLogo": "/logos/teams/b7ffea676a4666959790.png",
+              "played": 6,
+              "win": 2,
+              "draw": 1,
+              "loss": 3,
+              "gf": 6,
+              "ga": 5,
+              "gd": 1,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Barcelona SC",
+              "teamLogo": "/logos/teams/95b085a04ebc1e65125d.png",
+              "played": 6,
+              "win": 1,
+              "draw": 0,
+              "loss": 5,
+              "gf": 2,
+              "ga": 12,
+              "gd": -10,
+              "points": 3,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group E",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Corinthians",
+              "teamLogo": "/logos/teams/1e18486ad465f96c5ae5.png",
+              "played": 6,
+              "win": 3,
+              "draw": 2,
+              "loss": 1,
+              "gf": 8,
+              "ga": 4,
+              "gd": 4,
+              "points": 11,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Platense",
+              "teamLogo": "/logos/teams/fd2c01f299217d3d7bd8.png",
+              "played": 6,
+              "win": 3,
+              "draw": 1,
+              "loss": 2,
+              "gf": 8,
+              "ga": 7,
+              "gd": 1,
+              "points": 10,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Independiente Santa Fe",
+              "teamLogo": "/logos/teams/69f9bf5433d603c12001.png",
+              "played": 6,
+              "win": 2,
+              "draw": 2,
+              "loss": 2,
+              "gf": 6,
+              "ga": 7,
+              "gd": -1,
+              "points": 8,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Peñarol",
+              "teamLogo": "/logos/teams/b474636473c29fe7d3dd.png",
+              "played": 6,
+              "win": 0,
+              "draw": 3,
+              "loss": 3,
+              "gf": 4,
+              "ga": 8,
+              "gd": -4,
+              "points": 3,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group F",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Cerro Porteño",
+              "teamLogo": "/logos/teams/79d8a400d88b591f0bd5.png",
+              "played": 6,
+              "win": 4,
+              "draw": 1,
+              "loss": 1,
+              "gf": 6,
+              "ga": 2,
+              "gd": 4,
+              "points": 13,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Palmeiras",
+              "teamLogo": "/logos/teams/72067aa64323f561c3a0.png",
+              "played": 6,
+              "win": 3,
+              "draw": 2,
+              "loss": 1,
+              "gf": 10,
+              "ga": 5,
+              "gd": 5,
+              "points": 11,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Sporting Cristal",
+              "teamLogo": "/logos/teams/5af127dbc8e3dec709e5.png",
+              "played": 6,
+              "win": 2,
+              "draw": 0,
+              "loss": 4,
+              "gf": 6,
+              "ga": 9,
+              "gd": -3,
+              "points": 6,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Atlético Junior",
+              "teamLogo": "/logos/teams/04e61182f58d9577f45b.png",
+              "played": 6,
+              "win": 1,
+              "draw": 1,
+              "loss": 4,
+              "gf": 5,
+              "ga": 11,
+              "gd": -6,
+              "points": 4,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group G",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Liga de Quito",
+              "teamLogo": "/logos/teams/a387fc1815df8fe34232.png",
+              "played": 6,
+              "win": 4,
+              "draw": 0,
+              "loss": 2,
+              "gf": 8,
+              "ga": 5,
+              "gd": 3,
+              "points": 12,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Mirassol",
+              "teamLogo": "/logos/teams/ed539d8647f863d11e1f.png",
+              "played": 6,
+              "win": 4,
+              "draw": 0,
+              "loss": 2,
+              "gf": 7,
+              "ga": 4,
+              "gd": 3,
+              "points": 12,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Lanús",
+              "teamLogo": "/logos/teams/f7b6849b4415764235f7.png",
+              "played": 6,
+              "win": 3,
+              "draw": 0,
+              "loss": 3,
+              "gf": 3,
+              "ga": 7,
+              "gd": -4,
+              "points": 9,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Always Ready",
+              "teamLogo": "/logos/teams/1d147dbd2d8419fedfaa.png",
+              "played": 6,
+              "win": 1,
+              "draw": 0,
+              "loss": 5,
+              "gf": 7,
+              "ga": 9,
+              "gd": -2,
+              "points": 3,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group H",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Independiente del Valle",
+              "teamLogo": "/logos/teams/c12b215c67498dbcb48b.png",
+              "played": 6,
+              "win": 4,
+              "draw": 1,
+              "loss": 1,
+              "gf": 11,
+              "ga": 6,
+              "gd": 5,
+              "points": 13,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Rosario Central",
+              "teamLogo": "/logos/teams/75057e8f73a893f9cb8a.png",
+              "played": 6,
+              "win": 4,
+              "draw": 1,
+              "loss": 1,
+              "gf": 9,
+              "ga": 1,
+              "gd": 8,
+              "points": 13,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 3,
+              "team": "UCV FC",
+              "teamLogo": "/logos/teams/be7fc02641e2bad0f54e.png",
+              "played": 6,
+              "win": 3,
+              "draw": 0,
+              "loss": 3,
+              "gf": 7,
+              "ga": 11,
+              "gd": -4,
+              "points": 9,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Libertad",
+              "teamLogo": "/logos/teams/ea6b3e8f0792b2e49e4c.png",
+              "played": 6,
+              "win": 0,
+              "draw": 0,
+              "loss": 6,
+              "gf": 4,
+              "ga": 13,
+              "gd": -9,
+              "points": 0,
+              "zone": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competition": "CONMEBOL Sudamericana",
+      "competitionLogo": "/logos/competitions/sudamericana.svg",
+      "note": null,
+      "groups": [
+        {
+          "label": "Group A",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Macará",
+              "teamLogo": "/logos/teams/dc9f475e8b7b8187e69d.png",
+              "played": 6,
+              "win": 2,
+              "draw": 4,
+              "loss": 0,
+              "gf": 6,
+              "ga": 3,
+              "gd": 3,
+              "points": 10,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Tigre",
+              "teamLogo": "/logos/teams/8645c0a47bac59748d09.png",
+              "played": 6,
+              "win": 2,
+              "draw": 3,
+              "loss": 1,
+              "gf": 8,
+              "ga": 5,
+              "gd": 3,
+              "points": 9,
+              "zone": {
+                "tier": "secondary",
+                "label": "Playoff"
+              }
+            },
+            {
+              "position": 3,
+              "team": "América de Cali",
+              "teamLogo": "/logos/teams/0a88350aa088b93b6dfd.png",
+              "played": 6,
+              "win": 2,
+              "draw": 3,
+              "loss": 1,
+              "gf": 6,
+              "ga": 5,
+              "gd": 1,
+              "points": 9,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Alianza Atlético",
+              "teamLogo": "/logos/teams/80140b8ad97aae4be5cf.png",
+              "played": 6,
+              "win": 0,
+              "draw": 2,
+              "loss": 4,
+              "gf": 2,
+              "ga": 9,
+              "gd": -7,
+              "points": 2,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group B",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Atlético-MG",
+              "teamLogo": "/logos/teams/f194b6559737e5efc127.png",
+              "played": 6,
+              "win": 3,
+              "draw": 1,
+              "loss": 2,
+              "gf": 8,
+              "ga": 6,
+              "gd": 2,
+              "points": 10,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Cienciano del Cusco",
+              "teamLogo": "/logos/teams/dbad2c22766832581772.png",
+              "played": 6,
+              "win": 2,
+              "draw": 2,
+              "loss": 2,
+              "gf": 5,
+              "ga": 7,
+              "gd": -2,
+              "points": 8,
+              "zone": {
+                "tier": "secondary",
+                "label": "Playoff"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Juventud",
+              "teamLogo": "/logos/teams/9eecc78692a9d3f4a325.png",
+              "played": 6,
+              "win": 1,
+              "draw": 4,
+              "loss": 1,
+              "gf": 10,
+              "ga": 7,
+              "gd": 3,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Academia Puerto Cabello",
+              "teamLogo": "/logos/teams/0ab718b5784d91c5e8cd.png",
+              "played": 6,
+              "win": 2,
+              "draw": 1,
+              "loss": 3,
+              "gf": 6,
+              "ga": 9,
+              "gd": -3,
+              "points": 7,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group C",
+          "rows": [
+            {
+              "position": 1,
+              "team": "São Paulo",
+              "teamLogo": "/logos/teams/e300716ed346e469a9c8.png",
+              "played": 6,
+              "win": 3,
+              "draw": 3,
+              "loss": 0,
+              "gf": 6,
+              "ga": 1,
+              "gd": 5,
+              "points": 12,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "O'Higgins",
+              "teamLogo": "/logos/teams/b94945281063244b8b73.png",
+              "played": 6,
+              "win": 3,
+              "draw": 1,
+              "loss": 2,
+              "gf": 8,
+              "ga": 6,
+              "gd": 2,
+              "points": 10,
+              "zone": {
+                "tier": "secondary",
+                "label": "Playoff"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Millonarios",
+              "teamLogo": "/logos/teams/22d60ac1a55b8ab92bed.png",
+              "played": 6,
+              "win": 2,
+              "draw": 2,
+              "loss": 2,
+              "gf": 7,
+              "ga": 7,
+              "gd": 0,
+              "points": 8,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Boston River",
+              "teamLogo": "/logos/teams/928206dd6a3da4c7772c.png",
+              "played": 6,
+              "win": 1,
+              "draw": 0,
+              "loss": 5,
+              "gf": 5,
+              "ga": 12,
+              "gd": -7,
+              "points": 3,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group D",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Deportivo Recoleta",
+              "teamLogo": "/logos/teams/24faaf11cbdd9b26ac21.png",
+              "played": 6,
+              "win": 1,
+              "draw": 5,
+              "loss": 0,
+              "gf": 6,
+              "ga": 5,
+              "gd": 1,
+              "points": 8,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Santos",
+              "teamLogo": "/logos/teams/6cf2fb885b4996c81d7f.png",
+              "played": 6,
+              "win": 1,
+              "draw": 4,
+              "loss": 1,
+              "gf": 8,
+              "ga": 6,
+              "gd": 2,
+              "points": 7,
+              "zone": {
+                "tier": "secondary",
+                "label": "Playoff"
+              }
+            },
+            {
+              "position": 3,
+              "team": "San Lorenzo",
+              "teamLogo": "/logos/teams/66e906eab57bb4a525b7.png",
+              "played": 6,
+              "win": 1,
+              "draw": 4,
+              "loss": 1,
+              "gf": 6,
+              "ga": 5,
+              "gd": 1,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Deportivo Cuenca",
+              "teamLogo": "/logos/teams/55ea7881327872b4f37a.png",
+              "played": 6,
+              "win": 1,
+              "draw": 3,
+              "loss": 2,
+              "gf": 3,
+              "ga": 7,
+              "gd": -4,
+              "points": 6,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group E",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Botafogo",
+              "teamLogo": "/logos/teams/d5215b86e474034f6005.png",
+              "played": 6,
+              "win": 5,
+              "draw": 1,
+              "loss": 0,
+              "gf": 15,
+              "ga": 5,
+              "gd": 10,
+              "points": 16,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Caracas FC",
+              "teamLogo": "/logos/teams/6ff792f4a69a6005b99d.png",
+              "played": 6,
+              "win": 2,
+              "draw": 3,
+              "loss": 1,
+              "gf": 9,
+              "ga": 9,
+              "gd": 0,
+              "points": 9,
+              "zone": {
+                "tier": "secondary",
+                "label": "Playoff"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Racing Club",
+              "teamLogo": "/logos/teams/7652d5af753c3a9a9049.png",
+              "played": 6,
+              "win": 2,
+              "draw": 2,
+              "loss": 2,
+              "gf": 11,
+              "ga": 9,
+              "gd": 2,
+              "points": 8,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Independiente Petrolero",
+              "teamLogo": "/logos/teams/4cae91799309628b68bf.png",
+              "played": 6,
+              "win": 0,
+              "draw": 0,
+              "loss": 6,
+              "gf": 3,
+              "ga": 15,
+              "gd": -12,
+              "points": 0,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group F",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Montevideo City Torque",
+              "teamLogo": "/logos/teams/f7fc8f1857720fa4cb72.png",
+              "played": 6,
+              "win": 4,
+              "draw": 1,
+              "loss": 1,
+              "gf": 11,
+              "ga": 5,
+              "gd": 6,
+              "points": 13,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Grêmio",
+              "teamLogo": "/logos/teams/4e4521fa2a95bbb308d2.png",
+              "played": 6,
+              "win": 3,
+              "draw": 2,
+              "loss": 1,
+              "gf": 8,
+              "ga": 3,
+              "gd": 5,
+              "points": 11,
+              "zone": {
+                "tier": "secondary",
+                "label": "Playoff"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Deportivo Riestra",
+              "teamLogo": "/logos/teams/2a70e9a6f4b57fbede0d.png",
+              "played": 6,
+              "win": 1,
+              "draw": 2,
+              "loss": 3,
+              "gf": 4,
+              "ga": 10,
+              "gd": -6,
+              "points": 5,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Palestino",
+              "teamLogo": "/logos/teams/ac92f0d8fc74f98f57fe.png",
+              "played": 6,
+              "win": 0,
+              "draw": 3,
+              "loss": 3,
+              "gf": 1,
+              "ga": 6,
+              "gd": -5,
+              "points": 3,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group G",
+          "rows": [
+            {
+              "position": 1,
+              "team": "Club Olimpia",
+              "teamLogo": "/logos/teams/fd89bec3b60a1307726f.png",
+              "played": 6,
+              "win": 4,
+              "draw": 1,
+              "loss": 1,
+              "gf": 10,
+              "ga": 6,
+              "gd": 4,
+              "points": 13,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Vasco da Gama",
+              "teamLogo": "/logos/teams/fc154bafeeb7e5b2fa7d.png",
+              "played": 6,
+              "win": 3,
+              "draw": 1,
+              "loss": 2,
+              "gf": 10,
+              "ga": 6,
+              "gd": 4,
+              "points": 10,
+              "zone": {
+                "tier": "secondary",
+                "label": "Playoff"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Audax Italiano",
+              "teamLogo": "/logos/teams/ccb6e92088ca5e9f3f60.png",
+              "played": 6,
+              "win": 2,
+              "draw": 1,
+              "loss": 3,
+              "gf": 7,
+              "ga": 9,
+              "gd": -2,
+              "points": 7,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Barracas Central",
+              "teamLogo": "/logos/teams/602f5563b677cd749192.png",
+              "played": 6,
+              "win": 0,
+              "draw": 3,
+              "loss": 3,
+              "gf": 2,
+              "ga": 8,
+              "gd": -6,
+              "points": 3,
+              "zone": null
+            }
+          ]
+        },
+        {
+          "label": "Group H",
+          "rows": [
+            {
+              "position": 1,
+              "team": "River Plate",
+              "teamLogo": "/logos/teams/37da0483b9b25bb1f67b.png",
+              "played": 6,
+              "win": 4,
+              "draw": 2,
+              "loss": 0,
+              "gf": 9,
+              "ga": 3,
+              "gd": 6,
+              "points": 14,
+              "zone": {
+                "tier": "primary",
+                "label": "Advances"
+              }
+            },
+            {
+              "position": 2,
+              "team": "Red Bull Bragantino",
+              "teamLogo": "/logos/teams/fd55152f8d343231a882.png",
+              "played": 6,
+              "win": 3,
+              "draw": 1,
+              "loss": 2,
+              "gf": 12,
+              "ga": 5,
+              "gd": 7,
+              "points": 10,
+              "zone": {
+                "tier": "secondary",
+                "label": "Playoff"
+              }
+            },
+            {
+              "position": 3,
+              "team": "Carabobo",
+              "teamLogo": "/logos/teams/f6a85376cf4bea78d5ff.png",
+              "played": 6,
+              "win": 3,
+              "draw": 0,
+              "loss": 3,
+              "gf": 6,
+              "ga": 5,
+              "gd": 1,
+              "points": 9,
+              "zone": null
+            },
+            {
+              "position": 4,
+              "team": "Blooming",
+              "teamLogo": "/logos/teams/4994db208381ca9fdab6.png",
+              "played": 6,
+              "win": 0,
+              "draw": 1,
+              "loss": 5,
+              "gf": 3,
+              "ga": 17,
+              "gd": -14,
+              "points": 1,
+              "zone": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "brackets": [
+    {
+      "competition": "Copa do Brasil",
+      "legs": 2,
+      "rounds": [
+        {
+          "round": "Round of 16",
+          "ties": [
+            {
+              "teamA": "Vasco Da Gama",
+              "teamB": "Fluminense",
+              "teamKeys": [
+                "fluminense",
+                "vasco gama"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": null,
+              "leg2Score": "3-1",
+              "aggregate": "3-1",
+              "winner": "Vasco Da Gama"
+            },
+            {
+              "teamA": "Internacional",
+              "teamB": "Corinthians",
+              "teamKeys": [
+                "corinthians",
+                "internacional"
+              ],
+              "leg1Score": "2-0",
+              "leg2Date": null,
+              "leg2Score": "1-2",
+              "aggregate": "3-2",
+              "winner": "Internacional"
+            },
+            {
+              "teamA": "Mirassol",
+              "teamB": "Grêmio",
+              "teamKeys": [
+                "gremio",
+                "mirassol"
+              ],
+              "leg1Score": "1-1",
+              "leg2Date": null,
+              "leg2Score": "0-1",
+              "aggregate": "1-2",
+              "winner": "Grêmio"
+            },
+            {
+              "teamA": "Athletico Paranaense",
+              "teamB": "Vitória",
+              "teamKeys": [
+                "athletico paranaense",
+                "vitoria"
+              ],
+              "leg1Score": "2-0",
+              "leg2Date": null,
+              "leg2Score": "0-4",
+              "aggregate": "2-4",
+              "winner": "Vitória"
+            },
+            {
+              "teamA": "Atlético Mineiro",
+              "teamB": "Juventude",
+              "teamKeys": [
+                "atletico mineiro",
+                "juventude"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": null,
+              "leg2Score": "1-0",
+              "aggregate": "1-0",
+              "winner": "Atlético Mineiro"
+            },
+            {
+              "teamA": "Santos",
+              "teamB": "Remo",
+              "teamKeys": [
+                "remo",
+                "santos"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": null,
+              "leg2Score": "1-0",
+              "aggregate": "1-0",
+              "winner": "Santos"
+            },
+            {
+              "teamA": "Chapecoense",
+              "teamB": "Cruzeiro",
+              "teamKeys": [
+                "chapecoense",
+                "cruzeiro"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": null,
+              "leg2Score": "0-2",
+              "aggregate": "0-2",
+              "winner": "Cruzeiro"
+            },
+            {
+              "teamA": "Palmeiras",
+              "teamB": "Fortaleza",
+              "teamKeys": [
+                "fortaleza",
+                "palmeiras"
+              ],
+              "leg1Score": "3-0",
+              "leg2Date": null,
+              "leg2Score": "2-3",
+              "aggregate": "5-3",
+              "winner": "Palmeiras"
+            }
+          ]
+        },
+        {
+          "round": "Quarterfinals",
+          "ties": [
+            {
+              "teamA": "Cruzeiro",
+              "teamB": "Atlético Mineiro",
+              "teamKeys": [
+                "atletico mineiro",
+                "cruzeiro"
+              ],
+              "leg1Score": "1-1",
+              "leg2Date": null,
+              "leg2Score": "1-2",
+              "aggregate": "2-3",
+              "winner": "Atlético Mineiro"
+            },
+            {
+              "teamA": "Internacional",
+              "teamB": "Grêmio",
+              "teamKeys": [
+                "gremio",
+                "internacional"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": null,
+              "leg2Score": "1-3",
+              "aggregate": "1-3",
+              "winner": "Grêmio"
+            },
+            {
+              "teamA": "Palmeiras",
+              "teamB": "Santos",
+              "teamKeys": [
+                "palmeiras",
+                "santos"
+              ],
+              "leg1Score": "3-0",
+              "leg2Date": null,
+              "leg2Score": "0-0",
+              "aggregate": "3-0",
+              "winner": "Palmeiras"
+            },
+            {
+              "teamA": "Vasco Da Gama",
+              "teamB": "Vitória",
+              "teamKeys": [
+                "vasco gama",
+                "vitoria"
+              ],
+              "leg1Score": "1-0",
+              "leg2Date": null,
+              "leg2Score": "2-0",
+              "aggregate": "3-0",
+              "winner": "Vasco Da Gama"
+            }
+          ]
+        },
+        {
+          "round": "Semifinals",
+          "ties": [
+            {
+              "teamA": "Grêmio",
+              "teamB": "Atlético Mineiro",
+              "teamKeys": [
+                "atletico mineiro",
+                "gremio"
+              ],
+              "leg1Score": null,
+              "leg2Date": "2026-11-07",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            },
+            {
+              "teamA": "Palmeiras",
+              "teamB": "Vasco Da Gama",
+              "teamKeys": [
+                "palmeiras",
+                "vasco gama"
+              ],
+              "leg1Score": null,
+              "leg2Date": "2026-11-08",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competition": "Copa Argentina",
+      "legs": 1,
+      "rounds": [
+        {
+          "round": "Round of 16",
+          "ties": [
+            {
+              "teamA": "Deportivo Riestra",
+              "teamB": "Gimnasia La Plata",
+              "teamKeys": [
+                "deportivo riestra",
+                "gimnasia lp"
+              ],
+              "score": null,
+              "date": "2026-08-18",
+              "winner": null
+            },
+            {
+              "teamA": "Banfield",
+              "teamB": "Midland",
+              "teamKeys": [
+                "banfield",
+                "midland"
+              ],
+              "score": null,
+              "date": "2026-08-18",
+              "winner": null
+            },
+            {
+              "teamA": "Racing Club",
+              "teamB": "Belgrano",
+              "teamKeys": [
+                "belgrano",
+                "racing"
+              ],
+              "score": "1-0",
+              "date": null,
+              "winner": "Racing Club"
+            },
+            {
+              "teamA": "Vélez Sarsfield",
+              "teamB": "Boca Juniors",
+              "teamKeys": [
+                "boca juniors",
+                "velez sarsfield"
+              ],
+              "score": null,
+              "date": "2026-09-02",
+              "winner": null
+            },
+            {
+              "teamA": "Aldosivi",
+              "teamB": "Independiente Rivadavia",
+              "teamKeys": [
+                "aldosivi",
+                "independiente rivadavia"
+              ],
+              "score": "0-2",
+              "date": null,
+              "winner": "Independiente Rivadavia"
+            },
+            {
+              "teamA": "Atlético Tucumán",
+              "teamB": "Independiente",
+              "teamKeys": [
+                "atletico tucuman",
+                "independiente"
+              ],
+              "score": "4-0",
+              "date": null,
+              "winner": "Atlético Tucumán"
+            },
+            {
+              "teamA": "Platense",
+              "teamB": "Instituto",
+              "teamKeys": [
+                "instituto",
+                "platense"
+              ],
+              "score": null,
+              "date": "2026-08-27",
+              "winner": null
+            },
+            {
+              "teamA": "Estudiantes de La Plata",
+              "teamB": "Barracas Central",
+              "teamKeys": [
+                "barracas central",
+                "estudiantes lp"
+              ],
+              "score": "3-1",
+              "date": null,
+              "winner": "Estudiantes de La Plata"
+            }
+          ]
+        },
+        {
+          "round": "Quarterfinals",
+          "ties": [
+            {
+              "teamA": "Deportivo Riestra",
+              "teamB": "Banfield",
+              "teamKeys": [
+                "banfield",
+                "deportivo riestra"
+              ],
+              "score": null,
+              "date": "2026-09-09",
+              "winner": null
+            },
+            {
+              "teamA": "Racing Club",
+              "teamB": "Boca Juniors",
+              "teamKeys": [
+                "boca juniors",
+                "racing"
+              ],
+              "score": "2-3",
+              "date": null,
+              "winner": "Boca Juniors"
+            },
+            {
+              "teamA": "Independiente Rivadavia",
+              "teamB": "Atlético Tucumán",
+              "teamKeys": [
+                "atletico tucuman",
+                "independiente rivadavia"
+              ],
+              "score": null,
+              "date": "2026-09-16",
+              "winner": null
+            },
+            {
+              "teamA": "Platense",
+              "teamB": "Estudiantes de La Plata",
+              "teamKeys": [
+                "estudiantes lp",
+                "platense"
+              ],
+              "score": "1-0",
+              "date": null,
+              "winner": "Platense"
+            }
+          ]
+        },
+        {
+          "round": "Semifinals",
+          "ties": [
+            {
+              "teamA": "Banfield",
+              "teamB": "Boca Juniors",
+              "teamKeys": [
+                "banfield",
+                "boca juniors"
+              ],
+              "score": null,
+              "date": "2026-11-14",
+              "winner": null
+            },
+            {
+              "teamA": "Atlético Tucumán",
+              "teamB": "Platense",
+              "teamKeys": [
+                "atletico tucuman",
+                "platense"
+              ],
+              "score": null,
+              "date": "2026-10-28",
+              "winner": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competition": "CONMEBOL Libertadores",
+      "legs": 2,
+      "rounds": [
+        {
+          "round": "Round of 16",
+          "ties": [
+            {
+              "teamA": "Estudiantes de La Plata",
+              "teamB": "Universidad Católica",
+              "teamKeys": [
+                "estudiantes lp",
+                "universidad catolica"
+              ],
+              "leg1Score": "1-1",
+              "leg2Date": null,
+              "leg2Score": "3-0",
+              "aggregate": "4-1",
+              "winner": "Estudiantes de La Plata"
+            },
+            {
+              "teamA": "Rosario Central",
+              "teamB": "Corinthians",
+              "teamKeys": [
+                "corinthians",
+                "rosario central"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": null,
+              "leg2Score": "0-1",
+              "aggregate": "0-1",
+              "winner": "Corinthians"
+            },
+            {
+              "teamA": "Cruzeiro",
+              "teamB": "Flamengo",
+              "teamKeys": [
+                "cruzeiro",
+                "flamengo"
+              ],
+              "leg1Score": "1-1",
+              "leg2Date": null,
+              "leg2Score": "1-2",
+              "aggregate": "2-3",
+              "winner": "Flamengo"
+            },
+            {
+              "teamA": "Deportes Tolima",
+              "teamB": "Independiente Del Valle",
+              "teamKeys": [
+                "deportes tolima",
+                "independiente del valle"
+              ],
+              "leg1Score": "0-1",
+              "leg2Date": null,
+              "leg2Score": "1-3",
+              "aggregate": "1-4",
+              "winner": "Independiente Del Valle"
+            },
+            {
+              "teamA": "Mirassol",
+              "teamB": "Liga de Quito",
+              "teamKeys": [
+                "liga quito",
+                "mirassol"
+              ],
+              "leg1Score": "1-1",
+              "leg2Date": "2026-08-20",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            },
+            {
+              "teamA": "Palmeiras",
+              "teamB": "Cerro Porteño",
+              "teamKeys": [
+                "cerro porteno",
+                "palmeiras"
+              ],
+              "leg1Score": "1-1",
+              "leg2Date": null,
+              "leg2Score": "1-0",
+              "aggregate": "2-1",
+              "winner": "Palmeiras"
+            },
+            {
+              "teamA": "Platense",
+              "teamB": "Coquimbo Unido",
+              "teamKeys": [
+                "coquimbo unido",
+                "platense"
+              ],
+              "leg1Score": "1-1",
+              "leg2Date": "2026-08-19",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            },
+            {
+              "teamA": "Fluminense",
+              "teamB": "Independiente Rivadavia",
+              "teamKeys": [
+                "fluminense",
+                "independiente rivadavia"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": "2026-08-18",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            }
+          ]
+        },
+        {
+          "round": "Quarterfinals",
+          "ties": [
+            {
+              "teamA": "Estudiantes de La Plata",
+              "teamB": "Corinthians",
+              "teamKeys": [
+                "corinthians",
+                "estudiantes lp"
+              ],
+              "leg1Score": "1-1",
+              "leg2Date": null,
+              "leg2Score": "1-0",
+              "aggregate": "2-1",
+              "winner": "Estudiantes de La Plata"
+            },
+            {
+              "teamA": "Independiente Del Valle",
+              "teamB": "Flamengo",
+              "teamKeys": [
+                "flamengo",
+                "independiente del valle"
+              ],
+              "leg1Score": "0-2",
+              "leg2Date": null,
+              "leg2Score": "1-1",
+              "aggregate": "1-3",
+              "winner": "Flamengo"
+            },
+            {
+              "teamA": "Palmeiras",
+              "teamB": "Liga de Quito",
+              "teamKeys": [
+                "liga quito",
+                "palmeiras"
+              ],
+              "leg1Score": "1-0",
+              "leg2Date": "2026-09-16",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            },
+            {
+              "teamA": "Fluminense",
+              "teamB": "Platense",
+              "teamKeys": [
+                "fluminense",
+                "platense"
+              ],
+              "leg1Score": "2-0",
+              "leg2Date": null,
+              "leg2Score": "1-2",
+              "aggregate": "3-2",
+              "winner": "Fluminense"
+            }
+          ]
+        },
+        {
+          "round": "Semifinals",
+          "ties": [
+            {
+              "teamA": "Estudiantes de La Plata",
+              "teamB": "Flamengo",
+              "teamKeys": [
+                "estudiantes lp",
+                "flamengo"
+              ],
+              "leg1Score": null,
+              "leg2Date": "2026-10-22",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            },
+            {
+              "teamA": "Fluminense",
+              "teamB": "Palmeiras",
+              "teamKeys": [
+                "fluminense",
+                "palmeiras"
+              ],
+              "leg1Score": null,
+              "leg2Date": "2026-10-21",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "competition": "CONMEBOL Sudamericana",
+      "legs": 2,
+      "rounds": [
+        {
+          "round": "Playoff Round",
+          "ties": [
+            {
+              "teamA": "Bolívar",
+              "teamB": "Grêmio",
+              "teamKeys": [
+                "bolivar",
+                "gremio"
+              ],
+              "leg1Score": "3-2",
+              "leg2Date": null,
+              "leg2Score": "1-0",
+              "aggregate": "4-2",
+              "winner": "Bolívar"
+            },
+            {
+              "teamA": "Sporting Cristal",
+              "teamB": "Bragantino",
+              "teamKeys": [
+                "red bull bragantino",
+                "sporting cristal"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": null,
+              "leg2Score": "0-1",
+              "aggregate": "0-1",
+              "winner": "Bragantino"
+            },
+            {
+              "teamA": "Independiente Medellín",
+              "teamB": "Vasco Da Gama",
+              "teamKeys": [
+                "independiente medellin",
+                "vasco gama"
+              ],
+              "leg1Score": "2-2",
+              "leg2Date": null,
+              "leg2Score": "0-1",
+              "aggregate": "2-3",
+              "winner": "Vasco Da Gama"
+            },
+            {
+              "teamA": "Boca Juniors",
+              "teamB": "O'Higgins",
+              "teamKeys": [
+                "boca juniors",
+                "ohiggins"
+              ],
+              "leg1Score": "1-0",
+              "leg2Date": "2026-07-30",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            },
+            {
+              "teamA": "Nacional",
+              "teamB": "Tigre",
+              "teamKeys": [
+                "nacional",
+                "tigre"
+              ],
+              "leg1Score": "0-3",
+              "leg2Date": null,
+              "leg2Score": "2-1",
+              "aggregate": "2-4",
+              "winner": "Tigre"
+            },
+            {
+              "teamA": "Independiente Santa Fe",
+              "teamB": "Caracas FC",
+              "teamKeys": [
+                "caracas",
+                "independiente santa fe"
+              ],
+              "leg1Score": "2-0",
+              "leg2Date": null,
+              "leg2Score": "3-0",
+              "aggregate": "5-0",
+              "winner": "Independiente Santa Fe"
+            },
+            {
+              "teamA": "Lanús",
+              "teamB": "Cienciano",
+              "teamKeys": [
+                "cienciano",
+                "lanus"
+              ],
+              "leg1Score": "2-0",
+              "leg2Date": null,
+              "leg2Score": "0-4",
+              "aggregate": "2-4",
+              "winner": "Cienciano"
+            },
+            {
+              "teamA": "Universidad Central FC",
+              "teamB": "Santos",
+              "teamKeys": [
+                "santos",
+                "universidad central"
+              ],
+              "leg1Score": "1-4",
+              "leg2Date": null,
+              "leg2Score": "2-4",
+              "aggregate": "3-8",
+              "winner": "Santos"
+            }
+          ]
+        },
+        {
+          "round": "Round of 16",
+          "ties": [
+            {
+              "teamA": "Boca Juniors",
+              "teamB": "Recoleta FC",
+              "teamKeys": [
+                "boca juniors",
+                "deportivo recoleta"
+              ],
+              "leg1Score": "3-1",
+              "leg2Date": null,
+              "leg2Score": "4-0",
+              "aggregate": "7-1",
+              "winner": "Boca Juniors"
+            },
+            {
+              "teamA": "Bolívar",
+              "teamB": "São Paulo",
+              "teamKeys": [
+                "bolivar",
+                "sao paulo"
+              ],
+              "leg1Score": "1-1",
+              "leg2Date": null,
+              "leg2Score": "1-3",
+              "aggregate": "2-4",
+              "winner": "São Paulo"
+            },
+            {
+              "teamA": "Independiente Santa Fe",
+              "teamB": "River Plate",
+              "teamKeys": [
+                "independiente santa fe",
+                "river plate"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": "2026-08-26",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            },
+            {
+              "teamA": "Vasco Da Gama",
+              "teamB": "Olimpia",
+              "teamKeys": [
+                "olimpia",
+                "vasco gama"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": null,
+              "leg2Score": "4-1",
+              "aggregate": "4-1",
+              "winner": "Vasco Da Gama"
+            },
+            {
+              "teamA": "Bragantino",
+              "teamB": "Atlético Mineiro",
+              "teamKeys": [
+                "atletico mineiro",
+                "red bull bragantino"
+              ],
+              "leg1Score": "0-1",
+              "leg2Date": null,
+              "leg2Score": "2-2",
+              "aggregate": "2-3",
+              "winner": "Atlético Mineiro"
+            },
+            {
+              "teamA": "Santos",
+              "teamB": "Macara",
+              "teamKeys": [
+                "macara",
+                "santos"
+              ],
+              "leg1Score": "2-1",
+              "leg2Date": null,
+              "leg2Score": "0-0",
+              "aggregate": "2-1",
+              "winner": "Santos"
+            },
+            {
+              "teamA": "Tigre",
+              "teamB": "Montevideo City Torque",
+              "teamKeys": [
+                "montevideo city torque",
+                "tigre"
+              ],
+              "leg1Score": "0-1",
+              "leg2Date": null,
+              "leg2Score": "1-2",
+              "aggregate": "1-3",
+              "winner": "Montevideo City Torque"
+            },
+            {
+              "teamA": "Cienciano",
+              "teamB": "Botafogo",
+              "teamKeys": [
+                "botafogo",
+                "cienciano"
+              ],
+              "leg1Score": "6-1",
+              "leg2Date": null,
+              "leg2Score": "0-1",
+              "aggregate": "6-2",
+              "winner": "Cienciano"
+            }
+          ]
+        },
+        {
+          "round": "Quarterfinals",
+          "ties": [
+            {
+              "teamA": "Boca Juniors",
+              "teamB": "São Paulo",
+              "teamKeys": [
+                "boca juniors",
+                "sao paulo"
+              ],
+              "leg1Score": "1-0",
+              "leg2Date": null,
+              "leg2Score": "1-1",
+              "aggregate": "2-1",
+              "winner": "Boca Juniors"
+            },
+            {
+              "teamA": "Independiente Santa Fe",
+              "teamB": "Vasco Da Gama",
+              "teamKeys": [
+                "independiente santa fe",
+                "vasco gama"
+              ],
+              "leg1Score": "0-0",
+              "leg2Date": null,
+              "leg2Score": "0-2",
+              "aggregate": "0-2",
+              "winner": "Vasco Da Gama"
+            },
+            {
+              "teamA": "Santos",
+              "teamB": "Atlético Mineiro",
+              "teamKeys": [
+                "atletico mineiro",
+                "santos"
+              ],
+              "leg1Score": "2-0",
+              "leg2Date": "2026-09-16",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            },
+            {
+              "teamA": "Cienciano",
+              "teamB": "Montevideo City Torque",
+              "teamKeys": [
+                "cienciano",
+                "montevideo city torque"
+              ],
+              "leg1Score": "2-0",
+              "leg2Date": null,
+              "leg2Score": "0-3",
+              "aggregate": "2-3",
+              "winner": "Montevideo City Torque"
+            }
+          ]
+        },
+        {
+          "round": "Semifinals",
+          "ties": [
+            {
+              "teamA": "Boca Juniors",
+              "teamB": "Vasco Da Gama",
+              "teamKeys": [
+                "boca juniors",
+                "vasco gama"
+              ],
+              "leg1Score": null,
+              "leg2Date": "2026-10-20",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            },
+            {
+              "teamA": "Atlético Mineiro",
+              "teamB": "Montevideo City Torque",
+              "teamKeys": [
+                "atletico mineiro",
+                "montevideo city torque"
+              ],
+              "leg1Score": null,
+              "leg2Date": "2026-10-21",
+              "leg2Score": null,
+              "aggregate": null,
+              "winner": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

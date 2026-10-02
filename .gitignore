@@ -1,0 +1,4 @@
+node_modules/
+.env
+spike/raw/
+.claude/settings.local.json
