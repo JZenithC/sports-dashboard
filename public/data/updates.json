@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-02T16:55:05.110Z",
+  "generatedAt": "2026-10-03T15:20:22.210Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-03T15:18:54.498Z",
+        "totalEvents": 29,
+        "added": [
+          "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30",
+          "Gimnasia y Esgrima La Plata vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 09 Oct, 18:00",
+          "Instituto (Córdoba) vs Boca Juniors (Liga Profesional de Fútbol) — Fri 09 Oct, 19:30",
+          "Unión Santa Fe vs Defensa y Justicia (Liga Profesional de Fútbol) — Fri 09 Oct, 21:45",
+          "Puebla vs Club León (Liga MX) — Fri 09 Oct, 19:00",
+          "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00"
+        ],
+        "removed": [
+          "Independiente vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Fri 02 Oct, 19:15",
+          "São Paulo vs Santos (Campeonato Brasileiro Série A) — Fri 02 Oct, 20:00",
+          "Independiente Rivadavia vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30",
+          "Boca Juniors vs Union Santa Fe (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30"
+        ],
+        "channelsChanged": [
+          "Atlético Mineiro vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 03 Oct, 18:30: [PREMIERE FC]",
+          "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Talleres de Córdoba vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 04 Oct, 17:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30: [Fanatiz (Míralo en vivo), Flow Sports]",
+          "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Fanatiz (Míralo en vivo), Globo Internacional]",
+          "Palmeiras vs Bahía (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Fanatiz (Míralo en vivo), Flow Sports]"
+        ],
+        "total": 29
+      },
       {
         "timestamp": "2026-10-02T16:53:39.157Z",
         "totalEvents": 27,
@@ -237,21 +264,19 @@
         "removed": [],
         "channelsChanged": [],
         "total": 11
-      },
-      {
-        "timestamp": "2026-09-22T05:41:50.537Z",
-        "totalEvents": 11,
-        "added": [],
-        "removed": [
-          "Aldosivi vs Atlético Tucumán (Liga Profesional de Fútbol) — Mon 21 Sept, 14:30",
-          "Barracas Central vs Independiente Rivadavia (Liga Profesional de Fútbol) — Mon 21 Sept, 19:00",
-          "Lanús vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Mon 21 Sept, 21:15"
-        ],
-        "channelsChanged": [],
-        "total": 11
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-03T15:19:34.815Z",
+        "total": 18,
+        "added": [
+          "San Diego Padres @ Milwaukee Brewers (2026-10-09)",
+          "Atlanta Braves @ Los Angeles Dodgers (2026-10-09)"
+        ],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-02T16:54:19.175Z",
         "total": 16,
@@ -661,20 +686,27 @@
         ],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-22T05:42:26.883Z",
-        "total": 87,
-        "added": [],
-        "removed": [
-          "Toronto Blue Jays @ Baltimore Orioles (2026-09-21)",
-          "Washington Nationals @ Detroit Tigers (2026-09-21)",
-          "Minnesota Twins @ San Francisco Giants (2026-09-21)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-03T15:20:22.210Z",
+        "total": 56,
+        "added": [
+          "Denzel Bentley-Shane Mosley Jnr (2026-11-07)",
+          "Alycia Baumgardner vs Elif Nur Turhan (2026-11-08)",
+          "Diego Pacheco vs Darius Fulghum (2026-11-14)"
+        ],
+        "removed": [
+          "Omari Jones vs Alan Sanchez (2026-10-02)",
+          "LUX 063: Queretaro (2026-10-02)",
+          "Fury Fighting Championship 125: Meck vs. Taylor (2026-10-02)",
+          "One Friday Fights 173 (2026-10-02)",
+          "One on Prime Video 48 (2026-10-02)",
+          "Elif Nur Turhan-Alycia Baumgardner (2026-11-09)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-02T16:55:05.109Z",
         "total": 59,
@@ -884,13 +916,6 @@
         "added": [
           "Anthony Cacace vs Nick Ball (2026-12-19)"
         ],
-        "removed": [],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-22T05:43:18.361Z",
-        "total": 53,
-        "added": [],
         "removed": [],
         "channelsChanged": []
       }

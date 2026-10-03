@@ -1,5 +1,31 @@
 [
   {
+    "timestamp": "2026-10-03T15:18:54.498Z",
+    "totalEvents": 29,
+    "added": [
+      "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30",
+      "Gimnasia y Esgrima La Plata vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 09 Oct, 18:00",
+      "Instituto (Córdoba) vs Boca Juniors (Liga Profesional de Fútbol) — Fri 09 Oct, 19:30",
+      "Unión Santa Fe vs Defensa y Justicia (Liga Profesional de Fútbol) — Fri 09 Oct, 21:45",
+      "Puebla vs Club León (Liga MX) — Fri 09 Oct, 19:00",
+      "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00"
+    ],
+    "removed": [
+      "Independiente vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Fri 02 Oct, 19:15",
+      "São Paulo vs Santos (Campeonato Brasileiro Série A) — Fri 02 Oct, 20:00",
+      "Independiente Rivadavia vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30",
+      "Boca Juniors vs Union Santa Fe (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30"
+    ],
+    "channelsChanged": [
+      "Atlético Mineiro vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 03 Oct, 18:30: [PREMIERE FC]",
+      "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Talleres de Córdoba vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 04 Oct, 17:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30: [Fanatiz (Míralo en vivo), Flow Sports]",
+      "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Fanatiz (Míralo en vivo), Globo Internacional]",
+      "Palmeiras vs Bahía (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Fanatiz (Míralo en vivo), Flow Sports]"
+    ]
+  },
+  {
     "timestamp": "2026-10-02T16:53:39.157Z",
     "totalEvents": 27,
     "added": [],
@@ -60,17 +86,6 @@
     "removed": [],
     "channelsChanged": [
       "Boca Juniors vs Union Santa Fe (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30: [DISNEY+, ESPN 3, ESPN Premium]"
-    ]
-  },
-  {
-    "timestamp": "2026-09-30T17:04:02.422Z",
-    "totalEvents": 18,
-    "added": [],
-    "removed": [],
-    "channelsChanged": [
-      "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sun 04 Oct, 19:15: [ESPN Premium]",
-      "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [ESPN, ESPN Premium]"
     ]
   }
 ]

@@ -1,407 +1,6 @@
 {
-  "generatedAt": "2026-10-02T16:55:05.109Z",
+  "generatedAt": "2026-10-03T15:20:22.209Z",
   "upcoming": [
-    {
-      "org": "Boxing",
-      "eventName": "Omari Jones vs Alan Sanchez",
-      "eventTag": "Boxing · Orlando",
-      "homeTeam": "Omari Jones",
-      "awayTeam": "Alan Sanchez",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T20:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Fri 02 Oct, 21:00",
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "gbn-omari-jones-vs-alan-sanchez-2026-10-02",
-        "name": "Omari Jones vs Alan Sanchez",
-        "dateUTC": "2026-10-02T20:00:00.000Z",
-        "dateOnly": "2026-10-02",
-        "venue": null,
-        "city": "Orlando",
-        "mainEventFighters": [
-          "Omari Jones",
-          "Alan Sanchez"
-        ],
-        "bouts": [],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/omari-jones-vs-alan-sanchez-2026-10-02"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/omari-jones-vs-alan-sanchez-2026-10-02"
-      },
-      "watchKey": "fights:Boxing|Omari Jones|Alan Sanchez|2026-10-02"
-    },
-    {
-      "org": "MMA",
-      "eventName": "LUX 063: Queretaro",
-      "eventTag": "LUX 063 · Arteaga Auditorium, Queretaro, Queretaro, Mexico",
-      "homeTeam": "Paulino Siller",
-      "awayTeam": "Gabriel Urbino",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Abdi Iniestra v Anthony Ramirez",
-          "weightClass": null
-        },
-        {
-          "title": "Uriel Cossio v Aaron Canarte",
-          "weightClass": null
-        },
-        {
-          "title": "Alejandro Cerquera v Hugo Rubio",
-          "weightClass": null
-        },
-        {
-          "title": "Jorge Lopez v Luis Quintana",
-          "weightClass": null
-        },
-        {
-          "title": "Diego Garcia v Daniel Reyes",
-          "weightClass": null
-        },
-        {
-          "title": "David Briones v Dan Tenoch Jaramillo",
-          "weightClass": null
-        },
-        {
-          "title": "Luis Gerardo Aguillon v Antonio Jimenez",
-          "weightClass": null
-        },
-        {
-          "title": "Juan Jose Valero v Francisco Serrano",
-          "weightClass": null
-        },
-        {
-          "title": "Fernanda Ceja v Camila Reyes",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-LUX-063-Queretaro-112992",
-        "name": "LUX 063: Queretaro",
-        "dateUTC": null,
-        "dateOnly": "2026-10-02",
-        "venue": "Arteaga Auditorium",
-        "city": "Queretaro, Queretaro, Mexico",
-        "href": "/events/LUX-063-Queretaro-112992",
-        "mainEventFighters": [
-          "Paulino Siller",
-          "Gabriel Urbino"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Abdi Iniestra",
-            "b": "Anthony Ramirez"
-          },
-          {
-            "a": "Uriel Cossio",
-            "b": "Aaron Canarte"
-          },
-          {
-            "a": "Alejandro Cerquera",
-            "b": "Hugo Rubio"
-          },
-          {
-            "a": "Jorge Lopez",
-            "b": "Luis Quintana"
-          },
-          {
-            "a": "Diego Garcia",
-            "b": "Daniel Reyes"
-          },
-          {
-            "a": "David Briones",
-            "b": "Dan Tenoch Jaramillo"
-          },
-          {
-            "a": "Luis Gerardo Aguillon",
-            "b": "Antonio Jimenez"
-          },
-          {
-            "a": "Juan Jose Valero",
-            "b": "Francisco Serrano"
-          },
-          {
-            "a": "Fernanda Ceja",
-            "b": "Camila Reyes"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Paulino Siller|Gabriel Urbino|2026-10-02"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Fury Fighting Championship 125: Meck vs. Taylor",
-      "eventTag": "Fury Fighting Championship 125 · Minot Air Force Base, Minot, North Dakota, United States",
-      "homeTeam": "Meck",
-      "awayTeam": "Taylor",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Carlos Calderon v Lorram Esteves",
-          "weightClass": null
-        },
-        {
-          "title": "Yehia Riles v JaCobi Jones",
-          "weightClass": null
-        },
-        {
-          "title": "Devon Dixon v Alex Foster",
-          "weightClass": null
-        },
-        {
-          "title": "Christopher Lalone v Diavantae Reddick",
-          "weightClass": null
-        },
-        {
-          "title": "Cameron Graves v Kaecy Raddon",
-          "weightClass": null
-        },
-        {
-          "title": "Reginald Jones v Tyrell Hill",
-          "weightClass": null
-        },
-        {
-          "title": "Aaron Phillips v Quentin Perez",
-          "weightClass": null
-        },
-        {
-          "title": "Jenna Williams v Brittany Bickhart",
-          "weightClass": null
-        },
-        {
-          "title": "Deven Manibusan v Josue Orozco",
-          "weightClass": null
-        },
-        {
-          "title": "Kenny Riley v Kayden Cody",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Fury-FC-125-Fury-Fighting-Championship-125-Meck-vs-Taylor-114025",
-        "name": "Fury Fighting Championship 125: Meck vs. Taylor",
-        "dateUTC": null,
-        "dateOnly": "2026-10-02",
-        "venue": "Minot Air Force Base",
-        "city": "Minot, North Dakota, United States",
-        "href": "/events/Fury-FC-125-Fury-Fighting-Championship-125-Meck-vs-Taylor-114025",
-        "mainEventFighters": [
-          "Meck",
-          "Taylor"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Carlos Calderon",
-            "b": "Lorram Esteves"
-          },
-          {
-            "a": "Yehia Riles",
-            "b": "JaCobi Jones"
-          },
-          {
-            "a": "Devon Dixon",
-            "b": "Alex Foster"
-          },
-          {
-            "a": "Christopher Lalone",
-            "b": "Diavantae Reddick"
-          },
-          {
-            "a": "Cameron Graves",
-            "b": "Kaecy Raddon"
-          },
-          {
-            "a": "Reginald Jones",
-            "b": "Tyrell Hill"
-          },
-          {
-            "a": "Aaron Phillips",
-            "b": "Quentin Perez"
-          },
-          {
-            "a": "Jenna Williams",
-            "b": "Brittany Bickhart"
-          },
-          {
-            "a": "Deven Manibusan",
-            "b": "Josue Orozco"
-          },
-          {
-            "a": "Kenny Riley",
-            "b": "Kayden Cody"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Meck|Taylor|2026-10-02"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Friday Fights 173",
-      "eventTag": "One Friday Fights 173 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Imran Satiev",
-      "awayTeam": "Babar Ali",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Jong Jun Park v Youssef Ramadan",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-Friday-Fights-173-114692",
-        "name": "One Friday Fights 173",
-        "dateUTC": null,
-        "dateOnly": "2026-10-02",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-Friday-Fights-173-114692",
-        "mainEventFighters": [
-          "Imran Satiev",
-          "Babar Ali"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Jong Jun Park",
-            "b": "Youssef Ramadan"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Imran Satiev|Babar Ali|2026-10-02"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One on Prime Video 48",
-      "eventTag": "One on Prime Video 48 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Shamil Erdogan",
-      "awayTeam": "Paul Elliott",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Joshua Perreira v Antonio Cesar",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "Sky Sports Mix",
-              "url": null,
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-on-Prime-Video-48-114233",
-        "name": "One on Prime Video 48",
-        "dateUTC": null,
-        "dateOnly": "2026-10-02",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-on-Prime-Video-48-114233",
-        "mainEventFighters": [
-          "Shamil Erdogan",
-          "Paul Elliott"
-        ],
-        "broadcasts": [
-          "Sky Sports Mix"
-        ],
-        "bouts": [
-          {
-            "a": "Joshua Perreira",
-            "b": "Antonio Cesar"
-          }
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "Sky Sports Mix"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Shamil Erdogan|Paul Elliott|2026-10-02"
-    },
     {
       "org": "Boxing",
       "eventName": "Ben Whittaker vs. Conor Wallace",
@@ -668,7 +267,7 @@
           "weightClass": null
         },
         {
-          "title": "Ryan Cafaro v Hyuma Yasui",
+          "title": "Hyuma Yasui v Ryan Cafaro",
           "weightClass": null
         },
         {
@@ -680,7 +279,7 @@
           "weightClass": null
         },
         {
-          "title": "Ryusei Ashizawa v Seiya Inoue",
+          "title": "Seiya Inoue v Ryusei Ashizawa",
           "weightClass": null
         },
         {
@@ -727,8 +326,8 @@
             "b": "Koyomi Matsushima"
           },
           {
-            "a": "Ryan Cafaro",
-            "b": "Hyuma Yasui"
+            "a": "Hyuma Yasui",
+            "b": "Ryan Cafaro"
           },
           {
             "a": "Keito Oyama",
@@ -739,8 +338,8 @@
             "b": "Masatoshi Ueda"
           },
           {
-            "a": "Ryusei Ashizawa",
-            "b": "Seiya Inoue"
+            "a": "Seiya Inoue",
+            "b": "Ryusei Ashizawa"
           },
           {
             "a": "Hidetaka Arato",
@@ -4235,6 +3834,92 @@
     },
     {
       "org": "Boxing",
+      "eventName": "Denzel Bentley-Shane Mosley Jnr",
+      "eventTag": "Boxing · Copper Box Arena, London, United Kingdom",
+      "homeTeam": "Denzel Bentley",
+      "awayTeam": "Shane Mosley Jnr",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Denzel Bentely v Shane Mosley Jr.",
+          "weightClass": null
+        },
+        {
+          "title": "Zach Parker v Umar Dzambekov",
+          "weightClass": null
+        },
+        {
+          "title": "Chris Billam-Smith v Cheavon Clarke",
+          "weightClass": null
+        }
+      ],
+      "poster": {
+        "src": "/logos/posters/183e898281d9becdd33b.webp",
+        "attribution": "Zuffa Boxing"
+      },
+      "kickoffUTC": "2026-11-07T19:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 07 Nov, 19:00",
+      "localDate": "2026-11-07",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Listed by source",
+          "channels": [
+            {
+              "name": "Sky Sports",
+              "url": "https://www.skysports.com/",
+              "logo": "/logos/channels/skysports.com.png"
+            },
+            {
+              "name": "Paramount+",
+              "url": "https://www.paramountplus.com/",
+              "logo": "/logos/channels/paramountplus.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "denzel-bentley-shane-mosley-jnr",
+        "name": "Denzel Bentley-Shane Mosley Jnr",
+        "dateUTC": "2026-11-07T19:00:00.000Z",
+        "dateOnly": "2026-11-07",
+        "venue": "Copper Box Arena",
+        "city": "London, United Kingdom",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/denzelbentleyshanemosleyjnrposter.webp",
+        "posterAttribution": "Zuffa Boxing",
+        "mainEventFighters": [
+          "Denzel Bentley",
+          "Shane Mosley Jnr"
+        ],
+        "bouts": [
+          {
+            "a": "Denzel Bentely",
+            "b": "Shane Mosley Jr."
+          },
+          {
+            "a": "Zach Parker",
+            "b": "Umar Dzambekov"
+          },
+          {
+            "a": "Chris Billam-Smith",
+            "b": "Cheavon Clarke"
+          }
+        ],
+        "broadcasts": [
+          "Sky Sports",
+          "Paramount+"
+        ]
+      },
+      "watchKey": "fights:Boxing|Denzel Bentley|Shane Mosley Jnr|2026-11-07"
+    },
+    {
+      "org": "Boxing",
       "eventName": "Abraham Perez vs Yankiel Rivera",
       "eventTag": "Boxing · Albuquerque",
       "homeTeam": "Abraham Perez",
@@ -4491,37 +4176,21 @@
     },
     {
       "org": "Boxing",
-      "eventName": "Elif Nur Turhan-Alycia Baumgardner",
-      "eventTag": "Boxing · College Park Center, Arlington, Texas",
-      "homeTeam": "Elif Nur Turhan",
-      "awayTeam": "Alycia Baumgardner",
+      "eventName": "Alycia Baumgardner vs Elif Nur Turhan",
+      "eventTag": "Boxing · Arlington",
+      "homeTeam": "Alycia Baumgardner",
+      "awayTeam": "Elif Nur Turhan",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "Boxing",
       "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Tiara Brown v Ellie Scotney",
-          "weightClass": null
-        },
-        {
-          "title": "Ramla Ali v Mikiah Kreps",
-          "weightClass": null
-        },
-        {
-          "title": "Skye Nicolson v Miyo Yoshida",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/68390a3ba3e76d4eff59.jpg",
-        "attribution": "MVP"
-      },
-      "kickoffUTC": "2026-11-09T01:00:00.000Z",
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-08T20:00:00.000Z",
       "kickoffLocal": null,
-      "kickoffUK": "Mon 09 Nov, 01:00",
-      "localDate": "2026-11-09",
+      "kickoffUK": "Sun 08 Nov, 20:00",
+      "localDate": "2026-11-08",
       "channels": [],
       "broadcastGroups": [
         {
@@ -4533,52 +4202,22 @@
               "logo": "/logos/channels/espn.com.png"
             }
           ]
-        },
-        {
-          "label": "Listed by source",
-          "channels": [
-            {
-              "name": "ESPN+",
-              "url": "https://plus.espn.com/",
-              "logo": "/logos/channels/espn.com.png"
-            }
-          ]
         }
       ],
       "source": {
         "org": "Boxing",
-        "slug": "elif-nur-turhan-alycia-baumgardner",
-        "name": "Elif Nur Turhan-Alycia Baumgardner",
-        "dateUTC": "2026-11-09T01:00:00.000Z",
+        "slug": "gbn-alycia-baumgardner-vs-elif-nur-turhan-2026-11-08",
+        "name": "Alycia Baumgardner vs Elif Nur Turhan",
+        "dateUTC": "2026-11-08T20:00:00.000Z",
         "dateOnly": "2026-11-08",
-        "venue": "College Park Center",
-        "city": "Arlington, Texas",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/turhanalyciabaumgardnerposter.jpg",
-        "posterAttribution": "MVP",
+        "venue": null,
+        "city": "Arlington",
         "mainEventFighters": [
-          "Elif Nur Turhan",
-          "Alycia Baumgardner"
+          "Alycia Baumgardner",
+          "Elif Nur Turhan"
         ],
-        "bouts": [
-          {
-            "a": "Elif Nur Turhan",
-            "b": "Alycia Baumgardner"
-          },
-          {
-            "a": "Tiara Brown",
-            "b": "Ellie Scotney"
-          },
-          {
-            "a": "Ramla Ali",
-            "b": "Mikiah Kreps"
-          },
-          {
-            "a": "Skye Nicolson",
-            "b": "Miyo Yoshida"
-          }
-        ],
+        "bouts": [],
         "broadcasts": [
-          "ESPN+",
           "ESPN"
         ],
         "broadcastMarkets": [
@@ -4591,7 +4230,7 @@
         ],
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/alycia-baumgardner-vs-elif-nur-turhan-2026-11-08"
       },
-      "watchKey": "fights:Boxing|Elif Nur Turhan|Alycia Baumgardner|2026-11-09"
+      "watchKey": "fights:Boxing|Alycia Baumgardner|Elif Nur Turhan|2026-11-08"
     },
     {
       "org": "Boxing",
@@ -4768,6 +4407,76 @@
         ]
       },
       "watchKey": "fights:PFL|Vadim Nemkov|Sergei Bilostenniy|2026-11-14"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Diego Pacheco vs Darius Fulghum",
+      "eventTag": "Boxing · Carson",
+      "homeTeam": "Diego Pacheco",
+      "awayTeam": "Darius Fulghum",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-14T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 14 Nov, 20:00",
+      "localDate": "2026-11-14",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "TNT Sports",
+              "url": "https://www.tntsports.co.uk/boxing/",
+              "logo": "/logos/channels/tntsports.co.uk.png"
+            },
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-diego-pacheco-vs-darius-fulghum-2026-11-14",
+        "name": "Diego Pacheco vs Darius Fulghum",
+        "dateUTC": "2026-11-14T20:00:00.000Z",
+        "dateOnly": "2026-11-14",
+        "venue": null,
+        "city": "Carson",
+        "mainEventFighters": [
+          "Diego Pacheco",
+          "Darius Fulghum"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "TNT Sports",
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "TNT Sports",
+            "url": "https://www.tntsports.co.uk/boxing/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/diego-pacheco-vs-darius-fulghum-2026-11-14"
+          },
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/diego-pacheco-vs-darius-fulghum-2026-11-14"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/diego-pacheco-vs-darius-fulghum-2026-11-14"
+      },
+      "watchKey": "fights:Boxing|Diego Pacheco|Darius Fulghum|2026-11-14"
     },
     {
       "org": "UFC",
@@ -5523,6 +5232,499 @@
   ],
   "recent": [
     {
+      "org": "MMA",
+      "eventName": "One on Prime Video 48",
+      "eventTag": "One on Prime Video 48 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Shamil Erdogan",
+      "awayTeam": "Paul Elliott",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Antonio Cesar v Joshua Perreira",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-02T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-02",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-on-Prime-Video-48-114233",
+        "name": "One on Prime Video 48",
+        "dateUTC": null,
+        "dateOnly": "2026-10-02",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-on-Prime-Video-48-114233",
+        "mainEventFighters": [
+          "Shamil Erdogan",
+          "Paul Elliott"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Antonio Cesar",
+            "b": "Joshua Perreira"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Shamil Erdogan|Paul Elliott|2026-10-02"
+    },
+    {
+      "org": "MMA",
+      "eventName": "One Friday Fights 173",
+      "eventTag": "One Friday Fights 173 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Imran Satiev",
+      "awayTeam": "Babar Ali",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Jong Jun Park v Youssef Ramadan",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-02T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-02",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-Friday-Fights-173-114692",
+        "name": "One Friday Fights 173",
+        "dateUTC": null,
+        "dateOnly": "2026-10-02",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-Friday-Fights-173-114692",
+        "mainEventFighters": [
+          "Imran Satiev",
+          "Babar Ali"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Jong Jun Park",
+            "b": "Youssef Ramadan"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Imran Satiev|Babar Ali|2026-10-02"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Fury Fighting Championship 125: Fight Force",
+      "eventTag": "Fury Fighting Championship 125 · Minot Air Force Base, Minot, North Dakota, United States",
+      "homeTeam": "Dilano Taylor",
+      "awayTeam": "Nicholas Meck",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Carlos Calderon v Lorram Esteves",
+          "weightClass": null
+        },
+        {
+          "title": "JaCobi Jones v Yehia Riles",
+          "weightClass": null
+        },
+        {
+          "title": "Christopher Lalone v Diavantae Reddick",
+          "weightClass": null
+        },
+        {
+          "title": "Kaecy Raddon v Cameron Graves",
+          "weightClass": null
+        },
+        {
+          "title": "Reginald Jones v Tyrell Hill",
+          "weightClass": null
+        },
+        {
+          "title": "Quentin Perez v Aaron Phillips",
+          "weightClass": null
+        },
+        {
+          "title": "Jenna Williams v Brittany Bickhart",
+          "weightClass": null
+        },
+        {
+          "title": "Josue Orozco v Deven Manibusan",
+          "weightClass": null
+        },
+        {
+          "title": "Kenny Riley v Kayden Cody",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-02T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-02",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Fury-FC-125-Fury-Fighting-Championship-125-Fight-Force-114025",
+        "name": "Fury Fighting Championship 125: Fight Force",
+        "dateUTC": null,
+        "dateOnly": "2026-10-02",
+        "venue": "Minot Air Force Base",
+        "city": "Minot, North Dakota, United States",
+        "href": "/events/Fury-FC-125-Fury-Fighting-Championship-125-Fight-Force-114025",
+        "mainEventFighters": [
+          "Dilano Taylor",
+          "Nicholas Meck"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Carlos Calderon",
+            "b": "Lorram Esteves"
+          },
+          {
+            "a": "JaCobi Jones",
+            "b": "Yehia Riles"
+          },
+          {
+            "a": "Christopher Lalone",
+            "b": "Diavantae Reddick"
+          },
+          {
+            "a": "Kaecy Raddon",
+            "b": "Cameron Graves"
+          },
+          {
+            "a": "Reginald Jones",
+            "b": "Tyrell Hill"
+          },
+          {
+            "a": "Quentin Perez",
+            "b": "Aaron Phillips"
+          },
+          {
+            "a": "Jenna Williams",
+            "b": "Brittany Bickhart"
+          },
+          {
+            "a": "Josue Orozco",
+            "b": "Deven Manibusan"
+          },
+          {
+            "a": "Kenny Riley",
+            "b": "Kayden Cody"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Dilano Taylor|Nicholas Meck|2026-10-02"
+    },
+    {
+      "org": "MMA",
+      "eventName": "LUX 063: Queretaro",
+      "eventTag": "LUX 063 · Arteaga Auditorium, Queretaro, Queretaro, Mexico",
+      "homeTeam": "Paulino Siller",
+      "awayTeam": "Gabriel Urbino",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Abdi Iniestra v Anthony Ramirez",
+          "weightClass": null
+        },
+        {
+          "title": "Aaron Canarte v Uriel Cossio",
+          "weightClass": null
+        },
+        {
+          "title": "Alejandro Cerquera v Hugo Rubio",
+          "weightClass": null
+        },
+        {
+          "title": "Jorge Lopez v Luis Quintana",
+          "weightClass": null
+        },
+        {
+          "title": "Diego Garcia v Daniel Reyes",
+          "weightClass": null
+        },
+        {
+          "title": "Dan Tenoch Jaramillo v David Briones",
+          "weightClass": null
+        },
+        {
+          "title": "Luis Gerardo Aguillon v Antonio Jimenez",
+          "weightClass": null
+        },
+        {
+          "title": "Francisco Serrano v Juan Jose Valero",
+          "weightClass": null
+        },
+        {
+          "title": "Camila Reyes v Fernanda Ceja",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-02T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-02",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-LUX-063-Queretaro-112992",
+        "name": "LUX 063: Queretaro",
+        "dateUTC": null,
+        "dateOnly": "2026-10-02",
+        "venue": "Arteaga Auditorium",
+        "city": "Queretaro, Queretaro, Mexico",
+        "href": "/events/LUX-063-Queretaro-112992",
+        "mainEventFighters": [
+          "Paulino Siller",
+          "Gabriel Urbino"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Abdi Iniestra",
+            "b": "Anthony Ramirez"
+          },
+          {
+            "a": "Aaron Canarte",
+            "b": "Uriel Cossio"
+          },
+          {
+            "a": "Alejandro Cerquera",
+            "b": "Hugo Rubio"
+          },
+          {
+            "a": "Jorge Lopez",
+            "b": "Luis Quintana"
+          },
+          {
+            "a": "Diego Garcia",
+            "b": "Daniel Reyes"
+          },
+          {
+            "a": "Dan Tenoch Jaramillo",
+            "b": "David Briones"
+          },
+          {
+            "a": "Luis Gerardo Aguillon",
+            "b": "Antonio Jimenez"
+          },
+          {
+            "a": "Francisco Serrano",
+            "b": "Juan Jose Valero"
+          },
+          {
+            "a": "Camila Reyes",
+            "b": "Fernanda Ceja"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Paulino Siller|Gabriel Urbino|2026-10-02"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Fury Fighting Championship 125: Meck vs. Taylor",
+      "eventTag": "Fury Fighting Championship 125 · Minot Air Force Base, Minot, North Dakota, United States",
+      "homeTeam": "Meck",
+      "awayTeam": "Taylor",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Carlos Calderon v Lorram Esteves",
+          "weightClass": null
+        },
+        {
+          "title": "Yehia Riles v JaCobi Jones",
+          "weightClass": null
+        },
+        {
+          "title": "Devon Dixon v Alex Foster",
+          "weightClass": null
+        },
+        {
+          "title": "Christopher Lalone v Diavantae Reddick",
+          "weightClass": null
+        },
+        {
+          "title": "Cameron Graves v Kaecy Raddon",
+          "weightClass": null
+        },
+        {
+          "title": "Reginald Jones v Tyrell Hill",
+          "weightClass": null
+        },
+        {
+          "title": "Aaron Phillips v Quentin Perez",
+          "weightClass": null
+        },
+        {
+          "title": "Jenna Williams v Brittany Bickhart",
+          "weightClass": null
+        },
+        {
+          "title": "Deven Manibusan v Josue Orozco",
+          "weightClass": null
+        },
+        {
+          "title": "Kenny Riley v Kayden Cody",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-02T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-02",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Fury-FC-125-Fury-Fighting-Championship-125-Meck-vs-Taylor-114025",
+        "name": "Fury Fighting Championship 125: Meck vs. Taylor",
+        "dateUTC": null,
+        "dateOnly": "2026-10-02",
+        "venue": "Minot Air Force Base",
+        "city": "Minot, North Dakota, United States",
+        "href": "/events/Fury-FC-125-Fury-Fighting-Championship-125-Meck-vs-Taylor-114025",
+        "mainEventFighters": [
+          "Meck",
+          "Taylor"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Carlos Calderon",
+            "b": "Lorram Esteves"
+          },
+          {
+            "a": "Yehia Riles",
+            "b": "JaCobi Jones"
+          },
+          {
+            "a": "Devon Dixon",
+            "b": "Alex Foster"
+          },
+          {
+            "a": "Christopher Lalone",
+            "b": "Diavantae Reddick"
+          },
+          {
+            "a": "Cameron Graves",
+            "b": "Kaecy Raddon"
+          },
+          {
+            "a": "Reginald Jones",
+            "b": "Tyrell Hill"
+          },
+          {
+            "a": "Aaron Phillips",
+            "b": "Quentin Perez"
+          },
+          {
+            "a": "Jenna Williams",
+            "b": "Brittany Bickhart"
+          },
+          {
+            "a": "Deven Manibusan",
+            "b": "Josue Orozco"
+          },
+          {
+            "a": "Kenny Riley",
+            "b": "Kayden Cody"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Meck|Taylor|2026-10-02"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Omari Jones vs Alan Sanchez",
+      "eventTag": "Boxing · Orlando",
+      "homeTeam": "Omari Jones",
+      "awayTeam": "Alan Sanchez",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-10-02T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Fri 02 Oct, 21:00",
+      "localDate": "2026-10-02",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-omari-jones-vs-alan-sanchez-2026-10-02",
+        "name": "Omari Jones vs Alan Sanchez",
+        "dateUTC": "2026-10-02T20:00:00.000Z",
+        "dateOnly": "2026-10-02",
+        "venue": null,
+        "city": "Orlando",
+        "mainEventFighters": [
+          "Omari Jones",
+          "Alan Sanchez"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/omari-jones-vs-alan-sanchez-2026-10-02"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/omari-jones-vs-alan-sanchez-2026-10-02"
+      },
+      "watchKey": "fights:Boxing|Omari Jones|Alan Sanchez|2026-10-02"
+    },
+    {
       "org": "UFC",
       "eventName": "Dana White's Contender Series: Season 10, Week 8",
       "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 4-fight card",
@@ -5925,8 +6127,8 @@
       "org": "MMA",
       "eventName": "Combate Extremo: Saltillo",
       "eventTag": "Combate Extremo · Lienzo Charro, Saltillo, Coahuila, Mexico",
-      "homeTeam": "Oziel Rodriguez",
-      "awayTeam": "Juan Carlos Diaz",
+      "homeTeam": "Juan Carlos Diaz",
+      "awayTeam": "Oziel Rodriguez",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -5934,31 +6136,43 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Gabriel Alvarado v Jose Beltran",
+          "title": "Jose Beltran v Gabriel Alvarado",
           "weightClass": null
         },
         {
-          "title": "Andrea Saenz v Alejandra Lugo",
+          "title": "David Sanchez v Jorge Manzano",
           "weightClass": null
         },
         {
-          "title": "Unknown Fighter v Jorge Manzano",
+          "title": "Daniel Soto v Alejandro Quero",
           "weightClass": null
         },
         {
-          "title": "Jorge Bracamontes v Gael Resendiz",
+          "title": "Heliodoro Sanabria v Emmanuel Jaquez",
           "weightClass": null
         },
         {
-          "title": "Alejandro Quero v Daniel Soto",
+          "title": "Jose Briones v Brayan Perez",
           "weightClass": null
         },
         {
-          "title": "Unknown Fighter v Heliodoro Sanabria",
+          "title": "Samantha Jaimes v Rosalba Franco",
           "weightClass": null
         },
         {
-          "title": "Jorge Armando Murillo v Jose Briones",
+          "title": "Erick Javier Bustos Rodriguez v Juan Pablo Baca Ortiz",
+          "weightClass": null
+        },
+        {
+          "title": "Luis Enrique Ramirez v Noe Zepeda",
+          "weightClass": null
+        },
+        {
+          "title": "Jose Maria Torres v Mario Chavez",
+          "weightClass": null
+        },
+        {
+          "title": "Axel Zuniga v Eduardo Leyva",
           "weightClass": null
         }
       ],
@@ -5979,42 +6193,54 @@
         "city": "Saltillo, Coahuila, Mexico",
         "href": "/events/Combate-Extremo-Saltillo-114282",
         "mainEventFighters": [
-          "Oziel Rodriguez",
-          "Juan Carlos Diaz"
+          "Juan Carlos Diaz",
+          "Oziel Rodriguez"
         ],
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Gabriel Alvarado",
-            "b": "Jose Beltran"
+            "a": "Jose Beltran",
+            "b": "Gabriel Alvarado"
           },
           {
-            "a": "Andrea Saenz",
-            "b": "Alejandra Lugo"
-          },
-          {
-            "a": "Unknown Fighter",
+            "a": "David Sanchez",
             "b": "Jorge Manzano"
           },
           {
-            "a": "Jorge Bracamontes",
-            "b": "Gael Resendiz"
+            "a": "Daniel Soto",
+            "b": "Alejandro Quero"
           },
           {
-            "a": "Alejandro Quero",
-            "b": "Daniel Soto"
+            "a": "Heliodoro Sanabria",
+            "b": "Emmanuel Jaquez"
           },
           {
-            "a": "Unknown Fighter",
-            "b": "Heliodoro Sanabria"
+            "a": "Jose Briones",
+            "b": "Brayan Perez"
           },
           {
-            "a": "Jorge Armando Murillo",
-            "b": "Jose Briones"
+            "a": "Samantha Jaimes",
+            "b": "Rosalba Franco"
+          },
+          {
+            "a": "Erick Javier Bustos Rodriguez",
+            "b": "Juan Pablo Baca Ortiz"
+          },
+          {
+            "a": "Luis Enrique Ramirez",
+            "b": "Noe Zepeda"
+          },
+          {
+            "a": "Jose Maria Torres",
+            "b": "Mario Chavez"
+          },
+          {
+            "a": "Axel Zuniga",
+            "b": "Eduardo Leyva"
           }
         ]
       },
-      "watchKey": "fights:MMA|Oziel Rodriguez|Juan Carlos Diaz|2026-09-26"
+      "watchKey": "fights:MMA|Juan Carlos Diaz|Oziel Rodriguez|2026-09-26"
     },
     {
       "org": "MMA",
@@ -7788,257 +8014,9 @@
         ]
       },
       "watchKey": "fights:UFC|Alexandre Pantoja|Joshua Van|2026-09-19"
-    },
-    {
-      "org": "MMA",
-      "eventName": "LFA 242: Lozej vs. Bittencourt",
-      "eventTag": "LFA 242 · Mystic Lake Hotel & Casino, Prior Lake, Minnesota, United States",
-      "homeTeam": "Lozej",
-      "awayTeam": "Bittencourt",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Marcos Breno v Shuya Kamikubo",
-          "weightClass": null
-        },
-        {
-          "title": "Steve Collins v Kevin Carrier",
-          "weightClass": null
-        },
-        {
-          "title": "Kelton Sneve v Julio Cesar Chaves",
-          "weightClass": null
-        },
-        {
-          "title": "Willer Alves Borges Junior v Marcus Nash",
-          "weightClass": null
-        },
-        {
-          "title": "Elias Rodriguez v Romello Union",
-          "weightClass": null
-        },
-        {
-          "title": "Noah Gasho v Adryen Spinks",
-          "weightClass": null
-        },
-        {
-          "title": "Allen Holloway v Mitchell Wilson",
-          "weightClass": null
-        },
-        {
-          "title": "Augustine Hahn v Luis Unzueta",
-          "weightClass": null
-        },
-        {
-          "title": "Sukhrob Iusupov v Brett Bye",
-          "weightClass": null
-        },
-        {
-          "title": "Tyree Overton v Marcelis Edwards",
-          "weightClass": null
-        },
-        {
-          "title": "Xavier Rosenbloom v Gift Harding",
-          "weightClass": null
-        },
-        {
-          "title": "Cadin Vowels v Kaden Moon",
-          "weightClass": null
-        },
-        {
-          "title": "Gunnar Nelson v Kyler Dunn",
-          "weightClass": null
-        },
-        {
-          "title": "Ricky Rodriguez v Trey White",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-09-18T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-09-18",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-LFA-242-Lozej-vs-Bittencourt-113926",
-        "name": "LFA 242: Lozej vs. Bittencourt",
-        "dateUTC": null,
-        "dateOnly": "2026-09-18",
-        "venue": "Mystic Lake Hotel & Casino",
-        "city": "Prior Lake, Minnesota, United States",
-        "href": "/events/LFA-242-Lozej-vs-Bittencourt-113926",
-        "mainEventFighters": [
-          "Lozej",
-          "Bittencourt"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Marcos Breno",
-            "b": "Shuya Kamikubo"
-          },
-          {
-            "a": "Steve Collins",
-            "b": "Kevin Carrier"
-          },
-          {
-            "a": "Kelton Sneve",
-            "b": "Julio Cesar Chaves"
-          },
-          {
-            "a": "Willer Alves Borges Junior",
-            "b": "Marcus Nash"
-          },
-          {
-            "a": "Elias Rodriguez",
-            "b": "Romello Union"
-          },
-          {
-            "a": "Noah Gasho",
-            "b": "Adryen Spinks"
-          },
-          {
-            "a": "Allen Holloway",
-            "b": "Mitchell Wilson"
-          },
-          {
-            "a": "Augustine Hahn",
-            "b": "Luis Unzueta"
-          },
-          {
-            "a": "Sukhrob Iusupov",
-            "b": "Brett Bye"
-          },
-          {
-            "a": "Tyree Overton",
-            "b": "Marcelis Edwards"
-          },
-          {
-            "a": "Xavier Rosenbloom",
-            "b": "Gift Harding"
-          },
-          {
-            "a": "Cadin Vowels",
-            "b": "Kaden Moon"
-          },
-          {
-            "a": "Gunnar Nelson",
-            "b": "Kyler Dunn"
-          },
-          {
-            "a": "Ricky Rodriguez",
-            "b": "Trey White"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Lozej|Bittencourt|2026-09-18"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Friday Fights 171",
-      "eventTag": "One Friday Fights 171 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Connor Tymon",
-      "awayTeam": "Alex Bigander",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-09-18T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-09-18",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-Friday-Fights-171-113335",
-        "name": "One Friday Fights 171",
-        "dateUTC": null,
-        "dateOnly": "2026-09-18",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-Friday-Fights-171-113335",
-        "mainEventFighters": [
-          "Connor Tymon",
-          "Alex Bigander"
-        ],
-        "broadcasts": [],
-        "bouts": []
-      },
-      "watchKey": "fights:MMA|Connor Tymon|Alex Bigander|2026-09-18"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-02T14:30:00.000Z",
-      "endsAtUTC": "2026-10-02T15:00:00.000Z",
-      "timeUK": "Fri 02 Oct, 15:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 229: Khabib v McGregor",
-      "sublabel": "UFC Fight Flashback"
-    },
-    {
-      "airTimeUTC": "2026-10-02T15:00:00.000Z",
-      "endsAtUTC": "2026-10-02T15:30:00.000Z",
-      "timeUK": "Fri 02 Oct, 16:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 332 Countdown: Silva v Wang",
-      "sublabel": "UFC Countdown"
-    },
-    {
-      "airTimeUTC": "2026-10-03T05:00:00.000Z",
-      "endsAtUTC": "2026-10-03T05:30:00.000Z",
-      "timeUK": "Sat 03 Oct, 06:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 332 Countdown: Silva v Wang",
-      "sublabel": "UFC Countdown"
-    },
-    {
-      "airTimeUTC": "2026-10-03T05:30:00.000Z",
-      "endsAtUTC": "2026-10-03T08:30:00.000Z",
-      "timeUK": "Sat 03 Oct, 06:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 270: Ngannou v Gane",
-      "sublabel": "UFC Reloaded"
-    },
-    {
-      "airTimeUTC": "2026-10-03T08:30:00.000Z",
-      "endsAtUTC": "2026-10-03T09:00:00.000Z",
-      "timeUK": "Sat 03 Oct, 09:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 332 Countdown: Silva v Wang",
-      "sublabel": "UFC Countdown"
-    },
     {
       "airTimeUTC": "2026-10-03T13:30:00.000Z",
       "endsAtUTC": "2026-10-03T14:00:00.000Z",
@@ -8088,6 +8066,18 @@
       "market": "Canada",
       "label": "Porter v Wilson",
       "sublabel": "BKFC Fight Night Mohegan Sun: Porter vs."
+    },
+    {
+      "airTimeUTC": "2026-10-08T18:00:00.000Z",
+      "endsAtUTC": "2026-10-08T22:00:00.000Z",
+      "timeUK": "Thu 08 Oct, 19:00",
+      "channel": {
+        "name": "Sky Sports Mix",
+        "logo": null
+      },
+      "market": "UK",
+      "label": "Andres Cortes v Eridson Garcia",
+      "sublabel": "Zuffa Boxing"
     }
   ]
 }
