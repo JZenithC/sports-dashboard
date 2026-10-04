@@ -1,5 +1,30 @@
 [
   {
+    "timestamp": "2026-10-04T16:02:13.326Z",
+    "totalEvents": 33,
+    "added": [
+      "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45",
+      "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00",
+      "Vasco da Gama vs Remo (Campeonato Brasileiro Série A) — Sat 10 Oct, 17:00",
+      "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15",
+      "Querétaro vs Atlante (Liga MX) — Sat 10 Oct, 17:00",
+      "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00",
+      "São Paulo vs Vitória (Campeonato Brasileiro Série A) — Sat 10 Oct, 21:00",
+      "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30",
+      "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00",
+      "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:00"
+    ],
+    "removed": [
+      "Defensa y Justicia vs San Lorenzo (Liga Profesional de Fútbol) — Sat 03 Oct, 14:45",
+      "Newell's Old Boys vs Lanús (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00",
+      "Atlético Tucumán vs Barracas Central (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00",
+      "Atlético Mineiro vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 03 Oct, 18:30",
+      "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sat 03 Oct, 19:15",
+      "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sat 03 Oct, 21:30"
+    ],
+    "channelsChanged": []
+  },
+  {
     "timestamp": "2026-10-03T15:18:54.498Z",
     "totalEvents": 29,
     "added": [
@@ -75,17 +100,6 @@
     "channelsChanged": [
       "Platense vs Estudiantes de La Plata (Copa Argentina) — Thu 01 Oct, 21:15: [TyC Sports, TyC Sports Play]",
       "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [Disney+ Premium, ESPN, ESPN Premium]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-01T05:42:15.275Z",
-    "totalEvents": 19,
-    "added": [
-      "São Paulo vs Santos (Campeonato Brasileiro Série A) — Fri 02 Oct, 20:00"
-    ],
-    "removed": [],
-    "channelsChanged": [
-      "Boca Juniors vs Union Santa Fe (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30: [DISNEY+, ESPN 3, ESPN Premium]"
     ]
   }
 ]

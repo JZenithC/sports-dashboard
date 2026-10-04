@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T15:20:22.213Z",
+  "generatedAt": "2026-10-04T16:03:36.135Z",
   "sources": [
     {
       "id": "fights-boxing",
@@ -7,12 +7,12 @@
       "group": "Fights",
       "ok": true,
       "error": null,
-      "items": 12,
+      "items": 14,
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:20:22.213Z",
-      "lastOkAt": "2026-10-03T15:20:22.213Z"
+      "checkedAt": "2026-10-04T16:03:36.135Z",
+      "lastOkAt": "2026-10-04T16:03:36.135Z"
     },
     {
       "id": "fights-live-listings",
@@ -24,8 +24,8 @@
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:20:22.213Z",
-      "lastOkAt": "2026-10-03T15:20:22.213Z"
+      "checkedAt": "2026-10-04T16:03:36.135Z",
+      "lastOkAt": "2026-10-04T16:03:36.135Z"
     },
     {
       "id": "fights-replays",
@@ -33,12 +33,12 @@
       "group": "Fights",
       "ok": true,
       "error": null,
-      "items": 15,
+      "items": 8,
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:20:22.213Z",
-      "lastOkAt": "2026-10-03T15:20:22.213Z"
+      "checkedAt": "2026-10-04T16:03:36.135Z",
+      "lastOkAt": "2026-10-04T16:03:36.135Z"
     },
     {
       "id": "fights-boxing-global",
@@ -50,21 +50,21 @@
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:20:22.213Z",
-      "lastOkAt": "2026-10-03T15:20:22.213Z"
+      "checkedAt": "2026-10-04T16:03:36.135Z",
+      "lastOkAt": "2026-10-04T16:03:36.135Z"
     },
     {
       "id": "fights-pfl",
       "label": "PFL schedule",
       "group": "Fights",
-      "ok": false,
-      "error": "HTTP 500",
-      "items": null,
+      "ok": true,
+      "error": null,
+      "items": 3,
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:20:22.213Z",
-      "lastOkAt": "2026-10-02T16:55:05.113Z"
+      "checkedAt": "2026-10-04T16:03:36.135Z",
+      "lastOkAt": "2026-10-04T16:03:36.135Z"
     },
     {
       "id": "fights-mma",
@@ -72,25 +72,25 @@
       "group": "Fights",
       "ok": true,
       "error": null,
-      "items": 29,
+      "items": 27,
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:20:22.213Z",
-      "lastOkAt": "2026-10-03T15:20:22.213Z"
+      "checkedAt": "2026-10-04T16:03:36.135Z",
+      "lastOkAt": "2026-10-04T16:03:36.135Z"
     },
     {
       "id": "fights-ufc",
       "label": "UFC schedule",
       "group": "Fights",
-      "ok": false,
-      "error": "HTTP 500",
-      "items": null,
+      "ok": true,
+      "error": null,
+      "items": 14,
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:20:22.213Z",
-      "lastOkAt": "2026-10-02T16:55:05.113Z"
+      "checkedAt": "2026-10-04T16:03:36.135Z",
+      "lastOkAt": "2026-10-04T16:03:36.135Z"
     },
     {
       "id": "fights-zuffa-worldwide",
@@ -102,7 +102,7 @@
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:20:22.213Z",
+      "checkedAt": "2026-10-04T16:03:36.135Z",
       "lastOkAt": "2026-09-23T05:42:54.091Z"
     },
     {
@@ -111,12 +111,12 @@
       "group": "Football fixtures",
       "ok": true,
       "error": null,
-      "items": 653,
+      "items": 668,
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "fixtures-brazil",
@@ -124,12 +124,12 @@
       "group": "Football fixtures",
       "ok": true,
       "error": null,
-      "items": 69,
+      "items": 63,
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "standings-brackets",
@@ -141,8 +141,8 @@
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:56.468Z",
-      "lastOkAt": "2026-10-03T15:18:56.468Z"
+      "checkedAt": "2026-10-04T16:02:14.719Z",
+      "lastOkAt": "2026-10-04T16:02:14.719Z"
     },
     {
       "id": "fixtures-europe",
@@ -154,8 +154,8 @@
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "standings-tables",
@@ -167,8 +167,8 @@
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:56.468Z",
-      "lastOkAt": "2026-10-03T15:18:56.468Z"
+      "checkedAt": "2026-10-04T16:02:14.719Z",
+      "lastOkAt": "2026-10-04T16:02:14.719Z"
     },
     {
       "id": "fixtures-mexico",
@@ -176,12 +176,12 @@
       "group": "Football fixtures",
       "ok": true,
       "error": null,
-      "items": 650,
+      "items": 634,
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-sa-directv-ar",
@@ -193,8 +193,8 @@
       "channelsOk": 13,
       "channelsTotal": 13,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-ar-tycagenda",
@@ -202,12 +202,12 @@
       "group": "Football replays",
       "ok": true,
       "error": null,
-      "items": 107,
+      "items": 90,
       "channelsOk": 1,
       "channelsTotal": 1,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-sa-guiadetv",
@@ -219,8 +219,8 @@
       "channelsOk": 17,
       "channelsTotal": 17,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-de-tvinfo",
@@ -232,8 +232,8 @@
       "channelsOk": 5,
       "channelsTotal": 5,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-it-superguidatv",
@@ -245,21 +245,21 @@
       "channelsOk": 8,
       "channelsTotal": 8,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-global-footyontv",
       "label": "Live listings (FootyOnTV)",
       "group": "Football replays",
       "ok": true,
-      "error": "Argentina: HTTP 522",
+      "error": null,
       "items": null,
-      "channelsOk": 10,
+      "channelsOk": 11,
       "channelsTotal": 11,
-      "degraded": true,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "degraded": false,
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-pt-sporttv",
@@ -271,8 +271,8 @@
       "channelsOk": 6,
       "channelsTotal": 6,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-es-laliga-api",
@@ -284,8 +284,8 @@
       "channelsOk": 1,
       "channelsTotal": 1,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-es-elpais",
@@ -297,8 +297,8 @@
       "channelsOk": 3,
       "channelsTotal": 3,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-es-formulatv",
@@ -310,8 +310,8 @@
       "channelsOk": 12,
       "channelsTotal": 12,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-es-futbolenlatv",
@@ -323,8 +323,8 @@
       "channelsOk": 12,
       "channelsTotal": 12,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-uk-tvguide",
@@ -336,8 +336,8 @@
       "channelsOk": 9,
       "channelsTotal": 9,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "football-na-tvpassport",
@@ -349,8 +349,8 @@
       "channelsOk": 17,
       "channelsTotal": 17,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:18:54.502Z",
-      "lastOkAt": "2026-10-03T15:18:54.502Z"
+      "checkedAt": "2026-10-04T16:02:13.331Z",
+      "lastOkAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "mlb-replays",
@@ -362,8 +362,8 @@
       "channelsOk": 17,
       "channelsTotal": 18,
       "degraded": true,
-      "checkedAt": "2026-10-03T15:19:34.819Z",
-      "lastOkAt": "2026-10-03T15:19:34.819Z"
+      "checkedAt": "2026-10-04T16:02:49.203Z",
+      "lastOkAt": "2026-10-04T16:02:49.203Z"
     },
     {
       "id": "mlb-schedule",
@@ -371,12 +371,12 @@
       "group": "MLB",
       "ok": true,
       "error": null,
-      "items": 57,
+      "items": 45,
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:19:34.819Z",
-      "lastOkAt": "2026-10-03T15:19:34.819Z"
+      "checkedAt": "2026-10-04T16:02:49.203Z",
+      "lastOkAt": "2026-10-04T16:02:49.203Z"
     },
     {
       "id": "mlb-standings",
@@ -388,8 +388,8 @@
       "channelsOk": null,
       "channelsTotal": null,
       "degraded": false,
-      "checkedAt": "2026-10-03T15:19:34.819Z",
-      "lastOkAt": "2026-10-03T15:19:34.819Z"
+      "checkedAt": "2026-10-04T16:02:49.203Z",
+      "lastOkAt": "2026-10-04T16:02:49.203Z"
     }
   ],
   "incidents": [
@@ -401,7 +401,7 @@
       "error": "HTTP 500",
       "startedAt": "2026-10-03T15:20:22.213Z",
       "lastSeenAt": "2026-10-03T15:20:22.213Z",
-      "resolvedAt": null
+      "resolvedAt": "2026-10-04T16:03:36.135Z"
     },
     {
       "id": "fights-ufc",
@@ -411,7 +411,7 @@
       "error": "HTTP 500",
       "startedAt": "2026-10-03T15:20:22.213Z",
       "lastSeenAt": "2026-10-03T15:20:22.213Z",
-      "resolvedAt": null
+      "resolvedAt": "2026-10-04T16:03:36.135Z"
     },
     {
       "id": "football-global-footyontv",
@@ -421,7 +421,7 @@
       "error": "Argentina: HTTP 522",
       "startedAt": "2026-10-03T15:18:54.502Z",
       "lastSeenAt": "2026-10-03T15:18:54.502Z",
-      "resolvedAt": null
+      "resolvedAt": "2026-10-04T16:02:13.331Z"
     },
     {
       "id": "fights-zuffa-worldwide",
@@ -430,7 +430,7 @@
       "state": "down",
       "error": "UFC watch article has no parseable Zuffa card",
       "startedAt": "2026-09-25T05:43:28.670Z",
-      "lastSeenAt": "2026-10-03T15:20:22.213Z",
+      "lastSeenAt": "2026-10-04T16:03:36.135Z",
       "resolvedAt": null
     },
     {
@@ -470,7 +470,7 @@
       "state": "degraded",
       "error": "Chicago White Sox: HTTP 404",
       "startedAt": "2026-08-28T05:42:43.716Z",
-      "lastSeenAt": "2026-10-03T15:19:34.819Z",
+      "lastSeenAt": "2026-10-04T16:02:49.203Z",
       "resolvedAt": null
     },
     {
@@ -518,180 +518,147 @@
     {
       "channel": "ESPN Premium",
       "source": "football-sa-directv-ar",
-      "fetched": 47,
-      "parsed": 41,
-      "attributed": 24,
+      "fetched": 46,
+      "parsed": 42,
+      "attributed": 26,
       "supplemented": 0,
       "drops": {
-        "notFootball": 6,
-        "untracked": 13,
-        "window": 4,
-        "live": 6
+        "notFootball": 4,
+        "untracked": 14,
+        "window": 2,
+        "live": 4
       }
     },
     {
       "channel": "TNT Sports Argentina",
       "source": "football-sa-directv-ar",
-      "fetched": 52,
-      "parsed": 32,
-      "attributed": 20,
+      "fetched": 51,
+      "parsed": 28,
+      "attributed": 21,
       "supplemented": 0,
       "drops": {
-        "notFootball": 19,
-        "unparsed": 1,
-        "untracked": 10,
-        "window": 3
-      }
-    },
-    {
-      "channel": "M. Liga de Campeones",
-      "source": "football-es-formulatv",
-      "fetched": 46,
-      "parsed": 27,
-      "attributed": 11,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 10,
-        "unparsed": 9,
-        "untracked": 28,
-        "window": 1,
-        "duplicate": 1
+        "notFootball": 21,
+        "unparsed": 2,
+        "untracked": 5,
+        "window": 2,
+        "live": 1
       }
     },
     {
       "channel": "beIN Sports España",
       "source": "football-es-elpais",
-      "fetched": 46,
-      "parsed": 29,
-      "attributed": 9,
+      "fetched": 51,
+      "parsed": 26,
+      "attributed": 10,
       "supplemented": 0,
       "drops": {
-        "unparsed": 8,
-        "notFootball": 9,
-        "window": 2,
-        "untracked": 36
+        "notFootball": 12,
+        "unparsed": 13,
+        "untracked": 30,
+        "window": 1
       }
     },
     {
-      "channel": "SPORT TV 2",
-      "source": "football-pt-sporttv",
-      "fetched": 52,
+      "channel": "M. Liga de Campeones",
+      "source": "football-es-formulatv",
+      "fetched": 51,
       "parsed": 24,
-      "attributed": 2,
+      "attributed": 10,
       "supplemented": 0,
       "drops": {
-        "notFootball": 28,
-        "untracked": 38,
-        "live": 6
+        "notFootball": 13,
+        "unparsed": 14,
+        "untracked": 24,
+        "window": 1,
+        "duplicate": 1
       }
     },
     {
       "channel": "Vamos",
       "source": "football-es-formulatv",
-      "fetched": 42,
-      "parsed": 9,
-      "attributed": 2,
+      "fetched": 48,
+      "parsed": 15,
+      "attributed": 4,
       "supplemented": 0,
       "drops": {
         "notFootball": 32,
         "unparsed": 1,
-        "untracked": 12,
+        "untracked": 20,
         "window": 1
+      }
+    },
+    {
+      "channel": "SPORT TV 2",
+      "source": "football-pt-sporttv",
+      "fetched": 49,
+      "parsed": 19,
+      "attributed": 2,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 30,
+        "untracked": 29,
+        "live": 5
       }
     },
     {
       "channel": "DSports R",
       "source": "football-sa-directv-ar",
-      "fetched": 21,
-      "parsed": 5,
+      "fetched": 24,
+      "parsed": 7,
       "attributed": 2,
       "supplemented": 0,
       "drops": {
-        "notFootball": 14,
+        "notFootball": 15,
         "unparsed": 2,
-        "window": 3
-      }
-    },
-    {
-      "channel": "DSports 2",
-      "source": "football-sa-directv-ar",
-      "fetched": 66,
-      "parsed": 26,
-      "attributed": 1,
-      "supplemented": 0,
-      "drops": {
-        "unparsed": 8,
-        "notFootball": 32,
-        "untracked": 50
+        "window": 3,
+        "untracked": 4
       }
     },
     {
       "channel": "SPORT TV 1",
       "source": "football-pt-sporttv",
-      "fetched": 54,
-      "parsed": 36,
-      "attributed": 1,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 18,
-        "live": 8,
-        "untracked": 61
-      }
-    },
-    {
-      "channel": "TUDN",
-      "source": "football-na-tvpassport",
-      "fetched": 47,
-      "parsed": 24,
+      "fetched": 57,
+      "parsed": 40,
       "attributed": 1,
       "supplemented": 0,
       "drops": {
         "notFootball": 17,
-        "unparsed": 6,
-        "untracked": 29,
-        "live": 6
+        "untracked": 71,
+        "live": 7
       }
     },
     {
       "channel": "ESPN Argentina",
       "source": "football-sa-directv-ar",
-      "fetched": 43,
-      "parsed": 11,
+      "fetched": 48,
+      "parsed": 6,
       "attributed": 1,
       "supplemented": 0,
       "drops": {
-        "notFootball": 29,
+        "notFootball": 41,
+        "unparsed": 1,
+        "untracked": 10,
+        "live": 1
+      }
+    },
+    {
+      "channel": "Fox Deportes",
+      "source": "football-na-tvpassport",
+      "fetched": 46,
+      "parsed": 4,
+      "attributed": 1,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 39,
         "unparsed": 3,
-        "untracked": 19
+        "untracked": 5
       }
     },
     {
       "channel": "futbolenlatv",
       "source": "football-es-futbolenlatv",
-      "fetched": 1523,
-      "parsed": 1523,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {}
-    },
-    {
-      "channel": "DAZN Italia",
-      "source": "football-it-superguidatv",
-      "fetched": 230,
-      "parsed": 118,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 98,
-        "unparsed": 14,
-        "untracked": 236
-      }
-    },
-    {
-      "channel": "US & Canada (English)",
-      "source": "football-global-footyontv",
-      "fetched": 159,
-      "parsed": 159,
+      "fetched": 1518,
+      "parsed": 1518,
       "attributed": 0,
       "supplemented": 0,
       "drops": {}
@@ -699,452 +666,505 @@
     {
       "channel": "TyC agenda",
       "source": "football-ar-tycagenda",
-      "fetched": 149,
-      "parsed": 90,
+      "fetched": 165,
+      "parsed": 77,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 59
-      }
-    },
-    {
-      "channel": "LaLiga TV",
-      "source": "football-es-formulatv",
-      "fetched": 103,
-      "parsed": 57,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 17,
-        "unparsed": 29,
-        "untracked": 100,
-        "archive": 6
+        "notFootball": 88
       }
     },
     {
       "channel": "Sky Sports Football",
       "source": "football-uk-tvguide",
-      "fetched": 101,
-      "parsed": 72,
+      "fetched": 126,
+      "parsed": 94,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "unparsed": 15,
-        "notFootball": 14,
-        "archive": 18,
-        "untracked": 109,
-        "live": 1
+        "unparsed": 14,
+        "notFootball": 18,
+        "archive": 24,
+        "untracked": 140
       }
     },
     {
-      "channel": "SPORT TV+",
-      "source": "football-pt-sporttv",
-      "fetched": 100,
-      "parsed": 42,
+      "channel": "DAZN Italia",
+      "source": "football-it-superguidatv",
+      "fetched": 122,
+      "parsed": 58,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 58,
-        "untracked": 84
+        "notFootball": 50,
+        "unparsed": 14,
+        "untracked": 116
       }
     },
     {
-      "channel": "Esport3",
-      "source": "football-es-elpais",
-      "fetched": 95,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 74,
-        "unparsed": 21,
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "Gol",
-      "source": "football-es-formulatv",
-      "fetched": 93,
-      "parsed": 68,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 9,
-        "unparsed": 16,
-        "untracked": 129,
-        "archive": 2
-      }
-    },
-    {
-      "channel": "Sky Sports Premier League",
-      "source": "football-uk-tvguide",
-      "fetched": 89,
-      "parsed": 2,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 46,
-        "unparsed": 41,
-        "archive": 2
-      }
-    },
-    {
-      "channel": "Brazil",
+      "channel": "US & Canada (English)",
       "source": "football-global-footyontv",
-      "fetched": 87,
-      "parsed": 87,
+      "fetched": 113,
+      "parsed": 113,
       "attributed": 0,
       "supplemented": 0,
       "drops": {}
     },
     {
-      "channel": "TyC Sports",
-      "source": "football-na-tvpassport",
-      "fetched": 81,
+      "channel": "LaLiga TV",
+      "source": "football-es-formulatv",
+      "fetched": 105,
+      "parsed": 72,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "unparsed": 17,
+        "notFootball": 16,
+        "untracked": 128,
+        "archive": 6
+      }
+    },
+    {
+      "channel": "Sky Sports Premier League",
+      "source": "football-uk-tvguide",
+      "fetched": 98,
       "parsed": 2,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 74,
-        "unparsed": 5,
-        "live": 1,
-        "untracked": 3
+        "notFootball": 53,
+        "unparsed": 43,
+        "archive": 2
       }
     },
     {
-      "channel": "DAZN LaLiga",
-      "source": "football-es-formulatv",
-      "fetched": 76,
-      "parsed": 47,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 7,
-        "unparsed": 22,
-        "untracked": 89
-      }
-    },
-    {
-      "channel": "Teledeporte",
+      "channel": "Esport3",
       "source": "football-es-elpais",
-      "fetched": 73,
+      "fetched": 94,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 36,
-        "unparsed": 37,
+        "notFootball": 73,
+        "unparsed": 21
+      }
+    },
+    {
+      "channel": "SPORT TV+",
+      "source": "football-pt-sporttv",
+      "fetched": 92,
+      "parsed": 41,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 51,
+        "untracked": 82
+      }
+    },
+    {
+      "channel": "TyC Sports",
+      "source": "football-na-tvpassport",
+      "fetched": 85,
+      "parsed": 1,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 77,
+        "unparsed": 7,
+        "untracked": 3,
+        "live": 1
+      }
+    },
+    {
+      "channel": "TNT Sports 4",
+      "source": "football-uk-tvguide",
+      "fetched": 75,
+      "parsed": 7,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 62,
+        "unparsed": 6,
+        "archive": 7
+      }
+    },
+    {
+      "channel": "TNT Sports 2",
+      "source": "football-uk-tvguide",
+      "fetched": 74,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 69,
+        "unparsed": 5,
         "live": 1,
         "untracked": 1
       }
     },
     {
-      "channel": "Sky Sport Uno",
-      "source": "football-it-superguidatv",
-      "fetched": 69,
-      "parsed": 11,
+      "channel": "TNT Sports 3",
+      "source": "football-uk-tvguide",
+      "fetched": 74,
+      "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 52,
-        "unparsed": 6,
-        "live": 9,
-        "untracked": 17
+        "notFootball": 67,
+        "unparsed": 7
       }
     },
     {
-      "channel": "SPORT TV 4",
-      "source": "football-pt-sporttv",
-      "fetched": 67,
-      "parsed": 3,
+      "channel": "Gol",
+      "source": "football-es-formulatv",
+      "fetched": 71,
+      "parsed": 49,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 64,
-        "live": 3,
-        "untracked": 3
+        "notFootball": 11,
+        "unparsed": 11,
+        "untracked": 90,
+        "archive": 3
       }
     },
     {
       "channel": "Sky Fussball Bundesliga",
       "source": "football-de-tvinfo",
-      "fetched": 67,
-      "parsed": 28,
+      "fetched": 68,
+      "parsed": 37,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "unparsed": 33,
-        "notFootball": 6,
-        "untracked": 56
+        "unparsed": 26,
+        "notFootball": 5,
+        "untracked": 74
+      }
+    },
+    {
+      "channel": "DAZN LaLiga",
+      "source": "football-es-formulatv",
+      "fetched": 66,
+      "parsed": 33,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "unparsed": 23,
+        "notFootball": 10,
+        "untracked": 66
       }
     },
     {
       "channel": "Sky Sport Austria",
       "source": "football-de-tvinfo",
-      "fetched": 67,
-      "parsed": 33,
+      "fetched": 65,
+      "parsed": 34,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 10,
-        "unparsed": 24,
-        "untracked": 56,
-        "archive": 5
+        "notFootball": 8,
+        "unparsed": 23,
+        "untracked": 60,
+        "archive": 4
       }
     },
     {
-      "channel": "TNT Sports 2",
+      "channel": "TNT Sports 1",
       "source": "football-uk-tvguide",
       "fetched": 64,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 57,
-        "unparsed": 7
+        "notFootball": 54,
+        "unparsed": 10
       }
     },
     {
-      "channel": "TNT Sports 3",
-      "source": "football-uk-tvguide",
+      "channel": "Teledeporte",
+      "source": "football-es-elpais",
       "fetched": 63,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 58,
-        "unparsed": 5
+        "unparsed": 29,
+        "notFootball": 34,
+        "live": 1,
+        "untracked": 1
+      }
+    },
+    {
+      "channel": "DSports 2",
+      "source": "football-sa-directv-ar",
+      "fetched": 62,
+      "parsed": 26,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 32,
+        "unparsed": 4,
+        "untracked": 51
       }
     },
     {
       "channel": "Sky Sport Calcio",
       "source": "football-it-superguidatv",
-      "fetched": 61,
-      "parsed": 29,
+      "fetched": 62,
+      "parsed": 31,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "unparsed": 12,
-        "notFootball": 20,
-        "untracked": 52,
+        "unparsed": 13,
+        "notFootball": 18,
+        "untracked": 56,
         "live": 6
-      }
-    },
-    {
-      "channel": "TNT Sports 4",
-      "source": "football-uk-tvguide",
-      "fetched": 60,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 55,
-        "unparsed": 5
-      }
-    },
-    {
-      "channel": "ESPN 3 Argentina",
-      "source": "football-sa-directv-ar",
-      "fetched": 60,
-      "parsed": 17,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 39,
-        "unparsed": 4,
-        "untracked": 31
-      }
-    },
-    {
-      "channel": "TNT Sports 1",
-      "source": "football-uk-tvguide",
-      "fetched": 59,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "unparsed": 9,
-        "notFootball": 50
       }
     },
     {
       "channel": "Sport1",
       "source": "football-de-tvinfo",
-      "fetched": 59,
-      "parsed": 18,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 41,
-        "untracked": 36
-      }
-    },
-    {
-      "channel": "Fox Sports 2 Argentina",
-      "source": "football-sa-directv-ar",
-      "fetched": 58,
-      "parsed": 11,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 45,
-        "unparsed": 2,
-        "untracked": 13
-      }
-    },
-    {
-      "channel": "DSports",
-      "source": "football-sa-directv-ar",
-      "fetched": 57,
-      "parsed": 12,
+      "fetched": 62,
+      "parsed": 24,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
         "notFootball": 38,
-        "unparsed": 7,
-        "untracked": 23
-      }
-    },
-    {
-      "channel": "Premier Sports 1",
-      "source": "football-uk-tvguide",
-      "fetched": 54,
-      "parsed": 10,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 42,
-        "unparsed": 2,
-        "untracked": 20
+        "untracked": 48
       }
     },
     {
       "channel": "Premier Sports 2",
       "source": "football-uk-tvguide",
-      "fetched": 54,
+      "fetched": 58,
+      "parsed": 16,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 34,
+        "unparsed": 8,
+        "untracked": 32
+      }
+    },
+    {
+      "channel": "Fox Sports 2 Argentina",
+      "source": "football-sa-directv-ar",
+      "fetched": 57,
       "parsed": 11,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 37,
-        "unparsed": 6,
-        "untracked": 22
-      }
-    },
-    {
-      "channel": "Fox Sports Argentina",
-      "source": "football-sa-directv-ar",
-      "fetched": 53,
-      "parsed": 15,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 30,
-        "unparsed": 8,
-        "untracked": 23
-      }
-    },
-    {
-      "channel": "Movistar Deportes",
-      "source": "football-es-formulatv",
-      "fetched": 53,
-      "parsed": 9,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 44,
-        "untracked": 18
-      }
-    },
-    {
-      "channel": "ESPN 2 Argentina",
-      "source": "football-sa-directv-ar",
-      "fetched": 52,
-      "parsed": 18,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "unparsed": 12,
-        "notFootball": 22,
-        "untracked": 36
-      }
-    },
-    {
-      "channel": "CBS Sports Network",
-      "source": "football-na-tvpassport",
-      "fetched": 49,
-      "parsed": 3,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 46,
-        "live": 5,
-        "untracked": 5
-      }
-    },
-    {
-      "channel": "DSports+",
-      "source": "football-sa-directv-ar",
-      "fetched": 49,
-      "parsed": 7,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 39,
+        "notFootball": 43,
         "unparsed": 3,
         "untracked": 14
       }
     },
     {
+      "channel": "Sky Sport Uno",
+      "source": "football-it-superguidatv",
+      "fetched": 57,
+      "parsed": 10,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 43,
+        "unparsed": 4,
+        "live": 5,
+        "untracked": 15
+      }
+    },
+    {
       "channel": "beIN Sports",
       "source": "football-na-tvpassport",
-      "fetched": 47,
-      "parsed": 8,
+      "fetched": 56,
+      "parsed": 4,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 37,
-        "unparsed": 2,
-        "untracked": 16
+        "notFootball": 48,
+        "unparsed": 4,
+        "untracked": 8
       }
     },
     {
-      "channel": "Sky Sport Arena",
-      "source": "football-it-superguidatv",
-      "fetched": 47,
-      "parsed": 14,
+      "channel": "ESPN 2 Argentina",
+      "source": "football-sa-directv-ar",
+      "fetched": 56,
+      "parsed": 16,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 33,
-        "untracked": 26,
-        "live": 2
-      }
-    },
-    {
-      "channel": "DAZN Deutschland",
-      "source": "football-de-tvinfo",
-      "fetched": 47,
-      "parsed": 32,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 15,
-        "untracked": 64
+        "notFootball": 29,
+        "unparsed": 11,
+        "untracked": 33,
+        "live": 1
       }
     },
     {
       "channel": "Sky Sports Main Event",
       "source": "football-uk-tvguide",
-      "fetched": 45,
-      "parsed": 1,
+      "fetched": 55,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 50,
+        "unparsed": 5
+      }
+    },
+    {
+      "channel": "DSports",
+      "source": "football-sa-directv-ar",
+      "fetched": 52,
+      "parsed": 10,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 33,
+        "unparsed": 9,
+        "untracked": 20
+      }
+    },
+    {
+      "channel": "Sky Sport Arena",
+      "source": "football-it-superguidatv",
+      "fetched": 52,
+      "parsed": 15,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 36,
+        "unparsed": 1,
+        "untracked": 28,
+        "live": 2
+      }
+    },
+    {
+      "channel": "beIN Sports en Español",
+      "source": "football-na-tvpassport",
+      "fetched": 51,
+      "parsed": 10,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 35,
+        "unparsed": 6,
+        "untracked": 20
+      }
+    },
+    {
+      "channel": "SPORT TV 4",
+      "source": "football-pt-sporttv",
+      "fetched": 51,
+      "parsed": 4,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 47,
+        "live": 4,
+        "untracked": 4
+      }
+    },
+    {
+      "channel": "Movistar Deportes",
+      "source": "football-es-formulatv",
+      "fetched": 51,
+      "parsed": 10,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 41,
+        "untracked": 20
+      }
+    },
+    {
+      "channel": "Premier Sports 1",
+      "source": "football-uk-tvguide",
+      "fetched": 50,
+      "parsed": 4,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 46,
+        "untracked": 8
+      }
+    },
+    {
+      "channel": "ESPN 3 Argentina",
+      "source": "football-sa-directv-ar",
+      "fetched": 50,
+      "parsed": 22,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 25,
+        "unparsed": 3,
+        "untracked": 42
+      }
+    },
+    {
+      "channel": "beIN Sports Canada",
+      "source": "football-na-tvpassport",
+      "fetched": 47,
+      "parsed": 2,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
         "notFootball": 42,
-        "unparsed": 2,
-        "untracked": 2
+        "unparsed": 3,
+        "untracked": 4
+      }
+    },
+    {
+      "channel": "TUDN",
+      "source": "football-na-tvpassport",
+      "fetched": 47,
+      "parsed": 21,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 19,
+        "unparsed": 7,
+        "untracked": 31,
+        "live": 6
+      }
+    },
+    {
+      "channel": "Fox Sports Argentina",
+      "source": "football-sa-directv-ar",
+      "fetched": 47,
+      "parsed": 14,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 29,
+        "unparsed": 4,
+        "untracked": 22
+      }
+    },
+    {
+      "channel": "DSports+",
+      "source": "football-sa-directv-ar",
+      "fetched": 47,
+      "parsed": 9,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "unparsed": 3,
+        "notFootball": 35,
+        "untracked": 18
+      }
+    },
+    {
+      "channel": "Fútbol Replay",
+      "source": "football-es-formulatv",
+      "fetched": 47,
+      "parsed": 3,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 44,
+        "untracked": 6
       }
     },
     {
@@ -1157,146 +1177,134 @@
       "drops": {}
     },
     {
-      "channel": "Fox Deportes",
-      "source": "football-na-tvpassport",
-      "fetched": 43,
-      "parsed": 4,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 39,
-        "live": 2,
-        "untracked": 5
-      }
-    },
-    {
-      "channel": "beIN Sports en Español",
-      "source": "football-na-tvpassport",
-      "fetched": 42,
-      "parsed": 16,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 24,
-        "unparsed": 2,
-        "untracked": 32
-      }
-    },
-    {
-      "channel": "ESPN México",
-      "source": "football-na-tvpassport",
-      "fetched": 42,
-      "parsed": 1,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 32,
-        "unparsed": 9,
-        "untracked": 2
-      }
-    },
-    {
-      "channel": "beIN Sports Canada",
-      "source": "football-na-tvpassport",
-      "fetched": 41,
-      "parsed": 4,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 35,
-        "unparsed": 2,
-        "untracked": 8
-      }
-    },
-    {
-      "channel": "Sportdigital1+",
-      "source": "football-de-tvinfo",
-      "fetched": 41,
-      "parsed": 16,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 25,
-        "live": 3,
-        "untracked": 29
-      }
-    },
-    {
-      "channel": "Fútbol Replay",
-      "source": "football-es-formulatv",
-      "fetched": 40,
-      "parsed": 3,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 37,
-        "untracked": 6
-      }
-    },
-    {
-      "channel": "Univision",
-      "source": "football-na-tvpassport",
-      "fetched": 36,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 36
-      }
-    },
-    {
-      "channel": "Sky Sport Football",
-      "source": "football-it-superguidatv",
-      "fetched": 36,
-      "parsed": 4,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 25,
-        "unparsed": 7,
-        "untracked": 8
-      }
-    },
-    {
-      "channel": "SPORT TV 3",
-      "source": "football-pt-sporttv",
-      "fetched": 34,
-      "parsed": 4,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 30,
-        "live": 4,
-        "untracked": 4
-      }
-    },
-    {
-      "channel": "DAZN 1",
-      "source": "football-es-formulatv",
-      "fetched": 30,
-      "parsed": 9,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "unparsed": 2,
-        "notFootball": 19,
-        "untracked": 18
-      }
-    },
-    {
-      "channel": "UK",
+      "channel": "Argentina",
       "source": "football-global-footyontv",
-      "fetched": 29,
-      "parsed": 29,
+      "fetched": 44,
+      "parsed": 44,
       "attributed": 0,
       "supplemented": 0,
       "drops": {}
     },
     {
-      "channel": "Germany",
+      "channel": "CBS Sports Network",
+      "source": "football-na-tvpassport",
+      "fetched": 43,
+      "parsed": 2,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 41,
+        "live": 3,
+        "untracked": 3
+      }
+    },
+    {
+      "channel": "Sky Sport Football",
+      "source": "football-it-superguidatv",
+      "fetched": 43,
+      "parsed": 2,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 34,
+        "unparsed": 7,
+        "untracked": 4
+      }
+    },
+    {
+      "channel": "Sportdigital1+",
+      "source": "football-de-tvinfo",
+      "fetched": 43,
+      "parsed": 13,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 30,
+        "untracked": 24,
+        "live": 2
+      }
+    },
+    {
+      "channel": "ESPN México",
+      "source": "football-na-tvpassport",
+      "fetched": 38,
+      "parsed": 2,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 26,
+        "unparsed": 10,
+        "untracked": 4
+      }
+    },
+    {
+      "channel": "SPORT TV 3",
+      "source": "football-pt-sporttv",
+      "fetched": 37,
+      "parsed": 3,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 34,
+        "live": 3,
+        "untracked": 3
+      }
+    },
+    {
+      "channel": "ESPN 2 México",
+      "source": "football-na-tvpassport",
+      "fetched": 34,
+      "parsed": 5,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 25,
+        "unparsed": 4,
+        "live": 5,
+        "untracked": 3
+      }
+    },
+    {
+      "channel": "DAZN 1",
+      "source": "football-es-formulatv",
+      "fetched": 34,
+      "parsed": 11,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 22,
+        "unparsed": 1,
+        "untracked": 22
+      }
+    },
+    {
+      "channel": "DAZN Deutschland",
+      "source": "football-de-tvinfo",
+      "fetched": 31,
+      "parsed": 24,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 7,
+        "untracked": 48
+      }
+    },
+    {
+      "channel": "Univision",
+      "source": "football-na-tvpassport",
+      "fetched": 27,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 27
+      }
+    },
+    {
+      "channel": "Brazil",
       "source": "football-global-footyontv",
-      "fetched": 28,
-      "parsed": 28,
+      "fetched": 27,
+      "parsed": 27,
       "attributed": 0,
       "supplemented": 0,
       "drops": {}
@@ -1304,38 +1312,44 @@
     {
       "channel": "UniMás",
       "source": "football-na-tvpassport",
-      "fetched": 26,
+      "fetched": 24,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 26
+        "notFootball": 24
       }
     },
     {
-      "channel": "ESPN 2 México",
+      "channel": "USA Network",
       "source": "football-na-tvpassport",
-      "fetched": 24,
-      "parsed": 5,
+      "fetched": 23,
+      "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 17,
-        "unparsed": 2,
-        "live": 5,
-        "untracked": 4
+        "notFootball": 23
       }
+    },
+    {
+      "channel": "Germany",
+      "source": "football-global-footyontv",
+      "fetched": 23,
+      "parsed": 23,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {}
     },
     {
       "channel": "DSports 3",
       "source": "football-sa-directv-ar",
-      "fetched": 24,
-      "parsed": 4,
+      "fetched": 22,
+      "parsed": 3,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 20,
-        "untracked": 8
+        "notFootball": 19,
+        "untracked": 6
       }
     },
     {
@@ -1348,36 +1362,27 @@
       "drops": {}
     },
     {
-      "channel": "USA Network",
-      "source": "football-na-tvpassport",
-      "fetched": 19,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 19
-      }
-    },
-    {
       "channel": "SPORT TV 5",
       "source": "football-pt-sporttv",
-      "fetched": 15,
+      "fetched": 17,
       "parsed": 1,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 14,
+        "notFootball": 16,
         "live": 1
       }
     },
     {
-      "channel": "Spain",
-      "source": "football-global-footyontv",
+      "channel": "beIN Sports 3",
+      "source": "football-na-tvpassport",
       "fetched": 15,
-      "parsed": 15,
+      "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
-      "drops": {}
+      "drops": {
+        "notFootball": 15
+      }
     },
     {
       "channel": "beIN Sports 4",
@@ -1391,7 +1396,7 @@
       }
     },
     {
-      "channel": "beIN Sports 3",
+      "channel": "beIN Sports 5",
       "source": "football-na-tvpassport",
       "fetched": 13,
       "parsed": 0,
@@ -1402,49 +1407,29 @@
       }
     },
     {
-      "channel": "beIN Sports 5",
-      "source": "football-na-tvpassport",
-      "fetched": 12,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "notFootball": 12
-      }
-    },
-    {
       "channel": "beIN Sports 6",
       "source": "football-na-tvpassport",
-      "fetched": 12,
+      "fetched": 13,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 12
+        "notFootball": 13
       }
     },
     {
       "channel": "beIN Sports 7",
       "source": "football-na-tvpassport",
-      "fetched": 12,
+      "fetched": 13,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "notFootball": 12
+        "notFootball": 13
       }
     },
     {
       "channel": "Portugal",
-      "source": "football-global-footyontv",
-      "fetched": 11,
-      "parsed": 11,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {}
-    },
-    {
-      "channel": "Italy",
       "source": "football-global-footyontv",
       "fetched": 9,
       "parsed": 9,
@@ -1453,7 +1438,16 @@
       "drops": {}
     },
     {
-      "channel": "Canada",
+      "channel": "UK",
+      "source": "football-global-footyontv",
+      "fetched": 9,
+      "parsed": 9,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {}
+    },
+    {
+      "channel": "Spain",
       "source": "football-global-footyontv",
       "fetched": 7,
       "parsed": 7,
@@ -1462,10 +1456,40 @@
       "drops": {}
     },
     {
+      "channel": "M. Liga de Campeones 2",
+      "source": "football-es-formulatv",
+      "fetched": 5,
+      "parsed": 1,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "notFootball": 4,
+        "untracked": 2
+      }
+    },
+    {
+      "channel": "Canada",
+      "source": "football-global-footyontv",
+      "fetched": 4,
+      "parsed": 4,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {}
+    },
+    {
+      "channel": "Italy",
+      "source": "football-global-footyontv",
+      "fetched": 3,
+      "parsed": 3,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {}
+    },
+    {
       "channel": "France",
       "source": "football-global-footyontv",
-      "fetched": 6,
-      "parsed": 6,
+      "fetched": 1,
+      "parsed": 1,
       "attributed": 0,
       "supplemented": 0,
       "drops": {}
@@ -1478,7 +1502,7 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 5
+        "live": 4
       }
     },
     {
@@ -1489,20 +1513,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 46,
-        "untracked": 41
-      }
-    },
-    {
-      "channel": "Win Sports",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 6,
-        "untracked": 6
+        "live": 26,
+        "untracked": 24
       }
     },
     {
@@ -1513,20 +1525,20 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 9,
-        "untracked": 9
+        "live": 7,
+        "untracked": 7
       }
     },
     {
-      "channel": "TyC Sports Play",
+      "channel": "Win Sports",
       "source": null,
       "fetched": 0,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 1,
-        "untracked": 1
+        "live": 4,
+        "untracked": 4
       }
     },
     {
@@ -1537,20 +1549,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 20,
-        "untracked": 20
-      }
-    },
-    {
-      "channel": "ESPN",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 12,
-        "untracked": 12
+        "live": 30,
+        "untracked": 30
       }
     },
     {
@@ -1566,6 +1566,18 @@
       }
     },
     {
+      "channel": "ESPN",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 7,
+        "untracked": 7
+      }
+    },
+    {
       "channel": "Liga 1 Max",
       "source": null,
       "fetched": 0,
@@ -1573,8 +1585,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 3,
-        "untracked": 3
+        "live": 6,
+        "untracked": 6
       }
     },
     {
@@ -1585,8 +1597,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 2,
-        "untracked": 2
+        "live": 1,
+        "untracked": 1
       }
     },
     {
@@ -1609,8 +1621,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 1219,
-        "untracked": 1219
+        "live": 1218,
+        "untracked": 1218
       }
     },
     {
@@ -1645,8 +1657,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 35,
-        "untracked": 10
+        "live": 33,
+        "untracked": 9
       }
     },
     {
@@ -1657,8 +1669,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 26,
-        "untracked": 4
+        "live": 25,
+        "untracked": 3
       }
     },
     {
@@ -1681,8 +1693,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 12,
-        "untracked": 1
+        "live": 13,
+        "untracked": 2
       }
     },
     {
@@ -1715,7 +1727,7 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 31
+        "live": 25
       }
     },
     {
@@ -1762,6 +1774,18 @@
       "drops": {
         "live": 8,
         "untracked": 8
+      }
+    },
+    {
+      "channel": "LaLiga TV M2",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 1,
+        "untracked": 1
       }
     },
     {
@@ -1825,31 +1849,7 @@
       }
     },
     {
-      "channel": "Betano",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 56,
-        "untracked": 48
-      }
-    },
-    {
-      "channel": "Disney+",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 14,
-        "untracked": 13
-      }
-    },
-    {
-      "channel": "Globoplay",
+      "channel": "RFFM PLAY",
       "source": null,
       "fetched": 0,
       "parsed": 0,
@@ -1858,6 +1858,90 @@
       "drops": {
         "live": 1,
         "untracked": 1
+      }
+    },
+    {
+      "channel": "Disney+ Premium Argentina",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 7,
+        "untracked": 7
+      }
+    },
+    {
+      "channel": "ESPN 2 Sur",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 3,
+        "untracked": 3
+      }
+    },
+    {
+      "channel": "ViX",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 85,
+        "untracked": 83
+      }
+    },
+    {
+      "channel": "RCN Nuestra Tele",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 18,
+        "untracked": 18
+      }
+    },
+    {
+      "channel": "Telefe",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 1,
+        "untracked": 1
+      }
+    },
+    {
+      "channel": "Claro Sports",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 1,
+        "untracked": 1
+      }
+    },
+    {
+      "channel": "Betano",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 11,
+        "untracked": 8
       }
     },
     {
@@ -1873,7 +1957,19 @@
       }
     },
     {
-      "channel": "TV Globo",
+      "channel": "Disney+",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 7,
+        "untracked": 4
+      }
+    },
+    {
+      "channel": "Sportv 3",
       "source": null,
       "fetched": 0,
       "parsed": 0,
@@ -1885,19 +1981,7 @@
       }
     },
     {
-      "channel": "Sportv 2",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "YouTube - Concacaf",
+      "channel": "Xsports",
       "source": null,
       "fetched": 0,
       "parsed": 0,
@@ -1906,53 +1990,6 @@
       "drops": {
         "live": 2,
         "untracked": 2
-      }
-    },
-    {
-      "channel": "Premiere",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1
-      }
-    },
-    {
-      "channel": "OneSoccer",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "RDS",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "TSN4",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
       }
     },
     {
@@ -1987,36 +2024,12 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 2,
-        "untracked": 2
+        "live": 1,
+        "untracked": 1
       }
     },
     {
       "channel": "Sky Sport News",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 2,
-        "untracked": 2
-      }
-    },
-    {
-      "channel": "WOW",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 2,
-        "untracked": 2
-      }
-    },
-    {
-      "channel": "SRF zwei",
       "source": null,
       "fetched": 0,
       "parsed": 0,
@@ -2028,25 +2041,15 @@
       }
     },
     {
-      "channel": "Sportdigital+",
+      "channel": "WOW",
       "source": null,
       "fetched": 0,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 2
-      }
-    },
-    {
-      "channel": "Sportdigital FUSSBALL",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 2
+        "live": 1,
+        "untracked": 1
       }
     },
     {
@@ -2074,51 +2077,25 @@
       }
     },
     {
-      "channel": "Prime Video",
+      "channel": "Sportdigital+",
       "source": null,
       "fetched": 0,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 1,
-        "untracked": 1
+        "live": 1
       }
     },
     {
-      "channel": "RTVE Play",
+      "channel": "Sportdigital FUSSBALL",
       "source": null,
       "fetched": 0,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "TVE La 1",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "RCN Nuestra Tele",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 16,
-        "untracked": 16
+        "live": 1
       }
     },
     {
@@ -2134,15 +2111,15 @@
       }
     },
     {
-      "channel": "L'Équipe Live Foot",
+      "channel": "TV8",
       "source": null,
       "fetched": 0,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 5,
-        "untracked": 5
+        "live": 1,
+        "untracked": 1
       }
     },
     {
@@ -2153,43 +2130,19 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 2
+        "live": 1
       }
     },
     {
-      "channel": "NOW",
+      "channel": "Rai 1",
       "source": null,
       "fetched": 0,
       "parsed": 0,
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 3,
-        "untracked": 3
-      }
-    },
-    {
-      "channel": "TV8",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 2,
-        "untracked": 2
-      }
-    },
-    {
-      "channel": "ViX",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 56,
-        "untracked": 54
+        "live": 1,
+        "untracked": 1
       }
     },
     {
@@ -2200,7 +2153,7 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 10
+        "live": 12
       }
     },
     {
@@ -2288,172 +2241,6 @@
       }
     },
     {
-      "channel": "RTP 1",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "Sport TV5",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1
-      }
-    },
-    {
-      "channel": "Premier Sports 1 HD",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1
-      }
-    },
-    {
-      "channel": "Premier Sports Player",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 2,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "BBC iPlayer",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 3,
-        "untracked": 3
-      }
-    },
-    {
-      "channel": "BBC Red Button",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "BBC Sport Web",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 3,
-        "untracked": 3
-      }
-    },
-    {
-      "channel": "NOW TV UK",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "Sky Go UK",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "Sky Sports+",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 10,
-        "untracked": 10
-      }
-    },
-    {
-      "channel": "ITV",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "ITVX",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "STV Player",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "BBC One",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
       "channel": "Premier Sports 2 HD",
       "source": null,
       "fetched": 0,
@@ -2466,7 +2253,55 @@
       }
     },
     {
+      "channel": "Premier Sports Player",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 1,
+        "untracked": 1
+      }
+    },
+    {
+      "channel": "BBC iPlayer",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 2,
+        "untracked": 2
+      }
+    },
+    {
+      "channel": "BBC Sport Web",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 2,
+        "untracked": 2
+      }
+    },
+    {
       "channel": "BBC Two",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 1,
+        "untracked": 1
+      }
+    },
+    {
+      "channel": "BBC Three",
       "source": null,
       "fetched": 0,
       "parsed": 0,
@@ -2485,8 +2320,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 18,
-        "untracked": 18
+        "live": 7,
+        "untracked": 7
       }
     },
     {
@@ -2497,8 +2332,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 18,
-        "untracked": 18
+        "live": 7,
+        "untracked": 7
       }
     },
     {
@@ -2509,8 +2344,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 12,
-        "untracked": 12
+        "live": 15,
+        "untracked": 15
       }
     },
     {
@@ -2521,212 +2356,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 10,
-        "untracked": 10
-      }
-    },
-    {
-      "channel": "DAZN US",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
         "live": 11,
         "untracked": 11
-      }
-    },
-    {
-      "channel": "Paramount+",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 6,
-        "untracked": 6
-      }
-    },
-    {
-      "channel": "Fox Soccer Plus",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 5,
-        "untracked": 5
-      }
-    },
-    {
-      "channel": "ESPN Deportes",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 2,
-        "untracked": 2
-      }
-    },
-    {
-      "channel": "Fanatiz USA",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 15,
-        "untracked": 7
-      }
-    },
-    {
-      "channel": "ion",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 3,
-        "untracked": 3
-      }
-    },
-    {
-      "channel": "WDVM TV",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "NESN Plus",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "WWAX",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "Tampa Bay 44",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "Fox",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "HBO Max",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "NBC UNIVERSO",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "Peacock",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "CBS Sports Golazo",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "KVVU-FOX",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
-      }
-    },
-    {
-      "channel": "SSSEN",
-      "source": null,
-      "fetched": 0,
-      "parsed": 0,
-      "attributed": 0,
-      "supplemented": 0,
-      "drops": {
-        "live": 1,
-        "untracked": 1
       }
     },
     {
@@ -2754,6 +2385,30 @@
       }
     },
     {
+      "channel": "Fanatiz USA",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 12,
+        "untracked": 4
+      }
+    },
+    {
+      "channel": "Fox Soccer Plus",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 5,
+        "untracked": 5
+      }
+    },
+    {
       "channel": "Tubi",
       "source": null,
       "fetched": 0,
@@ -2761,8 +2416,8 @@
       "attributed": 0,
       "supplemented": 0,
       "drops": {
-        "live": 2,
-        "untracked": 2
+        "live": 4,
+        "untracked": 4
       }
     },
     {
@@ -2787,6 +2442,17 @@
       "drops": {
         "live": 1,
         "untracked": 1
+      }
+    },
+    {
+      "channel": "Telemundo",
+      "source": null,
+      "fetched": 0,
+      "parsed": 0,
+      "attributed": 0,
+      "supplemented": 0,
+      "drops": {
+        "live": 1
       }
     }
   ]

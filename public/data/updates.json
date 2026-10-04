@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-10-03T15:20:22.210Z",
+  "generatedAt": "2026-10-04T16:03:36.132Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-04T16:02:13.326Z",
+        "totalEvents": 33,
+        "added": [
+          "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45",
+          "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00",
+          "Vasco da Gama vs Remo (Campeonato Brasileiro Série A) — Sat 10 Oct, 17:00",
+          "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15",
+          "Querétaro vs Atlante (Liga MX) — Sat 10 Oct, 17:00",
+          "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00",
+          "São Paulo vs Vitória (Campeonato Brasileiro Série A) — Sat 10 Oct, 21:00",
+          "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30",
+          "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00",
+          "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:00"
+        ],
+        "removed": [
+          "Defensa y Justicia vs San Lorenzo (Liga Profesional de Fútbol) — Sat 03 Oct, 14:45",
+          "Newell's Old Boys vs Lanús (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00",
+          "Atlético Tucumán vs Barracas Central (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00",
+          "Atlético Mineiro vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 03 Oct, 18:30",
+          "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sat 03 Oct, 19:15",
+          "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sat 03 Oct, 21:30"
+        ],
+        "channelsChanged": [],
+        "total": 33
+      },
       {
         "timestamp": "2026-10-03T15:18:54.498Z",
         "totalEvents": 29,
@@ -256,17 +282,34 @@
           "Chivas Guadalajara vs Querétaro (Liga MX) — Sat 26 Sept, 17:07: [Amazon Prime Video (Míralo en vivo)]"
         ],
         "total": 11
-      },
-      {
-        "timestamp": "2026-09-22T15:48:11.120Z",
-        "totalEvents": 11,
-        "added": [],
-        "removed": [],
-        "channelsChanged": [],
-        "total": 11
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-04T16:02:49.201Z",
+        "total": 17,
+        "added": [
+          "Chicago White Sox @ Cleveland Guardians (2026-10-10)",
+          "New York Yankees @ Tampa Bay Rays (2026-10-10)",
+          "NL Lower Seed @ NL Higher Seed (2026-10-11)"
+        ],
+        "removed": [
+          "Chicago White Sox @ Cleveland Guardians (2026-10-03)",
+          "Atlanta Braves @ Los Angeles Dodgers (2026-10-03)",
+          "New York Yankees @ Tampa Bay Rays (2026-10-03)",
+          "San Diego Padres @ Milwaukee Brewers (2026-10-03)"
+        ],
+        "channelsChanged": [
+          "San Diego Padres @ Milwaukee Brewers (2026-10-04): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
+          "Atlanta Braves @ Los Angeles Dodgers (2026-10-04): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
+          "Los Angeles Dodgers @ Atlanta Braves (2026-10-06): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
+          "Milwaukee Brewers @ San Diego Padres (2026-10-06): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
+          "Los Angeles Dodgers @ Atlanta Braves (2026-10-07): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
+          "Milwaukee Brewers @ San Diego Padres (2026-10-07): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
+          "San Diego Padres @ Milwaukee Brewers (2026-10-09): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
+          "Atlanta Braves @ Los Angeles Dodgers (2026-10-09): [FOX / FOX ONE, Fox Deportes / FOX ONE]"
+        ]
+      },
       {
         "timestamp": "2026-10-03T15:19:34.815Z",
         "total": 18,
@@ -674,21 +717,34 @@
           "AL Wild Card #2 @ AL Wild Card #1 (2026-09-29)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-22T15:49:18.333Z",
-        "total": 91,
-        "added": [
-          "AL Wild Card #2 @ AL Wild Card #1 (2026-09-29)",
-          "NL Wild Card #2 @ NL Wild Card #1 (2026-09-29)",
-          "AL Wild Card #3 @ AL #3 Seed (2026-09-29)",
-          "NL Wild Card #3 @ NL #3 Seed (2026-09-29)"
-        ],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-04T16:03:36.132Z",
+        "total": 54,
+        "added": [
+          "ACA 208: Abdulvakhabov vs. Tibau (2026-10-04)",
+          "Pancrase: 367 (2026-10-04)",
+          "One Friday Fights 174 (2026-10-09)",
+          "Elif Nur Turhan-Alycia Baumgardner (2026-11-09)",
+          "Diego Pacheco-Darius Fulghum (2026-11-15)",
+          "Litzy Vazquez- Stephanie Pineiro (2026-12-06)",
+          "UFC 335: Oliveira vs. Lopes (2026-12-12)"
+        ],
+        "removed": [
+          "Ben Whittaker vs. Conor Wallace (2026-10-03)",
+          "UFC 332: Silva vs. Wang (2026-10-03)",
+          "Rizin FF: Landmark Vol. 16 (2026-10-03)",
+          "ACA 208: Shaikhaev vs. Tumenov (2026-10-04)",
+          "Pancrase: 367 (2026-10-04)",
+          "One Friday Fights 174 (2026-10-09)",
+          "Alycia Baumgardner vs Elif Nur Turhan (2026-11-08)",
+          "Diego Pacheco vs Darius Fulghum (2026-11-14)",
+          "UFC 335 (2026-12-12)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-03T15:20:22.210Z",
         "total": 56,
@@ -908,15 +964,6 @@
           "Dana White's Contender Series: Season 10, Week 7 (2026-09-23)",
           "Dana White's Contender Series: Season 10, Week 8 (2026-09-30)"
         ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-22T15:50:06.540Z",
-        "total": 54,
-        "added": [
-          "Anthony Cacace vs Nick Ball (2026-12-19)"
-        ],
-        "removed": [],
         "channelsChanged": []
       }
     ]

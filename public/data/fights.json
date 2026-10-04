@@ -1,372 +1,12 @@
 {
-  "generatedAt": "2026-10-03T15:20:22.209Z",
+  "generatedAt": "2026-10-04T16:03:36.131Z",
   "upcoming": [
     {
-      "org": "Boxing",
-      "eventName": "Ben Whittaker vs. Conor Wallace",
-      "eventTag": "Boxing · Utilita Arena Birmingham, Birmingham, United Kingdom",
-      "homeTeam": "Ben Whittaker",
-      "awayTeam": "Conor Wallace",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": {
-        "src": "/logos/posters/5292bb224b179c4c75d2.jpg",
-        "attribution": "DAZN"
-      },
-      "kickoffUTC": "2026-10-03T18:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 03 Oct, 19:00",
-      "localDate": "2026-10-03",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "Listed by source",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "ben-whittaker-vs-conor-wallace",
-        "name": "Ben Whittaker vs. Conor Wallace",
-        "dateUTC": "2026-10-03T18:00:00.000Z",
-        "dateOnly": "2026-10-03",
-        "venue": "Utilita Arena Birmingham",
-        "city": "Birmingham, United Kingdom",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/BenWhittakerConorWallaceposter.jpg",
-        "posterAttribution": "DAZN",
-        "mainEventFighters": [
-          "Ben Whittaker",
-          "Conor Wallace"
-        ],
-        "bouts": [
-          {
-            "a": "Ben Whittaker",
-            "b": "Conor Wallace"
-          }
-        ],
-        "broadcasts": [
-          "DAZN"
-        ]
-      },
-      "watchKey": "fights:Boxing|Ben Whittaker|Conor Wallace|2026-10-03"
-    },
-    {
-      "org": "UFC",
-      "eventName": "UFC 332: Silva vs. Wang",
-      "eventTag": "UFC 332 · Delta Center, Salt Lake City · 14-fight card · main card Sun 04 Oct, 01:00 UK",
-      "homeTeam": "Natalia Silva",
-      "awayTeam": "Wang Cong",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/bra.png",
-      "awayLogo": "/logos/flags/chn.png",
-      "orgName": "UFC",
-      "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [
-        {
-          "title": "Court McGee v Eric Nolan",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Marvin Vettori v Ismail Naurdiev",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Rafael Dos Anjos v Alexander Hernandez",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Jacobe Smith v Bruce Whitehead",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Johnny Walker v Mick Parkin",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Anthony Wint v Lucas Armand",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Anthony Romero v Marcus McGhee",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Andrey Pulyaev v Damian Pinas",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Alden Coria v Imanol Rodriguez",
-          "weightClass": "Flyweight"
-        },
-        {
-          "title": "Roman Kopylov v Ateba Gautier",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Roberto Soldić v Khaos Williams",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "King Green v Esteban Ribovics",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Deiveson Figueiredo v Payton Talbott",
-          "weightClass": "Bantamweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-03T20:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 03 Oct, 21:00",
-      "localDate": "2026-10-03",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        },
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports",
-              "url": "https://www.tntsports.co.uk/boxing/",
-              "logo": "/logos/channels/tntsports.co.uk.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "UFC",
-        "espnId": "600061182",
-        "name": "UFC 332: Silva vs. Wang",
-        "dateUTC": "2026-10-03T20:00Z",
-        "mainCardUTC": "2026-10-04T00:00Z",
-        "venue": "Delta Center",
-        "city": "Salt Lake City",
-        "country": "USA",
-        "mainEventFighters": [
-          "Natalia Silva",
-          "Wang Cong"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/chn.png"
-        ],
-        "bouts": [
-          {
-            "a": "Court McGee",
-            "b": "Eric Nolan",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Marvin Vettori",
-            "b": "Ismail Naurdiev",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Rafael Dos Anjos",
-            "b": "Alexander Hernandez",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Jacobe Smith",
-            "b": "Bruce Whitehead",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Johnny Walker",
-            "b": "Mick Parkin",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Anthony Wint",
-            "b": "Lucas Armand",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Anthony Romero",
-            "b": "Marcus McGhee",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Andrey Pulyaev",
-            "b": "Damian Pinas",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Alden Coria",
-            "b": "Imanol Rodriguez",
-            "weightClass": "Flyweight"
-          },
-          {
-            "a": "Roman Kopylov",
-            "b": "Ateba Gautier",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Roberto Soldić",
-            "b": "Khaos Williams",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "King Green",
-            "b": "Esteban Ribovics",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Deiveson Figueiredo",
-            "b": "Payton Talbott",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Natalia Silva",
-            "b": "Wang Cong",
-            "weightClass": "W Flyweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 14,
-        "broadcasts": [
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:UFC|Natalia Silva|Wang Cong|2026-10-03"
-    },
-    {
       "org": "MMA",
-      "eventName": "Rizin FF: Landmark Vol. 16",
-      "eventTag": "Rizin FF · Happiness Arena, Nagasaki, Nagasaki, Japan",
-      "homeTeam": "Yoshinori Horie",
-      "awayTeam": "Sho Patrick Usami",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Viktor Kolesnik v Koyomi Matsushima",
-          "weightClass": null
-        },
-        {
-          "title": "Hyuma Yasui v Ryan Cafaro",
-          "weightClass": null
-        },
-        {
-          "title": "Keito Oyama v Noeru Narita",
-          "weightClass": null
-        },
-        {
-          "title": "Kyohei Takagi v Masatoshi Ueda",
-          "weightClass": null
-        },
-        {
-          "title": "Seiya Inoue v Ryusei Ashizawa",
-          "weightClass": null
-        },
-        {
-          "title": "Hidetaka Arato v Ken Hasegawa",
-          "weightClass": null
-        },
-        {
-          "title": "Alan Yamaniha v Seigo Yamamoto",
-          "weightClass": null
-        },
-        {
-          "title": "Kohei Sugiyama v Kaito Oda",
-          "weightClass": null
-        },
-        {
-          "title": "Ryota Oki v Daisuke Okumiya",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-03T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-03",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Rizin-FF-Landmark-Vol-16-113793",
-        "name": "Rizin FF: Landmark Vol. 16",
-        "dateUTC": null,
-        "dateOnly": "2026-10-03",
-        "venue": "Happiness Arena",
-        "city": "Nagasaki, Nagasaki, Japan",
-        "href": "/events/Rizin-FF-Landmark-Vol-16-113793",
-        "mainEventFighters": [
-          "Yoshinori Horie",
-          "Sho Patrick Usami"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Viktor Kolesnik",
-            "b": "Koyomi Matsushima"
-          },
-          {
-            "a": "Hyuma Yasui",
-            "b": "Ryan Cafaro"
-          },
-          {
-            "a": "Keito Oyama",
-            "b": "Noeru Narita"
-          },
-          {
-            "a": "Kyohei Takagi",
-            "b": "Masatoshi Ueda"
-          },
-          {
-            "a": "Seiya Inoue",
-            "b": "Ryusei Ashizawa"
-          },
-          {
-            "a": "Hidetaka Arato",
-            "b": "Ken Hasegawa"
-          },
-          {
-            "a": "Alan Yamaniha",
-            "b": "Seigo Yamamoto"
-          },
-          {
-            "a": "Kohei Sugiyama",
-            "b": "Kaito Oda"
-          },
-          {
-            "a": "Ryota Oki",
-            "b": "Daisuke Okumiya"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Yoshinori Horie|Sho Patrick Usami|2026-10-03"
-    },
-    {
-      "org": "MMA",
-      "eventName": "ACA 208: Shaikhaev vs. Tumenov",
+      "eventName": "ACA 208: Abdulvakhabov vs. Tibau",
       "eventTag": "ACA 208 · Sport Hall Colloseum, Grozny, Chechnya, Russia",
-      "homeTeam": "Shaikhaev",
-      "awayTeam": "Tumenov",
+      "homeTeam": "Abdulvakhabov",
+      "awayTeam": "Tibau",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -374,15 +14,11 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Abdul-Aziz Abdulvakhabov v Gleison Tibau",
+          "title": "Kurban Taygibov v Dzhambulat Selimkhanov",
           "weightClass": null
         },
         {
           "title": "Abdul-Rakhman Dudaev v Vicente Vargas",
-          "weightClass": null
-        },
-        {
-          "title": "Kurban Taygibov v Dzhambulat Selimkhanov",
           "weightClass": null
         },
         {
@@ -414,15 +50,15 @@
           "weightClass": null
         },
         {
-          "title": "Yunus Evloev v Francisco Figueiredo",
+          "title": "Francisco Figueiredo v Yunus Evloev",
           "weightClass": null
         },
         {
-          "title": "Murad Abdulaev v Mark Hulme",
+          "title": "Mark Hulme v Murad Abdulaev",
           "weightClass": null
         },
         {
-          "title": "Kurban Gadzhiev v Umalat Israpilov",
+          "title": "Umalat Israpilov v Kurban Gadzhiev",
           "weightClass": null
         },
         {
@@ -442,15 +78,15 @@
           "weightClass": null
         },
         {
-          "title": "Tamirlan Ashakhanov v Renan Oliveira",
+          "title": "Renan Oliveira v Tamirlan Ashakhanov",
           "weightClass": null
         },
         {
-          "title": "Ramzan Suleymanov v Vazha Tsiptauri",
+          "title": "Vazha Tsiptauri v Ramzan Suleymanov",
           "weightClass": null
         },
         {
-          "title": "Murat Fakov v Asvad Akhmatov",
+          "title": "Asvad Akhmatov v Murat Fakov",
           "weightClass": null
         },
         {
@@ -467,30 +103,26 @@
       "broadcastGroups": null,
       "source": {
         "org": "MMA",
-        "slug": "sherdog-ACA-208-Shaikhaev-vs-Tumenov-114200",
-        "name": "ACA 208: Shaikhaev vs. Tumenov",
+        "slug": "sherdog-ACA-208-Abdulvakhabov-vs-Tibau-114200",
+        "name": "ACA 208: Abdulvakhabov vs. Tibau",
         "dateUTC": null,
         "dateOnly": "2026-10-04",
         "venue": "Sport Hall Colloseum",
         "city": "Grozny, Chechnya, Russia",
-        "href": "/events/ACA-208-Shaikhaev-vs-Tumenov-114200",
+        "href": "/events/ACA-208-Abdulvakhabov-vs-Tibau-114200",
         "mainEventFighters": [
-          "Shaikhaev",
-          "Tumenov"
+          "Abdulvakhabov",
+          "Tibau"
         ],
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Abdul-Aziz Abdulvakhabov",
-            "b": "Gleison Tibau"
+            "a": "Kurban Taygibov",
+            "b": "Dzhambulat Selimkhanov"
           },
           {
             "a": "Abdul-Rakhman Dudaev",
             "b": "Vicente Vargas"
-          },
-          {
-            "a": "Kurban Taygibov",
-            "b": "Dzhambulat Selimkhanov"
           },
           {
             "a": "Adlan Ibragimov",
@@ -521,16 +153,16 @@
             "b": "Shamil Boraev"
           },
           {
-            "a": "Yunus Evloev",
-            "b": "Francisco Figueiredo"
+            "a": "Francisco Figueiredo",
+            "b": "Yunus Evloev"
           },
           {
-            "a": "Murad Abdulaev",
-            "b": "Mark Hulme"
+            "a": "Mark Hulme",
+            "b": "Murad Abdulaev"
           },
           {
-            "a": "Kurban Gadzhiev",
-            "b": "Umalat Israpilov"
+            "a": "Umalat Israpilov",
+            "b": "Kurban Gadzhiev"
           },
           {
             "a": "Imam Vitakhanov",
@@ -549,16 +181,16 @@
             "b": "Artur Astakhov"
           },
           {
-            "a": "Tamirlan Ashakhanov",
-            "b": "Renan Oliveira"
+            "a": "Renan Oliveira",
+            "b": "Tamirlan Ashakhanov"
           },
           {
-            "a": "Ramzan Suleymanov",
-            "b": "Vazha Tsiptauri"
+            "a": "Vazha Tsiptauri",
+            "b": "Ramzan Suleymanov"
           },
           {
-            "a": "Murat Fakov",
-            "b": "Asvad Akhmatov"
+            "a": "Asvad Akhmatov",
+            "b": "Murat Fakov"
           },
           {
             "a": "Islam Geroev",
@@ -566,14 +198,14 @@
           }
         ]
       },
-      "watchKey": "fights:MMA|Shaikhaev|Tumenov|2026-10-04"
+      "watchKey": "fights:MMA|Abdulvakhabov|Tibau|2026-10-04"
     },
     {
       "org": "MMA",
       "eventName": "Pancrase: 367",
       "eventTag": "Pancrase · New Pier Hall, Minato, Tokyo, Japan",
-      "homeTeam": "Kazuki Kasai",
-      "awayTeam": "Nachyn Sat",
+      "homeTeam": "Nachyn Sat",
+      "awayTeam": "Kazuki Kasai",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -593,15 +225,15 @@
           "weightClass": null
         },
         {
-          "title": "Ryohei Kobayashi v Issei Tokita",
+          "title": "Issei Tokida v Ryohei Kobayashi",
           "weightClass": null
         },
         {
-          "title": "Yohei Nada v Junya Sawaki",
+          "title": "Junya Sawaki v Yohei Nada",
           "weightClass": null
         },
         {
-          "title": "Sho Miyashita v Ryosuke Mayumida",
+          "title": "Ryosuke Mayumida v Sho Miyashita",
           "weightClass": null
         },
         {
@@ -609,19 +241,19 @@
           "weightClass": null
         },
         {
-          "title": "Tomoya Kamakura v Seiya Saso",
+          "title": "Seiya Saso v Tomoya Kamakura",
           "weightClass": null
         },
         {
-          "title": "Shota Saito v Ryohei Danbara",
+          "title": "Ryohei Danbara v Shota Saito",
           "weightClass": null
         },
         {
-          "title": "Yodai Ono v Fuuto Shimoyama",
+          "title": "Fuuto Shimoyama v Yodai Ono",
           "weightClass": null
         },
         {
-          "title": "Yukito Hamamoto v Daichi Endo",
+          "title": "Yukito Hamamoto v Hiroyuki Shibui",
           "weightClass": null
         }
       ],
@@ -642,8 +274,8 @@
         "city": "Minato, Tokyo, Japan",
         "href": "/events/Pancrase-367-114384",
         "mainEventFighters": [
-          "Kazuki Kasai",
-          "Nachyn Sat"
+          "Nachyn Sat",
+          "Kazuki Kasai"
         ],
         "broadcasts": [],
         "bouts": [
@@ -660,40 +292,40 @@
             "b": "Jimena Osorio"
           },
           {
-            "a": "Ryohei Kobayashi",
-            "b": "Issei Tokita"
+            "a": "Issei Tokida",
+            "b": "Ryohei Kobayashi"
           },
           {
-            "a": "Yohei Nada",
-            "b": "Junya Sawaki"
+            "a": "Junya Sawaki",
+            "b": "Yohei Nada"
           },
           {
-            "a": "Sho Miyashita",
-            "b": "Ryosuke Mayumida"
+            "a": "Ryosuke Mayumida",
+            "b": "Sho Miyashita"
           },
           {
             "a": "Arashi Yamanobe",
             "b": "Taito Watanabe"
           },
           {
-            "a": "Tomoya Kamakura",
-            "b": "Seiya Saso"
+            "a": "Seiya Saso",
+            "b": "Tomoya Kamakura"
           },
           {
-            "a": "Shota Saito",
-            "b": "Ryohei Danbara"
+            "a": "Ryohei Danbara",
+            "b": "Shota Saito"
           },
           {
-            "a": "Yodai Ono",
-            "b": "Fuuto Shimoyama"
+            "a": "Fuuto Shimoyama",
+            "b": "Yodai Ono"
           },
           {
             "a": "Yukito Hamamoto",
-            "b": "Daichi Endo"
+            "b": "Hiroyuki Shibui"
           }
         ]
       },
-      "watchKey": "fights:MMA|Kazuki Kasai|Nachyn Sat|2026-10-04"
+      "watchKey": "fights:MMA|Nachyn Sat|Kazuki Kasai|2026-10-04"
     },
     {
       "org": "UFC",
@@ -792,6 +424,14 @@
         {
           "title": "Abdul-Malik Siriev v Gavril Semenov",
           "weightClass": null
+        },
+        {
+          "title": "Gasan Musakaev v Abubakar Debziev",
+          "weightClass": null
+        },
+        {
+          "title": "Georgiy Komarov v Amirkhan Zakriev",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -839,6 +479,14 @@
           {
             "a": "Abdul-Malik Siriev",
             "b": "Gavril Semenov"
+          },
+          {
+            "a": "Gasan Musakaev",
+            "b": "Abubakar Debziev"
+          },
+          {
+            "a": "Georgiy Komarov",
+            "b": "Amirkhan Zakriev"
           }
         ]
       },
@@ -1036,14 +684,19 @@
       "org": "MMA",
       "eventName": "One Friday Fights 174",
       "eventTag": "One Friday Fights 174 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "One Friday Fights 174",
+      "homeTeam": "Denis Andreev",
+      "awayTeam": "Waldimir Britez",
+      "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Philemon Britus Jeb v Bat-Ireedui Ganbaatar",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-10-09T23:59:00Z",
       "kickoffLocal": null,
@@ -1060,11 +713,19 @@
         "venue": "Lumpinee Boxing Stadium",
         "city": "Bangkok, Thailand",
         "href": "/events/One-Championship-One-Friday-Fights-174-114700",
-        "mainEventFighters": [],
+        "mainEventFighters": [
+          "Denis Andreev",
+          "Waldimir Britez"
+        ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Philemon Britus Jeb",
+            "b": "Bat-Ireedui Ganbaatar"
+          }
+        ]
       },
-      "watchKey": "fights:MMA|null|null|2026-10-09"
+      "watchKey": "fights:MMA|Denis Andreev|Waldimir Britez|2026-10-09"
     },
     {
       "org": "UFC",
@@ -2689,7 +2350,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 333: Volkanovski vs. Evloev",
-      "eventTag": "UFC 333 · Etihad Arena, Abu Dhabi · 9-fight card · main card Sat 24 Oct, 19:00 UK",
+      "eventTag": "UFC 333 · Etihad Arena, Abu Dhabi · 10-fight card · main card Sat 24 Oct, 19:00 UK",
       "homeTeam": "Alexander Volkanovski",
       "awayTeam": "Movsar Evloev",
       "cardTitle": null,
@@ -2698,6 +2359,10 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Colby Thicknesse v Asaf Chopurov",
+          "weightClass": "Bantamweight"
+        },
         {
           "title": "Grant Dawson v Nurullo Aliev",
           "weightClass": "Lightweight"
@@ -2778,6 +2443,11 @@
         ],
         "bouts": [
           {
+            "a": "Colby Thicknesse",
+            "b": "Asaf Chopurov",
+            "weightClass": "Bantamweight"
+          },
+          {
             "a": "Grant Dawson",
             "b": "Nurullo Aliev",
             "weightClass": "Lightweight"
@@ -2824,7 +2494,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 9,
+        "boutCount": 10,
         "broadcasts": [
           "Paramount+"
         ]
@@ -3380,7 +3050,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Moicano vs. Nolan",
-      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 3-fight card",
+      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 11-fight card · main card Sun 01 Nov, 00:00 UK",
       "homeTeam": "Renato Moicano",
       "awayTeam": "Tom Nolan",
       "cardTitle": null,
@@ -3389,6 +3059,38 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Gaston Bolaños v Francis Marshall",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Julian Erosa v JeongYeong Lee",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Andre Petroski v Azamat Bekoev",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Jean-Paul Lebosnoyani v Farman Hasanov",
+          "weightClass": "Welterweight"
+        },
+        {
+          "title": "Theodor Berggren v Rodrigo Sezinando",
+          "weightClass": "Welterweight"
+        },
+        {
+          "title": "Piera Rodriguez v Talita Alencar",
+          "weightClass": "W Strawweight"
+        },
+        {
+          "title": "Yana Santos v Luana Santos",
+          "weightClass": "W Bantamweight"
+        },
+        {
+          "title": "Carlos Leal v Randy Brown",
+          "weightClass": "Welterweight"
+        },
         {
           "title": "Tainara Lisboa v Lucia Szabova",
           "weightClass": "W Flyweight"
@@ -3431,7 +3133,7 @@
         "espnId": "600061420",
         "name": "UFC Fight Night: Moicano vs. Nolan",
         "dateUTC": "2026-10-31T21:00Z",
-        "mainCardUTC": null,
+        "mainCardUTC": "2026-11-01T00:00Z",
         "venue": "Meta APEX",
         "city": "Las Vegas",
         "country": "USA",
@@ -3444,6 +3146,46 @@
           "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
         ],
         "bouts": [
+          {
+            "a": "Gaston Bolaños",
+            "b": "Francis Marshall",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Julian Erosa",
+            "b": "JeongYeong Lee",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Andre Petroski",
+            "b": "Azamat Bekoev",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Jean-Paul Lebosnoyani",
+            "b": "Farman Hasanov",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Theodor Berggren",
+            "b": "Rodrigo Sezinando",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Piera Rodriguez",
+            "b": "Talita Alencar",
+            "weightClass": "W Strawweight"
+          },
+          {
+            "a": "Yana Santos",
+            "b": "Luana Santos",
+            "weightClass": "W Bantamweight"
+          },
+          {
+            "a": "Carlos Leal",
+            "b": "Randy Brown",
+            "weightClass": "Welterweight"
+          },
           {
             "a": "Tainara Lisboa",
             "b": "Lucia Szabova",
@@ -3461,7 +3203,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 3,
+        "boutCount": 11,
         "broadcasts": [
           "Paramount+"
         ]
@@ -4095,7 +3837,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Bonfim vs. Brady",
-      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 2-fight card · main card Sun 08 Nov, 01:00 UK",
+      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 13-fight card · main card Sun 08 Nov, 01:00 UK",
       "homeTeam": "Sean Brady",
       "awayTeam": "Gabriel Bonfim",
       "cardTitle": null,
@@ -4105,8 +3847,52 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
+          "title": "Gabriel Lorenço v Alvin Hines",
+          "weightClass": "Heavyweight"
+        },
+        {
+          "title": "Jose Delano v Murtazali Magomedov",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Davey Grant v Elijah Smith",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Jonny Parsons v Jose Henrique",
+          "weightClass": "Welterweight"
+        },
+        {
+          "title": "Wellington Turman v Seokhyeon Ko",
+          "weightClass": "Welterweight"
+        },
+        {
           "title": "Keiichiro Nakamura v Ollie Schmid",
           "weightClass": "Featherweight"
+        },
+        {
+          "title": "Priscila Cachoeira v Nina Milošević",
+          "weightClass": "W Bantamweight"
+        },
+        {
+          "title": "Karine Silva v Gabriella Fernandes",
+          "weightClass": "W Flyweight"
+        },
+        {
+          "title": "Lucas Brennan v Austin Bashi",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Billy Elekana v Lucas Fernando",
+          "weightClass": "Light Heavyweight"
+        },
+        {
+          "title": "Wes Schultz v Mantas Kondratavičius",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Tatiana Suarez v Virna Jandiroba",
+          "weightClass": "W Strawweight"
         }
       ],
       "poster": null,
@@ -4156,9 +3942,64 @@
         ],
         "bouts": [
           {
+            "a": "Gabriel Lorenço",
+            "b": "Alvin Hines",
+            "weightClass": "Heavyweight"
+          },
+          {
+            "a": "Jose Delano",
+            "b": "Murtazali Magomedov",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Davey Grant",
+            "b": "Elijah Smith",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Jonny Parsons",
+            "b": "Jose Henrique",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Wellington Turman",
+            "b": "Seokhyeon Ko",
+            "weightClass": "Welterweight"
+          },
+          {
             "a": "Keiichiro Nakamura",
             "b": "Ollie Schmid",
             "weightClass": "Featherweight"
+          },
+          {
+            "a": "Priscila Cachoeira",
+            "b": "Nina Milošević",
+            "weightClass": "W Bantamweight"
+          },
+          {
+            "a": "Karine Silva",
+            "b": "Gabriella Fernandes",
+            "weightClass": "W Flyweight"
+          },
+          {
+            "a": "Lucas Brennan",
+            "b": "Austin Bashi",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Billy Elekana",
+            "b": "Lucas Fernando",
+            "weightClass": "Light Heavyweight"
+          },
+          {
+            "a": "Wes Schultz",
+            "b": "Mantas Kondratavičius",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Tatiana Suarez",
+            "b": "Virna Jandiroba",
+            "weightClass": "W Strawweight"
           },
           {
             "a": "Sean Brady",
@@ -4167,7 +4008,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 2,
+        "boutCount": 13,
         "broadcasts": [
           "Paramount+"
         ]
@@ -4176,21 +4017,37 @@
     },
     {
       "org": "Boxing",
-      "eventName": "Alycia Baumgardner vs Elif Nur Turhan",
-      "eventTag": "Boxing · Arlington",
-      "homeTeam": "Alycia Baumgardner",
-      "awayTeam": "Elif Nur Turhan",
+      "eventName": "Elif Nur Turhan-Alycia Baumgardner",
+      "eventTag": "Boxing · College Park Center, Arlington, Texas",
+      "homeTeam": "Elif Nur Turhan",
+      "awayTeam": "Alycia Baumgardner",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "Boxing",
       "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-08T20:00:00.000Z",
+      "undercard": [
+        {
+          "title": "Tiara Brown v Ellie Scotney",
+          "weightClass": null
+        },
+        {
+          "title": "Ramla Ali v Mikiah Kreps",
+          "weightClass": null
+        },
+        {
+          "title": "Skye Nicolson v Miyo Yoshida",
+          "weightClass": null
+        }
+      ],
+      "poster": {
+        "src": "/logos/posters/68390a3ba3e76d4eff59.jpg",
+        "attribution": "MVP"
+      },
+      "kickoffUTC": "2026-11-09T01:00:00.000Z",
       "kickoffLocal": null,
-      "kickoffUK": "Sun 08 Nov, 20:00",
-      "localDate": "2026-11-08",
+      "kickoffUK": "Mon 09 Nov, 01:00",
+      "localDate": "2026-11-09",
       "channels": [],
       "broadcastGroups": [
         {
@@ -4202,22 +4059,52 @@
               "logo": "/logos/channels/espn.com.png"
             }
           ]
+        },
+        {
+          "label": "Listed by source",
+          "channels": [
+            {
+              "name": "ESPN+",
+              "url": "https://plus.espn.com/",
+              "logo": "/logos/channels/espn.com.png"
+            }
+          ]
         }
       ],
       "source": {
         "org": "Boxing",
-        "slug": "gbn-alycia-baumgardner-vs-elif-nur-turhan-2026-11-08",
-        "name": "Alycia Baumgardner vs Elif Nur Turhan",
-        "dateUTC": "2026-11-08T20:00:00.000Z",
+        "slug": "elif-nur-turhan-alycia-baumgardner",
+        "name": "Elif Nur Turhan-Alycia Baumgardner",
+        "dateUTC": "2026-11-09T01:00:00.000Z",
         "dateOnly": "2026-11-08",
-        "venue": null,
-        "city": "Arlington",
+        "venue": "College Park Center",
+        "city": "Arlington, Texas",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/turhanalyciabaumgardnerposter.jpg",
+        "posterAttribution": "MVP",
         "mainEventFighters": [
-          "Alycia Baumgardner",
-          "Elif Nur Turhan"
+          "Elif Nur Turhan",
+          "Alycia Baumgardner"
         ],
-        "bouts": [],
+        "bouts": [
+          {
+            "a": "Elif Nur Turhan",
+            "b": "Alycia Baumgardner"
+          },
+          {
+            "a": "Tiara Brown",
+            "b": "Ellie Scotney"
+          },
+          {
+            "a": "Ramla Ali",
+            "b": "Mikiah Kreps"
+          },
+          {
+            "a": "Skye Nicolson",
+            "b": "Miyo Yoshida"
+          }
+        ],
         "broadcasts": [
+          "ESPN+",
           "ESPN"
         ],
         "broadcastMarkets": [
@@ -4230,7 +4117,7 @@
         ],
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/alycia-baumgardner-vs-elif-nur-turhan-2026-11-08"
       },
-      "watchKey": "fights:Boxing|Alycia Baumgardner|Elif Nur Turhan|2026-11-08"
+      "watchKey": "fights:Boxing|Elif Nur Turhan|Alycia Baumgardner|2026-11-09"
     },
     {
       "org": "Boxing",
@@ -4409,76 +4296,6 @@
       "watchKey": "fights:PFL|Vadim Nemkov|Sergei Bilostenniy|2026-11-14"
     },
     {
-      "org": "Boxing",
-      "eventName": "Diego Pacheco vs Darius Fulghum",
-      "eventTag": "Boxing · Carson",
-      "homeTeam": "Diego Pacheco",
-      "awayTeam": "Darius Fulghum",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-14T20:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 14 Nov, 20:00",
-      "localDate": "2026-11-14",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports",
-              "url": "https://www.tntsports.co.uk/boxing/",
-              "logo": "/logos/channels/tntsports.co.uk.png"
-            },
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "gbn-diego-pacheco-vs-darius-fulghum-2026-11-14",
-        "name": "Diego Pacheco vs Darius Fulghum",
-        "dateUTC": "2026-11-14T20:00:00.000Z",
-        "dateOnly": "2026-11-14",
-        "venue": null,
-        "city": "Carson",
-        "mainEventFighters": [
-          "Diego Pacheco",
-          "Darius Fulghum"
-        ],
-        "bouts": [],
-        "broadcasts": [
-          "TNT Sports",
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "TNT Sports",
-            "url": "https://www.tntsports.co.uk/boxing/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/diego-pacheco-vs-darius-fulghum-2026-11-14"
-          },
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/diego-pacheco-vs-darius-fulghum-2026-11-14"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/diego-pacheco-vs-darius-fulghum-2026-11-14"
-      },
-      "watchKey": "fights:Boxing|Diego Pacheco|Darius Fulghum|2026-11-14"
-    },
-    {
       "org": "UFC",
       "eventName": "UFC 334: Gane vs. Hokit",
       "eventTag": "UFC 334 · Madison Square Garden, New York · 12-fight card · main card Sun 15 Nov, 02:00 UK",
@@ -4649,6 +4466,86 @@
         ]
       },
       "watchKey": "fights:UFC|Josh Hokit|Ciryl Gane|2026-11-14"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Diego Pacheco-Darius Fulghum",
+      "eventTag": "Boxing · Dignity Health Sports Park, Carson, California",
+      "homeTeam": "Diego Pacheco",
+      "awayTeam": "Darius Fulghum",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": {
+        "src": "/logos/posters/9cd38992d10c5cd21eed.webp",
+        "attribution": "DAZN"
+      },
+      "kickoffUTC": "2026-11-15T01:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sun 15 Nov, 01:00",
+      "localDate": "2026-11-15",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "TNT Sports",
+              "url": "https://www.tntsports.co.uk/boxing/",
+              "logo": "/logos/channels/tntsports.co.uk.png"
+            },
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "diego-pacheco-darius-fulghum",
+        "name": "Diego Pacheco-Darius Fulghum",
+        "dateUTC": "2026-11-15T01:00:00.000Z",
+        "dateOnly": "2026-11-14",
+        "venue": "Dignity Health Sports Park",
+        "city": "Carson, California",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/diegopachecodariusfulghumposter.webp",
+        "posterAttribution": "DAZN",
+        "mainEventFighters": [
+          "Diego Pacheco",
+          "Darius Fulghum"
+        ],
+        "bouts": [
+          {
+            "a": "Diego Pacheco",
+            "b": "Darius Fulghum"
+          }
+        ],
+        "broadcasts": [
+          "DAZN",
+          "TNT Sports"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "TNT Sports",
+            "url": "https://www.tntsports.co.uk/boxing/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/diego-pacheco-vs-darius-fulghum-2026-11-14"
+          },
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/diego-pacheco-vs-darius-fulghum-2026-11-14"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/diego-pacheco-vs-darius-fulghum-2026-11-14"
+      },
+      "watchKey": "fights:Boxing|Diego Pacheco|Darius Fulghum|2026-11-15"
     },
     {
       "org": "UFC",
@@ -4865,6 +4762,70 @@
     },
     {
       "org": "Boxing",
+      "eventName": "Litzy Vazquez- Stephanie Pineiro",
+      "eventTag": "Boxing · Coliseo Ruben Rodriguez, Bayamón, Puerto Rico",
+      "homeTeam": "Litzy Vazquez",
+      "awayTeam": "Stephanie Pineiro",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Litzy Vazquez Ochoa v Stephanie Pineiro",
+          "weightClass": null
+        }
+      ],
+      "poster": {
+        "src": "/logos/posters/749bb994810d0725cf4c.webp",
+        "attribution": "Wynn Records Network"
+      },
+      "kickoffUTC": "2026-12-06T01:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sun 06 Dec, 01:00",
+      "localDate": "2026-12-06",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Listed by source",
+          "channels": [
+            {
+              "name": "Wynn Records Network",
+              "url": null,
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "litzy-vazquez-stephanie-pineiro",
+        "name": "Litzy Vazquez- Stephanie Pineiro",
+        "dateUTC": "2026-12-06T01:00:00.000Z",
+        "dateOnly": "2026-12-05",
+        "venue": "Coliseo Ruben Rodriguez",
+        "city": "Bayamón, Puerto Rico",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/litzyvazquezstephaniepineiro.webp",
+        "posterAttribution": "Wynn Records Network",
+        "mainEventFighters": [
+          "Litzy Vazquez",
+          "Stephanie Pineiro"
+        ],
+        "bouts": [
+          {
+            "a": "Litzy Vazquez Ochoa",
+            "b": "Stephanie Pineiro"
+          }
+        ],
+        "broadcasts": [
+          "Wynn Records Network"
+        ]
+      },
+      "watchKey": "fights:Boxing|Litzy Vazquez|Stephanie Pineiro|2026-12-06"
+    },
+    {
+      "org": "Boxing",
       "eventName": "Tyson Fury vs Anthony Joshua",
       "eventTag": "Boxing · Cardiff",
       "homeTeam": "Tyson Fury",
@@ -4923,16 +4884,25 @@
     },
     {
       "org": "UFC",
-      "eventName": "UFC 335",
+      "eventName": "UFC 335: Oliveira vs. Lopes",
       "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 3-fight card · main card Sun 13 Dec, 02:00 UK",
-      "homeTeam": "TBA",
-      "awayTeam": "Opponent TBA",
+      "homeTeam": "Charles Oliveira",
+      "awayTeam": "Diego Lopes",
       "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
+      "homeLogo": "/logos/flags/bra.png",
+      "awayLogo": "/logos/flags/bra.png",
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "TBA v Opponent TBA",
+          "weightClass": null
+        },
+        {
+          "title": "Joe Pyfer v Bo Nickal",
+          "weightClass": "Middleweight"
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-12-12T22:00Z",
       "kickoffLocal": null,
@@ -4964,19 +4934,19 @@
       "source": {
         "org": "UFC",
         "espnId": "600061401",
-        "name": "UFC 335",
+        "name": "UFC 335: Oliveira vs. Lopes",
         "dateUTC": "2026-12-12T22:00Z",
         "mainCardUTC": "2026-12-13T02:00Z",
         "venue": "T-Mobile Arena",
         "city": "Las Vegas",
         "country": "USA",
         "mainEventFighters": [
-          "TBA",
-          "Opponent TBA"
+          "Charles Oliveira",
+          "Diego Lopes"
         ],
         "mainEventFlagUrls": [
-          null,
-          null
+          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
         ],
         "bouts": [
           {
@@ -4985,14 +4955,14 @@
             "weightClass": null
           },
           {
-            "a": "TBA",
-            "b": "Opponent TBA",
-            "weightClass": null
+            "a": "Joe Pyfer",
+            "b": "Bo Nickal",
+            "weightClass": "Middleweight"
           },
           {
-            "a": "TBA",
-            "b": "Opponent TBA",
-            "weightClass": null
+            "a": "Charles Oliveira",
+            "b": "Diego Lopes",
+            "weightClass": "Lightweight"
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
@@ -5001,7 +4971,7 @@
           "Paramount+"
         ]
       },
-      "watchKey": "fights:UFC|TBA|Opponent TBA|2026-12-12"
+      "watchKey": "fights:UFC|Charles Oliveira|Diego Lopes|2026-12-12"
     },
     {
       "org": "Boxing",
@@ -5231,6 +5201,366 @@
     }
   ],
   "recent": [
+    {
+      "org": "MMA",
+      "eventName": "Rizin FF: Landmark Vol. 16",
+      "eventTag": "Rizin FF · Happiness Arena, Nagasaki, Nagasaki, Japan",
+      "homeTeam": "Yoshinori Horie",
+      "awayTeam": "Sho Patrick Usami",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Viktor Kolesnik v Koyomi Matsushima",
+          "weightClass": null
+        },
+        {
+          "title": "Hyuma Yasui v Ryan Cafaro",
+          "weightClass": null
+        },
+        {
+          "title": "Keito Oyama v Noeru Narita",
+          "weightClass": null
+        },
+        {
+          "title": "Kyohei Takagi v Masatoshi Ueda",
+          "weightClass": null
+        },
+        {
+          "title": "Seiya Inoue v Ryusei Ashizawa",
+          "weightClass": null
+        },
+        {
+          "title": "Hidetaka Arato v Ken Hasegawa",
+          "weightClass": null
+        },
+        {
+          "title": "Alan Yamaniha v Seigo Yamamoto",
+          "weightClass": null
+        },
+        {
+          "title": "Kohei Sugiyama v Kaito Oda",
+          "weightClass": null
+        },
+        {
+          "title": "Ryota Oki v Daisuke Okumiya",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-03T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-03",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Rizin-FF-Landmark-Vol-16-113793",
+        "name": "Rizin FF: Landmark Vol. 16",
+        "dateUTC": null,
+        "dateOnly": "2026-10-03",
+        "venue": "Happiness Arena",
+        "city": "Nagasaki, Nagasaki, Japan",
+        "href": "/events/Rizin-FF-Landmark-Vol-16-113793",
+        "mainEventFighters": [
+          "Yoshinori Horie",
+          "Sho Patrick Usami"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Viktor Kolesnik",
+            "b": "Koyomi Matsushima"
+          },
+          {
+            "a": "Hyuma Yasui",
+            "b": "Ryan Cafaro"
+          },
+          {
+            "a": "Keito Oyama",
+            "b": "Noeru Narita"
+          },
+          {
+            "a": "Kyohei Takagi",
+            "b": "Masatoshi Ueda"
+          },
+          {
+            "a": "Seiya Inoue",
+            "b": "Ryusei Ashizawa"
+          },
+          {
+            "a": "Hidetaka Arato",
+            "b": "Ken Hasegawa"
+          },
+          {
+            "a": "Alan Yamaniha",
+            "b": "Seigo Yamamoto"
+          },
+          {
+            "a": "Kohei Sugiyama",
+            "b": "Kaito Oda"
+          },
+          {
+            "a": "Ryota Oki",
+            "b": "Daisuke Okumiya"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Yoshinori Horie|Sho Patrick Usami|2026-10-03"
+    },
+    {
+      "org": "UFC",
+      "eventName": "UFC 332: Silva vs. Wang",
+      "eventTag": "UFC 332 · Delta Center, Salt Lake City · 14-fight card · main card Sun 04 Oct, 01:00 UK",
+      "homeTeam": "Natalia Silva",
+      "awayTeam": "Wang Cong",
+      "cardTitle": null,
+      "homeLogo": "/logos/flags/bra.png",
+      "awayLogo": "/logos/flags/chn.png",
+      "orgName": "UFC",
+      "orgLogo": "/logos/orgs/ufc.png",
+      "undercard": [
+        {
+          "title": "Court McGee v Eric Nolan",
+          "weightClass": "Welterweight"
+        },
+        {
+          "title": "Marvin Vettori v Ismail Naurdiev",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Rafael Dos Anjos v Alexander Hernandez",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Jacobe Smith v Bruce Whitehead",
+          "weightClass": "Welterweight"
+        },
+        {
+          "title": "Johnny Walker v Mick Parkin",
+          "weightClass": "Heavyweight"
+        },
+        {
+          "title": "Anthony Wint v Lucas Armand",
+          "weightClass": "Heavyweight"
+        },
+        {
+          "title": "Anthony Romero v Marcus McGhee",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Andrey Pulyaev v Damian Pinas",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Alden Coria v Imanol Rodriguez",
+          "weightClass": "Flyweight"
+        },
+        {
+          "title": "Roman Kopylov v Ateba Gautier",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Roberto Soldić v Khaos Williams",
+          "weightClass": "Welterweight"
+        },
+        {
+          "title": "King Green v Esteban Ribovics",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Deiveson Figueiredo v Payton Talbott",
+          "weightClass": "Bantamweight"
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-03T20:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 03 Oct, 21:00",
+      "localDate": "2026-10-03",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "US",
+          "channels": [
+            {
+              "name": "Paramount+",
+              "url": "https://www.paramountplus.com/",
+              "logo": "/logos/channels/paramountplus.com.png"
+            }
+          ]
+        },
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "TNT Sports",
+              "url": "https://www.tntsports.co.uk/boxing/",
+              "logo": "/logos/channels/tntsports.co.uk.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "UFC",
+        "espnId": "600061182",
+        "name": "UFC 332: Silva vs. Wang",
+        "dateUTC": "2026-10-03T20:00Z",
+        "mainCardUTC": "2026-10-04T00:00Z",
+        "venue": "Delta Center",
+        "city": "Salt Lake City",
+        "country": "USA",
+        "mainEventFighters": [
+          "Natalia Silva",
+          "Wang Cong"
+        ],
+        "mainEventFlagUrls": [
+          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "https://a.espncdn.com/i/teamlogos/countries/500/chn.png"
+        ],
+        "bouts": [
+          {
+            "a": "Court McGee",
+            "b": "Eric Nolan",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Marvin Vettori",
+            "b": "Ismail Naurdiev",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Rafael Dos Anjos",
+            "b": "Alexander Hernandez",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Jacobe Smith",
+            "b": "Bruce Whitehead",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Johnny Walker",
+            "b": "Mick Parkin",
+            "weightClass": "Heavyweight"
+          },
+          {
+            "a": "Anthony Wint",
+            "b": "Lucas Armand",
+            "weightClass": "Heavyweight"
+          },
+          {
+            "a": "Anthony Romero",
+            "b": "Marcus McGhee",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Andrey Pulyaev",
+            "b": "Damian Pinas",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Alden Coria",
+            "b": "Imanol Rodriguez",
+            "weightClass": "Flyweight"
+          },
+          {
+            "a": "Roman Kopylov",
+            "b": "Ateba Gautier",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Roberto Soldić",
+            "b": "Khaos Williams",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "King Green",
+            "b": "Esteban Ribovics",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Deiveson Figueiredo",
+            "b": "Payton Talbott",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Natalia Silva",
+            "b": "Wang Cong",
+            "weightClass": "W Flyweight"
+          }
+        ],
+        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
+        "boutCount": 14,
+        "broadcasts": [
+          "Paramount+"
+        ]
+      },
+      "watchKey": "fights:UFC|Natalia Silva|Wang Cong|2026-10-03"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Ben Whittaker vs. Conor Wallace",
+      "eventTag": "Boxing · Utilita Arena Birmingham, Birmingham, United Kingdom",
+      "homeTeam": "Ben Whittaker",
+      "awayTeam": "Conor Wallace",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": {
+        "src": "/logos/posters/5292bb224b179c4c75d2.jpg",
+        "attribution": "DAZN"
+      },
+      "kickoffUTC": "2026-10-03T18:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 03 Oct, 19:00",
+      "localDate": "2026-10-03",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Listed by source",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "ben-whittaker-vs-conor-wallace",
+        "name": "Ben Whittaker vs. Conor Wallace",
+        "dateUTC": "2026-10-03T18:00:00.000Z",
+        "dateOnly": "2026-10-03",
+        "venue": "Utilita Arena Birmingham",
+        "city": "Birmingham, United Kingdom",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/BenWhittakerConorWallaceposter.jpg",
+        "posterAttribution": "DAZN",
+        "mainEventFighters": [
+          "Ben Whittaker",
+          "Conor Wallace"
+        ],
+        "bouts": [
+          {
+            "a": "Ben Whittaker",
+            "b": "Conor Wallace"
+          }
+        ],
+        "broadcasts": [
+          "DAZN"
+        ]
+      },
+      "watchKey": "fights:Boxing|Ben Whittaker|Conor Wallace|2026-10-03"
+    },
     {
       "org": "MMA",
       "eventName": "One on Prime Video 48",
@@ -6983,20 +7313,7 @@
           }
         ]
       },
-      "watchKey": "fights:Boxing|BKFC 94 Manchester: Till|Romero, Prelims|2026-09-24",
-      "replayGroups": [
-        {
-          "label": "Canada",
-          "channels": [
-            {
-              "name": "Fight Network",
-              "logo": "/logos/channels/fightnetwork.com.jpg",
-              "timeUK": "Sun 04 Oct, 02:00",
-              "airTimeUTC": "2026-10-04T01:00:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:Boxing|BKFC 94 Manchester: Till|Romero, Prelims|2026-09-24"
     },
     {
       "org": "MMA",
@@ -7670,383 +7987,13 @@
         ]
       },
       "watchKey": "fights:MMA|Whitehead|Abouzalam|2026-09-20"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Isaac Cruz-Nestor Bravo",
-      "eventTag": "Boxing · Pechanga Arena, San Diego, California",
-      "homeTeam": "Isaac Cruz",
-      "awayTeam": "Nestor Bravo",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Jesus Ramos v Meiirim Nursultanov",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/f43c8aeaaa0f43417358.webp",
-        "attribution": "DAZN"
-      },
-      "kickoffUTC": "2026-09-20T00:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sun 20 Sept, 01:00",
-      "localDate": "2026-09-20",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "isaac-cruz-nestor-bravo",
-        "name": "Isaac Cruz-Nestor Bravo",
-        "dateUTC": "2026-09-20T00:00:00.000Z",
-        "dateOnly": "2026-09-19",
-        "venue": "Pechanga Arena",
-        "city": "San Diego, California",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/isaaccruzjesusramosjnrposter.webp",
-        "posterAttribution": "DAZN",
-        "mainEventFighters": [
-          "Isaac Cruz",
-          "Nestor Bravo"
-        ],
-        "bouts": [
-          {
-            "a": "Isaac Cruz",
-            "b": "Nestor Bravo"
-          },
-          {
-            "a": "Jesus Ramos",
-            "b": "Meiirim Nursultanov"
-          }
-        ],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/isaac-cruz-vs-nestor-bravo-2026-09-19"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/isaac-cruz-vs-nestor-bravo-2026-09-19"
-      },
-      "watchKey": "fights:Boxing|Isaac Cruz|Nestor Bravo|2026-09-20"
-    },
-    {
-      "org": "MMA",
-      "eventName": "KSW 121: Vojcak vs. Wojcik",
-      "eventTag": "KSW 121 · Home Credit Arena, Liberec, Czech Republic",
-      "homeTeam": "Vojcak",
-      "awayTeam": "Wojcik",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Michal Michalski v Radoslaw Paczuski",
-          "weightClass": null
-        },
-        {
-          "title": "Kacper Formela v Leo Brichta",
-          "weightClass": null
-        },
-        {
-          "title": "Muslim Tulshaev v Kacper Koziorzebski",
-          "weightClass": null
-        },
-        {
-          "title": "Josef Stummer v Lukasz Charzewski",
-          "weightClass": null
-        },
-        {
-          "title": "Malgorzata Popowicz v Hanka Gelnarova",
-          "weightClass": null
-        },
-        {
-          "title": "Borys Dzikowski v Adrian Dudek",
-          "weightClass": null
-        },
-        {
-          "title": "Dominik Zadora v Samuel Bily",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-09-19T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-09-19",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-KSW-121-Vojcak-vs-Wojcik-113372",
-        "name": "KSW 121: Vojcak vs. Wojcik",
-        "dateUTC": null,
-        "dateOnly": "2026-09-19",
-        "venue": "Home Credit Arena",
-        "city": "Liberec, Czech Republic",
-        "href": "/events/KSW-121-Vojcak-vs-Wojcik-113372",
-        "mainEventFighters": [
-          "Vojcak",
-          "Wojcik"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Michal Michalski",
-            "b": "Radoslaw Paczuski"
-          },
-          {
-            "a": "Kacper Formela",
-            "b": "Leo Brichta"
-          },
-          {
-            "a": "Muslim Tulshaev",
-            "b": "Kacper Koziorzebski"
-          },
-          {
-            "a": "Josef Stummer",
-            "b": "Lukasz Charzewski"
-          },
-          {
-            "a": "Malgorzata Popowicz",
-            "b": "Hanka Gelnarova"
-          },
-          {
-            "a": "Borys Dzikowski",
-            "b": "Adrian Dudek"
-          },
-          {
-            "a": "Dominik Zadora",
-            "b": "Samuel Bily"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Vojcak|Wojcik|2026-09-19"
-    },
-    {
-      "org": "UFC",
-      "eventName": "UFC 331: Van vs. Pantoja 2",
-      "eventTag": "UFC 331 · crypto.com Arena, Los Angeles · 12-fight card · main card Sun 20 Sept, 02:00 UK",
-      "homeTeam": "Alexandre Pantoja",
-      "awayTeam": "Joshua Van",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/bra.png",
-      "awayLogo": "/logos/flags/mya.png",
-      "orgName": "UFC",
-      "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [
-        {
-          "title": "Giga Chikadze v Joanderson Brito",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Casey O'Neill v Eduarda Moura",
-          "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Edmen Shahbazyan v Brunno Ferreira",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Ozzy Diaz v Ryan Gandra",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Michael Aswell v JooSang Yoo",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Tai Tuivasa v Robelis Despaigne",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Marlon Vera v Charles Jourdain",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Alonzo Menifield v Iwo Baraniewski",
-          "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Gable Steveson v Sean Sharaf",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Patricio Pitbull v Dooho Choi",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Arman Tsarukyan v Mauricio Ruffy",
-          "weightClass": "Lightweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-09-19T21:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 19 Sept, 22:00",
-      "localDate": "2026-09-19",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        },
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports",
-              "url": "https://www.tntsports.co.uk/boxing/",
-              "logo": "/logos/channels/tntsports.co.uk.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "UFC",
-        "espnId": "600060963",
-        "name": "UFC 331: Van vs. Pantoja 2",
-        "dateUTC": "2026-09-19T21:00Z",
-        "mainCardUTC": "2026-09-20T01:00Z",
-        "venue": "crypto.com Arena",
-        "city": "Los Angeles",
-        "country": "USA",
-        "mainEventFighters": [
-          "Alexandre Pantoja",
-          "Joshua Van"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/mya.png"
-        ],
-        "bouts": [
-          {
-            "a": "Giga Chikadze",
-            "b": "Joanderson Brito",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Casey O'Neill",
-            "b": "Eduarda Moura",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Edmen Shahbazyan",
-            "b": "Brunno Ferreira",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Ozzy Diaz",
-            "b": "Ryan Gandra",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Michael Aswell",
-            "b": "JooSang Yoo",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Tai Tuivasa",
-            "b": "Robelis Despaigne",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Marlon Vera",
-            "b": "Charles Jourdain",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Alonzo Menifield",
-            "b": "Iwo Baraniewski",
-            "weightClass": "Light Heavyweight"
-          },
-          {
-            "a": "Gable Steveson",
-            "b": "Sean Sharaf",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Patricio Pitbull",
-            "b": "Dooho Choi",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Arman Tsarukyan",
-            "b": "Mauricio Ruffy",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Alexandre Pantoja",
-            "b": "Joshua Van",
-            "weightClass": "Flyweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 12,
-        "broadcasts": [
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:UFC|Alexandre Pantoja|Joshua Van|2026-09-19"
     }
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-10-03T13:30:00.000Z",
-      "endsAtUTC": "2026-10-03T14:00:00.000Z",
-      "timeUK": "Sat 03 Oct, 14:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 332 Countdown: Silva v Wang",
-      "sublabel": "UFC Countdown"
-    },
-    {
-      "airTimeUTC": "2026-10-04T01:00:00.000Z",
-      "endsAtUTC": "2026-10-04T02:00:00.000Z",
-      "timeUK": "Sun 04 Oct, 02:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "watchKey": "fights:Boxing|BKFC 94 Manchester: Till|Romero, Prelims|2026-09-24",
-      "label": "BKFC 94 Manchester: Till vs Romero, Prelims",
-      "logos": [],
-      "sublabel": "Boxing · Thu 24 Sept, 19:00"
-    },
-    {
-      "airTimeUTC": "2026-10-04T02:00:00.000Z",
-      "endsAtUTC": "2026-10-04T05:00:00.000Z",
-      "timeUK": "Sun 04 Oct, 03:00",
+      "airTimeUTC": "2026-10-06T04:00:00.000Z",
+      "endsAtUTC": "2026-10-06T07:00:00.000Z",
+      "timeUK": "Tue 06 Oct, 05:00",
       "channel": {
         "name": "Fight Network",
         "logo": "/logos/channels/fightnetwork.com.jpg"
@@ -8054,18 +8001,6 @@
       "market": "Canada",
       "label": "Till v Romero",
       "sublabel": "BKFC 94 Manchester: Till vs. Romero"
-    },
-    {
-      "airTimeUTC": "2026-10-04T05:00:00.000Z",
-      "endsAtUTC": "2026-10-04T08:00:00.000Z",
-      "timeUK": "Sun 04 Oct, 06:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Porter v Wilson",
-      "sublabel": "BKFC Fight Night Mohegan Sun: Porter vs."
     },
     {
       "airTimeUTC": "2026-10-08T18:00:00.000Z",
