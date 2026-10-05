@@ -1,7 +1,40 @@
 {
-  "generatedAt": "2026-10-04T16:03:36.132Z",
+  "generatedAt": "2026-10-05T19:48:41.200Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-05T19:47:23.652Z",
+        "totalEvents": 43,
+        "added": [
+          "San Lorenzo vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 11 Oct, 14:45",
+          "Atlético Mineiro vs Santos (Campeonato Brasileiro Série A) — Sun 11 Oct, 16:00",
+          "Rosario Central vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00",
+          "Platense vs Argentinos Juniors (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00",
+          "Flamengo vs Fluminense (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
+          "Grêmio vs Internacional (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
+          "Palmeiras vs Corinthians (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
+          "Racing Club vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 11 Oct, 19:15",
+          "Bahía vs Mirassol (Campeonato Brasileiro Série A) — Sun 11 Oct, 19:30",
+          "Pachuca vs Necaxa (Liga MX) — Sun 11 Oct, 17:15",
+          "Talleres de Córdoba vs Independiente (Liga Profesional de Fútbol) — Sun 11 Oct, 21:30",
+          "Pumas UNAM vs Cruz Azul (Liga MX) — Sun 11 Oct, 19:00",
+          "Atlético San Luis vs Santos Laguna (Liga MX) — Sun 11 Oct, 20:00",
+          "Lanús vs Vélez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00",
+          "Coritiba vs Botafogo (Campeonato Brasileiro Série A) — Mon 12 Oct, 16:00"
+        ],
+        "removed": [
+          "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45",
+          "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45",
+          "Talleres de Córdoba vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 04 Oct, 17:00",
+          "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sun 04 Oct, 19:15",
+          "Estudiantes de Río Cuarto vs Racing Club (Liga Profesional de Fútbol) — Sun 04 Oct, 21:30"
+        ],
+        "channelsChanged": [
+          "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00: [Azteca 7, FOX One]",
+          "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00: [Azteca 7, FOX One]"
+        ],
+        "total": 43
+      },
       {
         "timestamp": "2026-10-04T16:02:13.326Z",
         "totalEvents": 33,
@@ -270,21 +303,22 @@
           "Chivas Guadalajara vs Querétaro (Liga MX) — Sat 26 Sept, 17:07: [Amazon Prime Video (Míralo en vivo), FOX One]"
         ],
         "total": 11
-      },
-      {
-        "timestamp": "2026-09-23T05:41:35.724Z",
-        "totalEvents": 11,
-        "added": [],
-        "removed": [],
-        "channelsChanged": [
-          "Atlante vs Monterrey (Liga MX) — Fri 25 Sept, 19:00: [Disney+ Premium, ESPN, aztecadeportes.com]",
-          "Cruz Azul vs Toluca (Liga MX) — Sat 26 Sept, 17:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
-          "Chivas Guadalajara vs Querétaro (Liga MX) — Sat 26 Sept, 17:07: [Amazon Prime Video (Míralo en vivo)]"
-        ],
-        "total": 11
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-05T19:47:57.856Z",
+        "total": 17,
+        "added": [
+          "AL Lower Seed @ AL Higher Seed (2026-10-12)",
+          "NL Lower Seed @ NL Higher Seed (2026-10-12)"
+        ],
+        "removed": [
+          "San Diego Padres @ Milwaukee Brewers (2026-10-04)",
+          "Atlanta Braves @ Los Angeles Dodgers (2026-10-04)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-04T16:02:49.201Z",
         "total": 17,
@@ -691,35 +725,19 @@
           "Chicago Cubs @ Boston Red Sox (2026-09-27)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-23T05:42:11.019Z",
-        "total": 76,
-        "added": [
-          "AL Wild Card #2 @ New York Yankees (2026-09-29)"
-        ],
-        "removed": [
-          "Tampa Bay Rays @ New York Yankees (2026-09-22)",
-          "Toronto Blue Jays @ Baltimore Orioles (2026-09-22)",
-          "Washington Nationals @ Detroit Tigers (2026-09-22)",
-          "St. Louis Cardinals @ Pittsburgh Pirates (2026-09-22)",
-          "Milwaukee Brewers @ Philadelphia Phillies (2026-09-22)",
-          "Cleveland Guardians @ Boston Red Sox (2026-09-22)",
-          "Cincinnati Reds @ Atlanta Braves (2026-09-22)",
-          "Chicago White Sox @ Kansas City Royals (2026-09-22)",
-          "Miami Marlins @ Chicago Cubs (2026-09-22)",
-          "New York Mets @ Texas Rangers (2026-09-22)",
-          "Arizona Diamondbacks @ Colorado Rockies (2026-09-22)",
-          "Los Angeles Angels @ Athletics (2026-09-22)",
-          "Houston Astros @ Seattle Mariners (2026-09-22)",
-          "Minnesota Twins @ San Francisco Giants (2026-09-22)",
-          "San Diego Padres @ Los Angeles Dodgers (2026-09-22)",
-          "AL Wild Card #2 @ AL Wild Card #1 (2026-09-29)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-05T19:48:41.199Z",
+        "total": 52,
+        "added": [],
+        "removed": [
+          "ACA 208: Abdulvakhabov vs. Tibau (2026-10-04)",
+          "Pancrase: 367 (2026-10-04)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-04T16:03:36.132Z",
         "total": 54,
@@ -949,20 +967,6 @@
           "Dana White's Contender Series: Season 10, Week 8 (2026-09-30)",
           "Kevin Anton-Yan Marcos (2026-10-17)",
           "PFL Chicago: Carmouche vs. Bishop 2 (2026-10-17)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-23T05:42:54.087Z",
-        "total": 55,
-        "added": [
-          "BKFC 94 Manchester: Till vs Romero, Prelims (2026-09-24)",
-          "Dana White's Contender Series: Season 10, Week 8 (2026-09-30)",
-          "LFA 244: Woodley vs. Havener (2026-10-23)"
-        ],
-        "removed": [
-          "Dana White's Contender Series: Season 10, Week 7 (2026-09-23)",
-          "Dana White's Contender Series: Season 10, Week 8 (2026-09-30)"
         ],
         "channelsChanged": []
       }

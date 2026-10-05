@@ -1,5 +1,37 @@
 [
   {
+    "timestamp": "2026-10-05T19:47:23.652Z",
+    "totalEvents": 43,
+    "added": [
+      "San Lorenzo vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 11 Oct, 14:45",
+      "Atlético Mineiro vs Santos (Campeonato Brasileiro Série A) — Sun 11 Oct, 16:00",
+      "Rosario Central vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00",
+      "Platense vs Argentinos Juniors (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00",
+      "Flamengo vs Fluminense (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
+      "Grêmio vs Internacional (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
+      "Palmeiras vs Corinthians (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
+      "Racing Club vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 11 Oct, 19:15",
+      "Bahía vs Mirassol (Campeonato Brasileiro Série A) — Sun 11 Oct, 19:30",
+      "Pachuca vs Necaxa (Liga MX) — Sun 11 Oct, 17:15",
+      "Talleres de Córdoba vs Independiente (Liga Profesional de Fútbol) — Sun 11 Oct, 21:30",
+      "Pumas UNAM vs Cruz Azul (Liga MX) — Sun 11 Oct, 19:00",
+      "Atlético San Luis vs Santos Laguna (Liga MX) — Sun 11 Oct, 20:00",
+      "Lanús vs Vélez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00",
+      "Coritiba vs Botafogo (Campeonato Brasileiro Série A) — Mon 12 Oct, 16:00"
+    ],
+    "removed": [
+      "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45",
+      "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45",
+      "Talleres de Córdoba vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 04 Oct, 17:00",
+      "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sun 04 Oct, 19:15",
+      "Estudiantes de Río Cuarto vs Racing Club (Liga Profesional de Fútbol) — Sun 04 Oct, 21:30"
+    ],
+    "channelsChanged": [
+      "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00: [Azteca 7, FOX One]",
+      "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00: [Azteca 7, FOX One]"
+    ]
+  },
+  {
     "timestamp": "2026-10-04T16:02:13.326Z",
     "totalEvents": 33,
     "added": [
@@ -84,22 +116,6 @@
       "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
       "Vélez Sarsfield vs Platense (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
       "Banfield vs Rosario Central (Liga Profesional de Fútbol) — Mon 05 Oct, 21:15: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-01T17:33:43.405Z",
-    "totalEvents": 24,
-    "added": [
-      "Internacional vs Corinthians (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
-      "Red Bull Bragantino vs Mirassol (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
-      "Remo vs Grêmio (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
-      "Vitória vs Chapecoense (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:00",
-      "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30"
-    ],
-    "removed": [],
-    "channelsChanged": [
-      "Platense vs Estudiantes de La Plata (Copa Argentina) — Thu 01 Oct, 21:15: [TyC Sports, TyC Sports Play]",
-      "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [Disney+ Premium, ESPN, ESPN Premium]"
     ]
   }
 ]
