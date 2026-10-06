@@ -1,5 +1,28 @@
 [
   {
+    "timestamp": "2026-10-06T17:27:39.919Z",
+    "totalEvents": 43,
+    "added": [
+      "Cruzeiro vs São Paulo (Campeonato Brasileiro Série A) — Wed 07 Oct, 21:30",
+      "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30",
+      "Chapecoense vs Athletico Paranaense (Campeonato Brasileiro Série A) — Mon 12 Oct, 19:30",
+      "Red Bull Bragantino vs Cruzeiro (Campeonato Brasileiro Série A) — Mon 12 Oct, 21:00"
+    ],
+    "removed": [
+      "Deportivo Riestra vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 05 Oct, 16:45",
+      "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00",
+      "Vélez Sarsfield vs Platense (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00",
+      "Banfield vs Rosario Central (Liga Profesional de Fútbol) — Mon 05 Oct, 21:15"
+    ],
+    "channelsChanged": [
+      "Internacional vs Corinthians (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE 2, RECORD]",
+      "Red Bull Bragantino vs Mirassol (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [Fanatiz (Míralo en vivo), PREMIERE 5]",
+      "Remo vs Grêmio (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [Fanatiz (Míralo en vivo), PREMIERE 4]",
+      "Vitória vs Chapecoense (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE 3]",
+      "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30: [Fanatiz (Míralo en vivo), Flow Sports, PRIME VIDEO]"
+    ]
+  },
+  {
     "timestamp": "2026-10-05T19:47:23.652Z",
     "totalEvents": 43,
     "added": [
@@ -88,34 +111,5 @@
     "added": [],
     "removed": [],
     "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-10-02T05:41:33.333Z",
-    "totalEvents": 27,
-    "added": [
-      "Atlético Mineiro vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 03 Oct, 18:30",
-      "Santos vs Flamengo (Campeonato Brasileiro Série A) — Thu 08 Oct, 19:30",
-      "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30",
-      "Palmeiras vs Bahía (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30"
-    ],
-    "removed": [
-      "Platense vs Estudiantes de La Plata (Copa Argentina) — Thu 01 Oct, 21:15"
-    ],
-    "channelsChanged": [
-      "Independiente vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Fri 02 Oct, 19:15: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-      "Independiente Rivadavia vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Boca Juniors vs Union Santa Fe (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN 3, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Defensa y Justicia vs San Lorenzo (Liga Profesional de Fútbol) — Sat 03 Oct, 14:45: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-      "Newell's Old Boys vs Lanús (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Atlético Tucumán vs Barracas Central (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Talleres de Córdoba vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 04 Oct, 17:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sun 04 Oct, 19:15: [ESPN, ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-      "Estudiantes de Río Cuarto vs Racing Club (Liga Profesional de Fútbol) — Sun 04 Oct, 21:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Deportivo Riestra vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 05 Oct, 16:45: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Vélez Sarsfield vs Platense (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Banfield vs Rosario Central (Liga Profesional de Fútbol) — Mon 05 Oct, 21:15: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]"
-    ]
   }
 ]

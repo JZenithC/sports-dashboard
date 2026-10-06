@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-10-05T19:48:41.200Z",
+  "generatedAt": "2026-10-06T17:29:15.119Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-06T17:27:39.919Z",
+        "totalEvents": 43,
+        "added": [
+          "Cruzeiro vs São Paulo (Campeonato Brasileiro Série A) — Wed 07 Oct, 21:30",
+          "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30",
+          "Chapecoense vs Athletico Paranaense (Campeonato Brasileiro Série A) — Mon 12 Oct, 19:30",
+          "Red Bull Bragantino vs Cruzeiro (Campeonato Brasileiro Série A) — Mon 12 Oct, 21:00"
+        ],
+        "removed": [
+          "Deportivo Riestra vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 05 Oct, 16:45",
+          "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00",
+          "Vélez Sarsfield vs Platense (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00",
+          "Banfield vs Rosario Central (Liga Profesional de Fútbol) — Mon 05 Oct, 21:15"
+        ],
+        "channelsChanged": [
+          "Internacional vs Corinthians (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE 2, RECORD]",
+          "Red Bull Bragantino vs Mirassol (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [Fanatiz (Míralo en vivo), PREMIERE 5]",
+          "Remo vs Grêmio (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [Fanatiz (Míralo en vivo), PREMIERE 4]",
+          "Vitória vs Chapecoense (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE 3]",
+          "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30: [Fanatiz (Míralo en vivo), Flow Sports, PRIME VIDEO]"
+        ],
+        "total": 43
+      },
       {
         "timestamp": "2026-10-05T19:47:23.652Z",
         "totalEvents": 43,
@@ -293,19 +317,21 @@
         "removed": [],
         "channelsChanged": [],
         "total": 11
-      },
-      {
-        "timestamp": "2026-09-24T05:41:58.397Z",
-        "totalEvents": 11,
-        "added": [],
-        "removed": [],
-        "channelsChanged": [
-          "Chivas Guadalajara vs Querétaro (Liga MX) — Sat 26 Sept, 17:07: [Amazon Prime Video (Míralo en vivo), FOX One]"
-        ],
-        "total": 11
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-06T17:28:15.713Z",
+        "total": 16,
+        "added": [
+          "AL Lower Seed @ AL Higher Seed (2026-10-13)"
+        ],
+        "removed": [
+          "Chicago White Sox @ Cleveland Guardians (2026-10-05)",
+          "New York Yankees @ Tampa Bay Rays (2026-10-05)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-05T19:47:57.856Z",
         "total": 17,
@@ -696,38 +722,28 @@
         ],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-24T05:42:53.899Z",
-        "total": 64,
-        "added": [
-          "AL Wild Card #2 @ New York Yankees (2026-09-30)",
-          "NL Wild Card #2 @ NL Wild Card #1 (2026-09-30)",
-          "AL Wild Card #3 @ AL #3 Seed (2026-09-30)",
-          "NL Wild Card #3 @ NL #3 Seed (2026-09-30)"
-        ],
-        "removed": [
-          "Washington Nationals @ Detroit Tigers (2026-09-23)",
-          "Toronto Blue Jays @ Baltimore Orioles (2026-09-23)",
-          "Minnesota Twins @ San Francisco Giants (2026-09-23)",
-          "St. Louis Cardinals @ Pittsburgh Pirates (2026-09-23)",
-          "Milwaukee Brewers @ Philadelphia Phillies (2026-09-23)",
-          "Tampa Bay Rays @ New York Yankees (2026-09-23)",
-          "Cleveland Guardians @ Boston Red Sox (2026-09-23)",
-          "Cincinnati Reds @ Atlanta Braves (2026-09-23)",
-          "Chicago White Sox @ Kansas City Royals (2026-09-23)",
-          "Miami Marlins @ Chicago Cubs (2026-09-23)",
-          "New York Mets @ Texas Rangers (2026-09-23)",
-          "Arizona Diamondbacks @ Colorado Rockies (2026-09-23)",
-          "Los Angeles Angels @ Athletics (2026-09-23)",
-          "San Diego Padres @ Los Angeles Dodgers (2026-09-23)",
-          "Houston Astros @ Seattle Mariners (2026-09-23)",
-          "Chicago Cubs @ Boston Red Sox (2026-09-27)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-06T17:29:15.119Z",
+        "total": 56,
+        "added": [
+          "Dana White's Contender Series: Season 10, Week 9 (2026-10-07)",
+          "Dana White's Contender Series: Season 10, Week 10 (2026-10-14)",
+          "ACA 209: Frolov vs. Odilov (2026-10-30)",
+          "Shooto Brazil 141: TBA (2026-11-06)",
+          "LUX 064: Monterrey (2026-11-06)",
+          "One Friday Fights 177 (2026-11-06)",
+          "One on Prime Video 49 (2026-11-06)"
+        ],
+        "removed": [
+          "Dana White's Contender Series: Season 10, Week 9 (2026-10-07)",
+          "Dana White's Contender Series: Season 10, Week 10 (2026-10-14)",
+          "ACA 209: Frolov vs. Odilov (2026-10-31)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-05T19:48:41.199Z",
         "total": 52,
@@ -952,22 +968,6 @@
         "total": 54,
         "added": [],
         "removed": [],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-24T05:43:43.597Z",
-        "total": 54,
-        "added": [
-          "Dana White's Contender Series: Season 10, Week 8 (2026-09-30)",
-          "PFL Chicago: Carmouche vs. Bishop 2 (2026-10-16)",
-          "Kevin Anton-Freudis Rojas (2026-10-17)"
-        ],
-        "removed": [
-          "Pancrase: 366 (2026-09-23)",
-          "Dana White's Contender Series: Season 10, Week 8 (2026-09-30)",
-          "Kevin Anton-Yan Marcos (2026-10-17)",
-          "PFL Chicago: Carmouche vs. Bishop 2 (2026-10-17)"
-        ],
         "channelsChanged": []
       }
     ]

@@ -1,18 +1,35 @@
 {
-  "generatedAt": "2026-10-05T19:48:41.199Z",
+  "generatedAt": "2026-10-06T17:29:15.118Z",
   "upcoming": [
     {
       "org": "UFC",
       "eventName": "Dana White's Contender Series: Season 10, Week 9",
-      "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 1-fight card",
-      "homeTeam": "TBA",
-      "awayTeam": "Opponent TBA",
+      "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 5-fight card",
+      "homeTeam": "Preston LaGrange",
+      "awayTeam": "Nell Ariano",
       "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
+      "homeLogo": "/logos/flags/usa.png",
+      "awayLogo": "/logos/flags/fra.png",
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Alivia Bierley v Summer Onley",
+          "weightClass": "W Bantamweight"
+        },
+        {
+          "title": "Mateus Soares v Ryuho Miyaguchi",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Roque Conceição v Alexander Chavez",
+          "weightClass": "Flyweight"
+        },
+        {
+          "title": "Salhahuddin Everett v Ozzy Martin",
+          "weightClass": "Welterweight"
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-10-06T23:00Z",
       "kickoffLocal": null,
@@ -41,27 +58,47 @@
         "city": "Las Vegas",
         "country": "USA",
         "mainEventFighters": [
-          "TBA",
-          "Opponent TBA"
+          "Preston LaGrange",
+          "Nell Ariano"
         ],
         "mainEventFlagUrls": [
-          null,
-          null
+          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
         ],
         "bouts": [
           {
-            "a": "TBA",
-            "b": "Opponent TBA",
-            "weightClass": null
+            "a": "Alivia Bierley",
+            "b": "Summer Onley",
+            "weightClass": "W Bantamweight"
+          },
+          {
+            "a": "Mateus Soares",
+            "b": "Ryuho Miyaguchi",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Roque Conceição",
+            "b": "Alexander Chavez",
+            "weightClass": "Flyweight"
+          },
+          {
+            "a": "Salhahuddin Everett",
+            "b": "Ozzy Martin",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Preston LaGrange",
+            "b": "Nell Ariano",
+            "weightClass": "Light Heavyweight"
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 1,
+        "boutCount": 5,
         "broadcasts": [
           "Paramount+"
         ]
       },
-      "watchKey": "fights:UFC|TBA|Opponent TBA|2026-10-07"
+      "watchKey": "fights:UFC|Preston LaGrange|Nell Ariano|2026-10-07"
     },
     {
       "org": "MMA",
@@ -438,12 +475,12 @@
           "weightClass": "Lightweight"
         },
         {
-          "title": "Otari Tanzilovi v Malcolm Wellmaker",
-          "weightClass": "Bantamweight"
-        },
-        {
           "title": "Gerald Meerschaert v Julius Walker",
           "weightClass": "Light Heavyweight"
+        },
+        {
+          "title": "Otari Tanzilovi v Malcolm Wellmaker",
+          "weightClass": "Bantamweight"
         },
         {
           "title": "Andre Fili v Kai Kamaka III",
@@ -535,14 +572,14 @@
             "weightClass": "Lightweight"
           },
           {
-            "a": "Otari Tanzilovi",
-            "b": "Malcolm Wellmaker",
-            "weightClass": "Bantamweight"
-          },
-          {
             "a": "Gerald Meerschaert",
             "b": "Julius Walker",
             "weightClass": "Light Heavyweight"
+          },
+          {
+            "a": "Otari Tanzilovi",
+            "b": "Malcolm Wellmaker",
+            "weightClass": "Bantamweight"
           },
           {
             "a": "Andre Fili",
@@ -965,15 +1002,20 @@
     {
       "org": "UFC",
       "eventName": "Dana White's Contender Series: Season 10, Week 10",
-      "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 1-fight card",
-      "homeTeam": "TBA",
-      "awayTeam": "Opponent TBA",
+      "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 2-fight card",
+      "homeTeam": "Ilias Bulaid",
+      "awayTeam": "Erick Visconde",
       "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
+      "homeLogo": "/logos/flags/mar.png",
+      "awayLogo": "/logos/flags/bra.png",
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Aline Pereira v Smilla Sundell",
+          "weightClass": "W Bantamweight"
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-10-13T23:00Z",
       "kickoffLocal": null,
@@ -1002,27 +1044,32 @@
         "city": "Las Vegas",
         "country": "USA",
         "mainEventFighters": [
-          "TBA",
-          "Opponent TBA"
+          "Ilias Bulaid",
+          "Erick Visconde"
         ],
         "mainEventFlagUrls": [
-          null,
-          null
+          "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
         ],
         "bouts": [
           {
-            "a": "TBA",
-            "b": "Opponent TBA",
-            "weightClass": null
+            "a": "Aline Pereira",
+            "b": "Smilla Sundell",
+            "weightClass": "W Bantamweight"
+          },
+          {
+            "a": "Ilias Bulaid",
+            "b": "Erick Visconde",
+            "weightClass": "Featherweight"
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 1,
+        "boutCount": 2,
         "broadcasts": [
           "Paramount+"
         ]
       },
-      "watchKey": "fights:UFC|TBA|Opponent TBA|2026-10-14"
+      "watchKey": "fights:UFC|Ilias Bulaid|Erick Visconde|2026-10-14"
     },
     {
       "org": "PFL",
@@ -2483,6 +2530,77 @@
     },
     {
       "org": "MMA",
+      "eventName": "ACA 209: Frolov vs. Odilov",
+      "eventTag": "ACA 209 · Dushanbe, Tajikistan",
+      "homeTeam": "Frolov",
+      "awayTeam": "Odilov",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Loik Radzhabov v Nikolay Aleksakhin",
+          "weightClass": null
+        },
+        {
+          "title": "Alexey Makhno v Kuat Khamitov",
+          "weightClass": null
+        },
+        {
+          "title": "Viskhan Kadirov v Bekhruz Zugurov",
+          "weightClass": null
+        },
+        {
+          "title": "Emomakhdi Orzuzoda v Kholmurod Nurmatov",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-30T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-30",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-ACA-209-Frolov-vs-Odilov-114289",
+        "name": "ACA 209: Frolov vs. Odilov",
+        "dateUTC": null,
+        "dateOnly": "2026-10-30",
+        "venue": "Dushanbe",
+        "city": "Tajikistan",
+        "href": "/events/ACA-209-Frolov-vs-Odilov-114289",
+        "mainEventFighters": [
+          "Frolov",
+          "Odilov"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Loik Radzhabov",
+            "b": "Nikolay Aleksakhin"
+          },
+          {
+            "a": "Alexey Makhno",
+            "b": "Kuat Khamitov"
+          },
+          {
+            "a": "Viskhan Kadirov",
+            "b": "Bekhruz Zugurov"
+          },
+          {
+            "a": "Emomakhdi Orzuzoda",
+            "b": "Kholmurod Nurmatov"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Frolov|Odilov|2026-10-30"
+    },
+    {
+      "org": "MMA",
       "eventName": "LFA 245: Khamzaev vs. Prescendo",
       "eventTag": "LFA 245 · Seneca Niagara Resort and Casino, Niagara Falls, New York, United States",
       "homeTeam": "Khamzaev",
@@ -3006,6 +3124,10 @@
         {
           "title": "Amir Aliev v Adionai Maciel",
           "weightClass": null
+        },
+        {
+          "title": "Benoit Prigent v Jafar Yousifi",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -3061,6 +3183,10 @@
           {
             "a": "Amir Aliev",
             "b": "Adionai Maciel"
+          },
+          {
+            "a": "Benoit Prigent",
+            "b": "Jafar Yousifi"
           }
         ]
       },
@@ -3195,10 +3321,44 @@
     },
     {
       "org": "MMA",
-      "eventName": "ACA 209: Frolov vs. Odilov",
-      "eventTag": "ACA 209 · Dushanbe, Tajikistan",
-      "homeTeam": "Frolov",
-      "awayTeam": "Odilov",
+      "eventName": "Shooto Brazil 141: TBA",
+      "eventTag": "Shooto Brazil 141 · Upper Arena, Rio de Janeiro, Rio de Janeiro, Brazil",
+      "homeTeam": null,
+      "awayTeam": null,
+      "cardTitle": "Shooto Brazil 141: TBA",
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-06T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-06",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Shooto-Brazil-141-TBA-111968",
+        "name": "Shooto Brazil 141: TBA",
+        "dateUTC": null,
+        "dateOnly": "2026-11-06",
+        "venue": "Upper Arena",
+        "city": "Rio de Janeiro, Rio de Janeiro, Brazil",
+        "href": "/events/Shooto-Brazil-141-TBA-111968",
+        "mainEventFighters": [],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|null|null|2026-11-06"
+    },
+    {
+      "org": "MMA",
+      "eventName": "LUX 064: Monterrey",
+      "eventTag": "LUX 064 · Showcenter Complex, Monterrey, Nuevo Leon, Mexico",
+      "homeTeam": "Irvin Amaya",
+      "awayTeam": "Alejandro Corrales",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -3206,55 +3366,145 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Loik Radzhabov v Nikolay Aleksakhin",
+          "title": "Melany Gomez v Flor Hernandez",
           "weightClass": null
         },
         {
-          "title": "Alexey Makhno v Kuat Khamitov",
+          "title": "Hannah Ramos v Karla Pastrana",
           "weightClass": null
         },
         {
-          "title": "Viskhan Kadirov v Bekhruz Zugurov",
+          "title": "Luis Rey Gallegos v Roberto Villalobos",
+          "weightClass": null
+        },
+        {
+          "title": "Enrique Gonzalez v David Mendoza",
+          "weightClass": null
+        },
+        {
+          "title": "Cesar Vazquez v Brandon Gonzalez",
           "weightClass": null
         }
       ],
       "poster": null,
-      "kickoffUTC": "2026-10-31T23:59:00Z",
+      "kickoffUTC": "2026-11-06T23:59:00Z",
       "kickoffLocal": null,
       "kickoffUK": null,
-      "localDate": "2026-10-31",
+      "localDate": "2026-11-06",
       "channels": [],
       "broadcastGroups": null,
       "source": {
         "org": "MMA",
-        "slug": "sherdog-ACA-209-Frolov-vs-Odilov-114289",
-        "name": "ACA 209: Frolov vs. Odilov",
+        "slug": "sherdog-LUX-064-Monterrey-114284",
+        "name": "LUX 064: Monterrey",
         "dateUTC": null,
-        "dateOnly": "2026-10-31",
-        "venue": "Dushanbe",
-        "city": "Tajikistan",
-        "href": "/events/ACA-209-Frolov-vs-Odilov-114289",
+        "dateOnly": "2026-11-06",
+        "venue": "Showcenter Complex",
+        "city": "Monterrey, Nuevo Leon, Mexico",
+        "href": "/events/LUX-064-Monterrey-114284",
         "mainEventFighters": [
-          "Frolov",
-          "Odilov"
+          "Irvin Amaya",
+          "Alejandro Corrales"
         ],
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Loik Radzhabov",
-            "b": "Nikolay Aleksakhin"
+            "a": "Melany Gomez",
+            "b": "Flor Hernandez"
           },
           {
-            "a": "Alexey Makhno",
-            "b": "Kuat Khamitov"
+            "a": "Hannah Ramos",
+            "b": "Karla Pastrana"
           },
           {
-            "a": "Viskhan Kadirov",
-            "b": "Bekhruz Zugurov"
+            "a": "Luis Rey Gallegos",
+            "b": "Roberto Villalobos"
+          },
+          {
+            "a": "Enrique Gonzalez",
+            "b": "David Mendoza"
+          },
+          {
+            "a": "Cesar Vazquez",
+            "b": "Brandon Gonzalez"
           }
         ]
       },
-      "watchKey": "fights:MMA|Frolov|Odilov|2026-10-31"
+      "watchKey": "fights:MMA|Irvin Amaya|Alejandro Corrales|2026-11-06"
+    },
+    {
+      "org": "MMA",
+      "eventName": "One Friday Fights 177",
+      "eventTag": "One Friday Fights 177 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Christian Lee",
+      "awayTeam": "Tye Ruotolo",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-06T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-06",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-Friday-Fights-177-114696",
+        "name": "One Friday Fights 177",
+        "dateUTC": null,
+        "dateOnly": "2026-11-06",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-Friday-Fights-177-114696",
+        "mainEventFighters": [
+          "Christian Lee",
+          "Tye Ruotolo"
+        ],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|Christian Lee|Tye Ruotolo|2026-11-06"
+    },
+    {
+      "org": "MMA",
+      "eventName": "One on Prime Video 49",
+      "eventTag": "One on Prime Video 49 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Lucas Gabriel",
+      "awayTeam": "Alibeg Rasulov",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-06T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-06",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-on-Prime-Video-49-114703",
+        "name": "One on Prime Video 49",
+        "dateUTC": null,
+        "dateOnly": "2026-11-06",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-on-Prime-Video-49-114703",
+        "mainEventFighters": [
+          "Lucas Gabriel",
+          "Alibeg Rasulov"
+        ],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|Lucas Gabriel|Alibeg Rasulov|2026-11-06"
     },
     {
       "org": "Boxing",
@@ -7527,18 +7777,6 @@
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-06T04:00:00.000Z",
-      "endsAtUTC": "2026-10-06T07:00:00.000Z",
-      "timeUK": "Tue 06 Oct, 05:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Till v Romero",
-      "sublabel": "BKFC 94 Manchester: Till vs. Romero"
-    },
     {
       "airTimeUTC": "2026-10-08T18:00:00.000Z",
       "endsAtUTC": "2026-10-08T22:00:00.000Z",
