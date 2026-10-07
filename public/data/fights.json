@@ -1,105 +1,6 @@
 {
-  "generatedAt": "2026-10-06T17:29:15.118Z",
+  "generatedAt": "2026-10-07T18:02:40.547Z",
   "upcoming": [
-    {
-      "org": "UFC",
-      "eventName": "Dana White's Contender Series: Season 10, Week 9",
-      "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 5-fight card",
-      "homeTeam": "Preston LaGrange",
-      "awayTeam": "Nell Ariano",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/usa.png",
-      "awayLogo": "/logos/flags/fra.png",
-      "orgName": "UFC",
-      "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [
-        {
-          "title": "Alivia Bierley v Summer Onley",
-          "weightClass": "W Bantamweight"
-        },
-        {
-          "title": "Mateus Soares v Ryuho Miyaguchi",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Roque Conceição v Alexander Chavez",
-          "weightClass": "Flyweight"
-        },
-        {
-          "title": "Salhahuddin Everett v Ozzy Martin",
-          "weightClass": "Welterweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-06T23:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Wed 07 Oct, 00:00",
-      "localDate": "2026-10-07",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "UFC",
-        "espnId": "600060740",
-        "name": "Dana White's Contender Series: Season 10, Week 9",
-        "dateUTC": "2026-10-06T23:00Z",
-        "mainCardUTC": null,
-        "venue": "Meta APEX",
-        "city": "Las Vegas",
-        "country": "USA",
-        "mainEventFighters": [
-          "Preston LaGrange",
-          "Nell Ariano"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
-        ],
-        "bouts": [
-          {
-            "a": "Alivia Bierley",
-            "b": "Summer Onley",
-            "weightClass": "W Bantamweight"
-          },
-          {
-            "a": "Mateus Soares",
-            "b": "Ryuho Miyaguchi",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Roque Conceição",
-            "b": "Alexander Chavez",
-            "weightClass": "Flyweight"
-          },
-          {
-            "a": "Salhahuddin Everett",
-            "b": "Ozzy Martin",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Preston LaGrange",
-            "b": "Nell Ariano",
-            "weightClass": "Light Heavyweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 5,
-        "broadcasts": [
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:UFC|Preston LaGrange|Nell Ariano|2026-10-07"
-    },
     {
       "org": "MMA",
       "eventName": "ACA Young Eagles 69",
@@ -1002,7 +903,7 @@
     {
       "org": "UFC",
       "eventName": "Dana White's Contender Series: Season 10, Week 10",
-      "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 2-fight card",
+      "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 5-fight card",
       "homeTeam": "Ilias Bulaid",
       "awayTeam": "Erick Visconde",
       "cardTitle": null,
@@ -1011,6 +912,18 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Jason Asher v Greg Foster",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Davi Cabral v Douglas da Lapa",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Will Rentz v Luis Francischinelli",
+          "weightClass": "Welterweight"
+        },
         {
           "title": "Aline Pereira v Smilla Sundell",
           "weightClass": "W Bantamweight"
@@ -1053,6 +966,21 @@
         ],
         "bouts": [
           {
+            "a": "Jason Asher",
+            "b": "Greg Foster",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Davi Cabral",
+            "b": "Douglas da Lapa",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Will Rentz",
+            "b": "Luis Francischinelli",
+            "weightClass": "Welterweight"
+          },
+          {
             "a": "Aline Pereira",
             "b": "Smilla Sundell",
             "weightClass": "W Bantamweight"
@@ -1064,7 +992,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 2,
+        "boutCount": 5,
         "broadcasts": [
           "Paramount+"
         ]
@@ -1642,11 +1570,15 @@
           "weightClass": null
         },
         {
-          "title": "Vaclav Stepan v Sami Zarabi",
+          "title": "Husein Kadimagomaev v Unknown Fighter",
           "weightClass": null
         },
         {
           "title": "Viktor Cervinsky v Daniel Hromek",
+          "weightClass": null
+        },
+        {
+          "title": "Vaclav Stepan v Sami Zarabi",
           "weightClass": null
         }
       ],
@@ -1693,12 +1625,16 @@
             "b": "Anatolij Baal"
           },
           {
-            "a": "Vaclav Stepan",
-            "b": "Sami Zarabi"
+            "a": "Husein Kadimagomaev",
+            "b": "Unknown Fighter"
           },
           {
             "a": "Viktor Cervinsky",
             "b": "Daniel Hromek"
+          },
+          {
+            "a": "Vaclav Stepan",
+            "b": "Sami Zarabi"
           }
         ]
       },
@@ -1715,7 +1651,16 @@
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Shozo Isojima v Kouta Abe",
+          "weightClass": null
+        },
+        {
+          "title": "Yu Takeuchi v Ryoto Nishiyama",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-10-17T23:59:00Z",
       "kickoffLocal": null,
@@ -1737,7 +1682,16 @@
           "Itsuki Hirata"
         ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Shozo Isojima",
+            "b": "Kouta Abe"
+          },
+          {
+            "a": "Yu Takeuchi",
+            "b": "Ryoto Nishiyama"
+          }
+        ]
       },
       "watchKey": "fights:MMA|Jihin Radzuan|Itsuki Hirata|2026-10-17"
     },
@@ -2071,7 +2025,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 333: Volkanovski vs. Evloev",
-      "eventTag": "UFC 333 · Etihad Arena, Abu Dhabi · 10-fight card · main card Sat 24 Oct, 19:00 UK",
+      "eventTag": "UFC 333 · Etihad Arena, Abu Dhabi · 9-fight card · main card Sat 24 Oct, 19:00 UK",
       "homeTeam": "Alexander Volkanovski",
       "awayTeam": "Movsar Evloev",
       "cardTitle": null,
@@ -2099,10 +2053,6 @@
         {
           "title": "Azamat Murzakanov v Dominick Reyes",
           "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Arnold Allen v Aaron Pico",
-          "weightClass": "Featherweight"
         },
         {
           "title": "Alexander Volkov v Rizvan Kuniev",
@@ -2189,11 +2139,6 @@
             "weightClass": "Light Heavyweight"
           },
           {
-            "a": "Arnold Allen",
-            "b": "Aaron Pico",
-            "weightClass": "Featherweight"
-          },
-          {
             "a": "Alexander Volkov",
             "b": "Rizvan Kuniev",
             "weightClass": "Heavyweight"
@@ -2215,7 +2160,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 10,
+        "boutCount": 9,
         "broadcasts": [
           "Paramount+"
         ]
@@ -2555,6 +2500,10 @@
         {
           "title": "Emomakhdi Orzuzoda v Kholmurod Nurmatov",
           "weightClass": null
+        },
+        {
+          "title": "Mustafa Ashurzoda v Akhmed Khamzaev",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -2594,6 +2543,10 @@
           {
             "a": "Emomakhdi Orzuzoda",
             "b": "Kholmurod Nurmatov"
+          },
+          {
+            "a": "Mustafa Ashurzoda",
+            "b": "Akhmed Khamzaev"
           }
         ]
       },
@@ -3205,14 +3158,6 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Ronald Paradeiser v Tyrone Pfeifer",
-          "weightClass": null
-        },
-        {
-          "title": "Ion Surdu v Jessin Ayari",
-          "weightClass": null
-        },
-        {
           "title": "Gokhan Aksu v Niko Samsonidse",
           "weightClass": null
         },
@@ -3221,11 +3166,15 @@
           "weightClass": null
         },
         {
-          "title": "Marek Bartl v Brian Manning",
+          "title": "Ion Surdu v Jessin Ayari",
           "weightClass": null
         },
         {
-          "title": "Henrique Madureira v Daniel Schordje",
+          "title": "Ronald Paradeiser v Tyrone Pfeifer",
+          "weightClass": null
+        },
+        {
+          "title": "Marek Bartl v Brian Manning",
           "weightClass": null
         },
         {
@@ -3233,7 +3182,7 @@
           "weightClass": null
         },
         {
-          "title": "Shawn Marcos da Silva v Fayaz Haqparast",
+          "title": "Endrit Brajshori v Christian Mach",
           "weightClass": null
         },
         {
@@ -3241,11 +3190,15 @@
           "weightClass": null
         },
         {
-          "title": "Kevin Hangs v Burak Kizilirmak",
+          "title": "Henrique Madureira v Daniel Schordje",
           "weightClass": null
         },
         {
-          "title": "Endrit Brajshori v Christian Mach",
+          "title": "Shawn Marcos da Silva v Fayaz Haqparast",
+          "weightClass": null
+        },
+        {
+          "title": "Kevin Hangs v Burak Kizilirmak",
           "weightClass": null
         }
       ],
@@ -3272,14 +3225,6 @@
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Ronald Paradeiser",
-            "b": "Tyrone Pfeifer"
-          },
-          {
-            "a": "Ion Surdu",
-            "b": "Jessin Ayari"
-          },
-          {
             "a": "Gokhan Aksu",
             "b": "Niko Samsonidse"
           },
@@ -3288,32 +3233,40 @@
             "b": "Simon Biyong"
           },
           {
-            "a": "Marek Bartl",
-            "b": "Brian Manning"
+            "a": "Ion Surdu",
+            "b": "Jessin Ayari"
           },
           {
-            "a": "Henrique Madureira",
-            "b": "Daniel Schordje"
+            "a": "Ronald Paradeiser",
+            "b": "Tyrone Pfeifer"
+          },
+          {
+            "a": "Marek Bartl",
+            "b": "Brian Manning"
           },
           {
             "a": "Michael Deiga Scheck",
             "b": "Unknown Fighter"
           },
           {
-            "a": "Shawn Marcos da Silva",
-            "b": "Fayaz Haqparast"
+            "a": "Endrit Brajshori",
+            "b": "Christian Mach"
           },
           {
             "a": "Marat Nessar",
             "b": "Abdul Malik Aliev"
           },
           {
-            "a": "Kevin Hangs",
-            "b": "Burak Kizilirmak"
+            "a": "Henrique Madureira",
+            "b": "Daniel Schordje"
           },
           {
-            "a": "Endrit Brajshori",
-            "b": "Christian Mach"
+            "a": "Shawn Marcos da Silva",
+            "b": "Fayaz Haqparast"
+          },
+          {
+            "a": "Kevin Hangs",
+            "b": "Burak Kizilirmak"
           }
         ]
       },
@@ -3370,7 +3323,19 @@
           "weightClass": null
         },
         {
-          "title": "Hannah Ramos v Karla Pastrana",
+          "title": "Enrique Gonzalez v David Mendoza",
+          "weightClass": null
+        },
+        {
+          "title": "Cesar Vazquez v Brandon Gonzalez",
+          "weightClass": null
+        },
+        {
+          "title": "Eliel Mota v Saul Tijerina",
+          "weightClass": null
+        },
+        {
+          "title": "Pedro Rubio v Beto Barra",
           "weightClass": null
         },
         {
@@ -3378,11 +3343,19 @@
           "weightClass": null
         },
         {
-          "title": "Enrique Gonzalez v David Mendoza",
+          "title": "Juan Zuniga v Javier Gil Fernandez",
           "weightClass": null
         },
         {
-          "title": "Cesar Vazquez v Brandon Gonzalez",
+          "title": "Kenneth Zamarripa v Jorge Olea",
+          "weightClass": null
+        },
+        {
+          "title": "Daniela Lopez v Camila Argueta",
+          "weightClass": null
+        },
+        {
+          "title": "Jade Moctezuma v Danna Cortes",
           "weightClass": null
         }
       ],
@@ -3413,20 +3386,40 @@
             "b": "Flor Hernandez"
           },
           {
-            "a": "Hannah Ramos",
-            "b": "Karla Pastrana"
-          },
-          {
-            "a": "Luis Rey Gallegos",
-            "b": "Roberto Villalobos"
-          },
-          {
             "a": "Enrique Gonzalez",
             "b": "David Mendoza"
           },
           {
             "a": "Cesar Vazquez",
             "b": "Brandon Gonzalez"
+          },
+          {
+            "a": "Eliel Mota",
+            "b": "Saul Tijerina"
+          },
+          {
+            "a": "Pedro Rubio",
+            "b": "Beto Barra"
+          },
+          {
+            "a": "Luis Rey Gallegos",
+            "b": "Roberto Villalobos"
+          },
+          {
+            "a": "Juan Zuniga",
+            "b": "Javier Gil Fernandez"
+          },
+          {
+            "a": "Kenneth Zamarripa",
+            "b": "Jorge Olea"
+          },
+          {
+            "a": "Daniela Lopez",
+            "b": "Camila Argueta"
+          },
+          {
+            "a": "Jade Moctezuma",
+            "b": "Danna Cortes"
           }
         ]
       },
@@ -5133,6 +5126,105 @@
     }
   ],
   "recent": [
+    {
+      "org": "UFC",
+      "eventName": "Dana White's Contender Series: Season 10, Week 9",
+      "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 5-fight card",
+      "homeTeam": "Preston LaGrange",
+      "awayTeam": "Nell Ariano",
+      "cardTitle": null,
+      "homeLogo": "/logos/flags/usa.png",
+      "awayLogo": "/logos/flags/fra.png",
+      "orgName": "UFC",
+      "orgLogo": "/logos/orgs/ufc.png",
+      "undercard": [
+        {
+          "title": "Alivia Bierley v Summer Onley",
+          "weightClass": "W Bantamweight"
+        },
+        {
+          "title": "Mateus Soares v Ryuho Miyaguchi",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Roque Conceição v Alexander Chavez",
+          "weightClass": "Flyweight"
+        },
+        {
+          "title": "Salhahuddin Everett v Ozzy Martin",
+          "weightClass": "Welterweight"
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-06T23:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Wed 07 Oct, 00:00",
+      "localDate": "2026-10-07",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "US",
+          "channels": [
+            {
+              "name": "Paramount+",
+              "url": "https://www.paramountplus.com/",
+              "logo": "/logos/channels/paramountplus.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "UFC",
+        "espnId": "600060740",
+        "name": "Dana White's Contender Series: Season 10, Week 9",
+        "dateUTC": "2026-10-06T23:00Z",
+        "mainCardUTC": null,
+        "venue": "Meta APEX",
+        "city": "Las Vegas",
+        "country": "USA",
+        "mainEventFighters": [
+          "Preston LaGrange",
+          "Nell Ariano"
+        ],
+        "mainEventFlagUrls": [
+          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
+        ],
+        "bouts": [
+          {
+            "a": "Alivia Bierley",
+            "b": "Summer Onley",
+            "weightClass": "W Bantamweight"
+          },
+          {
+            "a": "Mateus Soares",
+            "b": "Ryuho Miyaguchi",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Roque Conceição",
+            "b": "Alexander Chavez",
+            "weightClass": "Flyweight"
+          },
+          {
+            "a": "Salhahuddin Everett",
+            "b": "Ozzy Martin",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Preston LaGrange",
+            "b": "Nell Ariano",
+            "weightClass": "Light Heavyweight"
+          }
+        ],
+        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
+        "boutCount": 5,
+        "broadcasts": [
+          "Paramount+"
+        ]
+      },
+      "watchKey": "fights:UFC|Preston LaGrange|Nell Ariano|2026-10-07"
+    },
     {
       "org": "MMA",
       "eventName": "Pancrase: 367",
@@ -7675,108 +7767,21 @@
         ]
       },
       "watchKey": "fights:MMA|Miki Motono|Satomi Takano|2026-09-23"
-    },
-    {
-      "org": "UFC",
-      "eventName": "Dana White's Contender Series: Season 10, Week 7",
-      "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 5-fight card",
-      "homeTeam": "Norbert Növényi Jr.",
-      "awayTeam": "Theo Haig",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/hun.png",
-      "awayLogo": "/logos/flags/usa.png",
-      "orgName": "UFC",
-      "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [
-        {
-          "title": "Damian Piwowarczyk v Emilio Quissua",
-          "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Callum Connor v Piero Guaylupo",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Paris Moran v Marcos Degli",
-          "weightClass": "Flyweight"
-        },
-        {
-          "title": "Jaden Ortega v Alvi Dasuyev",
-          "weightClass": "Welterweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-09-22T23:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Wed 23 Sept, 00:00",
-      "localDate": "2026-09-23",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "UFC",
-        "espnId": "600060738",
-        "name": "Dana White's Contender Series: Season 10, Week 7",
-        "dateUTC": "2026-09-22T23:00Z",
-        "mainCardUTC": null,
-        "venue": "Meta APEX",
-        "city": "Las Vegas",
-        "country": "USA",
-        "mainEventFighters": [
-          "Norbert Növényi Jr.",
-          "Theo Haig"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/hun.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
-        ],
-        "bouts": [
-          {
-            "a": "Damian Piwowarczyk",
-            "b": "Emilio Quissua",
-            "weightClass": "Light Heavyweight"
-          },
-          {
-            "a": "Callum Connor",
-            "b": "Piero Guaylupo",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Paris Moran",
-            "b": "Marcos Degli",
-            "weightClass": "Flyweight"
-          },
-          {
-            "a": "Jaden Ortega",
-            "b": "Alvi Dasuyev",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Norbert Növényi Jr.",
-            "b": "Theo Haig",
-            "weightClass": "Middleweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 5,
-        "broadcasts": [
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:UFC|Norbert Növényi Jr.|Theo Haig|2026-09-23"
     }
   ],
   "replaySchedule": [
+    {
+      "airTimeUTC": "2026-10-08T16:00:00.000Z",
+      "endsAtUTC": "2026-10-08T18:00:00.000Z",
+      "timeUK": "Thu 08 Oct, 17:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Bellator 209: Pitbull v Sanchez",
+      "sublabel": "Bellator MMA"
+    },
     {
       "airTimeUTC": "2026-10-08T18:00:00.000Z",
       "endsAtUTC": "2026-10-08T22:00:00.000Z",
@@ -7788,6 +7793,42 @@
       "market": "UK",
       "label": "Andres Cortes v Eridson Garcia",
       "sublabel": "Zuffa Boxing"
+    },
+    {
+      "airTimeUTC": "2026-10-08T22:00:00.000Z",
+      "endsAtUTC": "2026-10-08T23:30:00.000Z",
+      "timeUK": "Thu 08 Oct, 23:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Bellator 203: Patricio Freire v Daniel Weichel",
+      "sublabel": "Bellator MMA"
+    },
+    {
+      "airTimeUTC": "2026-10-09T02:00:00.000Z",
+      "endsAtUTC": "2026-10-09T03:00:00.000Z",
+      "timeUK": "Fri 09 Oct, 03:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Till v Romero, Prelims",
+      "sublabel": "BKFC 94 Manchester: Till vs. Romero, Pre"
+    },
+    {
+      "airTimeUTC": "2026-10-09T03:00:00.000Z",
+      "endsAtUTC": "2026-10-09T06:00:00.000Z",
+      "timeUK": "Fri 09 Oct, 04:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Till v Romero",
+      "sublabel": "BKFC 94 Manchester: Till vs. Romero"
     }
   ]
 }

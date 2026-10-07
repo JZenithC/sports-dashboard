@@ -1,7 +1,48 @@
 {
-  "generatedAt": "2026-10-06T17:29:15.119Z",
+  "generatedAt": "2026-10-07T18:02:40.548Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-07T18:01:17.161Z",
+        "totalEvents": 45,
+        "added": [
+          "Athletico Paranaense vs Atlético Mineiro (Campeonato Brasileiro Série A) — Thu 08 Oct, 20:00",
+          "Boca Juniors vs Vasco da Gama (CONMEBOL Sudamericana) — Tue 13 Oct, 21:30"
+        ],
+        "removed": [],
+        "channelsChanged": [
+          "Internacional vs Corinthians (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [Azteca Deportes App, Azteca Deportes Network, CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE 2, RECORD]",
+          "Cruzeiro vs São Paulo (Campeonato Brasileiro Série A) — Wed 07 Oct, 21:30: [Azteca Deportes App, Azteca Deportes Network, PREMIERE FC, SPORTV]",
+          "Santos vs Flamengo (Campeonato Brasileiro Série A) — Thu 08 Oct, 19:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Fanatiz YouTube, PREMIERE FC, SPORTV]",
+          "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Fanatiz (Míralo en vivo), GLOBO, Globo Internacional, PREMIERE 5]",
+          "Palmeiras vs Bahia (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Flow Sports, GE TV, GLOBO, PREMIERE 2]",
+          "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "Gimnasia y Esgrima La Plata vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 09 Oct, 18:00: [ESPN Premium]",
+          "Instituto (Córdoba) vs Boca Juniors (Liga Profesional de Fútbol) — Fri 09 Oct, 19:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Unión Santa Fe vs Defensa y Justicia (Liga Profesional de Fútbol) — Fri 09 Oct, 21:45: [ESPN Premium, TyC Sports Internacional]",
+          "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00: [Azteca 7, FOX, FOX One]",
+          "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45: [ESPN, ESPN Premium]",
+          "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Querétaro vs Atlante (Liga MX) — Sat 10 Oct, 17:00: [FOX One, FOX+]",
+          "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00: [Azteca 7, FOX, FOX One]",
+          "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30: [ESPN Premium]",
+          "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00: [Canal 5, TUDN, ViX Premium]",
+          "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:00: [Canal 5, TUDN, ViX Premium]",
+          "San Lorenzo vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 11 Oct, 14:45: [ESPN Premium]",
+          "Rosario Central vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Platense vs Argentinos Juniors (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00: [ESPN Premium]",
+          "Flamengo vs Fluminense (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Flamengo TV YouTube, Globo Internacional]",
+          "Palmeiras vs Corinthians (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Fanatiz (Míralo en vivo), Fanatiz YouTube]",
+          "Racing Club vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 11 Oct, 19:15: [ESPN Premium]",
+          "Pachuca vs Necaxa (Liga MX) — Sun 11 Oct, 17:15: [FOX, FOX One]",
+          "Talleres de Córdoba vs Independiente (Liga Profesional de Fútbol) — Sun 11 Oct, 21:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Pumas UNAM vs Cruz Azul (Liga MX) — Sun 11 Oct, 19:00: [Canal 5, TUDN, ViX Premium]",
+          "Lanús vs Vélez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00: [ESPN, ESPN Premium]",
+          "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
+        ],
+        "total": 45
+      },
       {
         "timestamp": "2026-10-06T17:27:39.919Z",
         "totalEvents": 43,
@@ -309,17 +350,21 @@
         "removed": [],
         "channelsChanged": [],
         "total": 12
-      },
-      {
-        "timestamp": "2026-09-24T15:59:53.881Z",
-        "totalEvents": 11,
-        "added": [],
-        "removed": [],
-        "channelsChanged": [],
-        "total": 11
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-07T18:01:55.322Z",
+        "total": 15,
+        "added": [
+          "NL Higher Seed @ NL Lower Seed (2026-10-14)"
+        ],
+        "removed": [
+          "Los Angeles Dodgers @ Atlanta Braves (2026-10-06)",
+          "Milwaukee Brewers @ San Diego Padres (2026-10-06)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-06T17:28:15.713Z",
         "total": 16,
@@ -710,21 +755,18 @@
           "NL Wild Card #3 @ NL #3 Seed (2026-10-01)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-24T16:00:36.762Z",
-        "total": 68,
-        "added": [
-          "AL Wild Card #2 @ New York Yankees (2026-10-01)",
-          "NL Wild Card #2 @ NL Wild Card #1 (2026-10-01)",
-          "AL Wild Card #3 @ AL #3 Seed (2026-10-01)",
-          "NL Wild Card #3 @ NL #3 Seed (2026-10-01)"
-        ],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-07T18:02:40.548Z",
+        "total": 55,
+        "added": [],
+        "removed": [
+          "Dana White's Contender Series: Season 10, Week 9 (2026-10-07)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-06T17:29:15.119Z",
         "total": 56,
@@ -961,13 +1003,6 @@
           "Lemino Shooto Vol. 8 (2026-09-24)",
           "Dana White's Contender Series: Season 10, Week 8 (2026-09-30)"
         ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-24T16:01:27.051Z",
-        "total": 54,
-        "added": [],
-        "removed": [],
         "channelsChanged": []
       }
     ]
