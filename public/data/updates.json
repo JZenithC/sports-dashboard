@@ -1,7 +1,44 @@
 {
-  "generatedAt": "2026-10-07T18:02:40.548Z",
+  "generatedAt": "2026-10-08T18:05:46.638Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-08T18:04:23.250Z",
+        "totalEvents": 42,
+        "added": [
+          "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Wed 14 Oct, 19:00",
+          "Atlético Mineiro vs Montevideo City Torque (CONMEBOL Sudamericana) — Wed 14 Oct, 19:00",
+          "Fluminense vs Palmeiras (CONMEBOL Libertadores) — Wed 14 Oct, 21:30"
+        ],
+        "removed": [
+          "Internacional vs Corinthians (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
+          "Red Bull Bragantino vs Mirassol (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
+          "Remo vs Grêmio (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
+          "Vitória vs Chapecoense (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:00",
+          "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30",
+          "Cruzeiro vs São Paulo (Campeonato Brasileiro Série A) — Wed 07 Oct, 21:30"
+        ],
+        "channelsChanged": [
+          "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "Gimnasia y Esgrima La Plata vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 09 Oct, 18:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Instituto (Córdoba) vs Boca Juniors (Liga Profesional de Fútbol) — Fri 09 Oct, 19:30: [DISNEY+, Disney+ Premium, ESPN 4, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Unión Santa Fe vs Defensa y Justicia (Liga Profesional de Fútbol) — Fri 09 Oct, 21:45: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
+          "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+          "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:10: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+          "San Lorenzo vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 11 Oct, 14:45: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
+          "Rosario Central vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Platense vs Argentinos Juniors (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
+          "Racing Club vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 11 Oct, 19:15: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
+          "Talleres de Córdoba vs Independiente (Liga Profesional de Fútbol) — Sun 11 Oct, 21:30: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Lanús vs Vélez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]"
+        ],
+        "total": 42
+      },
       {
         "timestamp": "2026-10-07T18:01:17.161Z",
         "totalEvents": 45,
@@ -340,19 +377,38 @@
         "removed": [],
         "channelsChanged": [],
         "total": 12
-      },
-      {
-        "timestamp": "2026-09-25T05:42:05.733Z",
-        "totalEvents": 12,
-        "added": [
-          "Platense vs Estudiantes de La Plata (Copa Argentina) — Thu 01 Oct, 21:15"
-        ],
-        "removed": [],
-        "channelsChanged": [],
-        "total": 12
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-08T18:05:06.099Z",
+        "total": 9,
+        "added": [
+          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-11)",
+          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-12)",
+          "CLE/CWS @ Tampa Bay Rays (2026-10-12)",
+          "CLE/CWS @ Tampa Bay Rays (2026-10-13)",
+          "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-14)",
+          "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-15)",
+          "Tampa Bay Rays @ CLE/CWS (2026-10-15)"
+        ],
+        "removed": [
+          "Cleveland Guardians @ Chicago White Sox (2026-10-07)",
+          "Los Angeles Dodgers @ Atlanta Braves (2026-10-07)",
+          "Tampa Bay Rays @ New York Yankees (2026-10-07)",
+          "Milwaukee Brewers @ San Diego Padres (2026-10-07)",
+          "Tampa Bay Rays @ New York Yankees (2026-10-08)",
+          "San Diego Padres @ Milwaukee Brewers (2026-10-09)",
+          "Atlanta Braves @ Los Angeles Dodgers (2026-10-09)",
+          "New York Yankees @ Tampa Bay Rays (2026-10-10)",
+          "NL Lower Seed @ NL Higher Seed (2026-10-11)",
+          "AL Lower Seed @ AL Higher Seed (2026-10-12)",
+          "NL Lower Seed @ NL Higher Seed (2026-10-12)",
+          "AL Lower Seed @ AL Higher Seed (2026-10-13)",
+          "NL Higher Seed @ NL Lower Seed (2026-10-14)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-07T18:01:55.322Z",
         "total": 15,
@@ -721,43 +777,23 @@
         "added": [],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-25T05:42:44.469Z",
-        "total": 55,
-        "added": [
-          "NL Wild Card #3 @ Atlanta Braves (2026-09-29)",
-          "AL Wild Card #3 @ AL West #1 (2026-09-29)",
-          "NL Wild Card #3 @ Atlanta Braves (2026-09-30)",
-          "AL Wild Card #3 @ AL West #1 (2026-09-30)",
-          "NL Wild Card #3 @ Atlanta Braves (2026-10-01)",
-          "AL Wild Card #3 @ AL West #1 (2026-10-01)"
-        ],
-        "removed": [
-          "St. Louis Cardinals @ Pittsburgh Pirates (2026-09-24)",
-          "Chicago White Sox @ Kansas City Royals (2026-09-24)",
-          "Miami Marlins @ Chicago Cubs (2026-09-24)",
-          "New York Mets @ Texas Rangers (2026-09-24)",
-          "Arizona Diamondbacks @ Colorado Rockies (2026-09-24)",
-          "Milwaukee Brewers @ Philadelphia Phillies (2026-09-24)",
-          "Cleveland Guardians @ Boston Red Sox (2026-09-24)",
-          "Tampa Bay Rays @ New York Yankees (2026-09-24)",
-          "Cincinnati Reds @ Atlanta Braves (2026-09-24)",
-          "Houston Astros @ Athletics (2026-09-24)",
-          "Los Angeles Angels @ Seattle Mariners (2026-09-24)",
-          "San Diego Padres @ Los Angeles Dodgers (2026-09-24)",
-          "Baltimore Orioles @ New York Yankees (2026-09-26)",
-          "AL Wild Card #3 @ AL #3 Seed (2026-09-29)",
-          "NL Wild Card #3 @ NL #3 Seed (2026-09-29)",
-          "AL Wild Card #3 @ AL #3 Seed (2026-09-30)",
-          "NL Wild Card #3 @ NL #3 Seed (2026-09-30)",
-          "AL Wild Card #3 @ AL #3 Seed (2026-10-01)",
-          "NL Wild Card #3 @ NL #3 Seed (2026-10-01)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-08T18:05:46.636Z",
+        "total": 61,
+        "added": [
+          "BKFC Fight Night Bethlehem: Cisneros vs Peterson Prelims (2026-10-10)",
+          "Rizin 55 (2026-11-08)",
+          "Fury FC: Challenger Series 17 (2026-11-08)",
+          "Lemino Shooto Vol. 10 (2026-11-08)",
+          "Pancrase: 368 (2026-11-08)",
+          "Bryan Flores-Jose Nunez (2026-11-14)"
+        ],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-07T18:02:40.548Z",
         "total": 55,
@@ -985,23 +1021,6 @@
         ],
         "removed": [
           "One Friday Fights 172 (2026-09-25)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-25T05:43:28.667Z",
-        "total": 56,
-        "added": [
-          "Dana White's Contender Series: Season 10, Week 8 (2026-09-30)",
-          "Shooto / Torao Nation State: Force 24 (2026-10-25)",
-          "Fury FC: Amateur Series 62 (2026-10-25)",
-          "Steven Butler vs Erik Bazinyan (2026-11-12)",
-          "Tyson Fury vs Anthony Joshua (2026-12-11)"
-        ],
-        "removed": [
-          "BKFC 94 Manchester: Till vs Romero, Prelims (2026-09-24)",
-          "Lemino Shooto Vol. 8 (2026-09-24)",
-          "Dana White's Contender Series: Season 10, Week 8 (2026-09-30)"
         ],
         "channelsChanged": []
       }

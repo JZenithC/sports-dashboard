@@ -1,5 +1,41 @@
 [
   {
+    "timestamp": "2026-10-08T18:04:23.250Z",
+    "totalEvents": 42,
+    "added": [
+      "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Wed 14 Oct, 19:00",
+      "Atlético Mineiro vs Montevideo City Torque (CONMEBOL Sudamericana) — Wed 14 Oct, 19:00",
+      "Fluminense vs Palmeiras (CONMEBOL Libertadores) — Wed 14 Oct, 21:30"
+    ],
+    "removed": [
+      "Internacional vs Corinthians (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
+      "Red Bull Bragantino vs Mirassol (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
+      "Remo vs Grêmio (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
+      "Vitória vs Chapecoense (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:00",
+      "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30",
+      "Cruzeiro vs São Paulo (Campeonato Brasileiro Série A) — Wed 07 Oct, 21:30"
+    ],
+    "channelsChanged": [
+      "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+      "Gimnasia y Esgrima La Plata vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 09 Oct, 18:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Instituto (Córdoba) vs Boca Juniors (Liga Profesional de Fútbol) — Fri 09 Oct, 19:30: [DISNEY+, Disney+ Premium, ESPN 4, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Unión Santa Fe vs Defensa y Justicia (Liga Profesional de Fútbol) — Fri 09 Oct, 21:45: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
+      "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+      "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+      "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+      "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:10: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+      "San Lorenzo vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 11 Oct, 14:45: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
+      "Rosario Central vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Platense vs Argentinos Juniors (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
+      "Racing Club vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 11 Oct, 19:15: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
+      "Talleres de Córdoba vs Independiente (Liga Profesional de Fútbol) — Sun 11 Oct, 21:30: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Lanús vs Vélez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]"
+    ]
+  },
+  {
     "timestamp": "2026-10-07T18:01:17.161Z",
     "totalEvents": 45,
     "added": [
@@ -118,31 +154,5 @@
       "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sat 03 Oct, 21:30"
     ],
     "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-10-03T15:18:54.498Z",
-    "totalEvents": 29,
-    "added": [
-      "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30",
-      "Gimnasia y Esgrima La Plata vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 09 Oct, 18:00",
-      "Instituto (Córdoba) vs Boca Juniors (Liga Profesional de Fútbol) — Fri 09 Oct, 19:30",
-      "Unión Santa Fe vs Defensa y Justicia (Liga Profesional de Fútbol) — Fri 09 Oct, 21:45",
-      "Puebla vs Club León (Liga MX) — Fri 09 Oct, 19:00",
-      "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00"
-    ],
-    "removed": [
-      "Independiente vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Fri 02 Oct, 19:15",
-      "São Paulo vs Santos (Campeonato Brasileiro Série A) — Fri 02 Oct, 20:00",
-      "Independiente Rivadavia vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30",
-      "Boca Juniors vs Union Santa Fe (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30"
-    ],
-    "channelsChanged": [
-      "Atlético Mineiro vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 03 Oct, 18:30: [PREMIERE FC]",
-      "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Talleres de Córdoba vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 04 Oct, 17:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30: [Fanatiz (Míralo en vivo), Flow Sports]",
-      "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Fanatiz (Míralo en vivo), Globo Internacional]",
-      "Palmeiras vs Bahía (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Fanatiz (Míralo en vivo), Flow Sports]"
-    ]
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T18:01:55.321Z",
+  "generatedAt": "2026-10-08T18:05:06.098Z",
   "games": [
     {
       "homeTeamId": 145,
@@ -8,10 +8,10 @@
       "awayTeam": "Cleveland Guardians",
       "homeLogo": "/logos/teams/b5ade54dc72b95adacda.svg",
       "awayLogo": "/logos/teams/21ca69713728d7e9e9c5.svg",
-      "kickoffUTC": "2026-10-07T20:00:00Z",
-      "kickoffLocal": "Wed 07 Oct, 15:00",
-      "kickoffUK": "Wed 07 Oct, 21:00",
-      "localDate": "2026-10-07",
+      "kickoffUTC": "2026-10-09T00:00:00Z",
+      "kickoffLocal": "Thu 08 Oct, 19:00",
+      "kickoffUK": "Fri 09 Oct, 01:00",
+      "localDate": "2026-10-08",
       "channels": [],
       "broadcastGroups": [
         {
@@ -33,18 +33,276 @@
         }
       ],
       "isFinal": false,
-      "watchKey": "mlb:Cleveland Guardians|Chicago White Sox|2026-10-07"
+      "watchKey": "mlb:Cleveland Guardians|Chicago White Sox|2026-10-08"
     },
     {
-      "homeTeamId": 144,
+      "homeTeamId": 114,
+      "awayTeamId": 145,
+      "homeTeam": "Cleveland Guardians",
+      "awayTeam": "Chicago White Sox",
+      "homeLogo": "/logos/teams/21ca69713728d7e9e9c5.svg",
+      "awayLogo": "/logos/teams/b5ade54dc72b95adacda.svg",
+      "kickoffUTC": "2026-10-11T00:00:00Z",
+      "kickoffLocal": "Sat 10 Oct, 20:00",
+      "kickoffUK": "Sun 11 Oct, 01:00",
+      "localDate": "2026-10-10",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "TBS/HBO MAX",
+              "logo": null
+            },
+            {
+              "name": "TruTV",
+              "logo": null
+            },
+            {
+              "name": "Univision/ TUDN",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:Chicago White Sox|Cleveland Guardians|2026-10-10"
+    },
+    {
+      "homeTeamId": 158,
       "awayTeamId": 119,
-      "homeTeam": "Atlanta Braves",
+      "homeTeam": "Milwaukee Brewers",
       "awayTeam": "Los Angeles Dodgers",
-      "homeLogo": "/logos/teams/58cfd1f139b972b97e6a.svg",
+      "homeLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
       "awayLogo": "/logos/teams/01144909573ff8158803.svg",
-      "kickoffUTC": "2026-10-07T22:00:00Z",
-      "kickoffLocal": "Wed 07 Oct, 18:00",
-      "kickoffUK": "Wed 07 Oct, 23:00",
+      "kickoffUTC": "2026-10-11T07:33:00Z",
+      "kickoffLocal": "Sun 11 Oct, 02:33",
+      "kickoffUK": "Sun 11 Oct, 08:33",
+      "localDate": "2026-10-11",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "FOX / FS1",
+              "logo": null
+            },
+            {
+              "name": "Fox Deportes / FOX ONE",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:Los Angeles Dodgers|Milwaukee Brewers|2026-10-11"
+    },
+    {
+      "homeTeamId": 158,
+      "awayTeamId": 119,
+      "homeTeam": "Milwaukee Brewers",
+      "awayTeam": "Los Angeles Dodgers",
+      "homeLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
+      "awayLogo": "/logos/teams/01144909573ff8158803.svg",
+      "kickoffUTC": "2026-10-12T07:33:00Z",
+      "kickoffLocal": "Mon 12 Oct, 02:33",
+      "kickoffUK": "Mon 12 Oct, 08:33",
+      "localDate": "2026-10-12",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "FOX / FS1",
+              "logo": null
+            },
+            {
+              "name": "Fox Deportes / FOX ONE",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:Los Angeles Dodgers|Milwaukee Brewers|2026-10-12"
+    },
+    {
+      "homeTeamId": 139,
+      "awayTeamId": 5521,
+      "homeTeam": "Tampa Bay Rays",
+      "awayTeam": "CLE/CWS",
+      "homeLogo": "/logos/teams/a451f47386bd324f26f8.svg",
+      "awayLogo": "/logos/teams/e4b136830b8d689310a8.svg",
+      "kickoffUTC": "2026-10-12T07:33:00Z",
+      "kickoffLocal": "Mon 12 Oct, 03:33",
+      "kickoffUK": "Mon 12 Oct, 08:33",
+      "localDate": "2026-10-12",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "TBS/HBO MAX",
+              "logo": null
+            },
+            {
+              "name": "TruTV",
+              "logo": null
+            },
+            {
+              "name": "Univision/ TUDN",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:CLE/CWS|Tampa Bay Rays|2026-10-12"
+    },
+    {
+      "homeTeamId": 139,
+      "awayTeamId": 5521,
+      "homeTeam": "Tampa Bay Rays",
+      "awayTeam": "CLE/CWS",
+      "homeLogo": "/logos/teams/a451f47386bd324f26f8.svg",
+      "awayLogo": "/logos/teams/e4b136830b8d689310a8.svg",
+      "kickoffUTC": "2026-10-13T07:33:00Z",
+      "kickoffLocal": "Tue 13 Oct, 03:33",
+      "kickoffUK": "Tue 13 Oct, 08:33",
+      "localDate": "2026-10-13",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "TBS/HBO MAX",
+              "logo": null
+            },
+            {
+              "name": "TruTV",
+              "logo": null
+            },
+            {
+              "name": "Univision/ TUDN",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:CLE/CWS|Tampa Bay Rays|2026-10-13"
+    },
+    {
+      "homeTeamId": 119,
+      "awayTeamId": 158,
+      "homeTeam": "Los Angeles Dodgers",
+      "awayTeam": "Milwaukee Brewers",
+      "homeLogo": "/logos/teams/01144909573ff8158803.svg",
+      "awayLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
+      "kickoffUTC": "2026-10-14T07:33:00Z",
+      "kickoffLocal": "Wed 14 Oct, 00:33",
+      "kickoffUK": "Wed 14 Oct, 08:33",
+      "localDate": "2026-10-14",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "FOX / FS1",
+              "logo": null
+            },
+            {
+              "name": "Fox Deportes / FOX ONE",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:Milwaukee Brewers|Los Angeles Dodgers|2026-10-14"
+    },
+    {
+      "homeTeamId": 119,
+      "awayTeamId": 158,
+      "homeTeam": "Los Angeles Dodgers",
+      "awayTeam": "Milwaukee Brewers",
+      "homeLogo": "/logos/teams/01144909573ff8158803.svg",
+      "awayLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
+      "kickoffUTC": "2026-10-15T07:33:00Z",
+      "kickoffLocal": "Thu 15 Oct, 00:33",
+      "kickoffUK": "Thu 15 Oct, 08:33",
+      "localDate": "2026-10-15",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "FOX / FS1",
+              "logo": null
+            },
+            {
+              "name": "Fox Deportes / FOX ONE",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:Milwaukee Brewers|Los Angeles Dodgers|2026-10-15"
+    },
+    {
+      "homeTeamId": 5521,
+      "awayTeamId": 139,
+      "homeTeam": "CLE/CWS",
+      "awayTeam": "Tampa Bay Rays",
+      "homeLogo": "/logos/teams/e4b136830b8d689310a8.svg",
+      "awayLogo": "/logos/teams/a451f47386bd324f26f8.svg",
+      "kickoffUTC": "2026-10-15T07:33:00Z",
+      "kickoffLocal": "Thu 15 Oct, 03:33",
+      "kickoffUK": "Thu 15 Oct, 08:33",
+      "localDate": "2026-10-15",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "TBS/HBO MAX",
+              "logo": null
+            },
+            {
+              "name": "TruTV",
+              "logo": null
+            },
+            {
+              "name": "Univision/ TUDN",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:Tampa Bay Rays|CLE/CWS|2026-10-15"
+    }
+  ],
+  "recentGames": [
+    {
+      "homeTeamId": 135,
+      "awayTeamId": 158,
+      "homeTeam": "San Diego Padres",
+      "awayTeam": "Milwaukee Brewers",
+      "homeLogo": "/logos/teams/d106616dada21ed4653b.svg",
+      "awayLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
+      "kickoffUTC": "2026-10-08T02:00:00Z",
+      "kickoffLocal": "Wed 07 Oct, 19:00",
+      "kickoffUK": "Thu 08 Oct, 03:00",
       "localDate": "2026-10-07",
       "channels": [],
       "broadcastGroups": [
@@ -62,8 +320,22 @@
           ]
         }
       ],
-      "isFinal": false,
-      "watchKey": "mlb:Los Angeles Dodgers|Atlanta Braves|2026-10-07"
+      "isFinal": true,
+      "watchKey": "mlb:Milwaukee Brewers|San Diego Padres|2026-10-07",
+      "replayGroups": [
+        {
+          "label": "Replay",
+          "channels": [
+            {
+              "name": "FS1",
+              "logo": "/logos/channels/foxsports.com.ar.jpg",
+              "timeLocal": "Sat 10 Oct, 03:30",
+              "timeUK": "Sat 10 Oct, 08:30",
+              "airTimeUTC": "2026-10-10T07:30:00.000Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "homeTeamId": 147,
@@ -96,19 +368,19 @@
           ]
         }
       ],
-      "isFinal": false,
+      "isFinal": true,
       "watchKey": "mlb:Tampa Bay Rays|New York Yankees|2026-10-07"
     },
     {
-      "homeTeamId": 135,
-      "awayTeamId": 158,
-      "homeTeam": "San Diego Padres",
-      "awayTeam": "Milwaukee Brewers",
-      "homeLogo": "/logos/teams/d106616dada21ed4653b.svg",
-      "awayLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
-      "kickoffUTC": "2026-10-08T02:00:00Z",
-      "kickoffLocal": "Wed 07 Oct, 19:00",
-      "kickoffUK": "Thu 08 Oct, 03:00",
+      "homeTeamId": 144,
+      "awayTeamId": 119,
+      "homeTeam": "Atlanta Braves",
+      "awayTeam": "Los Angeles Dodgers",
+      "homeLogo": "/logos/teams/58cfd1f139b972b97e6a.svg",
+      "awayLogo": "/logos/teams/01144909573ff8158803.svg",
+      "kickoffUTC": "2026-10-07T22:00:00Z",
+      "kickoffLocal": "Wed 07 Oct, 18:00",
+      "kickoffUK": "Wed 07 Oct, 23:00",
       "localDate": "2026-10-07",
       "channels": [],
       "broadcastGroups": [
@@ -126,8 +398,36 @@
           ]
         }
       ],
-      "isFinal": false,
-      "watchKey": "mlb:Milwaukee Brewers|San Diego Padres|2026-10-07"
+      "isFinal": true,
+      "watchKey": "mlb:Los Angeles Dodgers|Atlanta Braves|2026-10-07",
+      "replayGroups": [
+        {
+          "label": "Replay",
+          "channels": [
+            {
+              "name": "FS1",
+              "logo": "/logos/channels/foxsports.com.ar.jpg",
+              "timeLocal": "Fri 09 Oct, 01:00",
+              "timeUK": "Fri 09 Oct, 06:00",
+              "airTimeUTC": "2026-10-09T05:00:00.000Z"
+            },
+            {
+              "name": "FS1",
+              "logo": "/logos/channels/foxsports.com.ar.jpg",
+              "timeLocal": "Sat 10 Oct, 00:30",
+              "timeUK": "Sat 10 Oct, 05:30",
+              "airTimeUTC": "2026-10-10T04:30:00.000Z"
+            },
+            {
+              "name": "FS1",
+              "logo": "/logos/channels/foxsports.com.ar.jpg",
+              "timeLocal": "Sat 10 Oct, 10:00",
+              "timeUK": "Sat 10 Oct, 15:00",
+              "airTimeUTC": "2026-10-10T14:00:00.000Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "homeTeamId": 145,
@@ -136,10 +436,10 @@
       "awayTeam": "Cleveland Guardians",
       "homeLogo": "/logos/teams/b5ade54dc72b95adacda.svg",
       "awayLogo": "/logos/teams/21ca69713728d7e9e9c5.svg",
-      "kickoffUTC": "2026-10-08T21:00:00Z",
-      "kickoffLocal": "Thu 08 Oct, 16:00",
-      "kickoffUK": "Thu 08 Oct, 22:00",
-      "localDate": "2026-10-08",
+      "kickoffUTC": "2026-10-07T20:00:00Z",
+      "kickoffLocal": "Wed 07 Oct, 15:00",
+      "kickoffUK": "Wed 07 Oct, 21:00",
+      "localDate": "2026-10-07",
       "channels": [],
       "broadcastGroups": [
         {
@@ -160,331 +460,9 @@
           ]
         }
       ],
-      "isFinal": false,
-      "watchKey": "mlb:Cleveland Guardians|Chicago White Sox|2026-10-08"
+      "isFinal": true,
+      "watchKey": "mlb:Cleveland Guardians|Chicago White Sox|2026-10-07"
     },
-    {
-      "homeTeamId": 147,
-      "awayTeamId": 139,
-      "homeTeam": "New York Yankees",
-      "awayTeam": "Tampa Bay Rays",
-      "homeLogo": "/logos/teams/f83b573deb054ecca955.svg",
-      "awayLogo": "/logos/teams/a451f47386bd324f26f8.svg",
-      "kickoffUTC": "2026-10-09T00:00:00Z",
-      "kickoffLocal": "Thu 08 Oct, 20:00",
-      "kickoffUK": "Fri 09 Oct, 01:00",
-      "localDate": "2026-10-08",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "TBS/HBO MAX",
-              "logo": null
-            },
-            {
-              "name": "TruTV",
-              "logo": null
-            },
-            {
-              "name": "Univision/ TUDN",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:Tampa Bay Rays|New York Yankees|2026-10-08"
-    },
-    {
-      "homeTeamId": 158,
-      "awayTeamId": 135,
-      "homeTeam": "Milwaukee Brewers",
-      "awayTeam": "San Diego Padres",
-      "homeLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
-      "awayLogo": "/logos/teams/d106616dada21ed4653b.svg",
-      "kickoffUTC": "2026-10-09T20:30:00Z",
-      "kickoffLocal": "Fri 09 Oct, 15:30",
-      "kickoffUK": "Fri 09 Oct, 21:30",
-      "localDate": "2026-10-09",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "FS1 / FOX ONE",
-              "logo": null
-            },
-            {
-              "name": "Fox Deportes / FOX ONE",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:San Diego Padres|Milwaukee Brewers|2026-10-09"
-    },
-    {
-      "homeTeamId": 119,
-      "awayTeamId": 144,
-      "homeTeam": "Los Angeles Dodgers",
-      "awayTeam": "Atlanta Braves",
-      "homeLogo": "/logos/teams/01144909573ff8158803.svg",
-      "awayLogo": "/logos/teams/58cfd1f139b972b97e6a.svg",
-      "kickoffUTC": "2026-10-10T00:00:00Z",
-      "kickoffLocal": "Fri 09 Oct, 17:00",
-      "kickoffUK": "Sat 10 Oct, 01:00",
-      "localDate": "2026-10-09",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "FOX / FOX ONE",
-              "logo": null
-            },
-            {
-              "name": "Fox Deportes / FOX ONE",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:Atlanta Braves|Los Angeles Dodgers|2026-10-09"
-    },
-    {
-      "homeTeamId": 114,
-      "awayTeamId": 145,
-      "homeTeam": "Cleveland Guardians",
-      "awayTeam": "Chicago White Sox",
-      "homeLogo": "/logos/teams/21ca69713728d7e9e9c5.svg",
-      "awayLogo": "/logos/teams/b5ade54dc72b95adacda.svg",
-      "kickoffUTC": "2026-10-10T21:00:00Z",
-      "kickoffLocal": "Sat 10 Oct, 17:00",
-      "kickoffUK": "Sat 10 Oct, 22:00",
-      "localDate": "2026-10-10",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "TBS/HBO MAX",
-              "logo": null
-            },
-            {
-              "name": "TruTV",
-              "logo": null
-            },
-            {
-              "name": "Univision/ TUDN",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:Chicago White Sox|Cleveland Guardians|2026-10-10"
-    },
-    {
-      "homeTeamId": 139,
-      "awayTeamId": 147,
-      "homeTeam": "Tampa Bay Rays",
-      "awayTeam": "New York Yankees",
-      "homeLogo": "/logos/teams/a451f47386bd324f26f8.svg",
-      "awayLogo": "/logos/teams/f83b573deb054ecca955.svg",
-      "kickoffUTC": "2026-10-11T00:00:00Z",
-      "kickoffLocal": "Sat 10 Oct, 20:00",
-      "kickoffUK": "Sun 11 Oct, 01:00",
-      "localDate": "2026-10-10",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "TBS/HBO MAX",
-              "logo": null
-            },
-            {
-              "name": "TruTV",
-              "logo": null
-            },
-            {
-              "name": "Univision/ TUDN",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:New York Yankees|Tampa Bay Rays|2026-10-10"
-    },
-    {
-      "homeTeamId": 5517,
-      "awayTeamId": 5525,
-      "homeTeam": "NL Higher Seed",
-      "awayTeam": "NL Lower Seed",
-      "homeLogo": "/logos/teams/ec94ac511d0f4665d7ca.svg",
-      "awayLogo": "/logos/teams/66597f5d94ed604a6b6e.svg",
-      "kickoffUTC": "2026-10-11T07:33:00Z",
-      "kickoffLocal": "Sun 11 Oct, 03:33",
-      "kickoffUK": "Sun 11 Oct, 08:33",
-      "localDate": "2026-10-11",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "FOX / FS1",
-              "logo": null
-            },
-            {
-              "name": "Fox Deportes / FOX ONE",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:NL Lower Seed|NL Higher Seed|2026-10-11"
-    },
-    {
-      "homeTeamId": 5513,
-      "awayTeamId": 5521,
-      "homeTeam": "AL Higher Seed",
-      "awayTeam": "AL Lower Seed",
-      "homeLogo": "/logos/teams/ff582ff96f68c78c4e07.svg",
-      "awayLogo": "/logos/teams/e4b136830b8d689310a8.svg",
-      "kickoffUTC": "2026-10-12T07:33:00Z",
-      "kickoffLocal": "Mon 12 Oct, 03:33",
-      "kickoffUK": "Mon 12 Oct, 08:33",
-      "localDate": "2026-10-12",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "TBS/HBO MAX",
-              "logo": null
-            },
-            {
-              "name": "TruTV",
-              "logo": null
-            },
-            {
-              "name": "Univision/ TUDN",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:AL Lower Seed|AL Higher Seed|2026-10-12"
-    },
-    {
-      "homeTeamId": 5517,
-      "awayTeamId": 5525,
-      "homeTeam": "NL Higher Seed",
-      "awayTeam": "NL Lower Seed",
-      "homeLogo": "/logos/teams/ec94ac511d0f4665d7ca.svg",
-      "awayLogo": "/logos/teams/66597f5d94ed604a6b6e.svg",
-      "kickoffUTC": "2026-10-12T07:33:00Z",
-      "kickoffLocal": "Mon 12 Oct, 03:33",
-      "kickoffUK": "Mon 12 Oct, 08:33",
-      "localDate": "2026-10-12",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "FOX / FS1",
-              "logo": null
-            },
-            {
-              "name": "Fox Deportes / FOX ONE",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:NL Lower Seed|NL Higher Seed|2026-10-12"
-    },
-    {
-      "homeTeamId": 5513,
-      "awayTeamId": 5521,
-      "homeTeam": "AL Higher Seed",
-      "awayTeam": "AL Lower Seed",
-      "homeLogo": "/logos/teams/ff582ff96f68c78c4e07.svg",
-      "awayLogo": "/logos/teams/e4b136830b8d689310a8.svg",
-      "kickoffUTC": "2026-10-13T07:33:00Z",
-      "kickoffLocal": "Tue 13 Oct, 03:33",
-      "kickoffUK": "Tue 13 Oct, 08:33",
-      "localDate": "2026-10-13",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "TBS/HBO MAX",
-              "logo": null
-            },
-            {
-              "name": "TruTV",
-              "logo": null
-            },
-            {
-              "name": "Univision/ TUDN",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:AL Lower Seed|AL Higher Seed|2026-10-13"
-    },
-    {
-      "homeTeamId": 5525,
-      "awayTeamId": 5517,
-      "homeTeam": "NL Lower Seed",
-      "awayTeam": "NL Higher Seed",
-      "homeLogo": "/logos/teams/66597f5d94ed604a6b6e.svg",
-      "awayLogo": "/logos/teams/ec94ac511d0f4665d7ca.svg",
-      "kickoffUTC": "2026-10-14T07:33:00Z",
-      "kickoffLocal": "Wed 14 Oct, 03:33",
-      "kickoffUK": "Wed 14 Oct, 08:33",
-      "localDate": "2026-10-14",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "FOX / FS1",
-              "logo": null
-            },
-            {
-              "name": "Fox Deportes / FOX ONE",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:NL Higher Seed|NL Lower Seed|2026-10-14"
-    }
-  ],
-  "recentGames": [
     {
       "homeTeamId": 135,
       "awayTeamId": 158,
@@ -513,21 +491,7 @@
         }
       ],
       "isFinal": true,
-      "watchKey": "mlb:Milwaukee Brewers|San Diego Padres|2026-10-06",
-      "replayGroups": [
-        {
-          "label": "Replay",
-          "channels": [
-            {
-              "name": "FS1",
-              "logo": "/logos/channels/foxsports.com.ar.jpg",
-              "timeLocal": "Wed 07 Oct, 04:30",
-              "timeUK": "Wed 07 Oct, 09:30",
-              "airTimeUTC": "2026-10-07T08:30:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "mlb:Milwaukee Brewers|San Diego Padres|2026-10-06"
     },
     {
       "homeTeamId": 144,
@@ -844,130 +808,9 @@
       ],
       "isFinal": true,
       "watchKey": "mlb:Philadelphia Phillies|Atlanta Braves|2026-10-01"
-    },
-    {
-      "homeTeamId": 135,
-      "awayTeamId": 112,
-      "homeTeam": "San Diego Padres",
-      "awayTeam": "Chicago Cubs",
-      "homeLogo": "/logos/teams/d106616dada21ed4653b.svg",
-      "awayLogo": "/logos/teams/03c726e4d4b92d384d29.svg",
-      "kickoffUTC": "2026-10-01T02:00:00Z",
-      "kickoffLocal": "Wed 30 Sept, 19:00",
-      "kickoffUK": "Thu 01 Oct, 03:00",
-      "localDate": "2026-09-30",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "Peacock/NBCSN",
-              "logo": null
-            },
-            {
-              "name": "Peacock (es)",
-              "logo": "/logos/channels/peacocktv.com.png"
-            }
-          ]
-        }
-      ],
-      "isFinal": true,
-      "watchKey": "mlb:Chicago Cubs|San Diego Padres|2026-09-30"
-    },
-    {
-      "homeTeamId": 147,
-      "awayTeamId": 111,
-      "homeTeam": "New York Yankees",
-      "awayTeam": "Boston Red Sox",
-      "homeLogo": "/logos/teams/f83b573deb054ecca955.svg",
-      "awayLogo": "/logos/teams/a5f98e11a232f45c38b2.svg",
-      "kickoffUTC": "2026-10-01T00:00:00Z",
-      "kickoffLocal": "Wed 30 Sept, 20:00",
-      "kickoffUK": "Thu 01 Oct, 01:00",
-      "localDate": "2026-09-30",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "NBC/Peacock",
-              "logo": null
-            },
-            {
-              "name": "Universo/Peacock",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": true,
-      "watchKey": "mlb:Boston Red Sox|New York Yankees|2026-09-30"
-    },
-    {
-      "homeTeamId": 117,
-      "awayTeamId": 145,
-      "homeTeam": "Houston Astros",
-      "awayTeam": "Chicago White Sox",
-      "homeLogo": "/logos/teams/35a402739efe7140f62d.svg",
-      "awayLogo": "/logos/teams/b5ade54dc72b95adacda.svg",
-      "kickoffUTC": "2026-09-30T21:00:00Z",
-      "kickoffLocal": "Wed 30 Sept, 16:00",
-      "kickoffUK": "Wed 30 Sept, 22:00",
-      "localDate": "2026-09-30",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "Peacock/NBCSN",
-              "logo": null
-            },
-            {
-              "name": "Universo/Peacock",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": true,
-      "watchKey": "mlb:Chicago White Sox|Houston Astros|2026-09-30"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-07T08:30:00.000Z",
-      "endsAtUTC": "2026-10-07T11:30:00.000Z",
-      "timeUK": "Wed 07 Oct, 09:30",
-      "channel": {
-        "name": "FS1",
-        "logo": "/logos/channels/foxsports.com.ar.jpg"
-      },
-      "watchKey": "mlb:Milwaukee Brewers|San Diego Padres|2026-10-06",
-      "label": "Milwaukee Brewers @ San Diego Padres",
-      "logos": [
-        "/logos/teams/28dc72fb5ea705926dd8.svg",
-        "/logos/teams/d106616dada21ed4653b.svg"
-      ],
-      "sublabel": "played Tue 06 Oct"
-    },
-    {
-      "airTimeUTC": "2026-10-08T07:00:00.000Z",
-      "endsAtUTC": "2026-10-08T10:30:00.000Z",
-      "timeUK": "Thu 08 Oct, 08:00",
-      "channel": {
-        "name": "FS1",
-        "logo": "/logos/channels/foxsports.com.ar.jpg"
-      },
-      "label": "Los Angeles Dodgers @ Atlanta Braves",
-      "logos": [
-        "/logos/teams/01144909573ff8158803.svg",
-        "/logos/teams/58cfd1f139b972b97e6a.svg"
-      ],
-      "sublabel": "recent game"
-    },
     {
       "airTimeUTC": "2026-10-09T05:00:00.000Z",
       "endsAtUTC": "2026-10-09T08:00:00.000Z",
@@ -976,12 +819,13 @@
         "name": "FS1",
         "logo": "/logos/channels/foxsports.com.ar.jpg"
       },
+      "watchKey": "mlb:Los Angeles Dodgers|Atlanta Braves|2026-10-07",
       "label": "Los Angeles Dodgers @ Atlanta Braves",
       "logos": [
         "/logos/teams/01144909573ff8158803.svg",
         "/logos/teams/58cfd1f139b972b97e6a.svg"
       ],
-      "sublabel": "recent game"
+      "sublabel": "played Wed 07 Oct"
     },
     {
       "airTimeUTC": "2026-10-10T04:30:00.000Z",
@@ -991,12 +835,13 @@
         "name": "FS1",
         "logo": "/logos/channels/foxsports.com.ar.jpg"
       },
-      "label": "Atlanta Braves @ Los Angeles Dodgers",
+      "watchKey": "mlb:Los Angeles Dodgers|Atlanta Braves|2026-10-07",
+      "label": "Los Angeles Dodgers @ Atlanta Braves",
       "logos": [
-        "/logos/teams/58cfd1f139b972b97e6a.svg",
-        "/logos/teams/01144909573ff8158803.svg"
+        "/logos/teams/01144909573ff8158803.svg",
+        "/logos/teams/58cfd1f139b972b97e6a.svg"
       ],
-      "sublabel": "recent game"
+      "sublabel": "played Wed 07 Oct"
     },
     {
       "airTimeUTC": "2026-10-10T07:30:00.000Z",
@@ -1006,12 +851,13 @@
         "name": "FS1",
         "logo": "/logos/channels/foxsports.com.ar.jpg"
       },
-      "label": "San Diego Padres @ Milwaukee Brewers",
+      "watchKey": "mlb:Milwaukee Brewers|San Diego Padres|2026-10-07",
+      "label": "Milwaukee Brewers @ San Diego Padres",
       "logos": [
-        "/logos/teams/d106616dada21ed4653b.svg",
-        "/logos/teams/28dc72fb5ea705926dd8.svg"
+        "/logos/teams/28dc72fb5ea705926dd8.svg",
+        "/logos/teams/d106616dada21ed4653b.svg"
       ],
-      "sublabel": "recent game"
+      "sublabel": "played Wed 07 Oct"
     },
     {
       "airTimeUTC": "2026-10-10T14:00:00.000Z",
@@ -1021,12 +867,13 @@
         "name": "FS1",
         "logo": "/logos/channels/foxsports.com.ar.jpg"
       },
-      "label": "Atlanta Braves @ Los Angeles Dodgers",
+      "watchKey": "mlb:Los Angeles Dodgers|Atlanta Braves|2026-10-07",
+      "label": "Los Angeles Dodgers @ Atlanta Braves",
       "logos": [
-        "/logos/teams/58cfd1f139b972b97e6a.svg",
-        "/logos/teams/01144909573ff8158803.svg"
+        "/logos/teams/01144909573ff8158803.svg",
+        "/logos/teams/58cfd1f139b972b97e6a.svg"
       ],
-      "sublabel": "recent game"
+      "sublabel": "played Wed 07 Oct"
     }
   ],
   "standings": {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T18:02:40.547Z",
+  "generatedAt": "2026-10-08T18:05:46.633Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -14,15 +14,11 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Muslim Khazhmuratov v Nikolay Prismakov",
-          "weightClass": null
-        },
-        {
           "title": "Adam Musaev v Vyacheslav Kuznetsov",
           "weightClass": null
         },
         {
-          "title": "Imran Arsangiriev v David Gubulov",
+          "title": "Muslim Khazhmuratov v Nikolay Prismakov",
           "weightClass": null
         },
         {
@@ -30,7 +26,15 @@
           "weightClass": null
         },
         {
+          "title": "Imran Arsangiriev v David Gubulov",
+          "weightClass": null
+        },
+        {
           "title": "Tamerlan Aushev v Ali Gadzhiev",
+          "weightClass": null
+        },
+        {
+          "title": "Kazbek Kalabekov v Abubakar Debziev",
           "weightClass": null
         },
         {
@@ -38,11 +42,31 @@
           "weightClass": null
         },
         {
-          "title": "Gasan Musakaev v Abubakar Debziev",
+          "title": "Amirkhan Zakriev v Georgiy Komarov",
           "weightClass": null
         },
         {
-          "title": "Georgiy Komarov v Amirkhan Zakriev",
+          "title": "Ibragim Kagiradzhiev v Sergey Gorin",
+          "weightClass": null
+        },
+        {
+          "title": "Kurbanmagomed Kurbanmagomedov v Said-Mukhamad Gutaev",
+          "weightClass": null
+        },
+        {
+          "title": "Islam Aguev v Ismail Ataev",
+          "weightClass": null
+        },
+        {
+          "title": "Mukhamed Magomadov v Akhmed Isaev",
+          "weightClass": null
+        },
+        {
+          "title": "Turpal Khasuev v Shamil Batalov",
+          "weightClass": null
+        },
+        {
+          "title": "Astemir Khezhaev v Abdurakhman Dolaev",
           "weightClass": null
         }
       ],
@@ -69,36 +93,60 @@
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Muslim Khazhmuratov",
-            "b": "Nikolay Prismakov"
-          },
-          {
             "a": "Adam Musaev",
             "b": "Vyacheslav Kuznetsov"
           },
           {
-            "a": "Imran Arsangiriev",
-            "b": "David Gubulov"
+            "a": "Muslim Khazhmuratov",
+            "b": "Nikolay Prismakov"
           },
           {
             "a": "Shakhrom Makhmatbekov",
             "b": "Anzor Dzhabrailov"
           },
           {
+            "a": "Imran Arsangiriev",
+            "b": "David Gubulov"
+          },
+          {
             "a": "Tamerlan Aushev",
             "b": "Ali Gadzhiev"
+          },
+          {
+            "a": "Kazbek Kalabekov",
+            "b": "Abubakar Debziev"
           },
           {
             "a": "Abdul-Malik Siriev",
             "b": "Gavril Semenov"
           },
           {
-            "a": "Gasan Musakaev",
-            "b": "Abubakar Debziev"
+            "a": "Amirkhan Zakriev",
+            "b": "Georgiy Komarov"
           },
           {
-            "a": "Georgiy Komarov",
-            "b": "Amirkhan Zakriev"
+            "a": "Ibragim Kagiradzhiev",
+            "b": "Sergey Gorin"
+          },
+          {
+            "a": "Kurbanmagomed Kurbanmagomedov",
+            "b": "Said-Mukhamad Gutaev"
+          },
+          {
+            "a": "Islam Aguev",
+            "b": "Ismail Ataev"
+          },
+          {
+            "a": "Mukhamed Magomadov",
+            "b": "Akhmed Isaev"
+          },
+          {
+            "a": "Turpal Khasuev",
+            "b": "Shamil Batalov"
+          },
+          {
+            "a": "Astemir Khezhaev",
+            "b": "Abdurakhman Dolaev"
           }
         ]
       },
@@ -338,6 +386,60 @@
         ]
       },
       "watchKey": "fights:MMA|Denis Andreev|Waldimir Britez|2026-10-09"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "BKFC Fight Night Bethlehem: Cisneros vs Peterson Prelims",
+      "eventTag": "Boxing",
+      "homeTeam": "BKFC Fight Night Bethlehem: Cisneros",
+      "awayTeam": "Peterson Prelims",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-10-10T00:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 10 Oct, 01:00",
+      "localDate": "2026-10-10",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Canada",
+          "channels": [
+            {
+              "name": "Fight Network",
+              "url": "https://www.fightnetwork.com/",
+              "logo": "/logos/channels/fightnetwork.com.jpg"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "epg-cisneros|prelims-2026-10-10",
+        "name": "BKFC Fight Night Bethlehem: Cisneros vs Peterson Prelims",
+        "dateUTC": "2026-10-10T00:00:00.000Z",
+        "dateOnly": "2026-10-10",
+        "venue": null,
+        "city": null,
+        "mainEventFighters": [
+          "BKFC Fight Night Bethlehem: Cisneros",
+          "Peterson Prelims"
+        ],
+        "broadcasts": [
+          "Fight Network"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "Canada",
+            "name": "Fight Network"
+          }
+        ]
+      },
+      "watchKey": "fights:Boxing|BKFC Fight Night Bethlehem: Cisneros|Peterson Prelims|2026-10-10"
     },
     {
       "org": "UFC",
@@ -1394,10 +1496,6 @@
           "weightClass": "W Flyweight"
         },
         {
-          "title": "Louie Sutherland v Javad Mahjoub",
-          "weightClass": "Heavyweight"
-        },
-        {
           "title": "Julien LeBlanc v Nick Galanti",
           "weightClass": "Middleweight"
         },
@@ -1416,6 +1514,10 @@
         {
           "title": "Kyle Daukaus v Marc-Andre Barriault",
           "weightClass": "Middleweight"
+        },
+        {
+          "title": "Kyle Nelson v Cristian Pérez",
+          "weightClass": "Lightweight"
         },
         {
           "title": "Erin Blanchfield v Jasmine Jasudavicius",
@@ -1489,11 +1591,6 @@
             "weightClass": "W Flyweight"
           },
           {
-            "a": "Louie Sutherland",
-            "b": "Javad Mahjoub",
-            "weightClass": "Heavyweight"
-          },
-          {
             "a": "Julien LeBlanc",
             "b": "Nick Galanti",
             "weightClass": "Middleweight"
@@ -1517,6 +1614,11 @@
             "a": "Kyle Daukaus",
             "b": "Marc-Andre Barriault",
             "weightClass": "Middleweight"
+          },
+          {
+            "a": "Kyle Nelson",
+            "b": "Cristian Pérez",
+            "weightClass": "Lightweight"
           },
           {
             "a": "Erin Blanchfield",
@@ -2504,6 +2606,10 @@
         {
           "title": "Mustafa Ashurzoda v Akhmed Khamzaev",
           "weightClass": null
+        },
+        {
+          "title": "Firdavs Zaripov v Vagiz Ismagilov",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -2547,6 +2653,10 @@
           {
             "a": "Mustafa Ashurzoda",
             "b": "Akhmed Khamzaev"
+          },
+          {
+            "a": "Firdavs Zaripov",
+            "b": "Vagiz Ismagilov"
           }
         ]
       },
@@ -3941,6 +4051,410 @@
       "watchKey": "fights:UFC|Sean Brady|Gabriel Bonfim|2026-11-07"
     },
     {
+      "org": "MMA",
+      "eventName": "Rizin 55",
+      "eventTag": "Rizin 55 · LaLa Arena Tokyo-Bay, Funabashi, Chiba, Japan",
+      "homeTeam": "Makoto Takahashi",
+      "awayTeam": "Tony Laramie",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Naoki Inoue v Yrysbek Tilenov",
+          "weightClass": null
+        },
+        {
+          "title": "Ryuya Fukuda v Soo Chul Kim",
+          "weightClass": null
+        },
+        {
+          "title": "Jinnosuke Kashimura v Shinobu Ota",
+          "weightClass": null
+        },
+        {
+          "title": "Kaleo Meheula v Kazuki Aimoto",
+          "weightClass": null
+        },
+        {
+          "title": "Hiroaki Suzuki v Sei Min Kim",
+          "weightClass": null
+        },
+        {
+          "title": "Juntaro Ushiku v Kaiwen Li",
+          "weightClass": null
+        },
+        {
+          "title": "Kyung Pyo Kim v Nurkhan Zhumagazy",
+          "weightClass": null
+        },
+        {
+          "title": "Tatsuya Saika v Daigo Kuramoto",
+          "weightClass": null
+        },
+        {
+          "title": "Taichi Nakajima v Tsukasa Mizoguchi",
+          "weightClass": null
+        },
+        {
+          "title": "Rikiya Matsuzawa v Rio Kimura",
+          "weightClass": null
+        },
+        {
+          "title": "Takumi Hamada v Sho Sekihara",
+          "weightClass": null
+        },
+        {
+          "title": "Naohiro Matsumoto v Masachika Takahashi",
+          "weightClass": null
+        },
+        {
+          "title": "Shunya Inoue v Saw Thwee Waw Thaunt",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-08T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-08",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Rizin-FF-Rizin-55-113794",
+        "name": "Rizin 55",
+        "dateUTC": null,
+        "dateOnly": "2026-11-08",
+        "venue": "LaLa Arena Tokyo-Bay",
+        "city": "Funabashi, Chiba, Japan",
+        "href": "/events/Rizin-FF-Rizin-55-113794",
+        "mainEventFighters": [
+          "Makoto Takahashi",
+          "Tony Laramie"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Naoki Inoue",
+            "b": "Yrysbek Tilenov"
+          },
+          {
+            "a": "Ryuya Fukuda",
+            "b": "Soo Chul Kim"
+          },
+          {
+            "a": "Jinnosuke Kashimura",
+            "b": "Shinobu Ota"
+          },
+          {
+            "a": "Kaleo Meheula",
+            "b": "Kazuki Aimoto"
+          },
+          {
+            "a": "Hiroaki Suzuki",
+            "b": "Sei Min Kim"
+          },
+          {
+            "a": "Juntaro Ushiku",
+            "b": "Kaiwen Li"
+          },
+          {
+            "a": "Kyung Pyo Kim",
+            "b": "Nurkhan Zhumagazy"
+          },
+          {
+            "a": "Tatsuya Saika",
+            "b": "Daigo Kuramoto"
+          },
+          {
+            "a": "Taichi Nakajima",
+            "b": "Tsukasa Mizoguchi"
+          },
+          {
+            "a": "Rikiya Matsuzawa",
+            "b": "Rio Kimura"
+          },
+          {
+            "a": "Takumi Hamada",
+            "b": "Sho Sekihara"
+          },
+          {
+            "a": "Naohiro Matsumoto",
+            "b": "Masachika Takahashi"
+          },
+          {
+            "a": "Shunya Inoue",
+            "b": "Saw Thwee Waw Thaunt"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Makoto Takahashi|Tony Laramie|2026-11-08"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Fury FC: Challenger Series 17",
+      "eventTag": "Fury FC · Imagen Venues Escapade 2001, Houston, Texas, United States",
+      "homeTeam": "Justice Torres",
+      "awayTeam": "Jesse Butler",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Esteban Orozco v Sebastian Oyervidez",
+          "weightClass": null
+        },
+        {
+          "title": "Justin Longoria v Cleveland McLean",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-08T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-08",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Fury-FC-Challenger-Series-17-114596",
+        "name": "Fury FC: Challenger Series 17",
+        "dateUTC": null,
+        "dateOnly": "2026-11-08",
+        "venue": "Imagen Venues Escapade 2001",
+        "city": "Houston, Texas, United States",
+        "href": "/events/Fury-FC-Challenger-Series-17-114596",
+        "mainEventFighters": [
+          "Justice Torres",
+          "Jesse Butler"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Esteban Orozco",
+            "b": "Sebastian Oyervidez"
+          },
+          {
+            "a": "Justin Longoria",
+            "b": "Cleveland McLean"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Justice Torres|Jesse Butler|2026-11-08"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Lemino Shooto Vol. 10",
+      "eventTag": "Lemino Shooto Vol. 10 · Kukuru Itoman Tourism and Cultural Exchange Center Facility, Itoman, Okinawa, Japan",
+      "homeTeam": "Hidenari Saijo",
+      "awayTeam": "Ray Cooper III",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Yamato Fujita v Genil Francisco",
+          "weightClass": null
+        },
+        {
+          "title": "Mitsuhisa Sunabe v Yo Otake",
+          "weightClass": null
+        },
+        {
+          "title": "Takeru Uchida v Takumi Arai",
+          "weightClass": null
+        },
+        {
+          "title": "Subaru Mori v Genta Fukami",
+          "weightClass": null
+        },
+        {
+          "title": "Yuki Ono v Alu Hyodo",
+          "weightClass": null
+        },
+        {
+          "title": "Hidefumi Shimoma v Ho Shun Lin",
+          "weightClass": null
+        },
+        {
+          "title": "Takahiro Ichijo v Takashi Mizushima",
+          "weightClass": null
+        },
+        {
+          "title": "Chisei Yohena v Yoshihito Toume",
+          "weightClass": null
+        },
+        {
+          "title": "Nobuaki Yamamoto v Takumi Oyamori",
+          "weightClass": null
+        },
+        {
+          "title": "Yosuke Shimoda v Yu Tamashiro",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-08T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-08",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Shooto-Lemino-Shooto-Vol-10-114665",
+        "name": "Lemino Shooto Vol. 10",
+        "dateUTC": null,
+        "dateOnly": "2026-11-08",
+        "venue": "Kukuru Itoman Tourism and Cultural Exchange Center Facility",
+        "city": "Itoman, Okinawa, Japan",
+        "href": "/events/Shooto-Lemino-Shooto-Vol-10-114665",
+        "mainEventFighters": [
+          "Hidenari Saijo",
+          "Ray Cooper III"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Yamato Fujita",
+            "b": "Genil Francisco"
+          },
+          {
+            "a": "Mitsuhisa Sunabe",
+            "b": "Yo Otake"
+          },
+          {
+            "a": "Takeru Uchida",
+            "b": "Takumi Arai"
+          },
+          {
+            "a": "Subaru Mori",
+            "b": "Genta Fukami"
+          },
+          {
+            "a": "Yuki Ono",
+            "b": "Alu Hyodo"
+          },
+          {
+            "a": "Hidefumi Shimoma",
+            "b": "Ho Shun Lin"
+          },
+          {
+            "a": "Takahiro Ichijo",
+            "b": "Takashi Mizushima"
+          },
+          {
+            "a": "Chisei Yohena",
+            "b": "Yoshihito Toume"
+          },
+          {
+            "a": "Nobuaki Yamamoto",
+            "b": "Takumi Oyamori"
+          },
+          {
+            "a": "Yosuke Shimoda",
+            "b": "Yu Tamashiro"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Hidenari Saijo|Ray Cooper III|2026-11-08"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Pancrase: 368",
+      "eventTag": "Pancrase · New Pier Hall, Minato, Tokyo, Japan",
+      "homeTeam": "Masayuki Kikuiri",
+      "awayTeam": "Alonzo Martinez",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Gabriel Levan v Akira Hirata",
+          "weightClass": null
+        },
+        {
+          "title": "Haruki Tezuka v Yuji Arai",
+          "weightClass": null
+        },
+        {
+          "title": "Kohei Maeda v Daiki Gojima",
+          "weightClass": null
+        },
+        {
+          "title": "Jyoichiro Hiraga v Ryo Ushikubo",
+          "weightClass": null
+        },
+        {
+          "title": "Shota Taguchi v Kohei Yamada",
+          "weightClass": null
+        },
+        {
+          "title": "Guilherme Yuri Nakagawa v Taijyu Hayashida",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-08T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-08",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Pancrase-368-114697",
+        "name": "Pancrase: 368",
+        "dateUTC": null,
+        "dateOnly": "2026-11-08",
+        "venue": "New Pier Hall",
+        "city": "Minato, Tokyo, Japan",
+        "href": "/events/Pancrase-368-114697",
+        "mainEventFighters": [
+          "Masayuki Kikuiri",
+          "Alonzo Martinez"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Gabriel Levan",
+            "b": "Akira Hirata"
+          },
+          {
+            "a": "Haruki Tezuka",
+            "b": "Yuji Arai"
+          },
+          {
+            "a": "Kohei Maeda",
+            "b": "Daiki Gojima"
+          },
+          {
+            "a": "Jyoichiro Hiraga",
+            "b": "Ryo Ushikubo"
+          },
+          {
+            "a": "Shota Taguchi",
+            "b": "Kohei Yamada"
+          },
+          {
+            "a": "Guilherme Yuri Nakagawa",
+            "b": "Taijyu Hayashida"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Masayuki Kikuiri|Alonzo Martinez|2026-11-08"
+    },
+    {
       "org": "Boxing",
       "eventName": "Elif Nur Turhan-Alycia Baumgardner",
       "eventTag": "Boxing · College Park Center, Arlington, Texas",
@@ -4101,6 +4615,82 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/steven-butler-vs-erik-bazinyan-2026-11-12"
       },
       "watchKey": "fights:Boxing|Steven Butler|Erik Bazinyan|2026-11-12"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Bryan Flores-Jose Nunez",
+      "eventTag": "Boxing · El Paso County Coliseum, El Paso, Texas",
+      "homeTeam": "Bryan Flores",
+      "awayTeam": "Jose Nunez",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Tsendbaatar Erdenebat v Muhammadkhuja Yaqubov",
+          "weightClass": null
+        },
+        {
+          "title": "Ruben Aguilar v Guido Schramm",
+          "weightClass": null
+        }
+      ],
+      "poster": {
+        "src": "/logos/posters/8586dae151184689b4a1.webp",
+        "attribution": "ProBoxTV"
+      },
+      "kickoffUTC": "2026-11-14T01:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 14 Nov, 01:00",
+      "localDate": "2026-11-14",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Listed by source",
+          "channels": [
+            {
+              "name": "ProBox TV",
+              "url": "https://www.proboxtv.com/",
+              "logo": "/logos/channels/proboxtv.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "bryan-flores-jose-nunez",
+        "name": "Bryan Flores-Jose Nunez",
+        "dateUTC": "2026-11-14T01:00:00.000Z",
+        "dateOnly": "2026-11-13",
+        "venue": "El Paso County Coliseum",
+        "city": "El Paso, Texas",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/nov_13-1920x1080.webp",
+        "posterAttribution": "ProBoxTV",
+        "mainEventFighters": [
+          "Bryan Flores",
+          "Jose Nunez"
+        ],
+        "bouts": [
+          {
+            "a": "Bryan Flores",
+            "b": "Jose Nunez"
+          },
+          {
+            "a": "Tsendbaatar Erdenebat",
+            "b": "Muhammadkhuja Yaqubov"
+          },
+          {
+            "a": "Ruben Aguilar",
+            "b": "Guido Schramm"
+          }
+        ],
+        "broadcasts": [
+          "ProBox TV"
+        ]
+      },
+      "watchKey": "fights:Boxing|Bryan Flores|Jose Nunez|2026-11-14"
     },
     {
       "org": "PFL",
@@ -7610,163 +8200,6 @@
         ]
       },
       "watchKey": "fights:MMA|Kanata Nagai|Nikora Lee-Kingi|2026-09-24"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "BKFC 94 Manchester: Till vs Romero, Prelims",
-      "eventTag": "Boxing",
-      "homeTeam": "BKFC 94 Manchester: Till",
-      "awayTeam": "Romero, Prelims",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-09-24T18:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Thu 24 Sept, 19:00",
-      "localDate": "2026-09-24",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "Canada",
-          "channels": [
-            {
-              "name": "Fight Network",
-              "url": "https://www.fightnetwork.com/",
-              "logo": "/logos/channels/fightnetwork.com.jpg"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "epg-prelims|till-2026-09-24",
-        "name": "BKFC 94 Manchester: Till vs Romero, Prelims",
-        "dateUTC": "2026-09-24T18:00:00.000Z",
-        "dateOnly": "2026-09-24",
-        "venue": null,
-        "city": null,
-        "mainEventFighters": [
-          "BKFC 94 Manchester: Till",
-          "Romero, Prelims"
-        ],
-        "broadcasts": [
-          "Fight Network"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "Canada",
-            "name": "Fight Network"
-          }
-        ]
-      },
-      "watchKey": "fights:Boxing|BKFC 94 Manchester: Till|Romero, Prelims|2026-09-24"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Pancrase: 366",
-      "eventTag": "Pancrase · Tachikawa Stage Garden, Tachikawa, Tokyo, Japan",
-      "homeTeam": "Miki Motono",
-      "awayTeam": "Satomi Takano",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Shizuka Sugiyama v Emi Fujino",
-          "weightClass": null
-        },
-        {
-          "title": "Chiara Penco v Karen",
-          "weightClass": null
-        },
-        {
-          "title": "Chikaya Suzuki v Kengo Fujimura",
-          "weightClass": null
-        },
-        {
-          "title": "Tokumitsu Takagi v Da Eun Jung",
-          "weightClass": null
-        },
-        {
-          "title": "Daiki Shimada v Ruki Saito",
-          "weightClass": null
-        },
-        {
-          "title": "Yuki    Ito v Daiki Mine",
-          "weightClass": null
-        },
-        {
-          "title": "Soukichi Maeda v Takashi Koyama",
-          "weightClass": null
-        },
-        {
-          "title": "Taisei Hata v Torao Hamachi",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-09-23T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-09-23",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Pancrase-366-113650",
-        "name": "Pancrase: 366",
-        "dateUTC": null,
-        "dateOnly": "2026-09-23",
-        "venue": "Tachikawa Stage Garden",
-        "city": "Tachikawa, Tokyo, Japan",
-        "href": "/events/Pancrase-366-113650",
-        "mainEventFighters": [
-          "Miki Motono",
-          "Satomi Takano"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Shizuka Sugiyama",
-            "b": "Emi Fujino"
-          },
-          {
-            "a": "Chiara Penco",
-            "b": "Karen"
-          },
-          {
-            "a": "Chikaya Suzuki",
-            "b": "Kengo Fujimura"
-          },
-          {
-            "a": "Tokumitsu Takagi",
-            "b": "Da Eun Jung"
-          },
-          {
-            "a": "Daiki Shimada",
-            "b": "Ruki Saito"
-          },
-          {
-            "a": "Yuki    Ito",
-            "b": "Daiki Mine"
-          },
-          {
-            "a": "Soukichi Maeda",
-            "b": "Takashi Koyama"
-          },
-          {
-            "a": "Taisei Hata",
-            "b": "Torao Hamachi"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Miki Motono|Satomi Takano|2026-09-23"
     }
   ],
   "replaySchedule": [
@@ -7829,6 +8262,78 @@
       "market": "Canada",
       "label": "Till v Romero",
       "sublabel": "BKFC 94 Manchester: Till vs. Romero"
+    },
+    {
+      "airTimeUTC": "2026-10-09T21:30:00.000Z",
+      "endsAtUTC": "2026-10-09T22:30:00.000Z",
+      "timeUK": "Fri 09 Oct, 22:30",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Volkanovski v Holloway 3",
+      "sublabel": "UFC Main Events"
+    },
+    {
+      "airTimeUTC": "2026-10-09T22:30:00.000Z",
+      "endsAtUTC": "2026-10-09T23:30:00.000Z",
+      "timeUK": "Fri 09 Oct, 23:30",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Namajunas v Zhang 2",
+      "sublabel": "UFC Main Events"
+    },
+    {
+      "airTimeUTC": "2026-10-10T06:00:00.000Z",
+      "endsAtUTC": "2026-10-10T06:30:00.000Z",
+      "timeUK": "Sat 10 Oct, 07:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 246: Conor McGregor v Donald Cerrone",
+      "sublabel": "UFC - The Walk"
+    },
+    {
+      "airTimeUTC": "2026-10-10T06:30:00.000Z",
+      "endsAtUTC": "2026-10-10T07:30:00.000Z",
+      "timeUK": "Sat 10 Oct, 07:30",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Volkanovski v Holloway 3",
+      "sublabel": "UFC Main Events"
+    },
+    {
+      "airTimeUTC": "2026-10-10T07:30:00.000Z",
+      "endsAtUTC": "2026-10-10T08:30:00.000Z",
+      "timeUK": "Sat 10 Oct, 08:30",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Namajunas v Zhang 2",
+      "sublabel": "UFC Main Events"
+    },
+    {
+      "airTimeUTC": "2026-10-10T08:30:00.000Z",
+      "endsAtUTC": "2026-10-10T09:00:00.000Z",
+      "timeUK": "Sat 10 Oct, 09:30",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 229: Khabib v McGregor",
+      "sublabel": "UFC Fight Flashback"
     }
   ]
 }
