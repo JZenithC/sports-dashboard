@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-10-08T18:05:46.638Z",
+  "generatedAt": "2026-10-09T17:37:51.539Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-09T17:36:29.261Z",
+        "totalEvents": 39,
+        "added": [
+          "Huracán vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Thu 15 Oct, 20:00",
+          "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Thu 15 Oct, 21:30"
+        ],
+        "removed": [
+          "Santos vs Flamengo (Campeonato Brasileiro Série A) — Thu 08 Oct, 19:30",
+          "Athletico Paranaense vs Atlético Mineiro (Campeonato Brasileiro Série A) — Thu 08 Oct, 20:00",
+          "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30",
+          "Palmeiras vs Bahia (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30",
+          "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30"
+        ],
+        "channelsChanged": [
+          "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Vasco da Gama vs Remo (Campeonato Brasileiro Série A) — Sat 10 Oct, 18:00: [CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE FC, RECORD]",
+          "São Paulo vs Vitória (Campeonato Brasileiro Série A) — Sat 10 Oct, 21:00: [Fanatiz (Míralo en vivo), PREMIERE FC, SPORTV]",
+          "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Atlético Mineiro vs Santos (Campeonato Brasileiro Série A) — Sun 11 Oct, 16:00: [Fanatiz (Míralo en vivo), Flow Sports]",
+          "Grêmio vs Internacional (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Fanatiz (Míralo en vivo), Flow Sports 2]",
+          "Boca Juniors vs Vasco da Gama (CONMEBOL Sudamericana) — Tue 13 Oct, 21:30: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, Paramount+]",
+          "Atlético Mineiro vs Montevideo City Torque (CONMEBOL Sudamericana) — Wed 14 Oct, 19:00: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, ESPN 2, Paramount+]"
+        ],
+        "total": 39
+      },
       {
         "timestamp": "2026-10-08T18:04:23.250Z",
         "totalEvents": 42,
@@ -369,17 +395,22 @@
           "Racing Club vs Boca Juniors (Copa Argentina) — Sun 27 Sept, 17:00: [(XSPORTS), TyC Sports, TyC Sports Internacional, TyC Sports Play, YOUTUBE]"
         ],
         "total": 12
-      },
-      {
-        "timestamp": "2026-09-25T15:59:16.654Z",
-        "totalEvents": 12,
-        "added": [],
-        "removed": [],
-        "channelsChanged": [],
-        "total": 12
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-09T17:37:07.444Z",
+        "total": 8,
+        "added": [],
+        "removed": [
+          "Cleveland Guardians @ Chicago White Sox (2026-10-08)"
+        ],
+        "channelsChanged": [
+          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-11): [FOX / FOX ONE, Fox Deportes / FOX ONE]",
+          "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-14): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
+          "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-15): [FS1 / FOX ONE, Fox Deportes / FOX ONE]"
+        ]
+      },
       {
         "timestamp": "2026-10-08T18:05:06.099Z",
         "total": 9,
@@ -770,16 +801,22 @@
           "AL Wild Card #3 @ AL West #1 (2026-10-01)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-25T16:00:12.319Z",
-        "total": 55,
-        "added": [],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-09T17:37:51.539Z",
+        "total": 59,
+        "added": [
+          "One Friday Fights 174 (2026-10-09)"
+        ],
+        "removed": [
+          "ACA Young Eagles 69 (2026-10-08)",
+          " Osleys Iglesias-Oliver Zaren (2026-10-09)",
+          "One Friday Fights 174 (2026-10-09)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-08T18:05:46.636Z",
         "total": 61,
@@ -1009,17 +1046,6 @@
         "removed": [
           "Shooto Brazil 140: Ferreira vs. Menor CZS (2026-09-25)",
           "Ares 43: O'Connor vs. Diatta (2026-09-25)",
-          "One Friday Fights 172 (2026-09-25)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-25T16:00:57.149Z",
-        "total": 56,
-        "added": [
-          "One Friday Fights 172 (2026-09-25)"
-        ],
-        "removed": [
           "One Friday Fights 172 (2026-09-25)"
         ],
         "channelsChanged": []

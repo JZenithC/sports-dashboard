@@ -1,5 +1,30 @@
 [
   {
+    "timestamp": "2026-10-09T17:36:29.261Z",
+    "totalEvents": 39,
+    "added": [
+      "Huracán vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Thu 15 Oct, 20:00",
+      "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Thu 15 Oct, 21:30"
+    ],
+    "removed": [
+      "Santos vs Flamengo (Campeonato Brasileiro Série A) — Thu 08 Oct, 19:30",
+      "Athletico Paranaense vs Atlético Mineiro (Campeonato Brasileiro Série A) — Thu 08 Oct, 20:00",
+      "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30",
+      "Palmeiras vs Bahia (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30",
+      "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30"
+    ],
+    "channelsChanged": [
+      "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Vasco da Gama vs Remo (Campeonato Brasileiro Série A) — Sat 10 Oct, 18:00: [CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE FC, RECORD]",
+      "São Paulo vs Vitória (Campeonato Brasileiro Série A) — Sat 10 Oct, 21:00: [Fanatiz (Míralo en vivo), PREMIERE FC, SPORTV]",
+      "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Atlético Mineiro vs Santos (Campeonato Brasileiro Série A) — Sun 11 Oct, 16:00: [Fanatiz (Míralo en vivo), Flow Sports]",
+      "Grêmio vs Internacional (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Fanatiz (Míralo en vivo), Flow Sports 2]",
+      "Boca Juniors vs Vasco da Gama (CONMEBOL Sudamericana) — Tue 13 Oct, 21:30: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, Paramount+]",
+      "Atlético Mineiro vs Montevideo City Torque (CONMEBOL Sudamericana) — Wed 14 Oct, 19:00: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, ESPN 2, Paramount+]"
+    ]
+  },
+  {
     "timestamp": "2026-10-08T18:04:23.250Z",
     "totalEvents": 42,
     "added": [
@@ -129,30 +154,5 @@
       "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00: [Azteca 7, FOX One]",
       "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00: [Azteca 7, FOX One]"
     ]
-  },
-  {
-    "timestamp": "2026-10-04T16:02:13.326Z",
-    "totalEvents": 33,
-    "added": [
-      "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45",
-      "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00",
-      "Vasco da Gama vs Remo (Campeonato Brasileiro Série A) — Sat 10 Oct, 17:00",
-      "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15",
-      "Querétaro vs Atlante (Liga MX) — Sat 10 Oct, 17:00",
-      "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00",
-      "São Paulo vs Vitória (Campeonato Brasileiro Série A) — Sat 10 Oct, 21:00",
-      "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30",
-      "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00",
-      "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:00"
-    ],
-    "removed": [
-      "Defensa y Justicia vs San Lorenzo (Liga Profesional de Fútbol) — Sat 03 Oct, 14:45",
-      "Newell's Old Boys vs Lanús (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00",
-      "Atlético Tucumán vs Barracas Central (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00",
-      "Atlético Mineiro vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 03 Oct, 18:30",
-      "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sat 03 Oct, 19:15",
-      "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sat 03 Oct, 21:30"
-    ],
-    "channelsChanged": []
   }
 ]
