@@ -1,5 +1,34 @@
 [
   {
+    "timestamp": "2026-10-10T16:26:01.171Z",
+    "totalEvents": 39,
+    "added": [
+      "Defensa y Justicia vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Fri 16 Oct, 19:00",
+      "Boca Juniors vs Talleres de Córdoba (Liga Profesional de Fútbol) — Fri 16 Oct, 21:30",
+      "Necaxa vs Atlas (Liga MX) — Fri 16 Oct, 19:00",
+      "Tijuana vs Puebla (Liga MX) — Fri 16 Oct, 21:00",
+      "Atlante vs Pumas UNAM (Liga MX) — Fri 16 Oct, 21:00"
+    ],
+    "removed": [
+      "Gimnasia y Esgrima La Plata vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 09 Oct, 18:00",
+      "Instituto (Córdoba) vs Boca Juniors (Liga Profesional de Fútbol) — Fri 09 Oct, 19:30",
+      "Unión Santa Fe vs Defensa y Justicia (Liga Profesional de Fútbol) — Fri 09 Oct, 21:45",
+      "Puebla vs Club León (Liga MX) — Fri 09 Oct, 19:00",
+      "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00"
+    ],
+    "channelsChanged": [
+      "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, FOX, FOX One]",
+      "Atlético Mineiro vs Santos (Campeonato Brasileiro Série A) — Sun 11 Oct, 16:00: [Fanatiz (Míralo en vivo), Flow Sports, PREMIERE 5, SPORTV]",
+      "Flamengo vs Fluminense (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Flamengo TV YouTube, GE TV, GLOBO, Globo Internacional, PREMIERE]",
+      "Grêmio vs Internacional (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Fanatiz (Míralo en vivo), Flow Sports 2, GLOBO, PREMIERE, PREMIERE FC]",
+      "Palmeiras vs Corinthians (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Fanatiz YouTube, GE TV, GLOBO, PREMIERE]",
+      "Bahia vs Mirassol (Campeonato Brasileiro Série A) — Sun 11 Oct, 19:30: [Fanatiz (Míralo en vivo), PREMIERE 5]",
+      "Talleres de Córdoba vs Independiente (Liga Profesional de Fútbol) — Sun 11 Oct, 21:30: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Chapecoense vs Athletico Paranaense (Campeonato Brasileiro Série A) — Mon 12 Oct, 19:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]",
+      "Red Bull Bragantino vs Cruzeiro (Campeonato Brasileiro Série A) — Mon 12 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]"
+    ]
+  },
+  {
     "timestamp": "2026-10-09T17:36:29.261Z",
     "totalEvents": 39,
     "added": [
@@ -121,38 +150,6 @@
       "Remo vs Grêmio (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [Fanatiz (Míralo en vivo), PREMIERE 4]",
       "Vitória vs Chapecoense (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE 3]",
       "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30: [Fanatiz (Míralo en vivo), Flow Sports, PRIME VIDEO]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-05T19:47:23.652Z",
-    "totalEvents": 43,
-    "added": [
-      "San Lorenzo vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 11 Oct, 14:45",
-      "Atlético Mineiro vs Santos (Campeonato Brasileiro Série A) — Sun 11 Oct, 16:00",
-      "Rosario Central vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00",
-      "Platense vs Argentinos Juniors (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00",
-      "Flamengo vs Fluminense (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
-      "Grêmio vs Internacional (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
-      "Palmeiras vs Corinthians (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
-      "Racing Club vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 11 Oct, 19:15",
-      "Bahía vs Mirassol (Campeonato Brasileiro Série A) — Sun 11 Oct, 19:30",
-      "Pachuca vs Necaxa (Liga MX) — Sun 11 Oct, 17:15",
-      "Talleres de Córdoba vs Independiente (Liga Profesional de Fútbol) — Sun 11 Oct, 21:30",
-      "Pumas UNAM vs Cruz Azul (Liga MX) — Sun 11 Oct, 19:00",
-      "Atlético San Luis vs Santos Laguna (Liga MX) — Sun 11 Oct, 20:00",
-      "Lanús vs Vélez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00",
-      "Coritiba vs Botafogo (Campeonato Brasileiro Série A) — Mon 12 Oct, 16:00"
-    ],
-    "removed": [
-      "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45",
-      "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45",
-      "Talleres de Córdoba vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 04 Oct, 17:00",
-      "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sun 04 Oct, 19:15",
-      "Estudiantes de Río Cuarto vs Racing Club (Liga Profesional de Fútbol) — Sun 04 Oct, 21:30"
-    ],
-    "channelsChanged": [
-      "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00: [Azteca 7, FOX One]",
-      "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00: [Azteca 7, FOX One]"
     ]
   }
 ]

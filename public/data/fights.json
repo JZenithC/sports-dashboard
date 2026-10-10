@@ -1,208 +1,6 @@
 {
-  "generatedAt": "2026-10-09T17:37:51.538Z",
+  "generatedAt": "2026-10-10T16:29:35.742Z",
   "upcoming": [
-    {
-      "org": "MMA",
-      "eventName": "LFA 243: Maximov vs. Santos",
-      "eventTag": "LFA 243 · Kaiser Permanente Arena, Santa Cruz, California, United States",
-      "homeTeam": "Maximov",
-      "awayTeam": "Santos",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Kevin Fernandez v Enrique Pacheco",
-          "weightClass": null
-        },
-        {
-          "title": "Mason Carzino-Hartshorn v Kelvin Martinez",
-          "weightClass": null
-        },
-        {
-          "title": "Joseph Stratton Thurrott v Vernon Ricky Miller",
-          "weightClass": null
-        },
-        {
-          "title": "Aysia Cortez v Sophie Lang",
-          "weightClass": null
-        },
-        {
-          "title": "Kyle Clark v Ali Gazamatov",
-          "weightClass": null
-        },
-        {
-          "title": "Lorenzo Figueroa v Helton Jose",
-          "weightClass": null
-        },
-        {
-          "title": "Fernando Diaz-Marquez v Ramon Cornejo",
-          "weightClass": null
-        },
-        {
-          "title": "Jacob Horton v Mark Lozano",
-          "weightClass": null
-        },
-        {
-          "title": "Willy LaMacchia v Chris Chapa",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-09T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-09",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-LFA-243-Maximov-vs-Santos-114325",
-        "name": "LFA 243: Maximov vs. Santos",
-        "dateUTC": null,
-        "dateOnly": "2026-10-09",
-        "venue": "Kaiser Permanente Arena",
-        "city": "Santa Cruz, California, United States",
-        "href": "/events/LFA-243-Maximov-vs-Santos-114325",
-        "mainEventFighters": [
-          "Maximov",
-          "Santos"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Kevin Fernandez",
-            "b": "Enrique Pacheco"
-          },
-          {
-            "a": "Mason Carzino-Hartshorn",
-            "b": "Kelvin Martinez"
-          },
-          {
-            "a": "Joseph Stratton Thurrott",
-            "b": "Vernon Ricky Miller"
-          },
-          {
-            "a": "Aysia Cortez",
-            "b": "Sophie Lang"
-          },
-          {
-            "a": "Kyle Clark",
-            "b": "Ali Gazamatov"
-          },
-          {
-            "a": "Lorenzo Figueroa",
-            "b": "Helton Jose"
-          },
-          {
-            "a": "Fernando Diaz-Marquez",
-            "b": "Ramon Cornejo"
-          },
-          {
-            "a": "Jacob Horton",
-            "b": "Mark Lozano"
-          },
-          {
-            "a": "Willy LaMacchia",
-            "b": "Chris Chapa"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Maximov|Santos|2026-10-09"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Friday Fights 174",
-      "eventTag": "One Friday Fights 174 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Philemon Britus Jeb",
-      "awayTeam": "Bat-Ireedui Ganbaatar",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-10-09T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-09",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-Friday-Fights-174-114700",
-        "name": "One Friday Fights 174",
-        "dateUTC": null,
-        "dateOnly": "2026-10-09",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-Friday-Fights-174-114700",
-        "mainEventFighters": [
-          "Philemon Britus Jeb",
-          "Bat-Ireedui Ganbaatar"
-        ],
-        "broadcasts": [],
-        "bouts": []
-      },
-      "watchKey": "fights:MMA|Philemon Britus Jeb|Bat-Ireedui Ganbaatar|2026-10-09"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "BKFC Fight Night Bethlehem: Cisneros vs Peterson Prelims",
-      "eventTag": "Boxing",
-      "homeTeam": "BKFC Fight Night Bethlehem: Cisneros",
-      "awayTeam": "Peterson Prelims",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-10-10T00:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 10 Oct, 01:00",
-      "localDate": "2026-10-10",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "Canada",
-          "channels": [
-            {
-              "name": "Fight Network",
-              "url": "https://www.fightnetwork.com/",
-              "logo": "/logos/channels/fightnetwork.com.jpg"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "epg-cisneros|prelims-2026-10-10",
-        "name": "BKFC Fight Night Bethlehem: Cisneros vs Peterson Prelims",
-        "dateUTC": "2026-10-10T00:00:00.000Z",
-        "dateOnly": "2026-10-10",
-        "venue": null,
-        "city": null,
-        "mainEventFighters": [
-          "BKFC Fight Night Bethlehem: Cisneros",
-          "Peterson Prelims"
-        ],
-        "broadcasts": [
-          "Fight Network"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "Canada",
-            "name": "Fight Network"
-          }
-        ]
-      },
-      "watchKey": "fights:Boxing|BKFC Fight Night Bethlehem: Cisneros|Peterson Prelims|2026-10-10"
-    },
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Allen vs. Duncan",
@@ -1880,7 +1678,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 333: Volkanovski vs. Evloev",
-      "eventTag": "UFC 333 · Etihad Arena, Abu Dhabi · 9-fight card · main card Sat 24 Oct, 19:00 UK",
+      "eventTag": "UFC 333 · Etihad Arena, Abu Dhabi · 10-fight card · main card Sat 24 Oct, 19:00 UK",
       "homeTeam": "Alexander Volkanovski",
       "awayTeam": "Movsar Evloev",
       "cardTitle": null,
@@ -1892,6 +1690,10 @@
         {
           "title": "Colby Thicknesse v Asaf Chopurov",
           "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Aaron Pico v Losene Keita",
+          "weightClass": "Featherweight"
         },
         {
           "title": "Grant Dawson v Nurullo Aliev",
@@ -1974,6 +1776,11 @@
             "weightClass": "Bantamweight"
           },
           {
+            "a": "Aaron Pico",
+            "b": "Losene Keita",
+            "weightClass": "Featherweight"
+          },
+          {
             "a": "Grant Dawson",
             "b": "Nurullo Aliev",
             "weightClass": "Lightweight"
@@ -2015,7 +1822,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 9,
+        "boutCount": 10,
         "broadcasts": [
           "Paramount+"
         ]
@@ -3481,6 +3288,86 @@
         ]
       },
       "watchKey": "fights:Boxing|Denzel Bentley|Shane Mosley Jnr|2026-11-07"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Joshua Buatsi-Willy Hutchinson 2",
+      "eventTag": "Boxing · Manchester Arena, Manchester, United Kingdom",
+      "homeTeam": "Joshua Buatsi",
+      "awayTeam": "Willy Hutchinson 2",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Joshua Buatsi v Willy Hutchinson",
+          "weightClass": null
+        },
+        {
+          "title": "Jack Rafferty v Hovhannes Martirosyan",
+          "weightClass": null
+        },
+        {
+          "title": "Zak Miller v Gully Powar",
+          "weightClass": null
+        }
+      ],
+      "poster": {
+        "src": "/logos/posters/9f612a42b33e5902bf3a.jpg",
+        "attribution": "DAZN"
+      },
+      "kickoffUTC": "2026-11-07T19:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 07 Nov, 19:00",
+      "localDate": "2026-11-07",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Listed by source",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "joshua-buatsi-willy-hutchinson-2",
+        "name": "Joshua Buatsi-Willy Hutchinson 2",
+        "dateUTC": "2026-11-07T19:00:00.000Z",
+        "dateOnly": "2026-11-07",
+        "venue": "Manchester Arena",
+        "city": "Manchester, United Kingdom",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/JoshuaBuatsiWillyHutchinsonposter.jpg",
+        "posterAttribution": "DAZN",
+        "mainEventFighters": [
+          "Joshua Buatsi",
+          "Willy Hutchinson 2"
+        ],
+        "bouts": [
+          {
+            "a": "Joshua Buatsi",
+            "b": "Willy Hutchinson"
+          },
+          {
+            "a": "Jack Rafferty",
+            "b": "Hovhannes Martirosyan"
+          },
+          {
+            "a": "Zak Miller",
+            "b": "Gully Powar"
+          }
+        ],
+        "broadcasts": [
+          "DAZN"
+        ]
+      },
+      "watchKey": "fights:Boxing|Joshua Buatsi|Willy Hutchinson 2|2026-11-07"
     },
     {
       "org": "Boxing",
@@ -5227,7 +5114,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 335: Oliveira vs. Lopes",
-      "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 3-fight card · main card Sun 13 Dec, 02:00 UK",
+      "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 4-fight card · main card Sun 13 Dec, 02:00 UK",
       "homeTeam": "Charles Oliveira",
       "awayTeam": "Diego Lopes",
       "cardTitle": null,
@@ -5243,6 +5130,10 @@
         {
           "title": "Joe Pyfer v Bo Nickal",
           "weightClass": "Middleweight"
+        },
+        {
+          "title": "Sergei Pavlovich v Alex Pereira",
+          "weightClass": "Heavyweight"
         }
       ],
       "poster": null,
@@ -5302,13 +5193,18 @@
             "weightClass": "Middleweight"
           },
           {
+            "a": "Sergei Pavlovich",
+            "b": "Alex Pereira",
+            "weightClass": "Heavyweight"
+          },
+          {
             "a": "Charles Oliveira",
             "b": "Diego Lopes",
             "weightClass": "Lightweight"
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 3,
+        "boutCount": 4,
         "broadcasts": [
           "Paramount+"
         ]
@@ -5543,6 +5439,208 @@
     }
   ],
   "recent": [
+    {
+      "org": "Boxing",
+      "eventName": "BKFC Fight Night Bethlehem: Cisneros vs Peterson Prelims",
+      "eventTag": "Boxing",
+      "homeTeam": "BKFC Fight Night Bethlehem: Cisneros",
+      "awayTeam": "Peterson Prelims",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-10-10T00:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 10 Oct, 01:00",
+      "localDate": "2026-10-10",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Canada",
+          "channels": [
+            {
+              "name": "Fight Network",
+              "url": "https://www.fightnetwork.com/",
+              "logo": "/logos/channels/fightnetwork.com.jpg"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "epg-cisneros|prelims-2026-10-10",
+        "name": "BKFC Fight Night Bethlehem: Cisneros vs Peterson Prelims",
+        "dateUTC": "2026-10-10T00:00:00.000Z",
+        "dateOnly": "2026-10-10",
+        "venue": null,
+        "city": null,
+        "mainEventFighters": [
+          "BKFC Fight Night Bethlehem: Cisneros",
+          "Peterson Prelims"
+        ],
+        "broadcasts": [
+          "Fight Network"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "Canada",
+            "name": "Fight Network"
+          }
+        ]
+      },
+      "watchKey": "fights:Boxing|BKFC Fight Night Bethlehem: Cisneros|Peterson Prelims|2026-10-10"
+    },
+    {
+      "org": "MMA",
+      "eventName": "One Friday Fights 174",
+      "eventTag": "One Friday Fights 174 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Philemon Britus Jeb",
+      "awayTeam": "Bat-Ireedui Ganbaatar",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-10-09T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-09",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-Friday-Fights-174-114700",
+        "name": "One Friday Fights 174",
+        "dateUTC": null,
+        "dateOnly": "2026-10-09",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-Friday-Fights-174-114700",
+        "mainEventFighters": [
+          "Philemon Britus Jeb",
+          "Bat-Ireedui Ganbaatar"
+        ],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|Philemon Britus Jeb|Bat-Ireedui Ganbaatar|2026-10-09"
+    },
+    {
+      "org": "MMA",
+      "eventName": "LFA 243: Maximov vs. Santos",
+      "eventTag": "LFA 243 · Kaiser Permanente Arena, Santa Cruz, California, United States",
+      "homeTeam": "Maximov",
+      "awayTeam": "Santos",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Kevin Fernandez v Enrique Pacheco",
+          "weightClass": null
+        },
+        {
+          "title": "Mason Carzino-Hartshorn v Kelvin Martinez",
+          "weightClass": null
+        },
+        {
+          "title": "Joseph Stratton Thurrott v Vernon Ricky Miller",
+          "weightClass": null
+        },
+        {
+          "title": "Sophie Lang v Aysia Cortez",
+          "weightClass": null
+        },
+        {
+          "title": "Kyle Clark v Ali Gazamatov",
+          "weightClass": null
+        },
+        {
+          "title": "Lorenzo Figueroa v Helton Jose",
+          "weightClass": null
+        },
+        {
+          "title": "Fernando Diaz-Marquez v Ramon Cornejo",
+          "weightClass": null
+        },
+        {
+          "title": "Jacob Horton v Mark Lozano",
+          "weightClass": null
+        },
+        {
+          "title": "Chris Chapa v Willy LaMacchia",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-09T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-09",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-LFA-243-Maximov-vs-Santos-114325",
+        "name": "LFA 243: Maximov vs. Santos",
+        "dateUTC": null,
+        "dateOnly": "2026-10-09",
+        "venue": "Kaiser Permanente Arena",
+        "city": "Santa Cruz, California, United States",
+        "href": "/events/LFA-243-Maximov-vs-Santos-114325",
+        "mainEventFighters": [
+          "Maximov",
+          "Santos"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Kevin Fernandez",
+            "b": "Enrique Pacheco"
+          },
+          {
+            "a": "Mason Carzino-Hartshorn",
+            "b": "Kelvin Martinez"
+          },
+          {
+            "a": "Joseph Stratton Thurrott",
+            "b": "Vernon Ricky Miller"
+          },
+          {
+            "a": "Sophie Lang",
+            "b": "Aysia Cortez"
+          },
+          {
+            "a": "Kyle Clark",
+            "b": "Ali Gazamatov"
+          },
+          {
+            "a": "Lorenzo Figueroa",
+            "b": "Helton Jose"
+          },
+          {
+            "a": "Fernando Diaz-Marquez",
+            "b": "Ramon Cornejo"
+          },
+          {
+            "a": "Jacob Horton",
+            "b": "Mark Lozano"
+          },
+          {
+            "a": "Chris Chapa",
+            "b": "Willy LaMacchia"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Maximov|Santos|2026-10-09"
+    },
     {
       "org": "Boxing",
       "eventName": " Osleys Iglesias-Oliver Zaren",
@@ -7899,342 +7997,9 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/henry-cejudo-vs-javon-wanna-walton-2026-09-26"
       },
       "watchKey": "fights:Boxing|Henry Cejudo|Javon \"Wanna\" Walton|2026-09-26"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Friday Fights 172",
-      "eventTag": "One Friday Fights 172 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Basir Saraliev",
-      "awayTeam": "Sarmad Jahanara",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Khurshed Gafurov v Leevi Heino",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-09-25T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-09-25",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-Friday-Fights-172-113334",
-        "name": "One Friday Fights 172",
-        "dateUTC": null,
-        "dateOnly": "2026-09-25",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-Friday-Fights-172-113334",
-        "mainEventFighters": [
-          "Basir Saraliev",
-          "Sarmad Jahanara"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Khurshed Gafurov",
-            "b": "Leevi Heino"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Basir Saraliev|Sarmad Jahanara|2026-09-25"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Ares 43: O'Connor vs. Diatta",
-      "eventTag": "Ares 43 · Adidas Arena, Paris, France",
-      "homeTeam": "O'Connor",
-      "awayTeam": "Diatta",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Alexis Nicolas v Ilyasse Drabo",
-          "weightClass": null
-        },
-        {
-          "title": "Akhmad Amaev v Luke Shanks",
-          "weightClass": null
-        },
-        {
-          "title": "Wael Kambouche v Ulysse Obame Ndong",
-          "weightClass": null
-        },
-        {
-          "title": "Vincent Yerly v Joelson Ferreira",
-          "weightClass": null
-        },
-        {
-          "title": "Jimmy Vienot v Josenildo Pantoja",
-          "weightClass": null
-        },
-        {
-          "title": "Brad Jean-Elie v Danylo Kartavyi",
-          "weightClass": null
-        },
-        {
-          "title": "Kevin Tchoupa v William Loussala",
-          "weightClass": null
-        },
-        {
-          "title": "Anuji Jeat v Dylan Antoine",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-09-25T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-09-25",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Ares-43-OConnor-vs-Diatta-112452",
-        "name": "Ares 43: O'Connor vs. Diatta",
-        "dateUTC": null,
-        "dateOnly": "2026-09-25",
-        "venue": "Adidas Arena",
-        "city": "Paris, France",
-        "href": "/events/Ares-43-OConnor-vs-Diatta-112452",
-        "mainEventFighters": [
-          "O'Connor",
-          "Diatta"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Alexis Nicolas",
-            "b": "Ilyasse Drabo"
-          },
-          {
-            "a": "Akhmad Amaev",
-            "b": "Luke Shanks"
-          },
-          {
-            "a": "Wael Kambouche",
-            "b": "Ulysse Obame Ndong"
-          },
-          {
-            "a": "Vincent Yerly",
-            "b": "Joelson Ferreira"
-          },
-          {
-            "a": "Jimmy Vienot",
-            "b": "Josenildo Pantoja"
-          },
-          {
-            "a": "Brad Jean-Elie",
-            "b": "Danylo Kartavyi"
-          },
-          {
-            "a": "Kevin Tchoupa",
-            "b": "William Loussala"
-          },
-          {
-            "a": "Anuji Jeat",
-            "b": "Dylan Antoine"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|O'Connor|Diatta|2026-09-25"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Shooto Brazil 140: Ferreira vs. Menor CZS",
-      "eventTag": "Shooto Brazil 140 · Upper Arena, Rio de Janeiro, Rio de Janeiro, Brazil",
-      "homeTeam": "Ferreira",
-      "awayTeam": "Menor CZS",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Carlos Veras v Luis Fernando Moraes",
-          "weightClass": null
-        },
-        {
-          "title": "Leonardo Willians v Caiona Batista",
-          "weightClass": null
-        },
-        {
-          "title": "Maria Clara Pereira v Fabiola Nascimento",
-          "weightClass": null
-        },
-        {
-          "title": "Danilo Marques v Caique Silva",
-          "weightClass": null
-        },
-        {
-          "title": "Saidbek Albastov v Luis Fernando Neves",
-          "weightClass": null
-        },
-        {
-          "title": "Lucas Ananias v Jameson Oliveira",
-          "weightClass": null
-        },
-        {
-          "title": "Victor Gabriel v Wallace Lopes",
-          "weightClass": null
-        },
-        {
-          "title": "Paulo Henrique Laia v Eduardo Alencar",
-          "weightClass": null
-        },
-        {
-          "title": "Douglas Machado v Wesley Patrick",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-09-25T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-09-25",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Shooto-Brazil-140-Ferreira-vs-Menor-CZS-111967",
-        "name": "Shooto Brazil 140: Ferreira vs. Menor CZS",
-        "dateUTC": null,
-        "dateOnly": "2026-09-25",
-        "venue": "Upper Arena",
-        "city": "Rio de Janeiro, Rio de Janeiro, Brazil",
-        "href": "/events/Shooto-Brazil-140-Ferreira-vs-Menor-CZS-111967",
-        "mainEventFighters": [
-          "Ferreira",
-          "Menor CZS"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Carlos Veras",
-            "b": "Luis Fernando Moraes"
-          },
-          {
-            "a": "Leonardo Willians",
-            "b": "Caiona Batista"
-          },
-          {
-            "a": "Maria Clara Pereira",
-            "b": "Fabiola Nascimento"
-          },
-          {
-            "a": "Danilo Marques",
-            "b": "Caique Silva"
-          },
-          {
-            "a": "Saidbek Albastov",
-            "b": "Luis Fernando Neves"
-          },
-          {
-            "a": "Lucas Ananias",
-            "b": "Jameson Oliveira"
-          },
-          {
-            "a": "Victor Gabriel",
-            "b": "Wallace Lopes"
-          },
-          {
-            "a": "Paulo Henrique Laia",
-            "b": "Eduardo Alencar"
-          },
-          {
-            "a": "Douglas Machado",
-            "b": "Wesley Patrick"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Ferreira|Menor CZS|2026-09-25"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-09T21:30:00.000Z",
-      "endsAtUTC": "2026-10-09T22:30:00.000Z",
-      "timeUK": "Fri 09 Oct, 22:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Volkanovski v Holloway 3",
-      "sublabel": "UFC Main Events"
-    },
-    {
-      "airTimeUTC": "2026-10-09T22:30:00.000Z",
-      "endsAtUTC": "2026-10-09T23:30:00.000Z",
-      "timeUK": "Fri 09 Oct, 23:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Namajunas v Zhang 2",
-      "sublabel": "UFC Main Events"
-    },
-    {
-      "airTimeUTC": "2026-10-10T06:00:00.000Z",
-      "endsAtUTC": "2026-10-10T06:30:00.000Z",
-      "timeUK": "Sat 10 Oct, 07:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 246: Conor McGregor v Donald Cerrone",
-      "sublabel": "UFC - The Walk"
-    },
-    {
-      "airTimeUTC": "2026-10-10T06:30:00.000Z",
-      "endsAtUTC": "2026-10-10T07:30:00.000Z",
-      "timeUK": "Sat 10 Oct, 07:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Volkanovski v Holloway 3",
-      "sublabel": "UFC Main Events"
-    },
-    {
-      "airTimeUTC": "2026-10-10T07:30:00.000Z",
-      "endsAtUTC": "2026-10-10T08:30:00.000Z",
-      "timeUK": "Sat 10 Oct, 08:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Namajunas v Zhang 2",
-      "sublabel": "UFC Main Events"
-    },
-    {
-      "airTimeUTC": "2026-10-10T08:30:00.000Z",
-      "endsAtUTC": "2026-10-10T09:00:00.000Z",
-      "timeUK": "Sat 10 Oct, 09:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 229: Khabib v McGregor",
-      "sublabel": "UFC Fight Flashback"
-    },
     {
       "airTimeUTC": "2026-10-11T05:00:00.000Z",
       "endsAtUTC": "2026-10-11T06:00:00.000Z",
@@ -8270,6 +8035,42 @@
       "market": "Canada",
       "label": "Hepi v Shewmaker",
       "sublabel": "BKFC Fight Night Australia: Hepi vs. She"
+    },
+    {
+      "airTimeUTC": "2026-10-11T21:00:00.000Z",
+      "endsAtUTC": "2026-10-11T23:00:00.000Z",
+      "timeUK": "Sun 11 Oct, 22:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Bellator 209: Pitbull v Sanchez",
+      "sublabel": "Bellator MMA"
+    },
+    {
+      "airTimeUTC": "2026-10-15T18:00:00.000Z",
+      "endsAtUTC": "2026-10-15T22:00:00.000Z",
+      "timeUK": "Thu 15 Oct, 19:00",
+      "channel": {
+        "name": "Sky Sports Mix",
+        "logo": null
+      },
+      "market": "UK",
+      "label": "Edwin De Los Santos v José Valenzuela",
+      "sublabel": "Zuffa Boxing"
+    },
+    {
+      "airTimeUTC": "2026-10-15T19:00:00.000Z",
+      "endsAtUTC": "2026-10-15T23:00:00.000Z",
+      "timeUK": "Thu 15 Oct, 20:00",
+      "channel": {
+        "name": "Sky Sports Mix",
+        "logo": null
+      },
+      "market": "UK",
+      "label": "Edgar Berlanga v Steven Butler",
+      "sublabel": "Zuffa Boxing"
     }
   ]
 }
