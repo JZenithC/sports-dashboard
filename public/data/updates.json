@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-10T16:29:35.743Z",
+  "generatedAt": "2026-10-11T16:51:24.282Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-11T16:49:58.545Z",
+        "totalEvents": 42,
+        "added": [
+          "Banfield vs Argentinos Juniors (Liga Profesional de Fútbol) — Sat 17 Oct, 15:00",
+          "Atlético Mineiro vs Coritiba (Campeonato Brasileiro Série A) — Sat 17 Oct, 15:30",
+          "Platense vs Lanús (Liga Profesional de Fútbol) — Sat 17 Oct, 17:30",
+          "Independiente Rivadavia vs Tigre (Liga Profesional de Fútbol) — Sat 17 Oct, 17:30",
+          "São Paulo vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 17 Oct, 18:00",
+          "Vélez Sarsfield vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sat 17 Oct, 20:00",
+          "Atlético Tucumán vs Rosario Central (Liga Profesional de Fútbol) — Sat 17 Oct, 20:00",
+          "Santos Laguna vs Querétaro (Liga MX) — Sat 17 Oct, 17:00",
+          "Chivas Guadalajara vs Tigres UANL (Liga MX) — Sat 17 Oct, 17:07",
+          "Toluca vs Atlético San Luis (Liga MX) — Sat 17 Oct, 19:00",
+          "Club León vs América (Liga MX) — Sat 17 Oct, 19:00",
+          "Cruz Azul vs FC Juárez (Liga MX) — Sat 17 Oct, 21:00",
+          "Fluminense vs Santos (Campeonato Brasileiro Série A) — Sun 18 Oct, 13:00"
+        ],
+        "removed": [
+          "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45",
+          "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00",
+          "Vasco da Gama vs Remo (Campeonato Brasileiro Série A) — Sat 10 Oct, 18:00",
+          "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15",
+          "Querétaro vs Atlante (Liga MX) — Sat 10 Oct, 17:00",
+          "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00",
+          "São Paulo vs Vitória (Campeonato Brasileiro Série A) — Sat 10 Oct, 21:00",
+          "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30",
+          "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00",
+          "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:10"
+        ],
+        "channelsChanged": [
+          "Lanus vs Velez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00: [DISNEY+, Disney+ Premium, ESPN, ESPN 2, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Coritiba vs Botafogo (Campeonato Brasileiro Série A) — Mon 12 Oct, 16:00: [Fanatiz (Míralo en vivo), PRIME VIDEO]",
+          "Chapecoense vs Athletico Paranaense (Campeonato Brasileiro Série A) — Mon 12 Oct, 19:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), PREMIERE]",
+          "Red Bull Bragantino vs Cruzeiro (Campeonato Brasileiro Série A) — Mon 12 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), PREMIERE, SPORTV]"
+        ],
+        "total": 42
+      },
       {
         "timestamp": "2026-10-10T16:26:01.171Z",
         "totalEvents": 39,
@@ -390,28 +428,28 @@
         "removed": [],
         "channelsChanged": [],
         "total": 13
-      },
-      {
-        "timestamp": "2026-09-27T05:42:11.849Z",
-        "totalEvents": 13,
-        "added": [
-          "Defensa y Justicia vs San Lorenzo (Liga Profesional de Fútbol) — Sat 03 Oct, 14:45",
-          "Newell's Old Boys vs Lanús (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00",
-          "Atlético Tucumán vs Barracas Central (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00",
-          "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sat 03 Oct, 19:15",
-          "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sat 03 Oct, 21:30"
-        ],
-        "removed": [
-          "Cruz Azul vs Toluca (Liga MX) — Sat 26 Sept, 16:50",
-          "Chivas Guadalajara vs Querétaro (Liga MX) — Sat 26 Sept, 17:07",
-          "Santos Laguna vs Pachuca (Liga MX) — Sat 26 Sept, 21:05",
-          "Tigres UANL vs Puebla (Liga MX) — Sat 26 Sept, 21:10"
-        ],
-        "channelsChanged": [],
-        "total": 13
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-11T16:50:39.408Z",
+        "total": 10,
+        "added": [
+          "Cleveland Guardians @ Tampa Bay Rays (2026-10-12)",
+          "Cleveland Guardians @ Tampa Bay Rays (2026-10-13)",
+          "Tampa Bay Rays @ Cleveland Guardians (2026-10-15)",
+          "Tampa Bay Rays @ Cleveland Guardians (2026-10-16)",
+          "Tampa Bay Rays @ Cleveland Guardians (2026-10-17)"
+        ],
+        "removed": [
+          "Chicago White Sox @ Cleveland Guardians (2026-10-10)",
+          "CLE/CWS @ Tampa Bay Rays (2026-10-12)",
+          "CLE/CWS @ Tampa Bay Rays (2026-10-13)",
+          "Tampa Bay Rays @ CLE/CWS (2026-10-15)",
+          "Tampa Bay Rays @ CLE/CWS (2026-10-16)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-10T16:28:56.358Z",
         "total": 10,
@@ -749,47 +787,23 @@
           "NL Wild Card #3 @ Atlanta Braves (2026-10-01)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-27T05:42:52.027Z",
-        "total": 31,
-        "added": [
-          "Chicago White Sox @ HOU/TEX (2026-09-29)",
-          "Chicago Cubs @ San Diego Padres (2026-09-29)",
-          "Chicago White Sox @ HOU/TEX (2026-09-30)",
-          "Chicago Cubs @ San Diego Padres (2026-09-30)",
-          "Chicago White Sox @ HOU/TEX (2026-10-01)",
-          "Chicago Cubs @ San Diego Padres (2026-10-01)",
-          "AL 3/6 Winner @ Cleveland Guardians (2026-10-03)",
-          "AL 4/5 Winner @ Tampa Bay Rays (2026-10-03)",
-          "NL 4/5 Winner @ Milwaukee Brewers (2026-10-03)",
-          "NL 3/6 Winner @ Los Angeles Dodgers (2026-10-03)"
-        ],
-        "removed": [
-          "New York Mets @ Washington Nationals (2026-09-26)",
-          "Pittsburgh Pirates @ Detroit Tigers (2026-09-26)",
-          "Cincinnati Reds @ Toronto Blue Jays (2026-09-26)",
-          "Los Angeles Dodgers @ San Francisco Giants (2026-09-26)",
-          "Texas Rangers @ Minnesota Twins (2026-09-26)",
-          "Atlanta Braves @ Miami Marlins (2026-09-26)",
-          "Cleveland Guardians @ Kansas City Royals (2026-09-26)",
-          "Colorado Rockies @ Chicago White Sox (2026-09-26)",
-          "St. Louis Cardinals @ Milwaukee Brewers (2026-09-26)",
-          "Tampa Bay Rays @ Philadelphia Phillies (2026-09-26)",
-          "Arizona Diamondbacks @ San Diego Padres (2026-09-26)",
-          "Houston Astros @ Athletics (2026-09-26)",
-          "Los Angeles Angels @ Seattle Mariners (2026-09-26)",
-          "NL Wild Card #2 @ NL Wild Card #1 (2026-09-29)",
-          "CWS/CLE @ HOU/TEX (2026-09-29)",
-          "NL Wild Card #2 @ NL Wild Card #1 (2026-09-30)",
-          "CWS/CLE @ HOU/TEX (2026-09-30)",
-          "NL Wild Card #2 @ NL Wild Card #1 (2026-10-01)",
-          "CWS/CLE @ HOU/TEX (2026-10-01)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-11T16:51:24.281Z",
+        "total": 54,
+        "added": [
+          "Oktagon 97: Severino vs. Holzer (2026-11-11)"
+        ],
+        "removed": [
+          "UFC Fight Night: Allen vs. Duncan (2026-10-10)",
+          "KSW 122: Yakymenko vs. Morelli (2026-10-10)",
+          "CFFC: Chosen Few Fighting Championships 29 (2026-10-10)",
+          "Floyd Schofield-Lucas Bahdi (2026-10-11)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-10T16:29:35.742Z",
         "total": 57,
@@ -1015,25 +1029,6 @@
           "Professional Shooto 2026 Vol. 6 (2026-09-27)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-27T05:43:34.369Z",
-        "total": 49,
-        "added": [
-          "Elif Nur Turhan-Alycia Baumgardner (2026-11-09)"
-        ],
-        "removed": [
-          "Henry Cejudo vs Javon \"Wanna\" Walton (2026-09-26)",
-          "UFC Fight Night: Rosas Jr. vs. Barcelos (2026-09-26)",
-          "Oktagon 94: Eckerlin vs. Kozma (2026-09-26)",
-          "Combate Extremo: Saltillo (2026-09-26)",
-          "Johnny Fisher-Michael Pirotton (2026-09-27)",
-          "Lebron-Hernandez-Geraldo (2026-09-27)",
-          "Alycia Baumgardner vs Elif Nur Turhan (2026-11-08)"
-        ],
-        "channelsChanged": [
-          "One on Prime Video 48 (2026-10-02): [Sky Sports Mix]"
-        ]
       }
     ]
   }
