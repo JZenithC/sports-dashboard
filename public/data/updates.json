@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-10-11T16:51:24.282Z",
+  "generatedAt": "2026-10-12T20:30:12.097Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-12T20:28:51.020Z",
+        "totalEvents": 34,
+        "added": [
+          "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Tue 13 Oct, 17:00",
+          "Racing Club vs Independiente (Liga Profesional de Fútbol) — Sun 18 Oct, 14:45",
+          "Bahía vs Flamengo (Campeonato Brasileiro Série A) — Sun 18 Oct, 15:30",
+          "Estudiantes de La Plata vs San Lorenzo (Liga Profesional de Fútbol) — Sun 18 Oct, 18:00",
+          "Estudiantes de Río Cuarto vs Aldosivi (Liga Profesional de Fútbol) — Sun 18 Oct, 18:00",
+          "Belgrano (Córdoba) vs River Plate (Liga Profesional de Fútbol) — Sun 18 Oct, 20:15",
+          "Monterrey vs Pachuca (Liga MX) — Sun 18 Oct, 19:00"
+        ],
+        "removed": [
+          "San Lorenzo vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 11 Oct, 14:45",
+          "Atlético Mineiro vs Santos (Campeonato Brasileiro Série A) — Sun 11 Oct, 16:00",
+          "Rosario Central vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00",
+          "Platense vs Argentinos Juniors (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00",
+          "Flamengo vs Fluminense (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
+          "Grêmio vs Internacional (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
+          "Palmeiras vs Corinthians (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30",
+          "Racing Club vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 11 Oct, 19:15",
+          "Bahia vs Mirassol (Campeonato Brasileiro Série A) — Sun 11 Oct, 19:30",
+          "Pachuca vs Necaxa (Liga MX) — Sun 11 Oct, 17:10",
+          "Talleres de Córdoba vs Independiente (Liga Profesional de Fútbol) — Sun 11 Oct, 21:30",
+          "Pumas UNAM vs Cruz Azul (Liga MX) — Sun 11 Oct, 19:15",
+          "Atlético San Luis vs Santos Laguna (Liga MX) — Sun 11 Oct, 20:00",
+          "Lanus vs Velez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00",
+          "Coritiba vs Botafogo (Campeonato Brasileiro Série A) — Mon 12 Oct, 16:00"
+        ],
+        "channelsChanged": [],
+        "total": 34
+      },
       {
         "timestamp": "2026-10-11T16:49:58.545Z",
         "totalEvents": 42,
@@ -420,17 +452,22 @@
         ],
         "channelsChanged": [],
         "total": 14
-      },
-      {
-        "timestamp": "2026-09-27T15:52:31.242Z",
-        "totalEvents": 13,
-        "added": [],
-        "removed": [],
-        "channelsChanged": [],
-        "total": 13
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-12T20:29:30.298Z",
+        "total": 10,
+        "added": [
+          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-18)"
+        ],
+        "removed": [
+          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-11)"
+        ],
+        "channelsChanged": [
+          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-12): [FOX / FOX ONE, Fox Deportes / FOX ONE]"
+        ]
+      },
       {
         "timestamp": "2026-10-11T16:50:39.408Z",
         "total": 10,
@@ -770,26 +807,20 @@
           "Chicago Cubs @ San Diego Padres (2026-09-30): [Peacock/NBCSN, Universo/ Peacock]",
           "Chicago Cubs @ San Diego Padres (2026-10-01): [Peacock/NBCSN, Universo/ Peacock]"
         ]
-      },
-      {
-        "timestamp": "2026-09-27T15:53:33.252Z",
-        "total": 33,
-        "added": [
-          "PHI/ARI @ Atlanta Braves (2026-09-29)",
-          "PHI/ARI @ Atlanta Braves (2026-09-30)",
-          "PHI/ARI @ Atlanta Braves (2026-10-01)",
-          "NL 4/5 Winner @ Milwaukee Brewers (2026-10-04)",
-          "NL 3/6 Winner @ Los Angeles Dodgers (2026-10-04)"
-        ],
-        "removed": [
-          "NL Wild Card #3 @ Atlanta Braves (2026-09-29)",
-          "NL Wild Card #3 @ Atlanta Braves (2026-09-30)",
-          "NL Wild Card #3 @ Atlanta Braves (2026-10-01)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-12T20:30:12.097Z",
+        "total": 54,
+        "added": [
+          "One Friday Fights 175 (2026-10-16)"
+        ],
+        "removed": [
+          "One Friday Fights 175 (2026-10-16)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-11T16:51:24.281Z",
         "total": 54,
@@ -1013,17 +1044,6 @@
         "total": 49,
         "added": [
           "One Friday Fights 173 (2026-10-02)"
-        ],
-        "removed": [
-          "Professional Shooto 2026 Vol. 6 (2026-09-27)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-27T15:54:16.100Z",
-        "total": 49,
-        "added": [
-          "Professional Shooto 2026 Vol. 6 (2026-09-27)"
         ],
         "removed": [
           "Professional Shooto 2026 Vol. 6 (2026-09-27)"

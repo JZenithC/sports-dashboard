@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-11T16:51:24.280Z",
+  "generatedAt": "2026-10-12T20:30:12.096Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -18,15 +18,7 @@
           "weightClass": null
         },
         {
-          "title": "Takuma Uchiyama v Koki Mishima",
-          "weightClass": null
-        },
-        {
-          "title": "Kousuke Sugimura v Taisei Mizusugi",
-          "weightClass": null
-        },
-        {
-          "title": "Yuta Kawashima v Kentaro Hachisu",
+          "title": "Koki Mishima v Takuma Uchiyama",
           "weightClass": null
         },
         {
@@ -34,23 +26,23 @@
           "weightClass": null
         },
         {
-          "title": "Akiyoshi Shimomura v Ruka Tokito",
+          "title": "Yuta Kawashima v Kentaro Hachisu",
           "weightClass": null
         },
         {
-          "title": "Kazuki Ichikawa v Ruku Nakamura",
+          "title": "Ruka Tokito v Akiyoshi Shimomura",
           "weightClass": null
         },
         {
-          "title": "Takumi Ishida v Takuya Kuramoto",
+          "title": "Ruku Nakamura v Kazuki Ichikawa",
           "weightClass": null
         },
         {
-          "title": "Kaoru Tsubaki v Seiya Tachi",
+          "title": "Takuya Kuramoto v Kinji Orben",
           "weightClass": null
         },
         {
-          "title": "Takeshi Aota v Riku Furuichi",
+          "title": "Riku Furuichi v Takeshi Aota",
           "weightClass": null
         },
         {
@@ -62,6 +54,10 @@
           "weightClass": null
         },
         {
+          "title": "Seiya Tachi v Kaoru Tsubaki",
+          "weightClass": null
+        },
+        {
           "title": "Shion Kato v Shoki Matsuo",
           "weightClass": null
         },
@@ -70,15 +66,23 @@
           "weightClass": null
         },
         {
-          "title": "Yuki Yasuda v Kotarou Ozeki",
-          "weightClass": null
-        },
-        {
           "title": "Ryoma Adegawa v Ryua Hayakawa",
           "weightClass": null
         },
         {
           "title": "Fumito Takahashi v Lucas Nagai",
+          "weightClass": null
+        },
+        {
+          "title": "Yuki Yasuda v Kotarou Ozeki",
+          "weightClass": null
+        },
+        {
+          "title": "Mao Takada v Shouto Kurota",
+          "weightClass": null
+        },
+        {
+          "title": "Taiga Soda v Toma Toma",
           "weightClass": null
         }
       ],
@@ -109,40 +113,32 @@
             "b": "Kakuto Ito"
           },
           {
-            "a": "Takuma Uchiyama",
-            "b": "Koki Mishima"
-          },
-          {
-            "a": "Kousuke Sugimura",
-            "b": "Taisei Mizusugi"
-          },
-          {
-            "a": "Yuta Kawashima",
-            "b": "Kentaro Hachisu"
+            "a": "Koki Mishima",
+            "b": "Takuma Uchiyama"
           },
           {
             "a": "Takuma Iwase",
             "b": "Yuichi Nakamura"
           },
           {
-            "a": "Akiyoshi Shimomura",
-            "b": "Ruka Tokito"
+            "a": "Yuta Kawashima",
+            "b": "Kentaro Hachisu"
           },
           {
-            "a": "Kazuki Ichikawa",
-            "b": "Ruku Nakamura"
+            "a": "Ruka Tokito",
+            "b": "Akiyoshi Shimomura"
           },
           {
-            "a": "Takumi Ishida",
-            "b": "Takuya Kuramoto"
+            "a": "Ruku Nakamura",
+            "b": "Kazuki Ichikawa"
           },
           {
-            "a": "Kaoru Tsubaki",
-            "b": "Seiya Tachi"
+            "a": "Takuya Kuramoto",
+            "b": "Kinji Orben"
           },
           {
-            "a": "Takeshi Aota",
-            "b": "Riku Furuichi"
+            "a": "Riku Furuichi",
+            "b": "Takeshi Aota"
           },
           {
             "a": "Seiyu Sato",
@@ -153,6 +149,10 @@
             "b": "Yuto Hirose"
           },
           {
+            "a": "Seiya Tachi",
+            "b": "Kaoru Tsubaki"
+          },
+          {
             "a": "Shion Kato",
             "b": "Shoki Matsuo"
           },
@@ -161,16 +161,24 @@
             "b": "Masaki Kitami"
           },
           {
-            "a": "Yuki Yasuda",
-            "b": "Kotarou Ozeki"
-          },
-          {
             "a": "Ryoma Adegawa",
             "b": "Ryua Hayakawa"
           },
           {
             "a": "Fumito Takahashi",
             "b": "Lucas Nagai"
+          },
+          {
+            "a": "Yuki Yasuda",
+            "b": "Kotarou Ozeki"
+          },
+          {
+            "a": "Mao Takada",
+            "b": "Shouto Kurota"
+          },
+          {
+            "a": "Taiga Soda",
+            "b": "Toma Toma"
           }
         ]
       },
@@ -190,7 +198,7 @@
       "undercard": [
         {
           "title": "Jason Asher v Greg Foster",
-          "weightClass": "Featherweight"
+          "weightClass": "Lightweight"
         },
         {
           "title": "Davi Cabral v Douglas da Lapa",
@@ -244,7 +252,7 @@
           {
             "a": "Jason Asher",
             "b": "Greg Foster",
-            "weightClass": "Featherweight"
+            "weightClass": "Lightweight"
           },
           {
             "a": "Davi Cabral",
@@ -543,14 +551,19 @@
       "org": "MMA",
       "eventName": "One Friday Fights 175",
       "eventTag": "One Friday Fights 175 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "One Friday Fights 175",
+      "homeTeam": "Javier Cabrera",
+      "awayTeam": "Sanjaya Hutagaol",
+      "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Ashok Bagade v Yuto Shioya",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-10-16T23:59:00Z",
       "kickoffLocal": null,
@@ -567,11 +580,19 @@
         "venue": "Lumpinee Boxing Stadium",
         "city": "Bangkok, Thailand",
         "href": "/events/One-Championship-One-Friday-Fights-175-114701",
-        "mainEventFighters": [],
+        "mainEventFighters": [
+          "Javier Cabrera",
+          "Sanjaya Hutagaol"
+        ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Ashok Bagade",
+            "b": "Yuto Shioya"
+          }
+        ]
       },
-      "watchKey": "fights:MMA|null|null|2026-10-16"
+      "watchKey": "fights:MMA|Javier Cabrera|Sanjaya Hutagaol|2026-10-16"
     },
     {
       "org": "Boxing",
@@ -654,18 +675,6 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "Katlyn Cerminara v Mackenzie Stiller",
-          "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Javad Mahjoub v Joel Faglier",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Julien LeBlanc v Nick Galanti",
-          "weightClass": "Middleweight"
-        },
-        {
           "title": "SuYoung You v Cody Chovancek",
           "weightClass": "Bantamweight"
         },
@@ -676,6 +685,18 @@
         {
           "title": "Chad Anheliger v Steven Koslow",
           "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Katlyn Cerminara v Mackenzie Stiller",
+          "weightClass": "W Flyweight"
+        },
+        {
+          "title": "Javad Mahjoub v Joel Faglier",
+          "weightClass": "Heavyweight"
+        },
+        {
+          "title": "Julien LeBlanc v Nick Galanti",
+          "weightClass": "Middleweight"
         },
         {
           "title": "Tanner Boser v Jhonata Diniz",
@@ -749,21 +770,6 @@
         ],
         "bouts": [
           {
-            "a": "Katlyn Cerminara",
-            "b": "Mackenzie Stiller",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Javad Mahjoub",
-            "b": "Joel Faglier",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Julien LeBlanc",
-            "b": "Nick Galanti",
-            "weightClass": "Middleweight"
-          },
-          {
             "a": "SuYoung You",
             "b": "Cody Chovancek",
             "weightClass": "Bantamweight"
@@ -777,6 +783,21 @@
             "a": "Chad Anheliger",
             "b": "Steven Koslow",
             "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Katlyn Cerminara",
+            "b": "Mackenzie Stiller",
+            "weightClass": "W Flyweight"
+          },
+          {
+            "a": "Javad Mahjoub",
+            "b": "Joel Faglier",
+            "weightClass": "Heavyweight"
+          },
+          {
+            "a": "Julien LeBlanc",
+            "b": "Nick Galanti",
+            "weightClass": "Middleweight"
           },
           {
             "a": "Tanner Boser",
@@ -839,6 +860,10 @@
           "weightClass": null
         },
         {
+          "title": "Matus Juracek v Jozef Wittner",
+          "weightClass": null
+        },
+        {
           "title": "David Dvorak v Aaron Aby",
           "weightClass": null
         },
@@ -847,7 +872,7 @@
           "weightClass": null
         },
         {
-          "title": "Matus Juracek v Jozef Wittner",
+          "title": "Vaclav Stepan v Sami Zarabi",
           "weightClass": null
         },
         {
@@ -855,7 +880,7 @@
           "weightClass": null
         },
         {
-          "title": "Husein Kadimagomaev v Unknown Fighter",
+          "title": "Husein Kadimagomaev v Marco Elpidio",
           "weightClass": null
         },
         {
@@ -863,7 +888,7 @@
           "weightClass": null
         },
         {
-          "title": "Vaclav Stepan v Sami Zarabi",
+          "title": "Patrik Pikes v Rakhim Iliskhanov",
           "weightClass": null
         }
       ],
@@ -894,6 +919,10 @@
             "b": "Tomasz Narkun"
           },
           {
+            "a": "Matus Juracek",
+            "b": "Jozef Wittner"
+          },
+          {
             "a": "David Dvorak",
             "b": "Aaron Aby"
           },
@@ -902,8 +931,8 @@
             "b": "Timo Feucht"
           },
           {
-            "a": "Matus Juracek",
-            "b": "Jozef Wittner"
+            "a": "Vaclav Stepan",
+            "b": "Sami Zarabi"
           },
           {
             "a": "Marco Novak",
@@ -911,15 +940,15 @@
           },
           {
             "a": "Husein Kadimagomaev",
-            "b": "Unknown Fighter"
+            "b": "Marco Elpidio"
           },
           {
             "a": "Viktor Cervinsky",
             "b": "Daniel Hromek"
           },
           {
-            "a": "Vaclav Stepan",
-            "b": "Sami Zarabi"
+            "a": "Patrik Pikes",
+            "b": "Rakhim Iliskhanov"
           }
         ]
       },
@@ -1810,6 +1839,10 @@
         {
           "title": "Bakhtovar Yunusov v Saidyokub Kakhramonov",
           "weightClass": null
+        },
+        {
+          "title": "Nashkho Galaev v Tural Ragimov",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -1865,6 +1898,10 @@
           {
             "a": "Bakhtovar Yunusov",
             "b": "Saidyokub Kakhramonov"
+          },
+          {
+            "a": "Nashkho Galaev",
+            "b": "Tural Ragimov"
           }
         ]
       },
@@ -2504,7 +2541,7 @@
           "weightClass": null
         },
         {
-          "title": "Michael Deiga Scheck v Unknown Fighter",
+          "title": "Michael Deiga Scheck v Lukas Chotenovsky",
           "weightClass": null
         },
         {
@@ -2572,7 +2609,7 @@
           },
           {
             "a": "Michael Deiga Scheck",
-            "b": "Unknown Fighter"
+            "b": "Lukas Chotenovsky"
           },
           {
             "a": "Endrit Brajshori",
@@ -7357,172 +7394,9 @@
         ]
       },
       "watchKey": "fights:UFC|George Staines|Loai Abushaar|2026-09-30"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Professional Shooto 2026 Vol. 6",
-      "eventTag": "Professional Shooto 2026 Vol. 6 · New Pier Hall, Minato, Tokyo, Japan",
-      "homeTeam": "Noa Tokumoto",
-      "awayTeam": "Hikaru Aono",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Haruki Kawakita v Goki Nakano",
-          "weightClass": null
-        },
-        {
-          "title": "Erika Gibo v Momoka Hoshuyama",
-          "weightClass": null
-        },
-        {
-          "title": "Chiyo Takamoto v Atsuhi Takada",
-          "weightClass": null
-        },
-        {
-          "title": "Hikaru Omori v Tsubasa Saito",
-          "weightClass": null
-        },
-        {
-          "title": "Yuki Iwakura v Kento Azumi",
-          "weightClass": null
-        },
-        {
-          "title": "Yuuki Takeda v Rui Sekine",
-          "weightClass": null
-        },
-        {
-          "title": "Takumi Yoshimura v Shunya Uesugi",
-          "weightClass": null
-        },
-        {
-          "title": "Yutaka Shimamura v Hiroshi Yoshigoe",
-          "weightClass": null
-        },
-        {
-          "title": "Kotetsu Fukami v Taisei Usami",
-          "weightClass": null
-        },
-        {
-          "title": "Kotaro Ito v Adil Cherfi",
-          "weightClass": null
-        },
-        {
-          "title": "Shinsaku Midori v Kouki Kato",
-          "weightClass": null
-        },
-        {
-          "title": "Yushi Fukuda v Takuma Kikunishi",
-          "weightClass": null
-        },
-        {
-          "title": "Towa Saito v Eitaro Ito",
-          "weightClass": null
-        },
-        {
-          "title": "Zen Katooka v Kanau Sato",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-09-27T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-09-27",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Shooto-Professional-Shooto-2026-Vol-6-113931",
-        "name": "Professional Shooto 2026 Vol. 6",
-        "dateUTC": null,
-        "dateOnly": "2026-09-27",
-        "venue": "New Pier Hall",
-        "city": "Minato, Tokyo, Japan",
-        "href": "/events/Shooto-Professional-Shooto-2026-Vol-6-113931",
-        "mainEventFighters": [
-          "Noa Tokumoto",
-          "Hikaru Aono"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Haruki Kawakita",
-            "b": "Goki Nakano"
-          },
-          {
-            "a": "Erika Gibo",
-            "b": "Momoka Hoshuyama"
-          },
-          {
-            "a": "Chiyo Takamoto",
-            "b": "Atsuhi Takada"
-          },
-          {
-            "a": "Hikaru Omori",
-            "b": "Tsubasa Saito"
-          },
-          {
-            "a": "Yuki Iwakura",
-            "b": "Kento Azumi"
-          },
-          {
-            "a": "Yuuki Takeda",
-            "b": "Rui Sekine"
-          },
-          {
-            "a": "Takumi Yoshimura",
-            "b": "Shunya Uesugi"
-          },
-          {
-            "a": "Yutaka Shimamura",
-            "b": "Hiroshi Yoshigoe"
-          },
-          {
-            "a": "Kotetsu Fukami",
-            "b": "Taisei Usami"
-          },
-          {
-            "a": "Kotaro Ito",
-            "b": "Adil Cherfi"
-          },
-          {
-            "a": "Shinsaku Midori",
-            "b": "Kouki Kato"
-          },
-          {
-            "a": "Yushi Fukuda",
-            "b": "Takuma Kikunishi"
-          },
-          {
-            "a": "Towa Saito",
-            "b": "Eitaro Ito"
-          },
-          {
-            "a": "Zen Katooka",
-            "b": "Kanau Sato"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Noa Tokumoto|Hikaru Aono|2026-09-27"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-11T21:00:00.000Z",
-      "endsAtUTC": "2026-10-11T23:00:00.000Z",
-      "timeUK": "Sun 11 Oct, 22:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Bellator 209: Pitbull v Sanchez",
-      "sublabel": "Bellator MMA"
-    },
     {
       "airTimeUTC": "2026-10-15T18:00:00.000Z",
       "endsAtUTC": "2026-10-15T22:00:00.000Z",
