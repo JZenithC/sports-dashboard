@@ -1,7 +1,32 @@
 {
-  "generatedAt": "2026-10-12T20:30:12.097Z",
+  "generatedAt": "2026-10-13T18:35:42.009Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-13T18:33:54.903Z",
+        "totalEvents": 34,
+        "added": [
+          "Newell's Old Boys vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
+          "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
+          "Deportivo Riestra vs Unión Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15"
+        ],
+        "removed": [
+          "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30",
+          "Chapecoense vs Athletico Paranaense (Campeonato Brasileiro Série A) — Mon 12 Oct, 19:30",
+          "Red Bull Bragantino vs Cruzeiro (Campeonato Brasileiro Série A) — Mon 12 Oct, 21:00"
+        ],
+        "channelsChanged": [
+          "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Wed 14 Oct, 19:00: [DISNEY+, Disney+ Premium, TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Fluminense vs Palmeiras (CONMEBOL Libertadores) — Wed 14 Oct, 21:30: [Disney+ Premium, ESPN, FOX Sports, PARAMOUNT+]",
+          "Necaxa vs Atlas (Liga MX) — Fri 16 Oct, 19:00: [FOX One, FOX+]",
+          "Tijuana vs Puebla (Liga MX) — Fri 16 Oct, 21:00: [FOX One, FOX+]",
+          "Toluca vs Atlético San Luis (Liga MX) — Sat 17 Oct, 19:00: [Canal 5, TUDN, ViX Premium]",
+          "Club León vs América (Liga MX) — Sat 17 Oct, 19:00: [FOX One, FOX+]",
+          "Cruz Azul vs FC Juárez (Liga MX) — Sat 17 Oct, 21:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+          "Fluminense vs Santos (Campeonato Brasileiro Série A) — Sun 18 Oct, 16:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Globo Internacional]"
+        ],
+        "total": 34
+      },
       {
         "timestamp": "2026-10-12T20:28:51.020Z",
         "totalEvents": 34,
@@ -431,30 +456,22 @@
         "removed": [],
         "channelsChanged": [],
         "total": 14
-      },
-      {
-        "timestamp": "2026-09-28T05:42:16.107Z",
-        "totalEvents": 14,
-        "added": [
-          "Boca Juniors vs Unión Santa Fe (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30",
-          "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45",
-          "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45",
-          "Talleres de Córdoba vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 04 Oct, 17:00",
-          "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sun 04 Oct, 19:15",
-          "Estudiantes de Río Cuarto vs Racing Club (Liga Profesional de Fútbol) — Sun 04 Oct, 21:30"
-        ],
-        "removed": [
-          "Pumas UNAM vs Atlético San Luis (Liga MX) — Sun 27 Sept, 12:00",
-          "Racing Club vs Boca Juniors (Copa Argentina) — Sun 27 Sept, 17:00",
-          "Platense vs Estudiantes de La Plata (Copa Argentina) — Sun 27 Sept, 17:00",
-          "Club León vs FC Juárez (Liga MX) — Sun 27 Sept, 19:00",
-          "Necaxa vs América (Liga MX) — Sun 27 Sept, 21:10"
-        ],
-        "channelsChanged": [],
-        "total": 14
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-13T18:34:46.289Z",
+        "total": 10,
+        "added": [
+          "Cleveland Guardians @ Tampa Bay Rays (2026-10-19)",
+          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-19)"
+        ],
+        "removed": [
+          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-12)",
+          "Cleveland Guardians @ Tampa Bay Rays (2026-10-12)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-12T20:29:30.298Z",
         "total": 10,
@@ -755,61 +772,20 @@
         ],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-28T05:42:54.430Z",
-        "total": 18,
-        "added": [
-          "Philadelphia Phillies @ Atlanta Braves (2026-09-29)",
-          "Chicago White Sox @ Houston Astros (2026-09-29)",
-          "Philadelphia Phillies @ Atlanta Braves (2026-09-30)",
-          "Chicago White Sox @ Houston Astros (2026-09-30)",
-          "Philadelphia Phillies @ Atlanta Braves (2026-10-01)",
-          "Chicago White Sox @ Houston Astros (2026-10-01)",
-          "HOU/CWS @ Cleveland Guardians (2026-10-03)",
-          "NYY/BOS @ Tampa Bay Rays (2026-10-03)",
-          "SD/CHC @ Milwaukee Brewers (2026-10-03)",
-          "ATL/PHI @ Los Angeles Dodgers (2026-10-03)",
-          "SD/CHC @ Milwaukee Brewers (2026-10-04)",
-          "ATL/PHI @ Los Angeles Dodgers (2026-10-04)"
-        ],
-        "removed": [
-          "New York Mets @ Washington Nationals (2026-09-27)",
-          "Baltimore Orioles @ New York Yankees (2026-09-27)",
-          "Tampa Bay Rays @ Philadelphia Phillies (2026-09-27)",
-          "Chicago Cubs @ Boston Red Sox (2026-09-27)",
-          "Houston Astros @ Athletics (2026-09-27)",
-          "Los Angeles Dodgers @ San Francisco Giants (2026-09-27)",
-          "Cincinnati Reds @ Toronto Blue Jays (2026-09-27)",
-          "Cleveland Guardians @ Kansas City Royals (2026-09-27)",
-          "Pittsburgh Pirates @ Detroit Tigers (2026-09-27)",
-          "Arizona Diamondbacks @ San Diego Padres (2026-09-27)",
-          "Los Angeles Angels @ Seattle Mariners (2026-09-27)",
-          "Texas Rangers @ Minnesota Twins (2026-09-27)",
-          "Colorado Rockies @ Chicago White Sox (2026-09-27)",
-          "Atlanta Braves @ Miami Marlins (2026-09-27)",
-          "St. Louis Cardinals @ Milwaukee Brewers (2026-09-27)",
-          "Chicago White Sox @ HOU/TEX (2026-09-29)",
-          "PHI/ARI @ Atlanta Braves (2026-09-29)",
-          "Chicago White Sox @ HOU/TEX (2026-09-30)",
-          "PHI/ARI @ Atlanta Braves (2026-09-30)",
-          "Chicago White Sox @ HOU/TEX (2026-10-01)",
-          "PHI/ARI @ Atlanta Braves (2026-10-01)",
-          "AL 3/6 Winner @ Cleveland Guardians (2026-10-03)",
-          "AL 4/5 Winner @ Tampa Bay Rays (2026-10-03)",
-          "NL 4/5 Winner @ Milwaukee Brewers (2026-10-03)",
-          "NL 3/6 Winner @ Los Angeles Dodgers (2026-10-03)",
-          "NL 4/5 Winner @ Milwaukee Brewers (2026-10-04)",
-          "NL 3/6 Winner @ Los Angeles Dodgers (2026-10-04)"
-        ],
-        "channelsChanged": [
-          "Chicago Cubs @ San Diego Padres (2026-09-29): [Peacock/NBCSN, Universo/ Peacock]",
-          "Chicago Cubs @ San Diego Padres (2026-09-30): [Peacock/NBCSN, Universo/ Peacock]",
-          "Chicago Cubs @ San Diego Padres (2026-10-01): [Peacock/NBCSN, Universo/ Peacock]"
-        ]
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-13T18:35:42.008Z",
+        "total": 54,
+        "added": [
+          "One Friday Fights 178 (2026-11-13)"
+        ],
+        "removed": [
+          "Deep: Hamamatsu Impact 2026 2nd Round (2026-10-12)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-12T20:30:12.097Z",
         "total": 54,
@@ -1036,17 +1012,6 @@
         ],
         "removed": [
           "Pancrase: 367 (2026-10-04)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-28T05:43:36.450Z",
-        "total": 49,
-        "added": [
-          "One Friday Fights 173 (2026-10-02)"
-        ],
-        "removed": [
-          "Professional Shooto 2026 Vol. 6 (2026-09-27)"
         ],
         "channelsChanged": []
       }

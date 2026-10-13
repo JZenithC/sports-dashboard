@@ -1,189 +1,6 @@
 {
-  "generatedAt": "2026-10-12T20:30:12.096Z",
+  "generatedAt": "2026-10-13T18:35:42.008Z",
   "upcoming": [
-    {
-      "org": "MMA",
-      "eventName": "Deep: Hamamatsu Impact 2026 2nd Round",
-      "eventTag": "Deep · Act City Hamamatsu, Hamamatsu, Shizuoka, Japan",
-      "homeTeam": "Kenji Kato",
-      "awayTeam": "Junya Hibino",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Nobuyoshi Nakatsukasa v Kakuto Ito",
-          "weightClass": null
-        },
-        {
-          "title": "Koki Mishima v Takuma Uchiyama",
-          "weightClass": null
-        },
-        {
-          "title": "Takuma Iwase v Yuichi Nakamura",
-          "weightClass": null
-        },
-        {
-          "title": "Yuta Kawashima v Kentaro Hachisu",
-          "weightClass": null
-        },
-        {
-          "title": "Ruka Tokito v Akiyoshi Shimomura",
-          "weightClass": null
-        },
-        {
-          "title": "Ruku Nakamura v Kazuki Ichikawa",
-          "weightClass": null
-        },
-        {
-          "title": "Takuya Kuramoto v Kinji Orben",
-          "weightClass": null
-        },
-        {
-          "title": "Riku Furuichi v Takeshi Aota",
-          "weightClass": null
-        },
-        {
-          "title": "Seiyu Sato v Yu Maeda",
-          "weightClass": null
-        },
-        {
-          "title": "Rikuya Nosaka v Yuto Hirose",
-          "weightClass": null
-        },
-        {
-          "title": "Seiya Tachi v Kaoru Tsubaki",
-          "weightClass": null
-        },
-        {
-          "title": "Shion Kato v Shoki Matsuo",
-          "weightClass": null
-        },
-        {
-          "title": "Souta Kikuchi v Masaki Kitami",
-          "weightClass": null
-        },
-        {
-          "title": "Ryoma Adegawa v Ryua Hayakawa",
-          "weightClass": null
-        },
-        {
-          "title": "Fumito Takahashi v Lucas Nagai",
-          "weightClass": null
-        },
-        {
-          "title": "Yuki Yasuda v Kotarou Ozeki",
-          "weightClass": null
-        },
-        {
-          "title": "Mao Takada v Shouto Kurota",
-          "weightClass": null
-        },
-        {
-          "title": "Taiga Soda v Toma Toma",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-12T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-12",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Deep-Hamamatsu-Impact-2026-2nd-Round-113939",
-        "name": "Deep: Hamamatsu Impact 2026 2nd Round",
-        "dateUTC": null,
-        "dateOnly": "2026-10-12",
-        "venue": "Act City Hamamatsu",
-        "city": "Hamamatsu, Shizuoka, Japan",
-        "href": "/events/Deep-Hamamatsu-Impact-2026-2nd-Round-113939",
-        "mainEventFighters": [
-          "Kenji Kato",
-          "Junya Hibino"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Nobuyoshi Nakatsukasa",
-            "b": "Kakuto Ito"
-          },
-          {
-            "a": "Koki Mishima",
-            "b": "Takuma Uchiyama"
-          },
-          {
-            "a": "Takuma Iwase",
-            "b": "Yuichi Nakamura"
-          },
-          {
-            "a": "Yuta Kawashima",
-            "b": "Kentaro Hachisu"
-          },
-          {
-            "a": "Ruka Tokito",
-            "b": "Akiyoshi Shimomura"
-          },
-          {
-            "a": "Ruku Nakamura",
-            "b": "Kazuki Ichikawa"
-          },
-          {
-            "a": "Takuya Kuramoto",
-            "b": "Kinji Orben"
-          },
-          {
-            "a": "Riku Furuichi",
-            "b": "Takeshi Aota"
-          },
-          {
-            "a": "Seiyu Sato",
-            "b": "Yu Maeda"
-          },
-          {
-            "a": "Rikuya Nosaka",
-            "b": "Yuto Hirose"
-          },
-          {
-            "a": "Seiya Tachi",
-            "b": "Kaoru Tsubaki"
-          },
-          {
-            "a": "Shion Kato",
-            "b": "Shoki Matsuo"
-          },
-          {
-            "a": "Souta Kikuchi",
-            "b": "Masaki Kitami"
-          },
-          {
-            "a": "Ryoma Adegawa",
-            "b": "Ryua Hayakawa"
-          },
-          {
-            "a": "Fumito Takahashi",
-            "b": "Lucas Nagai"
-          },
-          {
-            "a": "Yuki Yasuda",
-            "b": "Kotarou Ozeki"
-          },
-          {
-            "a": "Mao Takada",
-            "b": "Shouto Kurota"
-          },
-          {
-            "a": "Taiga Soda",
-            "b": "Toma Toma"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Kenji Kato|Junya Hibino|2026-10-12"
-    },
     {
       "org": "UFC",
       "eventName": "Dana White's Contender Series: Season 10, Week 10",
@@ -296,7 +113,7 @@
       "orgLogo": "/logos/orgs/pfl.png",
       "undercard": [
         {
-          "title": "Morquez Forest v Levan Khabalaev",
+          "title": "Levan Khabalaev v Brock Hamer",
           "weightClass": "Lightweight"
         },
         {
@@ -400,8 +217,8 @@
         ],
         "bouts": [
           {
-            "a": "Morquez Forest",
-            "b": "Levan Khabalaev",
+            "a": "Levan Khabalaev",
+            "b": "Brock Hamer",
             "weightClass": "Lightweight"
           },
           {
@@ -1353,6 +1170,10 @@
           "weightClass": "Bantamweight"
         },
         {
+          "title": "Aaron Pico v Losene Keita",
+          "weightClass": "Featherweight"
+        },
+        {
           "title": "Grant Dawson v Nurullo Aliev",
           "weightClass": "Lightweight"
         },
@@ -1367,10 +1188,6 @@
         {
           "title": "Azamat Murzakanov v Dominick Reyes",
           "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Aaron Pico v Losene Keita",
-          "weightClass": "Featherweight"
         },
         {
           "title": "Alexander Volkov v Rizvan Kuniev",
@@ -1437,6 +1254,11 @@
             "weightClass": "Bantamweight"
           },
           {
+            "a": "Aaron Pico",
+            "b": "Losene Keita",
+            "weightClass": "Featherweight"
+          },
+          {
             "a": "Grant Dawson",
             "b": "Nurullo Aliev",
             "weightClass": "Lightweight"
@@ -1455,11 +1277,6 @@
             "a": "Azamat Murzakanov",
             "b": "Dominick Reyes",
             "weightClass": "Light Heavyweight"
-          },
-          {
-            "a": "Aaron Pico",
-            "b": "Losene Keita",
-            "weightClass": "Featherweight"
           },
           {
             "a": "Alexander Volkov",
@@ -2410,10 +2227,6 @@
           "weightClass": null
         },
         {
-          "title": "Amir Aliev v Adionai Maciel",
-          "weightClass": null
-        },
-        {
           "title": "Andrii Misiuk v Phruethukorn Chaichongcharden",
           "weightClass": null
         },
@@ -2471,10 +2284,6 @@
           {
             "a": "Sofiane El Fatni",
             "b": "Mario Gagliardi"
-          },
-          {
-            "a": "Amir Aliev",
-            "b": "Adionai Maciel"
           },
           {
             "a": "Andrii Misiuk",
@@ -4103,6 +3912,40 @@
       "watchKey": "fights:Boxing|Steven Butler|Erik Bazinyan|2026-11-12"
     },
     {
+      "org": "MMA",
+      "eventName": "One Friday Fights 178",
+      "eventTag": "One Friday Fights 178 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": null,
+      "awayTeam": null,
+      "cardTitle": "One Friday Fights 178",
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-13T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-13",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-Friday-Fights-178-114883",
+        "name": "One Friday Fights 178",
+        "dateUTC": null,
+        "dateOnly": "2026-11-13",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-Friday-Fights-178-114883",
+        "mainEventFighters": [],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|null|null|2026-11-13"
+    },
+    {
       "org": "Boxing",
       "eventName": "Bryan Flores-Jose Nunez",
       "eventTag": "Boxing · El Paso County Coliseum, El Paso, Texas",
@@ -4551,7 +4394,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Procházka vs. Stirling",
-      "eventTag": "UFC Fight Night · ABHA Arena, Doha · 9-fight card · main card Sat 21 Nov, 17:00 UK",
+      "eventTag": "UFC Fight Night · ABHA Arena, Doha · 9-fight card · main card Sat 21 Nov, 18:00 UK",
       "homeTeam": "Jiří Procházka",
       "awayTeam": "Navajo Stirling",
       "cardTitle": null,
@@ -4594,9 +4437,9 @@
         }
       ],
       "poster": null,
-      "kickoffUTC": "2026-11-21T14:00Z",
+      "kickoffUTC": "2026-11-21T15:00Z",
       "kickoffLocal": null,
-      "kickoffUK": "Sat 21 Nov, 14:00",
+      "kickoffUK": "Sat 21 Nov, 15:00",
       "localDate": "2026-11-21",
       "channels": [],
       "broadcastGroups": [
@@ -4625,8 +4468,8 @@
         "org": "UFC",
         "espnId": "600061665",
         "name": "UFC Fight Night: Procházka vs. Stirling",
-        "dateUTC": "2026-11-21T14:00Z",
-        "mainCardUTC": "2026-11-21T17:00Z",
+        "dateUTC": "2026-11-21T15:00Z",
+        "mainCardUTC": "2026-11-21T18:00Z",
         "venue": "ABHA Arena",
         "city": "Doha",
         "country": "Qatar",
@@ -4996,8 +4839,8 @@
       "orgLogo": null,
       "undercard": [],
       "poster": {
-        "src": "/logos/posters/8ad0144ea70ca0b3079e.webp",
-        "attribution": "Mark Robinson/Matchroom Boxing"
+        "src": "/logos/posters/2a92dc281a4204ea9da2.webp",
+        "attribution": "DAZN"
       },
       "kickoffUTC": "2026-12-12T23:59:00Z",
       "kickoffLocal": null,
@@ -5024,8 +4867,8 @@
         "dateOnly": "2026-12-12",
         "venue": null,
         "city": null,
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/dmitryBivolCallumSmith.webp",
-        "posterAttribution": "Mark Robinson/Matchroom Boxing",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/dmitriibivolcallusmithartwork.webp",
+        "posterAttribution": "DAZN",
         "mainEventFighters": [
           "Dmitry Bivol",
           "Callum Smith"
@@ -5211,6 +5054,189 @@
     }
   ],
   "recent": [
+    {
+      "org": "MMA",
+      "eventName": "Deep: Hamamatsu Impact 2026 2nd Round",
+      "eventTag": "Deep · Act City Hamamatsu, Hamamatsu, Shizuoka, Japan",
+      "homeTeam": "Kenji Kato",
+      "awayTeam": "Junya Hibino",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Nobuyoshi Nakatsukasa v Kakuto Ito",
+          "weightClass": null
+        },
+        {
+          "title": "Koki Mishima v Takuma Uchiyama",
+          "weightClass": null
+        },
+        {
+          "title": "Takuma Iwase v Yuichi Nakamura",
+          "weightClass": null
+        },
+        {
+          "title": "Yuta Kawashima v Kentaro Hachisu",
+          "weightClass": null
+        },
+        {
+          "title": "Ruka Tokito v Akiyoshi Shimomura",
+          "weightClass": null
+        },
+        {
+          "title": "Ruku Nakamura v Kazuki Ichikawa",
+          "weightClass": null
+        },
+        {
+          "title": "Takuya Kuramoto v Kinji Orben",
+          "weightClass": null
+        },
+        {
+          "title": "Riku Furuichi v Takeshi Aota",
+          "weightClass": null
+        },
+        {
+          "title": "Seiyu Sato v Yu Maeda",
+          "weightClass": null
+        },
+        {
+          "title": "Rikuya Nosaka v Yuto Hirose",
+          "weightClass": null
+        },
+        {
+          "title": "Seiya Tachi v Kaoru Tsubaki",
+          "weightClass": null
+        },
+        {
+          "title": "Shion Kato v Shoki Matsuo",
+          "weightClass": null
+        },
+        {
+          "title": "Souta Kikuchi v Masaki Kitami",
+          "weightClass": null
+        },
+        {
+          "title": "Ryoma Adegawa v Ryua Hayakawa",
+          "weightClass": null
+        },
+        {
+          "title": "Fumito Takahashi v Lucas Nagai",
+          "weightClass": null
+        },
+        {
+          "title": "Yuki Yasuda v Kotarou Ozeki",
+          "weightClass": null
+        },
+        {
+          "title": "Mao Takada v Shouto Kurota",
+          "weightClass": null
+        },
+        {
+          "title": "Taiga Soda v Toma Toma",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-12T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-12",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Deep-Hamamatsu-Impact-2026-2nd-Round-113939",
+        "name": "Deep: Hamamatsu Impact 2026 2nd Round",
+        "dateUTC": null,
+        "dateOnly": "2026-10-12",
+        "venue": "Act City Hamamatsu",
+        "city": "Hamamatsu, Shizuoka, Japan",
+        "href": "/events/Deep-Hamamatsu-Impact-2026-2nd-Round-113939",
+        "mainEventFighters": [
+          "Kenji Kato",
+          "Junya Hibino"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Nobuyoshi Nakatsukasa",
+            "b": "Kakuto Ito"
+          },
+          {
+            "a": "Koki Mishima",
+            "b": "Takuma Uchiyama"
+          },
+          {
+            "a": "Takuma Iwase",
+            "b": "Yuichi Nakamura"
+          },
+          {
+            "a": "Yuta Kawashima",
+            "b": "Kentaro Hachisu"
+          },
+          {
+            "a": "Ruka Tokito",
+            "b": "Akiyoshi Shimomura"
+          },
+          {
+            "a": "Ruku Nakamura",
+            "b": "Kazuki Ichikawa"
+          },
+          {
+            "a": "Takuya Kuramoto",
+            "b": "Kinji Orben"
+          },
+          {
+            "a": "Riku Furuichi",
+            "b": "Takeshi Aota"
+          },
+          {
+            "a": "Seiyu Sato",
+            "b": "Yu Maeda"
+          },
+          {
+            "a": "Rikuya Nosaka",
+            "b": "Yuto Hirose"
+          },
+          {
+            "a": "Seiya Tachi",
+            "b": "Kaoru Tsubaki"
+          },
+          {
+            "a": "Shion Kato",
+            "b": "Shoki Matsuo"
+          },
+          {
+            "a": "Souta Kikuchi",
+            "b": "Masaki Kitami"
+          },
+          {
+            "a": "Ryoma Adegawa",
+            "b": "Ryua Hayakawa"
+          },
+          {
+            "a": "Fumito Takahashi",
+            "b": "Lucas Nagai"
+          },
+          {
+            "a": "Yuki Yasuda",
+            "b": "Kotarou Ozeki"
+          },
+          {
+            "a": "Mao Takada",
+            "b": "Shouto Kurota"
+          },
+          {
+            "a": "Taiga Soda",
+            "b": "Toma Toma"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Kenji Kato|Junya Hibino|2026-10-12"
+    },
     {
       "org": "Boxing",
       "eventName": "Floyd Schofield-Lucas Bahdi",
@@ -7397,6 +7423,30 @@
     }
   ],
   "replaySchedule": [
+    {
+      "airTimeUTC": "2026-10-15T06:00:00.000Z",
+      "endsAtUTC": "2026-10-15T07:00:00.000Z",
+      "timeUK": "Thu 15 Oct, 07:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Volkanovski v Holloway 3",
+      "sublabel": "UFC Main Events"
+    },
+    {
+      "airTimeUTC": "2026-10-15T07:00:00.000Z",
+      "endsAtUTC": "2026-10-15T08:00:00.000Z",
+      "timeUK": "Thu 15 Oct, 08:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Namajunas v Zhang 2",
+      "sublabel": "UFC Main Events"
+    },
     {
       "airTimeUTC": "2026-10-15T18:00:00.000Z",
       "endsAtUTC": "2026-10-15T22:00:00.000Z",

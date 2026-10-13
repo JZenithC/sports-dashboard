@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-10-13T18:33:54.903Z",
+    "totalEvents": 34,
+    "added": [
+      "Newell's Old Boys vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
+      "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
+      "Deportivo Riestra vs Unión Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15"
+    ],
+    "removed": [
+      "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30",
+      "Chapecoense vs Athletico Paranaense (Campeonato Brasileiro Série A) — Mon 12 Oct, 19:30",
+      "Red Bull Bragantino vs Cruzeiro (Campeonato Brasileiro Série A) — Mon 12 Oct, 21:00"
+    ],
+    "channelsChanged": [
+      "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Wed 14 Oct, 19:00: [DISNEY+, Disney+ Premium, TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Fluminense vs Palmeiras (CONMEBOL Libertadores) — Wed 14 Oct, 21:30: [Disney+ Premium, ESPN, FOX Sports, PARAMOUNT+]",
+      "Necaxa vs Atlas (Liga MX) — Fri 16 Oct, 19:00: [FOX One, FOX+]",
+      "Tijuana vs Puebla (Liga MX) — Fri 16 Oct, 21:00: [FOX One, FOX+]",
+      "Toluca vs Atlético San Luis (Liga MX) — Sat 17 Oct, 19:00: [Canal 5, TUDN, ViX Premium]",
+      "Club León vs América (Liga MX) — Sat 17 Oct, 19:00: [FOX One, FOX+]",
+      "Cruz Azul vs FC Juárez (Liga MX) — Sat 17 Oct, 21:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+      "Fluminense vs Santos (Campeonato Brasileiro Série A) — Sun 18 Oct, 16:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Globo Internacional]"
+    ]
+  },
+  {
     "timestamp": "2026-10-12T20:28:51.020Z",
     "totalEvents": 34,
     "added": [
@@ -119,42 +143,6 @@
       "Grêmio vs Internacional (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Fanatiz (Míralo en vivo), Flow Sports 2]",
       "Boca Juniors vs Vasco da Gama (CONMEBOL Sudamericana) — Tue 13 Oct, 21:30: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, Paramount+]",
       "Atlético Mineiro vs Montevideo City Torque (CONMEBOL Sudamericana) — Wed 14 Oct, 19:00: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, ESPN 2, Paramount+]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-08T18:04:23.250Z",
-    "totalEvents": 42,
-    "added": [
-      "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Wed 14 Oct, 19:00",
-      "Atlético Mineiro vs Montevideo City Torque (CONMEBOL Sudamericana) — Wed 14 Oct, 19:00",
-      "Fluminense vs Palmeiras (CONMEBOL Libertadores) — Wed 14 Oct, 21:30"
-    ],
-    "removed": [
-      "Internacional vs Corinthians (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
-      "Red Bull Bragantino vs Mirassol (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
-      "Remo vs Grêmio (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
-      "Vitória vs Chapecoense (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:00",
-      "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30",
-      "Cruzeiro vs São Paulo (Campeonato Brasileiro Série A) — Wed 07 Oct, 21:30"
-    ],
-    "channelsChanged": [
-      "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Gimnasia y Esgrima La Plata vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 09 Oct, 18:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Instituto (Córdoba) vs Boca Juniors (Liga Profesional de Fútbol) — Fri 09 Oct, 19:30: [DISNEY+, Disney+ Premium, ESPN 4, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Unión Santa Fe vs Defensa y Justicia (Liga Profesional de Fútbol) — Fri 09 Oct, 21:45: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-      "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
-      "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:10: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
-      "San Lorenzo vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 11 Oct, 14:45: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-      "Rosario Central vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Platense vs Argentinos Juniors (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-      "Racing Club vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 11 Oct, 19:15: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-      "Talleres de Córdoba vs Independiente (Liga Profesional de Fútbol) — Sun 11 Oct, 21:30: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Lanús vs Vélez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]"
     ]
   }
 ]
