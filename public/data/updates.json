@@ -1,7 +1,29 @@
 {
-  "generatedAt": "2026-10-13T18:35:42.009Z",
+  "generatedAt": "2026-10-14T16:02:54.521Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-14T16:01:28.053Z",
+        "totalEvents": 37,
+        "added": [
+          "Chivas Guadalajara vs Necaxa (Liga MX) — Tue 20 Oct, 18:07",
+          "Vasco da Gama vs Boca Juniors (CONMEBOL Sudamericana) — Tue 20 Oct, 21:30",
+          "FC Juárez vs Atlante (Liga MX) — Tue 20 Oct, 19:00",
+          "Tigres UANL vs Club León (Liga MX) — Tue 20 Oct, 21:00",
+          "Atlético San Luis vs Querétaro (Liga MX) — Tue 20 Oct, 22:00"
+        ],
+        "removed": [
+          "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Tue 13 Oct, 17:00",
+          "Boca Juniors vs Vasco da Gama (CONMEBOL Sudamericana) — Tue 13 Oct, 21:30"
+        ],
+        "channelsChanged": [
+          "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Wed 14 Oct, 19:00: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Fluminense vs Palmeiras (CONMEBOL Libertadores) — Wed 14 Oct, 21:30: [Disney+ Premium, ESPN, FOX Sports, GE TV, GLOBO, PARAMOUNT+]",
+          "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Thu 15 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN, ESPN 2, FOX Sports, Mitelefe.com, Pluto TV, Telefe, Telefé YouTube]",
+          "Santos Laguna vs Querétaro (Liga MX) — Sat 17 Oct, 17:00: [Disney+ Premium, ESPN, ESPN 2, Layvtime, Layvtime YouTube, ViX Premium]"
+        ],
+        "total": 37
+      },
       {
         "timestamp": "2026-10-13T18:33:54.903Z",
         "totalEvents": 34,
@@ -448,17 +470,20 @@
         "removed": [],
         "channelsChanged": [],
         "total": 18
-      },
-      {
-        "timestamp": "2026-09-28T18:47:48.816Z",
-        "totalEvents": 14,
-        "added": [],
-        "removed": [],
-        "channelsChanged": [],
-        "total": 14
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-14T16:02:06.437Z",
+        "total": 10,
+        "added": [
+          "Cleveland Guardians @ Tampa Bay Rays (2026-10-20)"
+        ],
+        "removed": [
+          "Cleveland Guardians @ Tampa Bay Rays (2026-10-13)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-13T18:34:46.289Z",
         "total": 10,
@@ -762,19 +787,18 @@
           "Boston Red Sox @ New York Yankees (2026-10-01): [NBC/Peacock, Universo/Peacock]",
           "Chicago Cubs @ San Diego Padres (2026-10-01): [Peacock/NBCSN, Universo/Peacock]"
         ]
-      },
-      {
-        "timestamp": "2026-09-28T18:48:35.626Z",
-        "total": 20,
-        "added": [
-          "HOU/CWS @ Cleveland Guardians (2026-10-05)",
-          "NYY/BOS @ Tampa Bay Rays (2026-10-05)"
-        ],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-14T16:02:54.520Z",
+        "total": 53,
+        "added": [],
+        "removed": [
+          "Dana White's Contender Series: Season 10, Week 10 (2026-10-14)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-13T18:35:42.008Z",
         "total": 54,
@@ -1000,19 +1024,6 @@
           "Agit Kabayel-Nelson Hysa  (2026-11-28)"
         ],
         "removed": [],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-28T18:49:31.018Z",
-        "total": 51,
-        "added": [
-          "Pancrase: 367 (2026-10-04)",
-          "One Friday Fights 174 (2026-10-09)",
-          "One Friday Fights 175 (2026-10-16)"
-        ],
-        "removed": [
-          "Pancrase: 367 (2026-10-04)"
-        ],
         "channelsChanged": []
       }
     ]
