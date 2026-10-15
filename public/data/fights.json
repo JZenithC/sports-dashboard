@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T16:02:54.520Z",
+  "generatedAt": "2026-10-15T15:49:53.255Z",
   "upcoming": [
     {
       "org": "PFL",
@@ -1057,7 +1057,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 333: Volkanovski vs. Evloev",
-      "eventTag": "UFC 333 · Etihad Arena, Abu Dhabi · 10-fight card · main card Sat 24 Oct, 19:00 UK",
+      "eventTag": "UFC 333 · Etihad Arena, Abu Dhabi · 11-fight card · main card Sat 24 Oct, 19:00 UK",
       "homeTeam": "Alexander Volkanovski",
       "awayTeam": "Movsar Evloev",
       "cardTitle": null,
@@ -1067,12 +1067,12 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "Colby Thicknesse v Asaf Chopurov",
-          "weightClass": "Bantamweight"
+          "title": "Abubakar Vagaev v Jacob Malkoun",
+          "weightClass": "Middleweight"
         },
         {
-          "title": "Aaron Pico v Losene Keita",
-          "weightClass": "Featherweight"
+          "title": "Colby Thicknesse v Asaf Chopurov",
+          "weightClass": "Bantamweight"
         },
         {
           "title": "Grant Dawson v Nurullo Aliev",
@@ -1089,6 +1089,10 @@
         {
           "title": "Azamat Murzakanov v Dominick Reyes",
           "weightClass": "Light Heavyweight"
+        },
+        {
+          "title": "Aaron Pico v Losene Keita",
+          "weightClass": "Featherweight"
         },
         {
           "title": "Alexander Volkov v Rizvan Kuniev",
@@ -1150,14 +1154,14 @@
         ],
         "bouts": [
           {
+            "a": "Abubakar Vagaev",
+            "b": "Jacob Malkoun",
+            "weightClass": "Middleweight"
+          },
+          {
             "a": "Colby Thicknesse",
             "b": "Asaf Chopurov",
             "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Aaron Pico",
-            "b": "Losene Keita",
-            "weightClass": "Featherweight"
           },
           {
             "a": "Grant Dawson",
@@ -1178,6 +1182,11 @@
             "a": "Azamat Murzakanov",
             "b": "Dominick Reyes",
             "weightClass": "Light Heavyweight"
+          },
+          {
+            "a": "Aaron Pico",
+            "b": "Losene Keita",
+            "weightClass": "Featherweight"
           },
           {
             "a": "Alexander Volkov",
@@ -1201,7 +1210,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 10,
+        "boutCount": 11,
         "broadcasts": [
           "Paramount+"
         ]
@@ -1878,28 +1887,36 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "Gaston Bolaños v Francis Marshall",
-          "weightClass": "Featherweight"
+          "title": "Tainara Lisboa v Lucia Szabová",
+          "weightClass": "W Flyweight"
+        },
+        {
+          "title": "Piera Rodriguez v Talita Alencar",
+          "weightClass": "W Strawweight"
+        },
+        {
+          "title": "Joe Kropschot v Nick Klein",
+          "weightClass": "Middleweight"
         },
         {
           "title": "Julian Erosa v JeongYeong Lee",
           "weightClass": "Featherweight"
         },
         {
-          "title": "Andre Petroski v Azamat Bekoev",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Jean-Paul Lebosnoyani v Farman Hasanov",
-          "weightClass": "Welterweight"
-        },
-        {
           "title": "Theodor Berggren v Rodrigo Sezinando",
           "weightClass": "Welterweight"
         },
         {
-          "title": "Piera Rodriguez v Talita Alencar",
-          "weightClass": "W Strawweight"
+          "title": "Andre Petroski v Azamat Bekoev",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Gaston Bolaños v Francis Marshall",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Jean-Paul Lebosnoyani v Farman Hasanov",
+          "weightClass": "Welterweight"
         },
         {
           "title": "Yana Santos v Luana Santos",
@@ -1908,14 +1925,6 @@
         {
           "title": "Carlos Leal v Randy Brown",
           "weightClass": "Welterweight"
-        },
-        {
-          "title": "Tainara Lisboa v Lucia Szabová",
-          "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Joe Kropschot v Nick Klein",
-          "weightClass": "Middleweight"
         }
       ],
       "poster": null,
@@ -1965,9 +1974,19 @@
         ],
         "bouts": [
           {
-            "a": "Gaston Bolaños",
-            "b": "Francis Marshall",
-            "weightClass": "Featherweight"
+            "a": "Tainara Lisboa",
+            "b": "Lucia Szabová",
+            "weightClass": "W Flyweight"
+          },
+          {
+            "a": "Piera Rodriguez",
+            "b": "Talita Alencar",
+            "weightClass": "W Strawweight"
+          },
+          {
+            "a": "Joe Kropschot",
+            "b": "Nick Klein",
+            "weightClass": "Middleweight"
           },
           {
             "a": "Julian Erosa",
@@ -1975,24 +1994,24 @@
             "weightClass": "Featherweight"
           },
           {
-            "a": "Andre Petroski",
-            "b": "Azamat Bekoev",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Jean-Paul Lebosnoyani",
-            "b": "Farman Hasanov",
-            "weightClass": "Welterweight"
-          },
-          {
             "a": "Theodor Berggren",
             "b": "Rodrigo Sezinando",
             "weightClass": "Welterweight"
           },
           {
-            "a": "Piera Rodriguez",
-            "b": "Talita Alencar",
-            "weightClass": "W Strawweight"
+            "a": "Andre Petroski",
+            "b": "Azamat Bekoev",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Gaston Bolaños",
+            "b": "Francis Marshall",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Jean-Paul Lebosnoyani",
+            "b": "Farman Hasanov",
+            "weightClass": "Welterweight"
           },
           {
             "a": "Yana Santos",
@@ -2003,16 +2022,6 @@
             "a": "Carlos Leal",
             "b": "Randy Brown",
             "weightClass": "Welterweight"
-          },
-          {
-            "a": "Tainara Lisboa",
-            "b": "Lucia Szabová",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Joe Kropschot",
-            "b": "Nick Klein",
-            "weightClass": "Middleweight"
           },
           {
             "a": "Renato Moicano",
@@ -2943,48 +2952,48 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "Gabriel Lorenço v Alvin Hines",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Jose Delano v Murtazali Magomedov",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Davey Grant v Elijah Smith",
-          "weightClass": "Bantamweight"
-        },
-        {
           "title": "Jonny Parsons v Jose Henrique",
           "weightClass": "Welterweight"
-        },
-        {
-          "title": "Wellington Turman v Seokhyeon Ko",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Keiichiro Nakamura v Ollie Schmid",
-          "weightClass": "Featherweight"
         },
         {
           "title": "Priscila Cachoeira v Nina Milošević",
           "weightClass": "W Bantamweight"
         },
         {
+          "title": "Lucas Brennan v Austin Bashi",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Keiichiro Nakamura v Ollie Schmid",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Jose Delano v Murtazali Magomedov",
+          "weightClass": "Featherweight"
+        },
+        {
           "title": "Karine Silva v Gabriella Fernandes",
           "weightClass": "W Flyweight"
         },
         {
-          "title": "Lucas Brennan v Austin Bashi",
-          "weightClass": "Featherweight"
+          "title": "Gabriel Lorenço v Alvin Hines",
+          "weightClass": "Heavyweight"
+        },
+        {
+          "title": "Wes Schultz v Mantas Kondratavičius",
+          "weightClass": "Middleweight"
         },
         {
           "title": "Billy Elekana v Lucas Fernando",
           "weightClass": "Light Heavyweight"
         },
         {
-          "title": "Wes Schultz v Mantas Kondratavičius",
-          "weightClass": "Middleweight"
+          "title": "Wellington Turman v Seokhyeon Ko",
+          "weightClass": "Welterweight"
+        },
+        {
+          "title": "Davey Grant v Elijah Smith",
+          "weightClass": "Bantamweight"
         },
         {
           "title": "Tatiana Suarez v Virna Jandiroba",
@@ -3038,34 +3047,9 @@
         ],
         "bouts": [
           {
-            "a": "Gabriel Lorenço",
-            "b": "Alvin Hines",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Jose Delano",
-            "b": "Murtazali Magomedov",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Davey Grant",
-            "b": "Elijah Smith",
-            "weightClass": "Bantamweight"
-          },
-          {
             "a": "Jonny Parsons",
             "b": "Jose Henrique",
             "weightClass": "Welterweight"
-          },
-          {
-            "a": "Wellington Turman",
-            "b": "Seokhyeon Ko",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Keiichiro Nakamura",
-            "b": "Ollie Schmid",
-            "weightClass": "Featherweight"
           },
           {
             "a": "Priscila Cachoeira",
@@ -3073,14 +3057,34 @@
             "weightClass": "W Bantamweight"
           },
           {
+            "a": "Lucas Brennan",
+            "b": "Austin Bashi",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Keiichiro Nakamura",
+            "b": "Ollie Schmid",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Jose Delano",
+            "b": "Murtazali Magomedov",
+            "weightClass": "Featherweight"
+          },
+          {
             "a": "Karine Silva",
             "b": "Gabriella Fernandes",
             "weightClass": "W Flyweight"
           },
           {
-            "a": "Lucas Brennan",
-            "b": "Austin Bashi",
-            "weightClass": "Featherweight"
+            "a": "Gabriel Lorenço",
+            "b": "Alvin Hines",
+            "weightClass": "Heavyweight"
+          },
+          {
+            "a": "Wes Schultz",
+            "b": "Mantas Kondratavičius",
+            "weightClass": "Middleweight"
           },
           {
             "a": "Billy Elekana",
@@ -3088,9 +3092,14 @@
             "weightClass": "Light Heavyweight"
           },
           {
-            "a": "Wes Schultz",
-            "b": "Mantas Kondratavičius",
-            "weightClass": "Middleweight"
+            "a": "Wellington Turman",
+            "b": "Seokhyeon Ko",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Davey Grant",
+            "b": "Elijah Smith",
+            "weightClass": "Bantamweight"
           },
           {
             "a": "Tatiana Suarez",
@@ -4684,7 +4693,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 335: Oliveira vs. Lopes",
-      "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 4-fight card · main card Sun 13 Dec, 02:00 UK",
+      "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 6-fight card · main card Sun 13 Dec, 02:00 UK",
       "homeTeam": "Charles Oliveira",
       "awayTeam": "Diego Lopes",
       "cardTitle": null,
@@ -4694,8 +4703,16 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "TBA v Opponent TBA",
-          "weightClass": null
+          "title": "Junior Tafa v Quentin Pasley",
+          "weightClass": "Light Heavyweight"
+        },
+        {
+          "title": "Maycee Barber v Carli Judice",
+          "weightClass": "W Flyweight"
+        },
+        {
+          "title": "Brandon Moreno v Charles Johnson",
+          "weightClass": "Flyweight"
         },
         {
           "title": "Joe Pyfer v Bo Nickal",
@@ -4753,9 +4770,19 @@
         ],
         "bouts": [
           {
-            "a": "TBA",
-            "b": "Opponent TBA",
-            "weightClass": null
+            "a": "Junior Tafa",
+            "b": "Quentin Pasley",
+            "weightClass": "Light Heavyweight"
+          },
+          {
+            "a": "Maycee Barber",
+            "b": "Carli Judice",
+            "weightClass": "W Flyweight"
+          },
+          {
+            "a": "Brandon Moreno",
+            "b": "Charles Johnson",
+            "weightClass": "Flyweight"
           },
           {
             "a": "Joe Pyfer",
@@ -4774,7 +4801,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 4,
+        "boutCount": 6,
         "broadcasts": [
           "Paramount+"
         ]
@@ -7396,30 +7423,6 @@
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-15T06:00:00.000Z",
-      "endsAtUTC": "2026-10-15T07:00:00.000Z",
-      "timeUK": "Thu 15 Oct, 07:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Volkanovski v Holloway 3",
-      "sublabel": "UFC Main Events"
-    },
-    {
-      "airTimeUTC": "2026-10-15T07:00:00.000Z",
-      "endsAtUTC": "2026-10-15T08:00:00.000Z",
-      "timeUK": "Thu 15 Oct, 08:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Namajunas v Zhang 2",
-      "sublabel": "UFC Main Events"
-    },
     {
       "airTimeUTC": "2026-10-15T18:00:00.000Z",
       "endsAtUTC": "2026-10-15T22:00:00.000Z",

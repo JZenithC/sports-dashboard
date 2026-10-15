@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T16:01:30.414Z",
+  "generatedAt": "2026-10-15T15:48:39.203Z",
   "tables": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -2722,7 +2722,7 @@
                 "fluminense",
                 "palmeiras"
               ],
-              "leg1Score": null,
+              "leg1Score": "1-2",
               "leg2Date": "2026-10-21",
               "leg2Score": null,
               "aggregate": null,
@@ -3034,7 +3034,7 @@
                 "atletico mineiro",
                 "montevideo city torque"
               ],
-              "leg1Score": null,
+              "leg1Score": "3-0",
               "leg2Date": "2026-10-21",
               "leg2Score": null,
               "aggregate": null,
