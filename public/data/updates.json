@@ -1,7 +1,31 @@
 {
-  "generatedAt": "2026-10-15T15:49:53.256Z",
+  "generatedAt": "2026-10-16T15:37:38.425Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-16T15:36:02.719Z",
+        "totalEvents": 46,
+        "added": [
+          "Flamengo vs Estudiantes de La Plata (CONMEBOL Libertadores) — Thu 22 Oct, 21:30"
+        ],
+        "removed": [
+          "Huracán vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Thu 15 Oct, 20:00",
+          "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Thu 15 Oct, 21:30"
+        ],
+        "channelsChanged": [
+          "Boca Juniors vs Talleres de Córdoba (Liga Profesional de Fútbol) — Fri 16 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN 4, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Platense vs Lanus (Liga Profesional de Fútbol) — Sat 17 Oct, 17:30: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Botafogo vs Chapecoense (Campeonato Brasileiro Série A) — Sat 17 Oct, 18:00: [CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE, RECORD]",
+          "Atlético Mineiro vs Coritiba (Campeonato Brasileiro Série A) — Sat 17 Oct, 18:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), PREMIERE]",
+          "Athletico Paranaense vs Palmeiras (Campeonato Brasileiro Série A) — Sat 17 Oct, 19:30: [Fanatiz (Míralo en vivo), PRIME VIDEO]",
+          "São Paulo vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 17 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), PREMIERE, SPORTV]",
+          "Racing Club vs Independiente (Liga Profesional de Fútbol) — Sun 18 Oct, 14:45: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Belgrano (Córdoba) vs River Plate (Liga Profesional de Fútbol) — Sun 18 Oct, 20:15: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Deportivo Riestra vs Unión Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]"
+        ],
+        "total": 46
+      },
       {
         "timestamp": "2026-10-15T15:48:37.621Z",
         "totalEvents": 47,
@@ -494,17 +518,24 @@
         "removed": [],
         "channelsChanged": [],
         "total": 18
-      },
-      {
-        "timestamp": "2026-09-29T17:05:52.729Z",
-        "totalEvents": 18,
-        "added": [],
-        "removed": [],
-        "channelsChanged": [],
-        "total": 18
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-16T15:36:42.329Z",
+        "total": 5,
+        "added": [
+          "TB/CLE @ Milwaukee Brewers (2026-10-23)"
+        ],
+        "removed": [
+          "Tampa Bay Rays @ Cleveland Guardians (2026-10-15)",
+          "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-15)",
+          "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-16)",
+          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-18)",
+          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-19)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-15T15:49:14.053Z",
         "total": 9,
@@ -798,19 +829,21 @@
           "SD/CHC @ Milwaukee Brewers (2026-10-04): [FS1/ FOX ONE, Fox Deportes / FOX ONE]",
           "ATL/PHI @ Los Angeles Dodgers (2026-10-04): [FS1/ FOX ONE, Fox Deportes / FOX ONE]"
         ]
-      },
-      {
-        "timestamp": "2026-09-29T17:06:28.168Z",
-        "total": 22,
-        "added": [
-          "Los Angeles Dodgers @ ATL/PHI (2026-10-06)",
-          "Milwaukee Brewers @ SD/CHC (2026-10-06)"
-        ],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-16T15:37:38.425Z",
+        "total": 54,
+        "added": [
+          "One Friday Fights 175 (2026-10-16)",
+          "BKFC Belgrade: Faulkner vs Prasovic Prelims (2026-10-17)"
+        ],
+        "removed": [
+          "One Friday Fights 175 (2026-10-16)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-15T15:49:53.255Z",
         "total": 53,
@@ -1035,13 +1068,6 @@
         "removed": [
           "Dana White's Contender Series: Season 10, Week 8 (2026-09-30)"
         ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-29T17:07:11.726Z",
-        "total": 53,
-        "added": [],
-        "removed": [],
         "channelsChanged": []
       }
     ]

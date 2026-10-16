@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T15:48:39.203Z",
+  "generatedAt": "2026-10-16T15:36:05.132Z",
   "tables": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -2709,7 +2709,7 @@
                 "estudiantes lp",
                 "flamengo"
               ],
-              "leg1Score": null,
+              "leg1Score": "0-0",
               "leg2Date": "2026-10-22",
               "leg2Score": null,
               "aggregate": null,
