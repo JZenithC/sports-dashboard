@@ -1,371 +1,6 @@
 {
-  "generatedAt": "2026-10-16T15:37:38.425Z",
+  "generatedAt": "2026-10-17T14:30:26.212Z",
   "upcoming": [
-    {
-      "org": "PFL",
-      "eventName": "PFL Chicago: Carmouche vs. Bishop 2",
-      "eventTag": "PFL Chicago · Wintrust Arena, Chicago · 14-fight card · main card Sat 17 Oct, 04:00 UK",
-      "homeTeam": "Liz Carmouche",
-      "awayTeam": "Jena Bishop",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/usa.png",
-      "awayLogo": "/logos/flags/usa.png",
-      "orgName": "PFL",
-      "orgLogo": "/logos/orgs/pfl.png",
-      "undercard": [
-        {
-          "title": "Levan Khabalaev v Brock Hamer",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Giulliany Perea v Benita van Rooij",
-          "weightClass": "W Strawweight"
-        },
-        {
-          "title": "Noah Hermosillo v Caden Cox",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Chelsea Hackett v Paulina Wisniewska",
-          "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Cobey Fehr v Rosario Romero",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Trey Waters v Eliezer Kubanza",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Kevin Pease v Cássio Barão",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Lucero Acosta v Shannon Clark",
-          "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Gamid Khizriev v Michael Boylan",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Emiliano Sordi v Abraham Bably",
-          "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "J.P. Saint Louis v Oualy Tandia",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Sarvarjon Khamidov v Rafael do Nascimento",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Timur Khizriev v Gabriel Braga",
-          "weightClass": "Featherweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-16T22:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Fri 16 Oct, 23:00",
-      "localDate": "2026-10-16",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "ESPN+",
-              "url": "https://plus.espn.com/",
-              "logo": "/logos/channels/espn.com.png"
-            },
-            {
-              "name": "ESPN2",
-              "url": null,
-              "logo": "/logos/channels/espn.com.png"
-            }
-          ]
-        },
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "PFL",
-        "espnId": "600061331",
-        "name": "PFL Chicago: Carmouche vs. Bishop 2",
-        "dateUTC": "2026-10-16T22:00Z",
-        "mainCardUTC": "2026-10-17T03:00Z",
-        "venue": "Wintrust Arena",
-        "city": "Chicago",
-        "country": "USA",
-        "mainEventFighters": [
-          "Liz Carmouche",
-          "Jena Bishop"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
-        ],
-        "bouts": [
-          {
-            "a": "Levan Khabalaev",
-            "b": "Brock Hamer",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Giulliany Perea",
-            "b": "Benita van Rooij",
-            "weightClass": "W Strawweight"
-          },
-          {
-            "a": "Noah Hermosillo",
-            "b": "Caden Cox",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Chelsea Hackett",
-            "b": "Paulina Wisniewska",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Cobey Fehr",
-            "b": "Rosario Romero",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Trey Waters",
-            "b": "Eliezer Kubanza",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Kevin Pease",
-            "b": "Cássio Barão",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Lucero Acosta",
-            "b": "Shannon Clark",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Gamid Khizriev",
-            "b": "Michael Boylan",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Emiliano Sordi",
-            "b": "Abraham Bably",
-            "weightClass": "Light Heavyweight"
-          },
-          {
-            "a": "J.P. Saint Louis",
-            "b": "Oualy Tandia",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Sarvarjon Khamidov",
-            "b": "Rafael do Nascimento",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Timur Khizriev",
-            "b": "Gabriel Braga",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Liz Carmouche",
-            "b": "Jena Bishop",
-            "weightClass": "W Flyweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/pfl.png",
-        "boutCount": 14,
-        "broadcasts": [
-          "ESPN+",
-          "ESPN2"
-        ]
-      },
-      "watchKey": "fights:PFL|Liz Carmouche|Jena Bishop|2026-10-16"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Kevin Anton-Freudis Rojas",
-      "eventTag": "Boxing · Rawhide Western Town & Event Center, Phoenix, Arizona",
-      "homeTeam": "Kevin Anton",
-      "awayTeam": "Freudis Rojas",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Justin Pauldo v Rene Tellez Giron",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/0a7212484b1eeb6fa345.webp",
-        "attribution": "ProBoxTV"
-      },
-      "kickoffUTC": "2026-10-16T23:30:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 17 Oct, 00:30",
-      "localDate": "2026-10-17",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "Listed by source",
-          "channels": [
-            {
-              "name": "ProBox TV",
-              "url": "https://www.proboxtv.com/",
-              "logo": "/logos/channels/proboxtv.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "kevin-anton-yan-marcos",
-        "name": "Kevin Anton-Freudis Rojas",
-        "dateUTC": "2026-10-16T23:30:00.000Z",
-        "dateOnly": "2026-10-16",
-        "venue": "Rawhide Western Town & Event Center",
-        "city": "Phoenix, Arizona",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/kevinantonfreudisrojasartwork.webp",
-        "posterAttribution": "ProBoxTV",
-        "mainEventFighters": [
-          "Kevin Anton",
-          "Freudis Rojas"
-        ],
-        "bouts": [
-          {
-            "a": "Joshua Kevin Anton",
-            "b": "Freudis Rojas"
-          },
-          {
-            "a": "Justin Pauldo",
-            "b": "Rene Tellez Giron"
-          }
-        ],
-        "broadcasts": [
-          "ProBox TV"
-        ]
-      },
-      "watchKey": "fights:Boxing|Kevin Anton|Freudis Rojas|2026-10-17"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Friday Fights 175",
-      "eventTag": "One Friday Fights 175 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Sanjaya Hutagaol",
-      "awayTeam": "Javier Cabrera",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Yuto Shioya v Ashok Bagade",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-16T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-16",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-Friday-Fights-175-114701",
-        "name": "One Friday Fights 175",
-        "dateUTC": null,
-        "dateOnly": "2026-10-16",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-Friday-Fights-175-114701",
-        "mainEventFighters": [
-          "Sanjaya Hutagaol",
-          "Javier Cabrera"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Yuto Shioya",
-            "b": "Ashok Bagade"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Sanjaya Hutagaol|Javier Cabrera|2026-10-16"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "BKFC Belgrade: Faulkner vs Prasovic Prelims",
-      "eventTag": "Boxing",
-      "homeTeam": "BKFC Belgrade: Faulkner",
-      "awayTeam": "Prasovic Prelims",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-10-17T17:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 17 Oct, 18:00",
-      "localDate": "2026-10-17",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "Canada",
-          "channels": [
-            {
-              "name": "Fight Network",
-              "url": "https://www.fightnetwork.com/",
-              "logo": "/logos/channels/fightnetwork.com.jpg"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "epg-faulkner|prelims-2026-10-17",
-        "name": "BKFC Belgrade: Faulkner vs Prasovic Prelims",
-        "dateUTC": "2026-10-17T17:00:00.000Z",
-        "dateOnly": "2026-10-17",
-        "venue": null,
-        "city": null,
-        "mainEventFighters": [
-          "BKFC Belgrade: Faulkner",
-          "Prasovic Prelims"
-        ],
-        "broadcasts": [
-          "Fight Network"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "Canada",
-            "name": "Fight Network"
-          }
-        ]
-      },
-      "watchKey": "fights:Boxing|BKFC Belgrade: Faulkner|Prasovic Prelims|2026-10-17"
-    },
     {
       "org": "Boxing",
       "eventName": "Daniel Dubois-Fabio Wardley",
@@ -617,20 +252,16 @@
     },
     {
       "org": "MMA",
-      "eventName": "Oktagon 95: Kincl vs. Humburger",
+      "eventName": "Oktagon 95: Skvor vs. Narkun",
       "eventTag": "Oktagon 95 · Mattoni Arena, Karlovy Vary, Czech Republic",
-      "homeTeam": "Kincl",
-      "awayTeam": "Humburger",
+      "homeTeam": "Skvor",
+      "awayTeam": "Narkun",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
       "undercard": [
-        {
-          "title": "Daniel Skvor v Tomasz Narkun",
-          "weightClass": null
-        },
         {
           "title": "Matus Juracek v Jozef Wittner",
           "weightClass": null
@@ -673,23 +304,19 @@
       "broadcastGroups": null,
       "source": {
         "org": "MMA",
-        "slug": "sherdog-Oktagon-MMA-Oktagon-95-Kincl-vs-Humburger-114019",
-        "name": "Oktagon 95: Kincl vs. Humburger",
+        "slug": "sherdog-Oktagon-MMA-Oktagon-95-Skvor-vs-Narkun-114019",
+        "name": "Oktagon 95: Skvor vs. Narkun",
         "dateUTC": null,
         "dateOnly": "2026-10-17",
         "venue": "Mattoni Arena",
         "city": "Karlovy Vary, Czech Republic",
-        "href": "/events/Oktagon-MMA-Oktagon-95-Kincl-vs-Humburger-114019",
+        "href": "/events/Oktagon-MMA-Oktagon-95-Skvor-vs-Narkun-114019",
         "mainEventFighters": [
-          "Kincl",
-          "Humburger"
+          "Skvor",
+          "Narkun"
         ],
         "broadcasts": [],
         "bouts": [
-          {
-            "a": "Daniel Skvor",
-            "b": "Tomasz Narkun"
-          },
           {
             "a": "Matus Juracek",
             "b": "Jozef Wittner"
@@ -724,14 +351,14 @@
           }
         ]
       },
-      "watchKey": "fights:MMA|Kincl|Humburger|2026-10-17"
+      "watchKey": "fights:MMA|Skvor|Narkun|2026-10-17"
     },
     {
       "org": "MMA",
       "eventName": "ONE Samurai 4",
       "eventTag": "ONE Samurai 4 · Ariake Arena, Koto, Tokyo, Japan",
-      "homeTeam": "Jihin Radzuan",
-      "awayTeam": "Itsuki Hirata",
+      "homeTeam": "Itsuki Hirata",
+      "awayTeam": "Jihin Radzuan",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -739,11 +366,11 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Shozo Isojima v Kouta Abe",
+          "title": "Kouta Abe v Shozo Isojima",
           "weightClass": null
         },
         {
-          "title": "Yu Takeuchi v Ryoto Nishiyama",
+          "title": "Ryoto Nishiyama v Yu Takeuchi",
           "weightClass": null
         }
       ],
@@ -764,22 +391,22 @@
         "city": "Koto, Tokyo, Japan",
         "href": "/events/One-Championship-ONE-Samurai-4-114281",
         "mainEventFighters": [
-          "Jihin Radzuan",
-          "Itsuki Hirata"
+          "Itsuki Hirata",
+          "Jihin Radzuan"
         ],
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Shozo Isojima",
-            "b": "Kouta Abe"
+            "a": "Kouta Abe",
+            "b": "Shozo Isojima"
           },
           {
-            "a": "Yu Takeuchi",
-            "b": "Ryoto Nishiyama"
+            "a": "Ryoto Nishiyama",
+            "b": "Yu Takeuchi"
           }
         ]
       },
-      "watchKey": "fights:MMA|Jihin Radzuan|Itsuki Hirata|2026-10-17"
+      "watchKey": "fights:MMA|Itsuki Hirata|Jihin Radzuan|2026-10-17"
     },
     {
       "org": "Boxing",
@@ -5100,6 +4727,308 @@
   ],
   "recent": [
     {
+      "org": "MMA",
+      "eventName": "One Friday Fights 175",
+      "eventTag": "One Friday Fights 175 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Sanjaya Hutagaol",
+      "awayTeam": "Javier Cabrera",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Yuto Shioya v Ashok Bagade",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-16T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-16",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-Friday-Fights-175-114701",
+        "name": "One Friday Fights 175",
+        "dateUTC": null,
+        "dateOnly": "2026-10-16",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-Friday-Fights-175-114701",
+        "mainEventFighters": [
+          "Sanjaya Hutagaol",
+          "Javier Cabrera"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Yuto Shioya",
+            "b": "Ashok Bagade"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Sanjaya Hutagaol|Javier Cabrera|2026-10-16"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Kevin Anton-Freudis Rojas",
+      "eventTag": "Boxing · Rawhide Western Town & Event Center, Phoenix, Arizona",
+      "homeTeam": "Kevin Anton",
+      "awayTeam": "Freudis Rojas",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Justin Pauldo v Rene Tellez Giron",
+          "weightClass": null
+        }
+      ],
+      "poster": {
+        "src": "/logos/posters/0a7212484b1eeb6fa345.webp",
+        "attribution": "ProBoxTV"
+      },
+      "kickoffUTC": "2026-10-16T23:30:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 17 Oct, 00:30",
+      "localDate": "2026-10-17",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Listed by source",
+          "channels": [
+            {
+              "name": "ProBox TV",
+              "url": "https://www.proboxtv.com/",
+              "logo": "/logos/channels/proboxtv.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "kevin-anton-yan-marcos",
+        "name": "Kevin Anton-Freudis Rojas",
+        "dateUTC": "2026-10-16T23:30:00.000Z",
+        "dateOnly": "2026-10-16",
+        "venue": "Rawhide Western Town & Event Center",
+        "city": "Phoenix, Arizona",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/kevinantonfreudisrojasartwork.webp",
+        "posterAttribution": "ProBoxTV",
+        "mainEventFighters": [
+          "Kevin Anton",
+          "Freudis Rojas"
+        ],
+        "bouts": [
+          {
+            "a": "Joshua Kevin Anton",
+            "b": "Freudis Rojas"
+          },
+          {
+            "a": "Justin Pauldo",
+            "b": "Rene Tellez Giron"
+          }
+        ],
+        "broadcasts": [
+          "ProBox TV"
+        ]
+      },
+      "watchKey": "fights:Boxing|Kevin Anton|Freudis Rojas|2026-10-17"
+    },
+    {
+      "org": "PFL",
+      "eventName": "PFL Chicago: Carmouche vs. Bishop 2",
+      "eventTag": "PFL Chicago · Wintrust Arena, Chicago · 13-fight card · main card Sat 17 Oct, 04:00 UK",
+      "homeTeam": "Liz Carmouche",
+      "awayTeam": "Jena Bishop",
+      "cardTitle": null,
+      "homeLogo": "/logos/flags/usa.png",
+      "awayLogo": "/logos/flags/usa.png",
+      "orgName": "PFL",
+      "orgLogo": "/logos/orgs/pfl.png",
+      "undercard": [
+        {
+          "title": "Noah Hermosillo v Caden Cox",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Chelsea Hackett v Paulina Wisniewska",
+          "weightClass": "W Flyweight"
+        },
+        {
+          "title": "Levan Khabalaev v Brock Hamer",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Cobey Fehr v Rosario Romero",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Gamid Khizriev v Michael Boylan",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Lucero Acosta v Shannon Clark",
+          "weightClass": "W Flyweight"
+        },
+        {
+          "title": "Kevin Pease v Cássio Barão",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Emiliano Sordi v Abraham Bably",
+          "weightClass": "Light Heavyweight"
+        },
+        {
+          "title": "Trey Waters v Eliezer Kubanza",
+          "weightClass": "Welterweight"
+        },
+        {
+          "title": "J.P. Saint Louis v Oualy Tandia",
+          "weightClass": "Catchweight"
+        },
+        {
+          "title": "Sarvarjon Khamidov v Rafael do Nascimento",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Timur Khizriev v Gabriel Braga",
+          "weightClass": "Featherweight"
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-16T22:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Fri 16 Oct, 23:00",
+      "localDate": "2026-10-16",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "US",
+          "channels": [
+            {
+              "name": "ESPN+",
+              "url": "https://plus.espn.com/",
+              "logo": "/logos/channels/espn.com.png"
+            },
+            {
+              "name": "ESPN2",
+              "url": null,
+              "logo": "/logos/channels/espn.com.png"
+            }
+          ]
+        },
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "PFL",
+        "espnId": "600061331",
+        "name": "PFL Chicago: Carmouche vs. Bishop 2",
+        "dateUTC": "2026-10-16T22:00Z",
+        "mainCardUTC": "2026-10-17T03:00Z",
+        "venue": "Wintrust Arena",
+        "city": "Chicago",
+        "country": "USA",
+        "mainEventFighters": [
+          "Liz Carmouche",
+          "Jena Bishop"
+        ],
+        "mainEventFlagUrls": [
+          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
+          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
+        ],
+        "bouts": [
+          {
+            "a": "Noah Hermosillo",
+            "b": "Caden Cox",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Chelsea Hackett",
+            "b": "Paulina Wisniewska",
+            "weightClass": "W Flyweight"
+          },
+          {
+            "a": "Levan Khabalaev",
+            "b": "Brock Hamer",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Cobey Fehr",
+            "b": "Rosario Romero",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Gamid Khizriev",
+            "b": "Michael Boylan",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Lucero Acosta",
+            "b": "Shannon Clark",
+            "weightClass": "W Flyweight"
+          },
+          {
+            "a": "Kevin Pease",
+            "b": "Cássio Barão",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Emiliano Sordi",
+            "b": "Abraham Bably",
+            "weightClass": "Light Heavyweight"
+          },
+          {
+            "a": "Trey Waters",
+            "b": "Eliezer Kubanza",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "J.P. Saint Louis",
+            "b": "Oualy Tandia",
+            "weightClass": "Catchweight"
+          },
+          {
+            "a": "Sarvarjon Khamidov",
+            "b": "Rafael do Nascimento",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Timur Khizriev",
+            "b": "Gabriel Braga",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Liz Carmouche",
+            "b": "Jena Bishop",
+            "weightClass": "W Flyweight"
+          }
+        ],
+        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/pfl.png",
+        "boutCount": 13,
+        "broadcasts": [
+          "ESPN+",
+          "ESPN2"
+        ]
+      },
+      "watchKey": "fights:PFL|Liz Carmouche|Jena Bishop|2026-10-16"
+    },
+    {
       "org": "UFC",
       "eventName": "Dana White's Contender Series: Season 10, Week 10",
       "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 5-fight card",
@@ -5462,14 +5391,51 @@
       "org": "MMA",
       "eventName": "CFFC: Chosen Few Fighting Championships 29",
       "eventTag": "CFFC · Monona Terrace, Madison, Wisconsin, United States",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "CFFC: Chosen Few Fighting Championships 29",
+      "homeTeam": "Moziah Clark",
+      "awayTeam": "Alberto Velasquez",
+      "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Hazen Rice v Pernevlon Sheppard",
+          "weightClass": null
+        },
+        {
+          "title": "Kolbe Ayikoue v Beyamin Copeland",
+          "weightClass": null
+        },
+        {
+          "title": "Amir Ankori-Karlinksy v Jevon Edwards",
+          "weightClass": null
+        },
+        {
+          "title": "Kelsey Dominguez v Salvador Espinosa",
+          "weightClass": null
+        },
+        {
+          "title": "Robert Alulema v Emilio Mohanna",
+          "weightClass": null
+        },
+        {
+          "title": "Ben Acker v Conner Seavers",
+          "weightClass": null
+        },
+        {
+          "title": "Jaden Salsbury v Tillman Sabel",
+          "weightClass": null
+        },
+        {
+          "title": "Theodore Klaus v Nicholas Moore",
+          "weightClass": null
+        },
+        {
+          "title": "Brian Duff v Brandon Dietze",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-10-10T23:59:00Z",
       "kickoffLocal": null,
@@ -5486,11 +5452,51 @@
         "venue": "Monona Terrace",
         "city": "Madison, Wisconsin, United States",
         "href": "/events/CFFC-Chosen-Few-Fighting-Championships-29-114459",
-        "mainEventFighters": [],
+        "mainEventFighters": [
+          "Moziah Clark",
+          "Alberto Velasquez"
+        ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Hazen Rice",
+            "b": "Pernevlon Sheppard"
+          },
+          {
+            "a": "Kolbe Ayikoue",
+            "b": "Beyamin Copeland"
+          },
+          {
+            "a": "Amir Ankori-Karlinksy",
+            "b": "Jevon Edwards"
+          },
+          {
+            "a": "Kelsey Dominguez",
+            "b": "Salvador Espinosa"
+          },
+          {
+            "a": "Robert Alulema",
+            "b": "Emilio Mohanna"
+          },
+          {
+            "a": "Ben Acker",
+            "b": "Conner Seavers"
+          },
+          {
+            "a": "Jaden Salsbury",
+            "b": "Tillman Sabel"
+          },
+          {
+            "a": "Theodore Klaus",
+            "b": "Nicholas Moore"
+          },
+          {
+            "a": "Brian Duff",
+            "b": "Brandon Dietze"
+          }
+        ]
       },
-      "watchKey": "fights:MMA|null|null|2026-10-10"
+      "watchKey": "fights:MMA|Moziah Clark|Alberto Velasquez|2026-10-10"
     },
     {
       "org": "MMA",
@@ -6994,499 +7000,6 @@
         ]
       },
       "watchKey": "fights:Boxing|Ben Whittaker|Conor Wallace|2026-10-03"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One on Prime Video 48",
-      "eventTag": "One on Prime Video 48 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Shamil Erdogan",
-      "awayTeam": "Paul Elliott",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Antonio Cesar v Joshua Perreira",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-on-Prime-Video-48-114233",
-        "name": "One on Prime Video 48",
-        "dateUTC": null,
-        "dateOnly": "2026-10-02",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-on-Prime-Video-48-114233",
-        "mainEventFighters": [
-          "Shamil Erdogan",
-          "Paul Elliott"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Antonio Cesar",
-            "b": "Joshua Perreira"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Shamil Erdogan|Paul Elliott|2026-10-02"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Friday Fights 173",
-      "eventTag": "One Friday Fights 173 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Imran Satiev",
-      "awayTeam": "Babar Ali",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Jong Jun Park v Youssef Ramadan",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-Friday-Fights-173-114692",
-        "name": "One Friday Fights 173",
-        "dateUTC": null,
-        "dateOnly": "2026-10-02",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-Friday-Fights-173-114692",
-        "mainEventFighters": [
-          "Imran Satiev",
-          "Babar Ali"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Jong Jun Park",
-            "b": "Youssef Ramadan"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Imran Satiev|Babar Ali|2026-10-02"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Fury Fighting Championship 125: Fight Force",
-      "eventTag": "Fury Fighting Championship 125 · Minot Air Force Base, Minot, North Dakota, United States",
-      "homeTeam": "Dilano Taylor",
-      "awayTeam": "Nicholas Meck",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Carlos Calderon v Lorram Esteves",
-          "weightClass": null
-        },
-        {
-          "title": "JaCobi Jones v Yehia Riles",
-          "weightClass": null
-        },
-        {
-          "title": "Christopher Lalone v Diavantae Reddick",
-          "weightClass": null
-        },
-        {
-          "title": "Kaecy Raddon v Cameron Graves",
-          "weightClass": null
-        },
-        {
-          "title": "Reginald Jones v Tyrell Hill",
-          "weightClass": null
-        },
-        {
-          "title": "Quentin Perez v Aaron Phillips",
-          "weightClass": null
-        },
-        {
-          "title": "Jenna Williams v Brittany Bickhart",
-          "weightClass": null
-        },
-        {
-          "title": "Josue Orozco v Deven Manibusan",
-          "weightClass": null
-        },
-        {
-          "title": "Kenny Riley v Kayden Cody",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Fury-FC-125-Fury-Fighting-Championship-125-Fight-Force-114025",
-        "name": "Fury Fighting Championship 125: Fight Force",
-        "dateUTC": null,
-        "dateOnly": "2026-10-02",
-        "venue": "Minot Air Force Base",
-        "city": "Minot, North Dakota, United States",
-        "href": "/events/Fury-FC-125-Fury-Fighting-Championship-125-Fight-Force-114025",
-        "mainEventFighters": [
-          "Dilano Taylor",
-          "Nicholas Meck"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Carlos Calderon",
-            "b": "Lorram Esteves"
-          },
-          {
-            "a": "JaCobi Jones",
-            "b": "Yehia Riles"
-          },
-          {
-            "a": "Christopher Lalone",
-            "b": "Diavantae Reddick"
-          },
-          {
-            "a": "Kaecy Raddon",
-            "b": "Cameron Graves"
-          },
-          {
-            "a": "Reginald Jones",
-            "b": "Tyrell Hill"
-          },
-          {
-            "a": "Quentin Perez",
-            "b": "Aaron Phillips"
-          },
-          {
-            "a": "Jenna Williams",
-            "b": "Brittany Bickhart"
-          },
-          {
-            "a": "Josue Orozco",
-            "b": "Deven Manibusan"
-          },
-          {
-            "a": "Kenny Riley",
-            "b": "Kayden Cody"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Dilano Taylor|Nicholas Meck|2026-10-02"
-    },
-    {
-      "org": "MMA",
-      "eventName": "LUX 063: Queretaro",
-      "eventTag": "LUX 063 · Arteaga Auditorium, Queretaro, Queretaro, Mexico",
-      "homeTeam": "Paulino Siller",
-      "awayTeam": "Gabriel Urbino",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Abdi Iniestra v Anthony Ramirez",
-          "weightClass": null
-        },
-        {
-          "title": "Aaron Canarte v Uriel Cossio",
-          "weightClass": null
-        },
-        {
-          "title": "Alejandro Cerquera v Hugo Rubio",
-          "weightClass": null
-        },
-        {
-          "title": "Jorge Lopez v Luis Quintana",
-          "weightClass": null
-        },
-        {
-          "title": "Diego Garcia v Daniel Reyes",
-          "weightClass": null
-        },
-        {
-          "title": "Dan Tenoch Jaramillo v David Briones",
-          "weightClass": null
-        },
-        {
-          "title": "Luis Gerardo Aguillon v Antonio Jimenez",
-          "weightClass": null
-        },
-        {
-          "title": "Francisco Serrano v Juan Jose Valero",
-          "weightClass": null
-        },
-        {
-          "title": "Camila Reyes v Fernanda Ceja",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-LUX-063-Queretaro-112992",
-        "name": "LUX 063: Queretaro",
-        "dateUTC": null,
-        "dateOnly": "2026-10-02",
-        "venue": "Arteaga Auditorium",
-        "city": "Queretaro, Queretaro, Mexico",
-        "href": "/events/LUX-063-Queretaro-112992",
-        "mainEventFighters": [
-          "Paulino Siller",
-          "Gabriel Urbino"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Abdi Iniestra",
-            "b": "Anthony Ramirez"
-          },
-          {
-            "a": "Aaron Canarte",
-            "b": "Uriel Cossio"
-          },
-          {
-            "a": "Alejandro Cerquera",
-            "b": "Hugo Rubio"
-          },
-          {
-            "a": "Jorge Lopez",
-            "b": "Luis Quintana"
-          },
-          {
-            "a": "Diego Garcia",
-            "b": "Daniel Reyes"
-          },
-          {
-            "a": "Dan Tenoch Jaramillo",
-            "b": "David Briones"
-          },
-          {
-            "a": "Luis Gerardo Aguillon",
-            "b": "Antonio Jimenez"
-          },
-          {
-            "a": "Francisco Serrano",
-            "b": "Juan Jose Valero"
-          },
-          {
-            "a": "Camila Reyes",
-            "b": "Fernanda Ceja"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Paulino Siller|Gabriel Urbino|2026-10-02"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Fury Fighting Championship 125: Meck vs. Taylor",
-      "eventTag": "Fury Fighting Championship 125 · Minot Air Force Base, Minot, North Dakota, United States",
-      "homeTeam": "Meck",
-      "awayTeam": "Taylor",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Carlos Calderon v Lorram Esteves",
-          "weightClass": null
-        },
-        {
-          "title": "Yehia Riles v JaCobi Jones",
-          "weightClass": null
-        },
-        {
-          "title": "Devon Dixon v Alex Foster",
-          "weightClass": null
-        },
-        {
-          "title": "Christopher Lalone v Diavantae Reddick",
-          "weightClass": null
-        },
-        {
-          "title": "Cameron Graves v Kaecy Raddon",
-          "weightClass": null
-        },
-        {
-          "title": "Reginald Jones v Tyrell Hill",
-          "weightClass": null
-        },
-        {
-          "title": "Aaron Phillips v Quentin Perez",
-          "weightClass": null
-        },
-        {
-          "title": "Jenna Williams v Brittany Bickhart",
-          "weightClass": null
-        },
-        {
-          "title": "Deven Manibusan v Josue Orozco",
-          "weightClass": null
-        },
-        {
-          "title": "Kenny Riley v Kayden Cody",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Fury-FC-125-Fury-Fighting-Championship-125-Meck-vs-Taylor-114025",
-        "name": "Fury Fighting Championship 125: Meck vs. Taylor",
-        "dateUTC": null,
-        "dateOnly": "2026-10-02",
-        "venue": "Minot Air Force Base",
-        "city": "Minot, North Dakota, United States",
-        "href": "/events/Fury-FC-125-Fury-Fighting-Championship-125-Meck-vs-Taylor-114025",
-        "mainEventFighters": [
-          "Meck",
-          "Taylor"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Carlos Calderon",
-            "b": "Lorram Esteves"
-          },
-          {
-            "a": "Yehia Riles",
-            "b": "JaCobi Jones"
-          },
-          {
-            "a": "Devon Dixon",
-            "b": "Alex Foster"
-          },
-          {
-            "a": "Christopher Lalone",
-            "b": "Diavantae Reddick"
-          },
-          {
-            "a": "Cameron Graves",
-            "b": "Kaecy Raddon"
-          },
-          {
-            "a": "Reginald Jones",
-            "b": "Tyrell Hill"
-          },
-          {
-            "a": "Aaron Phillips",
-            "b": "Quentin Perez"
-          },
-          {
-            "a": "Jenna Williams",
-            "b": "Brittany Bickhart"
-          },
-          {
-            "a": "Deven Manibusan",
-            "b": "Josue Orozco"
-          },
-          {
-            "a": "Kenny Riley",
-            "b": "Kayden Cody"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Meck|Taylor|2026-10-02"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Omari Jones vs Alan Sanchez",
-      "eventTag": "Boxing · Orlando",
-      "homeTeam": "Omari Jones",
-      "awayTeam": "Alan Sanchez",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-10-02T20:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Fri 02 Oct, 21:00",
-      "localDate": "2026-10-02",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "gbn-omari-jones-vs-alan-sanchez-2026-10-02",
-        "name": "Omari Jones vs Alan Sanchez",
-        "dateUTC": "2026-10-02T20:00:00.000Z",
-        "dateOnly": "2026-10-02",
-        "venue": null,
-        "city": "Orlando",
-        "mainEventFighters": [
-          "Omari Jones",
-          "Alan Sanchez"
-        ],
-        "bouts": [],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/omari-jones-vs-alan-sanchez-2026-10-02"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/omari-jones-vs-alan-sanchez-2026-10-02"
-      },
-      "watchKey": "fights:Boxing|Omari Jones|Alan Sanchez|2026-10-02"
     }
   ],
   "replaySchedule": [
@@ -7539,6 +7052,30 @@
       "market": "Canada",
       "label": "Kuhne v Curran",
       "sublabel": "BKFC Fight Night Australia: Kuhne vs. Cu"
+    },
+    {
+      "airTimeUTC": "2026-10-22T18:00:00.000Z",
+      "endsAtUTC": "2026-10-22T22:00:00.000Z",
+      "timeUK": "Thu 22 Oct, 19:00",
+      "channel": {
+        "name": "Sky Sports Mix",
+        "logo": null
+      },
+      "market": "UK",
+      "label": "Chris Billam Smith v Ryan Rozicki",
+      "sublabel": "Zuffa Boxing"
+    },
+    {
+      "airTimeUTC": "2026-10-22T19:00:00.000Z",
+      "endsAtUTC": "2026-10-22T23:00:00.000Z",
+      "timeUK": "Thu 22 Oct, 20:00",
+      "channel": {
+        "name": "Sky Sports Mix",
+        "logo": null
+      },
+      "market": "UK",
+      "label": "Aaron McKenna v Etinosa Oliha",
+      "sublabel": "Zuffa Boxing"
     }
   ]
 }
