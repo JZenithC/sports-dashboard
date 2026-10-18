@@ -1,7 +1,45 @@
 {
-  "generatedAt": "2026-10-17T14:30:26.213Z",
+  "generatedAt": "2026-10-18T14:53:22.751Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-18T14:52:09.822Z",
+        "totalEvents": 41,
+        "added": [
+          "Vitória vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sat 24 Oct, 13:30",
+          "Banfield vs Lanús (Liga Profesional de Fútbol) — Sat 24 Oct, 14:45",
+          "Palmeiras vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 24 Oct, 15:30",
+          "Talleres de Córdoba vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 24 Oct, 17:00",
+          "Santos vs Bahía (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:00",
+          "San Lorenzo vs Newell's Old Boys (Liga Profesional de Fútbol) — Sat 24 Oct, 19:15",
+          "Club León vs Toluca (Liga MX) — Sat 24 Oct, 17:00",
+          "Monterrey vs Chivas Guadalajara (Liga MX) — Sat 24 Oct, 18:00",
+          "Rosario Central vs Huracán (Liga Profesional de Fútbol) — Sat 24 Oct, 21:30",
+          "Pumas UNAM vs Tigres UANL (Liga MX) — Sat 24 Oct, 20:00"
+        ],
+        "removed": [
+          "Banfield vs Argentinos Juniors (Liga Profesional de Fútbol) — Sat 17 Oct, 15:00",
+          "Platense vs Lanus (Liga Profesional de Fútbol) — Sat 17 Oct, 17:30",
+          "Independiente Rivadavia vs Tigre (Liga Profesional de Fútbol) — Sat 17 Oct, 17:30",
+          "Botafogo vs Chapecoense (Campeonato Brasileiro Série A) — Sat 17 Oct, 18:00",
+          "Atlético Mineiro vs Coritiba (Campeonato Brasileiro Série A) — Sat 17 Oct, 18:30",
+          "Athletico Paranaense vs Palmeiras (Campeonato Brasileiro Série A) — Sat 17 Oct, 19:30",
+          "Vélez Sarsfield vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sat 17 Oct, 20:00",
+          "Atlético Tucumán vs Rosario Central (Liga Profesional de Fútbol) — Sat 17 Oct, 20:00",
+          "Santos Laguna vs Querétaro (Liga MX) — Sat 17 Oct, 17:00",
+          "Chivas Guadalajara vs Tigres UANL (Liga MX) — Sat 17 Oct, 17:07",
+          "São Paulo vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 17 Oct, 21:00",
+          "Toluca vs Atlético San Luis (Liga MX) — Sat 17 Oct, 19:00",
+          "Club León vs América (Liga MX) — Sat 17 Oct, 19:00",
+          "Cruz Azul vs FC Juárez (Liga MX) — Sat 17 Oct, 21:10"
+        ],
+        "channelsChanged": [
+          "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Corinthians vs Vitória (Campeonato Brasileiro Série A) — Mon 19 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE, SPORTV]",
+          "Deportivo Riestra vs Union Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]"
+        ],
+        "total": 41
+      },
       {
         "timestamp": "2026-10-17T14:29:06.903Z",
         "totalEvents": 45,
@@ -531,21 +569,20 @@
           "Boca Juniors vs Union Santa Fe (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30: [DISNEY+, ESPN 3, ESPN Premium]"
         ],
         "total": 19
-      },
-      {
-        "timestamp": "2026-09-30T17:04:02.422Z",
-        "totalEvents": 18,
-        "added": [],
-        "removed": [],
-        "channelsChanged": [
-          "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sun 04 Oct, 19:15: [ESPN Premium]",
-          "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [ESPN, ESPN Premium]"
-        ],
-        "total": 18
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-18T14:52:42.081Z",
+        "total": 5,
+        "added": [
+          "TB/CLE @ Milwaukee Brewers (2026-10-24)"
+        ],
+        "removed": [
+          "Tampa Bay Rays @ Cleveland Guardians (2026-10-17)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-17T14:29:43.368Z",
         "total": 5,
@@ -836,23 +873,30 @@
         "channelsChanged": [
           "ATL/PHI @ Los Angeles Dodgers (2026-10-03): [FOX/ FOX ONE, Fox Deportes / FOX ONE]"
         ]
-      },
-      {
-        "timestamp": "2026-09-30T17:04:38.714Z",
-        "total": 22,
-        "added": [
-          "Cleveland Guardians @ HOU/CWS (2026-10-07)",
-          "Tampa Bay Rays @ NYY/BOS (2026-10-07)",
-          "Los Angeles Dodgers @ ATL/PHI (2026-10-07)",
-          "Milwaukee Brewers @ SD/CHC (2026-10-07)"
-        ],
-        "removed": [],
-        "channelsChanged": [
-          "Chicago Cubs @ San Diego Padres (2026-09-30): [Peacock (es), Peacock/NBCSN]"
-        ]
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-18T14:53:22.750Z",
+        "total": 50,
+        "added": [
+          "Pancrase: 368 (2026-11-08)",
+          "Teremoana Teremoana vs Hemi Ahio (2026-11-18)",
+          "ONE Samurai 5 (2026-11-18)",
+          "Amari Jones vs DeAundre Pettus (2026-11-20)",
+          "Conah Walker vs Alexis Rocha (2026-12-05)",
+          "Michel Soro vs George Liddard (2026-12-12)"
+        ],
+        "removed": [
+          "Daniel Dubois-Fabio Wardley (2026-10-17)",
+          "UFC Fight Night: Buckley vs. Malott (2026-10-17)",
+          "Oktagon 95: Skvor vs. Narkun (2026-10-17)",
+          "ONE Samurai 4 (2026-10-17)",
+          "Sebastian Fundora-Ermal Hadribeaj (2026-10-18)",
+          "Pancrase: 368 (2026-11-08)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-17T14:30:26.212Z",
         "total": 50,
@@ -1085,13 +1129,6 @@
           "ACA 209: Frolov vs. Odilov (2026-10-31)",
           "UFC Fight Night: Procházka vs. Stirling (2026-11-21)"
         ],
-        "removed": [],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-09-30T17:05:35.571Z",
-        "total": 55,
-        "added": [],
         "removed": [],
         "channelsChanged": []
       }

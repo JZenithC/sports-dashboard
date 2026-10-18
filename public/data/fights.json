@@ -1,510 +1,6 @@
 {
-  "generatedAt": "2026-10-17T14:30:26.212Z",
+  "generatedAt": "2026-10-18T14:53:22.750Z",
   "upcoming": [
-    {
-      "org": "Boxing",
-      "eventName": "Daniel Dubois-Fabio Wardley",
-      "eventTag": "Boxing · The O2 Arena, London, United Kingdom",
-      "homeTeam": "Daniel Dubois",
-      "awayTeam": "Fabio Wardley",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": {
-        "src": "/logos/posters/4acd8d2c0fc57f99b929.webp",
-        "attribution": "DAZN"
-      },
-      "kickoffUTC": "2026-10-17T18:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 17 Oct, 19:00",
-      "localDate": "2026-10-17",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "daniel-dubois-fabio-wardley",
-        "name": "Daniel Dubois-Fabio Wardley",
-        "dateUTC": "2026-10-17T18:00:00.000Z",
-        "dateOnly": "2026-10-17",
-        "venue": "The O2 Arena",
-        "city": "London, United Kingdom",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/danielduboisfabiowardley2.webp",
-        "posterAttribution": "DAZN",
-        "mainEventFighters": [
-          "Daniel Dubois",
-          "Fabio Wardley"
-        ],
-        "bouts": [
-          {
-            "a": "Daniel Dubois",
-            "b": "Fabio Wardley"
-          }
-        ],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/daniel-dubois-vs-fabio-wardley-2026-10-17"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/daniel-dubois-vs-fabio-wardley-2026-10-17"
-      },
-      "watchKey": "fights:Boxing|Daniel Dubois|Fabio Wardley|2026-10-17"
-    },
-    {
-      "org": "UFC",
-      "eventName": "UFC Fight Night: Buckley vs. Malott",
-      "eventTag": "UFC Fight Night · Rogers Place, Edmonton · 13-fight card · main card Sun 18 Oct, 01:00 UK",
-      "homeTeam": "Mike Malott",
-      "awayTeam": "Joaquin Buckley",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/can.png",
-      "awayLogo": "/logos/flags/usa.png",
-      "orgName": "UFC",
-      "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [
-        {
-          "title": "SuYoung You v Cody Chovancek",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Chelsea Chandler v Melissa Croden",
-          "weightClass": "W Bantamweight"
-        },
-        {
-          "title": "Chad Anheliger v Steven Koslow",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Katlyn Cerminara v Mackenzie Stiller",
-          "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Javad Mahjoub v Joel Faglier",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Julien LeBlanc v Nick Galanti",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Tanner Boser v Jhonata Diniz",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Nate Landwehr v Mandel Nallo",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Louis Jourdain v Timmy Cuamba",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Kyle Daukaus v Marc-Andre Barriault",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Kyle Nelson v Cristian Pérez",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Erin Blanchfield v Jasmine Jasudavicius",
-          "weightClass": "W Flyweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-17T21:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 17 Oct, 22:00",
-      "localDate": "2026-10-17",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        },
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports",
-              "url": "https://www.tntsports.co.uk/boxing/",
-              "logo": "/logos/channels/tntsports.co.uk.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "UFC",
-        "espnId": "600060773",
-        "name": "UFC Fight Night: Buckley vs. Malott",
-        "dateUTC": "2026-10-17T21:00Z",
-        "mainCardUTC": "2026-10-18T00:00Z",
-        "venue": "Rogers Place",
-        "city": "Edmonton",
-        "country": "Canada",
-        "mainEventFighters": [
-          "Mike Malott",
-          "Joaquin Buckley"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
-        ],
-        "bouts": [
-          {
-            "a": "SuYoung You",
-            "b": "Cody Chovancek",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Chelsea Chandler",
-            "b": "Melissa Croden",
-            "weightClass": "W Bantamweight"
-          },
-          {
-            "a": "Chad Anheliger",
-            "b": "Steven Koslow",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Katlyn Cerminara",
-            "b": "Mackenzie Stiller",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Javad Mahjoub",
-            "b": "Joel Faglier",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Julien LeBlanc",
-            "b": "Nick Galanti",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Tanner Boser",
-            "b": "Jhonata Diniz",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Nate Landwehr",
-            "b": "Mandel Nallo",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Louis Jourdain",
-            "b": "Timmy Cuamba",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Kyle Daukaus",
-            "b": "Marc-Andre Barriault",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Kyle Nelson",
-            "b": "Cristian Pérez",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Erin Blanchfield",
-            "b": "Jasmine Jasudavicius",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Mike Malott",
-            "b": "Joaquin Buckley",
-            "weightClass": "Welterweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 13,
-        "broadcasts": [
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:UFC|Mike Malott|Joaquin Buckley|2026-10-17"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Oktagon 95: Skvor vs. Narkun",
-      "eventTag": "Oktagon 95 · Mattoni Arena, Karlovy Vary, Czech Republic",
-      "homeTeam": "Skvor",
-      "awayTeam": "Narkun",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Matus Juracek v Jozef Wittner",
-          "weightClass": null
-        },
-        {
-          "title": "David Dvorak v Aaron Aby",
-          "weightClass": null
-        },
-        {
-          "title": "Zdenek Polivka v Timo Feucht",
-          "weightClass": null
-        },
-        {
-          "title": "Vaclav Stepan v Sami Zarabi",
-          "weightClass": null
-        },
-        {
-          "title": "Marco Novak v Anatolij Baal",
-          "weightClass": null
-        },
-        {
-          "title": "Husein Kadimagomaev v Marco Elpidio",
-          "weightClass": null
-        },
-        {
-          "title": "Viktor Cervinsky v Daniel Hromek",
-          "weightClass": null
-        },
-        {
-          "title": "Patrik Pikes v Rakhim Iliskhanov",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-17T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-17",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Oktagon-MMA-Oktagon-95-Skvor-vs-Narkun-114019",
-        "name": "Oktagon 95: Skvor vs. Narkun",
-        "dateUTC": null,
-        "dateOnly": "2026-10-17",
-        "venue": "Mattoni Arena",
-        "city": "Karlovy Vary, Czech Republic",
-        "href": "/events/Oktagon-MMA-Oktagon-95-Skvor-vs-Narkun-114019",
-        "mainEventFighters": [
-          "Skvor",
-          "Narkun"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Matus Juracek",
-            "b": "Jozef Wittner"
-          },
-          {
-            "a": "David Dvorak",
-            "b": "Aaron Aby"
-          },
-          {
-            "a": "Zdenek Polivka",
-            "b": "Timo Feucht"
-          },
-          {
-            "a": "Vaclav Stepan",
-            "b": "Sami Zarabi"
-          },
-          {
-            "a": "Marco Novak",
-            "b": "Anatolij Baal"
-          },
-          {
-            "a": "Husein Kadimagomaev",
-            "b": "Marco Elpidio"
-          },
-          {
-            "a": "Viktor Cervinsky",
-            "b": "Daniel Hromek"
-          },
-          {
-            "a": "Patrik Pikes",
-            "b": "Rakhim Iliskhanov"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Skvor|Narkun|2026-10-17"
-    },
-    {
-      "org": "MMA",
-      "eventName": "ONE Samurai 4",
-      "eventTag": "ONE Samurai 4 · Ariake Arena, Koto, Tokyo, Japan",
-      "homeTeam": "Itsuki Hirata",
-      "awayTeam": "Jihin Radzuan",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Kouta Abe v Shozo Isojima",
-          "weightClass": null
-        },
-        {
-          "title": "Ryoto Nishiyama v Yu Takeuchi",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-17T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-17",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-ONE-Samurai-4-114281",
-        "name": "ONE Samurai 4",
-        "dateUTC": null,
-        "dateOnly": "2026-10-17",
-        "venue": "Ariake Arena",
-        "city": "Koto, Tokyo, Japan",
-        "href": "/events/One-Championship-ONE-Samurai-4-114281",
-        "mainEventFighters": [
-          "Itsuki Hirata",
-          "Jihin Radzuan"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Kouta Abe",
-            "b": "Shozo Isojima"
-          },
-          {
-            "a": "Ryoto Nishiyama",
-            "b": "Yu Takeuchi"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Itsuki Hirata|Jihin Radzuan|2026-10-17"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Sebastian Fundora-Ermal Hadribeaj",
-      "eventTag": "Boxing · The Cosmopolitan of Las Vegas, Las Vegas, Nevada",
-      "homeTeam": "Sebastian Fundora",
-      "awayTeam": "Ermal Hadribeaj",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Brandon Figueroa v Tomoki Kameda",
-          "weightClass": null
-        },
-        {
-          "title": "Jermall Charlo v Koen Mazoudier",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/bca15b3fb11c0794af5c.webp",
-        "attribution": "PBC"
-      },
-      "kickoffUTC": "2026-10-18T00:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sun 18 Oct, 01:00",
-      "localDate": "2026-10-18",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            },
-            {
-              "name": "TNT Sports",
-              "url": "https://www.tntsports.co.uk/boxing/",
-              "logo": "/logos/channels/tntsports.co.uk.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "sebastian-fundora-ermal-hadribeaj",
-        "name": "Sebastian Fundora-Ermal Hadribeaj",
-        "dateUTC": "2026-10-18T00:00:00.000Z",
-        "dateOnly": "2026-10-17",
-        "venue": "The Cosmopolitan of Las Vegas",
-        "city": "Las Vegas, Nevada",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/sebastianfundoraermalhadribeaj.webp",
-        "posterAttribution": "PBC",
-        "mainEventFighters": [
-          "Sebastian Fundora",
-          "Ermal Hadribeaj"
-        ],
-        "bouts": [
-          {
-            "a": "Sebastian Fundora",
-            "b": "Ermal Hadribeaj"
-          },
-          {
-            "a": "Brandon Figueroa",
-            "b": "Tomoki Kameda"
-          },
-          {
-            "a": "Jermall Charlo",
-            "b": "Koen Mazoudier"
-          }
-        ],
-        "broadcasts": [
-          "TNT Sports",
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/sebastian-fundora-vs-ermal-hadribeaj-2026-10-17"
-          },
-          {
-            "market": "UK",
-            "name": "TNT Sports",
-            "url": "https://www.tntsports.co.uk/boxing/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/sebastian-fundora-vs-ermal-hadribeaj-2026-10-17"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/sebastian-fundora-vs-ermal-hadribeaj-2026-10-17"
-      },
-      "watchKey": "fights:Boxing|Sebastian Fundora|Ermal Hadribeaj|2026-10-18"
-    },
     {
       "org": "MMA",
       "eventName": "Lemino Shooto Vol. 9",
@@ -1207,7 +703,7 @@
     {
       "org": "MMA",
       "eventName": "ACA 209: Frolov vs. Odilov",
-      "eventTag": "ACA 209 · Dushanbe, Tajikistan",
+      "eventTag": "ACA 209 · Tennis Palace and Water Sports Complex, Dushanbe, Tajikistan",
       "homeTeam": "Frolov",
       "awayTeam": "Odilov",
       "cardTitle": null,
@@ -1270,8 +766,8 @@
         "name": "ACA 209: Frolov vs. Odilov",
         "dateUTC": null,
         "dateOnly": "2026-10-30",
-        "venue": "Dushanbe",
-        "city": "Tajikistan",
+        "venue": "Tennis Palace and Water Sports Complex",
+        "city": "Dushanbe, Tajikistan",
         "href": "/events/ACA-209-Frolov-vs-Odilov-114289",
         "mainEventFighters": [
           "Frolov",
@@ -3123,7 +2619,7 @@
       "eventName": "Pancrase: 368",
       "eventTag": "Pancrase · New Pier Hall, Minato, Tokyo, Japan",
       "homeTeam": "Masayuki Kikuiri",
-      "awayTeam": "Alonzo Martinez",
+      "awayTeam": "Cole Henning",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -3193,7 +2689,7 @@
         "href": "/events/Pancrase-368-114697",
         "mainEventFighters": [
           "Masayuki Kikuiri",
-          "Alonzo Martinez"
+          "Cole Henning"
         ],
         "broadcasts": [],
         "bouts": [
@@ -3243,7 +2739,7 @@
           }
         ]
       },
-      "watchKey": "fights:MMA|Masayuki Kikuiri|Alonzo Martinez|2026-11-08"
+      "watchKey": "fights:MMA|Masayuki Kikuiri|Cole Henning|2026-11-08"
     },
     {
       "org": "Boxing",
@@ -4037,6 +3533,159 @@
       "watchKey": "fights:Boxing|Diego Pacheco|Darius Fulghum|2026-11-15"
     },
     {
+      "org": "Boxing",
+      "eventName": "Teremoana Teremoana vs Hemi Ahio",
+      "eventTag": "Boxing · Melbourne",
+      "homeTeam": "Teremoana Teremoana",
+      "awayTeam": "Hemi Ahio",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-18T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Wed 18 Nov, 20:00",
+      "localDate": "2026-11-18",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-teremoana-teremoana-vs-hemi-ahio-2026-11-18",
+        "name": "Teremoana Teremoana vs Hemi Ahio",
+        "dateUTC": "2026-11-18T20:00:00.000Z",
+        "dateOnly": "2026-11-18",
+        "venue": null,
+        "city": "Melbourne",
+        "mainEventFighters": [
+          "Teremoana Teremoana",
+          "Hemi Ahio"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/teremoana-teremoana-vs-hemi-ahio-2026-11-18"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/teremoana-teremoana-vs-hemi-ahio-2026-11-18"
+      },
+      "watchKey": "fights:Boxing|Teremoana Teremoana|Hemi Ahio|2026-11-18"
+    },
+    {
+      "org": "MMA",
+      "eventName": "ONE Samurai 5",
+      "eventTag": "ONE Samurai 5 · Ebara Wave Arena Ota, Ota, Tokyo, Japan",
+      "homeTeam": "Joshua Pacio",
+      "awayTeam": "Keito Yamakita",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-18T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-18",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-ONE-Samurai-5-114378",
+        "name": "ONE Samurai 5",
+        "dateUTC": null,
+        "dateOnly": "2026-11-18",
+        "venue": "Ebara Wave Arena Ota",
+        "city": "Ota, Tokyo, Japan",
+        "href": "/events/One-Championship-ONE-Samurai-5-114378",
+        "mainEventFighters": [
+          "Joshua Pacio",
+          "Keito Yamakita"
+        ],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|Joshua Pacio|Keito Yamakita|2026-11-18"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Amari Jones vs DeAundre Pettus",
+      "eventTag": "Boxing · Indio",
+      "homeTeam": "Amari Jones",
+      "awayTeam": "DeAundre Pettus",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-20T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Fri 20 Nov, 20:00",
+      "localDate": "2026-11-20",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-amari-jones-vs-deaundre-pettus-2026-11-20",
+        "name": "Amari Jones vs DeAundre Pettus",
+        "dateUTC": "2026-11-20T20:00:00.000Z",
+        "dateOnly": "2026-11-20",
+        "venue": null,
+        "city": "Indio",
+        "mainEventFighters": [
+          "Amari Jones",
+          "DeAundre Pettus"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/amari-jones-vs-deaundre-pettus-2026-11-20"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/amari-jones-vs-deaundre-pettus-2026-11-20"
+      },
+      "watchKey": "fights:Boxing|Amari Jones|DeAundre Pettus|2026-11-20"
+    },
+    {
       "org": "UFC",
       "eventName": "UFC Fight Night: Procházka vs. Stirling",
       "eventTag": "UFC Fight Night · ABHA Arena, Doha · 9-fight card · main card Sat 21 Nov, 18:00 UK",
@@ -4251,6 +3900,64 @@
     },
     {
       "org": "Boxing",
+      "eventName": "Conah Walker vs Alexis Rocha",
+      "eventTag": "Boxing · Wolverhampton",
+      "homeTeam": "Conah Walker",
+      "awayTeam": "Alexis Rocha",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-05T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 05 Dec, 20:00",
+      "localDate": "2026-12-05",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-conah-walker-vs-alexis-rocha-2026-12-05",
+        "name": "Conah Walker vs Alexis Rocha",
+        "dateUTC": "2026-12-05T20:00:00.000Z",
+        "dateOnly": "2026-12-05",
+        "venue": null,
+        "city": "Wolverhampton",
+        "mainEventFighters": [
+          "Conah Walker",
+          "Alexis Rocha"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/conah-walker-vs-alexis-rocha-2026-12-05"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/conah-walker-vs-alexis-rocha-2026-12-05"
+      },
+      "watchKey": "fights:Boxing|Conah Walker|Alexis Rocha|2026-12-05"
+    },
+    {
+      "org": "Boxing",
       "eventName": "Litzy Vazquez- Stephanie Pineiro",
       "eventTag": "Boxing · Coliseo Ruben Rodriguez, Bayamón, Puerto Rico",
       "homeTeam": "Litzy Vazquez",
@@ -4370,6 +4077,64 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/tyson-fury-vs-anthony-joshua-2026-12-11"
       },
       "watchKey": "fights:Boxing|Tyson Fury|Anthony Joshua|2026-12-11"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Michel Soro vs George Liddard",
+      "eventTag": "Boxing · Monte Carlo",
+      "homeTeam": "Michel Soro",
+      "awayTeam": "George Liddard",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-12T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 12 Dec, 20:00",
+      "localDate": "2026-12-12",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-michel-soro-vs-george-liddard-2026-12-12",
+        "name": "Michel Soro vs George Liddard",
+        "dateUTC": "2026-12-12T20:00:00.000Z",
+        "dateOnly": "2026-12-12",
+        "venue": null,
+        "city": "Monte Carlo",
+        "mainEventFighters": [
+          "Michel Soro",
+          "George Liddard"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/michel-soro-vs-george-liddard-2026-12-12"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/michel-soro-vs-george-liddard-2026-12-12"
+      },
+      "watchKey": "fights:Boxing|Michel Soro|George Liddard|2026-12-12"
     },
     {
       "org": "UFC",
@@ -4726,6 +4491,535 @@
     }
   ],
   "recent": [
+    {
+      "org": "Boxing",
+      "eventName": "Sebastian Fundora-Ermal Hadribeaj",
+      "eventTag": "Boxing · The Cosmopolitan of Las Vegas, Las Vegas, Nevada",
+      "homeTeam": "Sebastian Fundora",
+      "awayTeam": "Ermal Hadribeaj",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Brandon Figueroa v Tomoki Kameda",
+          "weightClass": null
+        },
+        {
+          "title": "Jermall Charlo v Koen Mazoudier",
+          "weightClass": null
+        }
+      ],
+      "poster": {
+        "src": "/logos/posters/bca15b3fb11c0794af5c.webp",
+        "attribution": "PBC"
+      },
+      "kickoffUTC": "2026-10-18T00:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sun 18 Oct, 01:00",
+      "localDate": "2026-10-18",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            },
+            {
+              "name": "TNT Sports",
+              "url": "https://www.tntsports.co.uk/boxing/",
+              "logo": "/logos/channels/tntsports.co.uk.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "sebastian-fundora-ermal-hadribeaj",
+        "name": "Sebastian Fundora-Ermal Hadribeaj",
+        "dateUTC": "2026-10-18T00:00:00.000Z",
+        "dateOnly": "2026-10-17",
+        "venue": "The Cosmopolitan of Las Vegas",
+        "city": "Las Vegas, Nevada",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/sebastianfundoraermalhadribeaj.webp",
+        "posterAttribution": "PBC",
+        "mainEventFighters": [
+          "Sebastian Fundora",
+          "Ermal Hadribeaj"
+        ],
+        "bouts": [
+          {
+            "a": "Sebastian Fundora",
+            "b": "Ermal Hadribeaj"
+          },
+          {
+            "a": "Brandon Figueroa",
+            "b": "Tomoki Kameda"
+          },
+          {
+            "a": "Jermall Charlo",
+            "b": "Koen Mazoudier"
+          }
+        ],
+        "broadcasts": [
+          "TNT Sports",
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/sebastian-fundora-vs-ermal-hadribeaj-2026-10-17"
+          },
+          {
+            "market": "UK",
+            "name": "TNT Sports",
+            "url": "https://www.tntsports.co.uk/boxing/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/sebastian-fundora-vs-ermal-hadribeaj-2026-10-17"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/sebastian-fundora-vs-ermal-hadribeaj-2026-10-17"
+      },
+      "watchKey": "fights:Boxing|Sebastian Fundora|Ermal Hadribeaj|2026-10-18"
+    },
+    {
+      "org": "MMA",
+      "eventName": "ONE Samurai 4",
+      "eventTag": "ONE Samurai 4 · Ariake Arena, Koto, Tokyo, Japan",
+      "homeTeam": "Itsuki Hirata",
+      "awayTeam": "Jihin Radzuan",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Kouta Abe v Shozo Isojima",
+          "weightClass": null
+        },
+        {
+          "title": "Ryoto Nishiyama v Yu Takeuchi",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-17T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-17",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-ONE-Samurai-4-114281",
+        "name": "ONE Samurai 4",
+        "dateUTC": null,
+        "dateOnly": "2026-10-17",
+        "venue": "Ariake Arena",
+        "city": "Koto, Tokyo, Japan",
+        "href": "/events/One-Championship-ONE-Samurai-4-114281",
+        "mainEventFighters": [
+          "Itsuki Hirata",
+          "Jihin Radzuan"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Kouta Abe",
+            "b": "Shozo Isojima"
+          },
+          {
+            "a": "Ryoto Nishiyama",
+            "b": "Yu Takeuchi"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Itsuki Hirata|Jihin Radzuan|2026-10-17"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Oktagon 95: Skvor vs. Narkun",
+      "eventTag": "Oktagon 95 · Mattoni Arena, Karlovy Vary, Czech Republic",
+      "homeTeam": "Skvor",
+      "awayTeam": "Narkun",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Matus Juracek v Jozef Wittner",
+          "weightClass": null
+        },
+        {
+          "title": "Aaron Aby v David Dvorak",
+          "weightClass": null
+        },
+        {
+          "title": "Timo Feucht v Zdenek Polivka",
+          "weightClass": null
+        },
+        {
+          "title": "Vaclav Stepan v Aria Azarnoosh",
+          "weightClass": null
+        },
+        {
+          "title": "Marco Novak v Anatolij Baal",
+          "weightClass": null
+        },
+        {
+          "title": "Viktor Cervinsky v Daniel Hromek",
+          "weightClass": null
+        },
+        {
+          "title": "Husein Kadimagomaev v Marco Elpidio",
+          "weightClass": null
+        },
+        {
+          "title": "Rakhim Iliskhanov v Patrik Pikes",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-17T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-17",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Oktagon-MMA-Oktagon-95-Skvor-vs-Narkun-114019",
+        "name": "Oktagon 95: Skvor vs. Narkun",
+        "dateUTC": null,
+        "dateOnly": "2026-10-17",
+        "venue": "Mattoni Arena",
+        "city": "Karlovy Vary, Czech Republic",
+        "href": "/events/Oktagon-MMA-Oktagon-95-Skvor-vs-Narkun-114019",
+        "mainEventFighters": [
+          "Skvor",
+          "Narkun"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Matus Juracek",
+            "b": "Jozef Wittner"
+          },
+          {
+            "a": "Aaron Aby",
+            "b": "David Dvorak"
+          },
+          {
+            "a": "Timo Feucht",
+            "b": "Zdenek Polivka"
+          },
+          {
+            "a": "Vaclav Stepan",
+            "b": "Aria Azarnoosh"
+          },
+          {
+            "a": "Marco Novak",
+            "b": "Anatolij Baal"
+          },
+          {
+            "a": "Viktor Cervinsky",
+            "b": "Daniel Hromek"
+          },
+          {
+            "a": "Husein Kadimagomaev",
+            "b": "Marco Elpidio"
+          },
+          {
+            "a": "Rakhim Iliskhanov",
+            "b": "Patrik Pikes"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Skvor|Narkun|2026-10-17"
+    },
+    {
+      "org": "UFC",
+      "eventName": "UFC Fight Night: Buckley vs. Malott",
+      "eventTag": "UFC Fight Night · Rogers Place, Edmonton · 13-fight card · main card Sun 18 Oct, 01:00 UK",
+      "homeTeam": "Mike Malott",
+      "awayTeam": "Joaquin Buckley",
+      "cardTitle": null,
+      "homeLogo": "/logos/flags/can.png",
+      "awayLogo": "/logos/flags/usa.png",
+      "orgName": "UFC",
+      "orgLogo": "/logos/orgs/ufc.png",
+      "undercard": [
+        {
+          "title": "SuYoung You v Cody Chovancek",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Chelsea Chandler v Melissa Croden",
+          "weightClass": "W Bantamweight"
+        },
+        {
+          "title": "Chad Anheliger v Steven Koslow",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Katlyn Cerminara v Mackenzie Stiller",
+          "weightClass": "W Flyweight"
+        },
+        {
+          "title": "Javad Mahjoub v Joel Faglier",
+          "weightClass": "Heavyweight"
+        },
+        {
+          "title": "Julien LeBlanc v Nick Galanti",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Tanner Boser v Jhonata Diniz",
+          "weightClass": "Heavyweight"
+        },
+        {
+          "title": "Nate Landwehr v Mandel Nallo",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Louis Jourdain v Timmy Cuamba",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Kyle Daukaus v Marc-Andre Barriault",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Kyle Nelson v Cristian Pérez",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Erin Blanchfield v Jasmine Jasudavicius",
+          "weightClass": "W Flyweight"
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-17T21:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 17 Oct, 22:00",
+      "localDate": "2026-10-17",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "US",
+          "channels": [
+            {
+              "name": "Paramount+",
+              "url": "https://www.paramountplus.com/",
+              "logo": "/logos/channels/paramountplus.com.png"
+            }
+          ]
+        },
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "TNT Sports",
+              "url": "https://www.tntsports.co.uk/boxing/",
+              "logo": "/logos/channels/tntsports.co.uk.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "UFC",
+        "espnId": "600060773",
+        "name": "UFC Fight Night: Buckley vs. Malott",
+        "dateUTC": "2026-10-17T21:00Z",
+        "mainCardUTC": "2026-10-18T00:00Z",
+        "venue": "Rogers Place",
+        "city": "Edmonton",
+        "country": "Canada",
+        "mainEventFighters": [
+          "Mike Malott",
+          "Joaquin Buckley"
+        ],
+        "mainEventFlagUrls": [
+          "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
+        ],
+        "bouts": [
+          {
+            "a": "SuYoung You",
+            "b": "Cody Chovancek",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Chelsea Chandler",
+            "b": "Melissa Croden",
+            "weightClass": "W Bantamweight"
+          },
+          {
+            "a": "Chad Anheliger",
+            "b": "Steven Koslow",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Katlyn Cerminara",
+            "b": "Mackenzie Stiller",
+            "weightClass": "W Flyweight"
+          },
+          {
+            "a": "Javad Mahjoub",
+            "b": "Joel Faglier",
+            "weightClass": "Heavyweight"
+          },
+          {
+            "a": "Julien LeBlanc",
+            "b": "Nick Galanti",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Tanner Boser",
+            "b": "Jhonata Diniz",
+            "weightClass": "Heavyweight"
+          },
+          {
+            "a": "Nate Landwehr",
+            "b": "Mandel Nallo",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Louis Jourdain",
+            "b": "Timmy Cuamba",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Kyle Daukaus",
+            "b": "Marc-Andre Barriault",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Kyle Nelson",
+            "b": "Cristian Pérez",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Erin Blanchfield",
+            "b": "Jasmine Jasudavicius",
+            "weightClass": "W Flyweight"
+          },
+          {
+            "a": "Mike Malott",
+            "b": "Joaquin Buckley",
+            "weightClass": "Welterweight"
+          }
+        ],
+        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
+        "boutCount": 13,
+        "broadcasts": [
+          "Paramount+"
+        ]
+      },
+      "watchKey": "fights:UFC|Mike Malott|Joaquin Buckley|2026-10-17",
+      "replayGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "TNT Sports 2",
+              "logo": "/logos/channels/tntsports.co.uk.png",
+              "timeUK": "Tue 20 Oct, 02:00",
+              "airTimeUTC": "2026-10-20T01:00:00.000Z"
+            },
+            {
+              "name": "TNT Sports 2",
+              "logo": "/logos/channels/tntsports.co.uk.png",
+              "timeUK": "Wed 21 Oct, 00:00",
+              "airTimeUTC": "2026-10-20T23:00:00.000Z"
+            },
+            {
+              "name": "TNT Sports 1",
+              "logo": "/logos/channels/tntsports.co.uk.png",
+              "timeUK": "Thu 22 Oct, 00:30",
+              "airTimeUTC": "2026-10-21T23:30:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Daniel Dubois-Fabio Wardley",
+      "eventTag": "Boxing · The O2 Arena, London, United Kingdom",
+      "homeTeam": "Daniel Dubois",
+      "awayTeam": "Fabio Wardley",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": {
+        "src": "/logos/posters/4acd8d2c0fc57f99b929.webp",
+        "attribution": "DAZN"
+      },
+      "kickoffUTC": "2026-10-17T18:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 17 Oct, 19:00",
+      "localDate": "2026-10-17",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "daniel-dubois-fabio-wardley",
+        "name": "Daniel Dubois-Fabio Wardley",
+        "dateUTC": "2026-10-17T18:00:00.000Z",
+        "dateOnly": "2026-10-17",
+        "venue": "The O2 Arena",
+        "city": "London, United Kingdom",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/danielduboisfabiowardley2.webp",
+        "posterAttribution": "DAZN",
+        "mainEventFighters": [
+          "Daniel Dubois",
+          "Fabio Wardley"
+        ],
+        "bouts": [
+          {
+            "a": "Daniel Dubois",
+            "b": "Fabio Wardley"
+          }
+        ],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/daniel-dubois-vs-fabio-wardley-2026-10-17"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/daniel-dubois-vs-fabio-wardley-2026-10-17"
+      },
+      "watchKey": "fights:Boxing|Daniel Dubois|Fabio Wardley|2026-10-17"
+    },
     {
       "org": "MMA",
       "eventName": "One Friday Fights 175",
@@ -5825,20 +6119,7 @@
           }
         ]
       },
-      "watchKey": "fights:Boxing|BKFC Fight Night Bethlehem: Cisneros|Peterson Prelims|2026-10-10",
-      "replayGroups": [
-        {
-          "label": "Canada",
-          "channels": [
-            {
-              "name": "Fight Network",
-              "logo": "/logos/channels/fightnetwork.com.jpg",
-              "timeUK": "Sun 18 Oct, 02:00",
-              "airTimeUTC": "2026-10-18T01:00:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:Boxing|BKFC Fight Night Bethlehem: Cisneros|Peterson Prelims|2026-10-10"
     },
     {
       "org": "MMA",
@@ -6640,395 +6921,9 @@
         ]
       },
       "watchKey": "fights:MMA|Abdulvakhabov|Tibau|2026-10-04"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Rizin FF: Landmark Vol. 16",
-      "eventTag": "Rizin FF · Happiness Arena, Nagasaki, Nagasaki, Japan",
-      "homeTeam": "Yoshinori Horie",
-      "awayTeam": "Sho Patrick Usami",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Viktor Kolesnik v Koyomi Matsushima",
-          "weightClass": null
-        },
-        {
-          "title": "Hyuma Yasui v Ryan Cafaro",
-          "weightClass": null
-        },
-        {
-          "title": "Keito Oyama v Noeru Narita",
-          "weightClass": null
-        },
-        {
-          "title": "Kyohei Takagi v Masatoshi Ueda",
-          "weightClass": null
-        },
-        {
-          "title": "Seiya Inoue v Ryusei Ashizawa",
-          "weightClass": null
-        },
-        {
-          "title": "Hidetaka Arato v Ken Hasegawa",
-          "weightClass": null
-        },
-        {
-          "title": "Alan Yamaniha v Seigo Yamamoto",
-          "weightClass": null
-        },
-        {
-          "title": "Kohei Sugiyama v Kaito Oda",
-          "weightClass": null
-        },
-        {
-          "title": "Ryota Oki v Daisuke Okumiya",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-03T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-03",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Rizin-FF-Landmark-Vol-16-113793",
-        "name": "Rizin FF: Landmark Vol. 16",
-        "dateUTC": null,
-        "dateOnly": "2026-10-03",
-        "venue": "Happiness Arena",
-        "city": "Nagasaki, Nagasaki, Japan",
-        "href": "/events/Rizin-FF-Landmark-Vol-16-113793",
-        "mainEventFighters": [
-          "Yoshinori Horie",
-          "Sho Patrick Usami"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Viktor Kolesnik",
-            "b": "Koyomi Matsushima"
-          },
-          {
-            "a": "Hyuma Yasui",
-            "b": "Ryan Cafaro"
-          },
-          {
-            "a": "Keito Oyama",
-            "b": "Noeru Narita"
-          },
-          {
-            "a": "Kyohei Takagi",
-            "b": "Masatoshi Ueda"
-          },
-          {
-            "a": "Seiya Inoue",
-            "b": "Ryusei Ashizawa"
-          },
-          {
-            "a": "Hidetaka Arato",
-            "b": "Ken Hasegawa"
-          },
-          {
-            "a": "Alan Yamaniha",
-            "b": "Seigo Yamamoto"
-          },
-          {
-            "a": "Kohei Sugiyama",
-            "b": "Kaito Oda"
-          },
-          {
-            "a": "Ryota Oki",
-            "b": "Daisuke Okumiya"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Yoshinori Horie|Sho Patrick Usami|2026-10-03"
-    },
-    {
-      "org": "UFC",
-      "eventName": "UFC 332: Silva vs. Wang",
-      "eventTag": "UFC 332 · Delta Center, Salt Lake City · 14-fight card · main card Sun 04 Oct, 01:00 UK",
-      "homeTeam": "Natalia Silva",
-      "awayTeam": "Wang Cong",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/bra.png",
-      "awayLogo": "/logos/flags/chn.png",
-      "orgName": "UFC",
-      "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [
-        {
-          "title": "Court McGee v Eric Nolan",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Marvin Vettori v Ismail Naurdiev",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Rafael Dos Anjos v Alexander Hernandez",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Jacobe Smith v Bruce Whitehead",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Johnny Walker v Mick Parkin",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Anthony Wint v Lucas Armand",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Anthony Romero v Marcus McGhee",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Andrey Pulyaev v Damian Pinas",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Alden Coria v Imanol Rodriguez",
-          "weightClass": "Flyweight"
-        },
-        {
-          "title": "Roman Kopylov v Ateba Gautier",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Roberto Soldić v Khaos Williams",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "King Green v Esteban Ribovics",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Deiveson Figueiredo v Payton Talbott",
-          "weightClass": "Bantamweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-03T20:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 03 Oct, 21:00",
-      "localDate": "2026-10-03",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        },
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports",
-              "url": "https://www.tntsports.co.uk/boxing/",
-              "logo": "/logos/channels/tntsports.co.uk.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "UFC",
-        "espnId": "600061182",
-        "name": "UFC 332: Silva vs. Wang",
-        "dateUTC": "2026-10-03T20:00Z",
-        "mainCardUTC": "2026-10-04T00:00Z",
-        "venue": "Delta Center",
-        "city": "Salt Lake City",
-        "country": "USA",
-        "mainEventFighters": [
-          "Natalia Silva",
-          "Wang Cong"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/chn.png"
-        ],
-        "bouts": [
-          {
-            "a": "Court McGee",
-            "b": "Eric Nolan",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Marvin Vettori",
-            "b": "Ismail Naurdiev",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Rafael Dos Anjos",
-            "b": "Alexander Hernandez",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Jacobe Smith",
-            "b": "Bruce Whitehead",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Johnny Walker",
-            "b": "Mick Parkin",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Anthony Wint",
-            "b": "Lucas Armand",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Anthony Romero",
-            "b": "Marcus McGhee",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Andrey Pulyaev",
-            "b": "Damian Pinas",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Alden Coria",
-            "b": "Imanol Rodriguez",
-            "weightClass": "Flyweight"
-          },
-          {
-            "a": "Roman Kopylov",
-            "b": "Ateba Gautier",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Roberto Soldić",
-            "b": "Khaos Williams",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "King Green",
-            "b": "Esteban Ribovics",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Deiveson Figueiredo",
-            "b": "Payton Talbott",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Natalia Silva",
-            "b": "Wang Cong",
-            "weightClass": "W Flyweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 14,
-        "broadcasts": [
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:UFC|Natalia Silva|Wang Cong|2026-10-03"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Ben Whittaker vs. Conor Wallace",
-      "eventTag": "Boxing · Utilita Arena Birmingham, Birmingham, United Kingdom",
-      "homeTeam": "Ben Whittaker",
-      "awayTeam": "Conor Wallace",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": {
-        "src": "/logos/posters/5292bb224b179c4c75d2.jpg",
-        "attribution": "DAZN"
-      },
-      "kickoffUTC": "2026-10-03T18:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 03 Oct, 19:00",
-      "localDate": "2026-10-03",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "Listed by source",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "ben-whittaker-vs-conor-wallace",
-        "name": "Ben Whittaker vs. Conor Wallace",
-        "dateUTC": "2026-10-03T18:00:00.000Z",
-        "dateOnly": "2026-10-03",
-        "venue": "Utilita Arena Birmingham",
-        "city": "Birmingham, United Kingdom",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/BenWhittakerConorWallaceposter.jpg",
-        "posterAttribution": "DAZN",
-        "mainEventFighters": [
-          "Ben Whittaker",
-          "Conor Wallace"
-        ],
-        "bouts": [
-          {
-            "a": "Ben Whittaker",
-            "b": "Conor Wallace"
-          }
-        ],
-        "broadcasts": [
-          "DAZN"
-        ]
-      },
-      "watchKey": "fights:Boxing|Ben Whittaker|Conor Wallace|2026-10-03"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-18T01:00:00.000Z",
-      "endsAtUTC": "2026-10-18T02:00:00.000Z",
-      "timeUK": "Sun 18 Oct, 02:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "watchKey": "fights:Boxing|BKFC Fight Night Bethlehem: Cisneros|Peterson Prelims|2026-10-10",
-      "label": "BKFC Fight Night Bethlehem: Cisneros vs Peterson Prelims",
-      "logos": [],
-      "sublabel": "Boxing · Sat 10 Oct, 01:00"
-    },
-    {
-      "airTimeUTC": "2026-10-18T02:00:00.000Z",
-      "endsAtUTC": "2026-10-18T05:00:00.000Z",
-      "timeUK": "Sun 18 Oct, 03:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Cisneros v Petersen",
-      "sublabel": "BKFC Fight Night - Bethlehem: Cisneros v"
-    },
     {
       "airTimeUTC": "2026-10-18T06:00:00.000Z",
       "endsAtUTC": "2026-10-18T07:00:00.000Z",
@@ -7052,6 +6947,66 @@
       "market": "Canada",
       "label": "Kuhne v Curran",
       "sublabel": "BKFC Fight Night Australia: Kuhne vs. Cu"
+    },
+    {
+      "airTimeUTC": "2026-10-20T01:00:00.000Z",
+      "endsAtUTC": "2026-10-20T05:00:00.000Z",
+      "timeUK": "Tue 20 Oct, 02:00",
+      "channel": {
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "watchKey": "fights:UFC|Mike Malott|Joaquin Buckley|2026-10-17",
+      "label": "UFC Fight Night: Buckley vs. Malott",
+      "logos": [
+        "/logos/orgs/ufc.png"
+      ],
+      "sublabel": "UFC · Sat 17 Oct, 22:00"
+    },
+    {
+      "airTimeUTC": "2026-10-20T03:00:00.000Z",
+      "endsAtUTC": "2026-10-20T06:00:00.000Z",
+      "timeUK": "Tue 20 Oct, 04:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Cisneros v Petersen",
+      "sublabel": "BKFC Fight Night - Bethlehem: Cisneros v"
+    },
+    {
+      "airTimeUTC": "2026-10-20T23:00:00.000Z",
+      "endsAtUTC": "2026-10-21T03:00:00.000Z",
+      "timeUK": "Wed 21 Oct, 00:00",
+      "channel": {
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "watchKey": "fights:UFC|Mike Malott|Joaquin Buckley|2026-10-17",
+      "label": "UFC Fight Night: Buckley vs. Malott",
+      "logos": [
+        "/logos/orgs/ufc.png"
+      ],
+      "sublabel": "UFC · Sat 17 Oct, 22:00"
+    },
+    {
+      "airTimeUTC": "2026-10-21T23:30:00.000Z",
+      "endsAtUTC": "2026-10-22T03:30:00.000Z",
+      "timeUK": "Thu 22 Oct, 00:30",
+      "channel": {
+        "name": "TNT Sports 1",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "watchKey": "fights:UFC|Mike Malott|Joaquin Buckley|2026-10-17",
+      "label": "UFC Fight Night: Buckley vs. Malott",
+      "logos": [
+        "/logos/orgs/ufc.png"
+      ],
+      "sublabel": "UFC · Sat 17 Oct, 22:00"
     },
     {
       "airTimeUTC": "2026-10-22T18:00:00.000Z",
