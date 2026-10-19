@@ -1,5 +1,37 @@
 [
   {
+    "timestamp": "2026-10-19T17:49:42.383Z",
+    "totalEvents": 41,
+    "added": [
+      "Aldosivi vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 25 Oct, 13:45",
+      "Independiente vs Boca Juniors (Liga Profesional de Fútbol) — Sun 25 Oct, 16:00",
+      "River Plate vs Racing Club (Liga Profesional de Fútbol) — Sun 25 Oct, 18:15",
+      "Atlas vs Puebla (Liga MX) — Sun 25 Oct, 16:00",
+      "Central Córdoba (Santiago del Estero) vs Vélez Sarsfield (Liga Profesional de Fútbol) — Sun 25 Oct, 20:30",
+      "Barracas Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sun 25 Oct, 20:30",
+      "América vs Pachuca (Liga MX) — Sun 25 Oct, 18:00",
+      "Querétaro vs Cruz Azul (Liga MX) — Sun 25 Oct, 18:00",
+      "Tijuana vs Santos Laguna (Liga MX) — Sun 25 Oct, 20:00"
+    ],
+    "removed": [
+      "Racing Club vs Independiente (Liga Profesional de Fútbol) — Sun 18 Oct, 14:45",
+      "Fluminense vs Santos (Campeonato Brasileiro Série A) — Sun 18 Oct, 16:00",
+      "Grêmio vs Cruzeiro (Campeonato Brasileiro Série A) — Sun 18 Oct, 16:00",
+      "Estudiantes de La Plata vs San Lorenzo (Liga Profesional de Fútbol) — Sun 18 Oct, 18:00",
+      "Estudiantes de Río Cuarto vs Aldosivi (Liga Profesional de Fútbol) — Sun 18 Oct, 18:00",
+      "Bahia vs Flamengo (Campeonato Brasileiro Série A) — Sun 18 Oct, 18:30",
+      "Remo vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sun 18 Oct, 19:30",
+      "Belgrano (Córdoba) vs River Plate (Liga Profesional de Fútbol) — Sun 18 Oct, 20:15",
+      "Monterrey vs Pachuca (Liga MX) — Sun 18 Oct, 19:00"
+    ],
+    "channelsChanged": [
+      "Corinthians vs Vitória (Campeonato Brasileiro Série A) — Mon 19 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE FC, SPORTV]",
+      "FC Juárez vs Atlante (Liga MX) — Tue 20 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
+      "Tigres UANL vs Club León (Liga MX) — Tue 20 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
+      "Toluca vs Tijuana (Liga MX) — Wed 21 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One, ViX Premium]"
+    ]
+  },
+  {
     "timestamp": "2026-10-18T14:52:09.822Z",
     "totalEvents": 41,
     "added": [
@@ -133,27 +165,6 @@
       "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00: [Disney+ Premium, ESPN Premium]",
       "Deportivo Riestra vs Unión Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15: [Disney+ Premium, ESPN, ESPN Premium]",
       "Vasco da Gama vs Boca Juniors (CONMEBOL Sudamericana) — Tue 20 Oct, 21:30: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, ESPN 3, Paramount+]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-14T16:01:28.053Z",
-    "totalEvents": 37,
-    "added": [
-      "Chivas Guadalajara vs Necaxa (Liga MX) — Tue 20 Oct, 18:07",
-      "Vasco da Gama vs Boca Juniors (CONMEBOL Sudamericana) — Tue 20 Oct, 21:30",
-      "FC Juárez vs Atlante (Liga MX) — Tue 20 Oct, 19:00",
-      "Tigres UANL vs Club León (Liga MX) — Tue 20 Oct, 21:00",
-      "Atlético San Luis vs Querétaro (Liga MX) — Tue 20 Oct, 22:00"
-    ],
-    "removed": [
-      "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Tue 13 Oct, 17:00",
-      "Boca Juniors vs Vasco da Gama (CONMEBOL Sudamericana) — Tue 13 Oct, 21:30"
-    ],
-    "channelsChanged": [
-      "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Wed 14 Oct, 19:00: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Fluminense vs Palmeiras (CONMEBOL Libertadores) — Wed 14 Oct, 21:30: [Disney+ Premium, ESPN, FOX Sports, GE TV, GLOBO, PARAMOUNT+]",
-      "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Thu 15 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN, ESPN 2, FOX Sports, Mitelefe.com, Pluto TV, Telefe, Telefé YouTube]",
-      "Santos Laguna vs Querétaro (Liga MX) — Sat 17 Oct, 17:00: [Disney+ Premium, ESPN, ESPN 2, Layvtime, Layvtime YouTube, ViX Premium]"
     ]
   }
 ]

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-18T14:53:22.750Z",
+  "generatedAt": "2026-10-19T17:51:06.442Z",
   "upcoming": [
     {
       "org": "MMA",
       "eventName": "Lemino Shooto Vol. 9",
       "eventTag": "Lemino Shooto Vol. 9 · Korakuen Hall, Bunkyo, Tokyo, Japan",
-      "homeTeam": "Shoji Saito",
-      "awayTeam": "Shohei Nose",
+      "homeTeam": "Shohei Nose",
+      "awayTeam": "Shoji Saito",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -14,23 +14,19 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Wataru Yamauchi v Shimon Suzuki",
+          "title": "Shimon Suzuki v Wataru Yamauchi",
           "weightClass": null
         },
         {
-          "title": "Riku Nakajima v Takuma Sudo",
+          "title": "Chi Woo Park v Kazuma Kuramoto",
           "weightClass": null
         },
         {
-          "title": "Kyle Mayocchi v Hikaru Yoshino",
+          "title": "Hikaru Yoshino v Kyle Mayocchi",
           "weightClass": null
         },
         {
-          "title": "Arashi Okada v Daichi Mizuta",
-          "weightClass": null
-        },
-        {
-          "title": "Kazuma Kuramoto v Chi Woo Park",
+          "title": "Daichi Mizuta v Arashi Okada",
           "weightClass": null
         },
         {
@@ -42,7 +38,7 @@
           "weightClass": null
         },
         {
-          "title": "Tatsuma Okada v Tetta Arima",
+          "title": "Tetta Arima v Tatsuma Okada",
           "weightClass": null
         }
       ],
@@ -63,30 +59,26 @@
         "city": "Bunkyo, Tokyo, Japan",
         "href": "/events/Shooto-Lemino-Shooto-Vol-9-114593",
         "mainEventFighters": [
-          "Shoji Saito",
-          "Shohei Nose"
+          "Shohei Nose",
+          "Shoji Saito"
         ],
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Wataru Yamauchi",
-            "b": "Shimon Suzuki"
+            "a": "Shimon Suzuki",
+            "b": "Wataru Yamauchi"
           },
           {
-            "a": "Riku Nakajima",
-            "b": "Takuma Sudo"
+            "a": "Chi Woo Park",
+            "b": "Kazuma Kuramoto"
           },
           {
-            "a": "Kyle Mayocchi",
-            "b": "Hikaru Yoshino"
+            "a": "Hikaru Yoshino",
+            "b": "Kyle Mayocchi"
           },
           {
-            "a": "Arashi Okada",
-            "b": "Daichi Mizuta"
-          },
-          {
-            "a": "Kazuma Kuramoto",
-            "b": "Chi Woo Park"
+            "a": "Daichi Mizuta",
+            "b": "Arashi Okada"
           },
           {
             "a": "Seiya Sugimoto",
@@ -97,12 +89,12 @@
             "b": "Eiji Yoshizawa"
           },
           {
-            "a": "Tatsuma Okada",
-            "b": "Tetta Arima"
+            "a": "Tetta Arima",
+            "b": "Tatsuma Okada"
           }
         ]
       },
-      "watchKey": "fights:MMA|Shoji Saito|Shohei Nose|2026-10-19"
+      "watchKey": "fights:MMA|Shohei Nose|Shoji Saito|2026-10-19"
     },
     {
       "org": "MMA",
@@ -543,8 +535,8 @@
       "org": "MMA",
       "eventName": "Shooto / Torao Nation State: Force 24",
       "eventTag": "Shooto / Torao Nation State · Takamatsu Symbol Tower Exhibition Hall, Takamatsu, Kagawa, Japan",
-      "homeTeam": "Aito Matsuda",
-      "awayTeam": "Minato Dei",
+      "homeTeam": "Tomohiro Ogino",
+      "awayTeam": "Kohei Uoyama",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -552,11 +544,27 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Sora Muraizumi v Yuki Fukushima",
+          "title": "Satoshi Fujikawa v Yuichi Miyagi",
+          "weightClass": null
+        },
+        {
+          "title": "Toshiro Tarumi v Kousuke Naoshima",
+          "weightClass": null
+        },
+        {
+          "title": "Kuranosuke Ikeda v Yuhei Nagamitsu",
           "weightClass": null
         },
         {
           "title": "Riku Isoda v Sho Tanigawa",
+          "weightClass": null
+        },
+        {
+          "title": "Kenji Mabuchi v Takato Uemura",
+          "weightClass": null
+        },
+        {
+          "title": "Yuta Namihira v Shun Komiyama",
           "weightClass": null
         },
         {
@@ -568,31 +576,15 @@
           "weightClass": null
         },
         {
-          "title": "Satoshi Fujikawa v Yuichi Miyagi",
-          "weightClass": null
-        },
-        {
-          "title": "Yuta Namihira v Shun Komiyama",
-          "weightClass": null
-        },
-        {
-          "title": "Toshiro Tarumi v Kousuke Naoshima",
-          "weightClass": null
-        },
-        {
-          "title": "Kenji Mabuchi v Takato Uemura",
-          "weightClass": null
-        },
-        {
-          "title": "Tomohiro Ogino v Kohei Uoyama",
-          "weightClass": null
-        },
-        {
           "title": "Takaomi Ueno v Ryota Nishimura",
           "weightClass": null
         },
         {
-          "title": "Kuranosuke Ikeda v Yuhei Nagamitsu",
+          "title": "Sora Muraizumi v Yuki Fukushima",
+          "weightClass": null
+        },
+        {
+          "title": "Aito Matsuda v Minato Dei",
           "weightClass": null
         }
       ],
@@ -613,18 +605,34 @@
         "city": "Takamatsu, Kagawa, Japan",
         "href": "/events/Shooto-Torao-Nation-State-Force-24-114323",
         "mainEventFighters": [
-          "Aito Matsuda",
-          "Minato Dei"
+          "Tomohiro Ogino",
+          "Kohei Uoyama"
         ],
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Sora Muraizumi",
-            "b": "Yuki Fukushima"
+            "a": "Satoshi Fujikawa",
+            "b": "Yuichi Miyagi"
+          },
+          {
+            "a": "Toshiro Tarumi",
+            "b": "Kousuke Naoshima"
+          },
+          {
+            "a": "Kuranosuke Ikeda",
+            "b": "Yuhei Nagamitsu"
           },
           {
             "a": "Riku Isoda",
             "b": "Sho Tanigawa"
+          },
+          {
+            "a": "Kenji Mabuchi",
+            "b": "Takato Uemura"
+          },
+          {
+            "a": "Yuta Namihira",
+            "b": "Shun Komiyama"
           },
           {
             "a": "Mamiya Matsuura",
@@ -635,36 +643,20 @@
             "b": "Ren Kitahara"
           },
           {
-            "a": "Satoshi Fujikawa",
-            "b": "Yuichi Miyagi"
-          },
-          {
-            "a": "Yuta Namihira",
-            "b": "Shun Komiyama"
-          },
-          {
-            "a": "Toshiro Tarumi",
-            "b": "Kousuke Naoshima"
-          },
-          {
-            "a": "Kenji Mabuchi",
-            "b": "Takato Uemura"
-          },
-          {
-            "a": "Tomohiro Ogino",
-            "b": "Kohei Uoyama"
-          },
-          {
             "a": "Takaomi Ueno",
             "b": "Ryota Nishimura"
           },
           {
-            "a": "Kuranosuke Ikeda",
-            "b": "Yuhei Nagamitsu"
+            "a": "Sora Muraizumi",
+            "b": "Yuki Fukushima"
+          },
+          {
+            "a": "Aito Matsuda",
+            "b": "Minato Dei"
           }
         ]
       },
-      "watchKey": "fights:MMA|Aito Matsuda|Minato Dei|2026-10-25"
+      "watchKey": "fights:MMA|Tomohiro Ogino|Kohei Uoyama|2026-10-25"
     },
     {
       "org": "MMA",
@@ -2296,6 +2288,43 @@
         ]
       },
       "watchKey": "fights:UFC|Sean Brady|Gabriel Bonfim|2026-11-07"
+    },
+    {
+      "org": "MMA",
+      "eventName": "RCC: Intro 40",
+      "eventTag": "RCC · RMK Martial Arts Academy, Yekaterinburg, Russia",
+      "homeTeam": "Temirkhan Temirkhanov",
+      "awayTeam": "Raimundo Batista",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-07T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-07",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-RCC-Intro-40-114962",
+        "name": "RCC: Intro 40",
+        "dateUTC": null,
+        "dateOnly": "2026-11-07",
+        "venue": "RMK Martial Arts Academy",
+        "city": "Yekaterinburg, Russia",
+        "href": "/events/RCC-Intro-40-114962",
+        "mainEventFighters": [
+          "Temirkhan Temirkhanov",
+          "Raimundo Batista"
+        ],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|Temirkhan Temirkhanov|Raimundo Batista|2026-11-07"
     },
     {
       "org": "MMA",
@@ -6595,359 +6624,9 @@
         ]
       },
       "watchKey": "fights:UFC|Preston LaGrange|Nell Ariano|2026-10-07"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Pancrase: 367",
-      "eventTag": "Pancrase · New Pier Hall, Minato, Tokyo, Japan",
-      "homeTeam": "Nachyn Sat",
-      "awayTeam": "Kazuki Kasai",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Kaisei Ujihara v Riccardo Pala",
-          "weightClass": null
-        },
-        {
-          "title": "Daiki Arata v Kunihisa Sasa",
-          "weightClass": null
-        },
-        {
-          "title": "Sayako Fujita v Jimena Osorio",
-          "weightClass": null
-        },
-        {
-          "title": "Issei Tokida v Ryohei Kobayashi",
-          "weightClass": null
-        },
-        {
-          "title": "Junya Sawaki v Yohei Nada",
-          "weightClass": null
-        },
-        {
-          "title": "Ryosuke Mayumida v Sho Miyashita",
-          "weightClass": null
-        },
-        {
-          "title": "Arashi Yamanobe v Taito Watanabe",
-          "weightClass": null
-        },
-        {
-          "title": "Seiya Saso v Tomoya Kamakura",
-          "weightClass": null
-        },
-        {
-          "title": "Ryohei Danbara v Shota Saito",
-          "weightClass": null
-        },
-        {
-          "title": "Fuuto Shimoyama v Yodai Ono",
-          "weightClass": null
-        },
-        {
-          "title": "Yukito Hamamoto v Hiroyuki Shibui",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-04T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-04",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Pancrase-367-114384",
-        "name": "Pancrase: 367",
-        "dateUTC": null,
-        "dateOnly": "2026-10-04",
-        "venue": "New Pier Hall",
-        "city": "Minato, Tokyo, Japan",
-        "href": "/events/Pancrase-367-114384",
-        "mainEventFighters": [
-          "Nachyn Sat",
-          "Kazuki Kasai"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Kaisei Ujihara",
-            "b": "Riccardo Pala"
-          },
-          {
-            "a": "Daiki Arata",
-            "b": "Kunihisa Sasa"
-          },
-          {
-            "a": "Sayako Fujita",
-            "b": "Jimena Osorio"
-          },
-          {
-            "a": "Issei Tokida",
-            "b": "Ryohei Kobayashi"
-          },
-          {
-            "a": "Junya Sawaki",
-            "b": "Yohei Nada"
-          },
-          {
-            "a": "Ryosuke Mayumida",
-            "b": "Sho Miyashita"
-          },
-          {
-            "a": "Arashi Yamanobe",
-            "b": "Taito Watanabe"
-          },
-          {
-            "a": "Seiya Saso",
-            "b": "Tomoya Kamakura"
-          },
-          {
-            "a": "Ryohei Danbara",
-            "b": "Shota Saito"
-          },
-          {
-            "a": "Fuuto Shimoyama",
-            "b": "Yodai Ono"
-          },
-          {
-            "a": "Yukito Hamamoto",
-            "b": "Hiroyuki Shibui"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Nachyn Sat|Kazuki Kasai|2026-10-04"
-    },
-    {
-      "org": "MMA",
-      "eventName": "ACA 208: Abdulvakhabov vs. Tibau",
-      "eventTag": "ACA 208 · Sport Hall Colloseum, Grozny, Chechnya, Russia",
-      "homeTeam": "Abdulvakhabov",
-      "awayTeam": "Tibau",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Abdul-Rakhman Dudaev v Vicente Vargas",
-          "weightClass": null
-        },
-        {
-          "title": "Dzhambulat Selimkhanov v Kurban Taygibov",
-          "weightClass": null
-        },
-        {
-          "title": "Adlan Ibragimov v Sergey Starodub",
-          "weightClass": null
-        },
-        {
-          "title": "Alexander Podlesniy v Rustam Kerimov",
-          "weightClass": null
-        },
-        {
-          "title": "Abdul-Rahman Dzhanaev v Mikhail Dolgov",
-          "weightClass": null
-        },
-        {
-          "title": "Kirill Grishenko v Daniil Matsola",
-          "weightClass": null
-        },
-        {
-          "title": "Magomed Sulumov v Sheymon Moraes",
-          "weightClass": null
-        },
-        {
-          "title": "Herbert Batista v Uzair Abdurakov",
-          "weightClass": null
-        },
-        {
-          "title": "Timur Valiev v Shamil Boraev",
-          "weightClass": null
-        },
-        {
-          "title": "Francisco Figueiredo v Yunus Evloev",
-          "weightClass": null
-        },
-        {
-          "title": "Mark Hulme v Murad Abdulaev",
-          "weightClass": null
-        },
-        {
-          "title": "Umalat Israpilov v Kurban Gadzhiev",
-          "weightClass": null
-        },
-        {
-          "title": "Imam Vitakhanov v Magnus Kelly Conrado",
-          "weightClass": null
-        },
-        {
-          "title": "Husein Kushagov v Evgeny Erokhin",
-          "weightClass": null
-        },
-        {
-          "title": "Ali Suleymanov v Murad Khasaev",
-          "weightClass": null
-        },
-        {
-          "title": "Magomed Malsagov v Artur Astakhov",
-          "weightClass": null
-        },
-        {
-          "title": "Renan Oliveira v Tamirlan Ashakhanov",
-          "weightClass": null
-        },
-        {
-          "title": "Vazha Tsiptauri v Ramzan Suleymanov",
-          "weightClass": null
-        },
-        {
-          "title": "Asvad Akhmatov v Murat Fakov",
-          "weightClass": null
-        },
-        {
-          "title": "Islam Geroev v Alan Gomes de Castro",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-04T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-04",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-ACA-208-Abdulvakhabov-vs-Tibau-114200",
-        "name": "ACA 208: Abdulvakhabov vs. Tibau",
-        "dateUTC": null,
-        "dateOnly": "2026-10-04",
-        "venue": "Sport Hall Colloseum",
-        "city": "Grozny, Chechnya, Russia",
-        "href": "/events/ACA-208-Abdulvakhabov-vs-Tibau-114200",
-        "mainEventFighters": [
-          "Abdulvakhabov",
-          "Tibau"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Abdul-Rakhman Dudaev",
-            "b": "Vicente Vargas"
-          },
-          {
-            "a": "Dzhambulat Selimkhanov",
-            "b": "Kurban Taygibov"
-          },
-          {
-            "a": "Adlan Ibragimov",
-            "b": "Sergey Starodub"
-          },
-          {
-            "a": "Alexander Podlesniy",
-            "b": "Rustam Kerimov"
-          },
-          {
-            "a": "Abdul-Rahman Dzhanaev",
-            "b": "Mikhail Dolgov"
-          },
-          {
-            "a": "Kirill Grishenko",
-            "b": "Daniil Matsola"
-          },
-          {
-            "a": "Magomed Sulumov",
-            "b": "Sheymon Moraes"
-          },
-          {
-            "a": "Herbert Batista",
-            "b": "Uzair Abdurakov"
-          },
-          {
-            "a": "Timur Valiev",
-            "b": "Shamil Boraev"
-          },
-          {
-            "a": "Francisco Figueiredo",
-            "b": "Yunus Evloev"
-          },
-          {
-            "a": "Mark Hulme",
-            "b": "Murad Abdulaev"
-          },
-          {
-            "a": "Umalat Israpilov",
-            "b": "Kurban Gadzhiev"
-          },
-          {
-            "a": "Imam Vitakhanov",
-            "b": "Magnus Kelly Conrado"
-          },
-          {
-            "a": "Husein Kushagov",
-            "b": "Evgeny Erokhin"
-          },
-          {
-            "a": "Ali Suleymanov",
-            "b": "Murad Khasaev"
-          },
-          {
-            "a": "Magomed Malsagov",
-            "b": "Artur Astakhov"
-          },
-          {
-            "a": "Renan Oliveira",
-            "b": "Tamirlan Ashakhanov"
-          },
-          {
-            "a": "Vazha Tsiptauri",
-            "b": "Ramzan Suleymanov"
-          },
-          {
-            "a": "Asvad Akhmatov",
-            "b": "Murat Fakov"
-          },
-          {
-            "a": "Islam Geroev",
-            "b": "Alan Gomes de Castro"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Abdulvakhabov|Tibau|2026-10-04"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-18T06:00:00.000Z",
-      "endsAtUTC": "2026-10-18T07:00:00.000Z",
-      "timeUK": "Sun 18 Oct, 07:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Kuhne v Curran Prelims",
-      "sublabel": "BKFC Fight Night Australia: Kuhne vs. Cu"
-    },
-    {
-      "airTimeUTC": "2026-10-18T07:00:00.000Z",
-      "endsAtUTC": "2026-10-18T10:00:00.000Z",
-      "timeUK": "Sun 18 Oct, 08:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Kuhne v Curran",
-      "sublabel": "BKFC Fight Night Australia: Kuhne vs. Cu"
-    },
     {
       "airTimeUTC": "2026-10-20T01:00:00.000Z",
       "endsAtUTC": "2026-10-20T05:00:00.000Z",
@@ -6977,6 +6656,30 @@
       "sublabel": "BKFC Fight Night - Bethlehem: Cisneros v"
     },
     {
+      "airTimeUTC": "2026-10-20T06:00:00.000Z",
+      "endsAtUTC": "2026-10-20T09:00:00.000Z",
+      "timeUK": "Tue 20 Oct, 07:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 323: Dvalishvili v Yan 2",
+      "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-10-20T22:00:00.000Z",
+      "endsAtUTC": "2026-10-20T22:30:00.000Z",
+      "timeUK": "Tue 20 Oct, 23:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 246: Conor McGregor v Donald Cerrone",
+      "sublabel": "UFC - The Walk"
+    },
+    {
       "airTimeUTC": "2026-10-20T23:00:00.000Z",
       "endsAtUTC": "2026-10-21T03:00:00.000Z",
       "timeUK": "Wed 21 Oct, 00:00",
@@ -6991,6 +6694,18 @@
         "/logos/orgs/ufc.png"
       ],
       "sublabel": "UFC · Sat 17 Oct, 22:00"
+    },
+    {
+      "airTimeUTC": "2026-10-21T04:00:00.000Z",
+      "endsAtUTC": "2026-10-21T07:00:00.000Z",
+      "timeUK": "Wed 21 Oct, 05:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 311: Makhachev v Moicano",
+      "sublabel": "UFC Reloaded"
     },
     {
       "airTimeUTC": "2026-10-21T23:30:00.000Z",
