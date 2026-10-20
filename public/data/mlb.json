@@ -1,6 +1,98 @@
 {
-  "generatedAt": "2026-10-19T17:50:25.565Z",
+  "generatedAt": "2026-10-20T15:54:31.735Z",
   "games": [
+    {
+      "homeTeamId": 158,
+      "awayTeamId": 139,
+      "homeTeam": "Milwaukee Brewers",
+      "awayTeam": "Tampa Bay Rays",
+      "homeLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
+      "awayLogo": "/logos/teams/a451f47386bd324f26f8.svg",
+      "kickoffUTC": "2026-10-24T00:00:00Z",
+      "kickoffLocal": "Fri 23 Oct, 19:00",
+      "kickoffUK": "Sat 24 Oct, 01:00",
+      "localDate": "2026-10-23",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "FOX / FOX ONE",
+              "logo": null
+            },
+            {
+              "name": "Fox Deportes / FOX ONE",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:Tampa Bay Rays|Milwaukee Brewers|2026-10-23"
+    },
+    {
+      "homeTeamId": 158,
+      "awayTeamId": 139,
+      "homeTeam": "Milwaukee Brewers",
+      "awayTeam": "Tampa Bay Rays",
+      "homeLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
+      "awayLogo": "/logos/teams/a451f47386bd324f26f8.svg",
+      "kickoffUTC": "2026-10-25T00:00:00Z",
+      "kickoffLocal": "Sat 24 Oct, 19:00",
+      "kickoffUK": "Sun 25 Oct, 01:00",
+      "localDate": "2026-10-24",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "FOX / FOX ONE",
+              "logo": null
+            },
+            {
+              "name": "Fox Deportes / FOX ONE",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:Tampa Bay Rays|Milwaukee Brewers|2026-10-24"
+    },
+    {
+      "homeTeamId": 139,
+      "awayTeamId": 158,
+      "homeTeam": "Tampa Bay Rays",
+      "awayTeam": "Milwaukee Brewers",
+      "homeLogo": "/logos/teams/a451f47386bd324f26f8.svg",
+      "awayLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
+      "kickoffUTC": "2026-10-27T00:00:00Z",
+      "kickoffLocal": "Mon 26 Oct, 20:00",
+      "kickoffUK": "Tue 27 Oct, 00:00",
+      "localDate": "2026-10-26",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "National",
+          "channels": [
+            {
+              "name": "FOX / FOX ONE",
+              "logo": null
+            },
+            {
+              "name": "Fox Deportes / FOX ONE",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "isFinal": false,
+      "watchKey": "mlb:Milwaukee Brewers|Tampa Bay Rays|2026-10-26"
+    }
+  ],
+  "recentGames": [
     {
       "homeTeamId": 139,
       "awayTeamId": 114,
@@ -32,105 +124,9 @@
           ]
         }
       ],
-      "isFinal": false,
+      "isFinal": true,
       "watchKey": "mlb:Cleveland Guardians|Tampa Bay Rays|2026-10-19"
     },
-    {
-      "homeTeamId": 139,
-      "awayTeamId": 114,
-      "homeTeam": "Tampa Bay Rays",
-      "awayTeam": "Cleveland Guardians",
-      "homeLogo": "/logos/teams/a451f47386bd324f26f8.svg",
-      "awayLogo": "/logos/teams/21ca69713728d7e9e9c5.svg",
-      "kickoffUTC": "2026-10-21T00:08:00Z",
-      "kickoffLocal": "Tue 20 Oct, 20:08",
-      "kickoffUK": "Wed 21 Oct, 01:08",
-      "localDate": "2026-10-20",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "TBS/HBO MAX",
-              "logo": null
-            },
-            {
-              "name": "TruTV",
-              "logo": null
-            },
-            {
-              "name": "Univision/ TUDN",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:Cleveland Guardians|Tampa Bay Rays|2026-10-20"
-    },
-    {
-      "homeTeamId": 158,
-      "awayTeamId": 21,
-      "homeTeam": "Milwaukee Brewers",
-      "awayTeam": "TB/CLE",
-      "homeLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
-      "awayLogo": "/logos/teams/75b89558cd64aa4b2081.svg",
-      "kickoffUTC": "2026-10-24T00:00:00Z",
-      "kickoffLocal": "Fri 23 Oct, 19:00",
-      "kickoffUK": "Sat 24 Oct, 01:00",
-      "localDate": "2026-10-23",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "FOX / FOX ONE",
-              "logo": null
-            },
-            {
-              "name": "Fox Deportes / FOX ONE",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:TB/CLE|Milwaukee Brewers|2026-10-23"
-    },
-    {
-      "homeTeamId": 158,
-      "awayTeamId": 21,
-      "homeTeam": "Milwaukee Brewers",
-      "awayTeam": "TB/CLE",
-      "homeLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
-      "awayLogo": "/logos/teams/75b89558cd64aa4b2081.svg",
-      "kickoffUTC": "2026-10-25T00:00:00Z",
-      "kickoffLocal": "Sat 24 Oct, 19:00",
-      "kickoffUK": "Sun 25 Oct, 01:00",
-      "localDate": "2026-10-24",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "FOX / FOX ONE",
-              "logo": null
-            },
-            {
-              "name": "Fox Deportes / FOX ONE",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": false,
-      "watchKey": "mlb:TB/CLE|Milwaukee Brewers|2026-10-24"
-    }
-  ],
-  "recentGames": [
     {
       "homeTeamId": 114,
       "awayTeamId": 139,
@@ -360,70 +356,6 @@
       ],
       "isFinal": true,
       "watchKey": "mlb:Cleveland Guardians|Tampa Bay Rays|2026-10-13"
-    },
-    {
-      "homeTeamId": 139,
-      "awayTeamId": 114,
-      "homeTeam": "Tampa Bay Rays",
-      "awayTeam": "Cleveland Guardians",
-      "homeLogo": "/logos/teams/a451f47386bd324f26f8.svg",
-      "awayLogo": "/logos/teams/21ca69713728d7e9e9c5.svg",
-      "kickoffUTC": "2026-10-13T00:00:00Z",
-      "kickoffLocal": "Mon 12 Oct, 20:00",
-      "kickoffUK": "Tue 13 Oct, 01:00",
-      "localDate": "2026-10-12",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "TBS/HBO MAX",
-              "logo": null
-            },
-            {
-              "name": "TruTV",
-              "logo": null
-            },
-            {
-              "name": "Univision/ TUDN",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": true,
-      "watchKey": "mlb:Cleveland Guardians|Tampa Bay Rays|2026-10-12"
-    },
-    {
-      "homeTeamId": 158,
-      "awayTeamId": 119,
-      "homeTeam": "Milwaukee Brewers",
-      "awayTeam": "Los Angeles Dodgers",
-      "homeLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
-      "awayLogo": "/logos/teams/01144909573ff8158803.svg",
-      "kickoffUTC": "2026-10-12T21:00:00Z",
-      "kickoffLocal": "Mon 12 Oct, 16:00",
-      "kickoffUK": "Mon 12 Oct, 22:00",
-      "localDate": "2026-10-12",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "FOX / FOX ONE",
-              "logo": null
-            },
-            {
-              "name": "Fox Deportes / FOX ONE",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": true,
-      "watchKey": "mlb:Los Angeles Dodgers|Milwaukee Brewers|2026-10-12"
     }
   ],
   "replaySchedule": [],

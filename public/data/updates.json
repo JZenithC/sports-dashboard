@@ -1,7 +1,33 @@
 {
-  "generatedAt": "2026-10-19T17:51:06.443Z",
+  "generatedAt": "2026-10-20T15:55:17.359Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-20T15:53:55.548Z",
+        "totalEvents": 40,
+        "added": [
+          "Unión Santa Fe vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Mon 26 Oct, 18:00",
+          "Flamengo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Mon 26 Oct, 20:00",
+          "Instituto (Córdoba) vs Deportivo Riestra (Liga Profesional de Fútbol) — Mon 26 Oct, 20:15"
+        ],
+        "removed": [
+          "Newell's Old Boys vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
+          "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
+          "Corinthians vs Vitória (Campeonato Brasileiro Série A) — Mon 19 Oct, 20:00",
+          "Deportivo Riestra vs Union Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15"
+        ],
+        "channelsChanged": [
+          "Palmeiras vs Fluminense (CONMEBOL Libertadores) — Wed 21 Oct, 21:30: [Disney+ Premium, ESPN 3, FOX Sports, GE TV, GLOBO, PARAMOUNT+]",
+          "Atlas vs América (Liga MX) — Wed 21 Oct, 19:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+          "Pachuca vs Cruz Azul (Liga MX) — Wed 21 Oct, 21:00: [FOX One, FOX+]",
+          "Santos Laguna vs Pumas UNAM (Liga MX) — Wed 21 Oct, 21:10: [Canal 5, Disney+ Premium, ESPN, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+          "Atlante vs Atlético San Luis (Liga MX) — Fri 23 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, ESPN 2, aztecadeportes.com]",
+          "Monterrey vs Chivas Guadalajara (Liga MX) — Sat 24 Oct, 18:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+          "Pumas UNAM vs Tigres UANL (Liga MX) — Sat 24 Oct, 20:00: [Canal 5, TUDN, ViX Premium]",
+          "América vs Pachuca (Liga MX) — Sun 25 Oct, 18:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]"
+        ],
+        "total": 40
+      },
       {
         "timestamp": "2026-10-19T17:49:42.383Z",
         "totalEvents": 41,
@@ -573,26 +599,25 @@
           "Banfield vs Rosario Central (Liga Profesional de Fútbol) — Mon 05 Oct, 21:15: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]"
         ],
         "total": 27
-      },
-      {
-        "timestamp": "2026-10-01T17:33:43.405Z",
-        "totalEvents": 24,
-        "added": [
-          "Internacional vs Corinthians (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
-          "Red Bull Bragantino vs Mirassol (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
-          "Remo vs Grêmio (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30",
-          "Vitória vs Chapecoense (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:00",
-          "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30"
-        ],
-        "removed": [],
-        "channelsChanged": [
-          "Platense vs Estudiantes de La Plata (Copa Argentina) — Thu 01 Oct, 21:15: [TyC Sports, TyC Sports Play]",
-          "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [Disney+ Premium, ESPN, ESPN Premium]"
-        ],
-        "total": 24
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-20T15:54:31.736Z",
+        "total": 3,
+        "added": [
+          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-23)",
+          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-24)",
+          "Milwaukee Brewers @ Tampa Bay Rays (2026-10-26)"
+        ],
+        "removed": [
+          "Cleveland Guardians @ Tampa Bay Rays (2026-10-19)",
+          "Cleveland Guardians @ Tampa Bay Rays (2026-10-20)",
+          "TB/CLE @ Milwaukee Brewers (2026-10-23)",
+          "TB/CLE @ Milwaukee Brewers (2026-10-24)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-19T17:50:25.566Z",
         "total": 4,
@@ -855,19 +880,25 @@
           "Milwaukee Brewers @ San Diego Padres (2026-10-06): [FS1/ FOX ONE, Fox Deportes / FOX ONE]",
           "Milwaukee Brewers @ San Diego Padres (2026-10-07): [FS1/ FOX ONE, Fox Deportes / FOX ONE]"
         ]
-      },
-      {
-        "timestamp": "2026-10-01T17:34:20.768Z",
-        "total": 17,
-        "added": [
-          "Cleveland Guardians @ Chicago White Sox (2026-10-08)",
-          "Tampa Bay Rays @ New York Yankees (2026-10-08)"
-        ],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-20T15:55:17.358Z",
+        "total": 54,
+        "added": [
+          "Fury FC: Amateur Series 62 (2026-10-25)",
+          "Ares 45: Zebo vs. Baki 2 (2026-11-20)",
+          "Fury FC: Challenger Series 18 (2026-11-20)",
+          "LFA 247: Breno vs Torres (2026-11-20)",
+          "One Friday Fights 179 (2026-11-20)"
+        ],
+        "removed": [
+          "Lemino Shooto Vol. 9 (2026-10-19)",
+          "Fury FC: Amateur Series 62 (2026-10-25)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-19T17:51:06.442Z",
         "total": 51,
@@ -1114,13 +1145,6 @@
       },
       {
         "timestamp": "2026-10-02T05:43:03.086Z",
-        "total": 59,
-        "added": [],
-        "removed": [],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-01T17:35:09.821Z",
         "total": 59,
         "added": [],
         "removed": [],

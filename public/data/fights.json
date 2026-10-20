@@ -1,101 +1,6 @@
 {
-  "generatedAt": "2026-10-19T17:51:06.442Z",
+  "generatedAt": "2026-10-20T15:55:17.357Z",
   "upcoming": [
-    {
-      "org": "MMA",
-      "eventName": "Lemino Shooto Vol. 9",
-      "eventTag": "Lemino Shooto Vol. 9 · Korakuen Hall, Bunkyo, Tokyo, Japan",
-      "homeTeam": "Shohei Nose",
-      "awayTeam": "Shoji Saito",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Shimon Suzuki v Wataru Yamauchi",
-          "weightClass": null
-        },
-        {
-          "title": "Chi Woo Park v Kazuma Kuramoto",
-          "weightClass": null
-        },
-        {
-          "title": "Hikaru Yoshino v Kyle Mayocchi",
-          "weightClass": null
-        },
-        {
-          "title": "Daichi Mizuta v Arashi Okada",
-          "weightClass": null
-        },
-        {
-          "title": "Seiya Sugimoto v Takeru Suzuki",
-          "weightClass": null
-        },
-        {
-          "title": "Langdi Xie v Eiji Yoshizawa",
-          "weightClass": null
-        },
-        {
-          "title": "Tetta Arima v Tatsuma Okada",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-19T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-19",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Shooto-Lemino-Shooto-Vol-9-114593",
-        "name": "Lemino Shooto Vol. 9",
-        "dateUTC": null,
-        "dateOnly": "2026-10-19",
-        "venue": "Korakuen Hall",
-        "city": "Bunkyo, Tokyo, Japan",
-        "href": "/events/Shooto-Lemino-Shooto-Vol-9-114593",
-        "mainEventFighters": [
-          "Shohei Nose",
-          "Shoji Saito"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Shimon Suzuki",
-            "b": "Wataru Yamauchi"
-          },
-          {
-            "a": "Chi Woo Park",
-            "b": "Kazuma Kuramoto"
-          },
-          {
-            "a": "Hikaru Yoshino",
-            "b": "Kyle Mayocchi"
-          },
-          {
-            "a": "Daichi Mizuta",
-            "b": "Arashi Okada"
-          },
-          {
-            "a": "Seiya Sugimoto",
-            "b": "Takeru Suzuki"
-          },
-          {
-            "a": "Langdi Xie",
-            "b": "Eiji Yoshizawa"
-          },
-          {
-            "a": "Tetta Arima",
-            "b": "Tatsuma Okada"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Shohei Nose|Shoji Saito|2026-10-19"
-    },
     {
       "org": "MMA",
       "eventName": "LFA 244: Woodley vs. Havener",
@@ -226,7 +131,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 333: Volkanovski vs. Evloev",
-      "eventTag": "UFC 333 · Etihad Arena, Abu Dhabi · 11-fight card · main card Sat 24 Oct, 19:00 UK",
+      "eventTag": "UFC 333 · Etihad Arena, Abu Dhabi · 14-fight card · main card Sat 24 Oct, 19:00 UK",
       "homeTeam": "Alexander Volkanovski",
       "awayTeam": "Movsar Evloev",
       "cardTitle": null,
@@ -235,6 +140,18 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Nicolle Caliari v Iasmin Lucindo",
+          "weightClass": "W Strawweight"
+        },
+        {
+          "title": "Noah Gugnon v Kody Steele",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Daniel Santos v Bolaji Oki",
+          "weightClass": "Featherweight"
+        },
         {
           "title": "Abubakar Vagaev v Jacob Malkoun",
           "weightClass": "Middleweight"
@@ -323,6 +240,21 @@
         ],
         "bouts": [
           {
+            "a": "Nicolle Caliari",
+            "b": "Iasmin Lucindo",
+            "weightClass": "W Strawweight"
+          },
+          {
+            "a": "Noah Gugnon",
+            "b": "Kody Steele",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Daniel Santos",
+            "b": "Bolaji Oki",
+            "weightClass": "Featherweight"
+          },
+          {
             "a": "Abubakar Vagaev",
             "b": "Jacob Malkoun",
             "weightClass": "Middleweight"
@@ -379,7 +311,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 11,
+        "boutCount": 14,
         "broadcasts": [
           "Paramount+"
         ]
@@ -662,14 +594,63 @@
       "org": "MMA",
       "eventName": "Fury FC: Amateur Series 62",
       "eventTag": "Fury FC · Imagen Venues Escapade 2001, Houston, Texas, United States",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "Fury FC: Amateur Series 62",
+      "homeTeam": "Jaden MacKinnon",
+      "awayTeam": "Lakota Lawrence",
+      "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Josh Escobedo v Cohen Bane",
+          "weightClass": null
+        },
+        {
+          "title": "Parker Goswick v Patrick Olinma",
+          "weightClass": null
+        },
+        {
+          "title": "Isaac Carranza v Damien Nunez",
+          "weightClass": null
+        },
+        {
+          "title": "Elijah Victorian v JaMarcus Duarte",
+          "weightClass": null
+        },
+        {
+          "title": "Nathan Song v Ronald Taylor",
+          "weightClass": null
+        },
+        {
+          "title": "Davor Gallegos v Xander Ramirez",
+          "weightClass": null
+        },
+        {
+          "title": "Mark Mufarreh v Nathan Harris",
+          "weightClass": null
+        },
+        {
+          "title": "Isaias Pereira v Jadon Williams",
+          "weightClass": null
+        },
+        {
+          "title": "Efrain Ochoa v Cody Anderson",
+          "weightClass": null
+        },
+        {
+          "title": "Niazi Hematali v Ryan Perez",
+          "weightClass": null
+        },
+        {
+          "title": "Keith Bazille v Jose Marcelo Acosta Ruiz",
+          "weightClass": null
+        },
+        {
+          "title": "Angel Delgado v Frank Castro",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-10-25T23:59:00Z",
       "kickoffLocal": null,
@@ -686,11 +667,63 @@
         "venue": "Imagen Venues Escapade 2001",
         "city": "Houston, Texas, United States",
         "href": "/events/Fury-FC-Amateur-Series-62-114470",
-        "mainEventFighters": [],
+        "mainEventFighters": [
+          "Jaden MacKinnon",
+          "Lakota Lawrence"
+        ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Josh Escobedo",
+            "b": "Cohen Bane"
+          },
+          {
+            "a": "Parker Goswick",
+            "b": "Patrick Olinma"
+          },
+          {
+            "a": "Isaac Carranza",
+            "b": "Damien Nunez"
+          },
+          {
+            "a": "Elijah Victorian",
+            "b": "JaMarcus Duarte"
+          },
+          {
+            "a": "Nathan Song",
+            "b": "Ronald Taylor"
+          },
+          {
+            "a": "Davor Gallegos",
+            "b": "Xander Ramirez"
+          },
+          {
+            "a": "Mark Mufarreh",
+            "b": "Nathan Harris"
+          },
+          {
+            "a": "Isaias Pereira",
+            "b": "Jadon Williams"
+          },
+          {
+            "a": "Efrain Ochoa",
+            "b": "Cody Anderson"
+          },
+          {
+            "a": "Niazi Hematali",
+            "b": "Ryan Perez"
+          },
+          {
+            "a": "Keith Bazille",
+            "b": "Jose Marcelo Acosta Ruiz"
+          },
+          {
+            "a": "Angel Delgado",
+            "b": "Frank Castro"
+          }
+        ]
       },
-      "watchKey": "fights:MMA|null|null|2026-10-25"
+      "watchKey": "fights:MMA|Jaden MacKinnon|Lakota Lawrence|2026-10-25"
     },
     {
       "org": "MMA",
@@ -3715,6 +3748,232 @@
       "watchKey": "fights:Boxing|Amari Jones|DeAundre Pettus|2026-11-20"
     },
     {
+      "org": "MMA",
+      "eventName": "Ares 45: Zebo vs. Baki 2",
+      "eventTag": "Ares 45 · Adidas Arena, Paris, France",
+      "homeTeam": "Zebo",
+      "awayTeam": "Baki 2",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Ghassen Jbalia v Modibo Diakite",
+          "weightClass": null
+        },
+        {
+          "title": "Amir Aliev v Adionai Maciel",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-20T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-20",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Ares-45-Zebo-vs-Baki-2-112453",
+        "name": "Ares 45: Zebo vs. Baki 2",
+        "dateUTC": null,
+        "dateOnly": "2026-11-20",
+        "venue": "Adidas Arena",
+        "city": "Paris, France",
+        "href": "/events/Ares-45-Zebo-vs-Baki-2-112453",
+        "mainEventFighters": [
+          "Zebo",
+          "Baki 2"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Ghassen Jbalia",
+            "b": "Modibo Diakite"
+          },
+          {
+            "a": "Amir Aliev",
+            "b": "Adionai Maciel"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Zebo|Baki 2|2026-11-20"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Fury FC: Challenger Series 18",
+      "eventTag": "Fury FC · Bayou City Event Center, Houston, Texas, United States",
+      "homeTeam": "Kyle Todrank",
+      "awayTeam": "Justin Robinson",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Tyler Ybarra v Anthony     Johnson",
+          "weightClass": null
+        },
+        {
+          "title": "Kenneth Thomas v Billy Adams",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-20T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-20",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Fury-FC-Challenger-Series-18-114597",
+        "name": "Fury FC: Challenger Series 18",
+        "dateUTC": null,
+        "dateOnly": "2026-11-20",
+        "venue": "Bayou City Event Center",
+        "city": "Houston, Texas, United States",
+        "href": "/events/Fury-FC-Challenger-Series-18-114597",
+        "mainEventFighters": [
+          "Kyle Todrank",
+          "Justin Robinson"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Tyler Ybarra",
+            "b": "Anthony     Johnson"
+          },
+          {
+            "a": "Kenneth Thomas",
+            "b": "Billy Adams"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Kyle Todrank|Justin Robinson|2026-11-20"
+    },
+    {
+      "org": "MMA",
+      "eventName": "LFA 247: Breno vs Torres",
+      "eventTag": "LFA 247 · Arizona Financial Theatre, Phoenix, Arizona, United States",
+      "homeTeam": "Breno",
+      "awayTeam": "Torres",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Chance Ikei v Agapito Orozco",
+          "weightClass": null
+        },
+        {
+          "title": "Francisco Hernandez v Ray Hayes",
+          "weightClass": null
+        },
+        {
+          "title": "Lucas Ganin v Abbas Abasov",
+          "weightClass": null
+        },
+        {
+          "title": "Delton Kaufmann v Abasi Young",
+          "weightClass": null
+        },
+        {
+          "title": "Paul Marghitas v Sergio Mamone Jr.",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-20T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-20",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-LFA-247-Breno-vs-Torres-114849",
+        "name": "LFA 247: Breno vs Torres",
+        "dateUTC": null,
+        "dateOnly": "2026-11-20",
+        "venue": "Arizona Financial Theatre",
+        "city": "Phoenix, Arizona, United States",
+        "href": "/events/LFA-247-Breno-vs-Torres-114849",
+        "mainEventFighters": [
+          "Breno",
+          "Torres"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Chance Ikei",
+            "b": "Agapito Orozco"
+          },
+          {
+            "a": "Francisco Hernandez",
+            "b": "Ray Hayes"
+          },
+          {
+            "a": "Lucas Ganin",
+            "b": "Abbas Abasov"
+          },
+          {
+            "a": "Delton Kaufmann",
+            "b": "Abasi Young"
+          },
+          {
+            "a": "Paul Marghitas",
+            "b": "Sergio Mamone Jr."
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Breno|Torres|2026-11-20"
+    },
+    {
+      "org": "MMA",
+      "eventName": "One Friday Fights 179",
+      "eventTag": "One Friday Fights 179 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Allycia Hellen Rodrigues",
+      "awayTeam": "Charlotte Padie",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-20T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-20",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-Friday-Fights-179-114882",
+        "name": "One Friday Fights 179",
+        "dateUTC": null,
+        "dateOnly": "2026-11-20",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-Friday-Fights-179-114882",
+        "mainEventFighters": [
+          "Allycia Hellen Rodrigues",
+          "Charlotte Padie"
+        ],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|Allycia Hellen Rodrigues|Charlotte Padie|2026-11-20"
+    },
+    {
       "org": "UFC",
       "eventName": "UFC Fight Night: Procházka vs. Stirling",
       "eventTag": "UFC Fight Night · ABHA Arena, Doha · 9-fight card · main card Sat 21 Nov, 18:00 UK",
@@ -4521,6 +4780,101 @@
   ],
   "recent": [
     {
+      "org": "MMA",
+      "eventName": "Lemino Shooto Vol. 9",
+      "eventTag": "Lemino Shooto Vol. 9 · Korakuen Hall, Bunkyo, Tokyo, Japan",
+      "homeTeam": "Shohei Nose",
+      "awayTeam": "Shoji Saito",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Shimon Suzuki v Wataru Yamauchi",
+          "weightClass": null
+        },
+        {
+          "title": "Chi Woo Park v Kazuma Kuramoto",
+          "weightClass": null
+        },
+        {
+          "title": "Hikaru Yoshino v Kyle Mayocchi",
+          "weightClass": null
+        },
+        {
+          "title": "Daichi Mizuta v Arashi Okada",
+          "weightClass": null
+        },
+        {
+          "title": "Seiya Sugimoto v Takeru Suzuki",
+          "weightClass": null
+        },
+        {
+          "title": "Langdi Xie v Eiji Yoshizawa",
+          "weightClass": null
+        },
+        {
+          "title": "Tetta Arima v Tatsuma Okada",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-19T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-19",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Shooto-Lemino-Shooto-Vol-9-114593",
+        "name": "Lemino Shooto Vol. 9",
+        "dateUTC": null,
+        "dateOnly": "2026-10-19",
+        "venue": "Korakuen Hall",
+        "city": "Bunkyo, Tokyo, Japan",
+        "href": "/events/Shooto-Lemino-Shooto-Vol-9-114593",
+        "mainEventFighters": [
+          "Shohei Nose",
+          "Shoji Saito"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Shimon Suzuki",
+            "b": "Wataru Yamauchi"
+          },
+          {
+            "a": "Chi Woo Park",
+            "b": "Kazuma Kuramoto"
+          },
+          {
+            "a": "Hikaru Yoshino",
+            "b": "Kyle Mayocchi"
+          },
+          {
+            "a": "Daichi Mizuta",
+            "b": "Arashi Okada"
+          },
+          {
+            "a": "Seiya Sugimoto",
+            "b": "Takeru Suzuki"
+          },
+          {
+            "a": "Langdi Xie",
+            "b": "Eiji Yoshizawa"
+          },
+          {
+            "a": "Tetta Arima",
+            "b": "Tatsuma Okada"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Shohei Nose|Shoji Saito|2026-10-19"
+    },
+    {
       "org": "Boxing",
       "eventName": "Sebastian Fundora-Ermal Hadribeaj",
       "eventTag": "Boxing · The Cosmopolitan of Las Vegas, Las Vegas, Nevada",
@@ -4962,20 +5316,14 @@
             {
               "name": "TNT Sports 2",
               "logo": "/logos/channels/tntsports.co.uk.png",
-              "timeUK": "Tue 20 Oct, 02:00",
-              "airTimeUTC": "2026-10-20T01:00:00.000Z"
-            },
-            {
-              "name": "TNT Sports 2",
-              "logo": "/logos/channels/tntsports.co.uk.png",
               "timeUK": "Wed 21 Oct, 00:00",
               "airTimeUTC": "2026-10-20T23:00:00.000Z"
             },
             {
               "name": "TNT Sports 1",
               "logo": "/logos/channels/tntsports.co.uk.png",
-              "timeUK": "Thu 22 Oct, 00:30",
-              "airTimeUTC": "2026-10-21T23:30:00.000Z"
+              "timeUK": "Thu 22 Oct, 00:00",
+              "airTimeUTC": "2026-10-21T23:00:00.000Z"
             }
           ]
         }
@@ -6628,22 +6976,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-10-20T01:00:00.000Z",
-      "endsAtUTC": "2026-10-20T05:00:00.000Z",
-      "timeUK": "Tue 20 Oct, 02:00",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "watchKey": "fights:UFC|Mike Malott|Joaquin Buckley|2026-10-17",
-      "label": "UFC Fight Night: Buckley vs. Malott",
-      "logos": [
-        "/logos/orgs/ufc.png"
-      ],
-      "sublabel": "UFC · Sat 17 Oct, 22:00"
-    },
-    {
       "airTimeUTC": "2026-10-20T03:00:00.000Z",
       "endsAtUTC": "2026-10-20T06:00:00.000Z",
       "timeUK": "Tue 20 Oct, 04:00",
@@ -6708,9 +7040,9 @@
       "sublabel": "UFC Reloaded"
     },
     {
-      "airTimeUTC": "2026-10-21T23:30:00.000Z",
-      "endsAtUTC": "2026-10-22T03:30:00.000Z",
-      "timeUK": "Thu 22 Oct, 00:30",
+      "airTimeUTC": "2026-10-21T23:00:00.000Z",
+      "endsAtUTC": "2026-10-22T03:00:00.000Z",
+      "timeUK": "Thu 22 Oct, 00:00",
       "channel": {
         "name": "TNT Sports 1",
         "logo": "/logos/channels/tntsports.co.uk.png"
@@ -6722,6 +7054,18 @@
         "/logos/orgs/ufc.png"
       ],
       "sublabel": "UFC · Sat 17 Oct, 22:00"
+    },
+    {
+      "airTimeUTC": "2026-10-22T03:00:00.000Z",
+      "endsAtUTC": "2026-10-22T06:00:00.000Z",
+      "timeUK": "Thu 22 Oct, 04:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 316: Dvalishvili v O'Malley 2",
+      "sublabel": "UFC Reloaded"
     },
     {
       "airTimeUTC": "2026-10-22T18:00:00.000Z",
