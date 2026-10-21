@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T15:53:57.774Z",
+  "generatedAt": "2026-10-21T16:10:23.505Z",
   "tables": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -3022,10 +3022,10 @@
                 "vasco gama"
               ],
               "leg1Score": "0-1",
-              "leg2Date": "2026-10-20",
-              "leg2Score": null,
-              "aggregate": null,
-              "winner": null
+              "leg2Date": null,
+              "leg2Score": "3-1",
+              "aggregate": "3-2",
+              "winner": "Boca Juniors"
             },
             {
               "teamA": "Atlético Mineiro",

@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-10-20T15:55:17.359Z",
+  "generatedAt": "2026-10-21T16:11:50.260Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-21T16:10:21.212Z",
+        "totalEvents": 37,
+        "added": [
+          "Internacional vs Botafogo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
+          "Argentinos Juniors vs Independiente Rivadavia (Liga Profesional de Fútbol) — Tue 27 Oct, 18:00"
+        ],
+        "removed": [
+          "Chivas Guadalajara vs Necaxa (Liga MX) — Tue 20 Oct, 18:07",
+          "Vasco da Gama vs Boca Juniors (CONMEBOL Sudamericana) — Tue 20 Oct, 21:30",
+          "FC Juárez vs Atlante (Liga MX) — Tue 20 Oct, 19:00",
+          "Tigres UANL vs Club León (Liga MX) — Tue 20 Oct, 21:00",
+          "Atlético San Luis vs Querétaro (Liga MX) — Tue 20 Oct, 22:00"
+        ],
+        "channelsChanged": [
+          "Flamengo vs Estudiantes de La Plata (CONMEBOL Libertadores) — Thu 22 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN, ESPN 3, FOX Sports, Mitelefe.com, PREMIERE 6, Pluto TV, Telefe, Telefé YouTube]"
+        ],
+        "total": 37
+      },
       {
         "timestamp": "2026-10-20T15:53:55.548Z",
         "totalEvents": 40,
@@ -569,39 +588,18 @@
         "removed": [],
         "channelsChanged": [],
         "total": 27
-      },
-      {
-        "timestamp": "2026-10-02T05:41:33.333Z",
-        "totalEvents": 27,
-        "added": [
-          "Atlético Mineiro vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 03 Oct, 18:30",
-          "Santos vs Flamengo (Campeonato Brasileiro Série A) — Thu 08 Oct, 19:30",
-          "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30",
-          "Palmeiras vs Bahía (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30"
-        ],
-        "removed": [
-          "Platense vs Estudiantes de La Plata (Copa Argentina) — Thu 01 Oct, 21:15"
-        ],
-        "channelsChanged": [
-          "Independiente vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Fri 02 Oct, 19:15: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-          "Independiente Rivadavia vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Boca Juniors vs Union Santa Fe (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN 3, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Defensa y Justicia vs San Lorenzo (Liga Profesional de Fútbol) — Sat 03 Oct, 14:45: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-          "Newell's Old Boys vs Lanús (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Atlético Tucumán vs Barracas Central (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Talleres de Córdoba vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 04 Oct, 17:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sun 04 Oct, 19:15: [ESPN, ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-          "Estudiantes de Río Cuarto vs Racing Club (Liga Profesional de Fútbol) — Sun 04 Oct, 21:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Deportivo Riestra vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 05 Oct, 16:45: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Vélez Sarsfield vs Platense (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Banfield vs Rosario Central (Liga Profesional de Fútbol) — Mon 05 Oct, 21:15: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]"
-        ],
-        "total": 27
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-21T16:10:57.850Z",
+        "total": 4,
+        "added": [
+          "Milwaukee Brewers @ Tampa Bay Rays (2026-10-27)"
+        ],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-20T15:54:31.736Z",
         "total": 3,
@@ -859,30 +857,23 @@
         "added": [],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-02T05:42:08.353Z",
-        "total": 16,
-        "added": [
-          "Atlanta Braves @ Los Angeles Dodgers (2026-10-03)",
-          "Atlanta Braves @ Los Angeles Dodgers (2026-10-04)",
-          "Los Angeles Dodgers @ Atlanta Braves (2026-10-06)",
-          "Los Angeles Dodgers @ Atlanta Braves (2026-10-07)"
-        ],
-        "removed": [
-          "Philadelphia Phillies @ Atlanta Braves (2026-10-01)",
-          "ATL/PHI @ Los Angeles Dodgers (2026-10-03)",
-          "ATL/PHI @ Los Angeles Dodgers (2026-10-04)",
-          "Los Angeles Dodgers @ ATL/PHI (2026-10-06)",
-          "Los Angeles Dodgers @ ATL/PHI (2026-10-07)"
-        ],
-        "channelsChanged": [
-          "Milwaukee Brewers @ San Diego Padres (2026-10-06): [FS1/ FOX ONE, Fox Deportes / FOX ONE]",
-          "Milwaukee Brewers @ San Diego Padres (2026-10-07): [FS1/ FOX ONE, Fox Deportes / FOX ONE]"
-        ]
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-21T16:11:50.259Z",
+        "total": 57,
+        "added": [
+          "Shooto Brazil 141: Teixeira Vs. Carvalho (2026-11-06)",
+          "LFA 246: Alves vs. Vinuto (2026-11-13)",
+          "Oktagon 98: Legierski vs. Buchinger (2026-11-21)",
+          "KSW 123: Bartosinski vs. Lopaczyk (2026-11-21)"
+        ],
+        "removed": [
+          "Shooto Brazil 141: TBA (2026-11-06)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-20T15:55:17.358Z",
         "total": 54,
@@ -1138,13 +1129,6 @@
       },
       {
         "timestamp": "2026-10-02T16:55:05.109Z",
-        "total": 59,
-        "added": [],
-        "removed": [],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-02T05:43:03.086Z",
         "total": 59,
         "added": [],
         "removed": [],
