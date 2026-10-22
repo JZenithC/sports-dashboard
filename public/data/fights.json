@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T16:11:50.259Z",
+  "generatedAt": "2026-10-22T16:10:09.918Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -14,10 +14,6 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Joe Giannetti v Unknown Fighter",
-          "weightClass": null
-        },
-        {
           "title": "Devan Worth v Thomas Blackorby",
           "weightClass": null
         },
@@ -31,14 +27,6 @@
         },
         {
           "title": "Maikel Reinoso v Oscar Jurado Sanchez",
-          "weightClass": null
-        },
-        {
-          "title": "Eliab Evangelista v Angelo Robles",
-          "weightClass": null
-        },
-        {
-          "title": "Guram Gochashvili v Shane Sobnosky",
           "weightClass": null
         },
         {
@@ -81,10 +69,6 @@
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Joe Giannetti",
-            "b": "Unknown Fighter"
-          },
-          {
             "a": "Devan Worth",
             "b": "Thomas Blackorby"
           },
@@ -99,14 +83,6 @@
           {
             "a": "Maikel Reinoso",
             "b": "Oscar Jurado Sanchez"
-          },
-          {
-            "a": "Eliab Evangelista",
-            "b": "Angelo Robles"
-          },
-          {
-            "a": "Guram Gochashvili",
-            "b": "Shane Sobnosky"
           },
           {
             "a": "Austin Halik",
@@ -127,6 +103,60 @@
         ]
       },
       "watchKey": "fights:MMA|Woodley|Havener|2026-10-23"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "BKFC Fight Night Clearwater: Reber vs Street Prelims",
+      "eventTag": "Boxing",
+      "homeTeam": "BKFC Fight Night Clearwater: Reber",
+      "awayTeam": "Street Prelims",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-10-24T00:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 24 Oct, 01:00",
+      "localDate": "2026-10-24",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Canada",
+          "channels": [
+            {
+              "name": "Fight Network",
+              "url": "https://www.fightnetwork.com/",
+              "logo": "/logos/channels/fightnetwork.com.jpg"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "epg-prelims|reber-2026-10-24",
+        "name": "BKFC Fight Night Clearwater: Reber vs Street Prelims",
+        "dateUTC": "2026-10-24T00:00:00.000Z",
+        "dateOnly": "2026-10-24",
+        "venue": null,
+        "city": null,
+        "mainEventFighters": [
+          "BKFC Fight Night Clearwater: Reber",
+          "Street Prelims"
+        ],
+        "broadcasts": [
+          "Fight Network"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "Canada",
+            "name": "Fight Network"
+          }
+        ]
+      },
+      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street Prelims|2026-10-24"
     },
     {
       "org": "UFC",
@@ -3914,6 +3944,14 @@
         {
           "title": "Amir Aliev v Adionai Maciel",
           "weightClass": null
+        },
+        {
+          "title": "Nimo Djagbo v Unknown Fighter",
+          "weightClass": null
+        },
+        {
+          "title": "Marvin Caperan v Unknown Fighter",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -3945,6 +3983,14 @@
           {
             "a": "Amir Aliev",
             "b": "Adionai Maciel"
+          },
+          {
+            "a": "Nimo Djagbo",
+            "b": "Unknown Fighter"
+          },
+          {
+            "a": "Marvin Caperan",
+            "b": "Unknown Fighter"
           }
         ]
       },
@@ -4120,6 +4166,74 @@
         "bouts": []
       },
       "watchKey": "fights:MMA|Allycia Hellen Rodrigues|Charlotte Padie|2026-11-20"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Gabriela Fundora-Jasmina Zapotoczna",
+      "eventTag": "Boxing · Fantasy Springs Resort Casino, Indio, California",
+      "homeTeam": "Gabriela Fundora",
+      "awayTeam": "Jasmina Zapotoczna",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Amari Jones v DeAundre Pettus",
+          "weightClass": null
+        }
+      ],
+      "poster": {
+        "src": "/logos/posters/fbec05896aa3d3cfab39.webp",
+        "attribution": "DAZN"
+      },
+      "kickoffUTC": "2026-11-21T01:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 21 Nov, 01:00",
+      "localDate": "2026-11-21",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Listed by source",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gabriela-fundora-jasmina-zapotoczna",
+        "name": "Gabriela Fundora-Jasmina Zapotoczna",
+        "dateUTC": "2026-11-21T01:00:00.000Z",
+        "dateOnly": "2026-11-20",
+        "venue": "Fantasy Springs Resort Casino",
+        "city": "Indio, California",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/gabrielafundorajasminazapotocznaartwork.webp",
+        "posterAttribution": "DAZN",
+        "mainEventFighters": [
+          "Gabriela Fundora",
+          "Jasmina Zapotoczna"
+        ],
+        "bouts": [
+          {
+            "a": "Gabriela Fundora",
+            "b": "Jasmina Zapotoczna"
+          },
+          {
+            "a": "Amari Jones",
+            "b": "DeAundre Pettus"
+          }
+        ],
+        "broadcasts": [
+          "DAZN"
+        ]
+      },
+      "watchKey": "fights:Boxing|Gabriela Fundora|Jasmina Zapotoczna|2026-11-21"
     },
     {
       "org": "UFC",
@@ -4441,6 +4555,125 @@
       "watchKey": "fights:MMA|Bartosinski|Lopaczyk|2026-11-21"
     },
     {
+      "org": "MMA",
+      "eventName": "Deep: 134 Impact",
+      "eventTag": "Deep · New Pier Hall, Minato, Tokyo, Japan",
+      "homeTeam": "Jin Aoi",
+      "awayTeam": "Shunki Mitsui",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Kimihiro Eto v Kohei Kadono",
+          "weightClass": null
+        },
+        {
+          "title": "Rikuto Shirakawa v Kenta Takizawa",
+          "weightClass": null
+        },
+        {
+          "title": "Takeshi Izumi v Shoma Yamada",
+          "weightClass": null
+        },
+        {
+          "title": "Ren Ozaki v Yasuhiro Kawamura",
+          "weightClass": null
+        },
+        {
+          "title": "Hiroto Gomyo v Takahiro Okuyama",
+          "weightClass": null
+        },
+        {
+          "title": "Ryuki Asahina v Koki Akada",
+          "weightClass": null
+        },
+        {
+          "title": "Yuushi Akimoto v Daiki Tanida",
+          "weightClass": null
+        },
+        {
+          "title": "Kohaku Iso v Rizumu Hashimoto",
+          "weightClass": null
+        },
+        {
+          "title": "Koshiro Takemi v Shoei Sato",
+          "weightClass": null
+        },
+        {
+          "title": "Tsukasa Fukushima v Toa Kikuchi",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-22T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-22",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Deep-134-Impact-114513",
+        "name": "Deep: 134 Impact",
+        "dateUTC": null,
+        "dateOnly": "2026-11-22",
+        "venue": "New Pier Hall",
+        "city": "Minato, Tokyo, Japan",
+        "href": "/events/Deep-134-Impact-114513",
+        "mainEventFighters": [
+          "Jin Aoi",
+          "Shunki Mitsui"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Kimihiro Eto",
+            "b": "Kohei Kadono"
+          },
+          {
+            "a": "Rikuto Shirakawa",
+            "b": "Kenta Takizawa"
+          },
+          {
+            "a": "Takeshi Izumi",
+            "b": "Shoma Yamada"
+          },
+          {
+            "a": "Ren Ozaki",
+            "b": "Yasuhiro Kawamura"
+          },
+          {
+            "a": "Hiroto Gomyo",
+            "b": "Takahiro Okuyama"
+          },
+          {
+            "a": "Ryuki Asahina",
+            "b": "Koki Akada"
+          },
+          {
+            "a": "Yuushi Akimoto",
+            "b": "Daiki Tanida"
+          },
+          {
+            "a": "Kohaku Iso",
+            "b": "Rizumu Hashimoto"
+          },
+          {
+            "a": "Koshiro Takemi",
+            "b": "Shoei Sato"
+          },
+          {
+            "a": "Tsukasa Fukushima",
+            "b": "Toa Kikuchi"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Jin Aoi|Shunki Mitsui|2026-11-22"
+    },
+    {
       "org": "Boxing",
       "eventName": "Agit Kabayel-Nelson Hysa ",
       "eventTag": "Boxing · Merkur Spiel-Arena, Düsseldorf, Germany",
@@ -4581,6 +4814,14 @@
         {
           "title": "Litzy Vazquez Ochoa v Stephanie Pineiro",
           "weightClass": null
+        },
+        {
+          "title": "Joshua Pagan v Orlando Gonzalez",
+          "weightClass": null
+        },
+        {
+          "title": "Ashleyann Lozada v Veronica Tosi",
+          "weightClass": null
         }
       ],
       "poster": {
@@ -4622,6 +4863,14 @@
           {
             "a": "Litzy Vazquez Ochoa",
             "b": "Stephanie Pineiro"
+          },
+          {
+            "a": "Joshua Pagan",
+            "b": "Orlando Gonzalez"
+          },
+          {
+            "a": "Ashleyann Lozada",
+            "b": "Veronica Tosi"
           }
         ],
         "broadcasts": [
@@ -5630,20 +5879,7 @@
           "Paramount+"
         ]
       },
-      "watchKey": "fights:UFC|Mike Malott|Joaquin Buckley|2026-10-17",
-      "replayGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports 1",
-              "logo": "/logos/channels/tntsports.co.uk.png",
-              "timeUK": "Thu 22 Oct, 00:00",
-              "airTimeUTC": "2026-10-21T23:00:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:UFC|Mike Malott|Joaquin Buckley|2026-10-17"
     },
     {
       "org": "Boxing",
@@ -7206,46 +7442,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-10-21T23:00:00.000Z",
-      "endsAtUTC": "2026-10-22T03:00:00.000Z",
-      "timeUK": "Thu 22 Oct, 00:00",
-      "channel": {
-        "name": "TNT Sports 1",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "watchKey": "fights:UFC|Mike Malott|Joaquin Buckley|2026-10-17",
-      "label": "UFC Fight Night: Buckley vs. Malott",
-      "logos": [
-        "/logos/orgs/ufc.png"
-      ],
-      "sublabel": "UFC · Sat 17 Oct, 22:00"
-    },
-    {
-      "airTimeUTC": "2026-10-22T03:00:00.000Z",
-      "endsAtUTC": "2026-10-22T06:00:00.000Z",
-      "timeUK": "Thu 22 Oct, 04:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 316: Dvalishvili v O'Malley 2",
-      "sublabel": "UFC Reloaded"
-    },
-    {
-      "airTimeUTC": "2026-10-22T07:00:00.000Z",
-      "endsAtUTC": "2026-10-22T10:00:00.000Z",
-      "timeUK": "Thu 22 Oct, 08:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 323: Dvalishvili v Yan 2",
-      "sublabel": "UFC Reloaded"
-    },
-    {
       "airTimeUTC": "2026-10-22T18:00:00.000Z",
       "endsAtUTC": "2026-10-22T22:00:00.000Z",
       "timeUK": "Thu 22 Oct, 19:00",
@@ -7329,6 +7525,18 @@
       },
       "market": "United States",
       "label": "UFC 311: Makhachev v Moicano",
+      "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-10-24T05:00:00.000Z",
+      "endsAtUTC": "2026-10-24T08:00:00.000Z",
+      "timeUK": "Sat 24 Oct, 06:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 316: Dvalishvili v O'Malley 2",
       "sublabel": "UFC Reloaded"
     }
   ]

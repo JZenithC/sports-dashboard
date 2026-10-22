@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T16:10:23.505Z",
+  "generatedAt": "2026-10-22T16:08:51.045Z",
   "tables": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -3035,9 +3035,25 @@
                 "montevideo city torque"
               ],
               "leg1Score": "3-0",
-              "leg2Date": "2026-10-21",
-              "leg2Score": null,
-              "aggregate": null,
+              "leg2Date": null,
+              "leg2Score": "0-2",
+              "aggregate": "3-2",
+              "winner": "Atlético Mineiro"
+            }
+          ]
+        },
+        {
+          "round": "Final",
+          "ties": [
+            {
+              "teamA": "Atlético Mineiro",
+              "teamB": "Boca Juniors",
+              "teamKeys": [
+                "atletico mineiro",
+                "boca juniors"
+              ],
+              "score": null,
+              "date": "2026-11-21",
               "winner": null
             }
           ]
