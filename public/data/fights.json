@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T16:10:09.918Z",
+  "generatedAt": "2026-10-23T16:12:54.295Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -106,10 +106,10 @@
     },
     {
       "org": "Boxing",
-      "eventName": "BKFC Fight Night Clearwater: Reber vs Street Prelims",
+      "eventName": "BKFC Fight Night Clearwater: Reber vs Street, Prelims",
       "eventTag": "Boxing",
       "homeTeam": "BKFC Fight Night Clearwater: Reber",
-      "awayTeam": "Street Prelims",
+      "awayTeam": "Street, Prelims",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -137,14 +137,14 @@
       "source": {
         "org": "Boxing",
         "slug": "epg-prelims|reber-2026-10-24",
-        "name": "BKFC Fight Night Clearwater: Reber vs Street Prelims",
+        "name": "BKFC Fight Night Clearwater: Reber vs Street, Prelims",
         "dateUTC": "2026-10-24T00:00:00.000Z",
         "dateOnly": "2026-10-24",
         "venue": null,
         "city": null,
         "mainEventFighters": [
           "BKFC Fight Night Clearwater: Reber",
-          "Street Prelims"
+          "Street, Prelims"
         ],
         "broadcasts": [
           "Fight Network"
@@ -156,7 +156,7 @@
           }
         ]
       },
-      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street Prelims|2026-10-24"
+      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24"
     },
     {
       "org": "UFC",
@@ -364,9 +364,9 @@
         "src": "/logos/posters/f9cf7d499e10da139ccc.webp",
         "attribution": "DAZN"
       },
-      "kickoffUTC": "2026-10-24T23:59:00Z",
+      "kickoffUTC": "2026-10-24T18:00:00.000Z",
       "kickoffLocal": null,
-      "kickoffUK": null,
+      "kickoffUK": "Sat 24 Oct, 19:00",
       "localDate": "2026-10-24",
       "channels": [],
       "broadcastGroups": [
@@ -385,7 +385,7 @@
         "org": "Boxing",
         "slug": "smith-vs-puello",
         "name": "Smith vs. Puello",
-        "dateUTC": null,
+        "dateUTC": "2026-10-24T18:00:00.000Z",
         "dateOnly": "2026-10-24",
         "venue": "Utilita Arena Sheffield",
         "city": "Sheffield, United Kingdom",
@@ -990,11 +990,11 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Isamu Kikukawa v Takuma Sasaki",
+          "title": "Sena Inoue v Rushia Yamauchi",
           "weightClass": null
         },
         {
-          "title": "Sena Inoue v Rushia Yamauchi",
+          "title": "Isamu Kikukawa v Takuma Sasaki",
           "weightClass": null
         },
         {
@@ -1002,11 +1002,11 @@
           "weightClass": null
         },
         {
-          "title": "Homare Nakagomi v Yuha Furuya",
+          "title": "Hikaru Yashiro v Yuto Tanaka",
           "weightClass": null
         },
         {
-          "title": "Hikaru Yashiro v Yuto Tanaka",
+          "title": "Homare Nakagomi v Yuha Furuya",
           "weightClass": null
         },
         {
@@ -1041,24 +1041,24 @@
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Isamu Kikukawa",
-            "b": "Takuma Sasaki"
-          },
-          {
             "a": "Sena Inoue",
             "b": "Rushia Yamauchi"
+          },
+          {
+            "a": "Isamu Kikukawa",
+            "b": "Takuma Sasaki"
           },
           {
             "a": "Mahiro Miyoshi",
             "b": "Sakyo Kajita"
           },
           {
-            "a": "Homare Nakagomi",
-            "b": "Yuha Furuya"
-          },
-          {
             "a": "Hikaru Yashiro",
             "b": "Yuto Tanaka"
+          },
+          {
+            "a": "Homare Nakagomi",
+            "b": "Yuha Furuya"
           },
           {
             "a": "Taisei Saito",
@@ -1636,7 +1636,7 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Melany Gomez v Flor Hernandez",
+          "title": "Karla Pastrana v Flor Hernandez",
           "weightClass": null
         },
         {
@@ -1699,7 +1699,7 @@
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Melany Gomez",
+            "a": "Karla Pastrana",
             "b": "Flor Hernandez"
           },
           {
@@ -1784,7 +1784,7 @@
       "eventName": "One on Prime Video 49",
       "eventTag": "One on Prime Video 49 · Lumpinee Boxing Stadium, Bangkok, Thailand",
       "homeTeam": "Lucas Gabriel",
-      "awayTeam": "Alibeg Rasulov",
+      "awayTeam": "Magomed Magomedov",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -1822,7 +1822,7 @@
         "href": "/events/One-Championship-One-on-Prime-Video-49-114703",
         "mainEventFighters": [
           "Lucas Gabriel",
-          "Alibeg Rasulov"
+          "Magomed Magomedov"
         ],
         "broadcasts": [],
         "bouts": [
@@ -1840,7 +1840,7 @@
           }
         ]
       },
-      "watchKey": "fights:MMA|Lucas Gabriel|Alibeg Rasulov|2026-11-06"
+      "watchKey": "fights:MMA|Lucas Gabriel|Magomed Magomedov|2026-11-06"
     },
     {
       "org": "Boxing",
@@ -4743,6 +4743,76 @@
     },
     {
       "org": "Boxing",
+      "eventName": "David Benavidez vs Michal Cieslak",
+      "eventTag": "Boxing · Glendale",
+      "homeTeam": "David Benavidez",
+      "awayTeam": "Michal Cieslak",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-05T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 05 Dec, 20:00",
+      "localDate": "2026-12-05",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            },
+            {
+              "name": "Prime Video PPV",
+              "url": "https://www.primevideo.com/",
+              "logo": null
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-david-benavidez-vs-michal-cieslak-2026-12-05",
+        "name": "David Benavidez vs Michal Cieslak",
+        "dateUTC": "2026-12-05T20:00:00.000Z",
+        "dateOnly": "2026-12-05",
+        "venue": null,
+        "city": "Glendale",
+        "mainEventFighters": [
+          "David Benavidez",
+          "Michal Cieslak"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN",
+          "Prime Video PPV"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/david-benavidez-vs-michal-cieslak-2026-12-05"
+          },
+          {
+            "market": "UK",
+            "name": "Prime Video PPV",
+            "url": "https://www.primevideo.com/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/david-benavidez-vs-michal-cieslak-2026-12-05"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/david-benavidez-vs-michal-cieslak-2026-12-05"
+      },
+      "watchKey": "fights:Boxing|David Benavidez|Michal Cieslak|2026-12-05"
+    },
+    {
+      "org": "Boxing",
       "eventName": "Conah Walker vs Alexis Rocha",
       "eventTag": "Boxing · Wolverhampton",
       "homeTeam": "Conah Walker",
@@ -7048,20 +7118,7 @@
           }
         ]
       },
-      "watchKey": "fights:Boxing|BKFC Fight Night Bethlehem: Cisneros|Peterson Prelims|2026-10-10",
-      "replayGroups": [
-        {
-          "label": "Canada",
-          "channels": [
-            {
-              "name": "Fight Network",
-              "logo": "/logos/channels/fightnetwork.com.jpg",
-              "timeUK": "Fri 23 Oct, 03:00",
-              "airTimeUTC": "2026-10-23T02:00:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:Boxing|BKFC Fight Night Bethlehem: Cisneros|Peterson Prelims|2026-10-10"
     },
     {
       "org": "MMA",
@@ -7210,323 +7267,9 @@
         ]
       },
       "watchKey": "fights:MMA|Maximov|Santos|2026-10-09"
-    },
-    {
-      "org": "Boxing",
-      "eventName": " Osleys Iglesias-Oliver Zaren",
-      "eventTag": "Boxing",
-      "homeTeam": "Osleys Iglesias",
-      "awayTeam": "Oliver Zaren",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Wilkens Mathieu v Vladimir Shishkin",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/72124bb701c5d728facd.webp",
-        "attribution": "DAZN"
-      },
-      "kickoffUTC": "2026-10-09T00:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Fri 09 Oct, 01:00",
-      "localDate": "2026-10-09",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "osleys-iglesias-oliver-zaren",
-        "name": " Osleys Iglesias-Oliver Zaren",
-        "dateUTC": "2026-10-09T00:00:00.000Z",
-        "dateOnly": "2026-10-08",
-        "venue": null,
-        "city": null,
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/iglesias-vs-zaren-696x392.webp",
-        "posterAttribution": "DAZN",
-        "mainEventFighters": [
-          "Osleys Iglesias",
-          "Oliver Zaren"
-        ],
-        "bouts": [
-          {
-            "a": "Osleys Iglesias",
-            "b": "Oliver Zaren"
-          },
-          {
-            "a": "Wilkens Mathieu",
-            "b": "Vladimir Shishkin"
-          }
-        ],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/osleys-iglesias-vs-oliver-zaren-2026-10-08"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/osleys-iglesias-vs-oliver-zaren-2026-10-08"
-      },
-      "watchKey": "fights:Boxing|Osleys Iglesias|Oliver Zaren|2026-10-09"
-    },
-    {
-      "org": "MMA",
-      "eventName": "ACA Young Eagles 69",
-      "eventTag": "ACA Young Eagles 69 · Sport Hall Colloseum, Grozny, Chechnya, Russia",
-      "homeTeam": "Aslan Shogenov",
-      "awayTeam": "Turpal-Ali Edilov",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Adam Musaev v Vyacheslav Kuznetsov",
-          "weightClass": null
-        },
-        {
-          "title": "Nikolay Prismakov v Muslim Khazhmuratov",
-          "weightClass": null
-        },
-        {
-          "title": "Imran Arsangiriev v David Gubulov",
-          "weightClass": null
-        },
-        {
-          "title": "Anzor Dzhabrailov v Shakhrom Makhmatbekov",
-          "weightClass": null
-        },
-        {
-          "title": "Tamerlan Aushev v Ali Gadzhiev",
-          "weightClass": null
-        },
-        {
-          "title": "Kazbek Kalabekov v Abubakar Debziev",
-          "weightClass": null
-        },
-        {
-          "title": "Abdul-Malik Siriev v Gavril Semenov",
-          "weightClass": null
-        },
-        {
-          "title": "Amirkhan Zakriev v Georgiy Komarov",
-          "weightClass": null
-        },
-        {
-          "title": "Ibragim Kagiradzhiev v Sergey Gorin",
-          "weightClass": null
-        },
-        {
-          "title": "Kurbanmagomed Kurbanmagomedov v Said-Mukhamad Gutaev",
-          "weightClass": null
-        },
-        {
-          "title": "Islam Aguev v Ismail Ataev",
-          "weightClass": null
-        },
-        {
-          "title": "Mukhamed Magomadov v Akhmed Isaev",
-          "weightClass": null
-        },
-        {
-          "title": "Turpal Khasuev v Shamil Batalov",
-          "weightClass": null
-        },
-        {
-          "title": "Astemir Khezhaev v Abdurakhman Dolaev",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-08T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-08",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-ACA-YE-69-ACA-Young-Eagles-69-114706",
-        "name": "ACA Young Eagles 69",
-        "dateUTC": null,
-        "dateOnly": "2026-10-08",
-        "venue": "Sport Hall Colloseum",
-        "city": "Grozny, Chechnya, Russia",
-        "href": "/events/ACA-YE-69-ACA-Young-Eagles-69-114706",
-        "mainEventFighters": [
-          "Aslan Shogenov",
-          "Turpal-Ali Edilov"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Adam Musaev",
-            "b": "Vyacheslav Kuznetsov"
-          },
-          {
-            "a": "Nikolay Prismakov",
-            "b": "Muslim Khazhmuratov"
-          },
-          {
-            "a": "Imran Arsangiriev",
-            "b": "David Gubulov"
-          },
-          {
-            "a": "Anzor Dzhabrailov",
-            "b": "Shakhrom Makhmatbekov"
-          },
-          {
-            "a": "Tamerlan Aushev",
-            "b": "Ali Gadzhiev"
-          },
-          {
-            "a": "Kazbek Kalabekov",
-            "b": "Abubakar Debziev"
-          },
-          {
-            "a": "Abdul-Malik Siriev",
-            "b": "Gavril Semenov"
-          },
-          {
-            "a": "Amirkhan Zakriev",
-            "b": "Georgiy Komarov"
-          },
-          {
-            "a": "Ibragim Kagiradzhiev",
-            "b": "Sergey Gorin"
-          },
-          {
-            "a": "Kurbanmagomed Kurbanmagomedov",
-            "b": "Said-Mukhamad Gutaev"
-          },
-          {
-            "a": "Islam Aguev",
-            "b": "Ismail Ataev"
-          },
-          {
-            "a": "Mukhamed Magomadov",
-            "b": "Akhmed Isaev"
-          },
-          {
-            "a": "Turpal Khasuev",
-            "b": "Shamil Batalov"
-          },
-          {
-            "a": "Astemir Khezhaev",
-            "b": "Abdurakhman Dolaev"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Aslan Shogenov|Turpal-Ali Edilov|2026-10-08"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-22T18:00:00.000Z",
-      "endsAtUTC": "2026-10-22T22:00:00.000Z",
-      "timeUK": "Thu 22 Oct, 19:00",
-      "channel": {
-        "name": "Sky Sports Mix",
-        "logo": null
-      },
-      "market": "UK",
-      "label": "Chris Billam Smith v Ryan Rozicki",
-      "sublabel": "Zuffa Boxing"
-    },
-    {
-      "airTimeUTC": "2026-10-22T19:00:00.000Z",
-      "endsAtUTC": "2026-10-22T23:00:00.000Z",
-      "timeUK": "Thu 22 Oct, 20:00",
-      "channel": {
-        "name": "Sky Sports Mix",
-        "logo": null
-      },
-      "market": "UK",
-      "label": "Aaron McKenna v Etinosa Oliha",
-      "sublabel": "Zuffa Boxing"
-    },
-    {
-      "airTimeUTC": "2026-10-22T21:30:00.000Z",
-      "endsAtUTC": "2026-10-22T22:00:00.000Z",
-      "timeUK": "Thu 22 Oct, 22:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 246: Conor McGregor v Donald Cerrone",
-      "sublabel": "UFC - The Walk"
-    },
-    {
-      "airTimeUTC": "2026-10-22T22:00:00.000Z",
-      "endsAtUTC": "2026-10-23T00:00:00.000Z",
-      "timeUK": "Thu 22 Oct, 23:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Bellator 194: Patrick Pitbull v Dered Campos",
-      "sublabel": "Bellator MMA"
-    },
-    {
-      "airTimeUTC": "2026-10-23T02:00:00.000Z",
-      "endsAtUTC": "2026-10-23T03:00:00.000Z",
-      "timeUK": "Fri 23 Oct, 03:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "watchKey": "fights:Boxing|BKFC Fight Night Bethlehem: Cisneros|Peterson Prelims|2026-10-10",
-      "label": "BKFC Fight Night Bethlehem: Cisneros vs Peterson Prelims",
-      "logos": [],
-      "sublabel": "Boxing · Sat 10 Oct, 01:00"
-    },
-    {
-      "airTimeUTC": "2026-10-23T03:00:00.000Z",
-      "endsAtUTC": "2026-10-23T06:00:00.000Z",
-      "timeUK": "Fri 23 Oct, 04:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Cisneros v Petersen",
-      "sublabel": "BKFC Fight Night - Bethlehem: Cisneros v"
-    },
-    {
-      "airTimeUTC": "2026-10-23T05:00:00.000Z",
-      "endsAtUTC": "2026-10-23T08:00:00.000Z",
-      "timeUK": "Fri 23 Oct, 06:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 311: Makhachev v Moicano",
-      "sublabel": "UFC Reloaded"
-    },
     {
       "airTimeUTC": "2026-10-24T05:00:00.000Z",
       "endsAtUTC": "2026-10-24T08:00:00.000Z",
@@ -7538,6 +7281,42 @@
       "market": "United States",
       "label": "UFC 316: Dvalishvili v O'Malley 2",
       "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-10-25T01:00:00.000Z",
+      "endsAtUTC": "2026-10-25T02:00:00.000Z",
+      "timeUK": "Sun 25 Oct, 01:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Faulkner v Prasovic Prelims",
+      "sublabel": "BKFC Belgrade: Faulkner vs. Prasovic Pre"
+    },
+    {
+      "airTimeUTC": "2026-10-25T02:00:00.000Z",
+      "endsAtUTC": "2026-10-25T05:00:00.000Z",
+      "timeUK": "Sun 25 Oct, 02:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Faulkner v Prasovic",
+      "sublabel": "BKFC Belgrade: Faulkner vs. Prasovic"
+    },
+    {
+      "airTimeUTC": "2026-10-25T07:00:00.000Z",
+      "endsAtUTC": "2026-10-25T10:00:00.000Z",
+      "timeUK": "Sun 25 Oct, 07:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Herring v Dodson",
+      "sublabel": "BKFC 95, Newark: Herring vs. Dodson"
     }
   ]
 }

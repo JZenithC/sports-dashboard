@@ -1,7 +1,28 @@
 {
-  "generatedAt": "2026-10-22T16:10:09.919Z",
+  "generatedAt": "2026-10-23T16:12:54.297Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-23T16:11:31.783Z",
+        "totalEvents": 36,
+        "added": [
+          "Mirassol vs São Paulo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
+          "Vasco da Gama vs Corinthians (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30",
+          "Chapecoense vs Fluminense (Campeonato Brasileiro Série A) — Sat 24 Oct, 19:30",
+          "Vasco da Gama vs Flamengo (Campeonato Brasileiro Série A) — Thu 29 Oct, 17:00"
+        ],
+        "removed": [
+          "Flamengo vs Estudiantes de La Plata (CONMEBOL Libertadores) — Thu 22 Oct, 21:30"
+        ],
+        "channelsChanged": [
+          "Vitória vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [Azteca Deportes App, Azteca Deportes Network, GE TV, GLOBO, PREMIERE 4]",
+          "Internacional vs Botafogo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [GLOBO, Globo Internacional, PREMIERE 3]",
+          "Palmeiras vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz YouTube, PREMIERE FC]",
+          "San Lorenzo vs Newells Old Boys (Liga Profesional de Fútbol) — Sat 24 Oct, 19:15: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Santos vs Bahia (Campeonato Brasileiro Série A) — Sat 24 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, PREMIERE 5, SPORTV]"
+        ],
+        "total": 36
+      },
       {
         "timestamp": "2026-10-22T16:05:10.062Z",
         "totalEvents": 33,
@@ -591,36 +612,16 @@
         ],
         "channelsChanged": [],
         "total": 33
-      },
-      {
-        "timestamp": "2026-10-03T15:18:54.498Z",
-        "totalEvents": 29,
-        "added": [
-          "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30",
-          "Gimnasia y Esgrima La Plata vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 09 Oct, 18:00",
-          "Instituto (Córdoba) vs Boca Juniors (Liga Profesional de Fútbol) — Fri 09 Oct, 19:30",
-          "Unión Santa Fe vs Defensa y Justicia (Liga Profesional de Fútbol) — Fri 09 Oct, 21:45",
-          "Puebla vs Club León (Liga MX) — Fri 09 Oct, 19:00",
-          "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00"
-        ],
-        "removed": [
-          "Independiente vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Fri 02 Oct, 19:15",
-          "São Paulo vs Santos (Campeonato Brasileiro Série A) — Fri 02 Oct, 20:00",
-          "Independiente Rivadavia vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30",
-          "Boca Juniors vs Union Santa Fe (Liga Profesional de Fútbol) — Fri 02 Oct, 21:30"
-        ],
-        "channelsChanged": [
-          "Atlético Mineiro vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 03 Oct, 18:30: [PREMIERE FC]",
-          "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sun 04 Oct, 14:45: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Talleres de Córdoba vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 04 Oct, 17:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30: [Fanatiz (Míralo en vivo), Flow Sports]",
-          "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Fanatiz (Míralo en vivo), Globo Internacional]",
-          "Palmeiras vs Bahía (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Fanatiz (Míralo en vivo), Flow Sports]"
-        ],
-        "total": 29
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-23T16:12:02.105Z",
+        "total": 5,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-22T16:09:24.089Z",
         "total": 5,
@@ -879,19 +880,23 @@
           "San Diego Padres @ Milwaukee Brewers (2026-10-09): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
           "Atlanta Braves @ Los Angeles Dodgers (2026-10-09): [FOX / FOX ONE, Fox Deportes / FOX ONE]"
         ]
-      },
-      {
-        "timestamp": "2026-10-03T15:19:34.815Z",
-        "total": 18,
-        "added": [
-          "San Diego Padres @ Milwaukee Brewers (2026-10-09)",
-          "Atlanta Braves @ Los Angeles Dodgers (2026-10-09)"
-        ],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-23T16:12:54.296Z",
+        "total": 61,
+        "added": [
+          "BKFC Fight Night Clearwater: Reber vs Street, Prelims (2026-10-24)",
+          "One on Prime Video 49 (2026-11-06)",
+          "David Benavidez vs Michal Cieslak (2026-12-05)"
+        ],
+        "removed": [
+          "BKFC Fight Night Clearwater: Reber vs Street Prelims (2026-10-24)",
+          "One on Prime Video 49 (2026-11-06)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-22T16:10:09.918Z",
         "total": 60,
@@ -1149,24 +1154,6 @@
           "Alycia Baumgardner vs Elif Nur Turhan (2026-11-08)",
           "Diego Pacheco vs Darius Fulghum (2026-11-14)",
           "UFC 335 (2026-12-12)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-03T15:20:22.210Z",
-        "total": 56,
-        "added": [
-          "Denzel Bentley-Shane Mosley Jnr (2026-11-07)",
-          "Alycia Baumgardner vs Elif Nur Turhan (2026-11-08)",
-          "Diego Pacheco vs Darius Fulghum (2026-11-14)"
-        ],
-        "removed": [
-          "Omari Jones vs Alan Sanchez (2026-10-02)",
-          "LUX 063: Queretaro (2026-10-02)",
-          "Fury Fighting Championship 125: Meck vs. Taylor (2026-10-02)",
-          "One Friday Fights 173 (2026-10-02)",
-          "One on Prime Video 48 (2026-10-02)",
-          "Elif Nur Turhan-Alycia Baumgardner (2026-11-09)"
         ],
         "channelsChanged": []
       }

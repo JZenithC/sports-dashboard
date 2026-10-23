@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T16:08:51.045Z",
+  "generatedAt": "2026-10-23T16:11:33.296Z",
   "tables": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -2726,6 +2726,22 @@
               "leg2Date": "2026-10-21",
               "leg2Score": null,
               "aggregate": null,
+              "winner": null
+            }
+          ]
+        },
+        {
+          "round": "Final",
+          "ties": [
+            {
+              "teamA": "Palmeiras",
+              "teamB": "Estudiantes de La Plata",
+              "teamKeys": [
+                "estudiantes lp",
+                "palmeiras"
+              ],
+              "score": null,
+              "date": "2026-11-28",
               "winner": null
             }
           ]

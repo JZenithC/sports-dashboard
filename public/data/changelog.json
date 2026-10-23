@@ -1,5 +1,25 @@
 [
   {
+    "timestamp": "2026-10-23T16:11:31.783Z",
+    "totalEvents": 36,
+    "added": [
+      "Mirassol vs São Paulo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
+      "Vasco da Gama vs Corinthians (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30",
+      "Chapecoense vs Fluminense (Campeonato Brasileiro Série A) — Sat 24 Oct, 19:30",
+      "Vasco da Gama vs Flamengo (Campeonato Brasileiro Série A) — Thu 29 Oct, 17:00"
+    ],
+    "removed": [
+      "Flamengo vs Estudiantes de La Plata (CONMEBOL Libertadores) — Thu 22 Oct, 21:30"
+    ],
+    "channelsChanged": [
+      "Vitória vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [Azteca Deportes App, Azteca Deportes Network, GE TV, GLOBO, PREMIERE 4]",
+      "Internacional vs Botafogo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [GLOBO, Globo Internacional, PREMIERE 3]",
+      "Palmeiras vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz YouTube, PREMIERE FC]",
+      "San Lorenzo vs Newells Old Boys (Liga Profesional de Fútbol) — Sat 24 Oct, 19:15: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Santos vs Bahia (Campeonato Brasileiro Série A) — Sat 24 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, PREMIERE 5, SPORTV]"
+    ]
+  },
+  {
     "timestamp": "2026-10-22T16:05:10.062Z",
     "totalEvents": 33,
     "added": [
@@ -109,43 +129,6 @@
       "FC Juárez vs Atlante (Liga MX) — Tue 20 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
       "Tigres UANL vs Club León (Liga MX) — Tue 20 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
       "Toluca vs Tijuana (Liga MX) — Wed 21 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One, ViX Premium]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-18T14:52:09.822Z",
-    "totalEvents": 41,
-    "added": [
-      "Vitória vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sat 24 Oct, 13:30",
-      "Banfield vs Lanús (Liga Profesional de Fútbol) — Sat 24 Oct, 14:45",
-      "Palmeiras vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 24 Oct, 15:30",
-      "Talleres de Córdoba vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 24 Oct, 17:00",
-      "Santos vs Bahía (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:00",
-      "San Lorenzo vs Newell's Old Boys (Liga Profesional de Fútbol) — Sat 24 Oct, 19:15",
-      "Club León vs Toluca (Liga MX) — Sat 24 Oct, 17:00",
-      "Monterrey vs Chivas Guadalajara (Liga MX) — Sat 24 Oct, 18:00",
-      "Rosario Central vs Huracán (Liga Profesional de Fútbol) — Sat 24 Oct, 21:30",
-      "Pumas UNAM vs Tigres UANL (Liga MX) — Sat 24 Oct, 20:00"
-    ],
-    "removed": [
-      "Banfield vs Argentinos Juniors (Liga Profesional de Fútbol) — Sat 17 Oct, 15:00",
-      "Platense vs Lanus (Liga Profesional de Fútbol) — Sat 17 Oct, 17:30",
-      "Independiente Rivadavia vs Tigre (Liga Profesional de Fútbol) — Sat 17 Oct, 17:30",
-      "Botafogo vs Chapecoense (Campeonato Brasileiro Série A) — Sat 17 Oct, 18:00",
-      "Atlético Mineiro vs Coritiba (Campeonato Brasileiro Série A) — Sat 17 Oct, 18:30",
-      "Athletico Paranaense vs Palmeiras (Campeonato Brasileiro Série A) — Sat 17 Oct, 19:30",
-      "Vélez Sarsfield vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sat 17 Oct, 20:00",
-      "Atlético Tucumán vs Rosario Central (Liga Profesional de Fútbol) — Sat 17 Oct, 20:00",
-      "Santos Laguna vs Querétaro (Liga MX) — Sat 17 Oct, 17:00",
-      "Chivas Guadalajara vs Tigres UANL (Liga MX) — Sat 17 Oct, 17:07",
-      "São Paulo vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 17 Oct, 21:00",
-      "Toluca vs Atlético San Luis (Liga MX) — Sat 17 Oct, 19:00",
-      "Club León vs América (Liga MX) — Sat 17 Oct, 19:00",
-      "Cruz Azul vs FC Juárez (Liga MX) — Sat 17 Oct, 21:10"
-    ],
-    "channelsChanged": [
-      "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Corinthians vs Vitória (Campeonato Brasileiro Série A) — Mon 19 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE, SPORTV]",
-      "Deportivo Riestra vs Union Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]"
     ]
   }
 ]
