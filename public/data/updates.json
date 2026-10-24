@@ -1,7 +1,42 @@
 {
-  "generatedAt": "2026-10-23T16:12:54.297Z",
+  "generatedAt": "2026-10-24T14:58:39.555Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-24T14:57:20.653Z",
+        "totalEvents": 38,
+        "added": [
+          "Remo vs Botafogo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
+          "Huracán vs Tigre (Liga Profesional de Fútbol) — Fri 30 Oct, 18:00",
+          "Estudiantes de Río Cuarto vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Fri 30 Oct, 18:00",
+          "Racing Club vs Aldosivi (Liga Profesional de Fútbol) — Fri 30 Oct, 20:15",
+          "Sarmiento de Junín vs Rosario Central (Liga Profesional de Fútbol) — Fri 30 Oct, 20:15",
+          "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 18:00",
+          "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 20:00",
+          "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 21:00"
+        ],
+        "removed": [
+          "Gimnasia y Esgrima La Plata vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 23 Oct, 18:00",
+          "Gimnasia y Esgrima de Mendoza vs Platense (Liga Profesional de Fútbol) — Fri 23 Oct, 18:30",
+          "Cruzeiro vs Remo (Campeonato Brasileiro Série A) — Fri 23 Oct, 20:00",
+          "Tigre vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 23 Oct, 21:15",
+          "Necaxa vs FC Juárez (Liga MX) — Fri 23 Oct, 19:00",
+          "Atlante vs Atlético San Luis (Liga MX) — Fri 23 Oct, 21:00"
+        ],
+        "channelsChanged": [
+          "Vitória vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), GE TV, GLOBO, PREMIERE 4]",
+          "Internacional vs Botafogo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [Fanatiz (Míralo en vivo), GLOBO, Globo Internacional, PREMIERE 3]",
+          "Mirassol vs São Paulo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [Fanatiz (Míralo en vivo), GLOBO, PREMIERE 5]",
+          "Palmeiras vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Fanatiz YouTube, PREMIERE FC]",
+          "Vasco da Gama vs Corinthians (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30: [CAZÉTV, Fanatiz (Míralo en vivo), Flow Sports, PREMIERE 2, RECORD]",
+          "Chapecoense vs Fluminense (Campeonato Brasileiro Série A) — Sat 24 Oct, 19:30: [Fanatiz (Míralo en vivo), PRIME VIDEO]",
+          "Santos vs Bahia (Campeonato Brasileiro Série A) — Sat 24 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Flow Sports, PREMIERE 5, SPORTV]",
+          "Independiente vs Boca Juniors (Liga Profesional de Fútbol) — Sun 25 Oct, 17:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "River Plate vs Racing Club (Liga Profesional de Fútbol) — Sun 25 Oct, 19:15: [DISNEY+, Disney+ Premium, ESPN, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Central Córdoba (Santiago del Estero) vs Velez Sarsfield (Liga Profesional de Fútbol) — Sun 25 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]"
+        ],
+        "total": 38
+      },
       {
         "timestamp": "2026-10-23T16:11:31.783Z",
         "totalEvents": 36,
@@ -586,35 +621,20 @@
           "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00: [Azteca 7, FOX One]"
         ],
         "total": 43
-      },
-      {
-        "timestamp": "2026-10-04T16:02:13.326Z",
-        "totalEvents": 33,
-        "added": [
-          "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45",
-          "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00",
-          "Vasco da Gama vs Remo (Campeonato Brasileiro Série A) — Sat 10 Oct, 17:00",
-          "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15",
-          "Querétaro vs Atlante (Liga MX) — Sat 10 Oct, 17:00",
-          "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00",
-          "São Paulo vs Vitória (Campeonato Brasileiro Série A) — Sat 10 Oct, 21:00",
-          "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30",
-          "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00",
-          "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:00"
-        ],
-        "removed": [
-          "Defensa y Justicia vs San Lorenzo (Liga Profesional de Fútbol) — Sat 03 Oct, 14:45",
-          "Newell's Old Boys vs Lanús (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00",
-          "Atlético Tucumán vs Barracas Central (Liga Profesional de Fútbol) — Sat 03 Oct, 17:00",
-          "Atlético Mineiro vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 03 Oct, 18:30",
-          "Argentinos Juniors vs Tigre (Liga Profesional de Fútbol) — Sat 03 Oct, 19:15",
-          "Huracán vs Aldosivi (Liga Profesional de Fútbol) — Sat 03 Oct, 21:30"
-        ],
-        "channelsChanged": [],
-        "total": 33
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-24T14:57:55.683Z",
+        "total": 5,
+        "added": [
+          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-30)"
+        ],
+        "removed": [
+          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-23)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-23T16:12:02.105Z",
         "total": 5,
@@ -855,34 +875,24 @@
           "Atlanta Braves @ Los Angeles Dodgers (2026-10-04)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-04T16:02:49.201Z",
-        "total": 17,
-        "added": [
-          "Chicago White Sox @ Cleveland Guardians (2026-10-10)",
-          "New York Yankees @ Tampa Bay Rays (2026-10-10)",
-          "NL Lower Seed @ NL Higher Seed (2026-10-11)"
-        ],
-        "removed": [
-          "Chicago White Sox @ Cleveland Guardians (2026-10-03)",
-          "Atlanta Braves @ Los Angeles Dodgers (2026-10-03)",
-          "New York Yankees @ Tampa Bay Rays (2026-10-03)",
-          "San Diego Padres @ Milwaukee Brewers (2026-10-03)"
-        ],
-        "channelsChanged": [
-          "San Diego Padres @ Milwaukee Brewers (2026-10-04): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
-          "Atlanta Braves @ Los Angeles Dodgers (2026-10-04): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
-          "Los Angeles Dodgers @ Atlanta Braves (2026-10-06): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
-          "Milwaukee Brewers @ San Diego Padres (2026-10-06): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
-          "Los Angeles Dodgers @ Atlanta Braves (2026-10-07): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
-          "Milwaukee Brewers @ San Diego Padres (2026-10-07): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
-          "San Diego Padres @ Milwaukee Brewers (2026-10-09): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
-          "Atlanta Braves @ Los Angeles Dodgers (2026-10-09): [FOX / FOX ONE, Fox Deportes / FOX ONE]"
-        ]
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-24T14:58:39.555Z",
+        "total": 61,
+        "added": [
+          "Deep: Tokyo Impact 2026 5th Round (2026-11-23)",
+          "Deep: Jewels 55 (2026-11-23)",
+          "Ryan Garner vs James Dickens (2027-01-09)"
+        ],
+        "removed": [
+          "LFA 244: Woodley vs. Havener (2026-10-23)",
+          "BKFC Fight Night Clearwater: Reber vs Street, Prelims (2026-10-24)",
+          "UFC 333: Volkanovski vs. Evloev (2026-10-24)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-23T16:12:54.296Z",
         "total": 61,
@@ -1129,31 +1139,6 @@
         "removed": [
           "ACA 208: Abdulvakhabov vs. Tibau (2026-10-04)",
           "Pancrase: 367 (2026-10-04)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-04T16:03:36.132Z",
-        "total": 54,
-        "added": [
-          "ACA 208: Abdulvakhabov vs. Tibau (2026-10-04)",
-          "Pancrase: 367 (2026-10-04)",
-          "One Friday Fights 174 (2026-10-09)",
-          "Elif Nur Turhan-Alycia Baumgardner (2026-11-09)",
-          "Diego Pacheco-Darius Fulghum (2026-11-15)",
-          "Litzy Vazquez- Stephanie Pineiro (2026-12-06)",
-          "UFC 335: Oliveira vs. Lopes (2026-12-12)"
-        ],
-        "removed": [
-          "Ben Whittaker vs. Conor Wallace (2026-10-03)",
-          "UFC 332: Silva vs. Wang (2026-10-03)",
-          "Rizin FF: Landmark Vol. 16 (2026-10-03)",
-          "ACA 208: Shaikhaev vs. Tumenov (2026-10-04)",
-          "Pancrase: 367 (2026-10-04)",
-          "One Friday Fights 174 (2026-10-09)",
-          "Alycia Baumgardner vs Elif Nur Turhan (2026-11-08)",
-          "Diego Pacheco vs Darius Fulghum (2026-11-14)",
-          "UFC 335 (2026-12-12)"
         ],
         "channelsChanged": []
       }

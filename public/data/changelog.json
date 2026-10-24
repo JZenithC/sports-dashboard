@@ -1,5 +1,39 @@
 [
   {
+    "timestamp": "2026-10-24T14:57:20.653Z",
+    "totalEvents": 38,
+    "added": [
+      "Remo vs Botafogo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
+      "Huracán vs Tigre (Liga Profesional de Fútbol) — Fri 30 Oct, 18:00",
+      "Estudiantes de Río Cuarto vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Fri 30 Oct, 18:00",
+      "Racing Club vs Aldosivi (Liga Profesional de Fútbol) — Fri 30 Oct, 20:15",
+      "Sarmiento de Junín vs Rosario Central (Liga Profesional de Fútbol) — Fri 30 Oct, 20:15",
+      "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 18:00",
+      "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 20:00",
+      "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 21:00"
+    ],
+    "removed": [
+      "Gimnasia y Esgrima La Plata vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 23 Oct, 18:00",
+      "Gimnasia y Esgrima de Mendoza vs Platense (Liga Profesional de Fútbol) — Fri 23 Oct, 18:30",
+      "Cruzeiro vs Remo (Campeonato Brasileiro Série A) — Fri 23 Oct, 20:00",
+      "Tigre vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 23 Oct, 21:15",
+      "Necaxa vs FC Juárez (Liga MX) — Fri 23 Oct, 19:00",
+      "Atlante vs Atlético San Luis (Liga MX) — Fri 23 Oct, 21:00"
+    ],
+    "channelsChanged": [
+      "Vitória vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), GE TV, GLOBO, PREMIERE 4]",
+      "Internacional vs Botafogo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [Fanatiz (Míralo en vivo), GLOBO, Globo Internacional, PREMIERE 3]",
+      "Mirassol vs São Paulo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [Fanatiz (Míralo en vivo), GLOBO, PREMIERE 5]",
+      "Palmeiras vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Fanatiz YouTube, PREMIERE FC]",
+      "Vasco da Gama vs Corinthians (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30: [CAZÉTV, Fanatiz (Míralo en vivo), Flow Sports, PREMIERE 2, RECORD]",
+      "Chapecoense vs Fluminense (Campeonato Brasileiro Série A) — Sat 24 Oct, 19:30: [Fanatiz (Míralo en vivo), PRIME VIDEO]",
+      "Santos vs Bahia (Campeonato Brasileiro Série A) — Sat 24 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Flow Sports, PREMIERE 5, SPORTV]",
+      "Independiente vs Boca Juniors (Liga Profesional de Fútbol) — Sun 25 Oct, 17:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "River Plate vs Racing Club (Liga Profesional de Fútbol) — Sun 25 Oct, 19:15: [DISNEY+, Disney+ Premium, ESPN, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Central Córdoba (Santiago del Estero) vs Velez Sarsfield (Liga Profesional de Fútbol) — Sun 25 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]"
+    ]
+  },
+  {
     "timestamp": "2026-10-23T16:11:31.783Z",
     "totalEvents": 36,
     "added": [
@@ -97,38 +131,6 @@
       "Monterrey vs Chivas Guadalajara (Liga MX) — Sat 24 Oct, 18:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
       "Pumas UNAM vs Tigres UANL (Liga MX) — Sat 24 Oct, 20:00: [Canal 5, TUDN, ViX Premium]",
       "América vs Pachuca (Liga MX) — Sun 25 Oct, 18:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-19T17:49:42.383Z",
-    "totalEvents": 41,
-    "added": [
-      "Aldosivi vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 25 Oct, 13:45",
-      "Independiente vs Boca Juniors (Liga Profesional de Fútbol) — Sun 25 Oct, 16:00",
-      "River Plate vs Racing Club (Liga Profesional de Fútbol) — Sun 25 Oct, 18:15",
-      "Atlas vs Puebla (Liga MX) — Sun 25 Oct, 16:00",
-      "Central Córdoba (Santiago del Estero) vs Vélez Sarsfield (Liga Profesional de Fútbol) — Sun 25 Oct, 20:30",
-      "Barracas Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sun 25 Oct, 20:30",
-      "América vs Pachuca (Liga MX) — Sun 25 Oct, 18:00",
-      "Querétaro vs Cruz Azul (Liga MX) — Sun 25 Oct, 18:00",
-      "Tijuana vs Santos Laguna (Liga MX) — Sun 25 Oct, 20:00"
-    ],
-    "removed": [
-      "Racing Club vs Independiente (Liga Profesional de Fútbol) — Sun 18 Oct, 14:45",
-      "Fluminense vs Santos (Campeonato Brasileiro Série A) — Sun 18 Oct, 16:00",
-      "Grêmio vs Cruzeiro (Campeonato Brasileiro Série A) — Sun 18 Oct, 16:00",
-      "Estudiantes de La Plata vs San Lorenzo (Liga Profesional de Fútbol) — Sun 18 Oct, 18:00",
-      "Estudiantes de Río Cuarto vs Aldosivi (Liga Profesional de Fútbol) — Sun 18 Oct, 18:00",
-      "Bahia vs Flamengo (Campeonato Brasileiro Série A) — Sun 18 Oct, 18:30",
-      "Remo vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sun 18 Oct, 19:30",
-      "Belgrano (Córdoba) vs River Plate (Liga Profesional de Fútbol) — Sun 18 Oct, 20:15",
-      "Monterrey vs Pachuca (Liga MX) — Sun 18 Oct, 19:00"
-    ],
-    "channelsChanged": [
-      "Corinthians vs Vitória (Campeonato Brasileiro Série A) — Mon 19 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE FC, SPORTV]",
-      "FC Juárez vs Atlante (Liga MX) — Tue 20 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
-      "Tigres UANL vs Club León (Liga MX) — Tue 20 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
-      "Toluca vs Tijuana (Liga MX) — Wed 21 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One, ViX Premium]"
     ]
   }
 ]
