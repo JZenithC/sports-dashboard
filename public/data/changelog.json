@@ -1,5 +1,40 @@
 [
   {
+    "timestamp": "2026-10-25T15:06:46.157Z",
+    "totalEvents": 33,
+    "added": [
+      "Coritiba vs Grêmio (Campeonato Brasileiro Série A) — Mon 26 Oct, 19:30",
+      "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Sat 31 Oct, 14:45",
+      "Deportivo Riestra vs Talleres de Córdoba (Liga Profesional de Fútbol) — Sat 31 Oct, 17:00",
+      "Vélez Sarsfield vs San Lorenzo (Liga Profesional de Fútbol) — Sat 31 Oct, 19:15",
+      "Pachuca vs Tigres UANL (Liga MX) — Sat 31 Oct, 17:00",
+      "Estudiantes de La Plata vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Sat 31 Oct, 21:30",
+      "Monterrey vs Tijuana (Liga MX) — Sat 31 Oct, 19:00",
+      "Chivas Guadalajara vs Atlante (Liga MX) — Sat 31 Oct, 19:07",
+      "América vs Toluca (Liga MX) — Sat 31 Oct, 21:00"
+    ],
+    "removed": [
+      "Banfield vs Lanús (Liga Profesional de Fútbol) — Sat 24 Oct, 14:45",
+      "Vitória vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
+      "Internacional vs Botafogo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
+      "Mirassol vs São Paulo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
+      "Talleres de Córdoba vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 24 Oct, 17:00",
+      "Palmeiras vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30",
+      "Vasco da Gama vs Corinthians (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30",
+      "San Lorenzo vs Newells Old Boys (Liga Profesional de Fútbol) — Sat 24 Oct, 19:15",
+      "Chapecoense vs Fluminense (Campeonato Brasileiro Série A) — Sat 24 Oct, 19:30",
+      "Club León vs Toluca (Liga MX) — Sat 24 Oct, 17:00",
+      "Santos vs Bahia (Campeonato Brasileiro Série A) — Sat 24 Oct, 21:00",
+      "Monterrey vs Chivas Guadalajara (Liga MX) — Sat 24 Oct, 18:00",
+      "Rosario Central vs Huracán (Liga Profesional de Fútbol) — Sat 24 Oct, 21:30",
+      "Pumas UNAM vs Tigres UANL (Liga MX) — Sat 24 Oct, 20:00"
+    ],
+    "channelsChanged": [
+      "Union Santa Fe vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Mon 26 Oct, 19:00: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Flamengo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Mon 26 Oct, 20:00: [Flamengo TV YouTube, PREMIERE FC, SPORTV]"
+    ]
+  },
+  {
     "timestamp": "2026-10-24T14:57:20.653Z",
     "totalEvents": 38,
     "added": [
@@ -106,31 +141,6 @@
     ],
     "channelsChanged": [
       "Flamengo vs Estudiantes de La Plata (CONMEBOL Libertadores) — Thu 22 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN, ESPN 3, FOX Sports, Mitelefe.com, PREMIERE 6, Pluto TV, Telefe, Telefé YouTube]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-20T15:53:55.548Z",
-    "totalEvents": 40,
-    "added": [
-      "Unión Santa Fe vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Mon 26 Oct, 18:00",
-      "Flamengo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Mon 26 Oct, 20:00",
-      "Instituto (Córdoba) vs Deportivo Riestra (Liga Profesional de Fútbol) — Mon 26 Oct, 20:15"
-    ],
-    "removed": [
-      "Newell's Old Boys vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
-      "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
-      "Corinthians vs Vitória (Campeonato Brasileiro Série A) — Mon 19 Oct, 20:00",
-      "Deportivo Riestra vs Union Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15"
-    ],
-    "channelsChanged": [
-      "Palmeiras vs Fluminense (CONMEBOL Libertadores) — Wed 21 Oct, 21:30: [Disney+ Premium, ESPN 3, FOX Sports, GE TV, GLOBO, PARAMOUNT+]",
-      "Atlas vs América (Liga MX) — Wed 21 Oct, 19:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
-      "Pachuca vs Cruz Azul (Liga MX) — Wed 21 Oct, 21:00: [FOX One, FOX+]",
-      "Santos Laguna vs Pumas UNAM (Liga MX) — Wed 21 Oct, 21:10: [Canal 5, Disney+ Premium, ESPN, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
-      "Atlante vs Atlético San Luis (Liga MX) — Fri 23 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, ESPN 2, aztecadeportes.com]",
-      "Monterrey vs Chivas Guadalajara (Liga MX) — Sat 24 Oct, 18:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
-      "Pumas UNAM vs Tigres UANL (Liga MX) — Sat 24 Oct, 20:00: [Canal 5, TUDN, ViX Premium]",
-      "América vs Pachuca (Liga MX) — Sun 25 Oct, 18:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]"
     ]
   }
 ]

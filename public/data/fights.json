@@ -1,151 +1,6 @@
 {
-  "generatedAt": "2026-10-24T14:58:39.554Z",
+  "generatedAt": "2026-10-25T15:08:07.025Z",
   "upcoming": [
-    {
-      "org": "Boxing",
-      "eventName": "Smith vs. Puello",
-      "eventTag": "Boxing · Utilita Arena Sheffield, Sheffield, United Kingdom",
-      "homeTeam": "Smith",
-      "awayTeam": "Puello",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": {
-        "src": "/logos/posters/f9cf7d499e10da139ccc.webp",
-        "attribution": "DAZN"
-      },
-      "kickoffUTC": "2026-10-24T18:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 24 Oct, 19:00",
-      "localDate": "2026-10-24",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "smith-vs-puello",
-        "name": "Smith vs. Puello",
-        "dateUTC": "2026-10-24T18:00:00.000Z",
-        "dateOnly": "2026-10-24",
-        "venue": "Utilita Arena Sheffield",
-        "city": "Sheffield, United Kingdom",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/daltonsmithalbertopuello-f6ryql.webp",
-        "posterAttribution": "DAZN",
-        "mainEventFighters": [
-          "Smith",
-          "Puello"
-        ],
-        "bouts": [
-          {
-            "a": "Dalton Smith",
-            "b": "Alberto Puello"
-          }
-        ],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/dalton-smith-vs-alberto-puello-2026-10-24"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/dalton-smith-vs-alberto-puello-2026-10-24"
-      },
-      "watchKey": "fights:Boxing|Smith|Puello|2026-10-24"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Emanuel Navarrete-O'Shaquie Foster",
-      "eventTag": "Boxing · Frost Bank Center, San Antonio, Texas",
-      "homeTeam": "Emanuel Navarrete",
-      "awayTeam": "O'Shaquie Foster",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Albert Gonzalez v Edward Vazquez",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/346eab1c8ae5c3e47b40.webp",
-        "attribution": "DAZN"
-      },
-      "kickoffUTC": "2026-10-25T00:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sun 25 Oct, 01:00",
-      "localDate": "2026-10-25",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "emanuel-navarrete-oshaquie-foster",
-        "name": "Emanuel Navarrete-O'Shaquie Foster",
-        "dateUTC": "2026-10-25T00:00:00.000Z",
-        "dateOnly": "2026-10-24",
-        "venue": "Frost Bank Center",
-        "city": "San Antonio, Texas",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/emanuelnavarreteoshaquiefosterartwork.webp",
-        "posterAttribution": "DAZN",
-        "mainEventFighters": [
-          "Emanuel Navarrete",
-          "O'Shaquie Foster"
-        ],
-        "bouts": [
-          {
-            "a": "Emanuel Navarrete",
-            "b": "O'Shaquie Foster"
-          },
-          {
-            "a": "Albert Gonzalez",
-            "b": "Edward Vazquez"
-          }
-        ],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/emanuel-navarrete-vs-oshaquie-foster-2026-10-24"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/emanuel-navarrete-vs-oshaquie-foster-2026-10-24"
-      },
-      "watchKey": "fights:Boxing|Emanuel Navarrete|O'Shaquie Foster|2026-10-25"
-    },
     {
       "org": "MMA",
       "eventName": "Shooto / Torao Nation State: Force 24",
@@ -729,14 +584,19 @@
       "org": "MMA",
       "eventName": "One Friday Fights 176",
       "eventTag": "One Friday Fights 176 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "One Friday Fights 176",
+      "homeTeam": "Ethan Brockett",
+      "awayTeam": "Pedro Duarte",
+      "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Prashanth Guda v Ouga Akita",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-10-30T23:59:00Z",
       "kickoffLocal": null,
@@ -753,16 +613,24 @@
         "venue": "Lumpinee Boxing Stadium",
         "city": "Bangkok, Thailand",
         "href": "/events/One-Championship-One-Friday-Fights-176-114702",
-        "mainEventFighters": [],
+        "mainEventFighters": [
+          "Ethan Brockett",
+          "Pedro Duarte"
+        ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Prashanth Guda",
+            "b": "Ouga Akita"
+          }
+        ]
       },
-      "watchKey": "fights:MMA|null|null|2026-10-30"
+      "watchKey": "fights:MMA|Ethan Brockett|Pedro Duarte|2026-10-30"
     },
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Moicano vs. Nolan",
-      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 10-fight card · main card Sun 01 Nov, 00:00 UK",
+      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 13-fight card · main card Sun 01 Nov, 00:00 UK",
       "homeTeam": "Renato Moicano",
       "awayTeam": "Tom Nolan",
       "cardTitle": null,
@@ -772,8 +640,16 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
+          "title": "Mickey Gall v Zach Reese",
+          "weightClass": "Middleweight"
+        },
+        {
           "title": "Tainara Lisboa v Lucia Szabová",
           "weightClass": "W Flyweight"
+        },
+        {
+          "title": "Randy Brown v Jacobe Smith",
+          "weightClass": "Welterweight"
         },
         {
           "title": "Piera Rodriguez v Talita Alencar",
@@ -794,6 +670,10 @@
         {
           "title": "Andre Petroski v Azamat Bekoev",
           "weightClass": "Middleweight"
+        },
+        {
+          "title": "Dakota Hope v Francis Marshall",
+          "weightClass": "Featherweight"
         },
         {
           "title": "Jean-Paul Lebosnoyani v Farman Hasanov",
@@ -855,9 +735,19 @@
         ],
         "bouts": [
           {
+            "a": "Mickey Gall",
+            "b": "Zach Reese",
+            "weightClass": "Middleweight"
+          },
+          {
             "a": "Tainara Lisboa",
             "b": "Lucia Szabová",
             "weightClass": "W Flyweight"
+          },
+          {
+            "a": "Randy Brown",
+            "b": "Jacobe Smith",
+            "weightClass": "Welterweight"
           },
           {
             "a": "Piera Rodriguez",
@@ -885,6 +775,11 @@
             "weightClass": "Middleweight"
           },
           {
+            "a": "Dakota Hope",
+            "b": "Francis Marshall",
+            "weightClass": "Featherweight"
+          },
+          {
             "a": "Jean-Paul Lebosnoyani",
             "b": "Farman Hasanov",
             "weightClass": "Welterweight"
@@ -906,7 +801,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 10,
+        "boutCount": 13,
         "broadcasts": [
           "Paramount+"
         ]
@@ -4876,8 +4771,8 @@
     },
     {
       "org": "Boxing",
-      "eventName": "Tyson Fury vs Anthony Joshua",
-      "eventTag": "Boxing · Cardiff",
+      "eventName": "Tyson Fury-Anthony Joshua",
+      "eventTag": "Boxing · Principality Stadium, Cardiff, United Kingdom",
       "homeTeam": "Tyson Fury",
       "awayTeam": "Anthony Joshua",
       "cardTitle": null,
@@ -4886,10 +4781,13 @@
       "orgName": "Boxing",
       "orgLogo": null,
       "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-12-11T20:00:00.000Z",
+      "poster": {
+        "src": "/logos/posters/2029108f28bd70cf9236.webp",
+        "attribution": "Netflix"
+      },
+      "kickoffUTC": "2026-12-11T23:59:00Z",
       "kickoffLocal": null,
-      "kickoffUK": "Fri 11 Dec, 20:00",
+      "kickoffUK": null,
       "localDate": "2026-12-11",
       "channels": [],
       "broadcastGroups": [
@@ -4906,17 +4804,24 @@
       ],
       "source": {
         "org": "Boxing",
-        "slug": "gbn-tyson-fury-vs-anthony-joshua-2026-12-11",
-        "name": "Tyson Fury vs Anthony Joshua",
-        "dateUTC": "2026-12-11T20:00:00.000Z",
+        "slug": "tyson-fury-anthony-joshua",
+        "name": "Tyson Fury-Anthony Joshua",
+        "dateUTC": null,
         "dateOnly": "2026-12-11",
-        "venue": null,
-        "city": "Cardiff",
+        "venue": "Principality Stadium",
+        "city": "Cardiff, United Kingdom",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/tysonfuryanthonyjoshuaartwork1.webp",
+        "posterAttribution": "Netflix",
         "mainEventFighters": [
           "Tyson Fury",
           "Anthony Joshua"
         ],
-        "bouts": [],
+        "bouts": [
+          {
+            "a": "Tyson Fury",
+            "b": "Anthony Joshua"
+          }
+        ],
         "broadcasts": [
           "Netflix"
         ],
@@ -5403,6 +5308,151 @@
     }
   ],
   "recent": [
+    {
+      "org": "Boxing",
+      "eventName": "Emanuel Navarrete-O'Shaquie Foster",
+      "eventTag": "Boxing · Frost Bank Center, San Antonio, Texas",
+      "homeTeam": "Emanuel Navarrete",
+      "awayTeam": "O'Shaquie Foster",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Albert Gonzalez v Edward Vazquez",
+          "weightClass": null
+        }
+      ],
+      "poster": {
+        "src": "/logos/posters/346eab1c8ae5c3e47b40.webp",
+        "attribution": "DAZN"
+      },
+      "kickoffUTC": "2026-10-25T00:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sun 25 Oct, 01:00",
+      "localDate": "2026-10-25",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "emanuel-navarrete-oshaquie-foster",
+        "name": "Emanuel Navarrete-O'Shaquie Foster",
+        "dateUTC": "2026-10-25T00:00:00.000Z",
+        "dateOnly": "2026-10-24",
+        "venue": "Frost Bank Center",
+        "city": "San Antonio, Texas",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/emanuelnavarreteoshaquiefosterartwork.webp",
+        "posterAttribution": "DAZN",
+        "mainEventFighters": [
+          "Emanuel Navarrete",
+          "O'Shaquie Foster"
+        ],
+        "bouts": [
+          {
+            "a": "Emanuel Navarrete",
+            "b": "O'Shaquie Foster"
+          },
+          {
+            "a": "Albert Gonzalez",
+            "b": "Edward Vazquez"
+          }
+        ],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/emanuel-navarrete-vs-oshaquie-foster-2026-10-24"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/emanuel-navarrete-vs-oshaquie-foster-2026-10-24"
+      },
+      "watchKey": "fights:Boxing|Emanuel Navarrete|O'Shaquie Foster|2026-10-25"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Smith vs. Puello",
+      "eventTag": "Boxing · Utilita Arena Sheffield, Sheffield, United Kingdom",
+      "homeTeam": "Smith",
+      "awayTeam": "Puello",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": {
+        "src": "/logos/posters/f9cf7d499e10da139ccc.webp",
+        "attribution": "DAZN"
+      },
+      "kickoffUTC": "2026-10-24T18:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 24 Oct, 19:00",
+      "localDate": "2026-10-24",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "smith-vs-puello",
+        "name": "Smith vs. Puello",
+        "dateUTC": "2026-10-24T18:00:00.000Z",
+        "dateOnly": "2026-10-24",
+        "venue": "Utilita Arena Sheffield",
+        "city": "Sheffield, United Kingdom",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/daltonsmithalbertopuello-f6ryql.webp",
+        "posterAttribution": "DAZN",
+        "mainEventFighters": [
+          "Smith",
+          "Puello"
+        ],
+        "bouts": [
+          {
+            "a": "Dalton Smith",
+            "b": "Alberto Puello"
+          }
+        ],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/dalton-smith-vs-alberto-puello-2026-10-24"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/dalton-smith-vs-alberto-puello-2026-10-24"
+      },
+      "watchKey": "fights:Boxing|Smith|Puello|2026-10-24"
+    },
     {
       "org": "UFC",
       "eventName": "UFC 333: Volkanovski vs. Evloev",
@@ -6953,520 +7003,9 @@
         ]
       },
       "watchKey": "fights:MMA|Kenji Kato|Junya Hibino|2026-10-12"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Floyd Schofield-Lucas Bahdi",
-      "eventTag": "Boxing · Wintrust Arena, Chicago, Illinois",
-      "homeTeam": "Floyd Schofield",
-      "awayTeam": "Lucas Bahdi",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Ricardo Sandoval v Oscar Collazo",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/9d2c8761696bb386f9cb.jpg",
-        "attribution": "DAZN"
-      },
-      "kickoffUTC": "2026-10-11T00:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sun 11 Oct, 01:00",
-      "localDate": "2026-10-11",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "floyd-schofield-lucas-bahdi",
-        "name": "Floyd Schofield-Lucas Bahdi",
-        "dateUTC": "2026-10-11T00:00:00.000Z",
-        "dateOnly": "2026-10-10",
-        "venue": "Wintrust Arena",
-        "city": "Chicago, Illinois",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/floydschofieldlucasbahdi.jpg",
-        "posterAttribution": "DAZN",
-        "mainEventFighters": [
-          "Floyd Schofield",
-          "Lucas Bahdi"
-        ],
-        "bouts": [
-          {
-            "a": "Floyd Schofield",
-            "b": "Lucas Bahdi"
-          },
-          {
-            "a": "Ricardo Sandoval",
-            "b": "Oscar Collazo"
-          }
-        ],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/floyd-schofield-vs-lucas-bahdi-2026-10-10"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/floyd-schofield-vs-lucas-bahdi-2026-10-10"
-      },
-      "watchKey": "fights:Boxing|Floyd Schofield|Lucas Bahdi|2026-10-11"
-    },
-    {
-      "org": "MMA",
-      "eventName": "CFFC: Chosen Few Fighting Championships 29",
-      "eventTag": "CFFC · Monona Terrace, Madison, Wisconsin, United States",
-      "homeTeam": "Moziah Clark",
-      "awayTeam": "Alberto Velasquez",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Hazen Rice v Pernevlon Sheppard",
-          "weightClass": null
-        },
-        {
-          "title": "Kolbe Ayikoue v Beyamin Copeland",
-          "weightClass": null
-        },
-        {
-          "title": "Amir Ankori-Karlinksy v Jevon Edwards",
-          "weightClass": null
-        },
-        {
-          "title": "Kelsey Dominguez v Salvador Espinosa",
-          "weightClass": null
-        },
-        {
-          "title": "Robert Alulema v Emilio Mohanna",
-          "weightClass": null
-        },
-        {
-          "title": "Ben Acker v Conner Seavers",
-          "weightClass": null
-        },
-        {
-          "title": "Jaden Salsbury v Tillman Sabel",
-          "weightClass": null
-        },
-        {
-          "title": "Theodore Klaus v Nicholas Moore",
-          "weightClass": null
-        },
-        {
-          "title": "Brian Duff v Brandon Dietze",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-10T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-10",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-CFFC-Chosen-Few-Fighting-Championships-29-114459",
-        "name": "CFFC: Chosen Few Fighting Championships 29",
-        "dateUTC": null,
-        "dateOnly": "2026-10-10",
-        "venue": "Monona Terrace",
-        "city": "Madison, Wisconsin, United States",
-        "href": "/events/CFFC-Chosen-Few-Fighting-Championships-29-114459",
-        "mainEventFighters": [
-          "Moziah Clark",
-          "Alberto Velasquez"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Hazen Rice",
-            "b": "Pernevlon Sheppard"
-          },
-          {
-            "a": "Kolbe Ayikoue",
-            "b": "Beyamin Copeland"
-          },
-          {
-            "a": "Amir Ankori-Karlinksy",
-            "b": "Jevon Edwards"
-          },
-          {
-            "a": "Kelsey Dominguez",
-            "b": "Salvador Espinosa"
-          },
-          {
-            "a": "Robert Alulema",
-            "b": "Emilio Mohanna"
-          },
-          {
-            "a": "Ben Acker",
-            "b": "Conner Seavers"
-          },
-          {
-            "a": "Jaden Salsbury",
-            "b": "Tillman Sabel"
-          },
-          {
-            "a": "Theodore Klaus",
-            "b": "Nicholas Moore"
-          },
-          {
-            "a": "Brian Duff",
-            "b": "Brandon Dietze"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Moziah Clark|Alberto Velasquez|2026-10-10"
-    },
-    {
-      "org": "MMA",
-      "eventName": "KSW 122: Yakymenko vs. Morelli",
-      "eventTag": "KSW 122 · Podpromie Hall, Rzeszow, Poland",
-      "homeTeam": "Yakymenko",
-      "awayTeam": "Morelli",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Andrzej Grzebyk v Laid Zerhouni",
-          "weightClass": null
-        },
-        {
-          "title": "Adam Soldaev v Mateusz Makarowski",
-          "weightClass": null
-        },
-        {
-          "title": "Wilson Varela v Marian Ziolkowski",
-          "weightClass": null
-        },
-        {
-          "title": "Igor Wlodarczyk v Welisson Paiva",
-          "weightClass": null
-        },
-        {
-          "title": "Szymon Bajor v Kacper Paczoski",
-          "weightClass": null
-        },
-        {
-          "title": "Andrzej Karkula v Kamil Korzeniowski",
-          "weightClass": null
-        },
-        {
-          "title": "Kristians Boguzs v Kacper Cholewa",
-          "weightClass": null
-        },
-        {
-          "title": "Sergiusz Zajac v Salim El Ouassaidi",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-10T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-10",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-KSW-122-Yakymenko-vs-Morelli-113862",
-        "name": "KSW 122: Yakymenko vs. Morelli",
-        "dateUTC": null,
-        "dateOnly": "2026-10-10",
-        "venue": "Podpromie Hall",
-        "city": "Rzeszow, Poland",
-        "href": "/events/KSW-122-Yakymenko-vs-Morelli-113862",
-        "mainEventFighters": [
-          "Yakymenko",
-          "Morelli"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Andrzej Grzebyk",
-            "b": "Laid Zerhouni"
-          },
-          {
-            "a": "Adam Soldaev",
-            "b": "Mateusz Makarowski"
-          },
-          {
-            "a": "Wilson Varela",
-            "b": "Marian Ziolkowski"
-          },
-          {
-            "a": "Igor Wlodarczyk",
-            "b": "Welisson Paiva"
-          },
-          {
-            "a": "Szymon Bajor",
-            "b": "Kacper Paczoski"
-          },
-          {
-            "a": "Andrzej Karkula",
-            "b": "Kamil Korzeniowski"
-          },
-          {
-            "a": "Kristians Boguzs",
-            "b": "Kacper Cholewa"
-          },
-          {
-            "a": "Sergiusz Zajac",
-            "b": "Salim El Ouassaidi"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Yakymenko|Morelli|2026-10-10"
-    },
-    {
-      "org": "UFC",
-      "eventName": "UFC Fight Night: Allen vs. Duncan",
-      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 12-fight card · main card Sun 11 Oct, 01:00 UK",
-      "homeTeam": "Brendan Allen",
-      "awayTeam": "Christian Leroy Duncan",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/bra.png",
-      "awayLogo": "/logos/flags/eng.png",
-      "orgName": "UFC",
-      "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [
-        {
-          "title": "Melissa Gatto v Ernesta Kareckaite",
-          "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Daria Zhelezniakova v Alice Pereira",
-          "weightClass": "W Bantamweight"
-        },
-        {
-          "title": "Allen Frye Jr. v RJ Harris",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Brendson Ribeiro v Felipe Franco",
-          "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Niko Price v Leon Shahbazyan",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Ismael Bonfim v Francisco Prado",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Gerald Meerschaert v Julius Walker",
-          "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Otari Tanzilovi v Malcolm Wellmaker",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Andre Fili v Kai Kamaka III",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Ketlen Souza v Loopy Godínez",
-          "weightClass": "W Strawweight"
-        },
-        {
-          "title": "Jai Herbert v Matheus Camilo",
-          "weightClass": "Lightweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-10T21:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 10 Oct, 22:00",
-      "localDate": "2026-10-10",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        },
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports",
-              "url": "https://www.tntsports.co.uk/boxing/",
-              "logo": "/logos/channels/tntsports.co.uk.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "UFC",
-        "espnId": "600061541",
-        "name": "UFC Fight Night: Allen vs. Duncan",
-        "dateUTC": "2026-10-10T21:00Z",
-        "mainCardUTC": "2026-10-11T00:00Z",
-        "venue": "Meta APEX",
-        "city": "Las Vegas",
-        "country": "USA",
-        "mainEventFighters": [
-          "Brendan Allen",
-          "Christian Leroy Duncan"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
-        ],
-        "bouts": [
-          {
-            "a": "Melissa Gatto",
-            "b": "Ernesta Kareckaite",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Daria Zhelezniakova",
-            "b": "Alice Pereira",
-            "weightClass": "W Bantamweight"
-          },
-          {
-            "a": "Allen Frye Jr.",
-            "b": "RJ Harris",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Brendson Ribeiro",
-            "b": "Felipe Franco",
-            "weightClass": "Light Heavyweight"
-          },
-          {
-            "a": "Niko Price",
-            "b": "Leon Shahbazyan",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Ismael Bonfim",
-            "b": "Francisco Prado",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Gerald Meerschaert",
-            "b": "Julius Walker",
-            "weightClass": "Light Heavyweight"
-          },
-          {
-            "a": "Otari Tanzilovi",
-            "b": "Malcolm Wellmaker",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Andre Fili",
-            "b": "Kai Kamaka III",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Ketlen Souza",
-            "b": "Loopy Godínez",
-            "weightClass": "W Strawweight"
-          },
-          {
-            "a": "Jai Herbert",
-            "b": "Matheus Camilo",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Brendan Allen",
-            "b": "Christian Leroy Duncan",
-            "weightClass": "Middleweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 12,
-        "broadcasts": [
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:UFC|Brendan Allen|Christian Leroy Duncan|2026-10-10"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-24T18:00:00.000Z",
-      "endsAtUTC": "2026-10-24T22:00:00.000Z",
-      "timeUK": "Sat 24 Oct, 19:00",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "label": "Alexander Volkanovski v Movsar Evloev",
-      "sublabel": "UFC"
-    },
-    {
-      "airTimeUTC": "2026-10-25T01:00:00.000Z",
-      "endsAtUTC": "2026-10-25T02:00:00.000Z",
-      "timeUK": "Sun 25 Oct, 01:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Faulkner v Prasovic Prelims",
-      "sublabel": "BKFC Belgrade: Faulkner vs. Prasovic Pre"
-    },
-    {
-      "airTimeUTC": "2026-10-25T02:00:00.000Z",
-      "endsAtUTC": "2026-10-25T05:00:00.000Z",
-      "timeUK": "Sun 25 Oct, 02:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Faulkner v Prasovic",
-      "sublabel": "BKFC Belgrade: Faulkner vs. Prasovic"
-    },
-    {
-      "airTimeUTC": "2026-10-25T07:00:00.000Z",
-      "endsAtUTC": "2026-10-25T10:00:00.000Z",
-      "timeUK": "Sun 25 Oct, 07:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Herring v Dodson",
-      "sublabel": "BKFC 95, Newark: Herring vs. Dodson"
-    },
     {
       "airTimeUTC": "2026-10-25T19:00:00.000Z",
       "endsAtUTC": "2026-10-25T21:00:00.000Z",
@@ -7494,6 +7033,18 @@
         "/logos/orgs/ufc.png"
       ],
       "sublabel": "UFC · Sat 24 Oct, 15:00"
+    },
+    {
+      "airTimeUTC": "2026-10-27T04:00:00.000Z",
+      "endsAtUTC": "2026-10-27T07:00:00.000Z",
+      "timeUK": "Tue 27 Oct, 04:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Herring v Dodson",
+      "sublabel": "BKFC 95, Newark: Herring vs. Dodson"
     },
     {
       "airTimeUTC": "2026-10-29T19:00:00.000Z",
