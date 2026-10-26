@@ -1,268 +1,6 @@
 {
-  "generatedAt": "2026-10-25T15:08:07.025Z",
+  "generatedAt": "2026-10-26T17:43:42.370Z",
   "upcoming": [
-    {
-      "org": "MMA",
-      "eventName": "Shooto / Torao Nation State: Force 24",
-      "eventTag": "Shooto / Torao Nation State · Takamatsu Symbol Tower Exhibition Hall, Takamatsu, Kagawa, Japan",
-      "homeTeam": "Tomohiro Ogino",
-      "awayTeam": "Kohei Uoyama",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Satoshi Fujikawa v Yuichi Miyagi",
-          "weightClass": null
-        },
-        {
-          "title": "Toshiro Tarumi v Kousuke Naoshima",
-          "weightClass": null
-        },
-        {
-          "title": "Kuranosuke Ikeda v Yuhei Nagamitsu",
-          "weightClass": null
-        },
-        {
-          "title": "Riku Isoda v Sho Tanigawa",
-          "weightClass": null
-        },
-        {
-          "title": "Kenji Mabuchi v Takato Uemura",
-          "weightClass": null
-        },
-        {
-          "title": "Yuta Namihira v Shun Komiyama",
-          "weightClass": null
-        },
-        {
-          "title": "Mamiya Matsuura v Riki Kakemizu",
-          "weightClass": null
-        },
-        {
-          "title": "Yuta Oue v Ren Kitahara",
-          "weightClass": null
-        },
-        {
-          "title": "Takaomi Ueno v Ryota Nishimura",
-          "weightClass": null
-        },
-        {
-          "title": "Sora Muraizumi v Yuki Fukushima",
-          "weightClass": null
-        },
-        {
-          "title": "Aito Matsuda v Minato Dei",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-25T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-25",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Shooto-Torao-Nation-State-Force-24-114323",
-        "name": "Shooto / Torao Nation State: Force 24",
-        "dateUTC": null,
-        "dateOnly": "2026-10-25",
-        "venue": "Takamatsu Symbol Tower Exhibition Hall",
-        "city": "Takamatsu, Kagawa, Japan",
-        "href": "/events/Shooto-Torao-Nation-State-Force-24-114323",
-        "mainEventFighters": [
-          "Tomohiro Ogino",
-          "Kohei Uoyama"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Satoshi Fujikawa",
-            "b": "Yuichi Miyagi"
-          },
-          {
-            "a": "Toshiro Tarumi",
-            "b": "Kousuke Naoshima"
-          },
-          {
-            "a": "Kuranosuke Ikeda",
-            "b": "Yuhei Nagamitsu"
-          },
-          {
-            "a": "Riku Isoda",
-            "b": "Sho Tanigawa"
-          },
-          {
-            "a": "Kenji Mabuchi",
-            "b": "Takato Uemura"
-          },
-          {
-            "a": "Yuta Namihira",
-            "b": "Shun Komiyama"
-          },
-          {
-            "a": "Mamiya Matsuura",
-            "b": "Riki Kakemizu"
-          },
-          {
-            "a": "Yuta Oue",
-            "b": "Ren Kitahara"
-          },
-          {
-            "a": "Takaomi Ueno",
-            "b": "Ryota Nishimura"
-          },
-          {
-            "a": "Sora Muraizumi",
-            "b": "Yuki Fukushima"
-          },
-          {
-            "a": "Aito Matsuda",
-            "b": "Minato Dei"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Tomohiro Ogino|Kohei Uoyama|2026-10-25"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Fury FC: Amateur Series 62",
-      "eventTag": "Fury FC · Imagen Venues Escapade 2001, Houston, Texas, United States",
-      "homeTeam": "Jaden MacKinnon",
-      "awayTeam": "Lakota Lawrence",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Josh Escobedo v Cohen Bane",
-          "weightClass": null
-        },
-        {
-          "title": "Parker Goswick v Patrick Olinma",
-          "weightClass": null
-        },
-        {
-          "title": "Isaac Carranza v Damien Nunez",
-          "weightClass": null
-        },
-        {
-          "title": "Elijah Victorian v JaMarcus Duarte",
-          "weightClass": null
-        },
-        {
-          "title": "Nathan Song v Ronald Taylor",
-          "weightClass": null
-        },
-        {
-          "title": "Davor Gallegos v Xander Ramirez",
-          "weightClass": null
-        },
-        {
-          "title": "Mark Mufarreh v Nathan Harris",
-          "weightClass": null
-        },
-        {
-          "title": "Isaias Pereira v Jadon Williams",
-          "weightClass": null
-        },
-        {
-          "title": "Efrain Ochoa v Cody Anderson",
-          "weightClass": null
-        },
-        {
-          "title": "Niazi Hematali v Ryan Perez",
-          "weightClass": null
-        },
-        {
-          "title": "Keith Bazille v Jose Marcelo Acosta Ruiz",
-          "weightClass": null
-        },
-        {
-          "title": "Angel Delgado v Frank Castro",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-25T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-25",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Fury-FC-Amateur-Series-62-114470",
-        "name": "Fury FC: Amateur Series 62",
-        "dateUTC": null,
-        "dateOnly": "2026-10-25",
-        "venue": "Imagen Venues Escapade 2001",
-        "city": "Houston, Texas, United States",
-        "href": "/events/Fury-FC-Amateur-Series-62-114470",
-        "mainEventFighters": [
-          "Jaden MacKinnon",
-          "Lakota Lawrence"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Josh Escobedo",
-            "b": "Cohen Bane"
-          },
-          {
-            "a": "Parker Goswick",
-            "b": "Patrick Olinma"
-          },
-          {
-            "a": "Isaac Carranza",
-            "b": "Damien Nunez"
-          },
-          {
-            "a": "Elijah Victorian",
-            "b": "JaMarcus Duarte"
-          },
-          {
-            "a": "Nathan Song",
-            "b": "Ronald Taylor"
-          },
-          {
-            "a": "Davor Gallegos",
-            "b": "Xander Ramirez"
-          },
-          {
-            "a": "Mark Mufarreh",
-            "b": "Nathan Harris"
-          },
-          {
-            "a": "Isaias Pereira",
-            "b": "Jadon Williams"
-          },
-          {
-            "a": "Efrain Ochoa",
-            "b": "Cody Anderson"
-          },
-          {
-            "a": "Niazi Hematali",
-            "b": "Ryan Perez"
-          },
-          {
-            "a": "Keith Bazille",
-            "b": "Jose Marcelo Acosta Ruiz"
-          },
-          {
-            "a": "Angel Delgado",
-            "b": "Frank Castro"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Jaden MacKinnon|Lakota Lawrence|2026-10-25"
-    },
     {
       "org": "MMA",
       "eventName": "ACA 209: Frolov vs. Odilov",
@@ -276,11 +14,7 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Loik Radzhabov v Nikolay Aleksakhin",
-          "weightClass": null
-        },
-        {
-          "title": "Alexey Makhno v Kuat Khamitov",
+          "title": "Azam Gaforov v Felipe Bunes",
           "weightClass": null
         },
         {
@@ -288,11 +22,7 @@
           "weightClass": null
         },
         {
-          "title": "Emomakhdi Orzuzoda v Kholmurod Nurmatov",
-          "weightClass": null
-        },
-        {
-          "title": "Mustafa Ashurzoda v Akhmed Khamzaev",
+          "title": "Alexey Makhno v Kuat Khamitov",
           "weightClass": null
         },
         {
@@ -304,7 +34,7 @@
           "weightClass": null
         },
         {
-          "title": "Bakhtovar Yunusov v Saidyokub Kakhramonov",
+          "title": "Khafiz Sakibekov v Nikita Podkovalnikov",
           "weightClass": null
         },
         {
@@ -312,7 +42,39 @@
           "weightClass": null
         },
         {
+          "title": "Hamdy Abdelwahab v Klidson Abreu",
+          "weightClass": null
+        },
+        {
           "title": "Oyatullo Muminov v Bektur Zhenishbek Uulu",
+          "weightClass": null
+        },
+        {
+          "title": "Eldar Munapov v Hayk Kazaryan",
+          "weightClass": null
+        },
+        {
+          "title": "Bakhtovar Yunusov v Saidyokub Kakhramonov",
+          "weightClass": null
+        },
+        {
+          "title": "Mustafa Ashurzoda v Akhmed Khamzaev",
+          "weightClass": null
+        },
+        {
+          "title": "Sayed Safarmamadov v Ali Mashrapov",
+          "weightClass": null
+        },
+        {
+          "title": "Emomakhdi Orzuzoda v Kholmurod Nurmatov",
+          "weightClass": null
+        },
+        {
+          "title": "Shadid Abdurzakov v Nizambek Abdrashitov",
+          "weightClass": null
+        },
+        {
+          "title": "Mamurzhon Khamdamov v Ivan Soloviev",
           "weightClass": null
         }
       ],
@@ -339,24 +101,16 @@
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Loik Radzhabov",
-            "b": "Nikolay Aleksakhin"
-          },
-          {
-            "a": "Alexey Makhno",
-            "b": "Kuat Khamitov"
+            "a": "Azam Gaforov",
+            "b": "Felipe Bunes"
           },
           {
             "a": "Viskhan Kadirov",
             "b": "Bekhruz Zugurov"
           },
           {
-            "a": "Emomakhdi Orzuzoda",
-            "b": "Kholmurod Nurmatov"
-          },
-          {
-            "a": "Mustafa Ashurzoda",
-            "b": "Akhmed Khamzaev"
+            "a": "Alexey Makhno",
+            "b": "Kuat Khamitov"
           },
           {
             "a": "Firdavs Zaripov",
@@ -367,16 +121,48 @@
             "b": "Alikhan Musaev"
           },
           {
-            "a": "Bakhtovar Yunusov",
-            "b": "Saidyokub Kakhramonov"
+            "a": "Khafiz Sakibekov",
+            "b": "Nikita Podkovalnikov"
           },
           {
             "a": "Nashkho Galaev",
             "b": "Tural Ragimov"
           },
           {
+            "a": "Hamdy Abdelwahab",
+            "b": "Klidson Abreu"
+          },
+          {
             "a": "Oyatullo Muminov",
             "b": "Bektur Zhenishbek Uulu"
+          },
+          {
+            "a": "Eldar Munapov",
+            "b": "Hayk Kazaryan"
+          },
+          {
+            "a": "Bakhtovar Yunusov",
+            "b": "Saidyokub Kakhramonov"
+          },
+          {
+            "a": "Mustafa Ashurzoda",
+            "b": "Akhmed Khamzaev"
+          },
+          {
+            "a": "Sayed Safarmamadov",
+            "b": "Ali Mashrapov"
+          },
+          {
+            "a": "Emomakhdi Orzuzoda",
+            "b": "Kholmurod Nurmatov"
+          },
+          {
+            "a": "Shadid Abdurzakov",
+            "b": "Nizambek Abdrashitov"
+          },
+          {
+            "a": "Mamurzhon Khamdamov",
+            "b": "Ivan Soloviev"
           }
         ]
       },
@@ -403,6 +189,10 @@
           "weightClass": null
         },
         {
+          "title": "Sharaf Davlatmurodov v Wildemar Souza Santos",
+          "weightClass": null
+        },
+        {
           "title": "David Wright v Lance Wright",
           "weightClass": null
         },
@@ -415,15 +205,11 @@
           "weightClass": null
         },
         {
-          "title": "Julian Flenory v Ryan Firinaiu",
+          "title": "Imed Eddine Dziri v Jermaine Edwards",
           "weightClass": null
         },
         {
-          "title": "Travon Eller v Akeem Lewis",
-          "weightClass": null
-        },
-        {
-          "title": "Isaiah Veloso v Unknown Fighter",
+          "title": "Isaiah Veloso v Delsin Gray",
           "weightClass": null
         }
       ],
@@ -458,6 +244,10 @@
             "b": "Alberth Bahamondes"
           },
           {
+            "a": "Sharaf Davlatmurodov",
+            "b": "Wildemar Souza Santos"
+          },
+          {
             "a": "David Wright",
             "b": "Lance Wright"
           },
@@ -470,16 +260,12 @@
             "b": "Aline David"
           },
           {
-            "a": "Julian Flenory",
-            "b": "Ryan Firinaiu"
-          },
-          {
-            "a": "Travon Eller",
-            "b": "Akeem Lewis"
+            "a": "Imed Eddine Dziri",
+            "b": "Jermaine Edwards"
           },
           {
             "a": "Isaiah Veloso",
-            "b": "Unknown Fighter"
+            "b": "Delsin Gray"
           }
         ]
       },
@@ -648,10 +434,6 @@
           "weightClass": "W Flyweight"
         },
         {
-          "title": "Randy Brown v Jacobe Smith",
-          "weightClass": "Welterweight"
-        },
-        {
           "title": "Piera Rodriguez v Talita Alencar",
           "weightClass": "W Strawweight"
         },
@@ -686,6 +468,10 @@
         {
           "title": "Ode' Osbourne v Cody Durden",
           "weightClass": "Flyweight"
+        },
+        {
+          "title": "Randy Brown v Jacobe Smith",
+          "weightClass": "Welterweight"
         }
       ],
       "poster": null,
@@ -745,11 +531,6 @@
             "weightClass": "W Flyweight"
           },
           {
-            "a": "Randy Brown",
-            "b": "Jacobe Smith",
-            "weightClass": "Welterweight"
-          },
-          {
             "a": "Piera Rodriguez",
             "b": "Talita Alencar",
             "weightClass": "W Strawweight"
@@ -793,6 +574,11 @@
             "a": "Ode' Osbourne",
             "b": "Cody Durden",
             "weightClass": "Flyweight"
+          },
+          {
+            "a": "Randy Brown",
+            "b": "Jacobe Smith",
+            "weightClass": "Welterweight"
           },
           {
             "a": "Renato Moicano",
@@ -1926,6 +1712,10 @@
         {
           "title": "Ivan Podrugin v Gadzhi Omargadzhiev",
           "weightClass": null
+        },
+        {
+          "title": "Maksim Fuks v Edgar Sargsyan",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -1953,6 +1743,10 @@
           {
             "a": "Ivan Podrugin",
             "b": "Gadzhi Omargadzhiev"
+          },
+          {
+            "a": "Maksim Fuks",
+            "b": "Edgar Sargsyan"
           }
         ]
       },
@@ -2292,10 +2086,6 @@
           "weightClass": null
         },
         {
-          "title": "Hiroto Kishida v Davi Chueng",
-          "weightClass": null
-        },
-        {
           "title": "Ryo Matsui v Luiz Felipe Queiroz Herculano",
           "weightClass": null
         },
@@ -2353,10 +2143,6 @@
           {
             "a": "Genpei Hayashi",
             "b": "Sczar Charles"
-          },
-          {
-            "a": "Hiroto Kishida",
-            "b": "Davi Chueng"
           },
           {
             "a": "Ryo Matsui",
@@ -2515,10 +2301,6 @@
           "weightClass": null
         },
         {
-          "title": "Jan Holzer v Rastislav Zvara",
-          "weightClass": null
-        },
-        {
           "title": "Ozan Aslaner v Denis Frimpong",
           "weightClass": null
         },
@@ -2527,7 +2309,7 @@
           "weightClass": null
         },
         {
-          "title": "Jan Holzer v Unknown Fighter",
+          "title": "Jan Holzer v Jan Svagerko",
           "weightClass": null
         },
         {
@@ -2570,10 +2352,6 @@
             "b": "Zafar Mohsen"
           },
           {
-            "a": "Jan Holzer",
-            "b": "Rastislav Zvara"
-          },
-          {
             "a": "Ozan Aslaner",
             "b": "Denis Frimpong"
           },
@@ -2583,7 +2361,7 @@
           },
           {
             "a": "Jan Holzer",
-            "b": "Unknown Fighter"
+            "b": "Jan Svagerko"
           },
           {
             "a": "Daniel Makin",
@@ -2891,7 +2669,7 @@
     {
       "org": "PFL",
       "eventName": "PFL Dubai: Nemkov vs. Bilostenniy",
-      "eventTag": "PFL Dubai · Coca-Cola Arena, Dubai · 12-fight card · main card Sat 14 Nov, 18:00 UK",
+      "eventTag": "PFL Dubai · Coca-Cola Arena, Dubai · 14-fight card · main card Sat 14 Nov, 18:00 UK",
       "homeTeam": "Vadim Nemkov",
       "awayTeam": "Sergei Bilostenniy",
       "cardTitle": null,
@@ -2900,6 +2678,14 @@
       "orgName": "PFL",
       "orgLogo": "/logos/orgs/pfl.png",
       "undercard": [
+        {
+          "title": "Styve Ngono v Khabib Nabiev",
+          "weightClass": "Light Heavyweight"
+        },
+        {
+          "title": "Denis Goltsov v Maxwell Djantou Nana",
+          "weightClass": "Heavyweight"
+        },
         {
           "title": "Nawras Abzakh v Lewis McGrillen",
           "weightClass": "Bantamweight"
@@ -2992,6 +2778,16 @@
         ],
         "bouts": [
           {
+            "a": "Styve Ngono",
+            "b": "Khabib Nabiev",
+            "weightClass": "Light Heavyweight"
+          },
+          {
+            "a": "Denis Goltsov",
+            "b": "Maxwell Djantou Nana",
+            "weightClass": "Heavyweight"
+          },
+          {
             "a": "Nawras Abzakh",
             "b": "Lewis McGrillen",
             "weightClass": "Bantamweight"
@@ -3053,7 +2849,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/pfl.png",
-        "boutCount": 12,
+        "boutCount": 14,
         "broadcasts": [
           "ESPN+"
         ]
@@ -3063,7 +2859,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 334: Gane vs. Hokit",
-      "eventTag": "UFC 334 · Madison Square Garden, New York · 12-fight card · main card Sun 15 Nov, 02:00 UK",
+      "eventTag": "UFC 334 · Madison Square Garden, New York · 13-fight card · main card Sun 15 Nov, 02:00 UK",
       "homeTeam": "Josh Hokit",
       "awayTeam": "Ciryl Gane",
       "cardTitle": null,
@@ -3073,8 +2869,16 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
+          "title": "Jared Gordon v Melquizael Costa",
+          "weightClass": "Lightweight"
+        },
+        {
           "title": "Nazim Sadykhov v Jefferson Nascimento",
           "weightClass": "Lightweight"
+        },
+        {
+          "title": "Cesar Almeida v Donte Johnson",
+          "weightClass": "Middleweight"
         },
         {
           "title": "Adrian Yañez v Juan Diaz",
@@ -3083,10 +2887,6 @@
         {
           "title": "Macy Chiasson v Bia Mesquita",
           "weightClass": "W Bantamweight"
-        },
-        {
-          "title": "Baisangur Susurkaev v Donte Johnson",
-          "weightClass": "Middleweight"
         },
         {
           "title": "Jim Miller v Terrance McKinney",
@@ -3164,9 +2964,19 @@
         ],
         "bouts": [
           {
+            "a": "Jared Gordon",
+            "b": "Melquizael Costa",
+            "weightClass": "Lightweight"
+          },
+          {
             "a": "Nazim Sadykhov",
             "b": "Jefferson Nascimento",
             "weightClass": "Lightweight"
+          },
+          {
+            "a": "Cesar Almeida",
+            "b": "Donte Johnson",
+            "weightClass": "Middleweight"
           },
           {
             "a": "Adrian Yañez",
@@ -3177,11 +2987,6 @@
             "a": "Macy Chiasson",
             "b": "Bia Mesquita",
             "weightClass": "W Bantamweight"
-          },
-          {
-            "a": "Baisangur Susurkaev",
-            "b": "Donte Johnson",
-            "weightClass": "Middleweight"
           },
           {
             "a": "Jim Miller",
@@ -3225,7 +3030,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 12,
+        "boutCount": 13,
         "broadcasts": [
           "Paramount+"
         ]
@@ -3630,15 +3435,35 @@
           "weightClass": null
         },
         {
-          "title": "Lucas Ganin v Abbas Abasov",
-          "weightClass": null
-        },
-        {
           "title": "Delton Kaufmann v Abasi Young",
           "weightClass": null
         },
         {
+          "title": "Benjamin Orozco v Canon Swanson",
+          "weightClass": null
+        },
+        {
+          "title": "Lucas Ganin v Abbas Abasov",
+          "weightClass": null
+        },
+        {
+          "title": "Aiden Ingram v Ricardo Hussein",
+          "weightClass": null
+        },
+        {
           "title": "Paul Marghitas v Sergio Mamone Jr.",
+          "weightClass": null
+        },
+        {
+          "title": "Zoe Nowicki v Mia Grawe",
+          "weightClass": null
+        },
+        {
+          "title": "Erickson Quinzo v Adam Amado",
+          "weightClass": null
+        },
+        {
+          "title": "Sean Polk v Luke La Vanway",
           "weightClass": null
         }
       ],
@@ -3673,16 +3498,36 @@
             "b": "Ray Hayes"
           },
           {
-            "a": "Lucas Ganin",
-            "b": "Abbas Abasov"
-          },
-          {
             "a": "Delton Kaufmann",
             "b": "Abasi Young"
           },
           {
+            "a": "Benjamin Orozco",
+            "b": "Canon Swanson"
+          },
+          {
+            "a": "Lucas Ganin",
+            "b": "Abbas Abasov"
+          },
+          {
+            "a": "Aiden Ingram",
+            "b": "Ricardo Hussein"
+          },
+          {
             "a": "Paul Marghitas",
             "b": "Sergio Mamone Jr."
+          },
+          {
+            "a": "Zoe Nowicki",
+            "b": "Mia Grawe"
+          },
+          {
+            "a": "Erickson Quinzo",
+            "b": "Adam Amado"
+          },
+          {
+            "a": "Sean Polk",
+            "b": "Luke La Vanway"
           }
         ]
       },
@@ -3977,6 +3822,10 @@
         {
           "title": "Ondrej Raska v Dominic Schober",
           "weightClass": null
+        },
+        {
+          "title": "Michaela Hlavacikova v Marta Sos",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -4028,6 +3877,10 @@
           {
             "a": "Ondrej Raska",
             "b": "Dominic Schober"
+          },
+          {
+            "a": "Michaela Hlavacikova",
+            "b": "Marta Sos"
           }
         ]
       },
@@ -4063,6 +3916,10 @@
         },
         {
           "title": "Wojciech Kawa v Oleksandr Moisa",
+          "weightClass": null
+        },
+        {
+          "title": "Maciej Kazieczko v Bohdan Danylko",
           "weightClass": null
         }
       ],
@@ -4107,6 +3964,10 @@
           {
             "a": "Wojciech Kawa",
             "b": "Oleksandr Moisa"
+          },
+          {
+            "a": "Maciej Kazieczko",
+            "b": "Bohdan Danylko"
           }
         ]
       },
@@ -5075,7 +4936,7 @@
     {
       "org": "PFL",
       "eventName": "PFL Lyon: Lapilus vs. McKee",
-      "eventTag": "PFL Lyon · LDLC Arena, Lyon · 6-fight card · main card Sat 19 Dec, 20:00 UK",
+      "eventTag": "PFL Lyon · LDLC Arena, Lyon · 8-fight card · main card Sat 19 Dec, 20:00 UK",
       "homeTeam": "Taylor Lapilus",
       "awayTeam": "Mitch McKee",
       "cardTitle": null,
@@ -5085,12 +4946,20 @@
       "orgLogo": "/logos/orgs/pfl.png",
       "undercard": [
         {
-          "title": "Liam Gittins v Baris Adiguzel",
-          "weightClass": "Bantamweight"
+          "title": "Shelda Chipito v Mathilde Aschenbrenner",
+          "weightClass": "W Strawweight"
         },
         {
           "title": "Adam Meskini v Brandon Brachet",
           "weightClass": "Featherweight"
+        },
+        {
+          "title": "Coby Bradford v Bafode Gassama",
+          "weightClass": "Light Heavyweight"
+        },
+        {
+          "title": "Liam Gittins v Baris Adiguzel",
+          "weightClass": "Bantamweight"
         },
         {
           "title": "Fabian Edwards v Ilian Bouafia",
@@ -5152,14 +5021,24 @@
         ],
         "bouts": [
           {
-            "a": "Liam Gittins",
-            "b": "Baris Adiguzel",
-            "weightClass": "Bantamweight"
+            "a": "Shelda Chipito",
+            "b": "Mathilde Aschenbrenner",
+            "weightClass": "W Strawweight"
           },
           {
             "a": "Adam Meskini",
             "b": "Brandon Brachet",
             "weightClass": "Featherweight"
+          },
+          {
+            "a": "Coby Bradford",
+            "b": "Bafode Gassama",
+            "weightClass": "Light Heavyweight"
+          },
+          {
+            "a": "Liam Gittins",
+            "b": "Baris Adiguzel",
+            "weightClass": "Bantamweight"
           },
           {
             "a": "Fabian Edwards",
@@ -5183,7 +5062,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/pfl.png",
-        "boutCount": 6,
+        "boutCount": 8,
         "broadcasts": [
           "ESPN+"
         ]
@@ -5308,6 +5187,268 @@
     }
   ],
   "recent": [
+    {
+      "org": "MMA",
+      "eventName": "Fury FC: Amateur Series 62",
+      "eventTag": "Fury FC · Imagen Venues Escapade 2001, Houston, Texas, United States",
+      "homeTeam": "Jaden MacKinnon",
+      "awayTeam": "Lakota Lawrence",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Josh Escobedo v Cohen Bane",
+          "weightClass": null
+        },
+        {
+          "title": "Parker Goswick v Patrick Olinma",
+          "weightClass": null
+        },
+        {
+          "title": "Isaac Carranza v Damien Nunez",
+          "weightClass": null
+        },
+        {
+          "title": "Elijah Victorian v JaMarcus Duarte",
+          "weightClass": null
+        },
+        {
+          "title": "Nathan Song v Ronald Taylor",
+          "weightClass": null
+        },
+        {
+          "title": "Davor Gallegos v Xander Ramirez",
+          "weightClass": null
+        },
+        {
+          "title": "Mark Mufarreh v Nathan Harris",
+          "weightClass": null
+        },
+        {
+          "title": "Isaias Pereira v Jadon Williams",
+          "weightClass": null
+        },
+        {
+          "title": "Efrain Ochoa v Cody Anderson",
+          "weightClass": null
+        },
+        {
+          "title": "Niazi Hematali v Ryan Perez",
+          "weightClass": null
+        },
+        {
+          "title": "Keith Bazille v Jose Marcelo Acosta Ruiz",
+          "weightClass": null
+        },
+        {
+          "title": "Angel Delgado v Frank Castro",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-25T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-25",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Fury-FC-Amateur-Series-62-114470",
+        "name": "Fury FC: Amateur Series 62",
+        "dateUTC": null,
+        "dateOnly": "2026-10-25",
+        "venue": "Imagen Venues Escapade 2001",
+        "city": "Houston, Texas, United States",
+        "href": "/events/Fury-FC-Amateur-Series-62-114470",
+        "mainEventFighters": [
+          "Jaden MacKinnon",
+          "Lakota Lawrence"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Josh Escobedo",
+            "b": "Cohen Bane"
+          },
+          {
+            "a": "Parker Goswick",
+            "b": "Patrick Olinma"
+          },
+          {
+            "a": "Isaac Carranza",
+            "b": "Damien Nunez"
+          },
+          {
+            "a": "Elijah Victorian",
+            "b": "JaMarcus Duarte"
+          },
+          {
+            "a": "Nathan Song",
+            "b": "Ronald Taylor"
+          },
+          {
+            "a": "Davor Gallegos",
+            "b": "Xander Ramirez"
+          },
+          {
+            "a": "Mark Mufarreh",
+            "b": "Nathan Harris"
+          },
+          {
+            "a": "Isaias Pereira",
+            "b": "Jadon Williams"
+          },
+          {
+            "a": "Efrain Ochoa",
+            "b": "Cody Anderson"
+          },
+          {
+            "a": "Niazi Hematali",
+            "b": "Ryan Perez"
+          },
+          {
+            "a": "Keith Bazille",
+            "b": "Jose Marcelo Acosta Ruiz"
+          },
+          {
+            "a": "Angel Delgado",
+            "b": "Frank Castro"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Jaden MacKinnon|Lakota Lawrence|2026-10-25"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Shooto / Torao Nation State: Force 24",
+      "eventTag": "Shooto / Torao Nation State · Takamatsu Symbol Tower Exhibition Hall, Takamatsu, Kagawa, Japan",
+      "homeTeam": "Tomohiro Ogino",
+      "awayTeam": "Kohei Uoyama",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Satoshi Fujikawa v Yuichi Miyagi",
+          "weightClass": null
+        },
+        {
+          "title": "Toshiro Tarumi v Kousuke Naoshima",
+          "weightClass": null
+        },
+        {
+          "title": "Kuranosuke Ikeda v Yuhei Nagamitsu",
+          "weightClass": null
+        },
+        {
+          "title": "Sho Tanigawa v Riku Isoda",
+          "weightClass": null
+        },
+        {
+          "title": "Kenji Mabuchi v Takato Uemura",
+          "weightClass": null
+        },
+        {
+          "title": "Shun Komiyama v Yuta Namihira",
+          "weightClass": null
+        },
+        {
+          "title": "Mamiya Matsuura v Riki Kakemizu",
+          "weightClass": null
+        },
+        {
+          "title": "Ren Kitahara v Yuta Oue",
+          "weightClass": null
+        },
+        {
+          "title": "Takaomi Ueno v Ryota Nishimura",
+          "weightClass": null
+        },
+        {
+          "title": "Yuki Fukushima v Sora Muraizumi",
+          "weightClass": null
+        },
+        {
+          "title": "Minato Dei v Aito Matsuda",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-25T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-25",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Shooto-Torao-Nation-State-Force-24-114323",
+        "name": "Shooto / Torao Nation State: Force 24",
+        "dateUTC": null,
+        "dateOnly": "2026-10-25",
+        "venue": "Takamatsu Symbol Tower Exhibition Hall",
+        "city": "Takamatsu, Kagawa, Japan",
+        "href": "/events/Shooto-Torao-Nation-State-Force-24-114323",
+        "mainEventFighters": [
+          "Tomohiro Ogino",
+          "Kohei Uoyama"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Satoshi Fujikawa",
+            "b": "Yuichi Miyagi"
+          },
+          {
+            "a": "Toshiro Tarumi",
+            "b": "Kousuke Naoshima"
+          },
+          {
+            "a": "Kuranosuke Ikeda",
+            "b": "Yuhei Nagamitsu"
+          },
+          {
+            "a": "Sho Tanigawa",
+            "b": "Riku Isoda"
+          },
+          {
+            "a": "Kenji Mabuchi",
+            "b": "Takato Uemura"
+          },
+          {
+            "a": "Shun Komiyama",
+            "b": "Yuta Namihira"
+          },
+          {
+            "a": "Mamiya Matsuura",
+            "b": "Riki Kakemizu"
+          },
+          {
+            "a": "Ren Kitahara",
+            "b": "Yuta Oue"
+          },
+          {
+            "a": "Takaomi Ueno",
+            "b": "Ryota Nishimura"
+          },
+          {
+            "a": "Yuki Fukushima",
+            "b": "Sora Muraizumi"
+          },
+          {
+            "a": "Minato Dei",
+            "b": "Aito Matsuda"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Tomohiro Ogino|Kohei Uoyama|2026-10-25"
+    },
     {
       "org": "Boxing",
       "eventName": "Emanuel Navarrete-O'Shaquie Foster",
@@ -5641,20 +5782,7 @@
           "Paramount+"
         ]
       },
-      "watchKey": "fights:UFC|Alexander Volkanovski|Movsar Evloev|2026-10-24",
-      "replayGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports 2",
-              "logo": "/logos/channels/tntsports.co.uk.png",
-              "timeUK": "Sun 25 Oct, 22:00",
-              "airTimeUTC": "2026-10-25T22:00:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:UFC|Alexander Volkanovski|Movsar Evloev|2026-10-24"
     },
     {
       "org": "Boxing",
@@ -5927,16 +6055,7 @@
       "awayLogo": null,
       "orgName": "Boxing",
       "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Brandon Figueroa v Tomoki Kameda",
-          "weightClass": null
-        },
-        {
-          "title": "Jermall Charlo v Koen Mazoudier",
-          "weightClass": null
-        }
-      ],
+      "undercard": [],
       "poster": {
         "src": "/logos/posters/bca15b3fb11c0794af5c.webp",
         "attribution": "PBC"
@@ -5948,11 +6067,11 @@
       "channels": [],
       "broadcastGroups": [
         {
-          "label": "UK",
+          "label": "Listed by source",
           "channels": [
             {
               "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
+              "url": "https://www.dazn.com/",
               "logo": "/logos/channels/dazn.com.png"
             },
             {
@@ -5981,35 +6100,12 @@
           {
             "a": "Sebastian Fundora",
             "b": "Ermal Hadribeaj"
-          },
-          {
-            "a": "Brandon Figueroa",
-            "b": "Tomoki Kameda"
-          },
-          {
-            "a": "Jermall Charlo",
-            "b": "Koen Mazoudier"
           }
         ],
         "broadcasts": [
-          "TNT Sports",
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/sebastian-fundora-vs-ermal-hadribeaj-2026-10-17"
-          },
-          {
-            "market": "UK",
-            "name": "TNT Sports",
-            "url": "https://www.tntsports.co.uk/boxing/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/sebastian-fundora-vs-ermal-hadribeaj-2026-10-17"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/sebastian-fundora-vs-ermal-hadribeaj-2026-10-17"
+          "DAZN",
+          "TNT Sports"
+        ]
       },
       "watchKey": "fights:Boxing|Sebastian Fundora|Ermal Hadribeaj|2026-10-18"
     },
@@ -7007,34 +7103,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-10-25T19:00:00.000Z",
-      "endsAtUTC": "2026-10-25T21:00:00.000Z",
-      "timeUK": "Sun 25 Oct, 19:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Bellator 194: Patrick Pitbull v Dered Campos",
-      "sublabel": "Bellator MMA"
-    },
-    {
-      "airTimeUTC": "2026-10-25T22:00:00.000Z",
-      "endsAtUTC": "2026-10-26T02:00:00.000Z",
-      "timeUK": "Sun 25 Oct, 22:00",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "watchKey": "fights:UFC|Alexander Volkanovski|Movsar Evloev|2026-10-24",
-      "label": "UFC 333: Volkanovski vs. Evloev",
-      "logos": [
-        "/logos/orgs/ufc.png"
-      ],
-      "sublabel": "UFC · Sat 24 Oct, 15:00"
-    },
-    {
       "airTimeUTC": "2026-10-27T04:00:00.000Z",
       "endsAtUTC": "2026-10-27T07:00:00.000Z",
       "timeUK": "Tue 27 Oct, 04:00",
@@ -7056,6 +7124,18 @@
       },
       "market": "UK",
       "label": "Caroline Dubois v Terri Harper",
+      "sublabel": "Fight Night"
+    },
+    {
+      "airTimeUTC": "2026-10-31T22:00:00.000Z",
+      "endsAtUTC": "2026-11-01T02:00:00.000Z",
+      "timeUK": "Sat 31 Oct, 22:00",
+      "channel": {
+        "name": "Sky Sports Mix",
+        "logo": null
+      },
+      "market": "UK",
+      "label": "Alycia Baumgardner v Bo Mi Re Shin",
       "sublabel": "Fight Night"
     }
   ]

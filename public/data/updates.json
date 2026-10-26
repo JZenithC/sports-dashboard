@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-10-25T15:08:07.026Z",
+  "generatedAt": "2026-10-26T17:43:42.371Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-26T17:42:02.787Z",
+        "totalEvents": 32,
+        "added": [
+          "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 14:00",
+          "Boca Juniors vs River Plate (Liga Profesional de Fútbol) — Sun 01 Nov, 15:00",
+          "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 16:30",
+          "Belgrano (Córdoba) vs Barracas Central (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30",
+          "Newell's Old Boys vs Unión Santa Fe (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30",
+          "Santos Laguna vs Necaxa (Liga MX) — Sun 01 Nov, 17:00",
+          "Lanús vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 01 Nov, 20:45",
+          "Cruz Azul vs Club León (Liga MX) — Sun 01 Nov, 19:00"
+        ],
+        "removed": [
+          "Aldosivi vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 25 Oct, 14:45",
+          "Independiente vs Boca Juniors (Liga Profesional de Fútbol) — Sun 25 Oct, 17:00",
+          "River Plate vs Racing Club (Liga Profesional de Fútbol) — Sun 25 Oct, 19:15",
+          "Atlas vs Puebla (Liga MX) — Sun 25 Oct, 17:00",
+          "Barracas Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sun 25 Oct, 21:30",
+          "Central Córdoba (Santiago del Estero) vs Velez Sarsfield (Liga Profesional de Fútbol) — Sun 25 Oct, 21:30",
+          "Querétaro vs Cruz Azul (Liga MX) — Sun 25 Oct, 19:00",
+          "América vs Pachuca (Liga MX) — Sun 25 Oct, 19:05",
+          "Tijuana vs Santos Laguna (Liga MX) — Sun 25 Oct, 21:10"
+        ],
+        "channelsChanged": [
+          "Coritiba vs Grêmio (Campeonato Brasileiro Série A) — Mon 26 Oct, 19:30: [(CHARLA), PREMIERE 2, PREMIERE 3]",
+          "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 19:00: [Azteca 7, FOX One]",
+          "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00: [Azteca 7, Disney+ Premium, ESPN 2]",
+          "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 22:00: [Disney+ Premium, ESPN 2, ViX Premium]"
+        ],
+        "total": 32
+      },
       {
         "timestamp": "2026-10-25T15:06:46.157Z",
         "totalEvents": 33,
@@ -600,33 +632,16 @@
           "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
         ],
         "total": 45
-      },
-      {
-        "timestamp": "2026-10-06T17:27:39.919Z",
-        "totalEvents": 43,
-        "added": [
-          "Cruzeiro vs São Paulo (Campeonato Brasileiro Série A) — Wed 07 Oct, 21:30",
-          "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30",
-          "Chapecoense vs Athletico Paranaense (Campeonato Brasileiro Série A) — Mon 12 Oct, 19:30",
-          "Red Bull Bragantino vs Cruzeiro (Campeonato Brasileiro Série A) — Mon 12 Oct, 21:00"
-        ],
-        "removed": [
-          "Deportivo Riestra vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 05 Oct, 16:45",
-          "Estudiantes de La Plata vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00",
-          "Vélez Sarsfield vs Platense (Liga Profesional de Fútbol) — Mon 05 Oct, 19:00",
-          "Banfield vs Rosario Central (Liga Profesional de Fútbol) — Mon 05 Oct, 21:15"
-        ],
-        "channelsChanged": [
-          "Internacional vs Corinthians (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE 2, RECORD]",
-          "Red Bull Bragantino vs Mirassol (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [Fanatiz (Míralo en vivo), PREMIERE 5]",
-          "Remo vs Grêmio (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [Fanatiz (Míralo en vivo), PREMIERE 4]",
-          "Vitória vs Chapecoense (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE 3]",
-          "Botafogo vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 07 Oct, 20:30: [Fanatiz (Míralo en vivo), Flow Sports, PRIME VIDEO]"
-        ],
-        "total": 43
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-26T17:42:32.190Z",
+        "total": 5,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-25T15:07:19.571Z",
         "total": 5,
@@ -864,21 +879,19 @@
           "Milwaukee Brewers @ San Diego Padres (2026-10-06)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-06T17:28:15.713Z",
-        "total": 16,
-        "added": [
-          "AL Lower Seed @ AL Higher Seed (2026-10-13)"
-        ],
-        "removed": [
-          "Chicago White Sox @ Cleveland Guardians (2026-10-05)",
-          "New York Yankees @ Tampa Bay Rays (2026-10-05)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-26T17:43:42.371Z",
+        "total": 57,
+        "added": [],
+        "removed": [
+          "Shooto / Torao Nation State: Force 24 (2026-10-25)",
+          "Fury FC: Amateur Series 62 (2026-10-25)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-25T15:08:07.026Z",
         "total": 59,
@@ -1124,25 +1137,6 @@
         "added": [],
         "removed": [
           "Dana White's Contender Series: Season 10, Week 9 (2026-10-07)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-06T17:29:15.119Z",
-        "total": 56,
-        "added": [
-          "Dana White's Contender Series: Season 10, Week 9 (2026-10-07)",
-          "Dana White's Contender Series: Season 10, Week 10 (2026-10-14)",
-          "ACA 209: Frolov vs. Odilov (2026-10-30)",
-          "Shooto Brazil 141: TBA (2026-11-06)",
-          "LUX 064: Monterrey (2026-11-06)",
-          "One Friday Fights 177 (2026-11-06)",
-          "One on Prime Video 49 (2026-11-06)"
-        ],
-        "removed": [
-          "Dana White's Contender Series: Season 10, Week 9 (2026-10-07)",
-          "Dana White's Contender Series: Season 10, Week 10 (2026-10-14)",
-          "ACA 209: Frolov vs. Odilov (2026-10-31)"
         ],
         "channelsChanged": []
       }
