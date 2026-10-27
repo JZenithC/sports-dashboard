@@ -1,7 +1,38 @@
 {
-  "generatedAt": "2026-10-26T17:43:42.371Z",
+  "generatedAt": "2026-10-27T16:55:50.483Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-27T16:54:34.522Z",
+        "totalEvents": 37,
+        "added": [
+          "Red Bull Bragantino vs Chapecoense (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
+          "Fluminense vs Internacional (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
+          "Santos vs Palmeiras (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
+          "Bahia vs São Paulo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
+          "Atlético Mineiro vs Cruzeiro (Campeonato Brasileiro Série A) — Thu 29 Oct, 19:30",
+          "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
+          "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
+          "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15",
+          "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15"
+        ],
+        "removed": [
+          "Union Santa Fe vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Mon 26 Oct, 19:00",
+          "Coritiba vs Grêmio (Campeonato Brasileiro Série A) — Mon 26 Oct, 19:30",
+          "Flamengo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Mon 26 Oct, 20:00",
+          "Instituto (Córdoba) vs Deportivo Riestra (Liga Profesional de Fútbol) — Mon 26 Oct, 21:15"
+        ],
+        "channelsChanged": [
+          "Remo vs Botafogo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30: [GLOBO, Globo Internacional, PREMIERE 3]",
+          "Vasco da Gama vs Flamengo (Campeonato Brasileiro Série A) — Thu 29 Oct, 20:00: [Azteca Deportes App, Azteca Deportes Network, Fanatiz YouTube, Flow Sports 2]",
+          "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX One, FOX+]",
+          "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, ESPN 2]",
+          "Pachuca vs Tigres UANL (Liga MX) — Sat 31 Oct, 17:00: [FOX One, FOX+]",
+          "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 16:00: [DGO, Disney+ Premium, ESPN 2, Globo Internacional]",
+          "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 18:30: [DGO, Disney+ Premium, ESPN 4]"
+        ],
+        "total": 37
+      },
       {
         "timestamp": "2026-10-26T17:42:02.787Z",
         "totalEvents": 32,
@@ -591,50 +622,18 @@
           "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]"
         ],
         "total": 42
-      },
-      {
-        "timestamp": "2026-10-07T18:01:17.161Z",
-        "totalEvents": 45,
-        "added": [
-          "Athletico Paranaense vs Atlético Mineiro (Campeonato Brasileiro Série A) — Thu 08 Oct, 20:00",
-          "Boca Juniors vs Vasco da Gama (CONMEBOL Sudamericana) — Tue 13 Oct, 21:30"
-        ],
-        "removed": [],
-        "channelsChanged": [
-          "Internacional vs Corinthians (Campeonato Brasileiro Série A) — Wed 07 Oct, 19:30: [Azteca Deportes App, Azteca Deportes Network, CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE 2, RECORD]",
-          "Cruzeiro vs São Paulo (Campeonato Brasileiro Série A) — Wed 07 Oct, 21:30: [Azteca Deportes App, Azteca Deportes Network, PREMIERE FC, SPORTV]",
-          "Santos vs Flamengo (Campeonato Brasileiro Série A) — Thu 08 Oct, 19:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Fanatiz YouTube, PREMIERE FC, SPORTV]",
-          "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Fanatiz (Míralo en vivo), GLOBO, Globo Internacional, PREMIERE 5]",
-          "Palmeiras vs Bahia (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Flow Sports, GE TV, GLOBO, PREMIERE 2]",
-          "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Gimnasia y Esgrima La Plata vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 09 Oct, 18:00: [ESPN Premium]",
-          "Instituto (Córdoba) vs Boca Juniors (Liga Profesional de Fútbol) — Fri 09 Oct, 19:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Unión Santa Fe vs Defensa y Justicia (Liga Profesional de Fútbol) — Fri 09 Oct, 21:45: [ESPN Premium, TyC Sports Internacional]",
-          "Tigres UANL vs Toluca (Liga MX) — Fri 09 Oct, 21:00: [Azteca 7, FOX, FOX One]",
-          "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45: [ESPN, ESPN Premium]",
-          "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Querétaro vs Atlante (Liga MX) — Sat 10 Oct, 17:00: [FOX One, FOX+]",
-          "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00: [Azteca 7, FOX, FOX One]",
-          "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30: [ESPN Premium]",
-          "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00: [Canal 5, TUDN, ViX Premium]",
-          "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:00: [Canal 5, TUDN, ViX Premium]",
-          "San Lorenzo vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 11 Oct, 14:45: [ESPN Premium]",
-          "Rosario Central vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Platense vs Argentinos Juniors (Liga Profesional de Fútbol) — Sun 11 Oct, 17:00: [ESPN Premium]",
-          "Flamengo vs Fluminense (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Flamengo TV YouTube, Globo Internacional]",
-          "Palmeiras vs Corinthians (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Fanatiz (Míralo en vivo), Fanatiz YouTube]",
-          "Racing Club vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 11 Oct, 19:15: [ESPN Premium]",
-          "Pachuca vs Necaxa (Liga MX) — Sun 11 Oct, 17:15: [FOX, FOX One]",
-          "Talleres de Córdoba vs Independiente (Liga Profesional de Fútbol) — Sun 11 Oct, 21:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Pumas UNAM vs Cruz Azul (Liga MX) — Sun 11 Oct, 19:00: [Canal 5, TUDN, ViX Premium]",
-          "Lanús vs Vélez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00: [ESPN, ESPN Premium]",
-          "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
-        ],
-        "total": 45
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-27T16:55:06.424Z",
+        "total": 4,
+        "added": [],
+        "removed": [
+          "Milwaukee Brewers @ Tampa Bay Rays (2026-10-26)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-26T17:42:32.190Z",
         "total": 5,
@@ -867,21 +866,24 @@
           "NL Higher Seed @ NL Lower Seed (2026-10-14)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-07T18:01:55.322Z",
-        "total": 15,
-        "added": [
-          "NL Higher Seed @ NL Lower Seed (2026-10-14)"
-        ],
-        "removed": [
-          "Los Angeles Dodgers @ Atlanta Braves (2026-10-06)",
-          "Milwaukee Brewers @ San Diego Padres (2026-10-06)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-27T16:55:50.483Z",
+        "total": 57,
+        "added": [
+          "Oktagon 96: Gogoladze vs. Ayari (2026-10-31)",
+          "LUX 064: Monterrey (2026-11-06)",
+          "Shooto Brazil 141: Teixeira Vs. Carvalho (2026-11-08)"
+        ],
+        "removed": [
+          "Oktagon 96: Gogoladze vs. Klinkhammer (2026-10-31)",
+          "Shooto Brazil 141: Teixeira Vs. Carvalho (2026-11-06)",
+          "LUX 064: Monterrey (2026-11-06)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-26T17:43:42.371Z",
         "total": 57,
@@ -1129,15 +1131,6 @@
           "Bryan Flores-Jose Nunez (2026-11-14)"
         ],
         "removed": [],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-07T18:02:40.548Z",
-        "total": 55,
-        "added": [],
-        "removed": [
-          "Dana White's Contender Series: Season 10, Week 9 (2026-10-07)"
-        ],
         "channelsChanged": []
       }
     ]

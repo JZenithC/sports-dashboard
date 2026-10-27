@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T17:43:42.370Z",
+  "generatedAt": "2026-10-27T16:55:50.482Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -597,7 +597,7 @@
     {
       "org": "Boxing",
       "eventName": "Alvarez vs. Mbilli",
-      "eventTag": "Boxing · ANB Arena, Riyadh, Saudi Arabia",
+      "eventTag": "Boxing · Kingdom Arena, Riyadh, Saudi Arabia",
       "homeTeam": "Alvarez",
       "awayTeam": "Mbilli",
       "cardTitle": null,
@@ -607,7 +607,19 @@
       "orgLogo": null,
       "undercard": [
         {
+          "title": "Jaime Munguia v Nikita Zon",
+          "weightClass": null
+        },
+        {
+          "title": "Rafael Espinoza v Ricardo Blandon",
+          "weightClass": null
+        },
+        {
           "title": "Lindolfo Delgado v Arthur Biyarslanov",
+          "weightClass": null
+        },
+        {
+          "title": "Alan David Picasso v Carl Jammes Martin",
           "weightClass": null
         }
       ],
@@ -648,7 +660,7 @@
         "name": "Alvarez vs. Mbilli",
         "dateUTC": null,
         "dateOnly": "2026-10-31",
-        "venue": "ANB Arena",
+        "venue": "Kingdom Arena",
         "city": "Riyadh, Saudi Arabia",
         "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/caneloalvarezChristianMbilliartwork.webp",
         "posterAttribution": "DAZN",
@@ -662,8 +674,20 @@
             "b": "Christian Mbilli"
           },
           {
+            "a": "Jaime Munguia",
+            "b": "Nikita Zon"
+          },
+          {
+            "a": "Rafael Espinoza",
+            "b": "Ricardo Blandon"
+          },
+          {
             "a": "Lindolfo Delgado",
             "b": "Arthur Biyarslanov"
+          },
+          {
+            "a": "Alan David Picasso",
+            "b": "Carl Jammes Martin"
           }
         ],
         "broadcasts": [
@@ -707,7 +731,7 @@
           "weightClass": null
         },
         {
-          "title": "Bilal Bakhouche-Chareuf v Lionel Kamooze",
+          "title": "Bilal Bakhouche-Chareuf v Daniel Rodrigues",
           "weightClass": null
         },
         {
@@ -767,7 +791,7 @@
           },
           {
             "a": "Bilal Bakhouche-Chareuf",
-            "b": "Lionel Kamooze"
+            "b": "Daniel Rodrigues"
           },
           {
             "a": "Benoit Prigent",
@@ -795,10 +819,10 @@
     },
     {
       "org": "MMA",
-      "eventName": "Oktagon 96: Gogoladze vs. Klinkhammer",
+      "eventName": "Oktagon 96: Gogoladze vs. Ayari",
       "eventTag": "Oktagon 96 · SAP Garden, Munich, Germany",
       "homeTeam": "Gogoladze",
-      "awayTeam": "Klinkhammer",
+      "awayTeam": "Ayari",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -806,7 +830,7 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Gokhan Aksu v Niko Samsonidse",
+          "title": "Gokhan Aksu v Unknown Fighter",
           "weightClass": null
         },
         {
@@ -815,10 +839,6 @@
         },
         {
           "title": "Lazar Todev v Simon Biyong",
-          "weightClass": null
-        },
-        {
-          "title": "Ion Surdu v Jessin Ayari",
           "weightClass": null
         },
         {
@@ -842,10 +862,6 @@
           "weightClass": null
         },
         {
-          "title": "Shawn Marcos da Silva v Fayaz Haqparast",
-          "weightClass": null
-        },
-        {
           "title": "Marat Nessar v Abdul Malik Aliev",
           "weightClass": null
         }
@@ -859,22 +875,22 @@
       "broadcastGroups": null,
       "source": {
         "org": "MMA",
-        "slug": "sherdog-Oktagon-MMA-Oktagon-96-Gogoladze-vs-Klinkhammer-114020",
-        "name": "Oktagon 96: Gogoladze vs. Klinkhammer",
+        "slug": "sherdog-Oktagon-MMA-Oktagon-96-Gogoladze-vs-Ayari-114020",
+        "name": "Oktagon 96: Gogoladze vs. Ayari",
         "dateUTC": null,
         "dateOnly": "2026-10-31",
         "venue": "SAP Garden",
         "city": "Munich, Germany",
-        "href": "/events/Oktagon-MMA-Oktagon-96-Gogoladze-vs-Klinkhammer-114020",
+        "href": "/events/Oktagon-MMA-Oktagon-96-Gogoladze-vs-Ayari-114020",
         "mainEventFighters": [
           "Gogoladze",
-          "Klinkhammer"
+          "Ayari"
         ],
         "broadcasts": [],
         "bouts": [
           {
             "a": "Gokhan Aksu",
-            "b": "Niko Samsonidse"
+            "b": "Unknown Fighter"
           },
           {
             "a": "Ronald Paradeiser",
@@ -883,10 +899,6 @@
           {
             "a": "Lazar Todev",
             "b": "Simon Biyong"
-          },
-          {
-            "a": "Ion Surdu",
-            "b": "Jessin Ayari"
           },
           {
             "a": "Michael Deiga Scheck",
@@ -909,60 +921,19 @@
             "b": "Burak Kizilirmak"
           },
           {
-            "a": "Shawn Marcos da Silva",
-            "b": "Fayaz Haqparast"
-          },
-          {
             "a": "Marat Nessar",
             "b": "Abdul Malik Aliev"
           }
         ]
       },
-      "watchKey": "fights:MMA|Gogoladze|Klinkhammer|2026-10-31"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Shooto Brazil 141: Teixeira Vs. Carvalho",
-      "eventTag": "Shooto Brazil 141 · Upper Arena, Rio de Janeiro, Rio de Janeiro, Brazil",
-      "homeTeam": "Teixeira",
-      "awayTeam": "Carvalho",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-06T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-06",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Shooto-Brazil-141-Teixeira-Vs-Carvalho-111968",
-        "name": "Shooto Brazil 141: Teixeira Vs. Carvalho",
-        "dateUTC": null,
-        "dateOnly": "2026-11-06",
-        "venue": "Upper Arena",
-        "city": "Rio de Janeiro, Rio de Janeiro, Brazil",
-        "href": "/events/Shooto-Brazil-141-Teixeira-Vs-Carvalho-111968",
-        "mainEventFighters": [
-          "Teixeira",
-          "Carvalho"
-        ],
-        "broadcasts": [],
-        "bouts": []
-      },
-      "watchKey": "fights:MMA|Teixeira|Carvalho|2026-11-06"
+      "watchKey": "fights:MMA|Gogoladze|Ayari|2026-10-31"
     },
     {
       "org": "MMA",
       "eventName": "LUX 064: Monterrey",
       "eventTag": "LUX 064 · Showcenter Complex, Monterrey, Nuevo Leon, Mexico",
-      "homeTeam": "Irvin Amaya",
-      "awayTeam": "Alejandro Corrales",
+      "homeTeam": "Alejandro Corrales",
+      "awayTeam": "Beto Barra",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -1027,8 +998,8 @@
         "city": "Monterrey, Nuevo Leon, Mexico",
         "href": "/events/LUX-064-Monterrey-114284",
         "mainEventFighters": [
-          "Irvin Amaya",
-          "Alejandro Corrales"
+          "Alejandro Corrales",
+          "Beto Barra"
         ],
         "broadcasts": [],
         "bouts": [
@@ -1074,7 +1045,7 @@
           }
         ]
       },
-      "watchKey": "fights:MMA|Irvin Amaya|Alejandro Corrales|2026-11-06"
+      "watchKey": "fights:MMA|Alejandro Corrales|Beto Barra|2026-11-06"
     },
     {
       "org": "MMA",
@@ -1751,6 +1722,117 @@
         ]
       },
       "watchKey": "fights:MMA|Temirkhan Temirkhanov|Raimundo Batista|2026-11-07"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Shooto Brazil 141: Teixeira Vs. Carvalho",
+      "eventTag": "Shooto Brazil 141 · Upper Arena, Rio de Janeiro, Rio de Janeiro, Brazil",
+      "homeTeam": "Teixeira",
+      "awayTeam": "Carvalho",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Victor Gabriel v Joshuah Magalhaes",
+          "weightClass": null
+        },
+        {
+          "title": "Israel Gaspar Figueira v Gustavo Henrique",
+          "weightClass": null
+        },
+        {
+          "title": "Gabriel Roque v Wilian Poles",
+          "weightClass": null
+        },
+        {
+          "title": "Hamyrez Oliveira v Klinger Pinheiro Ferreira",
+          "weightClass": null
+        },
+        {
+          "title": "Luis Fernando Moraes v Railson Paixao",
+          "weightClass": null
+        },
+        {
+          "title": "Jean Felipe v Marcelo Augusto",
+          "weightClass": null
+        },
+        {
+          "title": "Luis Fernando Neves v Davison Valente",
+          "weightClass": null
+        },
+        {
+          "title": "Guilherme Lima v Kassio  Daniel Nascimento Barboza",
+          "weightClass": null
+        },
+        {
+          "title": "Bruno  Crispino v Jomy Salvador Nganga",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-08T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-08",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Shooto-Brazil-141-Teixeira-Vs-Carvalho-111968",
+        "name": "Shooto Brazil 141: Teixeira Vs. Carvalho",
+        "dateUTC": null,
+        "dateOnly": "2026-11-08",
+        "venue": "Upper Arena",
+        "city": "Rio de Janeiro, Rio de Janeiro, Brazil",
+        "href": "/events/Shooto-Brazil-141-Teixeira-Vs-Carvalho-111968",
+        "mainEventFighters": [
+          "Teixeira",
+          "Carvalho"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Victor Gabriel",
+            "b": "Joshuah Magalhaes"
+          },
+          {
+            "a": "Israel Gaspar Figueira",
+            "b": "Gustavo Henrique"
+          },
+          {
+            "a": "Gabriel Roque",
+            "b": "Wilian Poles"
+          },
+          {
+            "a": "Hamyrez Oliveira",
+            "b": "Klinger Pinheiro Ferreira"
+          },
+          {
+            "a": "Luis Fernando Moraes",
+            "b": "Railson Paixao"
+          },
+          {
+            "a": "Jean Felipe",
+            "b": "Marcelo Augusto"
+          },
+          {
+            "a": "Luis Fernando Neves",
+            "b": "Davison Valente"
+          },
+          {
+            "a": "Guilherme Lima",
+            "b": "Kassio  Daniel Nascimento Barboza"
+          },
+          {
+            "a": "Bruno  Crispino",
+            "b": "Jomy Salvador Nganga"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Teixeira|Carvalho|2026-11-08"
     },
     {
       "org": "MMA",
@@ -3309,7 +3391,7 @@
           "weightClass": null
         },
         {
-          "title": "Nimo Djagbo v Unknown Fighter",
+          "title": "Nimo Djagbo v Nikodem Blazejewski",
           "weightClass": null
         },
         {
@@ -3349,7 +3431,7 @@
           },
           {
             "a": "Nimo Djagbo",
-            "b": "Unknown Fighter"
+            "b": "Nikodem Blazejewski"
           },
           {
             "a": "Marvin Caperan",
@@ -3826,6 +3908,10 @@
         {
           "title": "Michaela Hlavacikova v Marta Sos",
           "weightClass": null
+        },
+        {
+          "title": "Dawid Smielowski v Arbi Mezhidov",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -3881,6 +3967,10 @@
           {
             "a": "Michaela Hlavacikova",
             "b": "Marta Sos"
+          },
+          {
+            "a": "Dawid Smielowski",
+            "b": "Arbi Mezhidov"
           }
         ]
       },
@@ -6916,203 +7006,20 @@
         ]
       },
       "watchKey": "fights:UFC|Ilias Bulaid|Erick Visconde|2026-10-14"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Deep: Hamamatsu Impact 2026 2nd Round",
-      "eventTag": "Deep · Act City Hamamatsu, Hamamatsu, Shizuoka, Japan",
-      "homeTeam": "Kenji Kato",
-      "awayTeam": "Junya Hibino",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Nobuyoshi Nakatsukasa v Kakuto Ito",
-          "weightClass": null
-        },
-        {
-          "title": "Koki Mishima v Takuma Uchiyama",
-          "weightClass": null
-        },
-        {
-          "title": "Takuma Iwase v Yuichi Nakamura",
-          "weightClass": null
-        },
-        {
-          "title": "Yuta Kawashima v Kentaro Hachisu",
-          "weightClass": null
-        },
-        {
-          "title": "Ruka Tokito v Akiyoshi Shimomura",
-          "weightClass": null
-        },
-        {
-          "title": "Ruku Nakamura v Kazuki Ichikawa",
-          "weightClass": null
-        },
-        {
-          "title": "Takuya Kuramoto v Kinji Orben",
-          "weightClass": null
-        },
-        {
-          "title": "Riku Furuichi v Takeshi Aota",
-          "weightClass": null
-        },
-        {
-          "title": "Seiyu Sato v Yu Maeda",
-          "weightClass": null
-        },
-        {
-          "title": "Rikuya Nosaka v Yuto Hirose",
-          "weightClass": null
-        },
-        {
-          "title": "Seiya Tachi v Kaoru Tsubaki",
-          "weightClass": null
-        },
-        {
-          "title": "Shion Kato v Shoki Matsuo",
-          "weightClass": null
-        },
-        {
-          "title": "Souta Kikuchi v Masaki Kitami",
-          "weightClass": null
-        },
-        {
-          "title": "Ryoma Adegawa v Ryua Hayakawa",
-          "weightClass": null
-        },
-        {
-          "title": "Fumito Takahashi v Lucas Nagai",
-          "weightClass": null
-        },
-        {
-          "title": "Yuki Yasuda v Kotarou Ozeki",
-          "weightClass": null
-        },
-        {
-          "title": "Mao Takada v Shouto Kurota",
-          "weightClass": null
-        },
-        {
-          "title": "Taiga Soda v Toma Toma",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-12T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-12",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Deep-Hamamatsu-Impact-2026-2nd-Round-113939",
-        "name": "Deep: Hamamatsu Impact 2026 2nd Round",
-        "dateUTC": null,
-        "dateOnly": "2026-10-12",
-        "venue": "Act City Hamamatsu",
-        "city": "Hamamatsu, Shizuoka, Japan",
-        "href": "/events/Deep-Hamamatsu-Impact-2026-2nd-Round-113939",
-        "mainEventFighters": [
-          "Kenji Kato",
-          "Junya Hibino"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Nobuyoshi Nakatsukasa",
-            "b": "Kakuto Ito"
-          },
-          {
-            "a": "Koki Mishima",
-            "b": "Takuma Uchiyama"
-          },
-          {
-            "a": "Takuma Iwase",
-            "b": "Yuichi Nakamura"
-          },
-          {
-            "a": "Yuta Kawashima",
-            "b": "Kentaro Hachisu"
-          },
-          {
-            "a": "Ruka Tokito",
-            "b": "Akiyoshi Shimomura"
-          },
-          {
-            "a": "Ruku Nakamura",
-            "b": "Kazuki Ichikawa"
-          },
-          {
-            "a": "Takuya Kuramoto",
-            "b": "Kinji Orben"
-          },
-          {
-            "a": "Riku Furuichi",
-            "b": "Takeshi Aota"
-          },
-          {
-            "a": "Seiyu Sato",
-            "b": "Yu Maeda"
-          },
-          {
-            "a": "Rikuya Nosaka",
-            "b": "Yuto Hirose"
-          },
-          {
-            "a": "Seiya Tachi",
-            "b": "Kaoru Tsubaki"
-          },
-          {
-            "a": "Shion Kato",
-            "b": "Shoki Matsuo"
-          },
-          {
-            "a": "Souta Kikuchi",
-            "b": "Masaki Kitami"
-          },
-          {
-            "a": "Ryoma Adegawa",
-            "b": "Ryua Hayakawa"
-          },
-          {
-            "a": "Fumito Takahashi",
-            "b": "Lucas Nagai"
-          },
-          {
-            "a": "Yuki Yasuda",
-            "b": "Kotarou Ozeki"
-          },
-          {
-            "a": "Mao Takada",
-            "b": "Shouto Kurota"
-          },
-          {
-            "a": "Taiga Soda",
-            "b": "Toma Toma"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Kenji Kato|Junya Hibino|2026-10-12"
     }
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-10-27T04:00:00.000Z",
-      "endsAtUTC": "2026-10-27T07:00:00.000Z",
-      "timeUK": "Tue 27 Oct, 04:00",
+      "airTimeUTC": "2026-10-28T21:00:00.000Z",
+      "endsAtUTC": "2026-10-28T22:00:00.000Z",
+      "timeUK": "Wed 28 Oct, 21:00",
       "channel": {
         "name": "Fight Network",
         "logo": "/logos/channels/fightnetwork.com.jpg"
       },
       "market": "Canada",
-      "label": "Herring v Dodson",
-      "sublabel": "BKFC 95, Newark: Herring vs. Dodson"
+      "label": "Showtime v War Horse",
+      "sublabel": "PFL Vault"
     },
     {
       "airTimeUTC": "2026-10-29T19:00:00.000Z",
