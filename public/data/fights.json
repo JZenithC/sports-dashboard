@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T16:55:50.482Z",
+  "generatedAt": "2026-10-28T17:28:11.515Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -54,6 +54,10 @@
           "weightClass": null
         },
         {
+          "title": "Emomakhdi Orzuzoda v Kholmurod Nurmatov",
+          "weightClass": null
+        },
+        {
           "title": "Bakhtovar Yunusov v Saidyokub Kakhramonov",
           "weightClass": null
         },
@@ -63,10 +67,6 @@
         },
         {
           "title": "Sayed Safarmamadov v Ali Mashrapov",
-          "weightClass": null
-        },
-        {
-          "title": "Emomakhdi Orzuzoda v Kholmurod Nurmatov",
           "weightClass": null
         },
         {
@@ -141,6 +141,10 @@
             "b": "Hayk Kazaryan"
           },
           {
+            "a": "Emomakhdi Orzuzoda",
+            "b": "Kholmurod Nurmatov"
+          },
+          {
             "a": "Bakhtovar Yunusov",
             "b": "Saidyokub Kakhramonov"
           },
@@ -151,10 +155,6 @@
           {
             "a": "Sayed Safarmamadov",
             "b": "Ali Mashrapov"
-          },
-          {
-            "a": "Emomakhdi Orzuzoda",
-            "b": "Kholmurod Nurmatov"
           },
           {
             "a": "Shadid Abdurzakov",
@@ -193,11 +193,11 @@
           "weightClass": null
         },
         {
-          "title": "David Wright v Lance Wright",
+          "title": "Matthew Adams v Shealor Ladd",
           "weightClass": null
         },
         {
-          "title": "Matthew Adams v Shealor Ladd",
+          "title": "David Wright v Lance Wright",
           "weightClass": null
         },
         {
@@ -248,12 +248,12 @@
             "b": "Wildemar Souza Santos"
           },
           {
-            "a": "David Wright",
-            "b": "Lance Wright"
-          },
-          {
             "a": "Matthew Adams",
             "b": "Shealor Ladd"
+          },
+          {
+            "a": "David Wright",
+            "b": "Lance Wright"
           },
           {
             "a": "Naomie Young",
@@ -416,7 +416,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Moicano vs. Nolan",
-      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 13-fight card · main card Sun 01 Nov, 00:00 UK",
+      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 12-fight card · main card Sun 01 Nov, 00:00 UK",
       "homeTeam": "Renato Moicano",
       "awayTeam": "Tom Nolan",
       "cardTitle": null,
@@ -425,10 +425,6 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
-        {
-          "title": "Mickey Gall v Zach Reese",
-          "weightClass": "Middleweight"
-        },
         {
           "title": "Tainara Lisboa v Lucia Szabová",
           "weightClass": "W Flyweight"
@@ -442,16 +438,16 @@
           "weightClass": "Middleweight"
         },
         {
+          "title": "Mickey Gall v Zach Reese",
+          "weightClass": "Middleweight"
+        },
+        {
           "title": "Julian Erosa v JeongYeong Lee",
           "weightClass": "Featherweight"
         },
         {
           "title": "Theodor Berggren v Rodrigo Sezinando",
           "weightClass": "Welterweight"
-        },
-        {
-          "title": "Andre Petroski v Azamat Bekoev",
-          "weightClass": "Middleweight"
         },
         {
           "title": "Dakota Hope v Francis Marshall",
@@ -521,11 +517,6 @@
         ],
         "bouts": [
           {
-            "a": "Mickey Gall",
-            "b": "Zach Reese",
-            "weightClass": "Middleweight"
-          },
-          {
             "a": "Tainara Lisboa",
             "b": "Lucia Szabová",
             "weightClass": "W Flyweight"
@@ -541,6 +532,11 @@
             "weightClass": "Middleweight"
           },
           {
+            "a": "Mickey Gall",
+            "b": "Zach Reese",
+            "weightClass": "Middleweight"
+          },
+          {
             "a": "Julian Erosa",
             "b": "JeongYeong Lee",
             "weightClass": "Featherweight"
@@ -549,11 +545,6 @@
             "a": "Theodor Berggren",
             "b": "Rodrigo Sezinando",
             "weightClass": "Welterweight"
-          },
-          {
-            "a": "Andre Petroski",
-            "b": "Azamat Bekoev",
-            "weightClass": "Middleweight"
           },
           {
             "a": "Dakota Hope",
@@ -587,7 +578,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 13,
+        "boutCount": 12,
         "broadcasts": [
           "Paramount+"
         ]
@@ -830,7 +821,7 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Gokhan Aksu v Unknown Fighter",
+          "title": "Gokhan Aksu v Rene Runge",
           "weightClass": null
         },
         {
@@ -851,6 +842,10 @@
         },
         {
           "title": "Endrit Brajshori v Christian Mach",
+          "weightClass": null
+        },
+        {
+          "title": "Hafeni Nafuka v Ivan Klevets",
           "weightClass": null
         },
         {
@@ -890,7 +885,7 @@
         "bouts": [
           {
             "a": "Gokhan Aksu",
-            "b": "Unknown Fighter"
+            "b": "Rene Runge"
           },
           {
             "a": "Ronald Paradeiser",
@@ -911,6 +906,10 @@
           {
             "a": "Endrit Brajshori",
             "b": "Christian Mach"
+          },
+          {
+            "a": "Hafeni Nafuka",
+            "b": "Ivan Klevets"
           },
           {
             "a": "Henrique Madureira",
@@ -1490,7 +1489,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Bonfim vs. Brady",
-      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 13-fight card · main card Sun 08 Nov, 01:00 UK",
+      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 14-fight card · main card Sun 08 Nov, 01:00 UK",
       "homeTeam": "Sean Brady",
       "awayTeam": "Gabriel Bonfim",
       "cardTitle": null,
@@ -1520,6 +1519,10 @@
           "weightClass": "Featherweight"
         },
         {
+          "title": "Mitch Raposo v Marcos Degli",
+          "weightClass": "Flyweight"
+        },
+        {
           "title": "Karine Silva v Gabriella Fernandes",
           "weightClass": "W Flyweight"
         },
@@ -1528,8 +1531,8 @@
           "weightClass": "Heavyweight"
         },
         {
-          "title": "Wes Schultz v Mantas Kondratavičius",
-          "weightClass": "Middleweight"
+          "title": "Andre Petroski v Mantas Kondratavičius",
+          "weightClass": null
         },
         {
           "title": "Billy Elekana v Lucas Fernando",
@@ -1620,6 +1623,11 @@
             "weightClass": "Featherweight"
           },
           {
+            "a": "Mitch Raposo",
+            "b": "Marcos Degli",
+            "weightClass": "Flyweight"
+          },
+          {
             "a": "Karine Silva",
             "b": "Gabriella Fernandes",
             "weightClass": "W Flyweight"
@@ -1630,9 +1638,9 @@
             "weightClass": "Heavyweight"
           },
           {
-            "a": "Wes Schultz",
+            "a": "Andre Petroski",
             "b": "Mantas Kondratavičius",
-            "weightClass": "Middleweight"
+            "weightClass": null
           },
           {
             "a": "Billy Elekana",
@@ -1661,7 +1669,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 13,
+        "boutCount": 14,
         "broadcasts": [
           "Paramount+"
         ]
@@ -1686,6 +1694,10 @@
         },
         {
           "title": "Maksim Fuks v Edgar Sargsyan",
+          "weightClass": null
+        },
+        {
+          "title": "Damir Tolenov v Valmir Galiev",
           "weightClass": null
         }
       ],
@@ -1718,6 +1730,10 @@
           {
             "a": "Maksim Fuks",
             "b": "Edgar Sargsyan"
+          },
+          {
+            "a": "Damir Tolenov",
+            "b": "Valmir Galiev"
           }
         ]
       },
@@ -2751,7 +2767,7 @@
     {
       "org": "PFL",
       "eventName": "PFL Dubai: Nemkov vs. Bilostenniy",
-      "eventTag": "PFL Dubai · Coca-Cola Arena, Dubai · 14-fight card · main card Sat 14 Nov, 18:00 UK",
+      "eventTag": "PFL Dubai · Coca-Cola Arena, Dubai · 15-fight card · main card Sat 14 Nov, 18:00 UK",
       "homeTeam": "Vadim Nemkov",
       "awayTeam": "Sergei Bilostenniy",
       "cardTitle": null,
@@ -2760,6 +2776,10 @@
       "orgName": "PFL",
       "orgLogo": "/logos/orgs/pfl.png",
       "undercard": [
+        {
+          "title": "Jacinta Austin v Aleksandra Savicheva",
+          "weightClass": "W Strawweight"
+        },
         {
           "title": "Styve Ngono v Khabib Nabiev",
           "weightClass": "Light Heavyweight"
@@ -2860,6 +2880,11 @@
         ],
         "bouts": [
           {
+            "a": "Jacinta Austin",
+            "b": "Aleksandra Savicheva",
+            "weightClass": "W Strawweight"
+          },
+          {
             "a": "Styve Ngono",
             "b": "Khabib Nabiev",
             "weightClass": "Light Heavyweight"
@@ -2931,7 +2956,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/pfl.png",
-        "boutCount": 14,
+        "boutCount": 15,
         "broadcasts": [
           "ESPN+"
         ]
@@ -2941,7 +2966,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 334: Gane vs. Hokit",
-      "eventTag": "UFC 334 · Madison Square Garden, New York · 13-fight card · main card Sun 15 Nov, 02:00 UK",
+      "eventTag": "UFC 334 · Madison Square Garden, New York · 14-fight card · main card Sun 15 Nov, 02:00 UK",
       "homeTeam": "Josh Hokit",
       "awayTeam": "Ciryl Gane",
       "cardTitle": null,
@@ -2951,6 +2976,10 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
+          "title": "Evan Elder v Samuel Sanches",
+          "weightClass": "Lightweight"
+        },
+        {
           "title": "Jared Gordon v Melquizael Costa",
           "weightClass": "Lightweight"
         },
@@ -2959,16 +2988,16 @@
           "weightClass": "Lightweight"
         },
         {
-          "title": "Cesar Almeida v Donte Johnson",
-          "weightClass": "Middleweight"
-        },
-        {
           "title": "Adrian Yañez v Juan Diaz",
           "weightClass": "Bantamweight"
         },
         {
           "title": "Macy Chiasson v Bia Mesquita",
           "weightClass": "W Bantamweight"
+        },
+        {
+          "title": "Cesar Almeida v Donte Johnson",
+          "weightClass": "Middleweight"
         },
         {
           "title": "Jim Miller v Terrance McKinney",
@@ -3046,6 +3075,11 @@
         ],
         "bouts": [
           {
+            "a": "Evan Elder",
+            "b": "Samuel Sanches",
+            "weightClass": "Lightweight"
+          },
+          {
             "a": "Jared Gordon",
             "b": "Melquizael Costa",
             "weightClass": "Lightweight"
@@ -3056,11 +3090,6 @@
             "weightClass": "Lightweight"
           },
           {
-            "a": "Cesar Almeida",
-            "b": "Donte Johnson",
-            "weightClass": "Middleweight"
-          },
-          {
             "a": "Adrian Yañez",
             "b": "Juan Diaz",
             "weightClass": "Bantamweight"
@@ -3069,6 +3098,11 @@
             "a": "Macy Chiasson",
             "b": "Bia Mesquita",
             "weightClass": "W Bantamweight"
+          },
+          {
+            "a": "Cesar Almeida",
+            "b": "Donte Johnson",
+            "weightClass": "Middleweight"
           },
           {
             "a": "Jim Miller",
@@ -3112,7 +3146,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 13,
+        "boutCount": 14,
         "broadcasts": [
           "Paramount+"
         ]
@@ -3395,7 +3429,7 @@
           "weightClass": null
         },
         {
-          "title": "Marvin Caperan v Unknown Fighter",
+          "title": "Marvin Caperan v Bruno Pudins",
           "weightClass": null
         }
       ],
@@ -3435,7 +3469,7 @@
           },
           {
             "a": "Marvin Caperan",
-            "b": "Unknown Fighter"
+            "b": "Bruno Pudins"
           }
         ]
       },
@@ -3517,7 +3551,7 @@
           "weightClass": null
         },
         {
-          "title": "Delton Kaufmann v Abasi Young",
+          "title": "Lucas Ganin v Abbas Abasov",
           "weightClass": null
         },
         {
@@ -3525,19 +3559,19 @@
           "weightClass": null
         },
         {
-          "title": "Lucas Ganin v Abbas Abasov",
-          "weightClass": null
-        },
-        {
           "title": "Aiden Ingram v Ricardo Hussein",
           "weightClass": null
         },
         {
-          "title": "Paul Marghitas v Sergio Mamone Jr.",
+          "title": "Zoe Nowicki v Mia Grawe",
           "weightClass": null
         },
         {
-          "title": "Zoe Nowicki v Mia Grawe",
+          "title": "Delton Kaufmann v Abasi Young",
+          "weightClass": null
+        },
+        {
+          "title": "Paul Marghitas v Sergio Mamone Jr.",
           "weightClass": null
         },
         {
@@ -3546,6 +3580,10 @@
         },
         {
           "title": "Sean Polk v Luke La Vanway",
+          "weightClass": null
+        },
+        {
+          "title": "Talal Yousufzai v Josh Reynolds",
           "weightClass": null
         }
       ],
@@ -3580,28 +3618,28 @@
             "b": "Ray Hayes"
           },
           {
-            "a": "Delton Kaufmann",
-            "b": "Abasi Young"
+            "a": "Lucas Ganin",
+            "b": "Abbas Abasov"
           },
           {
             "a": "Benjamin Orozco",
             "b": "Canon Swanson"
           },
           {
-            "a": "Lucas Ganin",
-            "b": "Abbas Abasov"
-          },
-          {
             "a": "Aiden Ingram",
             "b": "Ricardo Hussein"
           },
           {
-            "a": "Paul Marghitas",
-            "b": "Sergio Mamone Jr."
-          },
-          {
             "a": "Zoe Nowicki",
             "b": "Mia Grawe"
+          },
+          {
+            "a": "Delton Kaufmann",
+            "b": "Abasi Young"
+          },
+          {
+            "a": "Paul Marghitas",
+            "b": "Sergio Mamone Jr."
           },
           {
             "a": "Erickson Quinzo",
@@ -3610,6 +3648,10 @@
           {
             "a": "Sean Polk",
             "b": "Luke La Vanway"
+          },
+          {
+            "a": "Talal Yousufzai",
+            "b": "Josh Reynolds"
           }
         ]
       },
@@ -4001,7 +4043,7 @@
           "weightClass": null
         },
         {
-          "title": "Artur Szczepaniak v Steven Krt",
+          "title": "Artur Szczepaniak v Michal Hir",
           "weightClass": null
         },
         {
@@ -4049,7 +4091,7 @@
           },
           {
             "a": "Artur Szczepaniak",
-            "b": "Steven Krt"
+            "b": "Michal Hir"
           },
           {
             "a": "Wojciech Kawa",
@@ -5274,6 +5316,83 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/ryan-garner-vs-james-dickens-2027-01-09"
       },
       "watchKey": "fights:Boxing|Ryan Garner|James Dickens|2027-01-09"
+    },
+    {
+      "org": "UFC",
+      "eventName": "UFC Fight Night: Dallas",
+      "eventTag": "UFC Fight Night · American Airlines Center, Dallas · 2-fight card · main card Sun 17 Jan, 01:00 UK",
+      "homeTeam": "TBA",
+      "awayTeam": "Opponent TBA",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "UFC",
+      "orgLogo": "/logos/orgs/ufc.png",
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2027-01-16T22:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 16 Jan, 22:00",
+      "localDate": "2027-01-16",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "US",
+          "channels": [
+            {
+              "name": "Paramount+",
+              "url": "https://www.paramountplus.com/",
+              "logo": "/logos/channels/paramountplus.com.png"
+            }
+          ]
+        },
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "TNT Sports",
+              "url": "https://www.tntsports.co.uk/boxing/",
+              "logo": "/logos/channels/tntsports.co.uk.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "UFC",
+        "espnId": "600062421",
+        "name": "UFC Fight Night: Dallas",
+        "dateUTC": "2027-01-16T22:00Z",
+        "mainCardUTC": "2027-01-17T01:00Z",
+        "venue": "American Airlines Center",
+        "city": "Dallas",
+        "country": "USA",
+        "mainEventFighters": [
+          "TBA",
+          "Opponent TBA"
+        ],
+        "mainEventFlagUrls": [
+          null,
+          null
+        ],
+        "bouts": [
+          {
+            "a": "TBA",
+            "b": "Opponent TBA",
+            "weightClass": null
+          },
+          {
+            "a": "TBA",
+            "b": "Opponent TBA",
+            "weightClass": null
+          }
+        ],
+        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
+        "boutCount": 2,
+        "broadcasts": [
+          "Paramount+"
+        ]
+      },
+      "watchKey": "fights:UFC|TBA|Opponent TBA|2027-01-16"
     }
   ],
   "recent": [
@@ -5294,15 +5413,7 @@
           "weightClass": null
         },
         {
-          "title": "Parker Goswick v Patrick Olinma",
-          "weightClass": null
-        },
-        {
-          "title": "Isaac Carranza v Damien Nunez",
-          "weightClass": null
-        },
-        {
-          "title": "Elijah Victorian v JaMarcus Duarte",
+          "title": "JaMarcus Duarte v Elijah Victorian",
           "weightClass": null
         },
         {
@@ -5310,23 +5421,19 @@
           "weightClass": null
         },
         {
-          "title": "Davor Gallegos v Xander Ramirez",
+          "title": "Xander Ramirez v Davor Gallegos",
           "weightClass": null
         },
         {
-          "title": "Mark Mufarreh v Nathan Harris",
+          "title": "Nathan Harris v Mark Mufarreh",
           "weightClass": null
         },
         {
-          "title": "Isaias Pereira v Jadon Williams",
+          "title": "Jadon Williams v Isaias Pereira",
           "weightClass": null
         },
         {
-          "title": "Efrain Ochoa v Cody Anderson",
-          "weightClass": null
-        },
-        {
-          "title": "Niazi Hematali v Ryan Perez",
+          "title": "Cody Anderson v Efrain Ochoa",
           "weightClass": null
         },
         {
@@ -5365,40 +5472,28 @@
             "b": "Cohen Bane"
           },
           {
-            "a": "Parker Goswick",
-            "b": "Patrick Olinma"
-          },
-          {
-            "a": "Isaac Carranza",
-            "b": "Damien Nunez"
-          },
-          {
-            "a": "Elijah Victorian",
-            "b": "JaMarcus Duarte"
+            "a": "JaMarcus Duarte",
+            "b": "Elijah Victorian"
           },
           {
             "a": "Nathan Song",
             "b": "Ronald Taylor"
           },
           {
-            "a": "Davor Gallegos",
-            "b": "Xander Ramirez"
+            "a": "Xander Ramirez",
+            "b": "Davor Gallegos"
           },
           {
-            "a": "Mark Mufarreh",
-            "b": "Nathan Harris"
+            "a": "Nathan Harris",
+            "b": "Mark Mufarreh"
           },
           {
-            "a": "Isaias Pereira",
-            "b": "Jadon Williams"
+            "a": "Jadon Williams",
+            "b": "Isaias Pereira"
           },
           {
-            "a": "Efrain Ochoa",
-            "b": "Cody Anderson"
-          },
-          {
-            "a": "Niazi Hematali",
-            "b": "Ryan Perez"
+            "a": "Cody Anderson",
+            "b": "Efrain Ochoa"
           },
           {
             "a": "Keith Bazille",
@@ -6907,105 +7002,6 @@
         ]
       },
       "watchKey": "fights:PFL|Liz Carmouche|Jena Bishop|2026-10-16"
-    },
-    {
-      "org": "UFC",
-      "eventName": "Dana White's Contender Series: Season 10, Week 10",
-      "eventTag": "Dana White's Contender Series · Meta APEX, Las Vegas · 5-fight card",
-      "homeTeam": "Ilias Bulaid",
-      "awayTeam": "Erick Visconde",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/mar.png",
-      "awayLogo": "/logos/flags/bra.png",
-      "orgName": "UFC",
-      "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [
-        {
-          "title": "Jason Asher v Greg Foster",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Davi Cabral v Douglas da Lapa",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Will Rentz v Luis Francischinelli",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Aline Pereira v Smilla Sundell",
-          "weightClass": "W Bantamweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-13T23:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Wed 14 Oct, 00:00",
-      "localDate": "2026-10-14",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "UFC",
-        "espnId": "600060741",
-        "name": "Dana White's Contender Series: Season 10, Week 10",
-        "dateUTC": "2026-10-13T23:00Z",
-        "mainCardUTC": null,
-        "venue": "Meta APEX",
-        "city": "Las Vegas",
-        "country": "USA",
-        "mainEventFighters": [
-          "Ilias Bulaid",
-          "Erick Visconde"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
-        ],
-        "bouts": [
-          {
-            "a": "Jason Asher",
-            "b": "Greg Foster",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Davi Cabral",
-            "b": "Douglas da Lapa",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Will Rentz",
-            "b": "Luis Francischinelli",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Aline Pereira",
-            "b": "Smilla Sundell",
-            "weightClass": "W Bantamweight"
-          },
-          {
-            "a": "Ilias Bulaid",
-            "b": "Erick Visconde",
-            "weightClass": "Featherweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 5,
-        "broadcasts": [
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:UFC|Ilias Bulaid|Erick Visconde|2026-10-14"
     }
   ],
   "replaySchedule": [
@@ -7013,6 +7009,18 @@
       "airTimeUTC": "2026-10-28T21:00:00.000Z",
       "endsAtUTC": "2026-10-28T22:00:00.000Z",
       "timeUK": "Wed 28 Oct, 21:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Showtime v War Horse",
+      "sublabel": "PFL Vault"
+    },
+    {
+      "airTimeUTC": "2026-10-29T18:00:00.000Z",
+      "endsAtUTC": "2026-10-29T19:00:00.000Z",
+      "timeUK": "Thu 29 Oct, 18:00",
       "channel": {
         "name": "Fight Network",
         "logo": "/logos/channels/fightnetwork.com.jpg"
@@ -7034,6 +7042,42 @@
       "sublabel": "Fight Night"
     },
     {
+      "airTimeUTC": "2026-10-29T22:00:00.000Z",
+      "endsAtUTC": "2026-10-30T00:30:00.000Z",
+      "timeUK": "Thu 29 Oct, 22:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Bellator 192: Goiti Yamauchi v Michael Chandler",
+      "sublabel": "Bellator MMA"
+    },
+    {
+      "airTimeUTC": "2026-10-30T02:00:00.000Z",
+      "endsAtUTC": "2026-10-30T03:00:00.000Z",
+      "timeUK": "Fri 30 Oct, 02:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Faulkner v Prasovic Prelims",
+      "sublabel": "BKFC Belgrade: Faulkner vs. Prasovic Pre"
+    },
+    {
+      "airTimeUTC": "2026-10-30T03:00:00.000Z",
+      "endsAtUTC": "2026-10-30T06:00:00.000Z",
+      "timeUK": "Fri 30 Oct, 03:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Faulkner v Prasovic",
+      "sublabel": "BKFC Belgrade: Faulkner vs. Prasovic"
+    },
+    {
       "airTimeUTC": "2026-10-31T22:00:00.000Z",
       "endsAtUTC": "2026-11-01T02:00:00.000Z",
       "timeUK": "Sat 31 Oct, 22:00",
@@ -7044,6 +7088,42 @@
       "market": "UK",
       "label": "Alycia Baumgardner v Bo Mi Re Shin",
       "sublabel": "Fight Night"
+    },
+    {
+      "airTimeUTC": "2026-11-03T03:30:00.000Z",
+      "endsAtUTC": "2026-11-03T07:30:00.000Z",
+      "timeUK": "Tue 03 Nov, 03:30",
+      "channel": {
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Robbie Lawler v Carlos Condit",
+      "sublabel": "UFC Fight Flashback"
+    },
+    {
+      "airTimeUTC": "2026-11-03T04:00:00.000Z",
+      "endsAtUTC": "2026-11-03T08:00:00.000Z",
+      "timeUK": "Tue 03 Nov, 04:00",
+      "channel": {
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Max Holloway v Jose Aldo",
+      "sublabel": "UFC Fight Flashback"
+    },
+    {
+      "airTimeUTC": "2026-11-03T04:30:00.000Z",
+      "endsAtUTC": "2026-11-03T08:30:00.000Z",
+      "timeUK": "Tue 03 Nov, 04:30",
+      "channel": {
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Cody Garbrandt v T.J. Dillashaw",
+      "sublabel": "UFC Fight Flashback"
     }
   ]
 }

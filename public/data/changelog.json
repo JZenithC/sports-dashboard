@@ -1,5 +1,39 @@
 [
   {
+    "timestamp": "2026-10-28T17:26:54.413Z",
+    "totalEvents": 43,
+    "added": [
+      "Coritiba vs Vitória (Campeonato Brasileiro Série A) — Thu 29 Oct, 19:30",
+      "Grêmio vs Athletico Paranaense (Campeonato Brasileiro Série A) — Thu 29 Oct, 21:30",
+      "Corinthians vs Mirassol (Campeonato Brasileiro Série A) — Fri 30 Oct, 20:00",
+      "Coritiba vs Vitória (Campeonato Brasileiro Série A) — Sat 31 Oct, 16:00",
+      "Red Bull Bragantino vs Santos (Campeonato Brasileiro Série A) — Mon 02 Nov, 20:00",
+      "Chapecoense vs Mirassol (Campeonato Brasileiro Série A) — Tue 03 Nov, 19:30",
+      "Internacional vs Coritiba (Campeonato Brasileiro Série A) — Tue 03 Nov, 21:30"
+    ],
+    "removed": [
+      "Argentinos Juniors vs Independiente Rivadavia (Liga Profesional de Fútbol) — Tue 27 Oct, 19:00"
+    ],
+    "channelsChanged": [
+      "Red Bull Bragantino vs Chapecoense (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30: [Fanatiz (Míralo en vivo), PREMIERE 4]",
+      "Fluminense vs Internacional (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30: [Azteca Deportes App, Azteca Deportes Network, CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE 2, RECORD]",
+      "Santos vs Palmeiras (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30: [Fanatiz (Míralo en vivo), PREMIERE FC, SPORTV]",
+      "Remo vs Botafogo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30: [Fanatiz (Míralo en vivo), GLOBO, Globo Internacional, PREMIERE 3]",
+      "Bahia vs São Paulo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), GE TV, GLOBO, PREMIERE 5, SPORTV]",
+      "Atlético Mineiro vs Cruzeiro (Campeonato Brasileiro Série A) — Thu 29 Oct, 19:30: [(CHARLA), Fanatiz (Míralo en vivo), Flow Sports, PREMIERE 2, PREMIERE FC]",
+      "Vasco da Gama vs Flamengo (Campeonato Brasileiro Série A) — Thu 29 Oct, 20:00: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Fanatiz YouTube, Flow Sports 2, PRIME VIDEO]",
+      "Racing Club vs Aldosivi (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15: [ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Sat 31 Oct, 14:45: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Monterrey vs Tijuana (Liga MX) — Sat 31 Oct, 19:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+      "América vs Toluca (Liga MX) — Sat 31 Oct, 21:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+      "Boca Juniors vs River Plate (Liga Profesional de Fútbol) — Sun 01 Nov, 15:00: [Disney+ Premium, ESPN 3, ESPN Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Newell's Old Boys vs Unión Santa Fe (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30: [ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Cruz Azul vs Club León (Liga MX) — Sun 01 Nov, 19:00: [Canal 5, TUDN, ViX Premium]",
+      "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00: [ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15: [ESPN Premium, Fanatiz (Míralo en vivo)]"
+    ]
+  },
+  {
     "timestamp": "2026-10-27T16:54:34.522Z",
     "totalEvents": 37,
     "added": [
@@ -127,26 +161,6 @@
       "Independiente vs Boca Juniors (Liga Profesional de Fútbol) — Sun 25 Oct, 17:00: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
       "River Plate vs Racing Club (Liga Profesional de Fútbol) — Sun 25 Oct, 19:15: [DISNEY+, Disney+ Premium, ESPN, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
       "Central Córdoba (Santiago del Estero) vs Velez Sarsfield (Liga Profesional de Fútbol) — Sun 25 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-23T16:11:31.783Z",
-    "totalEvents": 36,
-    "added": [
-      "Mirassol vs São Paulo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
-      "Vasco da Gama vs Corinthians (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30",
-      "Chapecoense vs Fluminense (Campeonato Brasileiro Série A) — Sat 24 Oct, 19:30",
-      "Vasco da Gama vs Flamengo (Campeonato Brasileiro Série A) — Thu 29 Oct, 17:00"
-    ],
-    "removed": [
-      "Flamengo vs Estudiantes de La Plata (CONMEBOL Libertadores) — Thu 22 Oct, 21:30"
-    ],
-    "channelsChanged": [
-      "Vitória vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [Azteca Deportes App, Azteca Deportes Network, GE TV, GLOBO, PREMIERE 4]",
-      "Internacional vs Botafogo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30: [GLOBO, Globo Internacional, PREMIERE 3]",
-      "Palmeiras vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz YouTube, PREMIERE FC]",
-      "San Lorenzo vs Newells Old Boys (Liga Profesional de Fútbol) — Sat 24 Oct, 19:15: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Santos vs Bahia (Campeonato Brasileiro Série A) — Sat 24 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, PREMIERE 5, SPORTV]"
     ]
   }
 ]
