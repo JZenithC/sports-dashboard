@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-10-28T17:28:11.516Z",
+  "generatedAt": "2026-10-29T17:36:58.936Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-29T17:35:36.016Z",
+        "totalEvents": 40,
+        "added": [
+          "Flamengo vs Grêmio (Campeonato Brasileiro Série A) — Wed 04 Nov, 19:30",
+          "Athletico Paranaense vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 04 Nov, 19:30",
+          "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30",
+          "São Paulo vs Corinthians (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30"
+        ],
+        "removed": [
+          "Red Bull Bragantino vs Chapecoense (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
+          "Fluminense vs Internacional (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
+          "Santos vs Palmeiras (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
+          "Atlético Tucumán vs Platense (Copa Argentina) — Wed 28 Oct, 21:15",
+          "Remo vs Botafogo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
+          "Bahia vs São Paulo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
+          "América vs Tijuana (Liga MX) — Wed 28 Oct, 21:00"
+        ],
+        "channelsChanged": [
+          "Huracán vs Tigre (Liga Profesional de Fútbol) — Fri 30 Oct, 19:00: [ESPN, ESPN Premium, TyC Sports Internacional]",
+          "Corinthians vs Mirassol (Campeonato Brasileiro Série A) — Fri 30 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE FC, SPORTV]",
+          "Racing Club vs Aldosivi (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15: [DISNEY+, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Sarmiento de Junín vs Rosario Central (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
+        ],
+        "total": 40
+      },
       {
         "timestamp": "2026-10-28T17:26:54.413Z",
         "totalEvents": 43,
@@ -594,35 +621,20 @@
           "Red Bull Bragantino vs Cruzeiro (Campeonato Brasileiro Série A) — Mon 12 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]"
         ],
         "total": 39
-      },
-      {
-        "timestamp": "2026-10-09T17:36:29.261Z",
-        "totalEvents": 39,
-        "added": [
-          "Huracán vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Thu 15 Oct, 20:00",
-          "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Thu 15 Oct, 21:30"
-        ],
-        "removed": [
-          "Santos vs Flamengo (Campeonato Brasileiro Série A) — Thu 08 Oct, 19:30",
-          "Athletico Paranaense vs Atlético Mineiro (Campeonato Brasileiro Série A) — Thu 08 Oct, 20:00",
-          "Fluminense vs Coritiba (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30",
-          "Palmeiras vs Bahia (Campeonato Brasileiro Série A) — Thu 08 Oct, 21:30",
-          "Aldosivi vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 09 Oct, 14:30"
-        ],
-        "channelsChanged": [
-          "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Vasco da Gama vs Remo (Campeonato Brasileiro Série A) — Sat 10 Oct, 18:00: [CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE FC, RECORD]",
-          "São Paulo vs Vitória (Campeonato Brasileiro Série A) — Sat 10 Oct, 21:00: [Fanatiz (Míralo en vivo), PREMIERE FC, SPORTV]",
-          "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Atlético Mineiro vs Santos (Campeonato Brasileiro Série A) — Sun 11 Oct, 16:00: [Fanatiz (Míralo en vivo), Flow Sports]",
-          "Grêmio vs Internacional (Campeonato Brasileiro Série A) — Sun 11 Oct, 17:30: [Fanatiz (Míralo en vivo), Flow Sports 2]",
-          "Boca Juniors vs Vasco da Gama (CONMEBOL Sudamericana) — Tue 13 Oct, 21:30: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, Paramount+]",
-          "Atlético Mineiro vs Montevideo City Torque (CONMEBOL Sudamericana) — Wed 14 Oct, 19:00: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, ESPN 2, Paramount+]"
-        ],
-        "total": 39
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-29T17:36:05.281Z",
+        "total": 0,
+        "added": [],
+        "removed": [
+          "Milwaukee Brewers @ Tampa Bay Rays (2026-10-28)",
+          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-30)",
+          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-31)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-28T17:27:23.377Z",
         "total": 3,
@@ -831,22 +843,21 @@
         ],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-09T17:37:07.444Z",
-        "total": 8,
-        "added": [],
-        "removed": [
-          "Cleveland Guardians @ Chicago White Sox (2026-10-08)"
-        ],
-        "channelsChanged": [
-          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-11): [FOX / FOX ONE, Fox Deportes / FOX ONE]",
-          "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-14): [FS1 / FOX ONE, Fox Deportes / FOX ONE]",
-          "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-15): [FS1 / FOX ONE, Fox Deportes / FOX ONE]"
-        ]
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-29T17:36:58.936Z",
+        "total": 62,
+        "added": [
+          "Shooto Germany: Contenders 36 (2026-10-31)",
+          "Shooto Germany: German Open 2026 (2026-11-07)",
+          "Professional Shooto 2026 Vol. 7 (2026-11-29)",
+          "Amanda Serrano vs Skye Falzon (2027-01-09)"
+        ],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-28T17:28:11.516Z",
         "total": 58,
@@ -1090,19 +1101,6 @@
           "LFA 243: Maximov vs. Santos (2026-10-09)",
           "One Friday Fights 174 (2026-10-09)",
           "BKFC Fight Night Bethlehem: Cisneros vs Peterson Prelims (2026-10-10)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-09T17:37:51.539Z",
-        "total": 59,
-        "added": [
-          "One Friday Fights 174 (2026-10-09)"
-        ],
-        "removed": [
-          "ACA Young Eagles 69 (2026-10-08)",
-          " Osleys Iglesias-Oliver Zaren (2026-10-09)",
-          "One Friday Fights 174 (2026-10-09)"
         ],
         "channelsChanged": []
       }
