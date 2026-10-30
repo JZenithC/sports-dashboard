@@ -1,5 +1,36 @@
 [
   {
+    "timestamp": "2026-10-30T17:13:51.809Z",
+    "totalEvents": 38,
+    "added": [
+      "Palmeiras vs Remo (Campeonato Brasileiro Série A) — Thu 05 Nov, 19:30",
+      "Cruzeiro vs Bahía (Campeonato Brasileiro Série A) — Thu 05 Nov, 21:30"
+    ],
+    "removed": [
+      "Atlético Mineiro vs Cruzeiro (Campeonato Brasileiro Série A) — Thu 29 Oct, 19:30",
+      "Coritiba vs Vitória (Campeonato Brasileiro Série A) — Thu 29 Oct, 19:30",
+      "Vasco da Gama vs Flamengo (Campeonato Brasileiro Série A) — Thu 29 Oct, 20:00",
+      "Grêmio vs Athletico Paranaense (Campeonato Brasileiro Série A) — Thu 29 Oct, 21:30"
+    ],
+    "channelsChanged": [
+      "Racing Club vs Aldosivi (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, ESPN]",
+      "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 22:00: [Disney+ Premium, ESPN, ViX Premium]",
+      "Defensa Y Justicia vs Independiente (Liga Profesional de Fútbol) — Sat 31 Oct, 14:45: [DISNEY+, ESPN 4]",
+      "Coritiba vs Vitória (Campeonato Brasileiro Série A) — Sat 31 Oct, 16:00: [Fanatiz (Míralo en vivo), PREMIERE, PREMIERE FC]",
+      "Deportivo Riestra vs Talleres de Córdoba (Liga Profesional de Fútbol) — Sat 31 Oct, 17:00: [ESPN Premium, TyC Sports Internacional]",
+      "Vélez Sarsfield vs San Lorenzo (Liga Profesional de Fútbol) — Sat 31 Oct, 19:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+      "Estudiantes de La Plata vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Sat 31 Oct, 21:30: [ESPN Premium, TyC Sports Internacional]",
+      "Belgrano (Córdoba) vs Barracas Central (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+      "Newell's Old Boys vs Unión Santa Fe (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Lanús vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 01 Nov, 20:45: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+      "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]"
+    ]
+  },
+  {
     "timestamp": "2026-10-29T17:35:36.016Z",
     "totalEvents": 40,
     "added": [
@@ -118,41 +149,6 @@
       "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 19:00: [Azteca 7, FOX One]",
       "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00: [Azteca 7, Disney+ Premium, ESPN 2]",
       "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 22:00: [Disney+ Premium, ESPN 2, ViX Premium]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-25T15:06:46.157Z",
-    "totalEvents": 33,
-    "added": [
-      "Coritiba vs Grêmio (Campeonato Brasileiro Série A) — Mon 26 Oct, 19:30",
-      "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Sat 31 Oct, 14:45",
-      "Deportivo Riestra vs Talleres de Córdoba (Liga Profesional de Fútbol) — Sat 31 Oct, 17:00",
-      "Vélez Sarsfield vs San Lorenzo (Liga Profesional de Fútbol) — Sat 31 Oct, 19:15",
-      "Pachuca vs Tigres UANL (Liga MX) — Sat 31 Oct, 17:00",
-      "Estudiantes de La Plata vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Sat 31 Oct, 21:30",
-      "Monterrey vs Tijuana (Liga MX) — Sat 31 Oct, 19:00",
-      "Chivas Guadalajara vs Atlante (Liga MX) — Sat 31 Oct, 19:07",
-      "América vs Toluca (Liga MX) — Sat 31 Oct, 21:00"
-    ],
-    "removed": [
-      "Banfield vs Lanús (Liga Profesional de Fútbol) — Sat 24 Oct, 14:45",
-      "Vitória vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
-      "Internacional vs Botafogo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
-      "Mirassol vs São Paulo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
-      "Talleres de Córdoba vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 24 Oct, 17:00",
-      "Palmeiras vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30",
-      "Vasco da Gama vs Corinthians (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30",
-      "San Lorenzo vs Newells Old Boys (Liga Profesional de Fútbol) — Sat 24 Oct, 19:15",
-      "Chapecoense vs Fluminense (Campeonato Brasileiro Série A) — Sat 24 Oct, 19:30",
-      "Club León vs Toluca (Liga MX) — Sat 24 Oct, 17:00",
-      "Santos vs Bahia (Campeonato Brasileiro Série A) — Sat 24 Oct, 21:00",
-      "Monterrey vs Chivas Guadalajara (Liga MX) — Sat 24 Oct, 18:00",
-      "Rosario Central vs Huracán (Liga Profesional de Fútbol) — Sat 24 Oct, 21:30",
-      "Pumas UNAM vs Tigres UANL (Liga MX) — Sat 24 Oct, 20:00"
-    ],
-    "channelsChanged": [
-      "Union Santa Fe vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Mon 26 Oct, 19:00: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Flamengo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Mon 26 Oct, 20:00: [Flamengo TV YouTube, PREMIERE FC, SPORTV]"
     ]
   }
 ]

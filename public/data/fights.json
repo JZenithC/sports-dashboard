@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:36:58.935Z",
+  "generatedAt": "2026-10-30T17:15:15.090Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -30,7 +30,7 @@
           "weightClass": null
         },
         {
-          "title": "Jahongir Saidjamolov v Alikhan Musaev",
+          "title": "Alikhan Musaev v Jahongir Saidjamolov",
           "weightClass": null
         },
         {
@@ -38,19 +38,19 @@
           "weightClass": null
         },
         {
-          "title": "Nashkho Galaev v Tural Ragimov",
+          "title": "Tural Ragimov v Nashkho Galaev",
           "weightClass": null
         },
         {
-          "title": "Hamdy Abdelwahab v Klidson Abreu",
+          "title": "Klidson Abreu v Hamdy Abdelwahab",
           "weightClass": null
         },
         {
-          "title": "Oyatullo Muminov v Bektur Zhenishbek Uulu",
+          "title": "Bektur Zhenishbek Uulu v Oyatullo Muminov",
           "weightClass": null
         },
         {
-          "title": "Eldar Munapov v Hayk Kazaryan",
+          "title": "Hayk Kazaryan v Eldar Munapov",
           "weightClass": null
         },
         {
@@ -62,7 +62,7 @@
           "weightClass": null
         },
         {
-          "title": "Mustafa Ashurzoda v Akhmed Khamzaev",
+          "title": "Akhmed Khamzaev v Mustafa Ashurzoda",
           "weightClass": null
         },
         {
@@ -70,7 +70,7 @@
           "weightClass": null
         },
         {
-          "title": "Shadid Abdurzakov v Nizambek Abdrashitov",
+          "title": "Nizambek Abdrashitov v Shadid Abdurzakov",
           "weightClass": null
         },
         {
@@ -117,28 +117,28 @@
             "b": "Vagiz Ismagilov"
           },
           {
-            "a": "Jahongir Saidjamolov",
-            "b": "Alikhan Musaev"
+            "a": "Alikhan Musaev",
+            "b": "Jahongir Saidjamolov"
           },
           {
             "a": "Khafiz Sakibekov",
             "b": "Nikita Podkovalnikov"
           },
           {
-            "a": "Nashkho Galaev",
-            "b": "Tural Ragimov"
+            "a": "Tural Ragimov",
+            "b": "Nashkho Galaev"
           },
           {
-            "a": "Hamdy Abdelwahab",
-            "b": "Klidson Abreu"
+            "a": "Klidson Abreu",
+            "b": "Hamdy Abdelwahab"
           },
           {
-            "a": "Oyatullo Muminov",
-            "b": "Bektur Zhenishbek Uulu"
+            "a": "Bektur Zhenishbek Uulu",
+            "b": "Oyatullo Muminov"
           },
           {
-            "a": "Eldar Munapov",
-            "b": "Hayk Kazaryan"
+            "a": "Hayk Kazaryan",
+            "b": "Eldar Munapov"
           },
           {
             "a": "Emomakhdi Orzuzoda",
@@ -149,16 +149,16 @@
             "b": "Saidyokub Kakhramonov"
           },
           {
-            "a": "Mustafa Ashurzoda",
-            "b": "Akhmed Khamzaev"
+            "a": "Akhmed Khamzaev",
+            "b": "Mustafa Ashurzoda"
           },
           {
             "a": "Sayed Safarmamadov",
             "b": "Ali Mashrapov"
           },
           {
-            "a": "Shadid Abdurzakov",
-            "b": "Nizambek Abdrashitov"
+            "a": "Nizambek Abdrashitov",
+            "b": "Shadid Abdurzakov"
           },
           {
             "a": "Mamurzhon Khamdamov",
@@ -292,11 +292,11 @@
           "weightClass": null
         },
         {
-          "title": "Mahiro Miyoshi v Sakyo Kajita",
+          "title": "Sakyo Kajita v Mahiro Miyoshi",
           "weightClass": null
         },
         {
-          "title": "Hikaru Yashiro v Yuto Tanaka",
+          "title": "Yuto Tanaka v Hikaru Yashiro",
           "weightClass": null
         },
         {
@@ -304,7 +304,7 @@
           "weightClass": null
         },
         {
-          "title": "Taisei Saito v Shohei Iwatani",
+          "title": "Shohei Iwaya v Taisei Saito",
           "weightClass": null
         },
         {
@@ -343,20 +343,20 @@
             "b": "Takuma Sasaki"
           },
           {
-            "a": "Mahiro Miyoshi",
-            "b": "Sakyo Kajita"
+            "a": "Sakyo Kajita",
+            "b": "Mahiro Miyoshi"
           },
           {
-            "a": "Hikaru Yashiro",
-            "b": "Yuto Tanaka"
+            "a": "Yuto Tanaka",
+            "b": "Hikaru Yashiro"
           },
           {
             "a": "Homare Nakagomi",
             "b": "Yuha Furuya"
           },
           {
-            "a": "Taisei Saito",
-            "b": "Shohei Iwatani"
+            "a": "Shohei Iwaya",
+            "b": "Taisei Saito"
           },
           {
             "a": "Ninniku Nakayama",
@@ -370,8 +370,8 @@
       "org": "MMA",
       "eventName": "One Friday Fights 176",
       "eventTag": "One Friday Fights 176 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Ethan Brockett",
-      "awayTeam": "Pedro Duarte",
+      "homeTeam": "Pedro Duarte",
+      "awayTeam": "Ethan Brockett",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -379,7 +379,7 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Prashanth Guda v Ouga Akita",
+          "title": "Oga Akita v Prashanth Guda",
           "weightClass": null
         }
       ],
@@ -400,18 +400,18 @@
         "city": "Bangkok, Thailand",
         "href": "/events/One-Championship-One-Friday-Fights-176-114702",
         "mainEventFighters": [
-          "Ethan Brockett",
-          "Pedro Duarte"
+          "Pedro Duarte",
+          "Ethan Brockett"
         ],
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Prashanth Guda",
-            "b": "Ouga Akita"
+            "a": "Oga Akita",
+            "b": "Prashanth Guda"
           }
         ]
       },
-      "watchKey": "fights:MMA|Ethan Brockett|Pedro Duarte|2026-10-30"
+      "watchKey": "fights:MMA|Pedro Duarte|Ethan Brockett|2026-10-30"
     },
     {
       "org": "UFC",
@@ -699,8 +699,8 @@
     },
     {
       "org": "MMA",
-      "eventName": "Ares 44: Younousov vs. Nam",
-      "eventTag": "Ares 44 · Zenith of Strasbourg, Strasbourg, France",
+      "eventName": "ARES 44: Younousov vs. Nam",
+      "eventTag": "ARES 44 · Zenith of Strasbourg, Strasbourg, France",
       "homeTeam": "Younousov",
       "awayTeam": "Nam",
       "cardTitle": null,
@@ -755,13 +755,13 @@
       "broadcastGroups": null,
       "source": {
         "org": "MMA",
-        "slug": "sherdog-Ares-44-Younousov-vs-Nam-111977",
-        "name": "Ares 44: Younousov vs. Nam",
+        "slug": "sherdog-ARES-44-Younousov-vs-Nam-111977",
+        "name": "ARES 44: Younousov vs. Nam",
         "dateUTC": null,
         "dateOnly": "2026-10-31",
         "venue": "Zenith of Strasbourg",
         "city": "Strasbourg, France",
-        "href": "/events/Ares-44-Younousov-vs-Nam-111977",
+        "href": "/events/ARES-44-Younousov-vs-Nam-111977",
         "mainEventFighters": [
           "Younousov",
           "Nam"
@@ -965,8 +965,8 @@
       "org": "MMA",
       "eventName": "LUX 064: Monterrey",
       "eventTag": "LUX 064 · Showcenter Complex, Monterrey, Nuevo Leon, Mexico",
-      "homeTeam": "Alejandro Corrales",
-      "awayTeam": "Beto Barra",
+      "homeTeam": "Karla Pastrana",
+      "awayTeam": "Flor Hernandez",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -974,23 +974,7 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Karla Pastrana v Flor Hernandez",
-          "weightClass": null
-        },
-        {
-          "title": "Enrique Gonzalez v David Mendoza",
-          "weightClass": null
-        },
-        {
           "title": "Cesar Vazquez v Brandon Gonzalez",
-          "weightClass": null
-        },
-        {
-          "title": "Eliel Mota v Saul Tijerina",
-          "weightClass": null
-        },
-        {
-          "title": "Pedro Rubio v Beto Barra",
           "weightClass": null
         },
         {
@@ -998,7 +982,15 @@
           "weightClass": null
         },
         {
-          "title": "Juan Zuniga v Javier Gil Fernandez",
+          "title": "Eliel Mota v Saul Tijerina",
+          "weightClass": null
+        },
+        {
+          "title": "Alan Cavazos v Javier Gil Fernandez",
+          "weightClass": null
+        },
+        {
+          "title": "Alejandro Corrales v Beto Barra",
           "weightClass": null
         },
         {
@@ -1006,11 +998,15 @@
           "weightClass": null
         },
         {
-          "title": "Daniela Lopez v Camila Argueta",
+          "title": "Gabriel Tovar v Osvaldo Gonzalez Lozano",
           "weightClass": null
         },
         {
           "title": "Jade Moctezuma v Danna Cortes",
+          "weightClass": null
+        },
+        {
+          "title": "Daniela Lopez v Camila Argueta",
           "weightClass": null
         }
       ],
@@ -1031,54 +1027,50 @@
         "city": "Monterrey, Nuevo Leon, Mexico",
         "href": "/events/LUX-064-Monterrey-114284",
         "mainEventFighters": [
-          "Alejandro Corrales",
-          "Beto Barra"
+          "Karla Pastrana",
+          "Flor Hernandez"
         ],
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Karla Pastrana",
-            "b": "Flor Hernandez"
-          },
-          {
-            "a": "Enrique Gonzalez",
-            "b": "David Mendoza"
-          },
-          {
             "a": "Cesar Vazquez",
             "b": "Brandon Gonzalez"
-          },
-          {
-            "a": "Eliel Mota",
-            "b": "Saul Tijerina"
-          },
-          {
-            "a": "Pedro Rubio",
-            "b": "Beto Barra"
           },
           {
             "a": "Luis Rey Gallegos",
             "b": "Roberto Villalobos"
           },
           {
-            "a": "Juan Zuniga",
+            "a": "Eliel Mota",
+            "b": "Saul Tijerina"
+          },
+          {
+            "a": "Alan Cavazos",
             "b": "Javier Gil Fernandez"
+          },
+          {
+            "a": "Alejandro Corrales",
+            "b": "Beto Barra"
           },
           {
             "a": "Kenneth Zamarripa",
             "b": "Jorge Olea"
           },
           {
-            "a": "Daniela Lopez",
-            "b": "Camila Argueta"
+            "a": "Gabriel Tovar",
+            "b": "Osvaldo Gonzalez Lozano"
           },
           {
             "a": "Jade Moctezuma",
             "b": "Danna Cortes"
+          },
+          {
+            "a": "Daniela Lopez",
+            "b": "Camila Argueta"
           }
         ]
       },
-      "watchKey": "fights:MMA|Alejandro Corrales|Beto Barra|2026-11-06"
+      "watchKey": "fights:MMA|Karla Pastrana|Flor Hernandez|2026-11-06"
     },
     {
       "org": "MMA",
@@ -3498,8 +3490,8 @@
     },
     {
       "org": "MMA",
-      "eventName": "Ares 45: Zebo vs. Baki 2",
-      "eventTag": "Ares 45 · Adidas Arena, Paris, France",
+      "eventName": "ARES 45: Zebo vs. Baki 2",
+      "eventTag": "ARES 45 · Adidas Arena, Paris, France",
       "homeTeam": "Zebo",
       "awayTeam": "Baki 2",
       "cardTitle": null,
@@ -3538,13 +3530,13 @@
       "broadcastGroups": null,
       "source": {
         "org": "MMA",
-        "slug": "sherdog-Ares-45-Zebo-vs-Baki-2-112453",
-        "name": "Ares 45: Zebo vs. Baki 2",
+        "slug": "sherdog-ARES-45-Zebo-vs-Baki-2-112453",
+        "name": "ARES 45: Zebo vs. Baki 2",
         "dateUTC": null,
         "dateOnly": "2026-11-20",
         "venue": "Adidas Arena",
         "city": "Paris, France",
-        "href": "/events/Ares-45-Zebo-vs-Baki-2-112453",
+        "href": "/events/ARES-45-Zebo-vs-Baki-2-112453",
         "mainEventFighters": [
           "Zebo",
           "Baki 2"
@@ -6250,7 +6242,20 @@
           }
         ]
       },
-      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24"
+      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24",
+      "replayGroups": [
+        {
+          "label": "Canada",
+          "channels": [
+            {
+              "name": "Fight Network",
+              "logo": "/logos/channels/fightnetwork.com.jpg",
+              "timeUK": "Sun 01 Nov, 01:00",
+              "airTimeUTC": "2026-11-01T01:00:00.000Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "org": "MMA",
@@ -7235,78 +7240,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-10-29T18:00:00.000Z",
-      "endsAtUTC": "2026-10-29T19:00:00.000Z",
-      "timeUK": "Thu 29 Oct, 18:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Showtime v War Horse",
-      "sublabel": "PFL Vault"
-    },
-    {
-      "airTimeUTC": "2026-10-29T19:00:00.000Z",
-      "endsAtUTC": "2026-10-29T23:00:00.000Z",
-      "timeUK": "Thu 29 Oct, 19:00",
-      "channel": {
-        "name": "Sky Sports Mix",
-        "logo": null
-      },
-      "market": "UK",
-      "label": "Caroline Dubois v Terri Harper",
-      "sublabel": "Fight Night"
-    },
-    {
-      "airTimeUTC": "2026-10-29T22:00:00.000Z",
-      "endsAtUTC": "2026-10-30T00:30:00.000Z",
-      "timeUK": "Thu 29 Oct, 22:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Bellator 192: Goiti Yamauchi v Michael Chandler",
-      "sublabel": "Bellator MMA"
-    },
-    {
-      "airTimeUTC": "2026-10-30T02:00:00.000Z",
-      "endsAtUTC": "2026-10-30T03:00:00.000Z",
-      "timeUK": "Fri 30 Oct, 02:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Faulkner v Prasovic Prelims",
-      "sublabel": "BKFC Belgrade: Faulkner vs. Prasovic Pre"
-    },
-    {
-      "airTimeUTC": "2026-10-30T03:00:00.000Z",
-      "endsAtUTC": "2026-10-30T06:00:00.000Z",
-      "timeUK": "Fri 30 Oct, 03:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Faulkner v Prasovic",
-      "sublabel": "BKFC Belgrade: Faulkner vs. Prasovic"
-    },
-    {
-      "airTimeUTC": "2026-10-30T06:00:00.000Z",
-      "endsAtUTC": "2026-10-30T07:00:00.000Z",
-      "timeUK": "Fri 30 Oct, 06:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Ferguson v Gaethje",
-      "sublabel": "UFC Main Events"
-    },
-    {
       "airTimeUTC": "2026-10-31T05:00:00.000Z",
       "endsAtUTC": "2026-10-31T06:00:00.000Z",
       "timeUK": "Sat 31 Oct, 05:00",
@@ -7353,6 +7286,44 @@
       "market": "UK",
       "label": "Alycia Baumgardner v Bo Mi Re Shin",
       "sublabel": "Fight Night"
+    },
+    {
+      "airTimeUTC": "2026-11-01T01:00:00.000Z",
+      "endsAtUTC": "2026-11-01T02:00:00.000Z",
+      "timeUK": "Sun 01 Nov, 01:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24",
+      "label": "BKFC Fight Night Clearwater: Reber vs Street, Prelims",
+      "logos": [],
+      "sublabel": "Boxing · Sat 24 Oct, 01:00"
+    },
+    {
+      "airTimeUTC": "2026-11-01T02:00:00.000Z",
+      "endsAtUTC": "2026-11-01T05:00:00.000Z",
+      "timeUK": "Sun 01 Nov, 02:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Reber v Street",
+      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
+    },
+    {
+      "airTimeUTC": "2026-11-01T07:00:00.000Z",
+      "endsAtUTC": "2026-11-01T10:00:00.000Z",
+      "timeUK": "Sun 01 Nov, 07:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Herring v Dodson",
+      "sublabel": "BKFC 95, Newark: Herring vs. Dodson"
     },
     {
       "airTimeUTC": "2026-11-03T03:30:00.000Z",

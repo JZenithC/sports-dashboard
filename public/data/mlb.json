@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:36:05.280Z",
+  "generatedAt": "2026-10-30T17:14:20.967Z",
   "games": [],
   "recentGames": [
     {
@@ -35,20 +35,6 @@
         {
           "label": "Replay",
           "channels": [
-            {
-              "name": "FS1",
-              "logo": "/logos/channels/foxsports.com.ar.jpg",
-              "timeLocal": "Thu 29 Oct, 04:00",
-              "timeUK": "Thu 29 Oct, 08:00",
-              "airTimeUTC": "2026-10-29T08:00:00.000Z"
-            },
-            {
-              "name": "FS1",
-              "logo": "/logos/channels/foxsports.com.ar.jpg",
-              "timeLocal": "Thu 29 Oct, 21:00",
-              "timeUK": "Fri 30 Oct, 01:00",
-              "airTimeUTC": "2026-10-30T01:00:00.000Z"
-            },
             {
               "name": "FS1",
               "logo": "/logos/channels/foxsports.com.ar.jpg",
@@ -196,38 +182,6 @@
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-29T08:00:00.000Z",
-      "endsAtUTC": "2026-10-29T10:30:00.000Z",
-      "timeUK": "Thu 29 Oct, 08:00",
-      "channel": {
-        "name": "FS1",
-        "logo": "/logos/channels/foxsports.com.ar.jpg"
-      },
-      "watchKey": "mlb:Milwaukee Brewers|Tampa Bay Rays|2026-10-28",
-      "label": "Milwaukee Brewers @ Tampa Bay Rays",
-      "logos": [
-        "/logos/teams/28dc72fb5ea705926dd8.svg",
-        "/logos/teams/a451f47386bd324f26f8.svg"
-      ],
-      "sublabel": "played Wed 28 Oct"
-    },
-    {
-      "airTimeUTC": "2026-10-30T01:00:00.000Z",
-      "endsAtUTC": "2026-10-30T04:00:00.000Z",
-      "timeUK": "Fri 30 Oct, 01:00",
-      "channel": {
-        "name": "FS1",
-        "logo": "/logos/channels/foxsports.com.ar.jpg"
-      },
-      "watchKey": "mlb:Milwaukee Brewers|Tampa Bay Rays|2026-10-28",
-      "label": "Milwaukee Brewers @ Tampa Bay Rays",
-      "logos": [
-        "/logos/teams/28dc72fb5ea705926dd8.svg",
-        "/logos/teams/a451f47386bd324f26f8.svg"
-      ],
-      "sublabel": "played Wed 28 Oct"
-    },
     {
       "airTimeUTC": "2026-10-30T08:00:00.000Z",
       "endsAtUTC": "2026-10-30T11:00:00.000Z",
