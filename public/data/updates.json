@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-10-30T17:15:15.091Z",
+  "generatedAt": "2026-10-31T16:23:48.256Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-10-31T16:22:26.870Z",
+        "totalEvents": 34,
+        "added": [
+          "Vitória vs Fluminense (Campeonato Brasileiro Série A) — Fri 06 Nov, 20:00",
+          "Necaxa vs Tijuana (Liga MX) — Fri 06 Nov, 19:00",
+          "Atlante vs Santos Laguna (Liga MX) — Fri 06 Nov, 21:00",
+          "Atlético San Luis vs FC Juárez (Liga MX) — Fri 06 Nov, 22:00"
+        ],
+        "removed": [
+          "Huracán vs Tigre (Liga Profesional de Fútbol) — Fri 30 Oct, 19:00",
+          "Estudiantes de Río Cuarto vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Fri 30 Oct, 19:00",
+          "Corinthians vs Mirassol (Campeonato Brasileiro Série A) — Fri 30 Oct, 20:00",
+          "Racing Club vs Aldosivi (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15",
+          "Sarmiento de Junín vs Rosario Central (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15",
+          "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 19:00",
+          "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00",
+          "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 22:00"
+        ],
+        "channelsChanged": [
+          "Boca Juniors vs River Plate (Liga Profesional de Fútbol) — Sun 01 Nov, 15:00: [DISNEY+, Disney+ Premium, ESPN 3, ESPN Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 16:00: [(CHARLA), Amazon Prime Video (Ver en vivo), DGO, DSports 2 (612/1612), Disney+ Premium, ESPN 2, GE TV, GLOBO, Globo Internacional, PREMIERE 2, PREMIERE 2, PREMIERE FC, PRIME VIDEO, Paramount+, SPORTV]",
+          "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 18:30: [Amazon Prime Video (Ver en vivo), DGO, DSports 2 (612/1612), Disney+ Premium, ESPN 4, PREMIERE FC, PRIME VIDEO, Paramount+, SPORTV]",
+          "Newells Old Boys vs Union Santa Fe (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Globo Internacional]",
+          "Palmeiras vs Remo (Campeonato Brasileiro Série A) — Thu 05 Nov, 19:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]",
+          "Cruzeiro vs Bahía (Campeonato Brasileiro Série A) — Thu 05 Nov, 21:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]"
+        ],
+        "total": 34
+      },
       {
         "timestamp": "2026-10-30T17:13:51.809Z",
         "totalEvents": 38,
@@ -585,47 +615,16 @@
         ],
         "channelsChanged": [],
         "total": 34
-      },
-      {
-        "timestamp": "2026-10-11T16:49:58.545Z",
-        "totalEvents": 42,
-        "added": [
-          "Banfield vs Argentinos Juniors (Liga Profesional de Fútbol) — Sat 17 Oct, 15:00",
-          "Atlético Mineiro vs Coritiba (Campeonato Brasileiro Série A) — Sat 17 Oct, 15:30",
-          "Platense vs Lanús (Liga Profesional de Fútbol) — Sat 17 Oct, 17:30",
-          "Independiente Rivadavia vs Tigre (Liga Profesional de Fútbol) — Sat 17 Oct, 17:30",
-          "São Paulo vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 17 Oct, 18:00",
-          "Vélez Sarsfield vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sat 17 Oct, 20:00",
-          "Atlético Tucumán vs Rosario Central (Liga Profesional de Fútbol) — Sat 17 Oct, 20:00",
-          "Santos Laguna vs Querétaro (Liga MX) — Sat 17 Oct, 17:00",
-          "Chivas Guadalajara vs Tigres UANL (Liga MX) — Sat 17 Oct, 17:07",
-          "Toluca vs Atlético San Luis (Liga MX) — Sat 17 Oct, 19:00",
-          "Club León vs América (Liga MX) — Sat 17 Oct, 19:00",
-          "Cruz Azul vs FC Juárez (Liga MX) — Sat 17 Oct, 21:00",
-          "Fluminense vs Santos (Campeonato Brasileiro Série A) — Sun 18 Oct, 13:00"
-        ],
-        "removed": [
-          "Barracas Central vs Huracán (Liga Profesional de Fútbol) — Sat 10 Oct, 15:45",
-          "Central Córdoba (Santiago del Estero) vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 10 Oct, 17:00",
-          "Vasco da Gama vs Remo (Campeonato Brasileiro Série A) — Sat 10 Oct, 18:00",
-          "Tigre vs Banfield (Liga Profesional de Fútbol) — Sat 10 Oct, 19:15",
-          "Querétaro vs Atlante (Liga MX) — Sat 10 Oct, 17:00",
-          "FC Juárez vs Tijuana (Liga MX) — Sat 10 Oct, 17:00",
-          "São Paulo vs Vitória (Campeonato Brasileiro Série A) — Sat 10 Oct, 21:00",
-          "River Plate vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 10 Oct, 21:30",
-          "Atlas vs Chivas Guadalajara (Liga MX) — Sat 10 Oct, 19:00",
-          "América vs Monterrey (Liga MX) — Sat 10 Oct, 21:10"
-        ],
-        "channelsChanged": [
-          "Lanus vs Velez Sarsfield (Liga Profesional de Fútbol) — Mon 12 Oct, 16:00: [DISNEY+, Disney+ Premium, ESPN, ESPN 2, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Coritiba vs Botafogo (Campeonato Brasileiro Série A) — Mon 12 Oct, 16:00: [Fanatiz (Míralo en vivo), PRIME VIDEO]",
-          "Chapecoense vs Athletico Paranaense (Campeonato Brasileiro Série A) — Mon 12 Oct, 19:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), PREMIERE]",
-          "Red Bull Bragantino vs Cruzeiro (Campeonato Brasileiro Série A) — Mon 12 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), PREMIERE, SPORTV]"
-        ],
-        "total": 42
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-10-31T16:22:59.102Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-30T17:14:20.967Z",
         "total": 0,
@@ -823,28 +822,25 @@
         "channelsChanged": [
           "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-12): [FOX / FOX ONE, Fox Deportes / FOX ONE]"
         ]
-      },
-      {
-        "timestamp": "2026-10-11T16:50:39.408Z",
-        "total": 10,
-        "added": [
-          "Cleveland Guardians @ Tampa Bay Rays (2026-10-12)",
-          "Cleveland Guardians @ Tampa Bay Rays (2026-10-13)",
-          "Tampa Bay Rays @ Cleveland Guardians (2026-10-15)",
-          "Tampa Bay Rays @ Cleveland Guardians (2026-10-16)",
-          "Tampa Bay Rays @ Cleveland Guardians (2026-10-17)"
-        ],
-        "removed": [
-          "Chicago White Sox @ Cleveland Guardians (2026-10-10)",
-          "CLE/CWS @ Tampa Bay Rays (2026-10-12)",
-          "CLE/CWS @ Tampa Bay Rays (2026-10-13)",
-          "Tampa Bay Rays @ CLE/CWS (2026-10-15)",
-          "Tampa Bay Rays @ CLE/CWS (2026-10-16)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-10-31T16:23:48.255Z",
+        "total": 59,
+        "added": [
+          "UFC Fight Night: Cortes Acosta vs. Walker (2026-11-07)",
+          "Carlos Adames vs Gerome Warburton (2026-11-14)"
+        ],
+        "removed": [
+          "ACA 209: Frolov vs. Odilov (2026-10-30)",
+          "LFA 245: Khamzaev vs. Prescendo (2026-10-30)",
+          "Deep: Fight Challenge 2026 3rd Round (2026-10-30)",
+          "One Friday Fights 176 (2026-10-30)",
+          "UFC Fight Night: Bonfim vs. Brady (2026-11-07)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-10-30T17:15:15.090Z",
         "total": 62,
@@ -1086,20 +1082,6 @@
         ],
         "removed": [
           "One Friday Fights 175 (2026-10-16)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-11T16:51:24.281Z",
-        "total": 54,
-        "added": [
-          "Oktagon 97: Severino vs. Holzer (2026-11-11)"
-        ],
-        "removed": [
-          "UFC Fight Night: Allen vs. Duncan (2026-10-10)",
-          "KSW 122: Yakymenko vs. Morelli (2026-10-10)",
-          "CFFC: Chosen Few Fighting Championships 29 (2026-10-10)",
-          "Floyd Schofield-Lucas Bahdi (2026-10-11)"
         ],
         "channelsChanged": []
       }

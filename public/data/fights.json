@@ -1,418 +1,6 @@
 {
-  "generatedAt": "2026-10-30T17:15:15.090Z",
+  "generatedAt": "2026-10-31T16:23:48.254Z",
   "upcoming": [
-    {
-      "org": "MMA",
-      "eventName": "ACA 209: Frolov vs. Odilov",
-      "eventTag": "ACA 209 · Tennis Palace and Water Sports Complex, Dushanbe, Tajikistan",
-      "homeTeam": "Frolov",
-      "awayTeam": "Odilov",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Azam Gaforov v Felipe Bunes",
-          "weightClass": null
-        },
-        {
-          "title": "Viskhan Kadirov v Bekhruz Zugurov",
-          "weightClass": null
-        },
-        {
-          "title": "Alexey Makhno v Kuat Khamitov",
-          "weightClass": null
-        },
-        {
-          "title": "Firdavs Zaripov v Vagiz Ismagilov",
-          "weightClass": null
-        },
-        {
-          "title": "Alikhan Musaev v Jahongir Saidjamolov",
-          "weightClass": null
-        },
-        {
-          "title": "Khafiz Sakibekov v Nikita Podkovalnikov",
-          "weightClass": null
-        },
-        {
-          "title": "Tural Ragimov v Nashkho Galaev",
-          "weightClass": null
-        },
-        {
-          "title": "Klidson Abreu v Hamdy Abdelwahab",
-          "weightClass": null
-        },
-        {
-          "title": "Bektur Zhenishbek Uulu v Oyatullo Muminov",
-          "weightClass": null
-        },
-        {
-          "title": "Hayk Kazaryan v Eldar Munapov",
-          "weightClass": null
-        },
-        {
-          "title": "Emomakhdi Orzuzoda v Kholmurod Nurmatov",
-          "weightClass": null
-        },
-        {
-          "title": "Bakhtovar Yunusov v Saidyokub Kakhramonov",
-          "weightClass": null
-        },
-        {
-          "title": "Akhmed Khamzaev v Mustafa Ashurzoda",
-          "weightClass": null
-        },
-        {
-          "title": "Sayed Safarmamadov v Ali Mashrapov",
-          "weightClass": null
-        },
-        {
-          "title": "Nizambek Abdrashitov v Shadid Abdurzakov",
-          "weightClass": null
-        },
-        {
-          "title": "Mamurzhon Khamdamov v Ivan Soloviev",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-30T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-30",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-ACA-209-Frolov-vs-Odilov-114289",
-        "name": "ACA 209: Frolov vs. Odilov",
-        "dateUTC": null,
-        "dateOnly": "2026-10-30",
-        "venue": "Tennis Palace and Water Sports Complex",
-        "city": "Dushanbe, Tajikistan",
-        "href": "/events/ACA-209-Frolov-vs-Odilov-114289",
-        "mainEventFighters": [
-          "Frolov",
-          "Odilov"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Azam Gaforov",
-            "b": "Felipe Bunes"
-          },
-          {
-            "a": "Viskhan Kadirov",
-            "b": "Bekhruz Zugurov"
-          },
-          {
-            "a": "Alexey Makhno",
-            "b": "Kuat Khamitov"
-          },
-          {
-            "a": "Firdavs Zaripov",
-            "b": "Vagiz Ismagilov"
-          },
-          {
-            "a": "Alikhan Musaev",
-            "b": "Jahongir Saidjamolov"
-          },
-          {
-            "a": "Khafiz Sakibekov",
-            "b": "Nikita Podkovalnikov"
-          },
-          {
-            "a": "Tural Ragimov",
-            "b": "Nashkho Galaev"
-          },
-          {
-            "a": "Klidson Abreu",
-            "b": "Hamdy Abdelwahab"
-          },
-          {
-            "a": "Bektur Zhenishbek Uulu",
-            "b": "Oyatullo Muminov"
-          },
-          {
-            "a": "Hayk Kazaryan",
-            "b": "Eldar Munapov"
-          },
-          {
-            "a": "Emomakhdi Orzuzoda",
-            "b": "Kholmurod Nurmatov"
-          },
-          {
-            "a": "Bakhtovar Yunusov",
-            "b": "Saidyokub Kakhramonov"
-          },
-          {
-            "a": "Akhmed Khamzaev",
-            "b": "Mustafa Ashurzoda"
-          },
-          {
-            "a": "Sayed Safarmamadov",
-            "b": "Ali Mashrapov"
-          },
-          {
-            "a": "Nizambek Abdrashitov",
-            "b": "Shadid Abdurzakov"
-          },
-          {
-            "a": "Mamurzhon Khamdamov",
-            "b": "Ivan Soloviev"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Frolov|Odilov|2026-10-30"
-    },
-    {
-      "org": "MMA",
-      "eventName": "LFA 245: Khamzaev vs. Prescendo",
-      "eventTag": "LFA 245 · Seneca Niagara Resort and Casino, Niagara Falls, New York, United States",
-      "homeTeam": "Khamzaev",
-      "awayTeam": "Prescendo",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Thomas Picciano v Santos Verdinez",
-          "weightClass": null
-        },
-        {
-          "title": "Joey Hart v Alberth Bahamondes",
-          "weightClass": null
-        },
-        {
-          "title": "Sharaf Davlatmurodov v Wildemar Souza Santos",
-          "weightClass": null
-        },
-        {
-          "title": "Matthew Adams v Shealor Ladd",
-          "weightClass": null
-        },
-        {
-          "title": "David Wright v Lance Wright",
-          "weightClass": null
-        },
-        {
-          "title": "Naomie Young v Aline David",
-          "weightClass": null
-        },
-        {
-          "title": "Imed Eddine Dziri v Jermaine Edwards",
-          "weightClass": null
-        },
-        {
-          "title": "Isaiah Parks v Delsin Gray",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-30T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-30",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-LFA-245-Khamzaev-vs-Prescendo-114326",
-        "name": "LFA 245: Khamzaev vs. Prescendo",
-        "dateUTC": null,
-        "dateOnly": "2026-10-30",
-        "venue": "Seneca Niagara Resort and Casino",
-        "city": "Niagara Falls, New York, United States",
-        "href": "/events/LFA-245-Khamzaev-vs-Prescendo-114326",
-        "mainEventFighters": [
-          "Khamzaev",
-          "Prescendo"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Thomas Picciano",
-            "b": "Santos Verdinez"
-          },
-          {
-            "a": "Joey Hart",
-            "b": "Alberth Bahamondes"
-          },
-          {
-            "a": "Sharaf Davlatmurodov",
-            "b": "Wildemar Souza Santos"
-          },
-          {
-            "a": "Matthew Adams",
-            "b": "Shealor Ladd"
-          },
-          {
-            "a": "David Wright",
-            "b": "Lance Wright"
-          },
-          {
-            "a": "Naomie Young",
-            "b": "Aline David"
-          },
-          {
-            "a": "Imed Eddine Dziri",
-            "b": "Jermaine Edwards"
-          },
-          {
-            "a": "Isaiah Parks",
-            "b": "Delsin Gray"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Khamzaev|Prescendo|2026-10-30"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Deep: Fight Challenge 2026 3rd Round",
-      "eventTag": "Deep · The Garden Hall at Yebisu Garden Place, Meguro, Tokyo, Japan",
-      "homeTeam": "Souru Hamaguchi",
-      "awayTeam": "Sanou Yokouchi",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Sena Inoue v Rushia Yamauchi",
-          "weightClass": null
-        },
-        {
-          "title": "Isamu Kikukawa v Takuma Sasaki",
-          "weightClass": null
-        },
-        {
-          "title": "Sakyo Kajita v Mahiro Miyoshi",
-          "weightClass": null
-        },
-        {
-          "title": "Yuto Tanaka v Hikaru Yashiro",
-          "weightClass": null
-        },
-        {
-          "title": "Homare Nakagomi v Yuha Furuya",
-          "weightClass": null
-        },
-        {
-          "title": "Shohei Iwaya v Taisei Saito",
-          "weightClass": null
-        },
-        {
-          "title": "Ninniku Nakayama v Ryushin Watanabe",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-30T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-30",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Deep-Fight-Challenge-2026-3rd-Round-114588",
-        "name": "Deep: Fight Challenge 2026 3rd Round",
-        "dateUTC": null,
-        "dateOnly": "2026-10-30",
-        "venue": "The Garden Hall at Yebisu Garden Place",
-        "city": "Meguro, Tokyo, Japan",
-        "href": "/events/Deep-Fight-Challenge-2026-3rd-Round-114588",
-        "mainEventFighters": [
-          "Souru Hamaguchi",
-          "Sanou Yokouchi"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Sena Inoue",
-            "b": "Rushia Yamauchi"
-          },
-          {
-            "a": "Isamu Kikukawa",
-            "b": "Takuma Sasaki"
-          },
-          {
-            "a": "Sakyo Kajita",
-            "b": "Mahiro Miyoshi"
-          },
-          {
-            "a": "Yuto Tanaka",
-            "b": "Hikaru Yashiro"
-          },
-          {
-            "a": "Homare Nakagomi",
-            "b": "Yuha Furuya"
-          },
-          {
-            "a": "Shohei Iwaya",
-            "b": "Taisei Saito"
-          },
-          {
-            "a": "Ninniku Nakayama",
-            "b": "Ryushin Watanabe"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Souru Hamaguchi|Sanou Yokouchi|2026-10-30"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Friday Fights 176",
-      "eventTag": "One Friday Fights 176 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Pedro Duarte",
-      "awayTeam": "Ethan Brockett",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Oga Akita v Prashanth Guda",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-30T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-30",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-Friday-Fights-176-114702",
-        "name": "One Friday Fights 176",
-        "dateUTC": null,
-        "dateOnly": "2026-10-30",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-Friday-Fights-176-114702",
-        "mainEventFighters": [
-          "Pedro Duarte",
-          "Ethan Brockett"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Oga Akita",
-            "b": "Prashanth Guda"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Pedro Duarte|Ethan Brockett|2026-10-30"
-    },
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Moicano vs. Nolan",
@@ -718,10 +306,6 @@
           "weightClass": null
         },
         {
-          "title": "Andrii Misiuk v Phruethukorn Chaichongcharden",
-          "weightClass": null
-        },
-        {
           "title": "Bilal Bakhouche-Chareuf v Daniel Rodrigues",
           "weightClass": null
         },
@@ -739,10 +323,6 @@
         },
         {
           "title": "Lasha Gogishvili v Alexandre Carole",
-          "weightClass": null
-        },
-        {
-          "title": "Mohadi Nazirov v Ibrahima Abdoul-Razak Dosso",
           "weightClass": null
         }
       ],
@@ -777,10 +357,6 @@
             "b": "Mario Gagliardi"
           },
           {
-            "a": "Andrii Misiuk",
-            "b": "Phruethukorn Chaichongcharden"
-          },
-          {
             "a": "Bilal Bakhouche-Chareuf",
             "b": "Daniel Rodrigues"
           },
@@ -799,10 +375,6 @@
           {
             "a": "Lasha Gogishvili",
             "b": "Alexandre Carole"
-          },
-          {
-            "a": "Mohadi Nazirov",
-            "b": "Ibrahima Abdoul-Razak Dosso"
           }
         ]
       },
@@ -849,7 +421,7 @@
           "weightClass": null
         },
         {
-          "title": "Hafeni Nafuka v Ivan Klevets",
+          "title": "Ronaldo Ferreira v Ivan Klevets",
           "weightClass": null
         },
         {
@@ -912,7 +484,7 @@
             "b": "Daniel Schordje"
           },
           {
-            "a": "Hafeni Nafuka",
+            "a": "Ronaldo Ferreira",
             "b": "Ivan Klevets"
           },
           {
@@ -1514,16 +1086,20 @@
     },
     {
       "org": "UFC",
-      "eventName": "UFC Fight Night: Bonfim vs. Brady",
+      "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
       "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 14-fight card · main card Sun 08 Nov, 01:00 UK",
-      "homeTeam": "Sean Brady",
-      "awayTeam": "Gabriel Bonfim",
+      "homeTeam": "Johnny Walker",
+      "awayTeam": "Waldo Cortes Acosta",
       "cardTitle": null,
-      "homeLogo": "/logos/flags/usa.png",
-      "awayLogo": "/logos/flags/bra.png",
+      "homeLogo": "/logos/flags/bra.png",
+      "awayLogo": "/logos/flags/dom.png",
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Thomas Petersen v Gabriel Lorenço",
+          "weightClass": "Heavyweight"
+        },
         {
           "title": "Jonny Parsons v Jose Henrique",
           "weightClass": "Welterweight"
@@ -1551,10 +1127,6 @@
         {
           "title": "Karine Silva v Gabriella Fernandes",
           "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Gabriel Lorenço v Alvin Hines",
-          "weightClass": "Heavyweight"
         },
         {
           "title": "Andre Petroski v Mantas Kondratavičius",
@@ -1608,21 +1180,26 @@
       "source": {
         "org": "UFC",
         "espnId": "600061268",
-        "name": "UFC Fight Night: Bonfim vs. Brady",
+        "name": "UFC Fight Night: Cortes Acosta vs. Walker",
         "dateUTC": "2026-11-07T22:00Z",
         "mainCardUTC": "2026-11-08T01:00Z",
         "venue": "Meta APEX",
         "city": "Las Vegas",
         "country": "USA",
         "mainEventFighters": [
-          "Sean Brady",
-          "Gabriel Bonfim"
+          "Johnny Walker",
+          "Waldo Cortes Acosta"
         ],
         "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png"
+          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+          "https://a.espncdn.com/i/teamlogos/countries/500/dom.png"
         ],
         "bouts": [
+          {
+            "a": "Thomas Petersen",
+            "b": "Gabriel Lorenço",
+            "weightClass": "Heavyweight"
+          },
           {
             "a": "Jonny Parsons",
             "b": "Jose Henrique",
@@ -1659,11 +1236,6 @@
             "weightClass": "W Flyweight"
           },
           {
-            "a": "Gabriel Lorenço",
-            "b": "Alvin Hines",
-            "weightClass": "Heavyweight"
-          },
-          {
             "a": "Andre Petroski",
             "b": "Mantas Kondratavičius",
             "weightClass": "Middleweight"
@@ -1689,9 +1261,9 @@
             "weightClass": "W Strawweight"
           },
           {
-            "a": "Sean Brady",
-            "b": "Gabriel Bonfim",
-            "weightClass": "Welterweight"
+            "a": "Johnny Walker",
+            "b": "Waldo Cortes Acosta",
+            "weightClass": "Heavyweight"
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
@@ -1700,7 +1272,7 @@
           "Paramount+"
         ]
       },
-      "watchKey": "fights:UFC|Sean Brady|Gabriel Bonfim|2026-11-07"
+      "watchKey": "fights:UFC|Johnny Walker|Waldo Cortes Acosta|2026-11-07"
     },
     {
       "org": "MMA",
@@ -3046,6 +2618,64 @@
         ]
       },
       "watchKey": "fights:PFL|Vadim Nemkov|Sergei Bilostenniy|2026-11-14"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Carlos Adames vs Gerome Warburton",
+      "eventTag": "Boxing · Riyadh",
+      "homeTeam": "Carlos Adames",
+      "awayTeam": "Gerome Warburton",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-14T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 14 Nov, 20:00",
+      "localDate": "2026-11-14",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "Paramount+",
+              "url": "https://www.paramountplus.com/",
+              "logo": "/logos/channels/paramountplus.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-carlos-adames-vs-gerome-warburton-2026-11-14",
+        "name": "Carlos Adames vs Gerome Warburton",
+        "dateUTC": "2026-11-14T20:00:00.000Z",
+        "dateOnly": "2026-11-14",
+        "venue": null,
+        "city": "Riyadh",
+        "mainEventFighters": [
+          "Carlos Adames",
+          "Gerome Warburton"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "Paramount+"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "Paramount+",
+            "url": "https://www.paramountplus.com/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/carlos-adames-vs-gerome-warburton-2026-11-14"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/carlos-adames-vs-gerome-warburton-2026-11-14"
+      },
+      "watchKey": "fights:Boxing|Carlos Adames|Gerome Warburton|2026-11-14"
     },
     {
       "org": "UFC",
@@ -5619,6 +5249,418 @@
   "recent": [
     {
       "org": "MMA",
+      "eventName": "One Friday Fights 176",
+      "eventTag": "One Friday Fights 176 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Pedro Duarte",
+      "awayTeam": "Ethan Brockett",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Ouga Akita v Prashanth Guda",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-30T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-30",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-Friday-Fights-176-114702",
+        "name": "One Friday Fights 176",
+        "dateUTC": null,
+        "dateOnly": "2026-10-30",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-Friday-Fights-176-114702",
+        "mainEventFighters": [
+          "Pedro Duarte",
+          "Ethan Brockett"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Ouga Akita",
+            "b": "Prashanth Guda"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Pedro Duarte|Ethan Brockett|2026-10-30"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Deep: Fight Challenge 2026 3rd Round",
+      "eventTag": "Deep · The Garden Hall at Yebisu Garden Place, Meguro, Tokyo, Japan",
+      "homeTeam": "Souru Hamaguchi",
+      "awayTeam": "Sanou Yokouchi",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Sena Inoue v Rushia Yamauchi",
+          "weightClass": null
+        },
+        {
+          "title": "Isamu Kikukawa v Takuma Sasaki",
+          "weightClass": null
+        },
+        {
+          "title": "Sakyo Kajita v Mahiro Miyoshi",
+          "weightClass": null
+        },
+        {
+          "title": "Yuto Tanaka v Hikaru Yashiro",
+          "weightClass": null
+        },
+        {
+          "title": "Homare Nakagomi v Yuha Furuya",
+          "weightClass": null
+        },
+        {
+          "title": "Shohei Iwaya v Taisei Saito",
+          "weightClass": null
+        },
+        {
+          "title": "Ninniku Nakayama v Ryushin Watanabe",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-30T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-30",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Deep-Fight-Challenge-2026-3rd-Round-114588",
+        "name": "Deep: Fight Challenge 2026 3rd Round",
+        "dateUTC": null,
+        "dateOnly": "2026-10-30",
+        "venue": "The Garden Hall at Yebisu Garden Place",
+        "city": "Meguro, Tokyo, Japan",
+        "href": "/events/Deep-Fight-Challenge-2026-3rd-Round-114588",
+        "mainEventFighters": [
+          "Souru Hamaguchi",
+          "Sanou Yokouchi"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Sena Inoue",
+            "b": "Rushia Yamauchi"
+          },
+          {
+            "a": "Isamu Kikukawa",
+            "b": "Takuma Sasaki"
+          },
+          {
+            "a": "Sakyo Kajita",
+            "b": "Mahiro Miyoshi"
+          },
+          {
+            "a": "Yuto Tanaka",
+            "b": "Hikaru Yashiro"
+          },
+          {
+            "a": "Homare Nakagomi",
+            "b": "Yuha Furuya"
+          },
+          {
+            "a": "Shohei Iwaya",
+            "b": "Taisei Saito"
+          },
+          {
+            "a": "Ninniku Nakayama",
+            "b": "Ryushin Watanabe"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Souru Hamaguchi|Sanou Yokouchi|2026-10-30"
+    },
+    {
+      "org": "MMA",
+      "eventName": "LFA 245: Khamzaev vs. Prescendo",
+      "eventTag": "LFA 245 · Seneca Niagara Resort and Casino, Niagara Falls, New York, United States",
+      "homeTeam": "Khamzaev",
+      "awayTeam": "Prescendo",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Thomas Picciano v Santos Verdinez",
+          "weightClass": null
+        },
+        {
+          "title": "Alberth Bahamondes v Joey Hart",
+          "weightClass": null
+        },
+        {
+          "title": "Wildemar Souza Santos v Sharaf Davlatmurodov",
+          "weightClass": null
+        },
+        {
+          "title": "Shealor Ladd v Matthew Adams",
+          "weightClass": null
+        },
+        {
+          "title": "Lance Wright v David Wright",
+          "weightClass": null
+        },
+        {
+          "title": "Aline David v Naomie Young",
+          "weightClass": null
+        },
+        {
+          "title": "Imed Eddine Dziri v Jermaine Edwards",
+          "weightClass": null
+        },
+        {
+          "title": "Isaiah Parks v Delsin Gray",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-30T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-30",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-LFA-245-Khamzaev-vs-Prescendo-114326",
+        "name": "LFA 245: Khamzaev vs. Prescendo",
+        "dateUTC": null,
+        "dateOnly": "2026-10-30",
+        "venue": "Seneca Niagara Resort and Casino",
+        "city": "Niagara Falls, New York, United States",
+        "href": "/events/LFA-245-Khamzaev-vs-Prescendo-114326",
+        "mainEventFighters": [
+          "Khamzaev",
+          "Prescendo"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Thomas Picciano",
+            "b": "Santos Verdinez"
+          },
+          {
+            "a": "Alberth Bahamondes",
+            "b": "Joey Hart"
+          },
+          {
+            "a": "Wildemar Souza Santos",
+            "b": "Sharaf Davlatmurodov"
+          },
+          {
+            "a": "Shealor Ladd",
+            "b": "Matthew Adams"
+          },
+          {
+            "a": "Lance Wright",
+            "b": "David Wright"
+          },
+          {
+            "a": "Aline David",
+            "b": "Naomie Young"
+          },
+          {
+            "a": "Imed Eddine Dziri",
+            "b": "Jermaine Edwards"
+          },
+          {
+            "a": "Isaiah Parks",
+            "b": "Delsin Gray"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Khamzaev|Prescendo|2026-10-30"
+    },
+    {
+      "org": "MMA",
+      "eventName": "ACA 209: Frolov vs. Odilov",
+      "eventTag": "ACA 209 · Tennis Palace and Water Sports Complex, Dushanbe, Tajikistan",
+      "homeTeam": "Frolov",
+      "awayTeam": "Odilov",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Felipe Bunes v Azam Gaforov",
+          "weightClass": null
+        },
+        {
+          "title": "Bekhruz Zugurov v Viskhan Kadirov",
+          "weightClass": null
+        },
+        {
+          "title": "Kuat Khamitov v Alexey Makhno",
+          "weightClass": null
+        },
+        {
+          "title": "Firdavs Zaripov v Vagiz Ismagilov",
+          "weightClass": null
+        },
+        {
+          "title": "Alikhan Musaev v Jahongir Saidjamolov",
+          "weightClass": null
+        },
+        {
+          "title": "Khafiz Sakibekov v Nikita Podkovalnikov",
+          "weightClass": null
+        },
+        {
+          "title": "Tural Ragimov v Nashkho Galaev",
+          "weightClass": null
+        },
+        {
+          "title": "Klidson Abreu v Hamdy Abdelwahab",
+          "weightClass": null
+        },
+        {
+          "title": "Bektur Zhenishbek Uulu v Oyatullo Muminov",
+          "weightClass": null
+        },
+        {
+          "title": "Hayk Kazaryan v Eldar Munapov",
+          "weightClass": null
+        },
+        {
+          "title": "Emomakhdi Orzuzoda v Kholmurod Nurmatov",
+          "weightClass": null
+        },
+        {
+          "title": "Bakhtovar Yunusov v Saidyokub Kakhramonov",
+          "weightClass": null
+        },
+        {
+          "title": "Akhmed Khamzaev v Mustafa Ashurzoda",
+          "weightClass": null
+        },
+        {
+          "title": "Sayed Safarmamadov v Ali Mashrapov",
+          "weightClass": null
+        },
+        {
+          "title": "Nizambek Abdrashitov v Shadid Abdurzakov",
+          "weightClass": null
+        },
+        {
+          "title": "Mamurzhon Khamdamov v Ivan Soloviev",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-10-30T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-10-30",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-ACA-209-Frolov-vs-Odilov-114289",
+        "name": "ACA 209: Frolov vs. Odilov",
+        "dateUTC": null,
+        "dateOnly": "2026-10-30",
+        "venue": "Tennis Palace and Water Sports Complex",
+        "city": "Dushanbe, Tajikistan",
+        "href": "/events/ACA-209-Frolov-vs-Odilov-114289",
+        "mainEventFighters": [
+          "Frolov",
+          "Odilov"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Felipe Bunes",
+            "b": "Azam Gaforov"
+          },
+          {
+            "a": "Bekhruz Zugurov",
+            "b": "Viskhan Kadirov"
+          },
+          {
+            "a": "Kuat Khamitov",
+            "b": "Alexey Makhno"
+          },
+          {
+            "a": "Firdavs Zaripov",
+            "b": "Vagiz Ismagilov"
+          },
+          {
+            "a": "Alikhan Musaev",
+            "b": "Jahongir Saidjamolov"
+          },
+          {
+            "a": "Khafiz Sakibekov",
+            "b": "Nikita Podkovalnikov"
+          },
+          {
+            "a": "Tural Ragimov",
+            "b": "Nashkho Galaev"
+          },
+          {
+            "a": "Klidson Abreu",
+            "b": "Hamdy Abdelwahab"
+          },
+          {
+            "a": "Bektur Zhenishbek Uulu",
+            "b": "Oyatullo Muminov"
+          },
+          {
+            "a": "Hayk Kazaryan",
+            "b": "Eldar Munapov"
+          },
+          {
+            "a": "Emomakhdi Orzuzoda",
+            "b": "Kholmurod Nurmatov"
+          },
+          {
+            "a": "Bakhtovar Yunusov",
+            "b": "Saidyokub Kakhramonov"
+          },
+          {
+            "a": "Akhmed Khamzaev",
+            "b": "Mustafa Ashurzoda"
+          },
+          {
+            "a": "Sayed Safarmamadov",
+            "b": "Ali Mashrapov"
+          },
+          {
+            "a": "Nizambek Abdrashitov",
+            "b": "Shadid Abdurzakov"
+          },
+          {
+            "a": "Mamurzhon Khamdamov",
+            "b": "Ivan Soloviev"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Frolov|Odilov|2026-10-30"
+    },
+    {
+      "org": "MMA",
       "eventName": "Fury FC: Amateur Series 62",
       "eventTag": "Fury FC · Imagen Venues Escapade 2001, Houston, Texas, United States",
       "homeTeam": "Jaden MacKinnon",
@@ -6934,347 +6976,9 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/daniel-dubois-vs-fabio-wardley-2026-10-17"
       },
       "watchKey": "fights:Boxing|Daniel Dubois|Fabio Wardley|2026-10-17"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Friday Fights 175",
-      "eventTag": "One Friday Fights 175 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Sanjaya Hutagaol",
-      "awayTeam": "Javier Cabrera",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Yuto Shioya v Ashok Bagade",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-16T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-16",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-Friday-Fights-175-114701",
-        "name": "One Friday Fights 175",
-        "dateUTC": null,
-        "dateOnly": "2026-10-16",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-Friday-Fights-175-114701",
-        "mainEventFighters": [
-          "Sanjaya Hutagaol",
-          "Javier Cabrera"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Yuto Shioya",
-            "b": "Ashok Bagade"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Sanjaya Hutagaol|Javier Cabrera|2026-10-16"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Kevin Anton-Freudis Rojas",
-      "eventTag": "Boxing · Rawhide Western Town & Event Center, Phoenix, Arizona",
-      "homeTeam": "Kevin Anton",
-      "awayTeam": "Freudis Rojas",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Justin Pauldo v Rene Tellez Giron",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/0a7212484b1eeb6fa345.webp",
-        "attribution": "ProBoxTV"
-      },
-      "kickoffUTC": "2026-10-16T23:30:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 17 Oct, 00:30",
-      "localDate": "2026-10-17",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "Listed by source",
-          "channels": [
-            {
-              "name": "ProBox TV",
-              "url": "https://www.proboxtv.com/",
-              "logo": "/logos/channels/proboxtv.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "kevin-anton-yan-marcos",
-        "name": "Kevin Anton-Freudis Rojas",
-        "dateUTC": "2026-10-16T23:30:00.000Z",
-        "dateOnly": "2026-10-16",
-        "venue": "Rawhide Western Town & Event Center",
-        "city": "Phoenix, Arizona",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/kevinantonfreudisrojasartwork.webp",
-        "posterAttribution": "ProBoxTV",
-        "mainEventFighters": [
-          "Kevin Anton",
-          "Freudis Rojas"
-        ],
-        "bouts": [
-          {
-            "a": "Joshua Kevin Anton",
-            "b": "Freudis Rojas"
-          },
-          {
-            "a": "Justin Pauldo",
-            "b": "Rene Tellez Giron"
-          }
-        ],
-        "broadcasts": [
-          "ProBox TV"
-        ]
-      },
-      "watchKey": "fights:Boxing|Kevin Anton|Freudis Rojas|2026-10-17"
-    },
-    {
-      "org": "PFL",
-      "eventName": "PFL Chicago: Carmouche vs. Bishop 2",
-      "eventTag": "PFL Chicago · Wintrust Arena, Chicago · 13-fight card · main card Sat 17 Oct, 04:00 UK",
-      "homeTeam": "Liz Carmouche",
-      "awayTeam": "Jena Bishop",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/usa.png",
-      "awayLogo": "/logos/flags/usa.png",
-      "orgName": "PFL",
-      "orgLogo": "/logos/orgs/pfl.png",
-      "undercard": [
-        {
-          "title": "Noah Hermosillo v Caden Cox",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Chelsea Hackett v Paulina Wisniewska",
-          "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Levan Khabalaev v Brock Hamer",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Cobey Fehr v Rosario Romero",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Gamid Khizriev v Michael Boylan",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Lucero Acosta v Shannon Clark",
-          "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Kevin Pease v Cássio Barão",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Emiliano Sordi v Abraham Bably",
-          "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Trey Waters v Eliezer Kubanza",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "J.P. Saint Louis v Oualy Tandia",
-          "weightClass": "Catchweight"
-        },
-        {
-          "title": "Sarvarjon Khamidov v Rafael do Nascimento",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Timur Khizriev v Gabriel Braga",
-          "weightClass": "Featherweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-16T22:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Fri 16 Oct, 23:00",
-      "localDate": "2026-10-16",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "ESPN+",
-              "url": "https://plus.espn.com/",
-              "logo": "/logos/channels/espn.com.png"
-            },
-            {
-              "name": "ESPN2",
-              "url": null,
-              "logo": "/logos/channels/espn.com.png"
-            }
-          ]
-        },
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "PFL",
-        "espnId": "600061331",
-        "name": "PFL Chicago: Carmouche vs. Bishop 2",
-        "dateUTC": "2026-10-16T22:00Z",
-        "mainCardUTC": "2026-10-17T03:00Z",
-        "venue": "Wintrust Arena",
-        "city": "Chicago",
-        "country": "USA",
-        "mainEventFighters": [
-          "Liz Carmouche",
-          "Jena Bishop"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
-        ],
-        "bouts": [
-          {
-            "a": "Noah Hermosillo",
-            "b": "Caden Cox",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Chelsea Hackett",
-            "b": "Paulina Wisniewska",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Levan Khabalaev",
-            "b": "Brock Hamer",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Cobey Fehr",
-            "b": "Rosario Romero",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Gamid Khizriev",
-            "b": "Michael Boylan",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Lucero Acosta",
-            "b": "Shannon Clark",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Kevin Pease",
-            "b": "Cássio Barão",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Emiliano Sordi",
-            "b": "Abraham Bably",
-            "weightClass": "Light Heavyweight"
-          },
-          {
-            "a": "Trey Waters",
-            "b": "Eliezer Kubanza",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "J.P. Saint Louis",
-            "b": "Oualy Tandia",
-            "weightClass": "Catchweight"
-          },
-          {
-            "a": "Sarvarjon Khamidov",
-            "b": "Rafael do Nascimento",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Timur Khizriev",
-            "b": "Gabriel Braga",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Liz Carmouche",
-            "b": "Jena Bishop",
-            "weightClass": "W Flyweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/pfl.png",
-        "boutCount": 13,
-        "broadcasts": [
-          "ESPN+",
-          "ESPN2"
-        ]
-      },
-      "watchKey": "fights:PFL|Liz Carmouche|Jena Bishop|2026-10-16"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-10-31T05:00:00.000Z",
-      "endsAtUTC": "2026-10-31T06:00:00.000Z",
-      "timeUK": "Sat 31 Oct, 05:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Volkanovski v Holloway 3",
-      "sublabel": "UFC Main Events"
-    },
-    {
-      "airTimeUTC": "2026-10-31T06:00:00.000Z",
-      "endsAtUTC": "2026-10-31T07:00:00.000Z",
-      "timeUK": "Sat 31 Oct, 06:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Namajunas v Zhang 2",
-      "sublabel": "UFC Main Events"
-    },
-    {
-      "airTimeUTC": "2026-10-31T07:00:00.000Z",
-      "endsAtUTC": "2026-10-31T10:00:00.000Z",
-      "timeUK": "Sat 31 Oct, 07:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 270: Ngannou v Gane",
-      "sublabel": "UFC Reloaded"
-    },
     {
       "airTimeUTC": "2026-10-31T22:00:00.000Z",
       "endsAtUTC": "2026-11-01T02:00:00.000Z",
@@ -7324,6 +7028,18 @@
       "market": "Canada",
       "label": "Herring v Dodson",
       "sublabel": "BKFC 95, Newark: Herring vs. Dodson"
+    },
+    {
+      "airTimeUTC": "2026-11-01T20:00:00.000Z",
+      "endsAtUTC": "2026-11-01T22:30:00.000Z",
+      "timeUK": "Sun 01 Nov, 20:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Bellator 192: Goiti Yamauchi v Michael Chandler",
+      "sublabel": "Bellator MMA"
     },
     {
       "airTimeUTC": "2026-11-03T03:30:00.000Z",

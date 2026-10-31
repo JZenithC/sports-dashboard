@@ -1,5 +1,34 @@
 [
   {
+    "timestamp": "2026-10-31T16:22:26.870Z",
+    "totalEvents": 34,
+    "added": [
+      "Vitória vs Fluminense (Campeonato Brasileiro Série A) — Fri 06 Nov, 20:00",
+      "Necaxa vs Tijuana (Liga MX) — Fri 06 Nov, 19:00",
+      "Atlante vs Santos Laguna (Liga MX) — Fri 06 Nov, 21:00",
+      "Atlético San Luis vs FC Juárez (Liga MX) — Fri 06 Nov, 22:00"
+    ],
+    "removed": [
+      "Huracán vs Tigre (Liga Profesional de Fútbol) — Fri 30 Oct, 19:00",
+      "Estudiantes de Río Cuarto vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Fri 30 Oct, 19:00",
+      "Corinthians vs Mirassol (Campeonato Brasileiro Série A) — Fri 30 Oct, 20:00",
+      "Racing Club vs Aldosivi (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15",
+      "Sarmiento de Junín vs Rosario Central (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15",
+      "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 19:00",
+      "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00",
+      "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 22:00"
+    ],
+    "channelsChanged": [
+      "Boca Juniors vs River Plate (Liga Profesional de Fútbol) — Sun 01 Nov, 15:00: [DISNEY+, Disney+ Premium, ESPN 3, ESPN Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 16:00: [(CHARLA), Amazon Prime Video (Ver en vivo), DGO, DSports 2 (612/1612), Disney+ Premium, ESPN 2, GE TV, GLOBO, Globo Internacional, PREMIERE 2, PREMIERE 2, PREMIERE FC, PRIME VIDEO, Paramount+, SPORTV]",
+      "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 18:30: [Amazon Prime Video (Ver en vivo), DGO, DSports 2 (612/1612), Disney+ Premium, ESPN 4, PREMIERE FC, PRIME VIDEO, Paramount+, SPORTV]",
+      "Newells Old Boys vs Union Santa Fe (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Globo Internacional]",
+      "Palmeiras vs Remo (Campeonato Brasileiro Série A) — Thu 05 Nov, 19:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]",
+      "Cruzeiro vs Bahía (Campeonato Brasileiro Série A) — Thu 05 Nov, 21:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]"
+    ]
+  },
+  {
     "timestamp": "2026-10-30T17:13:51.809Z",
     "totalEvents": 38,
     "added": [
@@ -118,37 +147,6 @@
       "Pachuca vs Tigres UANL (Liga MX) — Sat 31 Oct, 17:00: [FOX One, FOX+]",
       "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 16:00: [DGO, Disney+ Premium, ESPN 2, Globo Internacional]",
       "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 18:30: [DGO, Disney+ Premium, ESPN 4]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-26T17:42:02.787Z",
-    "totalEvents": 32,
-    "added": [
-      "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 14:00",
-      "Boca Juniors vs River Plate (Liga Profesional de Fútbol) — Sun 01 Nov, 15:00",
-      "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 16:30",
-      "Belgrano (Córdoba) vs Barracas Central (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30",
-      "Newell's Old Boys vs Unión Santa Fe (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30",
-      "Santos Laguna vs Necaxa (Liga MX) — Sun 01 Nov, 17:00",
-      "Lanús vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 01 Nov, 20:45",
-      "Cruz Azul vs Club León (Liga MX) — Sun 01 Nov, 19:00"
-    ],
-    "removed": [
-      "Aldosivi vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 25 Oct, 14:45",
-      "Independiente vs Boca Juniors (Liga Profesional de Fútbol) — Sun 25 Oct, 17:00",
-      "River Plate vs Racing Club (Liga Profesional de Fútbol) — Sun 25 Oct, 19:15",
-      "Atlas vs Puebla (Liga MX) — Sun 25 Oct, 17:00",
-      "Barracas Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sun 25 Oct, 21:30",
-      "Central Córdoba (Santiago del Estero) vs Velez Sarsfield (Liga Profesional de Fútbol) — Sun 25 Oct, 21:30",
-      "Querétaro vs Cruz Azul (Liga MX) — Sun 25 Oct, 19:00",
-      "América vs Pachuca (Liga MX) — Sun 25 Oct, 19:05",
-      "Tijuana vs Santos Laguna (Liga MX) — Sun 25 Oct, 21:10"
-    ],
-    "channelsChanged": [
-      "Coritiba vs Grêmio (Campeonato Brasileiro Série A) — Mon 26 Oct, 19:30: [(CHARLA), PREMIERE 2, PREMIERE 3]",
-      "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 19:00: [Azteca 7, FOX One]",
-      "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00: [Azteca 7, Disney+ Premium, ESPN 2]",
-      "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 22:00: [Disney+ Premium, ESPN 2, ViX Premium]"
     ]
   }
 ]
