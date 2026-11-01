@@ -1,5 +1,33 @@
 [
   {
+    "timestamp": "2026-11-01T17:18:11.229Z",
+    "totalEvents": 30,
+    "added": [
+      "Atlético Mineiro vs Grêmio (Copa do Brasil) — Sat 07 Nov, 18:00",
+      "Atlas vs Pachuca (Liga MX) — Sat 07 Nov, 17:00",
+      "Tigres UANL vs Cruz Azul (Liga MX) — Sat 07 Nov, 17:00",
+      "Toluca vs Monterrey (Liga MX) — Sat 07 Nov, 19:00",
+      "Pumas UNAM vs América (Liga MX) — Sat 07 Nov, 21:00"
+    ],
+    "removed": [
+      "Defensa Y Justicia vs Independiente (Liga Profesional de Fútbol) — Sat 31 Oct, 14:45",
+      "Coritiba vs Vitória (Campeonato Brasileiro Série A) — Sat 31 Oct, 16:00",
+      "Deportivo Riestra vs Talleres de Córdoba (Liga Profesional de Fútbol) — Sat 31 Oct, 17:00",
+      "Vélez Sarsfield vs San Lorenzo (Liga Profesional de Fútbol) — Sat 31 Oct, 19:15",
+      "Pachuca vs Tigres UANL (Liga MX) — Sat 31 Oct, 17:00",
+      "Estudiantes de La Plata vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Sat 31 Oct, 21:30",
+      "Monterrey vs Tijuana (Liga MX) — Sat 31 Oct, 19:00",
+      "Chivas Guadalajara vs Atlante (Liga MX) — Sat 31 Oct, 19:07",
+      "América vs Toluca (Liga MX) — Sat 31 Oct, 21:00"
+    ],
+    "channelsChanged": [
+      "Boca Juniors vs River Plate (Liga Profesional de Fútbol) — Sun 01 Nov, 15:00: [Disney+ Premium, ESPN 3, ESPN Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 16:00: [Amazon Prime Video (Ver en vivo), DGO, DSports 2 (612/1612), Disney+ Premium, ESPN 2, Globo Internacional, Paramount+]",
+      "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 18:30: [Amazon Prime Video (Ver en vivo), DGO, DSports 2 (612/1612), Disney+ Premium, ESPN 4, Paramount+]",
+      "Newell's Old Boys vs Unión Santa Fe (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]"
+    ]
+  },
+  {
     "timestamp": "2026-10-31T16:22:26.870Z",
     "totalEvents": 34,
     "added": [
@@ -117,36 +145,6 @@
       "Cruz Azul vs Club León (Liga MX) — Sun 01 Nov, 19:00: [Canal 5, TUDN, ViX Premium]",
       "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00: [ESPN Premium, Fanatiz (Míralo en vivo)]",
       "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15: [ESPN Premium, Fanatiz (Míralo en vivo)]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-27T16:54:34.522Z",
-    "totalEvents": 37,
-    "added": [
-      "Red Bull Bragantino vs Chapecoense (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-      "Fluminense vs Internacional (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-      "Santos vs Palmeiras (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-      "Bahia vs São Paulo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
-      "Atlético Mineiro vs Cruzeiro (Campeonato Brasileiro Série A) — Thu 29 Oct, 19:30",
-      "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
-      "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
-      "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15",
-      "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15"
-    ],
-    "removed": [
-      "Union Santa Fe vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Mon 26 Oct, 19:00",
-      "Coritiba vs Grêmio (Campeonato Brasileiro Série A) — Mon 26 Oct, 19:30",
-      "Flamengo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Mon 26 Oct, 20:00",
-      "Instituto (Córdoba) vs Deportivo Riestra (Liga Profesional de Fútbol) — Mon 26 Oct, 21:15"
-    ],
-    "channelsChanged": [
-      "Remo vs Botafogo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30: [GLOBO, Globo Internacional, PREMIERE 3]",
-      "Vasco da Gama vs Flamengo (Campeonato Brasileiro Série A) — Thu 29 Oct, 20:00: [Azteca Deportes App, Azteca Deportes Network, Fanatiz YouTube, Flow Sports 2]",
-      "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX One, FOX+]",
-      "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, ESPN 2]",
-      "Pachuca vs Tigres UANL (Liga MX) — Sat 31 Oct, 17:00: [FOX One, FOX+]",
-      "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 16:00: [DGO, Disney+ Premium, ESPN 2, Globo Internacional]",
-      "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 18:30: [DGO, Disney+ Premium, ESPN 4]"
     ]
   }
 ]
