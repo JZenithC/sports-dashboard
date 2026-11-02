@@ -1,7 +1,47 @@
 {
-  "generatedAt": "2026-11-01T17:19:33.892Z",
+  "generatedAt": "2026-11-02T20:59:22.194Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-02T20:57:25.713Z",
+        "totalEvents": 40,
+        "added": [
+          "Vasco da Gama vs Palmeiras (Copa do Brasil) — Sun 08 Nov, 17:00",
+          "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Independiente vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "San Lorenzo vs Platense (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Tigre vs Sarmiento de Junín (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Unión Santa Fe vs Vélez Sarsfield (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Gimnasia y Esgrima La Plata vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Banfield vs Atlético Tucumán (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Aldosivi vs River Plate (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Barracas Central vs Racing Club (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Querétaro vs Puebla (Liga MX) — Sun 08 Nov, 18:00",
+          "Club León vs Chivas Guadalajara (Liga MX) — Sun 08 Nov, 20:00"
+        ],
+        "removed": [
+          "Boca Juniors vs River Plate (Liga Profesional de Fútbol) — Sun 01 Nov, 15:00",
+          "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 16:00",
+          "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 18:30",
+          "Belgrano (Córdoba) vs Barracas Central (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30",
+          "Newell's Old Boys vs Unión Santa Fe (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30",
+          "Santos Laguna vs Necaxa (Liga MX) — Sun 01 Nov, 17:00",
+          "Lanús vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 01 Nov, 20:45",
+          "Cruz Azul vs Club León (Liga MX) — Sun 01 Nov, 19:10"
+        ],
+        "channelsChanged": [
+          "Tigres UANL vs Cruz Azul (Liga MX) — Sat 07 Nov, 17:00: [Azteca 7, FOX, FOX One]",
+          "Toluca vs Monterrey (Liga MX) — Sat 07 Nov, 19:00: [Canal 5, TUDN, ViX Premium]",
+          "Pumas UNAM vs América (Liga MX) — Sat 07 Nov, 21:00: [Canal 5, TUDN, ViX Premium]"
+        ],
+        "total": 40
+      },
       {
         "timestamp": "2026-11-01T17:18:11.229Z",
         "totalEvents": 30,
@@ -587,34 +627,16 @@
           "Santos Laguna vs Querétaro (Liga MX) — Sat 17 Oct, 17:00: [Disney+ Premium, ESPN, ESPN 2, Layvtime, Layvtime YouTube, ViX Premium]"
         ],
         "total": 37
-      },
-      {
-        "timestamp": "2026-10-13T18:33:54.903Z",
-        "totalEvents": 34,
-        "added": [
-          "Newell's Old Boys vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
-          "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
-          "Deportivo Riestra vs Unión Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15"
-        ],
-        "removed": [
-          "Gimnasia y Esgrima de Mendoza vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 12 Oct, 18:30",
-          "Chapecoense vs Athletico Paranaense (Campeonato Brasileiro Série A) — Mon 12 Oct, 19:30",
-          "Red Bull Bragantino vs Cruzeiro (Campeonato Brasileiro Série A) — Mon 12 Oct, 21:00"
-        ],
-        "channelsChanged": [
-          "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Wed 14 Oct, 19:00: [DISNEY+, Disney+ Premium, TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Fluminense vs Palmeiras (CONMEBOL Libertadores) — Wed 14 Oct, 21:30: [Disney+ Premium, ESPN, FOX Sports, PARAMOUNT+]",
-          "Necaxa vs Atlas (Liga MX) — Fri 16 Oct, 19:00: [FOX One, FOX+]",
-          "Tijuana vs Puebla (Liga MX) — Fri 16 Oct, 21:00: [FOX One, FOX+]",
-          "Toluca vs Atlético San Luis (Liga MX) — Sat 17 Oct, 19:00: [Canal 5, TUDN, ViX Premium]",
-          "Club León vs América (Liga MX) — Sat 17 Oct, 19:00: [FOX One, FOX+]",
-          "Cruz Azul vs FC Juárez (Liga MX) — Sat 17 Oct, 21:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
-          "Fluminense vs Santos (Campeonato Brasileiro Série A) — Sun 18 Oct, 16:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Globo Internacional]"
-        ],
-        "total": 34
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-02T20:58:00.522Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-01T17:18:44.567Z",
         "total": 0,
@@ -800,22 +822,22 @@
           "Cleveland Guardians @ Tampa Bay Rays (2026-10-13)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-13T18:34:46.289Z",
-        "total": 10,
-        "added": [
-          "Cleveland Guardians @ Tampa Bay Rays (2026-10-19)",
-          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-19)"
-        ],
-        "removed": [
-          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-12)",
-          "Cleveland Guardians @ Tampa Bay Rays (2026-10-12)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-02T20:59:22.194Z",
+        "total": 57,
+        "added": [
+          "ONE Samurai 6 (2026-12-02)",
+          "Adam Azim vs Gabriel Gollaz Valenzuela (2026-12-04)",
+          "UFC 336: Van vs. Kape (2027-01-30)"
+        ],
+        "removed": [],
+        "channelsChanged": [
+          "Chris Billam-Smith vs Cheavon Clarke (2026-11-07): [Paramount+, Sky Sports Main Event]"
+        ]
+      },
       {
         "timestamp": "2026-11-01T17:19:33.892Z",
         "total": 54,
@@ -1069,17 +1091,6 @@
         "added": [],
         "removed": [
           "Dana White's Contender Series: Season 10, Week 10 (2026-10-14)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-13T18:35:42.008Z",
-        "total": 54,
-        "added": [
-          "One Friday Fights 178 (2026-11-13)"
-        ],
-        "removed": [
-          "Deep: Hamamatsu Impact 2026 2nd Round (2026-10-12)"
         ],
         "channelsChanged": []
       }

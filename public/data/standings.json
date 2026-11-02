@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T17:18:13.180Z",
+  "generatedAt": "2026-11-02T20:57:27.649Z",
   "tables": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -2331,7 +2331,7 @@
                 "atletico mineiro",
                 "gremio"
               ],
-              "leg1Score": null,
+              "leg1Score": "2-0",
               "leg2Date": "2026-11-07",
               "leg2Score": null,
               "aggregate": null,
@@ -2344,7 +2344,7 @@
                 "palmeiras",
                 "vasco gama"
               ],
-              "leg1Score": null,
+              "leg1Score": "1-0",
               "leg2Date": "2026-11-08",
               "leg2Score": null,
               "aggregate": null,

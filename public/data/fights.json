@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T17:19:33.891Z",
+  "generatedAt": "2026-11-02T20:59:22.193Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -123,7 +123,12 @@
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Chayut Rojanakat v Kentaro Okumura",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-11-06T23:59:00Z",
       "kickoffLocal": null,
@@ -145,7 +150,12 @@
           "Tye Ruotolo"
         ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Chayut Rojanakat",
+            "b": "Kentaro Okumura"
+          }
+        ]
       },
       "watchKey": "fights:MMA|Christian Lee|Tye Ruotolo|2026-11-06"
     },
@@ -453,6 +463,11 @@
               "name": "Paramount+",
               "url": "https://www.paramountplus.com/",
               "logo": "/logos/channels/paramountplus.com.png"
+            },
+            {
+              "name": "Sky Sports Main Event",
+              "url": "https://www.skysports.com/",
+              "logo": "/logos/channels/skysports.com.png"
             }
           ]
         }
@@ -471,7 +486,8 @@
         ],
         "bouts": [],
         "broadcasts": [
-          "Paramount+"
+          "Paramount+",
+          "Sky Sports Main Event"
         ],
         "broadcastMarkets": [
           {
@@ -479,6 +495,10 @@
             "name": "Paramount+",
             "url": "https://www.paramountplus.com/",
             "sourceUrl": "https://globalboxingnews.co.uk/events/chris-billam-smith-vs-cheavon-clarke-2026-11-07"
+          },
+          {
+            "market": "UK",
+            "name": "Sky Sports Main Event"
           }
         ],
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/chris-billam-smith-vs-cheavon-clarke-2026-11-07"
@@ -1125,7 +1145,83 @@
           "weightClass": null
         },
         {
-          "title": "Justin Longoria v Cleveland McLean",
+          "title": "Justin Longoria v Nick Piccininni",
+          "weightClass": null
+        },
+        {
+          "title": "Darius Parker v Antonio Andrade",
+          "weightClass": null
+        },
+        {
+          "title": "Cameron Smotherman v German Orpineda Ponce",
+          "weightClass": null
+        },
+        {
+          "title": "Anthony Toro v Jeremy Alba",
+          "weightClass": null
+        },
+        {
+          "title": "Miles Banks v Austin Green",
+          "weightClass": null
+        },
+        {
+          "title": "Sebastian Rodriguez v Drake Flores",
+          "weightClass": null
+        },
+        {
+          "title": "Eduardo Gonzalez-Ayala v Griffin Thomas",
+          "weightClass": null
+        },
+        {
+          "title": "Nicholas Martinez v Damian Deleon",
+          "weightClass": null
+        },
+        {
+          "title": "Juan Francisco Morote v Jacob Estevez",
+          "weightClass": null
+        },
+        {
+          "title": "Amisadai Sepulveda v Ethan Aflleje",
+          "weightClass": null
+        },
+        {
+          "title": "Austin Heinz v Drake Lopez",
+          "weightClass": null
+        },
+        {
+          "title": "Carlos Jimenez v Marcelo Reyes",
+          "weightClass": null
+        },
+        {
+          "title": "Tyler Zakula v Benton Mitchell",
+          "weightClass": null
+        },
+        {
+          "title": "Jaden Nguyen v Edgar Vasquez",
+          "weightClass": null
+        },
+        {
+          "title": "Eduardo Gonzales v Devin Aguilar",
+          "weightClass": null
+        },
+        {
+          "title": "Ibraheem Khan v Richard Thomas",
+          "weightClass": null
+        },
+        {
+          "title": "Chase Sophus v Omar Garza",
+          "weightClass": null
+        },
+        {
+          "title": "Gerald Crawford v Berihu Box",
+          "weightClass": null
+        },
+        {
+          "title": "Josephat Betanzos v Braylon Hall",
+          "weightClass": null
+        },
+        {
+          "title": "Ethan Lafferty v Devon Mora",
           "weightClass": null
         }
       ],
@@ -1157,7 +1253,83 @@
           },
           {
             "a": "Justin Longoria",
-            "b": "Cleveland McLean"
+            "b": "Nick Piccininni"
+          },
+          {
+            "a": "Darius Parker",
+            "b": "Antonio Andrade"
+          },
+          {
+            "a": "Cameron Smotherman",
+            "b": "German Orpineda Ponce"
+          },
+          {
+            "a": "Anthony Toro",
+            "b": "Jeremy Alba"
+          },
+          {
+            "a": "Miles Banks",
+            "b": "Austin Green"
+          },
+          {
+            "a": "Sebastian Rodriguez",
+            "b": "Drake Flores"
+          },
+          {
+            "a": "Eduardo Gonzalez-Ayala",
+            "b": "Griffin Thomas"
+          },
+          {
+            "a": "Nicholas Martinez",
+            "b": "Damian Deleon"
+          },
+          {
+            "a": "Juan Francisco Morote",
+            "b": "Jacob Estevez"
+          },
+          {
+            "a": "Amisadai Sepulveda",
+            "b": "Ethan Aflleje"
+          },
+          {
+            "a": "Austin Heinz",
+            "b": "Drake Lopez"
+          },
+          {
+            "a": "Carlos Jimenez",
+            "b": "Marcelo Reyes"
+          },
+          {
+            "a": "Tyler Zakula",
+            "b": "Benton Mitchell"
+          },
+          {
+            "a": "Jaden Nguyen",
+            "b": "Edgar Vasquez"
+          },
+          {
+            "a": "Eduardo Gonzales",
+            "b": "Devin Aguilar"
+          },
+          {
+            "a": "Ibraheem Khan",
+            "b": "Richard Thomas"
+          },
+          {
+            "a": "Chase Sophus",
+            "b": "Omar Garza"
+          },
+          {
+            "a": "Gerald Crawford",
+            "b": "Berihu Box"
+          },
+          {
+            "a": "Josephat Betanzos",
+            "b": "Braylon Hall"
+          },
+          {
+            "a": "Ethan Lafferty",
+            "b": "Devon Mora"
           }
         ]
       },
@@ -1526,11 +1698,11 @@
           "weightClass": null
         },
         {
-          "title": "Karol Rysavy v Samuel Bark",
+          "title": "Justin Detzel v Kacper Fratczak",
           "weightClass": null
         },
         {
-          "title": "Jan Holzer v Jan Svagerko",
+          "title": "Karol Rysavy v Samuel Bark",
           "weightClass": null
         },
         {
@@ -1542,7 +1714,23 @@
           "weightClass": null
         },
         {
-          "title": "Justin Detzel v Kacper Fratczak",
+          "title": "Jan Holzer v Jan Svagerko",
+          "weightClass": null
+        },
+        {
+          "title": "Islam Djabrailov v Kenji Bortoluzzi",
+          "weightClass": null
+        },
+        {
+          "title": "Josefine Lindgren Knutsson v Yasmin Guimaraes",
+          "weightClass": null
+        },
+        {
+          "title": "Matheus Severino v Abdul Karim Badakhshi",
+          "weightClass": null
+        },
+        {
+          "title": "Kathrin Haberle v Thais Vasconcelos",
           "weightClass": null
         }
       ],
@@ -1577,12 +1765,12 @@
             "b": "Denis Frimpong"
           },
           {
-            "a": "Karol Rysavy",
-            "b": "Samuel Bark"
+            "a": "Justin Detzel",
+            "b": "Kacper Fratczak"
           },
           {
-            "a": "Jan Holzer",
-            "b": "Jan Svagerko"
+            "a": "Karol Rysavy",
+            "b": "Samuel Bark"
           },
           {
             "a": "Daniel Makin",
@@ -1593,8 +1781,24 @@
             "b": "Jonatan Kujawa"
           },
           {
-            "a": "Justin Detzel",
-            "b": "Kacper Fratczak"
+            "a": "Jan Holzer",
+            "b": "Jan Svagerko"
+          },
+          {
+            "a": "Islam Djabrailov",
+            "b": "Kenji Bortoluzzi"
+          },
+          {
+            "a": "Josefine Lindgren Knutsson",
+            "b": "Yasmin Guimaraes"
+          },
+          {
+            "a": "Matheus Severino",
+            "b": "Abdul Karim Badakhshi"
+          },
+          {
+            "a": "Kathrin Haberle",
+            "b": "Thais Vasconcelos"
           }
         ]
       },
@@ -2616,6 +2820,10 @@
         {
           "title": "Sarah Moussaddak v Dina da Silva Barbosa",
           "weightClass": null
+        },
+        {
+          "title": "Lamp Toure v Valeriu Asaftei",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -2659,6 +2867,10 @@
           {
             "a": "Sarah Moussaddak",
             "b": "Dina da Silva Barbosa"
+          },
+          {
+            "a": "Lamp Toure",
+            "b": "Valeriu Asaftei"
           }
         ]
       },
@@ -2682,6 +2894,50 @@
         },
         {
           "title": "Kenneth Thomas v Billy Adams",
+          "weightClass": null
+        },
+        {
+          "title": "Jeremy Strobel Jr. v Majai Coubles",
+          "weightClass": null
+        },
+        {
+          "title": "Karla Torres v Cara Greenwell",
+          "weightClass": null
+        },
+        {
+          "title": "Merrick Nicholas v Carlos Martinez",
+          "weightClass": null
+        },
+        {
+          "title": "Lucas Valente v Justice Lamperez",
+          "weightClass": null
+        },
+        {
+          "title": "Dayron Vasquez v Shane Wright",
+          "weightClass": null
+        },
+        {
+          "title": "Dominick Perez v Americo Garcia",
+          "weightClass": null
+        },
+        {
+          "title": "Ashley Maziol v Alexandra Carlson",
+          "weightClass": null
+        },
+        {
+          "title": "Jordan Plutin v Corey Flores",
+          "weightClass": null
+        },
+        {
+          "title": "Michael Capone v Cameron Veales",
+          "weightClass": null
+        },
+        {
+          "title": "Patrick Hutton v Jackson Nwokeoma",
+          "weightClass": null
+        },
+        {
+          "title": "Justin Hoffart v Evian Rodriguez",
           "weightClass": null
         }
       ],
@@ -2714,6 +2970,50 @@
           {
             "a": "Kenneth Thomas",
             "b": "Billy Adams"
+          },
+          {
+            "a": "Jeremy Strobel Jr.",
+            "b": "Majai Coubles"
+          },
+          {
+            "a": "Karla Torres",
+            "b": "Cara Greenwell"
+          },
+          {
+            "a": "Merrick Nicholas",
+            "b": "Carlos Martinez"
+          },
+          {
+            "a": "Lucas Valente",
+            "b": "Justice Lamperez"
+          },
+          {
+            "a": "Dayron Vasquez",
+            "b": "Shane Wright"
+          },
+          {
+            "a": "Dominick Perez",
+            "b": "Americo Garcia"
+          },
+          {
+            "a": "Ashley Maziol",
+            "b": "Alexandra Carlson"
+          },
+          {
+            "a": "Jordan Plutin",
+            "b": "Corey Flores"
+          },
+          {
+            "a": "Michael Capone",
+            "b": "Cameron Veales"
+          },
+          {
+            "a": "Patrick Hutton",
+            "b": "Jackson Nwokeoma"
+          },
+          {
+            "a": "Justin Hoffart",
+            "b": "Evian Rodriguez"
           }
         ]
       },
@@ -3236,6 +3536,10 @@
           "weightClass": null
         },
         {
+          "title": "Alain Van De Merckt v Szymon Herrmann",
+          "weightClass": null
+        },
+        {
           "title": "Wojciech Kawa v Oleksandr Moisa",
           "weightClass": null
         },
@@ -3281,6 +3585,10 @@
           {
             "a": "Artur Szczepaniak",
             "b": "Michal Hir"
+          },
+          {
+            "a": "Alain Van De Merckt",
+            "b": "Szymon Herrmann"
           },
           {
             "a": "Wojciech Kawa",
@@ -3813,6 +4121,101 @@
         ]
       },
       "watchKey": "fights:MMA|Marcel de Souza|Makoa Cooper|2026-11-29"
+    },
+    {
+      "org": "MMA",
+      "eventName": "ONE Samurai 6",
+      "eventTag": "ONE Samurai 6 · Yokohama Buntai, Yokohama, Kanagawa, Japan",
+      "homeTeam": "Chihiro Sawada",
+      "awayTeam": "Anastasia Nikolakakos",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-02T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-02",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-ONE-Samurai-6-114889",
+        "name": "ONE Samurai 6",
+        "dateUTC": null,
+        "dateOnly": "2026-12-02",
+        "venue": "Yokohama Buntai",
+        "city": "Yokohama, Kanagawa, Japan",
+        "href": "/events/One-Championship-ONE-Samurai-6-114889",
+        "mainEventFighters": [
+          "Chihiro Sawada",
+          "Anastasia Nikolakakos"
+        ],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|Chihiro Sawada|Anastasia Nikolakakos|2026-12-02"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Adam Azim vs Gabriel Gollaz Valenzuela",
+      "eventTag": "Boxing · London",
+      "homeTeam": "Adam Azim",
+      "awayTeam": "Gabriel Gollaz Valenzuela",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-04T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Fri 04 Dec, 20:00",
+      "localDate": "2026-12-04",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-adam-azim-vs-gabriel-gollaz-valenzuela-2026-12-04",
+        "name": "Adam Azim vs Gabriel Gollaz Valenzuela",
+        "dateUTC": "2026-12-04T20:00:00.000Z",
+        "dateOnly": "2026-12-04",
+        "venue": null,
+        "city": "London",
+        "mainEventFighters": [
+          "Adam Azim",
+          "Gabriel Gollaz Valenzuela"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/adam-azim-vs-gabriel-gollaz-valenzuela-2026-12-04"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/adam-azim-vs-gabriel-gollaz-valenzuela-2026-12-04"
+      },
+      "watchKey": "fights:Boxing|Adam Azim|Gabriel Gollaz Valenzuela|2026-12-04"
     },
     {
       "org": "Boxing",
@@ -4711,6 +5114,106 @@
         ]
       },
       "watchKey": "fights:UFC|TBA|Opponent TBA|2027-01-16"
+    },
+    {
+      "org": "UFC",
+      "eventName": "UFC 336: Van vs. Kape",
+      "eventTag": "UFC 336 · Scotiabank Arena, Toronto · 4-fight card · main card Sun 31 Jan, 02:00 UK",
+      "homeTeam": "Manel Kape",
+      "awayTeam": "Joshua Van",
+      "cardTitle": null,
+      "homeLogo": "/logos/flags/por.png",
+      "awayLogo": "/logos/flags/mya.png",
+      "orgName": "UFC",
+      "orgLogo": "/logos/orgs/ufc.png",
+      "undercard": [
+        {
+          "title": "TBA v Opponent TBA",
+          "weightClass": null
+        },
+        {
+          "title": "TBA v Opponent TBA",
+          "weightClass": null
+        },
+        {
+          "title": "Carlos Prates v Michael Morales",
+          "weightClass": "Welterweight"
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2027-01-30T22:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 30 Jan, 22:00",
+      "localDate": "2027-01-30",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "US",
+          "channels": [
+            {
+              "name": "Paramount+",
+              "url": "https://www.paramountplus.com/",
+              "logo": "/logos/channels/paramountplus.com.png"
+            }
+          ]
+        },
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "TNT Sports",
+              "url": "https://www.tntsports.co.uk/boxing/",
+              "logo": "/logos/channels/tntsports.co.uk.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "UFC",
+        "espnId": "600062191",
+        "name": "UFC 336: Van vs. Kape",
+        "dateUTC": "2027-01-30T22:00Z",
+        "mainCardUTC": "2027-01-31T02:00Z",
+        "venue": "Scotiabank Arena",
+        "city": "Toronto",
+        "country": "Canada",
+        "mainEventFighters": [
+          "Manel Kape",
+          "Joshua Van"
+        ],
+        "mainEventFlagUrls": [
+          "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+          "https://a.espncdn.com/i/teamlogos/countries/500/mya.png"
+        ],
+        "bouts": [
+          {
+            "a": "TBA",
+            "b": "Opponent TBA",
+            "weightClass": null
+          },
+          {
+            "a": "TBA",
+            "b": "Opponent TBA",
+            "weightClass": null
+          },
+          {
+            "a": "Carlos Prates",
+            "b": "Michael Morales",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Manel Kape",
+            "b": "Joshua Van",
+            "weightClass": "Flyweight"
+          }
+        ],
+        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
+        "boutCount": 4,
+        "broadcasts": [
+          "Paramount+"
+        ]
+      },
+      "watchKey": "fights:UFC|Manel Kape|Joshua Van|2027-01-30"
     }
   ],
   "recent": [
@@ -6526,18 +7029,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-01T20:00:00.000Z",
-      "endsAtUTC": "2026-11-01T22:30:00.000Z",
-      "timeUK": "Sun 01 Nov, 20:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Bellator 192: Goiti Yamauchi v Michael Chandler",
-      "sublabel": "Bellator MMA"
-    },
-    {
       "airTimeUTC": "2026-11-02T22:30:00.000Z",
       "endsAtUTC": "2026-11-03T02:30:00.000Z",
       "timeUK": "Mon 02 Nov, 22:30",
@@ -6654,6 +7145,30 @@
         "/logos/orgs/ufc.png"
       ],
       "sublabel": "UFC · Sat 31 Oct, 21:00"
+    },
+    {
+      "airTimeUTC": "2026-11-08T01:00:00.000Z",
+      "endsAtUTC": "2026-11-08T05:00:00.000Z",
+      "timeUK": "Sun 08 Nov, 01:00",
+      "channel": {
+        "name": "TNT Sports 1",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Gabriel Bonfim v Sean Brady",
+      "sublabel": "UFC"
+    },
+    {
+      "airTimeUTC": "2026-11-08T04:30:00.000Z",
+      "endsAtUTC": "2026-11-08T08:30:00.000Z",
+      "timeUK": "Sun 08 Nov, 04:30",
+      "channel": {
+        "name": "TNT Sports 1",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Dustin Poirier v Justin Gaethje",
+      "sublabel": "UFC Fight Flashback"
     }
   ]
 }
