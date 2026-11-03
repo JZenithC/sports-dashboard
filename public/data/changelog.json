@@ -1,5 +1,23 @@
 [
   {
+    "timestamp": "2026-11-03T18:43:23.456Z",
+    "totalEvents": 35,
+    "added": [],
+    "removed": [
+      "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
+      "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
+      "Red Bull Bragantino vs Santos (Campeonato Brasileiro Série A) — Mon 02 Nov, 20:00",
+      "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15",
+      "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15"
+    ],
+    "channelsChanged": [
+      "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Flow Sports, Globo Internacional]",
+      "São Paulo vs Corinthians (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30: [Fanatiz (Míralo en vivo), Fanatiz YouTube]",
+      "Palmeiras vs Remo (Campeonato Brasileiro Série A) — Thu 05 Nov, 19:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Flow Sports]",
+      "Vitória vs Fluminense (Campeonato Brasileiro Série A) — Fri 06 Nov, 20:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]"
+    ]
+  },
+  {
     "timestamp": "2026-11-02T20:57:25.713Z",
     "totalEvents": 40,
     "added": [
@@ -124,32 +142,6 @@
       "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
       "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
       "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]"
-    ]
-  },
-  {
-    "timestamp": "2026-10-29T17:35:36.016Z",
-    "totalEvents": 40,
-    "added": [
-      "Flamengo vs Grêmio (Campeonato Brasileiro Série A) — Wed 04 Nov, 19:30",
-      "Athletico Paranaense vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 04 Nov, 19:30",
-      "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30",
-      "São Paulo vs Corinthians (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30"
-    ],
-    "removed": [
-      "Red Bull Bragantino vs Chapecoense (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-      "Fluminense vs Internacional (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-      "Santos vs Palmeiras (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-      "Atlético Tucumán vs Platense (Copa Argentina) — Wed 28 Oct, 21:15",
-      "Remo vs Botafogo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
-      "Bahia vs São Paulo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
-      "América vs Tijuana (Liga MX) — Wed 28 Oct, 21:00"
-    ],
-    "channelsChanged": [
-      "Huracán vs Tigre (Liga Profesional de Fútbol) — Fri 30 Oct, 19:00: [ESPN, ESPN Premium, TyC Sports Internacional]",
-      "Corinthians vs Mirassol (Campeonato Brasileiro Série A) — Fri 30 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE FC, SPORTV]",
-      "Racing Club vs Aldosivi (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15: [DISNEY+, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Sarmiento de Junín vs Rosario Central (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
     ]
   }
 ]

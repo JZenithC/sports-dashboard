@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T20:59:22.193Z",
+  "generatedAt": "2026-11-03T18:45:01.099Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -576,7 +576,7 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "Jonny Parsons v Jose Henrique",
+          "title": "Jonny Parsons v José Souza",
           "weightClass": "Welterweight"
         },
         {
@@ -676,7 +676,7 @@
         "bouts": [
           {
             "a": "Jonny Parsons",
-            "b": "Jose Henrique",
+            "b": "José Souza",
             "weightClass": "Welterweight"
           },
           {
@@ -766,15 +766,11 @@
       "orgLogo": null,
       "undercard": [
         {
+          "title": "Ivan Bondarchuk v Reinaldo Ekson",
+          "weightClass": null
+        },
+        {
           "title": "Ivan Podrugin v Gadzhi Omargadzhiev",
-          "weightClass": null
-        },
-        {
-          "title": "Maksim Fuks v Edgar Sargsyan",
-          "weightClass": null
-        },
-        {
-          "title": "Damir Tolenov v Valmir Galiev",
           "weightClass": null
         },
         {
@@ -782,7 +778,31 @@
           "weightClass": null
         },
         {
+          "title": "Alexander Vasiliev v Elder Allan Amorim",
+          "weightClass": null
+        },
+        {
           "title": "Mikhail Kashurnikov v Pedram Mohammad Azimi",
+          "weightClass": null
+        },
+        {
+          "title": "Maksim Fuks v Edgar Sargsyan",
+          "weightClass": null
+        },
+        {
+          "title": "Viktor Borisov v Bogdan Avetyan",
+          "weightClass": null
+        },
+        {
+          "title": "Damir Tolenov v Valmir Galiev",
+          "weightClass": null
+        },
+        {
+          "title": "Dzhafar Nuraliev v Egor Borgoyakov",
+          "weightClass": null
+        },
+        {
+          "title": "Artem Schupov v Nikita Chernyavskiy",
           "weightClass": null
         }
       ],
@@ -809,24 +829,44 @@
         "broadcasts": [],
         "bouts": [
           {
+            "a": "Ivan Bondarchuk",
+            "b": "Reinaldo Ekson"
+          },
+          {
             "a": "Ivan Podrugin",
             "b": "Gadzhi Omargadzhiev"
-          },
-          {
-            "a": "Maksim Fuks",
-            "b": "Edgar Sargsyan"
-          },
-          {
-            "a": "Damir Tolenov",
-            "b": "Valmir Galiev"
           },
           {
             "a": "Chingiz Minyazev",
             "b": "Jefferson Goncalves"
           },
           {
+            "a": "Alexander Vasiliev",
+            "b": "Elder Allan Amorim"
+          },
+          {
             "a": "Mikhail Kashurnikov",
             "b": "Pedram Mohammad Azimi"
+          },
+          {
+            "a": "Maksim Fuks",
+            "b": "Edgar Sargsyan"
+          },
+          {
+            "a": "Viktor Borisov",
+            "b": "Bogdan Avetyan"
+          },
+          {
+            "a": "Damir Tolenov",
+            "b": "Valmir Galiev"
+          },
+          {
+            "a": "Dzhafar Nuraliev",
+            "b": "Egor Borgoyakov"
+          },
+          {
+            "a": "Artem Schupov",
+            "b": "Nikita Chernyavskiy"
           }
         ]
       },
@@ -868,6 +908,40 @@
     },
     {
       "org": "MMA",
+      "eventName": "CFFC: NextGen 5",
+      "eventTag": "CFFC · Hard Rock Hotel & Casino, Atlantic City, New Jersey, United States",
+      "homeTeam": null,
+      "awayTeam": null,
+      "cardTitle": "CFFC: NextGen 5",
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-07T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-07",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-CFFC-NextGen-5-115201",
+        "name": "CFFC: NextGen 5",
+        "dateUTC": null,
+        "dateOnly": "2026-11-07",
+        "venue": "Hard Rock Hotel & Casino",
+        "city": "Atlantic City, New Jersey, United States",
+        "href": "/events/CFFC-NextGen-5-115201",
+        "mainEventFighters": [],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|null|null|2026-11-07"
+    },
+    {
+      "org": "MMA",
       "eventName": "Shooto Brazil 141: Teixeira Vs. Carvalho",
       "eventTag": "Shooto Brazil 141 · Upper Arena, Rio de Janeiro, Rio de Janeiro, Brazil",
       "homeTeam": "Teixeira",
@@ -879,7 +953,7 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Victor Gabriel v Joshuah Magalhaes",
+          "title": "Joshuah Magalhaes v Unknown Fighter",
           "weightClass": null
         },
         {
@@ -900,6 +974,14 @@
         },
         {
           "title": "Jean Felipe v Marcelo Augusto",
+          "weightClass": null
+        },
+        {
+          "title": "Warlen Silva v Lucas Vinicius  da Conceicao Gomes",
+          "weightClass": null
+        },
+        {
+          "title": "Danilo de Souza Martins v Douglas Silva dos Santos",
           "weightClass": null
         },
         {
@@ -938,8 +1020,8 @@
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Victor Gabriel",
-            "b": "Joshuah Magalhaes"
+            "a": "Joshuah Magalhaes",
+            "b": "Unknown Fighter"
           },
           {
             "a": "Israel Gaspar Figueira",
@@ -960,6 +1042,14 @@
           {
             "a": "Jean Felipe",
             "b": "Marcelo Augusto"
+          },
+          {
+            "a": "Warlen Silva",
+            "b": "Lucas Vinicius  da Conceicao Gomes"
+          },
+          {
+            "a": "Danilo de Souza Martins",
+            "b": "Douglas Silva dos Santos"
           },
           {
             "a": "Luis Fernando Neves",
@@ -2116,10 +2206,6 @@
           "weightClass": "Heavyweight"
         },
         {
-          "title": "Nawras Abzakh v Lewis McGrillen",
-          "weightClass": "Bantamweight"
-        },
-        {
           "title": "Khamzat Abaev v Leon Hill",
           "weightClass": "Welterweight"
         },
@@ -2128,20 +2214,24 @@
           "weightClass": "Lightweight"
         },
         {
-          "title": "Shem Rock v Connor Hughes",
-          "weightClass": "Lightweight"
-        },
-        {
           "title": "Rhys McKee v Ernesto Rodriguez",
           "weightClass": "Welterweight"
+        },
+        {
+          "title": "Movlid Khaybulaev v Opponent TBA",
+          "weightClass": "Featherweight"
         },
         {
           "title": "Adam Borics v Khasan Magomedsharipov",
           "weightClass": "Featherweight"
         },
         {
-          "title": "Movlid Khaybulaev v Asaël Adjoudj",
-          "weightClass": "Featherweight"
+          "title": "Nawras Abzakh v Lewis McGrillen",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Shem Rock v Connor Hughes",
+          "weightClass": "Lightweight"
         },
         {
           "title": "Sergio Pettis v Joji Goto",
@@ -2222,11 +2312,6 @@
             "weightClass": "Heavyweight"
           },
           {
-            "a": "Nawras Abzakh",
-            "b": "Lewis McGrillen",
-            "weightClass": "Bantamweight"
-          },
-          {
             "a": "Khamzat Abaev",
             "b": "Leon Hill",
             "weightClass": "Welterweight"
@@ -2237,14 +2322,14 @@
             "weightClass": "Lightweight"
           },
           {
-            "a": "Shem Rock",
-            "b": "Connor Hughes",
-            "weightClass": "Lightweight"
-          },
-          {
             "a": "Rhys McKee",
             "b": "Ernesto Rodriguez",
             "weightClass": "Welterweight"
+          },
+          {
+            "a": "Movlid Khaybulaev",
+            "b": "Opponent TBA",
+            "weightClass": "Featherweight"
           },
           {
             "a": "Adam Borics",
@@ -2252,9 +2337,14 @@
             "weightClass": "Featherweight"
           },
           {
-            "a": "Movlid Khaybulaev",
-            "b": "Asaël Adjoudj",
-            "weightClass": "Featherweight"
+            "a": "Nawras Abzakh",
+            "b": "Lewis McGrillen",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Shem Rock",
+            "b": "Connor Hughes",
+            "weightClass": "Lightweight"
           },
           {
             "a": "Sergio Pettis",
@@ -2730,6 +2820,40 @@
         ]
       },
       "watchKey": "fights:MMA|Joshua Pacio|Keito Yamakita|2026-11-18"
+    },
+    {
+      "org": "MMA",
+      "eventName": "ACA Young Eagles 70",
+      "eventTag": "ACA Young Eagles 70 · Sport Hall Colloseum, Grozny, Chechnya, Russia",
+      "homeTeam": null,
+      "awayTeam": null,
+      "cardTitle": "ACA Young Eagles 70",
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-19T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-19",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-ACA-YE-70-ACA-Young-Eagles-70-115206",
+        "name": "ACA Young Eagles 70",
+        "dateUTC": null,
+        "dateOnly": "2026-11-19",
+        "venue": "Sport Hall Colloseum",
+        "city": "Grozny, Chechnya, Russia",
+        "href": "/events/ACA-YE-70-ACA-Young-Eagles-70-115206",
+        "mainEventFighters": [],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|null|null|2026-11-19"
     },
     {
       "org": "Boxing",
@@ -4121,6 +4245,40 @@
         ]
       },
       "watchKey": "fights:MMA|Marcel de Souza|Makoa Cooper|2026-11-29"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Cage Warriors: Amateur Academy 2",
+      "eventTag": "Cage Warriors · BEC Arena, Manchester, England",
+      "homeTeam": null,
+      "awayTeam": null,
+      "cardTitle": "Cage Warriors: Amateur Academy 2",
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-29T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-29",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Cage-Warriors-Amateur-Academy-2-115247",
+        "name": "Cage Warriors: Amateur Academy 2",
+        "dateUTC": null,
+        "dateOnly": "2026-11-29",
+        "venue": "BEC Arena",
+        "city": "Manchester, England",
+        "href": "/events/Cage-Warriors-Amateur-Academy-2-115247",
+        "mainEventFighters": [],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|null|null|2026-11-29"
     },
     {
       "org": "MMA",
@@ -5755,12 +5913,6 @@
             {
               "name": "TNT Sports 2",
               "logo": "/logos/channels/tntsports.co.uk.png",
-              "timeUK": "Mon 02 Nov, 22:30",
-              "airTimeUTC": "2026-11-02T22:30:00.000Z"
-            },
-            {
-              "name": "TNT Sports 2",
-              "logo": "/logos/channels/tntsports.co.uk.png",
               "timeUK": "Fri 06 Nov, 22:30",
               "airTimeUTC": "2026-11-06T22:30:00.000Z"
             }
@@ -6805,20 +6957,7 @@
           }
         ]
       },
-      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24",
-      "replayGroups": [
-        {
-          "label": "Canada",
-          "channels": [
-            {
-              "name": "Fight Network",
-              "logo": "/logos/channels/fightnetwork.com.jpg",
-              "timeUK": "Tue 03 Nov, 04:00",
-              "airTimeUTC": "2026-11-03T04:00:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24"
     },
     {
       "org": "MMA",
@@ -6930,182 +7069,9 @@
         ]
       },
       "watchKey": "fights:MMA|Woodley|Havener|2026-10-23"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Lemino Shooto Vol. 9",
-      "eventTag": "Lemino Shooto Vol. 9 · Korakuen Hall, Bunkyo, Tokyo, Japan",
-      "homeTeam": "Shohei Nose",
-      "awayTeam": "Shoji Saito",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Shimon Suzuki v Wataru Yamauchi",
-          "weightClass": null
-        },
-        {
-          "title": "Chi Woo Park v Kazuma Kuramoto",
-          "weightClass": null
-        },
-        {
-          "title": "Hikaru Yoshino v Kyle Mayocchi",
-          "weightClass": null
-        },
-        {
-          "title": "Daichi Mizuta v Arashi Okada",
-          "weightClass": null
-        },
-        {
-          "title": "Seiya Sugimoto v Takeru Suzuki",
-          "weightClass": null
-        },
-        {
-          "title": "Langdi Xie v Eiji Yoshizawa",
-          "weightClass": null
-        },
-        {
-          "title": "Tetta Arima v Tatsuma Okada",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-10-19T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-10-19",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Shooto-Lemino-Shooto-Vol-9-114593",
-        "name": "Lemino Shooto Vol. 9",
-        "dateUTC": null,
-        "dateOnly": "2026-10-19",
-        "venue": "Korakuen Hall",
-        "city": "Bunkyo, Tokyo, Japan",
-        "href": "/events/Shooto-Lemino-Shooto-Vol-9-114593",
-        "mainEventFighters": [
-          "Shohei Nose",
-          "Shoji Saito"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Shimon Suzuki",
-            "b": "Wataru Yamauchi"
-          },
-          {
-            "a": "Chi Woo Park",
-            "b": "Kazuma Kuramoto"
-          },
-          {
-            "a": "Hikaru Yoshino",
-            "b": "Kyle Mayocchi"
-          },
-          {
-            "a": "Daichi Mizuta",
-            "b": "Arashi Okada"
-          },
-          {
-            "a": "Seiya Sugimoto",
-            "b": "Takeru Suzuki"
-          },
-          {
-            "a": "Langdi Xie",
-            "b": "Eiji Yoshizawa"
-          },
-          {
-            "a": "Tetta Arima",
-            "b": "Tatsuma Okada"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Shohei Nose|Shoji Saito|2026-10-19"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-11-02T22:30:00.000Z",
-      "endsAtUTC": "2026-11-03T02:30:00.000Z",
-      "timeUK": "Mon 02 Nov, 22:30",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "watchKey": "fights:UFC|Renato Moicano|Tom Nolan|2026-10-31",
-      "label": "UFC Fight Night: Moicano vs. Nolan",
-      "logos": [
-        "/logos/orgs/ufc.png"
-      ],
-      "sublabel": "UFC · Sat 31 Oct, 21:00"
-    },
-    {
-      "airTimeUTC": "2026-11-03T03:30:00.000Z",
-      "endsAtUTC": "2026-11-03T07:30:00.000Z",
-      "timeUK": "Tue 03 Nov, 03:30",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "label": "Robbie Lawler v Carlos Condit",
-      "sublabel": "UFC Fight Flashback"
-    },
-    {
-      "airTimeUTC": "2026-11-03T04:00:00.000Z",
-      "endsAtUTC": "2026-11-03T05:00:00.000Z",
-      "timeUK": "Tue 03 Nov, 04:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24",
-      "label": "BKFC Fight Night Clearwater: Reber vs Street, Prelims",
-      "logos": [],
-      "sublabel": "Boxing · Sat 24 Oct, 01:00"
-    },
-    {
-      "airTimeUTC": "2026-11-03T04:00:00.000Z",
-      "endsAtUTC": "2026-11-03T08:00:00.000Z",
-      "timeUK": "Tue 03 Nov, 04:00",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "label": "Max Holloway v Jose Aldo",
-      "sublabel": "UFC Fight Flashback"
-    },
-    {
-      "airTimeUTC": "2026-11-03T04:30:00.000Z",
-      "endsAtUTC": "2026-11-03T08:30:00.000Z",
-      "timeUK": "Tue 03 Nov, 04:30",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "label": "Cody Garbrandt v T.J. Dillashaw",
-      "sublabel": "UFC Fight Flashback"
-    },
-    {
-      "airTimeUTC": "2026-11-03T05:00:00.000Z",
-      "endsAtUTC": "2026-11-03T07:30:00.000Z",
-      "timeUK": "Tue 03 Nov, 05:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Reber v Street",
-      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
-    },
     {
       "airTimeUTC": "2026-11-06T18:00:00.000Z",
       "endsAtUTC": "2026-11-06T22:00:00.000Z",

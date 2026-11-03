@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-11-02T20:59:22.194Z",
+  "generatedAt": "2026-11-03T18:45:01.101Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-03T18:43:23.456Z",
+        "totalEvents": 35,
+        "added": [],
+        "removed": [
+          "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
+          "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
+          "Red Bull Bragantino vs Santos (Campeonato Brasileiro Série A) — Mon 02 Nov, 20:00",
+          "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15",
+          "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15"
+        ],
+        "channelsChanged": [
+          "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Flow Sports, Globo Internacional]",
+          "São Paulo vs Corinthians (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30: [Fanatiz (Míralo en vivo), Fanatiz YouTube]",
+          "Palmeiras vs Remo (Campeonato Brasileiro Série A) — Thu 05 Nov, 19:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Flow Sports]",
+          "Vitória vs Fluminense (Campeonato Brasileiro Série A) — Fri 06 Nov, 20:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]"
+        ],
+        "total": 35
+      },
       {
         "timestamp": "2026-11-02T20:57:25.713Z",
         "totalEvents": 40,
@@ -605,31 +624,16 @@
           "Vasco da Gama vs Boca Juniors (CONMEBOL Sudamericana) — Tue 20 Oct, 21:30: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, ESPN 3, Paramount+]"
         ],
         "total": 47
-      },
-      {
-        "timestamp": "2026-10-14T16:01:28.053Z",
-        "totalEvents": 37,
-        "added": [
-          "Chivas Guadalajara vs Necaxa (Liga MX) — Tue 20 Oct, 18:07",
-          "Vasco da Gama vs Boca Juniors (CONMEBOL Sudamericana) — Tue 20 Oct, 21:30",
-          "FC Juárez vs Atlante (Liga MX) — Tue 20 Oct, 19:00",
-          "Tigres UANL vs Club León (Liga MX) — Tue 20 Oct, 21:00",
-          "Atlético San Luis vs Querétaro (Liga MX) — Tue 20 Oct, 22:00"
-        ],
-        "removed": [
-          "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Tue 13 Oct, 17:00",
-          "Boca Juniors vs Vasco da Gama (CONMEBOL Sudamericana) — Tue 13 Oct, 21:30"
-        ],
-        "channelsChanged": [
-          "Sarmiento de Junín vs River Plate (Liga Profesional de Fútbol) — Wed 14 Oct, 19:00: [DISNEY+, Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Fluminense vs Palmeiras (CONMEBOL Libertadores) — Wed 14 Oct, 21:30: [Disney+ Premium, ESPN, FOX Sports, GE TV, GLOBO, PARAMOUNT+]",
-          "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Thu 15 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN, ESPN 2, FOX Sports, Mitelefe.com, Pluto TV, Telefe, Telefé YouTube]",
-          "Santos Laguna vs Querétaro (Liga MX) — Sat 17 Oct, 17:00: [Disney+ Premium, ESPN, ESPN 2, Layvtime, Layvtime YouTube, ViX Premium]"
-        ],
-        "total": 37
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-03T18:43:57.625Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-02T20:58:00.522Z",
         "total": 0,
@@ -811,20 +815,19 @@
           "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-14)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-14T16:02:06.437Z",
-        "total": 10,
-        "added": [
-          "Cleveland Guardians @ Tampa Bay Rays (2026-10-20)"
-        ],
-        "removed": [
-          "Cleveland Guardians @ Tampa Bay Rays (2026-10-13)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-03T18:45:01.100Z",
+        "total": 59,
+        "added": [
+          "ACA Young Eagles 70 (2026-11-19)",
+          "Cage Warriors: Amateur Academy 2 (2026-11-29)"
+        ],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-02T20:59:22.194Z",
         "total": 57,
@@ -1083,15 +1086,6 @@
         "total": 53,
         "added": [],
         "removed": [],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-14T16:02:54.520Z",
-        "total": 53,
-        "added": [],
-        "removed": [
-          "Dana White's Contender Series: Season 10, Week 10 (2026-10-14)"
-        ],
         "channelsChanged": []
       }
     ]
