@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T18:45:01.099Z",
+  "generatedAt": "2026-11-04T18:57:08.958Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -580,24 +580,20 @@
           "weightClass": "Welterweight"
         },
         {
-          "title": "Priscila Cachoeira v Nina Milošević",
-          "weightClass": "W Bantamweight"
+          "title": "Wellington Turman v Seokhyeon Ko",
+          "weightClass": "Welterweight"
+        },
+        {
+          "title": "Andre Petroski v Mantas Kondratavičius",
+          "weightClass": "Middleweight"
         },
         {
           "title": "Lucas Brennan v Austin Bashi",
           "weightClass": "Featherweight"
         },
         {
-          "title": "Keiichiro Nakamura v Ollie Schmid",
-          "weightClass": "Featherweight"
-        },
-        {
           "title": "Jose Delano v Murtazali Magomedov",
           "weightClass": "Featherweight"
-        },
-        {
-          "title": "Mitch Raposo v Marcos Degli",
-          "weightClass": "Flyweight"
         },
         {
           "title": "Karine Silva v Gabriella Fernandes",
@@ -608,16 +604,20 @@
           "weightClass": "Heavyweight"
         },
         {
-          "title": "Andre Petroski v Mantas Kondratavičius",
-          "weightClass": "Middleweight"
+          "title": "Keiichiro Nakamura v Ollie Schmid",
+          "weightClass": "Featherweight"
+        },
+        {
+          "title": "Mitch Raposo v Marcos Degli",
+          "weightClass": "Flyweight"
+        },
+        {
+          "title": "Priscila Cachoeira v Nina Milošević",
+          "weightClass": "W Bantamweight"
         },
         {
           "title": "Billy Elekana v Lucas Fernando",
           "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Wellington Turman v Seokhyeon Ko",
-          "weightClass": "Welterweight"
         },
         {
           "title": "Davey Grant v Elijah Smith",
@@ -680,9 +680,14 @@
             "weightClass": "Welterweight"
           },
           {
-            "a": "Priscila Cachoeira",
-            "b": "Nina Milošević",
-            "weightClass": "W Bantamweight"
+            "a": "Wellington Turman",
+            "b": "Seokhyeon Ko",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Andre Petroski",
+            "b": "Mantas Kondratavičius",
+            "weightClass": "Middleweight"
           },
           {
             "a": "Lucas Brennan",
@@ -690,19 +695,9 @@
             "weightClass": "Featherweight"
           },
           {
-            "a": "Keiichiro Nakamura",
-            "b": "Ollie Schmid",
-            "weightClass": "Featherweight"
-          },
-          {
             "a": "Jose Delano",
             "b": "Murtazali Magomedov",
             "weightClass": "Featherweight"
-          },
-          {
-            "a": "Mitch Raposo",
-            "b": "Marcos Degli",
-            "weightClass": "Flyweight"
           },
           {
             "a": "Karine Silva",
@@ -715,19 +710,24 @@
             "weightClass": "Heavyweight"
           },
           {
-            "a": "Andre Petroski",
-            "b": "Mantas Kondratavičius",
-            "weightClass": "Middleweight"
+            "a": "Keiichiro Nakamura",
+            "b": "Ollie Schmid",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Mitch Raposo",
+            "b": "Marcos Degli",
+            "weightClass": "Flyweight"
+          },
+          {
+            "a": "Priscila Cachoeira",
+            "b": "Nina Milošević",
+            "weightClass": "W Bantamweight"
           },
           {
             "a": "Billy Elekana",
             "b": "Lucas Fernando",
             "weightClass": "Light Heavyweight"
-          },
-          {
-            "a": "Wellington Turman",
-            "b": "Seokhyeon Ko",
-            "weightClass": "Welterweight"
           },
           {
             "a": "Davey Grant",
@@ -752,6 +752,133 @@
         ]
       },
       "watchKey": "fights:UFC|Johnny Walker|Waldo Cortes Acosta|2026-11-07"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Oktagon 97: Severino vs. Holzer",
+      "eventTag": "Oktagon 97 · ZAG Arena, Hannover, Germany",
+      "homeTeam": "Severino",
+      "awayTeam": "Holzer",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Gjoni Palokaj v Zafar Mohsen",
+          "weightClass": null
+        },
+        {
+          "title": "Ozan Aslaner v Denis Frimpong",
+          "weightClass": null
+        },
+        {
+          "title": "Justin Detzel v Kacper Fratczak",
+          "weightClass": null
+        },
+        {
+          "title": "Karol Rysavy v Samuel Bark",
+          "weightClass": null
+        },
+        {
+          "title": "Daniel Makin v Petr Bartonek",
+          "weightClass": null
+        },
+        {
+          "title": "Haci Akseker v Jonatan Kujawa",
+          "weightClass": null
+        },
+        {
+          "title": "Jan Holzer v Jan Svagerko",
+          "weightClass": null
+        },
+        {
+          "title": "Islam Djabrailov v Kenji Bortoluzzi",
+          "weightClass": null
+        },
+        {
+          "title": "Josefine Lindgren Knutsson v Yasmin Guimaraes",
+          "weightClass": null
+        },
+        {
+          "title": "Matheus Severino v Abdul Karim Badakhshi",
+          "weightClass": null
+        },
+        {
+          "title": "Kathrin Haberle v Thais Vasconcelos",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-07T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-07",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Oktagon-MMA-Oktagon-97-Severino-vs-Holzer-113641",
+        "name": "Oktagon 97: Severino vs. Holzer",
+        "dateUTC": null,
+        "dateOnly": "2026-11-07",
+        "venue": "ZAG Arena",
+        "city": "Hannover, Germany",
+        "href": "/events/Oktagon-MMA-Oktagon-97-Severino-vs-Holzer-113641",
+        "mainEventFighters": [
+          "Severino",
+          "Holzer"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Gjoni Palokaj",
+            "b": "Zafar Mohsen"
+          },
+          {
+            "a": "Ozan Aslaner",
+            "b": "Denis Frimpong"
+          },
+          {
+            "a": "Justin Detzel",
+            "b": "Kacper Fratczak"
+          },
+          {
+            "a": "Karol Rysavy",
+            "b": "Samuel Bark"
+          },
+          {
+            "a": "Daniel Makin",
+            "b": "Petr Bartonek"
+          },
+          {
+            "a": "Haci Akseker",
+            "b": "Jonatan Kujawa"
+          },
+          {
+            "a": "Jan Holzer",
+            "b": "Jan Svagerko"
+          },
+          {
+            "a": "Islam Djabrailov",
+            "b": "Kenji Bortoluzzi"
+          },
+          {
+            "a": "Josefine Lindgren Knutsson",
+            "b": "Yasmin Guimaraes"
+          },
+          {
+            "a": "Matheus Severino",
+            "b": "Abdul Karim Badakhshi"
+          },
+          {
+            "a": "Kathrin Haberle",
+            "b": "Thais Vasconcelos"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Severino|Holzer|2026-11-07"
     },
     {
       "org": "MMA",
@@ -942,7 +1069,7 @@
     },
     {
       "org": "MMA",
-      "eventName": "Shooto Brazil 141: Teixeira Vs. Carvalho",
+      "eventName": "Shooto Brazil 141: Teixeira vs. Carvalho",
       "eventTag": "Shooto Brazil 141 · Upper Arena, Rio de Janeiro, Rio de Janeiro, Brazil",
       "homeTeam": "Teixeira",
       "awayTeam": "Carvalho",
@@ -1006,13 +1133,13 @@
       "broadcastGroups": null,
       "source": {
         "org": "MMA",
-        "slug": "sherdog-Shooto-Brazil-141-Teixeira-Vs-Carvalho-111968",
-        "name": "Shooto Brazil 141: Teixeira Vs. Carvalho",
+        "slug": "sherdog-Shooto-Brazil-141-Teixeira-vs-Carvalho-111968",
+        "name": "Shooto Brazil 141: Teixeira vs. Carvalho",
         "dateUTC": null,
         "dateOnly": "2026-11-08",
         "venue": "Upper Arena",
         "city": "Rio de Janeiro, Rio de Janeiro, Brazil",
-        "href": "/events/Shooto-Brazil-141-Teixeira-Vs-Carvalho-111968",
+        "href": "/events/Shooto-Brazil-141-Teixeira-vs-Carvalho-111968",
         "mainEventFighters": [
           "Teixeira",
           "Carvalho"
@@ -1446,10 +1573,6 @@
           "weightClass": null
         },
         {
-          "title": "Takeru Uchida v Takumi Arai",
-          "weightClass": null
-        },
-        {
           "title": "Subaru Mori v Genta Fukami",
           "weightClass": null
         },
@@ -1507,10 +1630,6 @@
           {
             "a": "Mitsuhisa Sunabe",
             "b": "Yo Otake"
-          },
-          {
-            "a": "Takeru Uchida",
-            "b": "Takumi Arai"
           },
           {
             "a": "Subaru Mori",
@@ -1766,133 +1885,6 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/alycia-baumgardner-vs-elif-nur-turhan-2026-11-08"
       },
       "watchKey": "fights:Boxing|Elif Nur Turhan|Alycia Baumgardner|2026-11-09"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Oktagon 97: Severino vs. Holzer",
-      "eventTag": "Oktagon 97 · ZAG Arena, Hannover, Germany",
-      "homeTeam": "Severino",
-      "awayTeam": "Holzer",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Gjoni Palokaj v Zafar Mohsen",
-          "weightClass": null
-        },
-        {
-          "title": "Ozan Aslaner v Denis Frimpong",
-          "weightClass": null
-        },
-        {
-          "title": "Justin Detzel v Kacper Fratczak",
-          "weightClass": null
-        },
-        {
-          "title": "Karol Rysavy v Samuel Bark",
-          "weightClass": null
-        },
-        {
-          "title": "Daniel Makin v Petr Bartonek",
-          "weightClass": null
-        },
-        {
-          "title": "Haci Akseker v Jonatan Kujawa",
-          "weightClass": null
-        },
-        {
-          "title": "Jan Holzer v Jan Svagerko",
-          "weightClass": null
-        },
-        {
-          "title": "Islam Djabrailov v Kenji Bortoluzzi",
-          "weightClass": null
-        },
-        {
-          "title": "Josefine Lindgren Knutsson v Yasmin Guimaraes",
-          "weightClass": null
-        },
-        {
-          "title": "Matheus Severino v Abdul Karim Badakhshi",
-          "weightClass": null
-        },
-        {
-          "title": "Kathrin Haberle v Thais Vasconcelos",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-11T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-11",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Oktagon-MMA-Oktagon-97-Severino-vs-Holzer-113641",
-        "name": "Oktagon 97: Severino vs. Holzer",
-        "dateUTC": null,
-        "dateOnly": "2026-11-11",
-        "venue": "ZAG Arena",
-        "city": "Hannover, Germany",
-        "href": "/events/Oktagon-MMA-Oktagon-97-Severino-vs-Holzer-113641",
-        "mainEventFighters": [
-          "Severino",
-          "Holzer"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Gjoni Palokaj",
-            "b": "Zafar Mohsen"
-          },
-          {
-            "a": "Ozan Aslaner",
-            "b": "Denis Frimpong"
-          },
-          {
-            "a": "Justin Detzel",
-            "b": "Kacper Fratczak"
-          },
-          {
-            "a": "Karol Rysavy",
-            "b": "Samuel Bark"
-          },
-          {
-            "a": "Daniel Makin",
-            "b": "Petr Bartonek"
-          },
-          {
-            "a": "Haci Akseker",
-            "b": "Jonatan Kujawa"
-          },
-          {
-            "a": "Jan Holzer",
-            "b": "Jan Svagerko"
-          },
-          {
-            "a": "Islam Djabrailov",
-            "b": "Kenji Bortoluzzi"
-          },
-          {
-            "a": "Josefine Lindgren Knutsson",
-            "b": "Yasmin Guimaraes"
-          },
-          {
-            "a": "Matheus Severino",
-            "b": "Abdul Karim Badakhshi"
-          },
-          {
-            "a": "Kathrin Haberle",
-            "b": "Thais Vasconcelos"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Severino|Holzer|2026-11-11"
     },
     {
       "org": "Boxing",
@@ -2218,7 +2210,7 @@
           "weightClass": "Welterweight"
         },
         {
-          "title": "Movlid Khaybulaev v Opponent TBA",
+          "title": "Movlid Khaybulaev v Asaël Adjoudj",
           "weightClass": "Featherweight"
         },
         {
@@ -2328,7 +2320,7 @@
           },
           {
             "a": "Movlid Khaybulaev",
-            "b": "Opponent TBA",
+            "b": "Asaël Adjoudj",
             "weightClass": "Featherweight"
           },
           {
@@ -2785,6 +2777,10 @@
         {
           "title": "Ryugo Takeuchi v Brandon Hashimoto",
           "weightClass": null
+        },
+        {
+          "title": "Shosuke Kinoshita v Takuya Shibamura",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -2816,6 +2812,10 @@
           {
             "a": "Ryugo Takeuchi",
             "b": "Brandon Hashimoto"
+          },
+          {
+            "a": "Shosuke Kinoshita",
+            "b": "Takuya Shibamura"
           }
         ]
       },
@@ -2948,6 +2948,10 @@
         {
           "title": "Lamp Toure v Valeriu Asaftei",
           "weightClass": null
+        },
+        {
+          "title": "Alou Camara v Garcia Pinto Kinkela",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -2995,6 +2999,10 @@
           {
             "a": "Lamp Toure",
             "b": "Valeriu Asaftei"
+          },
+          {
+            "a": "Alou Camara",
+            "b": "Garcia Pinto Kinkela"
           }
         ]
       },
@@ -3557,15 +3565,19 @@
           "weightClass": null
         },
         {
+          "title": "James Hendin v Sayed Murtaza Sadat",
+          "weightClass": null
+        },
+        {
           "title": "Ondrej Raska v Dominic Schober",
           "weightClass": null
         },
         {
-          "title": "Michaela Hlavacikova v Marta Sos",
+          "title": "Dawid Smielowski v Arbi Mezhidov",
           "weightClass": null
         },
         {
-          "title": "Dawid Smielowski v Arbi Mezhidov",
+          "title": "Michaela Hlavacikova v Marta Sos",
           "weightClass": null
         }
       ],
@@ -3616,16 +3628,20 @@
             "b": "Adrian Hamerski"
           },
           {
+            "a": "James Hendin",
+            "b": "Sayed Murtaza Sadat"
+          },
+          {
             "a": "Ondrej Raska",
             "b": "Dominic Schober"
           },
           {
-            "a": "Michaela Hlavacikova",
-            "b": "Marta Sos"
-          },
-          {
             "a": "Dawid Smielowski",
             "b": "Arbi Mezhidov"
+          },
+          {
+            "a": "Michaela Hlavacikova",
+            "b": "Marta Sos"
           }
         ]
       },
@@ -4192,6 +4208,10 @@
           "weightClass": null
         },
         {
+          "title": "Taiga Iwasaki v Sorato Takahashi",
+          "weightClass": null
+        },
+        {
           "title": "Yuuki Takeda v Reo Hitomi",
           "weightClass": null
         },
@@ -4201,6 +4221,30 @@
         },
         {
           "title": "Yutoku Umeki v Naoteru Urushida",
+          "weightClass": null
+        },
+        {
+          "title": "Wycolt Henry v Eito Shoji",
+          "weightClass": null
+        },
+        {
+          "title": "Yuji Sawae v Kaisei Matsumura",
+          "weightClass": null
+        },
+        {
+          "title": "Rui Otake v Yamato Urushida",
+          "weightClass": null
+        },
+        {
+          "title": "Ryuto Ogawa v Ryo Nakagawa",
+          "weightClass": null
+        },
+        {
+          "title": "Teruo Waki v Yuma Kudo",
+          "weightClass": null
+        },
+        {
+          "title": "Ryoma Yamada v Unknown Fighter",
           "weightClass": null
         }
       ],
@@ -4231,6 +4275,10 @@
             "b": "Yoshinao Touma"
           },
           {
+            "a": "Taiga Iwasaki",
+            "b": "Sorato Takahashi"
+          },
+          {
             "a": "Yuuki Takeda",
             "b": "Reo Hitomi"
           },
@@ -4241,6 +4289,30 @@
           {
             "a": "Yutoku Umeki",
             "b": "Naoteru Urushida"
+          },
+          {
+            "a": "Wycolt Henry",
+            "b": "Eito Shoji"
+          },
+          {
+            "a": "Yuji Sawae",
+            "b": "Kaisei Matsumura"
+          },
+          {
+            "a": "Rui Otake",
+            "b": "Yamato Urushida"
+          },
+          {
+            "a": "Ryuto Ogawa",
+            "b": "Ryo Nakagawa"
+          },
+          {
+            "a": "Teruo Waki",
+            "b": "Yuma Kudo"
+          },
+          {
+            "a": "Ryoma Yamada",
+            "b": "Unknown Fighter"
           }
         ]
       },
@@ -4374,6 +4446,151 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/adam-azim-vs-gabriel-gollaz-valenzuela-2026-12-04"
       },
       "watchKey": "fights:Boxing|Adam Azim|Gabriel Gollaz Valenzuela|2026-12-04"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Shooto Brazil 142: TBA",
+      "eventTag": "Shooto Brazil 142 · Upper Arena, Rio de Janeiro, Rio de Janeiro, Brazil",
+      "homeTeam": null,
+      "awayTeam": null,
+      "cardTitle": "Shooto Brazil 142: TBA",
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-04T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-04",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Shooto-Brazil-142-TBA-111969",
+        "name": "Shooto Brazil 142: TBA",
+        "dateUTC": null,
+        "dateOnly": "2026-12-04",
+        "venue": "Upper Arena",
+        "city": "Rio de Janeiro, Rio de Janeiro, Brazil",
+        "href": "/events/Shooto-Brazil-142-TBA-111969",
+        "mainEventFighters": [],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|null|null|2026-12-04"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Cage Fury Fighting Championships 162",
+      "eventTag": "Cage Fury Fighting Championships 162 · Hard Rock Hotel & Casino Bristol, Bristol, Virginia, United States",
+      "homeTeam": "Vitor Resende",
+      "awayTeam": "Daniel Olajiga",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Farshedi Shamsiddin v Jon Cunningham",
+          "weightClass": null
+        },
+        {
+          "title": "Collin Godbout v Kestin McClain",
+          "weightClass": null
+        },
+        {
+          "title": "Justin Smith v Jackson Stanford",
+          "weightClass": null
+        },
+        {
+          "title": "Sandra Jerez v Karli Jo Patton",
+          "weightClass": null
+        },
+        {
+          "title": "Monique Dodson v Rosalani Ikei",
+          "weightClass": null
+        },
+        {
+          "title": "Deandre Anderson v Christian Carr",
+          "weightClass": null
+        },
+        {
+          "title": "Jack Sheehan v Dakota Howard",
+          "weightClass": null
+        },
+        {
+          "title": "Ian Russell v Myles Dillahunty",
+          "weightClass": null
+        },
+        {
+          "title": "Juwan Gonzales v Austin Yalowitz",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-04T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-04",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-CFFC-162-Cage-Fury-Fighting-Championships-162-115073",
+        "name": "Cage Fury Fighting Championships 162",
+        "dateUTC": null,
+        "dateOnly": "2026-12-04",
+        "venue": "Hard Rock Hotel & Casino Bristol",
+        "city": "Bristol, Virginia, United States",
+        "href": "/events/CFFC-162-Cage-Fury-Fighting-Championships-162-115073",
+        "mainEventFighters": [
+          "Vitor Resende",
+          "Daniel Olajiga"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Farshedi Shamsiddin",
+            "b": "Jon Cunningham"
+          },
+          {
+            "a": "Collin Godbout",
+            "b": "Kestin McClain"
+          },
+          {
+            "a": "Justin Smith",
+            "b": "Jackson Stanford"
+          },
+          {
+            "a": "Sandra Jerez",
+            "b": "Karli Jo Patton"
+          },
+          {
+            "a": "Monique Dodson",
+            "b": "Rosalani Ikei"
+          },
+          {
+            "a": "Deandre Anderson",
+            "b": "Christian Carr"
+          },
+          {
+            "a": "Jack Sheehan",
+            "b": "Dakota Howard"
+          },
+          {
+            "a": "Ian Russell",
+            "b": "Myles Dillahunty"
+          },
+          {
+            "a": "Juwan Gonzales",
+            "b": "Austin Yalowitz"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Vitor Resende|Daniel Olajiga|2026-12-04"
     },
     {
       "org": "Boxing",
@@ -4708,6 +4925,64 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/michel-soro-vs-george-liddard-2026-12-12"
       },
       "watchKey": "fights:Boxing|Michel Soro|George Liddard|2026-12-12"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Erislandy Lara vs Tim Tszyu",
+      "eventTag": "Boxing · Gold Coast",
+      "homeTeam": "Erislandy Lara",
+      "awayTeam": "Tim Tszyu",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-12T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 12 Dec, 20:00",
+      "localDate": "2026-12-12",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-erislandy-lara-vs-tim-tszyu-2026-12-12",
+        "name": "Erislandy Lara vs Tim Tszyu",
+        "dateUTC": "2026-12-12T20:00:00.000Z",
+        "dateOnly": "2026-12-12",
+        "venue": null,
+        "city": "Gold Coast",
+        "mainEventFighters": [
+          "Erislandy Lara",
+          "Tim Tszyu"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/erislandy-lara-vs-tim-tszyu-2026-12-12"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/erislandy-lara-vs-tim-tszyu-2026-12-12"
+      },
+      "watchKey": "fights:Boxing|Erislandy Lara|Tim Tszyu|2026-12-12"
     },
     {
       "org": "UFC",
@@ -6957,7 +7232,20 @@
           }
         ]
       },
-      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24"
+      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24",
+      "replayGroups": [
+        {
+          "label": "Canada",
+          "channels": [
+            {
+              "name": "Fight Network",
+              "logo": "/logos/channels/fightnetwork.com.jpg",
+              "timeUK": "Fri 06 Nov, 03:00",
+              "airTimeUTC": "2026-11-06T03:00:00.000Z"
+            }
+          ]
+        }
+      ]
     },
     {
       "org": "MMA",
@@ -7073,6 +7361,68 @@
   ],
   "replaySchedule": [
     {
+      "airTimeUTC": "2026-11-05T22:30:00.000Z",
+      "endsAtUTC": "2026-11-05T23:00:00.000Z",
+      "timeUK": "Thu 05 Nov, 22:30",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 246: Conor McGregor v Donald Cerrone",
+      "sublabel": "UFC - The Walk"
+    },
+    {
+      "airTimeUTC": "2026-11-06T02:00:00.000Z",
+      "endsAtUTC": "2026-11-06T05:00:00.000Z",
+      "timeUK": "Fri 06 Nov, 02:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 316: Dvalishvili v O'Malley 2",
+      "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-11-06T03:00:00.000Z",
+      "endsAtUTC": "2026-11-06T04:00:00.000Z",
+      "timeUK": "Fri 06 Nov, 03:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24",
+      "label": "BKFC Fight Night Clearwater: Reber vs Street, Prelims",
+      "logos": [],
+      "sublabel": "Boxing · Sat 24 Oct, 01:00"
+    },
+    {
+      "airTimeUTC": "2026-11-06T04:00:00.000Z",
+      "endsAtUTC": "2026-11-06T06:30:00.000Z",
+      "timeUK": "Fri 06 Nov, 04:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Reber v Street",
+      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
+    },
+    {
+      "airTimeUTC": "2026-11-06T05:00:00.000Z",
+      "endsAtUTC": "2026-11-06T08:00:00.000Z",
+      "timeUK": "Fri 06 Nov, 05:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 323: Dvalishvili v Yan 2",
+      "sublabel": "UFC Reloaded"
+    },
+    {
       "airTimeUTC": "2026-11-06T18:00:00.000Z",
       "endsAtUTC": "2026-11-06T22:00:00.000Z",
       "timeUK": "Fri 06 Nov, 18:00",
@@ -7121,7 +7471,7 @@
         "logo": "/logos/channels/tntsports.co.uk.png"
       },
       "market": "UK",
-      "label": "Gabriel Bonfim v Sean Brady",
+      "label": "Waldo Cortes-Acosta v Johnny Walker",
       "sublabel": "UFC"
     },
     {
