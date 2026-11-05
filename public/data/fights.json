@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T18:57:08.958Z",
+  "generatedAt": "2026-11-05T19:05:26.940Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -588,7 +588,7 @@
           "weightClass": "Middleweight"
         },
         {
-          "title": "Lucas Brennan v Austin Bashi",
+          "title": "Austin Bashi v Carlos Calderon",
           "weightClass": "Featherweight"
         },
         {
@@ -690,8 +690,8 @@
             "weightClass": "Middleweight"
           },
           {
-            "a": "Lucas Brennan",
-            "b": "Austin Bashi",
+            "a": "Austin Bashi",
+            "b": "Carlos Calderon",
             "weightClass": "Featherweight"
           },
           {
@@ -802,7 +802,7 @@
           "weightClass": null
         },
         {
-          "title": "Matheus Severino v Abdul Karim Badakhshi",
+          "title": "Matheus Severino v Mohammed Walid",
           "weightClass": null
         },
         {
@@ -870,7 +870,7 @@
           },
           {
             "a": "Matheus Severino",
-            "b": "Abdul Karim Badakhshi"
+            "b": "Mohammed Walid"
           },
           {
             "a": "Kathrin Haberle",
@@ -1080,10 +1080,6 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Joshuah Magalhaes v Unknown Fighter",
-          "weightClass": null
-        },
-        {
           "title": "Israel Gaspar Figueira v Gustavo Henrique",
           "weightClass": null
         },
@@ -1118,10 +1114,6 @@
         {
           "title": "Guilherme Lima v Kassio  Daniel Nascimento Barboza",
           "weightClass": null
-        },
-        {
-          "title": "Bruno  Crispino v Jomy Salvador Nganga",
-          "weightClass": null
         }
       ],
       "poster": null,
@@ -1146,10 +1138,6 @@
         ],
         "broadcasts": [],
         "bouts": [
-          {
-            "a": "Joshuah Magalhaes",
-            "b": "Unknown Fighter"
-          },
           {
             "a": "Israel Gaspar Figueira",
             "b": "Gustavo Henrique"
@@ -1185,10 +1173,6 @@
           {
             "a": "Guilherme Lima",
             "b": "Kassio  Daniel Nascimento Barboza"
-          },
-          {
-            "a": "Bruno  Crispino",
-            "b": "Jomy Salvador Nganga"
           }
         ]
       },
@@ -1223,10 +1207,6 @@
           "weightClass": null
         },
         {
-          "title": "Hiroaki Suzuki v Sei Min Kim",
-          "weightClass": null
-        },
-        {
           "title": "Juntaro Ushiku v Kaiwen Li",
           "weightClass": null
         },
@@ -1235,7 +1215,11 @@
           "weightClass": null
         },
         {
-          "title": "Tatsuya Saika v Daigo Kuramoto",
+          "title": "Mac Papalii v Yukinori Akazawa",
+          "weightClass": null
+        },
+        {
+          "title": "Hiroaki Suzuki v Sei Min Kim",
           "weightClass": null
         },
         {
@@ -1243,7 +1227,7 @@
           "weightClass": null
         },
         {
-          "title": "Rikiya Matsuzawa v Rio Kimura",
+          "title": "Tatsuya Saika v Daigo Kuramoto",
           "weightClass": null
         },
         {
@@ -1251,15 +1235,19 @@
           "weightClass": null
         },
         {
+          "title": "Rikiya Matsuzawa v Rio Kimura",
+          "weightClass": null
+        },
+        {
           "title": "Jake Wilkins v Yajuro Yamasaki",
           "weightClass": null
         },
         {
-          "title": "Naohiro Matsumoto v Masachika Takahashi",
+          "title": "Shunya Inoue v Saw Thwee Waw Thaunt",
           "weightClass": null
         },
         {
-          "title": "Shunya Inoue v Saw Thwee Waw Thaunt",
+          "title": "Naohiro Matsumoto v Masachika Takahashi",
           "weightClass": null
         }
       ],
@@ -1302,10 +1290,6 @@
             "b": "Kazuki Aimoto"
           },
           {
-            "a": "Hiroaki Suzuki",
-            "b": "Sei Min Kim"
-          },
-          {
             "a": "Juntaro Ushiku",
             "b": "Kaiwen Li"
           },
@@ -1314,32 +1298,40 @@
             "b": "Nurkhan Zhumagazy"
           },
           {
-            "a": "Tatsuya Saika",
-            "b": "Daigo Kuramoto"
+            "a": "Mac Papalii",
+            "b": "Yukinori Akazawa"
+          },
+          {
+            "a": "Hiroaki Suzuki",
+            "b": "Sei Min Kim"
           },
           {
             "a": "Taichi Nakajima",
             "b": "Tsukasa Mizoguchi"
           },
           {
-            "a": "Rikiya Matsuzawa",
-            "b": "Rio Kimura"
+            "a": "Tatsuya Saika",
+            "b": "Daigo Kuramoto"
           },
           {
             "a": "Takumi Hamada",
             "b": "Sho Sekihara"
           },
           {
+            "a": "Rikiya Matsuzawa",
+            "b": "Rio Kimura"
+          },
+          {
             "a": "Jake Wilkins",
             "b": "Yajuro Yamasaki"
           },
           {
-            "a": "Naohiro Matsumoto",
-            "b": "Masachika Takahashi"
-          },
-          {
             "a": "Shunya Inoue",
             "b": "Saw Thwee Waw Thaunt"
+          },
+          {
+            "a": "Naohiro Matsumoto",
+            "b": "Masachika Takahashi"
           }
         ]
       },
@@ -1362,10 +1354,6 @@
           "weightClass": null
         },
         {
-          "title": "Justin Longoria v Nick Piccininni",
-          "weightClass": null
-        },
-        {
           "title": "Darius Parker v Antonio Andrade",
           "weightClass": null
         },
@@ -1378,11 +1366,7 @@
           "weightClass": null
         },
         {
-          "title": "Miles Banks v Austin Green",
-          "weightClass": null
-        },
-        {
-          "title": "Sebastian Rodriguez v Drake Flores",
+          "title": "Amisadai Sepulveda v Ethan Aflleje",
           "weightClass": null
         },
         {
@@ -1390,19 +1374,11 @@
           "weightClass": null
         },
         {
-          "title": "Nicholas Martinez v Damian Deleon",
-          "weightClass": null
-        },
-        {
-          "title": "Juan Francisco Morote v Jacob Estevez",
-          "weightClass": null
-        },
-        {
-          "title": "Amisadai Sepulveda v Ethan Aflleje",
-          "weightClass": null
-        },
-        {
           "title": "Austin Heinz v Drake Lopez",
+          "weightClass": null
+        },
+        {
+          "title": "Nicholas Martinez v Damian Deleon",
           "weightClass": null
         },
         {
@@ -1469,10 +1445,6 @@
             "b": "Sebastian Oyervidez"
           },
           {
-            "a": "Justin Longoria",
-            "b": "Nick Piccininni"
-          },
-          {
             "a": "Darius Parker",
             "b": "Antonio Andrade"
           },
@@ -1485,32 +1457,20 @@
             "b": "Jeremy Alba"
           },
           {
-            "a": "Miles Banks",
-            "b": "Austin Green"
-          },
-          {
-            "a": "Sebastian Rodriguez",
-            "b": "Drake Flores"
+            "a": "Amisadai Sepulveda",
+            "b": "Ethan Aflleje"
           },
           {
             "a": "Eduardo Gonzalez-Ayala",
             "b": "Griffin Thomas"
           },
           {
-            "a": "Nicholas Martinez",
-            "b": "Damian Deleon"
-          },
-          {
-            "a": "Juan Francisco Morote",
-            "b": "Jacob Estevez"
-          },
-          {
-            "a": "Amisadai Sepulveda",
-            "b": "Ethan Aflleje"
-          },
-          {
             "a": "Austin Heinz",
             "b": "Drake Lopez"
+          },
+          {
+            "a": "Nicholas Martinez",
+            "b": "Damian Deleon"
           },
           {
             "a": "Carlos Jimenez",
@@ -2433,7 +2393,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 334: Gane vs. Hokit",
-      "eventTag": "UFC 334 · Madison Square Garden, New York · 14-fight card · main card Sun 15 Nov, 02:00 UK",
+      "eventTag": "UFC 334 · Madison Square Garden, New York · 13-fight card · main card Sun 15 Nov, 02:00 UK",
       "homeTeam": "Josh Hokit",
       "awayTeam": "Ciryl Gane",
       "cardTitle": null,
@@ -2447,20 +2407,16 @@
           "weightClass": "Lightweight"
         },
         {
-          "title": "Jared Gordon v Melquizael Costa",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Nazim Sadykhov v Jefferson Nascimento",
-          "weightClass": "Lightweight"
-        },
-        {
           "title": "Adrian Yañez v Juan Diaz",
           "weightClass": "Bantamweight"
         },
         {
           "title": "Macy Chiasson v Bia Mesquita",
           "weightClass": "W Bantamweight"
+        },
+        {
+          "title": "Jared Gordon v Melquizael Costa",
+          "weightClass": "Lightweight"
         },
         {
           "title": "Cesar Almeida v Donte Johnson",
@@ -2547,16 +2503,6 @@
             "weightClass": "Lightweight"
           },
           {
-            "a": "Jared Gordon",
-            "b": "Melquizael Costa",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Nazim Sadykhov",
-            "b": "Jefferson Nascimento",
-            "weightClass": "Lightweight"
-          },
-          {
             "a": "Adrian Yañez",
             "b": "Juan Diaz",
             "weightClass": "Bantamweight"
@@ -2565,6 +2511,11 @@
             "a": "Macy Chiasson",
             "b": "Bia Mesquita",
             "weightClass": "W Bantamweight"
+          },
+          {
+            "a": "Jared Gordon",
+            "b": "Melquizael Costa",
+            "weightClass": "Lightweight"
           },
           {
             "a": "Cesar Almeida",
@@ -2613,7 +2564,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 14,
+        "boutCount": 13,
         "broadcasts": [
           "Paramount+"
         ]
@@ -3041,19 +2992,11 @@
           "weightClass": null
         },
         {
-          "title": "Lucas Valente v Justice Lamperez",
+          "title": "Ashley Maziol v Alexandra Carlson",
           "weightClass": null
         },
         {
           "title": "Dayron Vasquez v Shane Wright",
-          "weightClass": null
-        },
-        {
-          "title": "Dominick Perez v Americo Garcia",
-          "weightClass": null
-        },
-        {
-          "title": "Ashley Maziol v Alexandra Carlson",
           "weightClass": null
         },
         {
@@ -3070,6 +3013,14 @@
         },
         {
           "title": "Justin Hoffart v Evian Rodriguez",
+          "weightClass": null
+        },
+        {
+          "title": "Chris Velarde v Cristian Lopez",
+          "weightClass": null
+        },
+        {
+          "title": "Paul Garza v Andre Gibbons",
           "weightClass": null
         }
       ],
@@ -3116,20 +3067,12 @@
             "b": "Carlos Martinez"
           },
           {
-            "a": "Lucas Valente",
-            "b": "Justice Lamperez"
+            "a": "Ashley Maziol",
+            "b": "Alexandra Carlson"
           },
           {
             "a": "Dayron Vasquez",
             "b": "Shane Wright"
-          },
-          {
-            "a": "Dominick Perez",
-            "b": "Americo Garcia"
-          },
-          {
-            "a": "Ashley Maziol",
-            "b": "Alexandra Carlson"
           },
           {
             "a": "Jordan Plutin",
@@ -3146,6 +3089,14 @@
           {
             "a": "Justin Hoffart",
             "b": "Evian Rodriguez"
+          },
+          {
+            "a": "Chris Velarde",
+            "b": "Cristian Lopez"
+          },
+          {
+            "a": "Paul Garza",
+            "b": "Andre Gibbons"
           }
         ]
       },
@@ -3396,28 +3347,28 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "Amir Albazi v Alessandro Costa",
-          "weightClass": "Flyweight"
-        },
-        {
-          "title": "Kyoji Horiguchi v Asu Almabayev",
-          "weightClass": "Flyweight"
-        },
-        {
-          "title": "Aleksandre Topuria v Santiago Luna",
-          "weightClass": "Bantamweight"
-        },
-        {
           "title": "Jake Matthews v Tahir Abdullayev",
           "weightClass": "Welterweight"
+        },
+        {
+          "title": "Amir Albazi v Alessandro Costa",
+          "weightClass": "Flyweight"
         },
         {
           "title": "Shamil Gaziev v Tallison Teixeira",
           "weightClass": "Heavyweight"
         },
         {
+          "title": "Aleksandre Topuria v Santiago Luna",
+          "weightClass": "Bantamweight"
+        },
+        {
           "title": "Jared Cannonier v Ikram Aliskerov",
           "weightClass": "Middleweight"
+        },
+        {
+          "title": "Kyoji Horiguchi v Asu Almabayev",
+          "weightClass": "Flyweight"
         },
         {
           "title": "Brian Ortega v Dan Hooker",
@@ -3475,24 +3426,14 @@
         ],
         "bouts": [
           {
-            "a": "Amir Albazi",
-            "b": "Alessandro Costa",
-            "weightClass": "Flyweight"
-          },
-          {
-            "a": "Kyoji Horiguchi",
-            "b": "Asu Almabayev",
-            "weightClass": "Flyweight"
-          },
-          {
-            "a": "Aleksandre Topuria",
-            "b": "Santiago Luna",
-            "weightClass": "Bantamweight"
-          },
-          {
             "a": "Jake Matthews",
             "b": "Tahir Abdullayev",
             "weightClass": "Welterweight"
+          },
+          {
+            "a": "Amir Albazi",
+            "b": "Alessandro Costa",
+            "weightClass": "Flyweight"
           },
           {
             "a": "Shamil Gaziev",
@@ -3500,9 +3441,19 @@
             "weightClass": "Heavyweight"
           },
           {
+            "a": "Aleksandre Topuria",
+            "b": "Santiago Luna",
+            "weightClass": "Bantamweight"
+          },
+          {
             "a": "Jared Cannonier",
             "b": "Ikram Aliskerov",
             "weightClass": "Middleweight"
+          },
+          {
+            "a": "Kyoji Horiguchi",
+            "b": "Asu Almabayev",
+            "weightClass": "Flyweight"
           },
           {
             "a": "Brian Ortega",
@@ -4244,7 +4195,7 @@
           "weightClass": null
         },
         {
-          "title": "Ryoma Yamada v Unknown Fighter",
+          "title": "Ryoma Yamada v Kaito Fukaya",
           "weightClass": null
         }
       ],
@@ -4312,7 +4263,7 @@
           },
           {
             "a": "Ryoma Yamada",
-            "b": "Unknown Fighter"
+            "b": "Kaito Fukaya"
           }
         ]
       },
@@ -4502,7 +4453,7 @@
           "weightClass": null
         },
         {
-          "title": "Justin Smith v Jackson Stanford",
+          "title": "Jackson Stanford v Justin Smith",
           "weightClass": null
         },
         {
@@ -4523,10 +4474,6 @@
         },
         {
           "title": "Ian Russell v Myles Dillahunty",
-          "weightClass": null
-        },
-        {
-          "title": "Juwan Gonzales v Austin Yalowitz",
           "weightClass": null
         }
       ],
@@ -4561,8 +4508,8 @@
             "b": "Kestin McClain"
           },
           {
-            "a": "Justin Smith",
-            "b": "Jackson Stanford"
+            "a": "Jackson Stanford",
+            "b": "Justin Smith"
           },
           {
             "a": "Sandra Jerez",
@@ -4583,10 +4530,6 @@
           {
             "a": "Ian Russell",
             "b": "Myles Dillahunty"
-          },
-          {
-            "a": "Juwan Gonzales",
-            "b": "Austin Yalowitz"
           }
         ]
       },
@@ -4719,6 +4662,196 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/conah-walker-vs-alexis-rocha-2026-12-05"
       },
       "watchKey": "fights:Boxing|Conah Walker|Alexis Rocha|2026-12-05"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Oktagon 99: Aras vs. Flores",
+      "eventTag": "Oktagon 99 · Westfalenhalle, Dortmund, Germany",
+      "homeTeam": "Aras",
+      "awayTeam": "Flores",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Patrick Vespaziani v Nicolaj Wagner",
+          "weightClass": null
+        },
+        {
+          "title": "Marc Doussis v Adam Palasz",
+          "weightClass": null
+        },
+        {
+          "title": "Ali Gunduz v Abdullah Sultani",
+          "weightClass": null
+        },
+        {
+          "title": "Emir-Can Al v Adam Havran",
+          "weightClass": null
+        },
+        {
+          "title": "Murat Tuysuz v Jan Stanovsky",
+          "weightClass": null
+        },
+        {
+          "title": "Altin Zenuni v Tomas Ciganik",
+          "weightClass": null
+        },
+        {
+          "title": "Moh Eter v Tomas Holecek",
+          "weightClass": null
+        },
+        {
+          "title": "Furkan Ugur v Said Osmanov",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-05T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-05",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Oktagon-MMA-Oktagon-99-Aras-vs-Flores-114299",
+        "name": "Oktagon 99: Aras vs. Flores",
+        "dateUTC": null,
+        "dateOnly": "2026-12-05",
+        "venue": "Westfalenhalle",
+        "city": "Dortmund, Germany",
+        "href": "/events/Oktagon-MMA-Oktagon-99-Aras-vs-Flores-114299",
+        "mainEventFighters": [
+          "Aras",
+          "Flores"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Patrick Vespaziani",
+            "b": "Nicolaj Wagner"
+          },
+          {
+            "a": "Marc Doussis",
+            "b": "Adam Palasz"
+          },
+          {
+            "a": "Ali Gunduz",
+            "b": "Abdullah Sultani"
+          },
+          {
+            "a": "Emir-Can Al",
+            "b": "Adam Havran"
+          },
+          {
+            "a": "Murat Tuysuz",
+            "b": "Jan Stanovsky"
+          },
+          {
+            "a": "Altin Zenuni",
+            "b": "Tomas Ciganik"
+          },
+          {
+            "a": "Moh Eter",
+            "b": "Tomas Holecek"
+          },
+          {
+            "a": "Furkan Ugur",
+            "b": "Said Osmanov"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Aras|Flores|2026-12-05"
+    },
+    {
+      "org": "MMA",
+      "eventName": "ACA 210: Myrzabekov vs. Tumenov",
+      "eventTag": "ACA 210 · Zhashtyk Arena, Bishkek, Kyrgyzstan",
+      "homeTeam": "Myrzabekov",
+      "awayTeam": "Tumenov",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Maharbek Karginov v Alimardan Abdykarov",
+          "weightClass": null
+        },
+        {
+          "title": "Edil Esengulov v Ruslan Shamilov",
+          "weightClass": null
+        },
+        {
+          "title": "Altynbek Mamashov v Ibragim Magomedov",
+          "weightClass": null
+        },
+        {
+          "title": "Asylzhan Bakhytzhanuly v Aleksei Butorin",
+          "weightClass": null
+        },
+        {
+          "title": "Nemat Abdrashitov v Olzhas Eskaraev",
+          "weightClass": null
+        },
+        {
+          "title": "Azatbek Kochorov v Aivaz Aidinov",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-05T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-05",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-ACA-210-Myrzabekov-vs-Tumenov-114579",
+        "name": "ACA 210: Myrzabekov vs. Tumenov",
+        "dateUTC": null,
+        "dateOnly": "2026-12-05",
+        "venue": "Zhashtyk Arena",
+        "city": "Bishkek, Kyrgyzstan",
+        "href": "/events/ACA-210-Myrzabekov-vs-Tumenov-114579",
+        "mainEventFighters": [
+          "Myrzabekov",
+          "Tumenov"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Maharbek Karginov",
+            "b": "Alimardan Abdykarov"
+          },
+          {
+            "a": "Edil Esengulov",
+            "b": "Ruslan Shamilov"
+          },
+          {
+            "a": "Altynbek Mamashov",
+            "b": "Ibragim Magomedov"
+          },
+          {
+            "a": "Asylzhan Bakhytzhanuly",
+            "b": "Aleksei Butorin"
+          },
+          {
+            "a": "Nemat Abdrashitov",
+            "b": "Olzhas Eskaraev"
+          },
+          {
+            "a": "Azatbek Kochorov",
+            "b": "Aivaz Aidinov"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Myrzabekov|Tumenov|2026-12-05"
     },
     {
       "org": "Boxing",
@@ -7445,6 +7578,18 @@
       "market": "UK",
       "label": "Oshae Jones v Elia Carranza",
       "sublabel": "MVP Boxing"
+    },
+    {
+      "airTimeUTC": "2026-11-06T22:00:00.000Z",
+      "endsAtUTC": "2026-11-07T01:00:00.000Z",
+      "timeUK": "Fri 06 Nov, 22:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 265: Lewis v Gane",
+      "sublabel": "UFC Reloaded"
     },
     {
       "airTimeUTC": "2026-11-06T22:30:00.000Z",

@@ -1,38 +1,7 @@
 {
-  "generatedAt": "2026-11-04T18:56:02.551Z",
+  "generatedAt": "2026-11-05T19:04:14.969Z",
   "games": [],
-  "recentGames": [
-    {
-      "homeTeamId": 139,
-      "awayTeamId": 158,
-      "homeTeam": "Tampa Bay Rays",
-      "awayTeam": "Milwaukee Brewers",
-      "homeLogo": "/logos/teams/a451f47386bd324f26f8.svg",
-      "awayLogo": "/logos/teams/28dc72fb5ea705926dd8.svg",
-      "kickoffUTC": "2026-10-29T00:00:00Z",
-      "kickoffLocal": "Wed 28 Oct, 20:00",
-      "kickoffUK": "Thu 29 Oct, 00:00",
-      "localDate": "2026-10-28",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "National",
-          "channels": [
-            {
-              "name": "FOX / FOX ONE",
-              "logo": null
-            },
-            {
-              "name": "Fox Deportes / FOX ONE",
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "isFinal": true,
-      "watchKey": "mlb:Milwaukee Brewers|Tampa Bay Rays|2026-10-28"
-    }
-  ],
+  "recentGames": [],
   "replaySchedule": [],
   "standings": {
     "AL": {

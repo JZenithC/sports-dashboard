@@ -1,7 +1,37 @@
 {
-  "generatedAt": "2026-11-04T18:57:08.959Z",
+  "generatedAt": "2026-11-05T19:05:26.942Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-05T19:03:38.938Z",
+        "totalEvents": 42,
+        "added": [],
+        "removed": [
+          "Flamengo vs Grêmio (Campeonato Brasileiro Série A) — Wed 04 Nov, 19:30",
+          "Athletico Paranaense vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 04 Nov, 19:30",
+          "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30",
+          "São Paulo vs Corinthians (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30",
+          "Aldosivi vs River Plate (Liga Profesional de Fútbol) — Thu 05 Nov, 15:00"
+        ],
+        "channelsChanged": [
+          "Gimnasia y Esgrima La Plata vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Thu 05 Nov, 19:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "Barracas Central vs Racing Club (Liga Profesional de Fútbol) — Fri 06 Nov, 15:00: [ESPN Premium, TyC Sports Internacional]",
+          "San Lorenzo vs Platense (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15: [ESPN Premium, TyC Sports Internacional]",
+          "Necaxa vs Tijuana (Liga MX) — Fri 06 Nov, 19:00: [FOX One, FOX+]",
+          "Tigre vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00: [Disney+ Premium, ESPN Premium]",
+          "Banfield vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00: [Disney+ Premium, ESPN Premium]",
+          "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30: [TNT, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30: [Disney+ Premium, ESPN Premium, TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30: [Disney+ Premium, ESPN 2]",
+          "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sat 07 Nov, 22:00: [Disney+ Premium, ESPN Premium]",
+          "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "Querétaro vs Puebla (Liga MX) — Sun 08 Nov, 18:00: [FOX One]",
+          "Club León vs Chivas Guadalajara (Liga MX) — Sun 08 Nov, 20:00: [FOX One, FOX+]"
+        ],
+        "total": 42
+      },
       {
         "timestamp": "2026-11-04T18:55:31.694Z",
         "totalEvents": 47,
@@ -584,33 +614,16 @@
           "Toluca vs Tijuana (Liga MX) — Wed 21 Oct, 19:00: [Azteca Deportes App, Azteca Deportes Network, FOX, FOX One, ViX Premium]"
         ],
         "total": 45
-      },
-      {
-        "timestamp": "2026-10-16T15:36:02.719Z",
-        "totalEvents": 46,
-        "added": [
-          "Flamengo vs Estudiantes de La Plata (CONMEBOL Libertadores) — Thu 22 Oct, 21:30"
-        ],
-        "removed": [
-          "Huracán vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Thu 15 Oct, 20:00",
-          "Estudiantes de La Plata vs Flamengo (CONMEBOL Libertadores) — Thu 15 Oct, 21:30"
-        ],
-        "channelsChanged": [
-          "Boca Juniors vs Talleres de Córdoba (Liga Profesional de Fútbol) — Fri 16 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN 4, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Platense vs Lanus (Liga Profesional de Fútbol) — Sat 17 Oct, 17:30: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Botafogo vs Chapecoense (Campeonato Brasileiro Série A) — Sat 17 Oct, 18:00: [CAZÉTV, Fanatiz (Míralo en vivo), PREMIERE, RECORD]",
-          "Atlético Mineiro vs Coritiba (Campeonato Brasileiro Série A) — Sat 17 Oct, 18:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), PREMIERE]",
-          "Athletico Paranaense vs Palmeiras (Campeonato Brasileiro Série A) — Sat 17 Oct, 19:30: [Fanatiz (Míralo en vivo), PRIME VIDEO]",
-          "São Paulo vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 17 Oct, 21:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), PREMIERE, SPORTV]",
-          "Racing Club vs Independiente (Liga Profesional de Fútbol) — Sun 18 Oct, 14:45: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Belgrano (Córdoba) vs River Plate (Liga Profesional de Fútbol) — Sun 18 Oct, 20:15: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Deportivo Riestra vs Unión Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]"
-        ],
-        "total": 46
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-05T19:04:14.970Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-04T18:56:02.551Z",
         "total": 0,
@@ -782,24 +795,19 @@
           "Tampa Bay Rays @ Cleveland Guardians (2026-10-16)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-16T15:36:42.329Z",
-        "total": 5,
-        "added": [
-          "TB/CLE @ Milwaukee Brewers (2026-10-23)"
-        ],
-        "removed": [
-          "Tampa Bay Rays @ Cleveland Guardians (2026-10-15)",
-          "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-15)",
-          "Milwaukee Brewers @ Los Angeles Dodgers (2026-10-16)",
-          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-18)",
-          "Los Angeles Dodgers @ Milwaukee Brewers (2026-10-19)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-05T19:05:26.941Z",
+        "total": 64,
+        "added": [
+          "Oktagon 99: Aras vs. Flores (2026-12-05)",
+          "ACA 210: Myrzabekov vs. Tumenov (2026-12-05)"
+        ],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-04T18:57:08.959Z",
         "total": 62,
@@ -1062,18 +1070,6 @@
           "BKFC Belgrade: Faulkner vs Prasovic Prelims (2026-10-17)",
           "Oktagon 95: Kincl vs. Humburger (2026-10-17)",
           "ONE Samurai 4 (2026-10-17)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-16T15:37:38.425Z",
-        "total": 54,
-        "added": [
-          "One Friday Fights 175 (2026-10-16)",
-          "BKFC Belgrade: Faulkner vs Prasovic Prelims (2026-10-17)"
-        ],
-        "removed": [
-          "One Friday Fights 175 (2026-10-16)"
         ],
         "channelsChanged": []
       }
