@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T19:05:26.940Z",
+  "generatedAt": "2026-11-06T18:31:44.857Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -26,7 +26,7 @@
           "weightClass": null
         },
         {
-          "title": "Alan Cavazos v Javier Gil Fernandez",
+          "title": "Alan Rodriguez v Javier Gil Fernandez",
           "weightClass": null
         },
         {
@@ -43,10 +43,6 @@
         },
         {
           "title": "Jade Moctezuma v Danna Cortes",
-          "weightClass": null
-        },
-        {
-          "title": "Daniela Lopez v Camila Argueta",
           "weightClass": null
         }
       ],
@@ -85,7 +81,7 @@
             "b": "Saul Tijerina"
           },
           {
-            "a": "Alan Cavazos",
+            "a": "Alan Rodriguez",
             "b": "Javier Gil Fernandez"
           },
           {
@@ -103,10 +99,6 @@
           {
             "a": "Jade Moctezuma",
             "b": "Danna Cortes"
-          },
-          {
-            "a": "Daniela Lopez",
-            "b": "Camila Argueta"
           }
         ]
       },
@@ -116,8 +108,8 @@
       "org": "MMA",
       "eventName": "One Friday Fights 177",
       "eventTag": "One Friday Fights 177 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Christian Lee",
-      "awayTeam": "Tye Ruotolo",
+      "homeTeam": "Tye Ruotolo",
+      "awayTeam": "Christian Lee",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -146,8 +138,8 @@
         "city": "Bangkok, Thailand",
         "href": "/events/One-Championship-One-Friday-Fights-177-114696",
         "mainEventFighters": [
-          "Christian Lee",
-          "Tye Ruotolo"
+          "Tye Ruotolo",
+          "Christian Lee"
         ],
         "broadcasts": [],
         "bouts": [
@@ -157,7 +149,7 @@
           }
         ]
       },
-      "watchKey": "fights:MMA|Christian Lee|Tye Ruotolo|2026-11-06"
+      "watchKey": "fights:MMA|Tye Ruotolo|Christian Lee|2026-11-06"
     },
     {
       "org": "MMA",
@@ -4934,6 +4926,276 @@
       "watchKey": "fights:Boxing|Litzy Vazquez|Stephanie Pineiro|2026-12-06"
     },
     {
+      "org": "MMA",
+      "eventName": "Shooto: Torao 41",
+      "eventTag": "Shooto · KDDI Ishin Hall, Yamaguchi, Yamaguchi, Japan",
+      "homeTeam": "Ryuto Wakamiya",
+      "awayTeam": "Soma Yamamoto",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Daiki Yuki v Kenzo Miyake",
+          "weightClass": null
+        },
+        {
+          "title": "Ryunosuke Matsuoka v Nobuhiro Katayama",
+          "weightClass": null
+        },
+        {
+          "title": "Kyohei Kurose v Hitoshi Okamoto",
+          "weightClass": null
+        },
+        {
+          "title": "Phillip Chakanyuka v Yuki Ueno",
+          "weightClass": null
+        },
+        {
+          "title": "Kenjiro Taira v Sora Takemoto",
+          "weightClass": null
+        },
+        {
+          "title": "Kenta Ide v Satoshi Hatamura",
+          "weightClass": null
+        },
+        {
+          "title": "Sanshiro Suzuki v Kensuke Morimoto",
+          "weightClass": null
+        },
+        {
+          "title": "Yuuga Mizumoto v Takara Ishihara",
+          "weightClass": null
+        },
+        {
+          "title": "Kohei Akagi v Yuya Tokunaga",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-06T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-06",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Shooto-Torao-41-114512",
+        "name": "Shooto: Torao 41",
+        "dateUTC": null,
+        "dateOnly": "2026-12-06",
+        "venue": "KDDI Ishin Hall",
+        "city": "Yamaguchi, Yamaguchi, Japan",
+        "href": "/events/Shooto-Torao-41-114512",
+        "mainEventFighters": [
+          "Ryuto Wakamiya",
+          "Soma Yamamoto"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Daiki Yuki",
+            "b": "Kenzo Miyake"
+          },
+          {
+            "a": "Ryunosuke Matsuoka",
+            "b": "Nobuhiro Katayama"
+          },
+          {
+            "a": "Kyohei Kurose",
+            "b": "Hitoshi Okamoto"
+          },
+          {
+            "a": "Phillip Chakanyuka",
+            "b": "Yuki Ueno"
+          },
+          {
+            "a": "Kenjiro Taira",
+            "b": "Sora Takemoto"
+          },
+          {
+            "a": "Kenta Ide",
+            "b": "Satoshi Hatamura"
+          },
+          {
+            "a": "Sanshiro Suzuki",
+            "b": "Kensuke Morimoto"
+          },
+          {
+            "a": "Yuuga Mizumoto",
+            "b": "Takara Ishihara"
+          },
+          {
+            "a": "Kohei Akagi",
+            "b": "Yuya Tokunaga"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Ryuto Wakamiya|Soma Yamamoto|2026-12-06"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Fury Fighting Championship 126",
+      "eventTag": "Fury Fighting Championship 126 · Imagen Venues Escapade 2001, Houston, Texas, United States",
+      "homeTeam": "Unknown Fighter",
+      "awayTeam": "Ian Engbrock",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Zachary Borrego v Reese Watkins",
+          "weightClass": null
+        },
+        {
+          "title": "Cody Freeman v Jonathan Astudillo",
+          "weightClass": null
+        },
+        {
+          "title": "Isaac Muluh v Myron Dennis",
+          "weightClass": null
+        },
+        {
+          "title": "Shawn Tillman v Quincy Evans",
+          "weightClass": null
+        },
+        {
+          "title": "Jorge Regalado v Alan Gonzalez",
+          "weightClass": null
+        },
+        {
+          "title": "Jerry Arreola v Elias Goley",
+          "weightClass": null
+        },
+        {
+          "title": "Marcelo Valadao Jr. v Unknown Fighter",
+          "weightClass": null
+        },
+        {
+          "title": "Jacob Estevez v Niko Kittrell",
+          "weightClass": null
+        },
+        {
+          "title": "Gilberto Melara v Fidel Gramiccia",
+          "weightClass": null
+        },
+        {
+          "title": "Jordan Garcia v Joe Hendershot",
+          "weightClass": null
+        },
+        {
+          "title": "Joel Barrientos v Simcha Smolanoff",
+          "weightClass": null
+        },
+        {
+          "title": "Gabriel Macario v Emmanuel Calhoune",
+          "weightClass": null
+        },
+        {
+          "title": "Sebastian Rodriguez v Drake Flores",
+          "weightClass": null
+        },
+        {
+          "title": "Mehul Somaroutu v Cristian Vasquez",
+          "weightClass": null
+        },
+        {
+          "title": "Noah Nwadei v Jose Cordova",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-06T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-06",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Fury-FC-126-Fury-Fighting-Championship-126-115189",
+        "name": "Fury Fighting Championship 126",
+        "dateUTC": null,
+        "dateOnly": "2026-12-06",
+        "venue": "Imagen Venues Escapade 2001",
+        "city": "Houston, Texas, United States",
+        "href": "/events/Fury-FC-126-Fury-Fighting-Championship-126-115189",
+        "mainEventFighters": [
+          "Unknown Fighter",
+          "Ian Engbrock"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Zachary Borrego",
+            "b": "Reese Watkins"
+          },
+          {
+            "a": "Cody Freeman",
+            "b": "Jonathan Astudillo"
+          },
+          {
+            "a": "Isaac Muluh",
+            "b": "Myron Dennis"
+          },
+          {
+            "a": "Shawn Tillman",
+            "b": "Quincy Evans"
+          },
+          {
+            "a": "Jorge Regalado",
+            "b": "Alan Gonzalez"
+          },
+          {
+            "a": "Jerry Arreola",
+            "b": "Elias Goley"
+          },
+          {
+            "a": "Marcelo Valadao Jr.",
+            "b": "Unknown Fighter"
+          },
+          {
+            "a": "Jacob Estevez",
+            "b": "Niko Kittrell"
+          },
+          {
+            "a": "Gilberto Melara",
+            "b": "Fidel Gramiccia"
+          },
+          {
+            "a": "Jordan Garcia",
+            "b": "Joe Hendershot"
+          },
+          {
+            "a": "Joel Barrientos",
+            "b": "Simcha Smolanoff"
+          },
+          {
+            "a": "Gabriel Macario",
+            "b": "Emmanuel Calhoune"
+          },
+          {
+            "a": "Sebastian Rodriguez",
+            "b": "Drake Flores"
+          },
+          {
+            "a": "Mehul Somaroutu",
+            "b": "Cristian Vasquez"
+          },
+          {
+            "a": "Noah Nwadei",
+            "b": "Jose Cordova"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Unknown Fighter|Ian Engbrock|2026-12-06"
+    },
+    {
       "org": "Boxing",
       "eventName": "Tyson Fury-Anthony Joshua",
       "eventTag": "Boxing · Principality Stadium, Cardiff, United Kingdom",
@@ -5487,6 +5749,64 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/anthony-cacace-vs-nick-ball-2026-12-19"
       },
       "watchKey": "fights:Boxing|Anthony Cacace|Nick Ball|2026-12-19"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Devin Haney vs Liam Paro",
+      "eventTag": "Boxing · San Francisco",
+      "homeTeam": "Devin Haney",
+      "awayTeam": "Liam Paro",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-19T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 19 Dec, 20:00",
+      "localDate": "2026-12-19",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-devin-haney-vs-liam-paro-2026-12-19",
+        "name": "Devin Haney vs Liam Paro",
+        "dateUTC": "2026-12-19T20:00:00.000Z",
+        "dateOnly": "2026-12-19",
+        "venue": null,
+        "city": "San Francisco",
+        "mainEventFighters": [
+          "Devin Haney",
+          "Liam Paro"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/devin-haney-vs-liam-paro-2026-12-19"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/devin-haney-vs-liam-paro-2026-12-19"
+      },
+      "watchKey": "fights:Boxing|Devin Haney|Liam Paro|2026-12-19"
     },
     {
       "org": "Boxing",
@@ -7365,20 +7685,7 @@
           }
         ]
       },
-      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24",
-      "replayGroups": [
-        {
-          "label": "Canada",
-          "channels": [
-            {
-              "name": "Fight Network",
-              "logo": "/logos/channels/fightnetwork.com.jpg",
-              "timeUK": "Fri 06 Nov, 03:00",
-              "airTimeUTC": "2026-11-06T03:00:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24"
     },
     {
       "org": "MMA",
@@ -7494,68 +7801,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-05T22:30:00.000Z",
-      "endsAtUTC": "2026-11-05T23:00:00.000Z",
-      "timeUK": "Thu 05 Nov, 22:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 246: Conor McGregor v Donald Cerrone",
-      "sublabel": "UFC - The Walk"
-    },
-    {
-      "airTimeUTC": "2026-11-06T02:00:00.000Z",
-      "endsAtUTC": "2026-11-06T05:00:00.000Z",
-      "timeUK": "Fri 06 Nov, 02:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 316: Dvalishvili v O'Malley 2",
-      "sublabel": "UFC Reloaded"
-    },
-    {
-      "airTimeUTC": "2026-11-06T03:00:00.000Z",
-      "endsAtUTC": "2026-11-06T04:00:00.000Z",
-      "timeUK": "Fri 06 Nov, 03:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "watchKey": "fights:Boxing|BKFC Fight Night Clearwater: Reber|Street, Prelims|2026-10-24",
-      "label": "BKFC Fight Night Clearwater: Reber vs Street, Prelims",
-      "logos": [],
-      "sublabel": "Boxing · Sat 24 Oct, 01:00"
-    },
-    {
-      "airTimeUTC": "2026-11-06T04:00:00.000Z",
-      "endsAtUTC": "2026-11-06T06:30:00.000Z",
-      "timeUK": "Fri 06 Nov, 04:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Reber v Street",
-      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
-    },
-    {
-      "airTimeUTC": "2026-11-06T05:00:00.000Z",
-      "endsAtUTC": "2026-11-06T08:00:00.000Z",
-      "timeUK": "Fri 06 Nov, 05:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 323: Dvalishvili v Yan 2",
-      "sublabel": "UFC Reloaded"
-    },
-    {
       "airTimeUTC": "2026-11-06T18:00:00.000Z",
       "endsAtUTC": "2026-11-06T22:00:00.000Z",
       "timeUK": "Fri 06 Nov, 18:00",
@@ -7620,6 +7865,18 @@
       "sublabel": "UFC"
     },
     {
+      "airTimeUTC": "2026-11-08T02:00:00.000Z",
+      "endsAtUTC": "2026-11-08T04:30:00.000Z",
+      "timeUK": "Sun 08 Nov, 02:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Bellator 192: Goiti Yamauchi v Michael Chandler",
+      "sublabel": "Bellator MMA"
+    },
+    {
       "airTimeUTC": "2026-11-08T04:30:00.000Z",
       "endsAtUTC": "2026-11-08T08:30:00.000Z",
       "timeUK": "Sun 08 Nov, 04:30",
@@ -7629,6 +7886,30 @@
       },
       "market": "UK",
       "label": "Dustin Poirier v Justin Gaethje",
+      "sublabel": "UFC Fight Flashback"
+    },
+    {
+      "airTimeUTC": "2026-11-11T23:30:00.000Z",
+      "endsAtUTC": "2026-11-12T03:30:00.000Z",
+      "timeUK": "Wed 11 Nov, 23:30",
+      "channel": {
+        "name": "TNT Sports 1",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Waldo Cortes-Acosta v Johnny Walker",
+      "sublabel": "UFC"
+    },
+    {
+      "airTimeUTC": "2026-11-12T02:30:00.000Z",
+      "endsAtUTC": "2026-11-12T06:30:00.000Z",
+      "timeUK": "Thu 12 Nov, 02:30",
+      "channel": {
+        "name": "TNT Sports 1",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Brandon Moreno v Deiveson Figueiredo III",
       "sublabel": "UFC Fight Flashback"
     }
   ]
