@@ -1,5 +1,27 @@
 [
   {
+    "timestamp": "2026-11-08T17:17:31.055Z",
+    "totalEvents": 20,
+    "added": [
+      "Banfield vs Boca Juniors (Copa Argentina) — Sat 14 Nov, 19:00",
+      "Querétaro vs Monterrey (Liga MX) — Sat 14 Nov, 17:00"
+    ],
+    "removed": [
+      "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00",
+      "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00",
+      "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
+      "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
+      "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
+      "Atlético Mineiro vs Grêmio (Copa do Brasil) — Sat 07 Nov, 18:00",
+      "Atlas vs Pachuca (Liga MX) — Sat 07 Nov, 17:00",
+      "Tigres UANL vs Cruz Azul (Liga MX) — Sat 07 Nov, 19:00",
+      "Toluca vs Monterrey (Liga MX) — Sat 07 Nov, 19:00",
+      "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sat 07 Nov, 22:00",
+      "Pumas UNAM vs América (Liga MX) — Sat 07 Nov, 21:10"
+    ],
+    "channelsChanged": []
+  },
+  {
     "timestamp": "2026-11-07T17:03:11.819Z",
     "totalEvents": 29,
     "added": [],
@@ -99,24 +121,6 @@
     "channelsChanged": [
       "Vasco da Gama vs Palmeiras (Copa do Brasil) — Sun 08 Nov, 17:00: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Globo Internacional, Paramount+]",
       "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
-    ]
-  },
-  {
-    "timestamp": "2026-11-03T18:43:23.456Z",
-    "totalEvents": 35,
-    "added": [],
-    "removed": [
-      "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
-      "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
-      "Red Bull Bragantino vs Santos (Campeonato Brasileiro Série A) — Mon 02 Nov, 20:00",
-      "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15",
-      "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15"
-    ],
-    "channelsChanged": [
-      "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Flow Sports, Globo Internacional]",
-      "São Paulo vs Corinthians (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30: [Fanatiz (Míralo en vivo), Fanatiz YouTube]",
-      "Palmeiras vs Remo (Campeonato Brasileiro Série A) — Thu 05 Nov, 19:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Flow Sports]",
-      "Vitória vs Fluminense (Campeonato Brasileiro Série A) — Fri 06 Nov, 20:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]"
     ]
   }
 ]

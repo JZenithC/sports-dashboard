@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T17:03:13.826Z",
+  "generatedAt": "2026-11-08T17:17:32.620Z",
   "tables": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -2332,10 +2332,10 @@
                 "gremio"
               ],
               "leg1Score": "2-0",
-              "leg2Date": "2026-11-07",
-              "leg2Score": null,
-              "aggregate": null,
-              "winner": null
+              "leg2Date": null,
+              "leg2Score": "1-1",
+              "aggregate": "3-1",
+              "winner": "Grêmio"
             },
             {
               "teamA": "Palmeiras",

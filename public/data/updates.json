@@ -1,7 +1,30 @@
 {
-  "generatedAt": "2026-11-07T17:04:29.719Z",
+  "generatedAt": "2026-11-08T17:19:03.734Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-08T17:17:31.055Z",
+        "totalEvents": 20,
+        "added": [
+          "Banfield vs Boca Juniors (Copa Argentina) — Sat 14 Nov, 19:00",
+          "Querétaro vs Monterrey (Liga MX) — Sat 14 Nov, 17:00"
+        ],
+        "removed": [
+          "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00",
+          "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00",
+          "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
+          "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
+          "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
+          "Atlético Mineiro vs Grêmio (Copa do Brasil) — Sat 07 Nov, 18:00",
+          "Atlas vs Pachuca (Liga MX) — Sat 07 Nov, 17:00",
+          "Tigres UANL vs Cruz Azul (Liga MX) — Sat 07 Nov, 19:00",
+          "Toluca vs Monterrey (Liga MX) — Sat 07 Nov, 19:00",
+          "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sat 07 Nov, 22:00",
+          "Pumas UNAM vs América (Liga MX) — Sat 07 Nov, 21:10"
+        ],
+        "channelsChanged": [],
+        "total": 20
+      },
       {
         "timestamp": "2026-11-07T17:03:11.819Z",
         "totalEvents": 29,
@@ -557,42 +580,16 @@
           "América vs Pachuca (Liga MX) — Sun 25 Oct, 18:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]"
         ],
         "total": 40
-      },
-      {
-        "timestamp": "2026-10-19T17:49:42.383Z",
-        "totalEvents": 41,
-        "added": [
-          "Aldosivi vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 25 Oct, 13:45",
-          "Independiente vs Boca Juniors (Liga Profesional de Fútbol) — Sun 25 Oct, 16:00",
-          "River Plate vs Racing Club (Liga Profesional de Fútbol) — Sun 25 Oct, 18:15",
-          "Atlas vs Puebla (Liga MX) — Sun 25 Oct, 16:00",
-          "Central Córdoba (Santiago del Estero) vs Vélez Sarsfield (Liga Profesional de Fútbol) — Sun 25 Oct, 20:30",
-          "Barracas Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sun 25 Oct, 20:30",
-          "América vs Pachuca (Liga MX) — Sun 25 Oct, 18:00",
-          "Querétaro vs Cruz Azul (Liga MX) — Sun 25 Oct, 18:00",
-          "Tijuana vs Santos Laguna (Liga MX) — Sun 25 Oct, 20:00"
-        ],
-        "removed": [
-          "Racing Club vs Independiente (Liga Profesional de Fútbol) — Sun 18 Oct, 14:45",
-          "Fluminense vs Santos (Campeonato Brasileiro Série A) — Sun 18 Oct, 16:00",
-          "Grêmio vs Cruzeiro (Campeonato Brasileiro Série A) — Sun 18 Oct, 16:00",
-          "Estudiantes de La Plata vs San Lorenzo (Liga Profesional de Fútbol) — Sun 18 Oct, 18:00",
-          "Estudiantes de Río Cuarto vs Aldosivi (Liga Profesional de Fútbol) — Sun 18 Oct, 18:00",
-          "Bahia vs Flamengo (Campeonato Brasileiro Série A) — Sun 18 Oct, 18:30",
-          "Remo vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sun 18 Oct, 19:30",
-          "Belgrano (Córdoba) vs River Plate (Liga Profesional de Fútbol) — Sun 18 Oct, 20:15",
-          "Monterrey vs Pachuca (Liga MX) — Sun 18 Oct, 19:00"
-        ],
-        "channelsChanged": [
-          "Corinthians vs Vitória (Campeonato Brasileiro Série A) — Mon 19 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE FC, SPORTV]",
-          "FC Juárez vs Atlante (Liga MX) — Tue 20 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
-          "Tigres UANL vs Club León (Liga MX) — Tue 20 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
-          "Toluca vs Tijuana (Liga MX) — Wed 21 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One, ViX Premium]"
-        ],
-        "total": 41
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-08T17:18:03.242Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-07T17:03:46.587Z",
         "total": 0,
@@ -754,18 +751,32 @@
           "TB/CLE @ Milwaukee Brewers (2026-10-24)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-19T17:50:25.566Z",
-        "total": 4,
-        "added": [],
-        "removed": [
-          "Tampa Bay Rays @ Cleveland Guardians (2026-10-18)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-08T17:19:03.733Z",
+        "total": 56,
+        "added": [
+          "Rizin 55 (2026-11-08)",
+          "One Friday Fights 178 (2026-11-13)",
+          "UFC Fight Night: Adesanya vs Magomedov (2026-12-05)"
+        ],
+        "removed": [
+          "Denzel Bentley-Shane Mosley Jnr (2026-11-07)",
+          "Joshua Buatsi-Willy Hutchinson 2 (2026-11-07)",
+          "Abraham Perez vs Yankiel Rivera (2026-11-07)",
+          "Chris Billam-Smith vs Cheavon Clarke (2026-11-07)",
+          "Joshua Buatsi vs Willy Hutchinson (2026-11-07)",
+          "UFC Fight Night: Cortes Acosta vs. Walker (2026-11-07)",
+          "Oktagon 97: Severino vs. Holzer (2026-11-07)",
+          "RCC: Intro 40 (2026-11-07)",
+          "CFFC: NextGen 5 (2026-11-07)",
+          "Rizin 55 (2026-11-08)",
+          "One Friday Fights 178 (2026-11-13)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-07T17:04:29.719Z",
         "total": 64,
@@ -1013,20 +1024,6 @@
         "removed": [
           "Lemino Shooto Vol. 9 (2026-10-19)",
           "Fury FC: Amateur Series 62 (2026-10-25)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-19T17:51:06.442Z",
-        "total": 51,
-        "added": [
-          "Lemino Shooto Vol. 9 (2026-10-19)",
-          "Shooto / Torao Nation State: Force 24 (2026-10-25)",
-          "RCC: Intro 40 (2026-11-07)"
-        ],
-        "removed": [
-          "Lemino Shooto Vol. 9 (2026-10-19)",
-          "Shooto / Torao Nation State: Force 24 (2026-10-25)"
         ],
         "channelsChanged": []
       }
