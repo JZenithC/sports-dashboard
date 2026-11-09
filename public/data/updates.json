@@ -1,7 +1,34 @@
 {
-  "generatedAt": "2026-11-08T17:19:03.734Z",
+  "generatedAt": "2026-11-09T21:42:34.917Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-09T21:40:57.064Z",
+        "totalEvents": 2,
+        "added": [],
+        "removed": [
+          "Vasco da Gama vs Palmeiras (Copa do Brasil) — Sun 08 Nov, 17:00",
+          "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Independiente vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "San Lorenzo vs Platense (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Tigre vs Sarmiento de Junín (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Unión Santa Fe vs Vélez Sarsfield (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Gimnasia y Esgrima La Plata vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Banfield vs Atlético Tucumán (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Aldosivi vs River Plate (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Barracas Central vs Racing Club (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+          "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30",
+          "Querétaro vs Puebla (Liga MX) — Sun 08 Nov, 18:00",
+          "Club León vs Chivas Guadalajara (Liga MX) — Sun 08 Nov, 20:10"
+        ],
+        "channelsChanged": [],
+        "total": 2
+      },
       {
         "timestamp": "2026-11-08T17:17:31.055Z",
         "totalEvents": 20,
@@ -554,35 +581,16 @@
           "Flamengo vs Estudiantes de La Plata (CONMEBOL Libertadores) — Thu 22 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN, ESPN 3, FOX Sports, Mitelefe.com, PREMIERE 6, Pluto TV, Telefe, Telefé YouTube]"
         ],
         "total": 37
-      },
-      {
-        "timestamp": "2026-10-20T15:53:55.548Z",
-        "totalEvents": 40,
-        "added": [
-          "Unión Santa Fe vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Mon 26 Oct, 18:00",
-          "Flamengo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Mon 26 Oct, 20:00",
-          "Instituto (Córdoba) vs Deportivo Riestra (Liga Profesional de Fútbol) — Mon 26 Oct, 20:15"
-        ],
-        "removed": [
-          "Newell's Old Boys vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
-          "Sarmiento de Junín vs Barracas Central (Liga Profesional de Fútbol) — Mon 19 Oct, 19:00",
-          "Corinthians vs Vitória (Campeonato Brasileiro Série A) — Mon 19 Oct, 20:00",
-          "Deportivo Riestra vs Union Santa Fe (Liga Profesional de Fútbol) — Mon 19 Oct, 21:15"
-        ],
-        "channelsChanged": [
-          "Palmeiras vs Fluminense (CONMEBOL Libertadores) — Wed 21 Oct, 21:30: [Disney+ Premium, ESPN 3, FOX Sports, GE TV, GLOBO, PARAMOUNT+]",
-          "Atlas vs América (Liga MX) — Wed 21 Oct, 19:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
-          "Pachuca vs Cruz Azul (Liga MX) — Wed 21 Oct, 21:00: [FOX One, FOX+]",
-          "Santos Laguna vs Pumas UNAM (Liga MX) — Wed 21 Oct, 21:10: [Canal 5, Disney+ Premium, ESPN, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
-          "Atlante vs Atlético San Luis (Liga MX) — Fri 23 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, ESPN 2, aztecadeportes.com]",
-          "Monterrey vs Chivas Guadalajara (Liga MX) — Sat 24 Oct, 18:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
-          "Pumas UNAM vs Tigres UANL (Liga MX) — Sat 24 Oct, 20:00: [Canal 5, TUDN, ViX Premium]",
-          "América vs Pachuca (Liga MX) — Sun 25 Oct, 18:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]"
-        ],
-        "total": 40
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-09T21:41:28.316Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-08T17:18:03.242Z",
         "total": 0,
@@ -735,25 +743,30 @@
         ],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-20T15:54:31.736Z",
-        "total": 3,
-        "added": [
-          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-23)",
-          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-24)",
-          "Milwaukee Brewers @ Tampa Bay Rays (2026-10-26)"
-        ],
-        "removed": [
-          "Cleveland Guardians @ Tampa Bay Rays (2026-10-19)",
-          "Cleveland Guardians @ Tampa Bay Rays (2026-10-20)",
-          "TB/CLE @ Milwaukee Brewers (2026-10-23)",
-          "TB/CLE @ Milwaukee Brewers (2026-10-24)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-09T21:42:34.916Z",
+        "total": 52,
+        "added": [
+          "Oktagon: Cage Game 2 (2026-11-11)",
+          "Fury Fighting Championship 126 (2026-12-06)",
+          "UFC Fight Night: Salkilld vs. Saint Denis (2027-02-06)"
+        ],
+        "removed": [
+          "Shooto Brazil 141: Teixeira vs. Carvalho (2026-11-08)",
+          "Rizin 55 (2026-11-08)",
+          "Fury FC: Challenger Series 17 (2026-11-08)",
+          "Lemino Shooto Vol. 10 (2026-11-08)",
+          "Pancrase: 368 (2026-11-08)",
+          "Elif Nur Turhan-Alycia Baumgardner (2026-11-09)",
+          "Fury Fighting Championship 126 (2026-12-06)"
+        ],
+        "channelsChanged": [
+          "Carlos Adames vs Gerome Warburton (2026-11-14): [Paramount+, Sky Sports Mix]"
+        ]
+      },
       {
         "timestamp": "2026-11-08T17:19:03.733Z",
         "total": 56,
@@ -1008,22 +1021,6 @@
         ],
         "removed": [
           "Shooto Brazil 141: TBA (2026-11-06)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-20T15:55:17.358Z",
-        "total": 54,
-        "added": [
-          "Fury FC: Amateur Series 62 (2026-10-25)",
-          "Ares 45: Zebo vs. Baki 2 (2026-11-20)",
-          "Fury FC: Challenger Series 18 (2026-11-20)",
-          "LFA 247: Breno vs Torres (2026-11-20)",
-          "One Friday Fights 179 (2026-11-20)"
-        ],
-        "removed": [
-          "Lemino Shooto Vol. 9 (2026-10-19)",
-          "Fury FC: Amateur Series 62 (2026-10-25)"
         ],
         "channelsChanged": []
       }

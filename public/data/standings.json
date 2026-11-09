@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T17:17:32.620Z",
+  "generatedAt": "2026-11-09T21:40:58.480Z",
   "tables": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -2348,6 +2348,22 @@
               "leg2Date": "2026-11-08",
               "leg2Score": null,
               "aggregate": null,
+              "winner": null
+            }
+          ]
+        },
+        {
+          "round": "Final",
+          "ties": [
+            {
+              "teamA": "Grêmio",
+              "teamB": "Palmeiras",
+              "teamKeys": [
+                "gremio",
+                "palmeiras"
+              ],
+              "score": null,
+              "date": "2026-12-06",
               "winner": null
             }
           ]

@@ -1,5 +1,31 @@
 [
   {
+    "timestamp": "2026-11-09T21:40:57.064Z",
+    "totalEvents": 2,
+    "added": [],
+    "removed": [
+      "Vasco da Gama vs Palmeiras (Copa do Brasil) — Sun 08 Nov, 17:00",
+      "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Independiente vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "San Lorenzo vs Platense (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Tigre vs Sarmiento de Junín (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Unión Santa Fe vs Vélez Sarsfield (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Gimnasia y Esgrima La Plata vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Banfield vs Atlético Tucumán (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Aldosivi vs River Plate (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Barracas Central vs Racing Club (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
+      "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30",
+      "Querétaro vs Puebla (Liga MX) — Sun 08 Nov, 18:00",
+      "Club León vs Chivas Guadalajara (Liga MX) — Sun 08 Nov, 20:10"
+    ],
+    "channelsChanged": []
+  },
+  {
     "timestamp": "2026-11-08T17:17:31.055Z",
     "totalEvents": 20,
     "added": [
@@ -93,34 +119,6 @@
       "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
       "Querétaro vs Puebla (Liga MX) — Sun 08 Nov, 18:00: [FOX One]",
       "Club León vs Chivas Guadalajara (Liga MX) — Sun 08 Nov, 20:00: [FOX One, FOX+]"
-    ]
-  },
-  {
-    "timestamp": "2026-11-04T18:55:31.694Z",
-    "totalEvents": 47,
-    "added": [
-      "Aldosivi vs River Plate (Liga Profesional de Fútbol) — Thu 05 Nov, 15:00",
-      "Gimnasia y Esgrima La Plata vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Thu 05 Nov, 19:15",
-      "Barracas Central vs Racing Club (Liga Profesional de Fútbol) — Fri 06 Nov, 15:00",
-      "Independiente vs Deportivo Riestra (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15",
-      "San Lorenzo vs Platense (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15",
-      "Unión Santa Fe vs Vélez Sarsfield (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15",
-      "Tigre vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00",
-      "Banfield vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00",
-      "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00",
-      "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00",
-      "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
-      "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
-      "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
-      "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sat 07 Nov, 22:00"
-    ],
-    "removed": [
-      "Chapecoense vs Mirassol (Campeonato Brasileiro Série A) — Tue 03 Nov, 19:30",
-      "Internacional vs Coritiba (Campeonato Brasileiro Série A) — Tue 03 Nov, 21:30"
-    ],
-    "channelsChanged": [
-      "Vasco da Gama vs Palmeiras (Copa do Brasil) — Sun 08 Nov, 17:00: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Globo Internacional, Paramount+]",
-      "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
     ]
   }
 ]
