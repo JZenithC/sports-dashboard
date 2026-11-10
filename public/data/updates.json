@@ -1,7 +1,15 @@
 {
-  "generatedAt": "2026-11-09T21:42:34.917Z",
+  "generatedAt": "2026-11-10T18:54:30.448Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-10T18:53:12.611Z",
+        "totalEvents": 2,
+        "added": [],
+        "removed": [],
+        "channelsChanged": [],
+        "total": 2
+      },
       {
         "timestamp": "2026-11-09T21:40:57.064Z",
         "totalEvents": 2,
@@ -562,28 +570,16 @@
           "Argentinos Juniors vs Independiente Rivadavia (Liga Profesional de Fútbol) — Tue 27 Oct, 18:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]"
         ],
         "total": 33
-      },
-      {
-        "timestamp": "2026-10-21T16:10:21.212Z",
-        "totalEvents": 37,
-        "added": [
-          "Internacional vs Botafogo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
-          "Argentinos Juniors vs Independiente Rivadavia (Liga Profesional de Fútbol) — Tue 27 Oct, 18:00"
-        ],
-        "removed": [
-          "Chivas Guadalajara vs Necaxa (Liga MX) — Tue 20 Oct, 18:07",
-          "Vasco da Gama vs Boca Juniors (CONMEBOL Sudamericana) — Tue 20 Oct, 21:30",
-          "FC Juárez vs Atlante (Liga MX) — Tue 20 Oct, 19:00",
-          "Tigres UANL vs Club León (Liga MX) — Tue 20 Oct, 21:00",
-          "Atlético San Luis vs Querétaro (Liga MX) — Tue 20 Oct, 22:00"
-        ],
-        "channelsChanged": [
-          "Flamengo vs Estudiantes de La Plata (CONMEBOL Libertadores) — Thu 22 Oct, 21:30: [DISNEY+, Disney+ Premium, ESPN, ESPN 3, FOX Sports, Mitelefe.com, PREMIERE 6, Pluto TV, Telefe, Telefé YouTube]"
-        ],
-        "total": 37
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-10T18:53:43.579Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-09T21:41:28.316Z",
         "total": 0,
@@ -734,18 +730,16 @@
         ],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-21T16:10:57.850Z",
-        "total": 4,
-        "added": [
-          "Milwaukee Brewers @ Tampa Bay Rays (2026-10-27)"
-        ],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-10T18:54:30.447Z",
+        "total": 52,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-09T21:42:34.916Z",
         "total": 52,
@@ -1008,20 +1002,6 @@
           "Deep: 134 Impact (2026-11-22)"
         ],
         "removed": [],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-21T16:11:50.259Z",
-        "total": 57,
-        "added": [
-          "Shooto Brazil 141: Teixeira Vs. Carvalho (2026-11-06)",
-          "LFA 246: Alves vs. Vinuto (2026-11-13)",
-          "Oktagon 98: Legierski vs. Buchinger (2026-11-21)",
-          "KSW 123: Bartosinski vs. Lopaczyk (2026-11-21)"
-        ],
-        "removed": [
-          "Shooto Brazil 141: TBA (2026-11-06)"
-        ],
         "channelsChanged": []
       }
     ]
