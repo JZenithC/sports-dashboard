@@ -1,5 +1,15 @@
 [
   {
+    "timestamp": "2026-11-11T18:56:18.161Z",
+    "totalEvents": 4,
+    "added": [
+      "Mirassol vs Atlético Mineiro (Campeonato Brasileiro Série A) — Sat 14 Nov, 18:30",
+      "Chapecoense vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 14 Nov, 20:30"
+    ],
+    "removed": [],
+    "channelsChanged": []
+  },
+  {
     "timestamp": "2026-11-10T18:53:12.611Z",
     "totalEvents": 2,
     "added": [],
@@ -70,33 +80,5 @@
       "Atlético San Luis vs FC Juárez (Liga MX) — Fri 06 Nov, 22:00"
     ],
     "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-06T18:30:24.968Z",
-    "totalEvents": 38,
-    "added": [],
-    "removed": [
-      "Gimnasia y Esgrima La Plata vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Thu 05 Nov, 19:15",
-      "Palmeiras vs Remo (Campeonato Brasileiro Série A) — Thu 05 Nov, 19:30",
-      "Cruzeiro vs Bahía (Campeonato Brasileiro Série A) — Thu 05 Nov, 21:30",
-      "Barracas Central vs Racing Club (Liga Profesional de Fútbol) — Fri 06 Nov, 15:00"
-    ],
-    "channelsChanged": [
-      "Independiente vs Deportivo Riestra (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "San Lorenzo vs Platense (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15: [ESPN Premium, Fanatiz (Míralo en vivo), TyC Sports Internacional]",
-      "Unión Santa Fe vs Vélez Sarsfield (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15: [ESPN, Fanatiz (Míralo en vivo)]",
-      "Tigre vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Banfield vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Atlante vs Santos Laguna (Liga MX) — Fri 06 Nov, 21:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, ESPN, aztecadeportes.com]",
-      "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30: [Fanatiz (Míralo en vivo), TNT, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30: [Disney+ Premium, ESPN 2, Fanatiz (Míralo en vivo)]",
-      "Atlas vs Pachuca (Liga MX) — Sat 07 Nov, 17:00: [Layvtime, Layvtime YouTube, ViX Premium]",
-      "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sat 07 Nov, 22:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Querétaro vs Puebla (Liga MX) — Sun 08 Nov, 18:00: [FOX, FOX One]"
-    ]
   }
 ]

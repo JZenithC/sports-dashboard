@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T18:54:30.447Z",
+  "generatedAt": "2026-11-11T18:57:41.982Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -619,7 +619,7 @@
           "weightClass": "Lightweight"
         },
         {
-          "title": "Adrian Yañez v Juan Diaz",
+          "title": "Alatengheili v Juan Diaz",
           "weightClass": "Bantamweight"
         },
         {
@@ -715,7 +715,7 @@
             "weightClass": "Lightweight"
           },
           {
-            "a": "Adrian Yañez",
+            "a": "Alatengheili",
             "b": "Juan Diaz",
             "weightClass": "Bantamweight"
           },
@@ -1712,7 +1712,7 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Tomasz Mudroch v Jason Ponet",
+          "title": "Jakub Batfalsky v Ayton De Paepe",
           "weightClass": null
         },
         {
@@ -1720,23 +1720,11 @@
           "weightClass": null
         },
         {
-          "title": "Jakub Batfalsky v Ayton De Paepe",
+          "title": "Tomasz Mudroch v Jason Ponet",
           "weightClass": null
         },
         {
-          "title": "Matej Penaz v Unknown Fighter",
-          "weightClass": null
-        },
-        {
-          "title": "Hojat Khajevand v Mateusz Janur",
-          "weightClass": null
-        },
-        {
-          "title": "Patrik Sebek v Adrian Hamerski",
-          "weightClass": null
-        },
-        {
-          "title": "James Hendin v Sayed Murtaza Sadat",
+          "title": "David Hosek v Mateusz Janur",
           "weightClass": null
         },
         {
@@ -1745,6 +1733,14 @@
         },
         {
           "title": "Dawid Smielowski v Arbi Mezhidov",
+          "weightClass": null
+        },
+        {
+          "title": "Patrik Sebek v Adrian Hamerski",
+          "weightClass": null
+        },
+        {
+          "title": "James Hendin v Sayed Murtaza Sadat",
           "weightClass": null
         },
         {
@@ -1775,32 +1771,20 @@
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Tomasz Mudroch",
-            "b": "Jason Ponet"
+            "a": "Jakub Batfalsky",
+            "b": "Ayton De Paepe"
           },
           {
             "a": "Veronika Smolkova",
             "b": "Ivana Petrovic"
           },
           {
-            "a": "Jakub Batfalsky",
-            "b": "Ayton De Paepe"
+            "a": "Tomasz Mudroch",
+            "b": "Jason Ponet"
           },
           {
-            "a": "Matej Penaz",
-            "b": "Unknown Fighter"
-          },
-          {
-            "a": "Hojat Khajevand",
+            "a": "David Hosek",
             "b": "Mateusz Janur"
-          },
-          {
-            "a": "Patrik Sebek",
-            "b": "Adrian Hamerski"
-          },
-          {
-            "a": "James Hendin",
-            "b": "Sayed Murtaza Sadat"
           },
           {
             "a": "Ondrej Raska",
@@ -1809,6 +1793,14 @@
           {
             "a": "Dawid Smielowski",
             "b": "Arbi Mezhidov"
+          },
+          {
+            "a": "Patrik Sebek",
+            "b": "Adrian Hamerski"
+          },
+          {
+            "a": "James Hendin",
+            "b": "Sayed Murtaza Sadat"
           },
           {
             "a": "Michaela Hlavacikova",
@@ -2534,7 +2526,16 @@
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Koha Minowa v Fabio Henrique Dourado",
+          "weightClass": null
+        },
+        {
+          "title": "Taiga Orii v Ryo Hirayama",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-12-02T23:59:00Z",
       "kickoffLocal": null,
@@ -2556,7 +2557,16 @@
           "Anastasia Nikolakakos"
         ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Koha Minowa",
+            "b": "Fabio Henrique Dourado"
+          },
+          {
+            "a": "Taiga Orii",
+            "b": "Ryo Hirayama"
+          }
+        ]
       },
       "watchKey": "fights:MMA|Chihiro Sawada|Anastasia Nikolakakos|2026-12-02"
     },
@@ -3092,7 +3102,15 @@
           "weightClass": null
         },
         {
-          "title": "Moh Eter v Tomas Holecek",
+          "title": "Iwan Tagner v Bedirhan Kabak",
+          "weightClass": null
+        },
+        {
+          "title": "Mohamed Eter v Tomas Holecek",
+          "weightClass": null
+        },
+        {
+          "title": "Harun Uzun v Aleksandar Stefanovic",
           "weightClass": null
         },
         {
@@ -3147,8 +3165,16 @@
             "b": "Tomas Ciganik"
           },
           {
-            "a": "Moh Eter",
+            "a": "Iwan Tagner",
+            "b": "Bedirhan Kabak"
+          },
+          {
+            "a": "Mohamed Eter",
             "b": "Tomas Holecek"
+          },
+          {
+            "a": "Harun Uzun",
+            "b": "Aleksandar Stefanovic"
           },
           {
             "a": "Furkan Ugur",
@@ -3686,6 +3712,69 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/tyson-fury-vs-anthony-joshua-2026-12-11"
       },
       "watchKey": "fights:Boxing|Tyson Fury|Anthony Joshua|2026-12-11"
+    },
+    {
+      "org": "MMA",
+      "eventName": "ARES 46: Jorand vs. Jendrasik",
+      "eventTag": "ARES 46 · Adidas Arena, Paris, France",
+      "homeTeam": "Jorand",
+      "awayTeam": "Jendrasik",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Alexis Nicolas v Bilal Bakhouche-Chareuf",
+          "weightClass": null
+        },
+        {
+          "title": "Jean Magny v Kevin Cadoni",
+          "weightClass": null
+        },
+        {
+          "title": "Bogdan Ozdoev v Unknown Fighter",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-11T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-11",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-ARES-46-Jorand-vs-Jendrasik-114552",
+        "name": "ARES 46: Jorand vs. Jendrasik",
+        "dateUTC": null,
+        "dateOnly": "2026-12-11",
+        "venue": "Adidas Arena",
+        "city": "Paris, France",
+        "href": "/events/ARES-46-Jorand-vs-Jendrasik-114552",
+        "mainEventFighters": [
+          "Jorand",
+          "Jendrasik"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Alexis Nicolas",
+            "b": "Bilal Bakhouche-Chareuf"
+          },
+          {
+            "a": "Jean Magny",
+            "b": "Kevin Cadoni"
+          },
+          {
+            "a": "Bogdan Ozdoev",
+            "b": "Unknown Fighter"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Jorand|Jendrasik|2026-12-11"
     },
     {
       "org": "Boxing",
@@ -4538,20 +4627,20 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "JooSang Yoo v Marwan Rahiki",
-          "weightClass": "Featherweight"
-        },
-        {
           "title": "Joanderson Brito v Kaan Ofli",
           "weightClass": "Featherweight"
         },
         {
-          "title": "Robert Whittaker v Bogdan Guskov",
-          "weightClass": "Light Heavyweight"
+          "title": "JooSang Yoo v Marwan Rahiki",
+          "weightClass": "Featherweight"
         },
         {
           "title": "TBA v Opponent TBA",
           "weightClass": null
+        },
+        {
+          "title": "Robert Whittaker v Bogdan Guskov",
+          "weightClass": "Light Heavyweight"
         }
       ],
       "poster": null,
@@ -4601,24 +4690,24 @@
         ],
         "bouts": [
           {
-            "a": "JooSang Yoo",
-            "b": "Marwan Rahiki",
-            "weightClass": "Featherweight"
-          },
-          {
             "a": "Joanderson Brito",
             "b": "Kaan Ofli",
             "weightClass": "Featherweight"
           },
           {
-            "a": "Robert Whittaker",
-            "b": "Bogdan Guskov",
-            "weightClass": "Light Heavyweight"
+            "a": "JooSang Yoo",
+            "b": "Marwan Rahiki",
+            "weightClass": "Featherweight"
           },
           {
             "a": "TBA",
             "b": "Opponent TBA",
             "weightClass": null
+          },
+          {
+            "a": "Robert Whittaker",
+            "b": "Bogdan Guskov",
+            "weightClass": "Light Heavyweight"
           },
           {
             "a": "Benoît Saint Denis",
@@ -4763,6 +4852,12 @@
               "logo": null,
               "timeUK": "Fri 13 Nov, 18:00",
               "airTimeUTC": "2026-11-13T18:00:00.000Z"
+            },
+            {
+              "name": "Sky Sports Mix",
+              "logo": null,
+              "timeUK": "Mon 16 Nov, 20:00",
+              "airTimeUTC": "2026-11-16T20:00:00.000Z"
             }
           ]
         }
@@ -7522,42 +7617,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-10T23:00:00.000Z",
-      "endsAtUTC": "2026-11-10T23:30:00.000Z",
-      "timeUK": "Tue 10 Nov, 23:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 229: Khabib v McGregor",
-      "sublabel": "UFC Fight Flashback"
-    },
-    {
-      "airTimeUTC": "2026-11-11T05:30:00.000Z",
-      "endsAtUTC": "2026-11-11T08:30:00.000Z",
-      "timeUK": "Wed 11 Nov, 05:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 316: Dvalishvili v O'Malley 2",
-      "sublabel": "UFC Reloaded"
-    },
-    {
-      "airTimeUTC": "2026-11-11T08:30:00.000Z",
-      "endsAtUTC": "2026-11-11T09:00:00.000Z",
-      "timeUK": "Wed 11 Nov, 08:30",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 229: Khabib v McGregor",
-      "sublabel": "UFC Fight Flashback"
-    },
-    {
       "airTimeUTC": "2026-11-11T19:00:00.000Z",
       "endsAtUTC": "2026-11-11T19:30:00.000Z",
       "timeUK": "Wed 11 Nov, 19:00",
@@ -7598,6 +7657,102 @@
       "sublabel": "UFC Fight Flashback"
     },
     {
+      "airTimeUTC": "2026-11-12T06:00:00.000Z",
+      "endsAtUTC": "2026-11-12T09:00:00.000Z",
+      "timeUK": "Thu 12 Nov, 06:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 307: Periera v Rountree Jr.",
+      "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-11-12T23:00:00.000Z",
+      "endsAtUTC": "2026-11-13T00:00:00.000Z",
+      "timeUK": "Thu 12 Nov, 23:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Ferguson v Gaethje",
+      "sublabel": "UFC Main Events"
+    },
+    {
+      "airTimeUTC": "2026-11-13T03:00:00.000Z",
+      "endsAtUTC": "2026-11-13T06:00:00.000Z",
+      "timeUK": "Fri 13 Nov, 03:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 207: Nunes v Rousey",
+      "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-11-13T03:00:00.000Z",
+      "endsAtUTC": "2026-11-13T04:00:00.000Z",
+      "timeUK": "Fri 13 Nov, 03:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Reber v Street, Prelims",
+      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
+    },
+    {
+      "airTimeUTC": "2026-11-13T04:00:00.000Z",
+      "endsAtUTC": "2026-11-13T06:30:00.000Z",
+      "timeUK": "Fri 13 Nov, 04:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Reber v Street",
+      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
+    },
+    {
+      "airTimeUTC": "2026-11-13T06:00:00.000Z",
+      "endsAtUTC": "2026-11-13T09:00:00.000Z",
+      "timeUK": "Fri 13 Nov, 06:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 239: Jones v Santos",
+      "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-11-13T09:00:00.000Z",
+      "endsAtUTC": "2026-11-13T10:00:00.000Z",
+      "timeUK": "Fri 13 Nov, 09:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Volkanovski v Holloway 3",
+      "sublabel": "UFC Main Events"
+    },
+    {
+      "airTimeUTC": "2026-11-13T10:00:00.000Z",
+      "endsAtUTC": "2026-11-13T11:00:00.000Z",
+      "timeUK": "Fri 13 Nov, 10:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Namajunas v Zhang 2",
+      "sublabel": "UFC Main Events"
+    },
+    {
       "airTimeUTC": "2026-11-13T18:00:00.000Z",
       "endsAtUTC": "2026-11-13T22:00:00.000Z",
       "timeUK": "Fri 13 Nov, 18:00",
@@ -7624,6 +7779,34 @@
       "market": "UK",
       "label": "A look back at Jon Jones v Daniel Cormier I",
       "sublabel": "UFC Fight Flashback"
+    },
+    {
+      "airTimeUTC": "2026-11-16T20:00:00.000Z",
+      "endsAtUTC": "2026-11-17T00:00:00.000Z",
+      "timeUK": "Mon 16 Nov, 20:00",
+      "channel": {
+        "name": "Sky Sports Mix",
+        "logo": null
+      },
+      "market": "UK",
+      "watchKey": "fights:Boxing|Elif Nur Turhan|Alycia Baumgardner|2026-11-09",
+      "label": "Elif Nur Turhan-Alycia Baumgardner",
+      "logos": [
+        "/logos/posters/68390a3ba3e76d4eff59.jpg"
+      ],
+      "sublabel": "Boxing · Mon 09 Nov, 01:00"
+    },
+    {
+      "airTimeUTC": "2026-11-17T01:00:00.000Z",
+      "endsAtUTC": "2026-11-17T05:00:00.000Z",
+      "timeUK": "Tue 17 Nov, 01:00",
+      "channel": {
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Louis Smolka v Paddy Holohan",
+      "sublabel": "UFC Reloaded"
     }
   ]
 }
