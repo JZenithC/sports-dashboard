@@ -1,5 +1,14 @@
 [
   {
+    "timestamp": "2026-11-12T19:11:54.933Z",
+    "totalEvents": 5,
+    "added": [
+      "Flamengo vs Athletico Paranaense (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:30"
+    ],
+    "removed": [],
+    "channelsChanged": []
+  },
+  {
     "timestamp": "2026-11-11T18:56:18.161Z",
     "totalEvents": 4,
     "added": [
@@ -61,23 +70,6 @@
       "Toluca vs Monterrey (Liga MX) — Sat 07 Nov, 19:00",
       "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sat 07 Nov, 22:00",
       "Pumas UNAM vs América (Liga MX) — Sat 07 Nov, 21:10"
-    ],
-    "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-07T17:03:11.819Z",
-    "totalEvents": 29,
-    "added": [],
-    "removed": [
-      "Independiente vs Deportivo Riestra (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15",
-      "San Lorenzo vs Platense (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15",
-      "Unión Santa Fe vs Vélez Sarsfield (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15",
-      "Vitória vs Fluminense (Campeonato Brasileiro Série A) — Fri 06 Nov, 20:00",
-      "Necaxa vs Tijuana (Liga MX) — Fri 06 Nov, 19:00",
-      "Tigre vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00",
-      "Banfield vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00",
-      "Atlante vs Santos Laguna (Liga MX) — Fri 06 Nov, 21:00",
-      "Atlético San Luis vs FC Juárez (Liga MX) — Fri 06 Nov, 22:00"
     ],
     "channelsChanged": []
   }

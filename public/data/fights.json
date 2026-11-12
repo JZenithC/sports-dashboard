@@ -1,40 +1,6 @@
 {
-  "generatedAt": "2026-11-11T18:57:41.982Z",
+  "generatedAt": "2026-11-12T19:14:08.497Z",
   "upcoming": [
-    {
-      "org": "MMA",
-      "eventName": "Oktagon: Cage Game 2",
-      "eventTag": "Oktagon · Bobyhall Brno, Brno, Czech Republic",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "Oktagon: Cage Game 2",
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-11T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-11",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Oktagon-MMA-Oktagon-Cage-Game-2-115319",
-        "name": "Oktagon: Cage Game 2",
-        "dateUTC": null,
-        "dateOnly": "2026-11-11",
-        "venue": "Bobyhall Brno",
-        "city": "Brno, Czech Republic",
-        "href": "/events/Oktagon-MMA-Oktagon-Cage-Game-2-115319",
-        "mainEventFighters": [],
-        "broadcasts": [],
-        "bouts": []
-      },
-      "watchKey": "fights:MMA|null|null|2026-11-11"
-    },
     {
       "org": "Boxing",
       "eventName": "Steven Butler vs Erik Bazinyan",
@@ -338,7 +304,7 @@
     {
       "org": "PFL",
       "eventName": "PFL Dubai: Nemkov vs. Bilostenniy",
-      "eventTag": "PFL Dubai · Coca-Cola Arena, Dubai · 15-fight card · main card Sat 14 Nov, 18:00 UK",
+      "eventTag": "PFL Dubai · Coca-Cola Arena, Dubai · 13-fight card · main card Sat 14 Nov, 18:00 UK",
       "homeTeam": "Vadim Nemkov",
       "awayTeam": "Sergei Bilostenniy",
       "cardTitle": null,
@@ -360,10 +326,6 @@
           "weightClass": "Heavyweight"
         },
         {
-          "title": "Khamzat Abaev v Leon Hill",
-          "weightClass": "Welterweight"
-        },
-        {
           "title": "Alexei Pergande v Akhmed Magomedov",
           "weightClass": "Lightweight"
         },
@@ -372,16 +334,12 @@
           "weightClass": "Welterweight"
         },
         {
-          "title": "Movlid Khaybulaev v Asaël Adjoudj",
-          "weightClass": "Featherweight"
-        },
-        {
           "title": "Adam Borics v Khasan Magomedsharipov",
           "weightClass": "Featherweight"
         },
         {
-          "title": "Nawras Abzakh v Lewis McGrillen",
-          "weightClass": "Bantamweight"
+          "title": "Saygid Izagakhmaev v David Martinez",
+          "weightClass": "Welterweight"
         },
         {
           "title": "Shem Rock v Connor Hughes",
@@ -392,8 +350,8 @@
           "weightClass": null
         },
         {
-          "title": "Abubakar Nurmagomedov v David Martinez",
-          "weightClass": "Welterweight"
+          "title": "Nawras Abzakh v Lewis McGrillen",
+          "weightClass": "Bantamweight"
         },
         {
           "title": "Oleg Popov v Pouya Rahmani",
@@ -466,11 +424,6 @@
             "weightClass": "Heavyweight"
           },
           {
-            "a": "Khamzat Abaev",
-            "b": "Leon Hill",
-            "weightClass": "Welterweight"
-          },
-          {
             "a": "Alexei Pergande",
             "b": "Akhmed Magomedov",
             "weightClass": "Lightweight"
@@ -481,19 +434,14 @@
             "weightClass": "Welterweight"
           },
           {
-            "a": "Movlid Khaybulaev",
-            "b": "Asaël Adjoudj",
-            "weightClass": "Featherweight"
-          },
-          {
             "a": "Adam Borics",
             "b": "Khasan Magomedsharipov",
             "weightClass": "Featherweight"
           },
           {
-            "a": "Nawras Abzakh",
-            "b": "Lewis McGrillen",
-            "weightClass": "Bantamweight"
+            "a": "Saygid Izagakhmaev",
+            "b": "David Martinez",
+            "weightClass": "Welterweight"
           },
           {
             "a": "Shem Rock",
@@ -506,9 +454,9 @@
             "weightClass": null
           },
           {
-            "a": "Abubakar Nurmagomedov",
-            "b": "David Martinez",
-            "weightClass": "Welterweight"
+            "a": "Nawras Abzakh",
+            "b": "Lewis McGrillen",
+            "weightClass": "Bantamweight"
           },
           {
             "a": "Oleg Popov",
@@ -527,7 +475,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/pfl.png",
-        "boutCount": 15,
+        "boutCount": 13,
         "broadcasts": [
           "ESPN+"
         ]
@@ -1093,11 +1041,11 @@
           "weightClass": null
         },
         {
-          "title": "Amir Aliev v Adionai Maciel",
+          "title": "Amir Aliev v Matheus Malta",
           "weightClass": null
         },
         {
-          "title": "Nimo Djagbo v Nikodem Blazejewski",
+          "title": "Nimo Djagbo v Sidney Aguero",
           "weightClass": null
         },
         {
@@ -1149,11 +1097,11 @@
           },
           {
             "a": "Amir Aliev",
-            "b": "Adionai Maciel"
+            "b": "Matheus Malta"
           },
           {
             "a": "Nimo Djagbo",
-            "b": "Nikodem Blazejewski"
+            "b": "Sidney Aguero"
           },
           {
             "a": "Marvin Caperan",
@@ -3734,6 +3682,10 @@
           "weightClass": null
         },
         {
+          "title": "Andrii Misiuk v Giresse Cabral Tsague",
+          "weightClass": null
+        },
+        {
           "title": "Bogdan Ozdoev v Unknown Fighter",
           "weightClass": null
         }
@@ -3767,6 +3719,10 @@
           {
             "a": "Jean Magny",
             "b": "Kevin Cadoni"
+          },
+          {
+            "a": "Andrii Misiuk",
+            "b": "Giresse Cabral Tsague"
           },
           {
             "a": "Bogdan Ozdoev",
@@ -4323,6 +4279,64 @@
     },
     {
       "org": "Boxing",
+      "eventName": "Jarrell Miller vs Tony Yoka",
+      "eventTag": "Boxing · Accra",
+      "homeTeam": "Jarrell Miller",
+      "awayTeam": "Tony Yoka",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-20T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sun 20 Dec, 20:00",
+      "localDate": "2026-12-20",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-jarrell-miller-vs-tony-yoka-2026-12-20",
+        "name": "Jarrell Miller vs Tony Yoka",
+        "dateUTC": "2026-12-20T20:00:00.000Z",
+        "dateOnly": "2026-12-20",
+        "venue": null,
+        "city": "Accra",
+        "mainEventFighters": [
+          "Jarrell Miller",
+          "Tony Yoka"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/jarrell-miller-vs-tony-yoka-2026-12-20"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/jarrell-miller-vs-tony-yoka-2026-12-20"
+      },
+      "watchKey": "fights:Boxing|Jarrell Miller|Tony Yoka|2026-12-20"
+    },
+    {
+      "org": "Boxing",
       "eventName": "Ryan Garner vs James Dickens",
       "eventTag": "Boxing · Bournemouth",
       "homeTeam": "Ryan Garner",
@@ -4515,6 +4529,64 @@
       "watchKey": "fights:UFC|TBA|Opponent TBA|2027-01-16"
     },
     {
+      "org": "Boxing",
+      "eventName": "Arnold Barboza Jr. vs Oscar Duarte",
+      "eventTag": "Boxing · Anaheim",
+      "homeTeam": "Arnold Barboza Jr.",
+      "awayTeam": "Oscar Duarte",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2027-01-23T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 23 Jan, 20:00",
+      "localDate": "2027-01-23",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-arnold-barboza-jr-vs-oscar-duarte-2027-01-23",
+        "name": "Arnold Barboza Jr. vs Oscar Duarte",
+        "dateUTC": "2027-01-23T20:00:00.000Z",
+        "dateOnly": "2027-01-23",
+        "venue": null,
+        "city": "Anaheim",
+        "mainEventFighters": [
+          "Arnold Barboza Jr.",
+          "Oscar Duarte"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/arnold-barboza-jr-vs-oscar-duarte-2027-01-23"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/arnold-barboza-jr-vs-oscar-duarte-2027-01-23"
+      },
+      "watchKey": "fights:Boxing|Arnold Barboza Jr.|Oscar Duarte|2027-01-23"
+    },
+    {
       "org": "UFC",
       "eventName": "UFC 336: Van vs. Kape",
       "eventTag": "UFC 336 · Scotiabank Arena, Toronto · 4-fight card · main card Sun 31 Jan, 02:00 UK",
@@ -4617,7 +4689,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Salkilld vs. Saint Denis",
-      "eventTag": "UFC Fight Night · Afterpay Arena, Sydney · 5-fight card · main card Sat 06 Feb, 22:00 UK",
+      "eventTag": "UFC Fight Night · Afterpay Arena, Sydney · 8-fight card · main card Sat 06 Feb, 22:00 UK",
       "homeTeam": "Benoît Saint Denis",
       "awayTeam": "Quillan Salkilld",
       "cardTitle": null,
@@ -4627,16 +4699,28 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
+          "title": "Meng Bo v Bo Hyun Park",
+          "weightClass": "W Strawweight"
+        },
+        {
+          "title": "Jiniushiyue v Takaya Suzuki",
+          "weightClass": "Flyweight"
+        },
+        {
+          "title": "Ryo Tajima v Rabindra Dhant",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "George Mangos v Dagiisuren Chagnaadorj",
+          "weightClass": "Featherweight"
+        },
+        {
           "title": "Joanderson Brito v Kaan Ofli",
           "weightClass": "Featherweight"
         },
         {
           "title": "JooSang Yoo v Marwan Rahiki",
           "weightClass": "Featherweight"
-        },
-        {
-          "title": "TBA v Opponent TBA",
-          "weightClass": null
         },
         {
           "title": "Robert Whittaker v Bogdan Guskov",
@@ -4690,6 +4774,26 @@
         ],
         "bouts": [
           {
+            "a": "Meng Bo",
+            "b": "Bo Hyun Park",
+            "weightClass": "W Strawweight"
+          },
+          {
+            "a": "Jiniushiyue",
+            "b": "Takaya Suzuki",
+            "weightClass": "Flyweight"
+          },
+          {
+            "a": "Ryo Tajima",
+            "b": "Rabindra Dhant",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "George Mangos",
+            "b": "Dagiisuren Chagnaadorj",
+            "weightClass": "Featherweight"
+          },
+          {
             "a": "Joanderson Brito",
             "b": "Kaan Ofli",
             "weightClass": "Featherweight"
@@ -4698,11 +4802,6 @@
             "a": "JooSang Yoo",
             "b": "Marwan Rahiki",
             "weightClass": "Featherweight"
-          },
-          {
-            "a": "TBA",
-            "b": "Opponent TBA",
-            "weightClass": null
           },
           {
             "a": "Robert Whittaker",
@@ -4716,7 +4815,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 5,
+        "boutCount": 8,
         "broadcasts": [
           "Paramount+"
         ]
@@ -4725,6 +4824,40 @@
     }
   ],
   "recent": [
+    {
+      "org": "MMA",
+      "eventName": "Oktagon: Cage Game 2",
+      "eventTag": "Oktagon · Bobyhall Brno, Brno, Czech Republic",
+      "homeTeam": null,
+      "awayTeam": null,
+      "cardTitle": "Oktagon: Cage Game 2",
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-11T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-11",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Oktagon-MMA-Oktagon-Cage-Game-2-115319",
+        "name": "Oktagon: Cage Game 2",
+        "dateUTC": null,
+        "dateOnly": "2026-11-11",
+        "venue": "Bobyhall Brno",
+        "city": "Brno, Czech Republic",
+        "href": "/events/Oktagon-MMA-Oktagon-Cage-Game-2-115319",
+        "mainEventFighters": [],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|null|null|2026-11-11"
+    },
     {
       "org": "Boxing",
       "eventName": "Elif Nur Turhan-Alycia Baumgardner",
@@ -6101,20 +6234,7 @@
           "Paramount+"
         ]
       },
-      "watchKey": "fights:UFC|Johnny Walker|Waldo Cortes Acosta|2026-11-07",
-      "replayGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports 1",
-              "logo": "/logos/channels/tntsports.co.uk.png",
-              "timeUK": "Wed 11 Nov, 23:30",
-              "airTimeUTC": "2026-11-11T23:30:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:UFC|Johnny Walker|Waldo Cortes Acosta|2026-11-07"
     },
     {
       "org": "Boxing",
@@ -7617,58 +7737,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-11T19:00:00.000Z",
-      "endsAtUTC": "2026-11-11T19:30:00.000Z",
-      "timeUK": "Wed 11 Nov, 19:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 246: Conor McGregor v Donald Cerrone",
-      "sublabel": "UFC - The Walk"
-    },
-    {
-      "airTimeUTC": "2026-11-11T23:30:00.000Z",
-      "endsAtUTC": "2026-11-12T03:30:00.000Z",
-      "timeUK": "Wed 11 Nov, 23:30",
-      "channel": {
-        "name": "TNT Sports 1",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "watchKey": "fights:UFC|Johnny Walker|Waldo Cortes Acosta|2026-11-07",
-      "label": "UFC Fight Night: Cortes Acosta vs. Walker",
-      "logos": [
-        "/logos/orgs/ufc.png"
-      ],
-      "sublabel": "UFC · Sat 07 Nov, 22:00"
-    },
-    {
-      "airTimeUTC": "2026-11-12T02:30:00.000Z",
-      "endsAtUTC": "2026-11-12T06:30:00.000Z",
-      "timeUK": "Thu 12 Nov, 02:30",
-      "channel": {
-        "name": "TNT Sports 1",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "label": "Brandon Moreno v Deiveson Figueiredo III",
-      "sublabel": "UFC Fight Flashback"
-    },
-    {
-      "airTimeUTC": "2026-11-12T06:00:00.000Z",
-      "endsAtUTC": "2026-11-12T09:00:00.000Z",
-      "timeUK": "Thu 12 Nov, 06:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 307: Periera v Rountree Jr.",
-      "sublabel": "UFC Reloaded"
-    },
-    {
       "airTimeUTC": "2026-11-12T23:00:00.000Z",
       "endsAtUTC": "2026-11-13T00:00:00.000Z",
       "timeUK": "Thu 12 Nov, 23:00",
@@ -7753,6 +7821,18 @@
       "sublabel": "UFC Main Events"
     },
     {
+      "airTimeUTC": "2026-11-13T15:00:00.000Z",
+      "endsAtUTC": "2026-11-13T16:00:00.000Z",
+      "timeUK": "Fri 13 Nov, 15:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Volkanovski v Holloway 3",
+      "sublabel": "UFC Main Events"
+    },
+    {
       "airTimeUTC": "2026-11-13T18:00:00.000Z",
       "endsAtUTC": "2026-11-13T22:00:00.000Z",
       "timeUK": "Fri 13 Nov, 18:00",
@@ -7767,6 +7847,30 @@
         "/logos/posters/68390a3ba3e76d4eff59.jpg"
       ],
       "sublabel": "Boxing · Mon 09 Nov, 01:00"
+    },
+    {
+      "airTimeUTC": "2026-11-14T05:00:00.000Z",
+      "endsAtUTC": "2026-11-14T08:00:00.000Z",
+      "timeUK": "Sat 14 Nov, 05:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 289: Nunes v Aldana",
+      "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-11-14T08:00:00.000Z",
+      "endsAtUTC": "2026-11-14T11:00:00.000Z",
+      "timeUK": "Sat 14 Nov, 08:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 207: Nunes v Rousey",
+      "sublabel": "UFC Reloaded"
     },
     {
       "airTimeUTC": "2026-11-14T22:00:00.000Z",
