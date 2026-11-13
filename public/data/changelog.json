@@ -1,5 +1,12 @@
 [
   {
+    "timestamp": "2026-11-13T18:49:37.702Z",
+    "totalEvents": 5,
+    "added": [],
+    "removed": [],
+    "channelsChanged": []
+  },
+  {
     "timestamp": "2026-11-12T19:11:54.933Z",
     "totalEvents": 5,
     "added": [
@@ -48,28 +55,6 @@
       "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30",
       "Querétaro vs Puebla (Liga MX) — Sun 08 Nov, 18:00",
       "Club León vs Chivas Guadalajara (Liga MX) — Sun 08 Nov, 20:10"
-    ],
-    "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-08T17:17:31.055Z",
-    "totalEvents": 20,
-    "added": [
-      "Banfield vs Boca Juniors (Copa Argentina) — Sat 14 Nov, 19:00",
-      "Querétaro vs Monterrey (Liga MX) — Sat 14 Nov, 17:00"
-    ],
-    "removed": [
-      "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00",
-      "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00",
-      "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
-      "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
-      "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30",
-      "Atlético Mineiro vs Grêmio (Copa do Brasil) — Sat 07 Nov, 18:00",
-      "Atlas vs Pachuca (Liga MX) — Sat 07 Nov, 17:00",
-      "Tigres UANL vs Cruz Azul (Liga MX) — Sat 07 Nov, 19:00",
-      "Toluca vs Monterrey (Liga MX) — Sat 07 Nov, 19:00",
-      "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sat 07 Nov, 22:00",
-      "Pumas UNAM vs América (Liga MX) — Sat 07 Nov, 21:10"
     ],
     "channelsChanged": []
   }
