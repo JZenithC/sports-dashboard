@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-11-13T18:51:26.173Z",
+  "generatedAt": "2026-11-14T17:23:34.637Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-14T17:21:53.702Z",
+        "totalEvents": 13,
+        "added": [
+          "Coritiba vs Santos (Campeonato Brasileiro Série A) — Wed 18 Nov, 16:30",
+          "Cruzeiro vs Palmeiras (Campeonato Brasileiro Série A) — Wed 18 Nov, 17:30",
+          "Vasco da Gama vs Internacional (Campeonato Brasileiro Série A) — Thu 19 Nov, 16:30",
+          "São Paulo vs Fluminense (Campeonato Brasileiro Série A) — Thu 19 Nov, 21:30",
+          "Vélez Sarsfield vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Fri 20 Nov, 20:00",
+          "Puebla vs Atlético San Luis (Liga MX) — Fri 20 Nov, 19:00",
+          "Tijuana vs Atlante (Liga MX) — Fri 20 Nov, 21:00",
+          "FC Juárez vs Atlas (Liga MX) — Fri 20 Nov, 21:00"
+        ],
+        "removed": [],
+        "channelsChanged": [
+          "Mirassol vs Atlético Mineiro (Campeonato Brasileiro Série A) — Sat 14 Nov, 18:30: [Fanatiz (Míralo en vivo), Flow Sports]"
+        ],
+        "total": 13
+      },
       {
         "timestamp": "2026-11-13T18:49:37.702Z",
         "totalEvents": 5,
@@ -469,45 +488,16 @@
           "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 22:00: [Disney+ Premium, ESPN 2, ViX Premium]"
         ],
         "total": 32
-      },
-      {
-        "timestamp": "2026-10-25T15:06:46.157Z",
-        "totalEvents": 33,
-        "added": [
-          "Coritiba vs Grêmio (Campeonato Brasileiro Série A) — Mon 26 Oct, 19:30",
-          "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Sat 31 Oct, 14:45",
-          "Deportivo Riestra vs Talleres de Córdoba (Liga Profesional de Fútbol) — Sat 31 Oct, 17:00",
-          "Vélez Sarsfield vs San Lorenzo (Liga Profesional de Fútbol) — Sat 31 Oct, 19:15",
-          "Pachuca vs Tigres UANL (Liga MX) — Sat 31 Oct, 17:00",
-          "Estudiantes de La Plata vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Sat 31 Oct, 21:30",
-          "Monterrey vs Tijuana (Liga MX) — Sat 31 Oct, 19:00",
-          "Chivas Guadalajara vs Atlante (Liga MX) — Sat 31 Oct, 19:07",
-          "América vs Toluca (Liga MX) — Sat 31 Oct, 21:00"
-        ],
-        "removed": [
-          "Banfield vs Lanús (Liga Profesional de Fútbol) — Sat 24 Oct, 14:45",
-          "Vitória vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
-          "Internacional vs Botafogo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
-          "Mirassol vs São Paulo (Campeonato Brasileiro Série A) — Sat 24 Oct, 16:30",
-          "Talleres de Córdoba vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 24 Oct, 17:00",
-          "Palmeiras vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30",
-          "Vasco da Gama vs Corinthians (Campeonato Brasileiro Série A) — Sat 24 Oct, 18:30",
-          "San Lorenzo vs Newells Old Boys (Liga Profesional de Fútbol) — Sat 24 Oct, 19:15",
-          "Chapecoense vs Fluminense (Campeonato Brasileiro Série A) — Sat 24 Oct, 19:30",
-          "Club León vs Toluca (Liga MX) — Sat 24 Oct, 17:00",
-          "Santos vs Bahia (Campeonato Brasileiro Série A) — Sat 24 Oct, 21:00",
-          "Monterrey vs Chivas Guadalajara (Liga MX) — Sat 24 Oct, 18:00",
-          "Rosario Central vs Huracán (Liga Profesional de Fútbol) — Sat 24 Oct, 21:30",
-          "Pumas UNAM vs Tigres UANL (Liga MX) — Sat 24 Oct, 20:00"
-        ],
-        "channelsChanged": [
-          "Union Santa Fe vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Mon 26 Oct, 19:00: [DISNEY+, Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Flamengo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Mon 26 Oct, 20:00: [Flamengo TV YouTube, PREMIERE FC, SPORTV]"
-        ],
-        "total": 33
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-14T17:22:27.992Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-13T18:50:12.581Z",
         "total": 0,
@@ -648,20 +638,24 @@
         "added": [],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-25T15:07:19.571Z",
-        "total": 5,
-        "added": [
-          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-31)"
-        ],
-        "removed": [
-          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-24)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-14T17:23:34.636Z",
+        "total": 51,
+        "added": [
+          "Deep: Tokyo Impact 2026 6th Round (2026-12-13)",
+          "Deep: 135 Impact (2026-12-13)"
+        ],
+        "removed": [
+          "One Friday Fights 178 (2026-11-13)",
+          "LFA 246: Alves vs. Vinuto (2026-11-13)",
+          "Bryan Flores-Jose Nunez (2026-11-14)",
+          "PFL Dubai: Nemkov vs. Bilostenniy (2026-11-14)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-13T18:51:26.173Z",
         "total": 53,
@@ -910,19 +904,6 @@
         "removed": [
           "Shooto / Torao Nation State: Force 24 (2026-10-25)",
           "Fury FC: Amateur Series 62 (2026-10-25)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-25T15:08:07.026Z",
-        "total": 59,
-        "added": [
-          "One Friday Fights 176 (2026-10-30)"
-        ],
-        "removed": [
-          "Smith vs. Puello (2026-10-24)",
-          "Emanuel Navarrete-O'Shaquie Foster (2026-10-25)",
-          "One Friday Fights 176 (2026-10-30)"
         ],
         "channelsChanged": []
       }

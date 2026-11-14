@@ -1,5 +1,23 @@
 [
   {
+    "timestamp": "2026-11-14T17:21:53.702Z",
+    "totalEvents": 13,
+    "added": [
+      "Coritiba vs Santos (Campeonato Brasileiro Série A) — Wed 18 Nov, 16:30",
+      "Cruzeiro vs Palmeiras (Campeonato Brasileiro Série A) — Wed 18 Nov, 17:30",
+      "Vasco da Gama vs Internacional (Campeonato Brasileiro Série A) — Thu 19 Nov, 16:30",
+      "São Paulo vs Fluminense (Campeonato Brasileiro Série A) — Thu 19 Nov, 21:30",
+      "Vélez Sarsfield vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Fri 20 Nov, 20:00",
+      "Puebla vs Atlético San Luis (Liga MX) — Fri 20 Nov, 19:00",
+      "Tijuana vs Atlante (Liga MX) — Fri 20 Nov, 21:00",
+      "FC Juárez vs Atlas (Liga MX) — Fri 20 Nov, 21:00"
+    ],
+    "removed": [],
+    "channelsChanged": [
+      "Mirassol vs Atlético Mineiro (Campeonato Brasileiro Série A) — Sat 14 Nov, 18:30: [Fanatiz (Míralo en vivo), Flow Sports]"
+    ]
+  },
+  {
     "timestamp": "2026-11-13T18:49:37.702Z",
     "totalEvents": 5,
     "added": [],
@@ -30,32 +48,6 @@
     "totalEvents": 2,
     "added": [],
     "removed": [],
-    "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-09T21:40:57.064Z",
-    "totalEvents": 2,
-    "added": [],
-    "removed": [
-      "Vasco da Gama vs Palmeiras (Copa do Brasil) — Sun 08 Nov, 17:00",
-      "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Independiente vs Deportivo Riestra (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "San Lorenzo vs Platense (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Tigre vs Sarmiento de Junín (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Unión Santa Fe vs Vélez Sarsfield (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Gimnasia y Esgrima La Plata vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Banfield vs Atlético Tucumán (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Aldosivi vs River Plate (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Barracas Central vs Racing Club (Liga Profesional de Fútbol) — Sun 08 Nov, 18:00",
-      "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30",
-      "Querétaro vs Puebla (Liga MX) — Sun 08 Nov, 18:00",
-      "Club León vs Chivas Guadalajara (Liga MX) — Sun 08 Nov, 20:10"
-    ],
     "channelsChanged": []
   }
 ]
