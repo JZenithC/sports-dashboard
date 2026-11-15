@@ -1,5 +1,27 @@
 [
   {
+    "timestamp": "2026-11-15T18:02:15.660Z",
+    "totalEvents": 18,
+    "added": [
+      "Defensa y Justicia vs Barracas Central (Liga Profesional de Fútbol) — Sat 21 Nov, 15:00",
+      "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30",
+      "Argentinos Juniors vs Independiente (Liga Profesional de Fútbol) — Sat 21 Nov, 17:00",
+      "Atlético Mineiro vs Boca Juniors (CONMEBOL Sudamericana) — Sat 21 Nov, 19:30",
+      "Santos Laguna vs Club León (Liga MX) — Sat 21 Nov, 17:00",
+      "Pachuca vs Toluca (Liga MX) — Sat 21 Nov, 17:00",
+      "Pumas UNAM vs Monterrey (Liga MX) — Sat 21 Nov, 19:00",
+      "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00",
+      "Athletico Paranaense vs Remo (Campeonato Brasileiro Série A) — Sun 22 Nov, 13:00"
+    ],
+    "removed": [
+      "Mirassol vs Atlético Mineiro (Campeonato Brasileiro Série A) — Sat 14 Nov, 18:30",
+      "Banfield vs Boca Juniors (Copa Argentina) — Sat 14 Nov, 19:00",
+      "Querétaro vs Monterrey (Liga MX) — Sat 14 Nov, 17:00",
+      "Chapecoense vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 14 Nov, 20:30"
+    ],
+    "channelsChanged": []
+  },
+  {
     "timestamp": "2026-11-14T17:21:53.702Z",
     "totalEvents": 13,
     "added": [
@@ -40,13 +62,6 @@
       "Mirassol vs Atlético Mineiro (Campeonato Brasileiro Série A) — Sat 14 Nov, 18:30",
       "Chapecoense vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 14 Nov, 20:30"
     ],
-    "removed": [],
-    "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-10T18:53:12.611Z",
-    "totalEvents": 2,
-    "added": [],
     "removed": [],
     "channelsChanged": []
   }

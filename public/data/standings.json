@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T17:21:55.409Z",
+  "generatedAt": "2026-11-15T18:02:21.366Z",
   "tables": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -2526,9 +2526,9 @@
                 "banfield",
                 "boca juniors"
               ],
-              "score": null,
-              "date": "2026-11-14",
-              "winner": null
+              "score": "0-3",
+              "date": null,
+              "winner": "Boca Juniors"
             },
             {
               "teamA": "Atlético Tucumán",
@@ -2539,6 +2539,22 @@
               ],
               "score": null,
               "date": "2026-10-28",
+              "winner": null
+            }
+          ]
+        },
+        {
+          "round": "Final",
+          "ties": [
+            {
+              "teamA": "Boca Juniors",
+              "teamB": "Platense",
+              "teamKeys": [
+                "boca juniors",
+                "platense"
+              ],
+              "score": null,
+              "date": "2026-12-02",
               "winner": null
             }
           ]

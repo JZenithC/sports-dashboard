@@ -1,7 +1,30 @@
 {
-  "generatedAt": "2026-11-14T17:23:34.637Z",
+  "generatedAt": "2026-11-15T18:04:33.102Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-15T18:02:15.660Z",
+        "totalEvents": 18,
+        "added": [
+          "Defensa y Justicia vs Barracas Central (Liga Profesional de Fútbol) — Sat 21 Nov, 15:00",
+          "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30",
+          "Argentinos Juniors vs Independiente (Liga Profesional de Fútbol) — Sat 21 Nov, 17:00",
+          "Atlético Mineiro vs Boca Juniors (CONMEBOL Sudamericana) — Sat 21 Nov, 19:30",
+          "Santos Laguna vs Club León (Liga MX) — Sat 21 Nov, 17:00",
+          "Pachuca vs Toluca (Liga MX) — Sat 21 Nov, 17:00",
+          "Pumas UNAM vs Monterrey (Liga MX) — Sat 21 Nov, 19:00",
+          "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00",
+          "Athletico Paranaense vs Remo (Campeonato Brasileiro Série A) — Sun 22 Nov, 13:00"
+        ],
+        "removed": [
+          "Mirassol vs Atlético Mineiro (Campeonato Brasileiro Série A) — Sat 14 Nov, 18:30",
+          "Banfield vs Boca Juniors (Copa Argentina) — Sat 14 Nov, 19:00",
+          "Querétaro vs Monterrey (Liga MX) — Sat 14 Nov, 17:00",
+          "Chapecoense vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 14 Nov, 20:30"
+        ],
+        "channelsChanged": [],
+        "total": 18
+      },
       {
         "timestamp": "2026-11-14T17:21:53.702Z",
         "totalEvents": 13,
@@ -456,41 +479,16 @@
           "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 18:30: [DGO, Disney+ Premium, ESPN 4]"
         ],
         "total": 37
-      },
-      {
-        "timestamp": "2026-10-26T17:42:02.787Z",
-        "totalEvents": 32,
-        "added": [
-          "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 14:00",
-          "Boca Juniors vs River Plate (Liga Profesional de Fútbol) — Sun 01 Nov, 15:00",
-          "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 16:30",
-          "Belgrano (Córdoba) vs Barracas Central (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30",
-          "Newell's Old Boys vs Unión Santa Fe (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30",
-          "Santos Laguna vs Necaxa (Liga MX) — Sun 01 Nov, 17:00",
-          "Lanús vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 01 Nov, 20:45",
-          "Cruz Azul vs Club León (Liga MX) — Sun 01 Nov, 19:00"
-        ],
-        "removed": [
-          "Aldosivi vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Sun 25 Oct, 14:45",
-          "Independiente vs Boca Juniors (Liga Profesional de Fútbol) — Sun 25 Oct, 17:00",
-          "River Plate vs Racing Club (Liga Profesional de Fútbol) — Sun 25 Oct, 19:15",
-          "Atlas vs Puebla (Liga MX) — Sun 25 Oct, 17:00",
-          "Barracas Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sun 25 Oct, 21:30",
-          "Central Córdoba (Santiago del Estero) vs Velez Sarsfield (Liga Profesional de Fútbol) — Sun 25 Oct, 21:30",
-          "Querétaro vs Cruz Azul (Liga MX) — Sun 25 Oct, 19:00",
-          "América vs Pachuca (Liga MX) — Sun 25 Oct, 19:05",
-          "Tijuana vs Santos Laguna (Liga MX) — Sun 25 Oct, 21:10"
-        ],
-        "channelsChanged": [
-          "Coritiba vs Grêmio (Campeonato Brasileiro Série A) — Mon 26 Oct, 19:30: [(CHARLA), PREMIERE 2, PREMIERE 3]",
-          "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 19:00: [Azteca 7, FOX One]",
-          "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00: [Azteca 7, Disney+ Premium, ESPN 2]",
-          "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 22:00: [Disney+ Premium, ESPN 2, ViX Premium]"
-        ],
-        "total": 32
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-15T18:02:53.754Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-14T17:22:27.992Z",
         "total": 0,
@@ -631,16 +629,27 @@
           "Milwaukee Brewers @ Tampa Bay Rays (2026-10-26)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-26T17:42:32.190Z",
-        "total": 5,
-        "added": [],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-15T18:04:33.101Z",
+        "total": 50,
+        "added": [
+          "One Friday Fights 179 (2026-11-20)",
+          "Aaron McKenna vs Jevgenijs Aleksejevs (2026-12-04)",
+          "UFC Fight Night: Rodriguez vs. Garcia (2027-01-16)",
+          "UFC Fight Night: Bonfim vs. Brady (2027-01-23)"
+        ],
+        "removed": [
+          "Carlos Adames vs Gerome Warburton (2026-11-14)",
+          "UFC 334: Gane vs. Hokit (2026-11-14)",
+          "Diego Pacheco-Darius Fulghum (2026-11-15)",
+          "One Friday Fights 179 (2026-11-20)",
+          "UFC Fight Night: Dallas (2027-01-16)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-14T17:23:34.636Z",
         "total": 51,
@@ -894,16 +903,6 @@
           "Oktagon 96: Gogoladze vs. Klinkhammer (2026-10-31)",
           "Shooto Brazil 141: Teixeira Vs. Carvalho (2026-11-06)",
           "LUX 064: Monterrey (2026-11-06)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-26T17:43:42.371Z",
-        "total": 57,
-        "added": [],
-        "removed": [
-          "Shooto / Torao Nation State: Force 24 (2026-10-25)",
-          "Fury FC: Amateur Series 62 (2026-10-25)"
         ],
         "channelsChanged": []
       }
