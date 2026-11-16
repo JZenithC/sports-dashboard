@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T18:02:21.366Z",
+  "generatedAt": "2026-11-16T21:17:41.798Z",
   "tables": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -2379,10 +2379,10 @@
           "ties": [
             {
               "teamA": "Deportivo Riestra",
-              "teamB": "Gimnasia La Plata",
+              "teamB": "Gimnasia y Esgrima",
               "teamKeys": [
                 "deportivo riestra",
-                "gimnasia lp"
+                "gimnasia y esgrima"
               ],
               "score": null,
               "date": "2026-08-18",

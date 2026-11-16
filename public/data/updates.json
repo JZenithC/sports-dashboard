@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-11-15T18:04:33.102Z",
+  "generatedAt": "2026-11-16T21:19:28.568Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-16T21:17:39.969Z",
+        "totalEvents": 25,
+        "added": [
+          "Fluminense vs Mirassol (Campeonato Brasileiro Série A) — Sun 22 Nov, 15:30",
+          "Rosario Central vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 22 Nov, 16:00",
+          "River Plate vs Lanús (Liga Profesional de Fútbol) — Sun 22 Nov, 19:00",
+          "Chivas Guadalajara vs Cruz Azul (Liga MX) — Sun 22 Nov, 17:07",
+          "Instituto (Córdoba) vs Huracán (Liga Profesional de Fútbol) — Sun 22 Nov, 22:00",
+          "Querétaro vs Necaxa (Liga MX) — Sun 22 Nov, 19:00",
+          "Gimnasia y Esgrima La Plata vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 23 Nov, 17:00"
+        ],
+        "removed": [],
+        "channelsChanged": [
+          "FC Juárez vs Atlas (Liga MX) — Fri 20 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
+          "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX One]"
+        ],
+        "total": 25
+      },
       {
         "timestamp": "2026-11-15T18:02:15.660Z",
         "totalEvents": 18,
@@ -448,40 +467,16 @@
           "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15: [ESPN Premium, Fanatiz (Míralo en vivo)]"
         ],
         "total": 43
-      },
-      {
-        "timestamp": "2026-10-27T16:54:34.522Z",
-        "totalEvents": 37,
-        "added": [
-          "Red Bull Bragantino vs Chapecoense (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-          "Fluminense vs Internacional (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-          "Santos vs Palmeiras (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-          "Bahia vs São Paulo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
-          "Atlético Mineiro vs Cruzeiro (Campeonato Brasileiro Série A) — Thu 29 Oct, 19:30",
-          "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
-          "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
-          "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15",
-          "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15"
-        ],
-        "removed": [
-          "Union Santa Fe vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Mon 26 Oct, 19:00",
-          "Coritiba vs Grêmio (Campeonato Brasileiro Série A) — Mon 26 Oct, 19:30",
-          "Flamengo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Mon 26 Oct, 20:00",
-          "Instituto (Córdoba) vs Deportivo Riestra (Liga Profesional de Fútbol) — Mon 26 Oct, 21:15"
-        ],
-        "channelsChanged": [
-          "Remo vs Botafogo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30: [GLOBO, Globo Internacional, PREMIERE 3]",
-          "Vasco da Gama vs Flamengo (Campeonato Brasileiro Série A) — Thu 29 Oct, 20:00: [Azteca Deportes App, Azteca Deportes Network, Fanatiz YouTube, Flow Sports 2]",
-          "FC Juárez vs Querétaro (Liga MX) — Fri 30 Oct, 19:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX One, FOX+]",
-          "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, ESPN 2]",
-          "Pachuca vs Tigres UANL (Liga MX) — Sat 31 Oct, 17:00: [FOX One, FOX+]",
-          "Palmeiras vs Vasco da Gama (Copa do Brasil) — Sun 01 Nov, 16:00: [DGO, Disney+ Premium, ESPN 2, Globo Internacional]",
-          "Grêmio vs Atlético Mineiro (Copa do Brasil) — Sun 01 Nov, 18:30: [DGO, Disney+ Premium, ESPN 4]"
-        ],
-        "total": 37
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-16T21:18:15.530Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-15T18:02:53.754Z",
         "total": 0,
@@ -620,18 +615,23 @@
           "Milwaukee Brewers @ Tampa Bay Rays (2026-10-27)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-27T16:55:06.424Z",
-        "total": 4,
-        "added": [],
-        "removed": [
-          "Milwaukee Brewers @ Tampa Bay Rays (2026-10-26)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-16T21:19:28.568Z",
+        "total": 53,
+        "added": [
+          "One Friday Fights 179 (2026-11-20)",
+          "One Friday Fights 180 (2026-11-27)",
+          "One Friday Fights 182 (2026-12-11)",
+          "UFC Fight Night: Pyfer vs. Nickal (2027-02-13)"
+        ],
+        "removed": [
+          "One Friday Fights 179 (2026-11-20)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-15T18:04:33.101Z",
         "total": 50,
@@ -889,21 +889,6 @@
           "UFC Fight Night: Dallas (2027-01-16)"
         ],
         "removed": [],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-27T16:55:50.483Z",
-        "total": 57,
-        "added": [
-          "Oktagon 96: Gogoladze vs. Ayari (2026-10-31)",
-          "LUX 064: Monterrey (2026-11-06)",
-          "Shooto Brazil 141: Teixeira Vs. Carvalho (2026-11-08)"
-        ],
-        "removed": [
-          "Oktagon 96: Gogoladze vs. Klinkhammer (2026-10-31)",
-          "Shooto Brazil 141: Teixeira Vs. Carvalho (2026-11-06)",
-          "LUX 064: Monterrey (2026-11-06)"
-        ],
         "channelsChanged": []
       }
     ]

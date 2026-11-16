@@ -1,5 +1,23 @@
 [
   {
+    "timestamp": "2026-11-16T21:17:39.969Z",
+    "totalEvents": 25,
+    "added": [
+      "Fluminense vs Mirassol (Campeonato Brasileiro Série A) — Sun 22 Nov, 15:30",
+      "Rosario Central vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 22 Nov, 16:00",
+      "River Plate vs Lanús (Liga Profesional de Fútbol) — Sun 22 Nov, 19:00",
+      "Chivas Guadalajara vs Cruz Azul (Liga MX) — Sun 22 Nov, 17:07",
+      "Instituto (Córdoba) vs Huracán (Liga Profesional de Fútbol) — Sun 22 Nov, 22:00",
+      "Querétaro vs Necaxa (Liga MX) — Sun 22 Nov, 19:00",
+      "Gimnasia y Esgrima La Plata vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 23 Nov, 17:00"
+    ],
+    "removed": [],
+    "channelsChanged": [
+      "FC Juárez vs Atlas (Liga MX) — Fri 20 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
+      "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX One]"
+    ]
+  },
+  {
     "timestamp": "2026-11-15T18:02:15.660Z",
     "totalEvents": 18,
     "added": [
@@ -51,16 +69,6 @@
     "totalEvents": 5,
     "added": [
       "Flamengo vs Athletico Paranaense (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:30"
-    ],
-    "removed": [],
-    "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-11T18:56:18.161Z",
-    "totalEvents": 4,
-    "added": [
-      "Mirassol vs Atlético Mineiro (Campeonato Brasileiro Série A) — Sat 14 Nov, 18:30",
-      "Chapecoense vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 14 Nov, 20:30"
     ],
     "removed": [],
     "channelsChanged": []
