@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T21:19:28.567Z",
+  "generatedAt": "2026-11-17T20:05:20.819Z",
   "upcoming": [
     {
       "org": "Boxing",
@@ -239,15 +239,11 @@
           "weightClass": null
         },
         {
-          "title": "Marvin Caperan v Bruno Pudins",
-          "weightClass": null
-        },
-        {
           "title": "Sarah Moussaddak v Dina da Silva Barbosa",
           "weightClass": null
         },
         {
-          "title": "Lamp Toure v Valeriu Asaftei",
+          "title": "Marvin Caperan v Bruno Pudins",
           "weightClass": null
         },
         {
@@ -256,6 +252,10 @@
         },
         {
           "title": "Ibrahima Wade v Jovan Todorovic",
+          "weightClass": null
+        },
+        {
+          "title": "Lamp Toure v Valeriu Asaftei",
           "weightClass": null
         },
         {
@@ -298,16 +298,12 @@
             "b": "Sidney Aguero"
           },
           {
-            "a": "Marvin Caperan",
-            "b": "Bruno Pudins"
-          },
-          {
             "a": "Sarah Moussaddak",
             "b": "Dina da Silva Barbosa"
           },
           {
-            "a": "Lamp Toure",
-            "b": "Valeriu Asaftei"
+            "a": "Marvin Caperan",
+            "b": "Bruno Pudins"
           },
           {
             "a": "Alou Camara",
@@ -316,6 +312,10 @@
           {
             "a": "Ibrahima Wade",
             "b": "Jovan Todorovic"
+          },
+          {
+            "a": "Lamp Toure",
+            "b": "Valeriu Asaftei"
           },
           {
             "a": "Rony Bouzy",
@@ -4933,20 +4933,7 @@
           "Paramount+"
         ]
       },
-      "watchKey": "fights:UFC|Josh Hokit|Ciryl Gane|2026-11-14",
-      "replayGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports 2",
-              "logo": "/logos/channels/tntsports.co.uk.png",
-              "timeUK": "Mon 16 Nov, 22:00",
-              "airTimeUTC": "2026-11-16T22:00:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:UFC|Josh Hokit|Ciryl Gane|2026-11-14"
     },
     {
       "org": "Boxing",
@@ -5014,26 +5001,7 @@
         ],
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/carlos-adames-vs-gerome-warburton-2026-11-14"
       },
-      "watchKey": "fights:Boxing|Carlos Adames|Gerome Warburton|2026-11-14",
-      "replayGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "Sky Sports Mix",
-              "logo": null,
-              "timeUK": "Mon 16 Nov, 18:00",
-              "airTimeUTC": "2026-11-16T18:00:00.000Z"
-            },
-            {
-              "name": "Sky Sports Mix",
-              "logo": null,
-              "timeUK": "Mon 16 Nov, 22:30",
-              "airTimeUTC": "2026-11-16T22:30:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:Boxing|Carlos Adames|Gerome Warburton|2026-11-14"
     },
     {
       "org": "PFL",
@@ -5675,20 +5643,7 @@
         ],
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/alycia-baumgardner-vs-elif-nur-turhan-2026-11-08"
       },
-      "watchKey": "fights:Boxing|Elif Nur Turhan|Alycia Baumgardner|2026-11-09",
-      "replayGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "Sky Sports Mix",
-              "logo": null,
-              "timeUK": "Mon 16 Nov, 20:00",
-              "airTimeUTC": "2026-11-16T20:00:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:Boxing|Elif Nur Turhan|Alycia Baumgardner|2026-11-09"
     },
     {
       "org": "MMA",
@@ -7471,102 +7426,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-16T18:00:00.000Z",
-      "endsAtUTC": "2026-11-16T22:00:00.000Z",
-      "timeUK": "Mon 16 Nov, 18:00",
-      "channel": {
-        "name": "Sky Sports Mix",
-        "logo": null
-      },
-      "market": "UK",
-      "watchKey": "fights:Boxing|Carlos Adames|Gerome Warburton|2026-11-14",
-      "label": "Carlos Adames vs Gerome Warburton",
-      "logos": [],
-      "sublabel": "Boxing · Sat 14 Nov, 20:00"
-    },
-    {
-      "airTimeUTC": "2026-11-16T20:00:00.000Z",
-      "endsAtUTC": "2026-11-17T00:00:00.000Z",
-      "timeUK": "Mon 16 Nov, 20:00",
-      "channel": {
-        "name": "Sky Sports Mix",
-        "logo": null
-      },
-      "market": "UK",
-      "watchKey": "fights:Boxing|Elif Nur Turhan|Alycia Baumgardner|2026-11-09",
-      "label": "Elif Nur Turhan-Alycia Baumgardner",
-      "logos": [
-        "/logos/posters/68390a3ba3e76d4eff59.jpg"
-      ],
-      "sublabel": "Boxing · Mon 09 Nov, 01:00"
-    },
-    {
-      "airTimeUTC": "2026-11-16T22:00:00.000Z",
-      "endsAtUTC": "2026-11-17T02:00:00.000Z",
-      "timeUK": "Mon 16 Nov, 22:00",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "watchKey": "fights:UFC|Josh Hokit|Ciryl Gane|2026-11-14",
-      "label": "UFC 334: Gane vs. Hokit",
-      "logos": [
-        "/logos/orgs/ufc.png"
-      ],
-      "sublabel": "UFC · Sat 14 Nov, 22:00"
-    },
-    {
-      "airTimeUTC": "2026-11-16T22:30:00.000Z",
-      "endsAtUTC": "2026-11-17T02:30:00.000Z",
-      "timeUK": "Mon 16 Nov, 22:30",
-      "channel": {
-        "name": "Sky Sports Mix",
-        "logo": null
-      },
-      "market": "UK",
-      "watchKey": "fights:Boxing|Carlos Adames|Gerome Warburton|2026-11-14",
-      "label": "Carlos Adames vs Gerome Warburton",
-      "logos": [],
-      "sublabel": "Boxing · Sat 14 Nov, 20:00"
-    },
-    {
-      "airTimeUTC": "2026-11-17T01:00:00.000Z",
-      "endsAtUTC": "2026-11-17T05:00:00.000Z",
-      "timeUK": "Tue 17 Nov, 01:00",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "label": "Louis Smolka v Paddy Holohan",
-      "sublabel": "UFC Reloaded"
-    },
-    {
-      "airTimeUTC": "2026-11-17T04:00:00.000Z",
-      "endsAtUTC": "2026-11-17T05:00:00.000Z",
-      "timeUK": "Tue 17 Nov, 04:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Weir v Cohoon, Prelims",
-      "sublabel": "BKFC 96: Weir vs. Cohoon, Prelims"
-    },
-    {
-      "airTimeUTC": "2026-11-17T05:00:00.000Z",
-      "endsAtUTC": "2026-11-17T08:00:00.000Z",
-      "timeUK": "Tue 17 Nov, 05:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Weir v Cohoon",
-      "sublabel": "BKFC 96 Glasgow: Weir vs. Cohoon"
-    },
-    {
       "airTimeUTC": "2026-11-18T07:00:00.000Z",
       "endsAtUTC": "2026-11-18T10:00:00.000Z",
       "timeUK": "Wed 18 Nov, 07:00",
@@ -7577,6 +7436,30 @@
       "market": "United States",
       "label": "UFC 307: Periera v Rountree Jr.",
       "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-11-19T07:00:00.000Z",
+      "endsAtUTC": "2026-11-19T08:00:00.000Z",
+      "timeUK": "Thu 19 Nov, 07:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Volkanovski v Holloway 3",
+      "sublabel": "UFC Main Events"
+    },
+    {
+      "airTimeUTC": "2026-11-19T08:00:00.000Z",
+      "endsAtUTC": "2026-11-19T09:00:00.000Z",
+      "timeUK": "Thu 19 Nov, 08:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Namajunas v Zhang 2",
+      "sublabel": "UFC Main Events"
     }
   ]
 }

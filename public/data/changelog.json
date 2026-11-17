@@ -1,5 +1,12 @@
 [
   {
+    "timestamp": "2026-11-17T20:04:00.128Z",
+    "totalEvents": 25,
+    "added": [],
+    "removed": [],
+    "channelsChanged": []
+  },
+  {
     "timestamp": "2026-11-16T21:17:39.969Z",
     "totalEvents": 25,
     "added": [
@@ -61,15 +68,6 @@
     "timestamp": "2026-11-13T18:49:37.702Z",
     "totalEvents": 5,
     "added": [],
-    "removed": [],
-    "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-12T19:11:54.933Z",
-    "totalEvents": 5,
-    "added": [
-      "Flamengo vs Athletico Paranaense (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:30"
-    ],
     "removed": [],
     "channelsChanged": []
   }
