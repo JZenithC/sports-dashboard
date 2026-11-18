@@ -1,7 +1,39 @@
 {
-  "generatedAt": "2026-11-17T20:05:20.820Z",
+  "generatedAt": "2026-11-18T19:40:10.338Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-18T19:38:41.787Z",
+        "totalEvents": 35,
+        "added": [
+          "Remo vs Chapecoense (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:00",
+          "Grêmio vs Bahía (Campeonato Brasileiro Série A) — Wed 18 Nov, 21:30",
+          "Vitória vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Thu 19 Nov, 19:30",
+          "Bahía vs Coritiba (Campeonato Brasileiro Série A) — Sat 21 Nov, 17:30",
+          "Chapecoense vs Cruzeiro (Campeonato Brasileiro Série A) — Sat 21 Nov, 21:00",
+          "Red Bull Bragantino vs Vasco da Gama (Campeonato Brasileiro Série A) — Sun 22 Nov, 19:30",
+          "Internacional vs Vitória (Campeonato Brasileiro Série A) — Mon 23 Nov, 19:30",
+          "Botafogo vs São Paulo (Campeonato Brasileiro Série A) — Mon 23 Nov, 20:00",
+          "Santos vs Grêmio (Campeonato Brasileiro Série A) — Mon 23 Nov, 21:00",
+          "Chapecoense vs Palmeiras (Campeonato Brasileiro Série A) — Tue 24 Nov, 18:00"
+        ],
+        "removed": [],
+        "channelsChanged": [
+          "Coritiba vs Santos (Campeonato Brasileiro Série A) — Wed 18 Nov, 19:30: [Fanatiz (Míralo en vivo), Fanatiz YouTube]",
+          "Cruzeiro vs Palmeiras (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo)]",
+          "Vasco da Gama vs Internacional (Campeonato Brasileiro Série A) — Thu 19 Nov, 19:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo)]",
+          "São Paulo vs Fluminense (Campeonato Brasileiro Série A) — Thu 19 Nov, 21:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Flow Sports, Globo Internacional]",
+          "Defensa y Justicia vs Barracas Central (Liga Profesional de Fútbol) — Sat 21 Nov, 15:00: [ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Globo Internacional]",
+          "Argentinos Juniors vs Independiente (Liga Profesional de Fútbol) — Sat 21 Nov, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Pumas UNAM vs Monterrey (Liga MX) — Sat 21 Nov, 19:00: [Canal 5, TUDN, ViX Premium]",
+          "Athletico Paranaense vs Remo (Campeonato Brasileiro Série A) — Sun 22 Nov, 16:00: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo)]",
+          "Fluminense vs Mirassol (Campeonato Brasileiro Série A) — Sun 22 Nov, 18:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo)]",
+          "River Plate vs Lanús (Liga Profesional de Fútbol) — Sun 22 Nov, 19:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Gimnasia y Esgrima La Plata vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 23 Nov, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
+        ],
+        "total": 35
+      },
       {
         "timestamp": "2026-11-17T20:04:00.128Z",
         "totalEvents": 25,
@@ -413,36 +445,16 @@
           "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]"
         ],
         "total": 38
-      },
-      {
-        "timestamp": "2026-10-29T17:35:36.016Z",
-        "totalEvents": 40,
-        "added": [
-          "Flamengo vs Grêmio (Campeonato Brasileiro Série A) — Wed 04 Nov, 19:30",
-          "Athletico Paranaense vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 04 Nov, 19:30",
-          "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30",
-          "São Paulo vs Corinthians (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30"
-        ],
-        "removed": [
-          "Red Bull Bragantino vs Chapecoense (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-          "Fluminense vs Internacional (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-          "Santos vs Palmeiras (Campeonato Brasileiro Série A) — Wed 28 Oct, 19:30",
-          "Atlético Tucumán vs Platense (Copa Argentina) — Wed 28 Oct, 21:15",
-          "Remo vs Botafogo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
-          "Bahia vs São Paulo (Campeonato Brasileiro Série A) — Wed 28 Oct, 21:30",
-          "América vs Tijuana (Liga MX) — Wed 28 Oct, 21:00"
-        ],
-        "channelsChanged": [
-          "Huracán vs Tigre (Liga Profesional de Fútbol) — Fri 30 Oct, 19:00: [ESPN, ESPN Premium, TyC Sports Internacional]",
-          "Corinthians vs Mirassol (Campeonato Brasileiro Série A) — Fri 30 Oct, 20:00: [Fanatiz (Míralo en vivo), PREMIERE FC, SPORTV]",
-          "Racing Club vs Aldosivi (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15: [DISNEY+, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Sarmiento de Junín vs Rosario Central (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
-        ],
-        "total": 40
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-18T19:39:13.777Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-17T20:04:29.795Z",
         "total": 0,
@@ -575,20 +587,25 @@
         "added": [],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-29T17:36:05.281Z",
-        "total": 0,
-        "added": [],
-        "removed": [
-          "Milwaukee Brewers @ Tampa Bay Rays (2026-10-28)",
-          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-30)",
-          "Tampa Bay Rays @ Milwaukee Brewers (2026-10-31)"
-        ],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-18T19:40:10.337Z",
+        "total": 56,
+        "added": [
+          "ACA Young Eagles 70 (2026-11-19)",
+          "Deep: 135 Impact (2026-12-13)",
+          "One on Prime Video 50 (2026-12-18)",
+          "LFA 248: Costa vs Hartshorn (2026-12-18)",
+          "One Friday Fights 183 (2026-12-18)"
+        ],
+        "removed": [
+          "ACA Young Eagles 70 (2026-11-19)",
+          "Deep: 135 Impact (2026-12-13)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-17T20:05:20.820Z",
         "total": 53,
@@ -846,18 +863,6 @@
           "One Friday Fights 176 (2026-10-30)",
           "LUX 064: Monterrey (2026-11-06)"
         ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-29T17:36:58.936Z",
-        "total": 62,
-        "added": [
-          "Shooto Germany: Contenders 36 (2026-10-31)",
-          "Shooto Germany: German Open 2026 (2026-11-07)",
-          "Professional Shooto 2026 Vol. 7 (2026-11-29)",
-          "Amanda Serrano vs Skye Falzon (2027-01-09)"
-        ],
-        "removed": [],
         "channelsChanged": []
       }
     ]

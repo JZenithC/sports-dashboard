@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T20:05:20.819Z",
+  "generatedAt": "2026-11-18T19:40:10.337Z",
   "upcoming": [
     {
       "org": "Boxing",
@@ -126,14 +126,75 @@
       "org": "MMA",
       "eventName": "ACA Young Eagles 70",
       "eventTag": "ACA Young Eagles 70 · Sport Hall Colloseum, Grozny, Chechnya, Russia",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "ACA Young Eagles 70",
+      "homeTeam": "Bashir Alisultanov",
+      "awayTeam": "Malik Abdurakhmanov",
+      "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Akhmed Bibiev v Ilya Kovalev",
+          "weightClass": null
+        },
+        {
+          "title": "Shamil Abdulkhamidov v Bilan Kortoev",
+          "weightClass": null
+        },
+        {
+          "title": "Magomedrasul Gadzhimagomedov v Sulim Asukhanov",
+          "weightClass": null
+        },
+        {
+          "title": "Arsen Mirzoev v Khamzat Ilyasov",
+          "weightClass": null
+        },
+        {
+          "title": "Ismail Ismailov v Alim Dagirov",
+          "weightClass": null
+        },
+        {
+          "title": "Vadim Fealkovskiy v Islam Albekov",
+          "weightClass": null
+        },
+        {
+          "title": "Apti Mezhidov v Akhadbek Ismonzhonov",
+          "weightClass": null
+        },
+        {
+          "title": "Zambek Shakhbiev v Tariel Kulumbegov",
+          "weightClass": null
+        },
+        {
+          "title": "Magomed Magomedov v Tamerlan Kaisarov",
+          "weightClass": null
+        },
+        {
+          "title": "Bekhan Shamaev v Astimir Zakriev",
+          "weightClass": null
+        },
+        {
+          "title": "Surkho Gadarboshev v Khasan Ibragimov",
+          "weightClass": null
+        },
+        {
+          "title": "Murad Khakishev v Shamil Ushaev",
+          "weightClass": null
+        },
+        {
+          "title": "Vartan Arutunyan v Mukhadi Dzhabrailov",
+          "weightClass": null
+        },
+        {
+          "title": "Adam Bekbulatov v Magomed Manatov",
+          "weightClass": null
+        },
+        {
+          "title": "Bekhan Besaev v Hrant Kalachyan",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-11-19T23:59:00Z",
       "kickoffLocal": null,
@@ -150,11 +211,75 @@
         "venue": "Sport Hall Colloseum",
         "city": "Grozny, Chechnya, Russia",
         "href": "/events/ACA-YE-70-ACA-Young-Eagles-70-115206",
-        "mainEventFighters": [],
+        "mainEventFighters": [
+          "Bashir Alisultanov",
+          "Malik Abdurakhmanov"
+        ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Akhmed Bibiev",
+            "b": "Ilya Kovalev"
+          },
+          {
+            "a": "Shamil Abdulkhamidov",
+            "b": "Bilan Kortoev"
+          },
+          {
+            "a": "Magomedrasul Gadzhimagomedov",
+            "b": "Sulim Asukhanov"
+          },
+          {
+            "a": "Arsen Mirzoev",
+            "b": "Khamzat Ilyasov"
+          },
+          {
+            "a": "Ismail Ismailov",
+            "b": "Alim Dagirov"
+          },
+          {
+            "a": "Vadim Fealkovskiy",
+            "b": "Islam Albekov"
+          },
+          {
+            "a": "Apti Mezhidov",
+            "b": "Akhadbek Ismonzhonov"
+          },
+          {
+            "a": "Zambek Shakhbiev",
+            "b": "Tariel Kulumbegov"
+          },
+          {
+            "a": "Magomed Magomedov",
+            "b": "Tamerlan Kaisarov"
+          },
+          {
+            "a": "Bekhan Shamaev",
+            "b": "Astimir Zakriev"
+          },
+          {
+            "a": "Surkho Gadarboshev",
+            "b": "Khasan Ibragimov"
+          },
+          {
+            "a": "Murad Khakishev",
+            "b": "Shamil Ushaev"
+          },
+          {
+            "a": "Vartan Arutunyan",
+            "b": "Mukhadi Dzhabrailov"
+          },
+          {
+            "a": "Adam Bekbulatov",
+            "b": "Magomed Manatov"
+          },
+          {
+            "a": "Bekhan Besaev",
+            "b": "Hrant Kalachyan"
+          }
+        ]
       },
-      "watchKey": "fights:MMA|null|null|2026-11-19"
+      "watchKey": "fights:MMA|Bashir Alisultanov|Malik Abdurakhmanov|2026-11-19"
     },
     {
       "org": "Boxing",
@@ -247,10 +372,6 @@
           "weightClass": null
         },
         {
-          "title": "Alou Camara v Garcia Pinto Kinkela",
-          "weightClass": null
-        },
-        {
           "title": "Ibrahima Wade v Jovan Todorovic",
           "weightClass": null
         },
@@ -304,10 +425,6 @@
           {
             "a": "Marvin Caperan",
             "b": "Bruno Pudins"
-          },
-          {
-            "a": "Alou Camara",
-            "b": "Garcia Pinto Kinkela"
           },
           {
             "a": "Ibrahima Wade",
@@ -3044,6 +3161,10 @@
         {
           "title": "Bogdan Ozdoev v Axel Djarallah",
           "weightClass": null
+        },
+        {
+          "title": "Maria Guedez Jr. v Natasa Pazarioti",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -3087,6 +3208,10 @@
           {
             "a": "Bogdan Ozdoev",
             "b": "Axel Djarallah"
+          },
+          {
+            "a": "Maria Guedez Jr.",
+            "b": "Natasa Pazarioti"
           }
         ]
       },
@@ -3245,7 +3370,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 335: Oliveira vs. Lopes",
-      "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 5-fight card · main card Sun 13 Dec, 02:00 UK",
+      "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 4-fight card · main card Sun 13 Dec, 02:00 UK",
       "homeTeam": "Charles Oliveira",
       "awayTeam": "Diego Lopes",
       "cardTitle": null,
@@ -3257,10 +3382,6 @@
         {
           "title": "Junior Tafa v Quentin Pasley",
           "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Maycee Barber v Carli Judice",
-          "weightClass": "W Flyweight"
         },
         {
           "title": "Brandon Moreno v Charles Johnson",
@@ -3323,11 +3444,6 @@
             "weightClass": "Light Heavyweight"
           },
           {
-            "a": "Maycee Barber",
-            "b": "Carli Judice",
-            "weightClass": "W Flyweight"
-          },
-          {
             "a": "Brandon Moreno",
             "b": "Charles Johnson",
             "weightClass": "Flyweight"
@@ -3344,7 +3460,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 5,
+        "boutCount": 4,
         "broadcasts": [
           "Paramount+"
         ]
@@ -3557,18 +3673,14 @@
       "org": "MMA",
       "eventName": "Deep: 135 Impact",
       "eventTag": "Deep · New Pier Hall, Minato, Tokyo, Japan",
-      "homeTeam": "Sukai China",
-      "awayTeam": "Jo Arai",
+      "homeTeam": "Juri Ohara",
+      "awayTeam": "Kenshiro Yamamoto",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
       "undercard": [
-        {
-          "title": "Juri Ohara v Kenshiro Yamamoto",
-          "weightClass": null
-        },
         {
           "title": "Machi Fukuda v Nonoka Sakamoto",
           "weightClass": null
@@ -3602,6 +3714,10 @@
           "weightClass": null
         },
         {
+          "title": "Kanji Matsuura v Kentaro Hachisu",
+          "weightClass": null
+        },
+        {
           "title": "Shoma Itani v Justin Juif Godjuif",
           "weightClass": null
         },
@@ -3631,15 +3747,11 @@
         "city": "Minato, Tokyo, Japan",
         "href": "/events/Deep-135-Impact-115070",
         "mainEventFighters": [
-          "Sukai China",
-          "Jo Arai"
+          "Juri Ohara",
+          "Kenshiro Yamamoto"
         ],
         "broadcasts": [],
         "bouts": [
-          {
-            "a": "Juri Ohara",
-            "b": "Kenshiro Yamamoto"
-          },
           {
             "a": "Machi Fukuda",
             "b": "Nonoka Sakamoto"
@@ -3673,6 +3785,10 @@
             "b": "Aoi Yamada"
           },
           {
+            "a": "Kanji Matsuura",
+            "b": "Kentaro Hachisu"
+          },
+          {
             "a": "Shoma Itani",
             "b": "Justin Juif Godjuif"
           },
@@ -3686,7 +3802,199 @@
           }
         ]
       },
-      "watchKey": "fights:MMA|Sukai China|Jo Arai|2026-12-13"
+      "watchKey": "fights:MMA|Juri Ohara|Kenshiro Yamamoto|2026-12-13"
+    },
+    {
+      "org": "MMA",
+      "eventName": "One on Prime Video 50",
+      "eventTag": "One on Prime Video 50 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Maurice Abevi",
+      "awayTeam": "Dzhabir Dzhabrailov",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Antonio Cesar v Viet Anh Do",
+          "weightClass": null
+        },
+        {
+          "title": "Pedro Dantas v Adlan Umarov",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-18T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-18",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-on-Prime-Video-50-115087",
+        "name": "One on Prime Video 50",
+        "dateUTC": null,
+        "dateOnly": "2026-12-18",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-on-Prime-Video-50-115087",
+        "mainEventFighters": [
+          "Maurice Abevi",
+          "Dzhabir Dzhabrailov"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Antonio Cesar",
+            "b": "Viet Anh Do"
+          },
+          {
+            "a": "Pedro Dantas",
+            "b": "Adlan Umarov"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Maurice Abevi|Dzhabir Dzhabrailov|2026-12-18"
+    },
+    {
+      "org": "MMA",
+      "eventName": "LFA 248: Costa vs Hartshorn",
+      "eventTag": "LFA 248 · Pearl Theater at Palms, Las Vegas, Nevada, United States",
+      "homeTeam": "Costa",
+      "awayTeam": "Hartshorn",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Shealor Ladd v Wildemar Souza Santos",
+          "weightClass": null
+        },
+        {
+          "title": "Roberto Hernandez v Chris Mecate",
+          "weightClass": null
+        },
+        {
+          "title": "Brahyam Zurcher v Elvis Silva",
+          "weightClass": null
+        },
+        {
+          "title": "Charlie Cleveland v Luther Egerson",
+          "weightClass": null
+        },
+        {
+          "title": "Artur Gadzhikhanov v Jacob Wiggins",
+          "weightClass": null
+        },
+        {
+          "title": "David Goldenberg v Carter Beekman",
+          "weightClass": null
+        },
+        {
+          "title": "Alberto Romo v Michael Jamiyandorj",
+          "weightClass": null
+        },
+        {
+          "title": "Adrian Lyons-Lopez v Oleg Mikhov",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-18T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-18",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-LFA-248-Costa-vs-Hartshorn-115354",
+        "name": "LFA 248: Costa vs Hartshorn",
+        "dateUTC": null,
+        "dateOnly": "2026-12-18",
+        "venue": "Pearl Theater at Palms",
+        "city": "Las Vegas, Nevada, United States",
+        "href": "/events/LFA-248-Costa-vs-Hartshorn-115354",
+        "mainEventFighters": [
+          "Costa",
+          "Hartshorn"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Shealor Ladd",
+            "b": "Wildemar Souza Santos"
+          },
+          {
+            "a": "Roberto Hernandez",
+            "b": "Chris Mecate"
+          },
+          {
+            "a": "Brahyam Zurcher",
+            "b": "Elvis Silva"
+          },
+          {
+            "a": "Charlie Cleveland",
+            "b": "Luther Egerson"
+          },
+          {
+            "a": "Artur Gadzhikhanov",
+            "b": "Jacob Wiggins"
+          },
+          {
+            "a": "David Goldenberg",
+            "b": "Carter Beekman"
+          },
+          {
+            "a": "Alberto Romo",
+            "b": "Michael Jamiyandorj"
+          },
+          {
+            "a": "Adrian Lyons-Lopez",
+            "b": "Oleg Mikhov"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Costa|Hartshorn|2026-12-18"
+    },
+    {
+      "org": "MMA",
+      "eventName": "One Friday Fights 183",
+      "eventTag": "One Friday Fights 183 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": null,
+      "awayTeam": null,
+      "cardTitle": "One Friday Fights 183",
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-18T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-18",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-Friday-Fights-183-115391",
+        "name": "One Friday Fights 183",
+        "dateUTC": null,
+        "dateOnly": "2026-12-18",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-Friday-Fights-183-115391",
+        "mainEventFighters": [],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|null|null|2026-12-18"
     },
     {
       "org": "PFL",
@@ -7426,18 +7734,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-18T07:00:00.000Z",
-      "endsAtUTC": "2026-11-18T10:00:00.000Z",
-      "timeUK": "Wed 18 Nov, 07:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "UFC 307: Periera v Rountree Jr.",
-      "sublabel": "UFC Reloaded"
-    },
-    {
       "airTimeUTC": "2026-11-19T07:00:00.000Z",
       "endsAtUTC": "2026-11-19T08:00:00.000Z",
       "timeUK": "Thu 19 Nov, 07:00",
@@ -7460,6 +7756,78 @@
       "market": "United States",
       "label": "Namajunas v Zhang 2",
       "sublabel": "UFC Main Events"
+    },
+    {
+      "airTimeUTC": "2026-11-19T17:00:00.000Z",
+      "endsAtUTC": "2026-11-19T19:00:00.000Z",
+      "timeUK": "Thu 19 Nov, 17:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "186: Bader v Vassell",
+      "sublabel": "Bellator MMA"
+    },
+    {
+      "airTimeUTC": "2026-11-20T03:00:00.000Z",
+      "endsAtUTC": "2026-11-20T04:00:00.000Z",
+      "timeUK": "Fri 20 Nov, 03:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Weir v Cohoon, Prelims",
+      "sublabel": "BKFC 96: Weir vs. Cohoon, Prelims"
+    },
+    {
+      "airTimeUTC": "2026-11-20T04:00:00.000Z",
+      "endsAtUTC": "2026-11-20T07:00:00.000Z",
+      "timeUK": "Fri 20 Nov, 04:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Weir v Cohoon",
+      "sublabel": "BKFC 96 Glasgow: Weir vs. Cohoon"
+    },
+    {
+      "airTimeUTC": "2026-11-20T08:00:00.000Z",
+      "endsAtUTC": "2026-11-20T09:00:00.000Z",
+      "timeUK": "Fri 20 Nov, 08:00",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "Volkanovski v Holloway 3",
+      "sublabel": "UFC Main Events"
+    },
+    {
+      "airTimeUTC": "2026-11-24T03:00:00.000Z",
+      "endsAtUTC": "2026-11-24T07:00:00.000Z",
+      "timeUK": "Tue 24 Nov, 03:00",
+      "channel": {
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Rose Namajunas v Paige VanZant",
+      "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-11-24T04:45:00.000Z",
+      "endsAtUTC": "2026-11-24T08:45:00.000Z",
+      "timeUK": "Tue 24 Nov, 04:45",
+      "channel": {
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Cub Swanson v Choi Doo-ho at UFC 206",
+      "sublabel": "UFC Greatest Fights"
     }
   ]
 }
