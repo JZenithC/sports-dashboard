@@ -1,5 +1,33 @@
 [
   {
+    "timestamp": "2026-11-19T19:40:59.442Z",
+    "totalEvents": 32,
+    "added": [
+      "Atlético Mineiro vs Corinthians (Campeonato Brasileiro Série A) — Wed 25 Nov, 20:00",
+      "Boca Juniors vs Independiente Rivadavia (Liga Profesional de Fútbol) — Wed 25 Nov, 21:00"
+    ],
+    "removed": [
+      "Coritiba vs Santos (Campeonato Brasileiro Série A) — Wed 18 Nov, 19:30",
+      "Remo vs Chapecoense (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:00",
+      "Cruzeiro vs Palmeiras (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:30",
+      "Flamengo vs Athletico Paranaense (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:30",
+      "Grêmio vs Bahía (Campeonato Brasileiro Série A) — Wed 18 Nov, 21:30"
+    ],
+    "channelsChanged": [
+      "Vélez Sarsfield vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Fri 20 Nov, 20:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+      "Defensa y Justicia vs Barracas Central (Liga Profesional de Fútbol) — Sat 21 Nov, 15:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+      "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Fanatiz YouTube, Globo Internacional]",
+      "Argentinos Juniors vs Independiente (Liga Profesional de Fútbol) — Sat 21 Nov, 17:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
+      "Rosario Central vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 22 Nov, 16:00: [ESPN Premium, TyC Sports Internacional]",
+      "River Plate vs Lanús (Liga Profesional de Fútbol) — Sun 22 Nov, 19:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Instituto (Córdoba) vs Huracán (Liga Profesional de Fútbol) — Sun 22 Nov, 22:00: [ESPN Premium, TyC Sports Internacional]",
+      "Querétaro vs Necaxa (Liga MX) — Sun 22 Nov, 19:10: [FOX, FOX One]",
+      "Gimnasia y Esgrima La Plata vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 23 Nov, 17:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+      "Botafogo vs São Paulo (Campeonato Brasileiro Série A) — Mon 23 Nov, 20:00: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo)]"
+    ]
+  },
+  {
     "timestamp": "2026-11-18T19:38:41.787Z",
     "totalEvents": 35,
     "added": [
@@ -76,23 +104,5 @@
       "Chapecoense vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 14 Nov, 20:30"
     ],
     "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-14T17:21:53.702Z",
-    "totalEvents": 13,
-    "added": [
-      "Coritiba vs Santos (Campeonato Brasileiro Série A) — Wed 18 Nov, 16:30",
-      "Cruzeiro vs Palmeiras (Campeonato Brasileiro Série A) — Wed 18 Nov, 17:30",
-      "Vasco da Gama vs Internacional (Campeonato Brasileiro Série A) — Thu 19 Nov, 16:30",
-      "São Paulo vs Fluminense (Campeonato Brasileiro Série A) — Thu 19 Nov, 21:30",
-      "Vélez Sarsfield vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Fri 20 Nov, 20:00",
-      "Puebla vs Atlético San Luis (Liga MX) — Fri 20 Nov, 19:00",
-      "Tijuana vs Atlante (Liga MX) — Fri 20 Nov, 21:00",
-      "FC Juárez vs Atlas (Liga MX) — Fri 20 Nov, 21:00"
-    ],
-    "removed": [],
-    "channelsChanged": [
-      "Mirassol vs Atlético Mineiro (Campeonato Brasileiro Série A) — Sat 14 Nov, 18:30: [Fanatiz (Míralo en vivo), Flow Sports]"
-    ]
   }
 ]

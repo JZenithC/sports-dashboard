@@ -1,7 +1,36 @@
 {
-  "generatedAt": "2026-11-18T19:40:10.338Z",
+  "generatedAt": "2026-11-19T19:43:23.439Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-19T19:40:59.442Z",
+        "totalEvents": 32,
+        "added": [
+          "Atlético Mineiro vs Corinthians (Campeonato Brasileiro Série A) — Wed 25 Nov, 20:00",
+          "Boca Juniors vs Independiente Rivadavia (Liga Profesional de Fútbol) — Wed 25 Nov, 21:00"
+        ],
+        "removed": [
+          "Coritiba vs Santos (Campeonato Brasileiro Série A) — Wed 18 Nov, 19:30",
+          "Remo vs Chapecoense (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:00",
+          "Cruzeiro vs Palmeiras (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:30",
+          "Flamengo vs Athletico Paranaense (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:30",
+          "Grêmio vs Bahía (Campeonato Brasileiro Série A) — Wed 18 Nov, 21:30"
+        ],
+        "channelsChanged": [
+          "Vélez Sarsfield vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Fri 20 Nov, 20:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
+          "Defensa y Justicia vs Barracas Central (Liga Profesional de Fútbol) — Sat 21 Nov, 15:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
+          "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Fanatiz YouTube, Globo Internacional]",
+          "Argentinos Juniors vs Independiente (Liga Profesional de Fútbol) — Sat 21 Nov, 17:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
+          "Rosario Central vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 22 Nov, 16:00: [ESPN Premium, TyC Sports Internacional]",
+          "River Plate vs Lanús (Liga Profesional de Fútbol) — Sun 22 Nov, 19:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Instituto (Córdoba) vs Huracán (Liga Profesional de Fútbol) — Sun 22 Nov, 22:00: [ESPN Premium, TyC Sports Internacional]",
+          "Querétaro vs Necaxa (Liga MX) — Sun 22 Nov, 19:10: [FOX, FOX One]",
+          "Gimnasia y Esgrima La Plata vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 23 Nov, 17:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
+          "Botafogo vs São Paulo (Campeonato Brasileiro Série A) — Mon 23 Nov, 20:00: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo)]"
+        ],
+        "total": 32
+      },
       {
         "timestamp": "2026-11-18T19:38:41.787Z",
         "totalEvents": 35,
@@ -413,41 +442,16 @@
           "Cruzeiro vs Bahía (Campeonato Brasileiro Série A) — Thu 05 Nov, 21:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]"
         ],
         "total": 34
-      },
-      {
-        "timestamp": "2026-10-30T17:13:51.809Z",
-        "totalEvents": 38,
-        "added": [
-          "Palmeiras vs Remo (Campeonato Brasileiro Série A) — Thu 05 Nov, 19:30",
-          "Cruzeiro vs Bahía (Campeonato Brasileiro Série A) — Thu 05 Nov, 21:30"
-        ],
-        "removed": [
-          "Atlético Mineiro vs Cruzeiro (Campeonato Brasileiro Série A) — Thu 29 Oct, 19:30",
-          "Coritiba vs Vitória (Campeonato Brasileiro Série A) — Thu 29 Oct, 19:30",
-          "Vasco da Gama vs Flamengo (Campeonato Brasileiro Série A) — Thu 29 Oct, 20:00",
-          "Grêmio vs Athletico Paranaense (Campeonato Brasileiro Série A) — Thu 29 Oct, 21:30"
-        ],
-        "channelsChanged": [
-          "Racing Club vs Aldosivi (Liga Profesional de Fútbol) — Fri 30 Oct, 21:15: [DISNEY+, Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Puebla vs Pumas UNAM (Liga MX) — Fri 30 Oct, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, ESPN]",
-          "Atlético San Luis vs Atlas (Liga MX) — Fri 30 Oct, 22:00: [Disney+ Premium, ESPN, ViX Premium]",
-          "Defensa Y Justicia vs Independiente (Liga Profesional de Fútbol) — Sat 31 Oct, 14:45: [DISNEY+, ESPN 4]",
-          "Coritiba vs Vitória (Campeonato Brasileiro Série A) — Sat 31 Oct, 16:00: [Fanatiz (Míralo en vivo), PREMIERE, PREMIERE FC]",
-          "Deportivo Riestra vs Talleres de Córdoba (Liga Profesional de Fútbol) — Sat 31 Oct, 17:00: [ESPN Premium, TyC Sports Internacional]",
-          "Vélez Sarsfield vs San Lorenzo (Liga Profesional de Fútbol) — Sat 31 Oct, 19:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Estudiantes de La Plata vs Instituto (Córdoba) (Liga Profesional de Fútbol) — Sat 31 Oct, 21:30: [ESPN Premium, TyC Sports Internacional]",
-          "Belgrano (Córdoba) vs Barracas Central (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Newell's Old Boys vs Unión Santa Fe (Liga Profesional de Fútbol) — Sun 01 Nov, 18:30: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Lanús vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 01 Nov, 20:45: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15: [Disney+ Premium, ESPN, ESPN Premium, Fanatiz (Míralo en vivo)]",
-          "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]"
-        ],
-        "total": 38
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-19T19:41:33.610Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-18T19:39:13.777Z",
         "total": 0,
@@ -580,16 +584,24 @@
         "added": [],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-30T17:14:20.967Z",
-        "total": 0,
-        "added": [],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-19T19:43:23.439Z",
+        "total": 58,
+        "added": [
+          "Shooto Brazil 142: Guerson vs. Castro (2026-12-04)",
+          "ONE 124 (2026-12-12)",
+          "KSW 124: Pawlak vs. Kuberski (2026-12-19)",
+          "Cage Fury Fighting Championships 163 (2026-12-19)"
+        ],
+        "removed": [
+          "Teremoana Teremoana vs Hemi Ahio (2026-11-18)",
+          "ONE Samurai 5 (2026-11-18)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-18T19:40:10.337Z",
         "total": 56,
@@ -849,19 +861,6 @@
           "Deep: Fight Challenge 2026 3rd Round (2026-10-30)",
           "One Friday Fights 176 (2026-10-30)",
           "UFC Fight Night: Bonfim vs. Brady (2026-11-07)"
-        ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-10-30T17:15:15.090Z",
-        "total": 62,
-        "added": [
-          "One Friday Fights 176 (2026-10-30)",
-          "LUX 064: Monterrey (2026-11-06)"
-        ],
-        "removed": [
-          "One Friday Fights 176 (2026-10-30)",
-          "LUX 064: Monterrey (2026-11-06)"
         ],
         "channelsChanged": []
       }

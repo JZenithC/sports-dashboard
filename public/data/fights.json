@@ -1,127 +1,6 @@
 {
-  "generatedAt": "2026-11-18T19:40:10.337Z",
+  "generatedAt": "2026-11-19T19:43:23.438Z",
   "upcoming": [
-    {
-      "org": "Boxing",
-      "eventName": "Teremoana Teremoana vs Hemi Ahio",
-      "eventTag": "Boxing · Melbourne",
-      "homeTeam": "Teremoana Teremoana",
-      "awayTeam": "Hemi Ahio",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-18T20:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Wed 18 Nov, 20:00",
-      "localDate": "2026-11-18",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "gbn-teremoana-teremoana-vs-hemi-ahio-2026-11-18",
-        "name": "Teremoana Teremoana vs Hemi Ahio",
-        "dateUTC": "2026-11-18T20:00:00.000Z",
-        "dateOnly": "2026-11-18",
-        "venue": null,
-        "city": "Melbourne",
-        "mainEventFighters": [
-          "Teremoana Teremoana",
-          "Hemi Ahio"
-        ],
-        "bouts": [],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/teremoana-teremoana-vs-hemi-ahio-2026-11-18"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/teremoana-teremoana-vs-hemi-ahio-2026-11-18"
-      },
-      "watchKey": "fights:Boxing|Teremoana Teremoana|Hemi Ahio|2026-11-18"
-    },
-    {
-      "org": "MMA",
-      "eventName": "ONE Samurai 5",
-      "eventTag": "ONE Samurai 5 · Ebara Wave Arena Ota, Ota, Tokyo, Japan",
-      "homeTeam": "Joshua Pacio",
-      "awayTeam": "Keito Yamakita",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Tatsumitsu Wada v Jarred Brooks",
-          "weightClass": null
-        },
-        {
-          "title": "Ryugo Takeuchi v Brandon Hashimoto",
-          "weightClass": null
-        },
-        {
-          "title": "Shosuke Kinoshita v Takuya Shibamura",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-18T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-18",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-ONE-Samurai-5-114378",
-        "name": "ONE Samurai 5",
-        "dateUTC": null,
-        "dateOnly": "2026-11-18",
-        "venue": "Ebara Wave Arena Ota",
-        "city": "Ota, Tokyo, Japan",
-        "href": "/events/One-Championship-ONE-Samurai-5-114378",
-        "mainEventFighters": [
-          "Joshua Pacio",
-          "Keito Yamakita"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Tatsumitsu Wada",
-            "b": "Jarred Brooks"
-          },
-          {
-            "a": "Ryugo Takeuchi",
-            "b": "Brandon Hashimoto"
-          },
-          {
-            "a": "Shosuke Kinoshita",
-            "b": "Takuya Shibamura"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Joshua Pacio|Keito Yamakita|2026-11-18"
-    },
     {
       "org": "MMA",
       "eventName": "ACA Young Eagles 70",
@@ -147,10 +26,6 @@
           "weightClass": null
         },
         {
-          "title": "Arsen Mirzoev v Khamzat Ilyasov",
-          "weightClass": null
-        },
-        {
           "title": "Ismail Ismailov v Alim Dagirov",
           "weightClass": null
         },
@@ -159,7 +34,11 @@
           "weightClass": null
         },
         {
-          "title": "Apti Mezhidov v Akhadbek Ismonzhonov",
+          "title": "Akhadbek Ismonzhonov v Apti Mezhidov",
+          "weightClass": null
+        },
+        {
+          "title": "Tamerlan Kaisarov v Magomed Magomedov",
           "weightClass": null
         },
         {
@@ -167,11 +46,7 @@
           "weightClass": null
         },
         {
-          "title": "Magomed Magomedov v Tamerlan Kaisarov",
-          "weightClass": null
-        },
-        {
-          "title": "Bekhan Shamaev v Astimir Zakriev",
+          "title": "Astimir Zakriev v Bekhan Shamaev",
           "weightClass": null
         },
         {
@@ -183,15 +58,27 @@
           "weightClass": null
         },
         {
-          "title": "Vartan Arutunyan v Mukhadi Dzhabrailov",
+          "title": "Magomed Manatov v Adam Bekbulatov",
           "weightClass": null
         },
         {
-          "title": "Adam Bekbulatov v Magomed Manatov",
+          "title": "Hrant Kalachyan v Bekhan Besaev",
           "weightClass": null
         },
         {
-          "title": "Bekhan Besaev v Hrant Kalachyan",
+          "title": "Tamerlan Bacharov v Akraman Gaisuev",
+          "weightClass": null
+        },
+        {
+          "title": "Sarmat Kozaev v Turpal-Ali Susurkaev",
+          "weightClass": null
+        },
+        {
+          "title": "Sulim Tepsaev v Kamronbek Mirzakarimov",
+          "weightClass": null
+        },
+        {
+          "title": "Salam Dykaev v Alexey Zaznobov",
           "weightClass": null
         }
       ],
@@ -230,10 +117,6 @@
             "b": "Sulim Asukhanov"
           },
           {
-            "a": "Arsen Mirzoev",
-            "b": "Khamzat Ilyasov"
-          },
-          {
             "a": "Ismail Ismailov",
             "b": "Alim Dagirov"
           },
@@ -242,20 +125,20 @@
             "b": "Islam Albekov"
           },
           {
-            "a": "Apti Mezhidov",
-            "b": "Akhadbek Ismonzhonov"
+            "a": "Akhadbek Ismonzhonov",
+            "b": "Apti Mezhidov"
+          },
+          {
+            "a": "Tamerlan Kaisarov",
+            "b": "Magomed Magomedov"
           },
           {
             "a": "Zambek Shakhbiev",
             "b": "Tariel Kulumbegov"
           },
           {
-            "a": "Magomed Magomedov",
-            "b": "Tamerlan Kaisarov"
-          },
-          {
-            "a": "Bekhan Shamaev",
-            "b": "Astimir Zakriev"
+            "a": "Astimir Zakriev",
+            "b": "Bekhan Shamaev"
           },
           {
             "a": "Surkho Gadarboshev",
@@ -266,16 +149,28 @@
             "b": "Shamil Ushaev"
           },
           {
-            "a": "Vartan Arutunyan",
-            "b": "Mukhadi Dzhabrailov"
+            "a": "Magomed Manatov",
+            "b": "Adam Bekbulatov"
           },
           {
-            "a": "Adam Bekbulatov",
-            "b": "Magomed Manatov"
+            "a": "Hrant Kalachyan",
+            "b": "Bekhan Besaev"
           },
           {
-            "a": "Bekhan Besaev",
-            "b": "Hrant Kalachyan"
+            "a": "Tamerlan Bacharov",
+            "b": "Akraman Gaisuev"
+          },
+          {
+            "a": "Sarmat Kozaev",
+            "b": "Turpal-Ali Susurkaev"
+          },
+          {
+            "a": "Sulim Tepsaev",
+            "b": "Kamronbek Mirzakarimov"
+          },
+          {
+            "a": "Salam Dykaev",
+            "b": "Alexey Zaznobov"
           }
         ]
       },
@@ -830,7 +725,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Procházka vs. Stirling",
-      "eventTag": "UFC Fight Night · ABHA Arena, Doha · 11-fight card · main card Sat 21 Nov, 18:00 UK",
+      "eventTag": "UFC Fight Night · ABHA Arena, Doha · 12-fight card · main card Sat 21 Nov, 18:00 UK",
       "homeTeam": "Jiří Procházka",
       "awayTeam": "Navajo Stirling",
       "cardTitle": null,
@@ -839,6 +734,10 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Shoaib Yousaf v John Mitchell",
+          "weightClass": "Lightweight"
+        },
         {
           "title": "Diyar Nurgozhay v Alik Lorenz",
           "weightClass": "Light Heavyweight"
@@ -927,6 +826,11 @@
         ],
         "bouts": [
           {
+            "a": "Shoaib Yousaf",
+            "b": "John Mitchell",
+            "weightClass": "Lightweight"
+          },
+          {
             "a": "Diyar Nurgozhay",
             "b": "Alik Lorenz",
             "weightClass": "Light Heavyweight"
@@ -983,7 +887,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 11,
+        "boutCount": 12,
         "broadcasts": [
           "Paramount+"
         ]
@@ -1019,7 +923,7 @@
           "weightClass": null
         },
         {
-          "title": "Ondrej Raska v Dominic Schober",
+          "title": "Ondrej Raska v Ahmet Rasim Pala",
           "weightClass": null
         },
         {
@@ -1079,7 +983,7 @@
           },
           {
             "a": "Ondrej Raska",
-            "b": "Dominic Schober"
+            "b": "Ahmet Rasim Pala"
           },
           {
             "a": "Dawid Smielowski",
@@ -1122,11 +1026,7 @@
           "weightClass": null
         },
         {
-          "title": "Artur Szczepaniak v Arbi Dzhambulatov",
-          "weightClass": null
-        },
-        {
-          "title": "Alain Van De Merckt v Szymon Herrmann",
+          "title": "Kamil Szkaradek v Rogerio Bontorin",
           "weightClass": null
         },
         {
@@ -1134,11 +1034,19 @@
           "weightClass": null
         },
         {
-          "title": "Maciej Kazieczko v Bohdan Danylko",
+          "title": "Artur Szczepaniak v Arbi Dzhambulatov",
           "weightClass": null
         },
         {
           "title": "Przemyslaw Gorny v Dominik Dyminski",
+          "weightClass": null
+        },
+        {
+          "title": "Maciej Kazieczko v Bohdan Danylko",
+          "weightClass": null
+        },
+        {
+          "title": "Alain Van De Merckt v Szymon Herrmann",
           "weightClass": null
         }
       ],
@@ -1173,24 +1081,28 @@
             "b": "Mateusz Pawlik"
           },
           {
-            "a": "Artur Szczepaniak",
-            "b": "Arbi Dzhambulatov"
-          },
-          {
-            "a": "Alain Van De Merckt",
-            "b": "Szymon Herrmann"
+            "a": "Kamil Szkaradek",
+            "b": "Rogerio Bontorin"
           },
           {
             "a": "Wojciech Kawa",
             "b": "Oleksandr Moisa"
           },
           {
-            "a": "Maciej Kazieczko",
-            "b": "Bohdan Danylko"
+            "a": "Artur Szczepaniak",
+            "b": "Arbi Dzhambulatov"
           },
           {
             "a": "Przemyslaw Gorny",
             "b": "Dominik Dyminski"
+          },
+          {
+            "a": "Maciej Kazieczko",
+            "b": "Bohdan Danylko"
+          },
+          {
+            "a": "Alain Van De Merckt",
+            "b": "Szymon Herrmann"
           }
         ]
       },
@@ -2013,16 +1925,21 @@
     },
     {
       "org": "MMA",
-      "eventName": "Shooto Brazil 142: TBA",
+      "eventName": "Shooto Brazil 142: Guerson vs. Castro",
       "eventTag": "Shooto Brazil 142 · Upper Arena, Rio de Janeiro, Rio de Janeiro, Brazil",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "Shooto Brazil 142: TBA",
+      "homeTeam": "Guerson",
+      "awayTeam": "Castro",
+      "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Lucas Ribeiro Alves de Paula v Vinicius Ramires",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-12-04T23:59:00Z",
       "kickoffLocal": null,
@@ -2032,18 +1949,26 @@
       "broadcastGroups": null,
       "source": {
         "org": "MMA",
-        "slug": "sherdog-Shooto-Brazil-142-TBA-111969",
-        "name": "Shooto Brazil 142: TBA",
+        "slug": "sherdog-Shooto-Brazil-142-Guerson-vs-Castro-111969",
+        "name": "Shooto Brazil 142: Guerson vs. Castro",
         "dateUTC": null,
         "dateOnly": "2026-12-04",
         "venue": "Upper Arena",
         "city": "Rio de Janeiro, Rio de Janeiro, Brazil",
-        "href": "/events/Shooto-Brazil-142-TBA-111969",
-        "mainEventFighters": [],
+        "href": "/events/Shooto-Brazil-142-Guerson-vs-Castro-111969",
+        "mainEventFighters": [
+          "Guerson",
+          "Castro"
+        ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Lucas Ribeiro Alves de Paula",
+            "b": "Vinicius Ramires"
+          }
+        ]
       },
-      "watchKey": "fights:MMA|null|null|2026-12-04"
+      "watchKey": "fights:MMA|Guerson|Castro|2026-12-04"
     },
     {
       "org": "MMA",
@@ -2495,6 +2420,14 @@
       "orgLogo": null,
       "undercard": [
         {
+          "title": "Khalid Taha v Joao Pedro Saldanha",
+          "weightClass": null
+        },
+        {
+          "title": "Matej Penaz v Jonathan Figueroa",
+          "weightClass": null
+        },
+        {
           "title": "Patrick Vespaziani v Nicolaj Wagner",
           "weightClass": null
         },
@@ -2524,6 +2457,10 @@
         },
         {
           "title": "Mohamed Eter v Tomas Holecek",
+          "weightClass": null
+        },
+        {
+          "title": "Ahmad Chikh Mousa v Zinedine Elmehdi",
           "weightClass": null
         },
         {
@@ -2558,6 +2495,14 @@
         "broadcasts": [],
         "bouts": [
           {
+            "a": "Khalid Taha",
+            "b": "Joao Pedro Saldanha"
+          },
+          {
+            "a": "Matej Penaz",
+            "b": "Jonathan Figueroa"
+          },
+          {
             "a": "Patrick Vespaziani",
             "b": "Nicolaj Wagner"
           },
@@ -2588,6 +2533,10 @@
           {
             "a": "Mohamed Eter",
             "b": "Tomas Holecek"
+          },
+          {
+            "a": "Ahmad Chikh Mousa",
+            "b": "Zinedine Elmehdi"
           },
           {
             "a": "Harun Uzun",
@@ -3528,6 +3477,40 @@
     },
     {
       "org": "MMA",
+      "eventName": "ONE 124",
+      "eventTag": "ONE 124 · Shanghai Indoor Stadium, Shanghai, China",
+      "homeTeam": null,
+      "awayTeam": null,
+      "cardTitle": "ONE 124",
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-12T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-12",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-ONE-124-115450",
+        "name": "ONE 124",
+        "dateUTC": null,
+        "dateOnly": "2026-12-12",
+        "venue": "Shanghai Indoor Stadium",
+        "city": "Shanghai, China",
+        "href": "/events/One-Championship-ONE-124-115450",
+        "mainEventFighters": [],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|null|null|2026-12-12"
+    },
+    {
+      "org": "MMA",
       "eventName": "Deep: Tokyo Impact 2026 6th Round",
       "eventTag": "Deep · New Pier Hall, Minato, Tokyo, Japan",
       "homeTeam": "Taiyo Nakatsukasa",
@@ -3999,7 +3982,7 @@
     {
       "org": "PFL",
       "eventName": "PFL Lyon: Lapilus vs. McKee",
-      "eventTag": "PFL Lyon · LDLC Arena, Lyon · 8-fight card · main card Sat 19 Dec, 20:00 UK",
+      "eventTag": "PFL Lyon · LDLC Arena, Lyon · 13-fight card · main card Sat 19 Dec, 20:00 UK",
       "homeTeam": "Taylor Lapilus",
       "awayTeam": "Mitch McKee",
       "cardTitle": null,
@@ -4009,6 +3992,22 @@
       "orgLogo": "/logos/orgs/pfl.png",
       "undercard": [
         {
+          "title": "Lorenzo Parente v Stiven Shehu",
+          "weightClass": null
+        },
+        {
+          "title": "Zakaria Hamou v Amin Bouazza",
+          "weightClass": null
+        },
+        {
+          "title": "Jan Cieplowski v Mauricio Partida",
+          "weightClass": null
+        },
+        {
+          "title": "Dean Garnett v Bryce Meredith",
+          "weightClass": null
+        },
+        {
           "title": "Shelda Chipito v Mathilde Aschenbrenner",
           "weightClass": "W Strawweight"
         },
@@ -4017,16 +4016,20 @@
           "weightClass": "Featherweight"
         },
         {
+          "title": "Jack Cartwright v Baris Adiguzel",
+          "weightClass": "Bantamweight"
+        },
+        {
           "title": "Coby Bradford v Bafode Gassama",
           "weightClass": "Light Heavyweight"
         },
         {
-          "title": "Liam Gittins v Baris Adiguzel",
-          "weightClass": "Bantamweight"
-        },
-        {
           "title": "Fabian Edwards v Ilian Bouafia",
           "weightClass": "Middleweight"
+        },
+        {
+          "title": "Alex Lohoré v Oualy Tandia",
+          "weightClass": null
         },
         {
           "title": "Abdoul Abdouraguimov v Andreeas Binder",
@@ -4084,6 +4087,26 @@
         ],
         "bouts": [
           {
+            "a": "Lorenzo Parente",
+            "b": "Stiven Shehu",
+            "weightClass": null
+          },
+          {
+            "a": "Zakaria Hamou",
+            "b": "Amin Bouazza",
+            "weightClass": null
+          },
+          {
+            "a": "Jan Cieplowski",
+            "b": "Mauricio Partida",
+            "weightClass": null
+          },
+          {
+            "a": "Dean Garnett",
+            "b": "Bryce Meredith",
+            "weightClass": null
+          },
+          {
             "a": "Shelda Chipito",
             "b": "Mathilde Aschenbrenner",
             "weightClass": "W Strawweight"
@@ -4094,19 +4117,24 @@
             "weightClass": "Featherweight"
           },
           {
+            "a": "Jack Cartwright",
+            "b": "Baris Adiguzel",
+            "weightClass": "Bantamweight"
+          },
+          {
             "a": "Coby Bradford",
             "b": "Bafode Gassama",
             "weightClass": "Light Heavyweight"
           },
           {
-            "a": "Liam Gittins",
-            "b": "Baris Adiguzel",
-            "weightClass": "Bantamweight"
-          },
-          {
             "a": "Fabian Edwards",
             "b": "Ilian Bouafia",
             "weightClass": "Middleweight"
+          },
+          {
+            "a": "Alex Lohoré",
+            "b": "Oualy Tandia",
+            "weightClass": null
           },
           {
             "a": "Abdoul Abdouraguimov",
@@ -4125,7 +4153,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/pfl.png",
-        "boutCount": 8,
+        "boutCount": 13,
         "broadcasts": [
           "ESPN+"
         ]
@@ -4247,6 +4275,220 @@
         "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/devin-haney-vs-liam-paro-2026-12-19"
       },
       "watchKey": "fights:Boxing|Devin Haney|Liam Paro|2026-12-19"
+    },
+    {
+      "org": "MMA",
+      "eventName": "KSW 124: Pawlak vs. Kuberski",
+      "eventTag": "KSW 124 · PreZero Arena, Gliwice, Poland",
+      "homeTeam": "Pawlak",
+      "awayTeam": "Kuberski",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Patryk Kaczmarczyk v Josef Stummer",
+          "weightClass": null
+        },
+        {
+          "title": "Stefan Vojcak v Artur Szpilka",
+          "weightClass": null
+        },
+        {
+          "title": "Rafal Haratyk v Andi Vrtacic",
+          "weightClass": null
+        },
+        {
+          "title": "Adam Soldaev v Hugo Deux",
+          "weightClass": null
+        },
+        {
+          "title": "Souheil Kaouchen v Oleksii Polishchuk",
+          "weightClass": null
+        },
+        {
+          "title": "Dawid Kuczmarski v Adam Niedzwiedz",
+          "weightClass": null
+        },
+        {
+          "title": "Kacper Sochacki v Aleksander Winiarski",
+          "weightClass": null
+        },
+        {
+          "title": "Cyprian Wieczorek v Karol Durszlewicz",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-19T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-19",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-KSW-124-Pawlak-vs-Kuberski-114438",
+        "name": "KSW 124: Pawlak vs. Kuberski",
+        "dateUTC": null,
+        "dateOnly": "2026-12-19",
+        "venue": "PreZero Arena",
+        "city": "Gliwice, Poland",
+        "href": "/events/KSW-124-Pawlak-vs-Kuberski-114438",
+        "mainEventFighters": [
+          "Pawlak",
+          "Kuberski"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Patryk Kaczmarczyk",
+            "b": "Josef Stummer"
+          },
+          {
+            "a": "Stefan Vojcak",
+            "b": "Artur Szpilka"
+          },
+          {
+            "a": "Rafal Haratyk",
+            "b": "Andi Vrtacic"
+          },
+          {
+            "a": "Adam Soldaev",
+            "b": "Hugo Deux"
+          },
+          {
+            "a": "Souheil Kaouchen",
+            "b": "Oleksii Polishchuk"
+          },
+          {
+            "a": "Dawid Kuczmarski",
+            "b": "Adam Niedzwiedz"
+          },
+          {
+            "a": "Kacper Sochacki",
+            "b": "Aleksander Winiarski"
+          },
+          {
+            "a": "Cyprian Wieczorek",
+            "b": "Karol Durszlewicz"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Pawlak|Kuberski|2026-12-19"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Cage Fury Fighting Championships 163",
+      "eventTag": "Cage Fury Fighting Championships 163 · Hard Rock Hotel & Casino Atlantic City, Atlantic City, New Jersey, United States",
+      "homeTeam": "Christian Bobe",
+      "awayTeam": "Michael Blockhus",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Lucas Seibert v Greg Fischer",
+          "weightClass": null
+        },
+        {
+          "title": "Moshe Aladi v Xhelal Lleshi",
+          "weightClass": null
+        },
+        {
+          "title": "Brandon Bohannan v Safarmamad Akhmadov",
+          "weightClass": null
+        },
+        {
+          "title": "Eman Hardy v Elvin Romero",
+          "weightClass": null
+        },
+        {
+          "title": "Tayler Kleemoff v Kayana La Torre",
+          "weightClass": null
+        },
+        {
+          "title": "Akeem McAfee v Jose Soto",
+          "weightClass": null
+        },
+        {
+          "title": "Cole Barnard v George Lo",
+          "weightClass": null
+        },
+        {
+          "title": "Amber Medina v Paige Wilcox",
+          "weightClass": null
+        },
+        {
+          "title": "Juwan Gonzales v Austin Yalowitz",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-19T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-19",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-CFFC-163-Cage-Fury-Fighting-Championships-163-115074",
+        "name": "Cage Fury Fighting Championships 163",
+        "dateUTC": null,
+        "dateOnly": "2026-12-19",
+        "venue": "Hard Rock Hotel & Casino Atlantic City",
+        "city": "Atlantic City, New Jersey, United States",
+        "href": "/events/CFFC-163-Cage-Fury-Fighting-Championships-163-115074",
+        "mainEventFighters": [
+          "Christian Bobe",
+          "Michael Blockhus"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Lucas Seibert",
+            "b": "Greg Fischer"
+          },
+          {
+            "a": "Moshe Aladi",
+            "b": "Xhelal Lleshi"
+          },
+          {
+            "a": "Brandon Bohannan",
+            "b": "Safarmamad Akhmadov"
+          },
+          {
+            "a": "Eman Hardy",
+            "b": "Elvin Romero"
+          },
+          {
+            "a": "Tayler Kleemoff",
+            "b": "Kayana La Torre"
+          },
+          {
+            "a": "Akeem McAfee",
+            "b": "Jose Soto"
+          },
+          {
+            "a": "Cole Barnard",
+            "b": "George Lo"
+          },
+          {
+            "a": "Amber Medina",
+            "b": "Paige Wilcox"
+          },
+          {
+            "a": "Juwan Gonzales",
+            "b": "Austin Yalowitz"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Christian Bobe|Michael Blockhus|2026-12-19"
     },
     {
       "org": "Boxing",
@@ -4982,6 +5224,127 @@
     }
   ],
   "recent": [
+    {
+      "org": "MMA",
+      "eventName": "ONE Samurai 5",
+      "eventTag": "ONE Samurai 5 · Ebara Wave Arena Ota, Ota, Tokyo, Japan",
+      "homeTeam": "Joshua Pacio",
+      "awayTeam": "Keito Yamakita",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Tatsumitsu Wada v Jarred Brooks",
+          "weightClass": null
+        },
+        {
+          "title": "Ryugo Takeuchi v Brandon Hashimoto",
+          "weightClass": null
+        },
+        {
+          "title": "Shosuke Kinoshita v Takuya Shibamura",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-18T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-18",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-ONE-Samurai-5-114378",
+        "name": "ONE Samurai 5",
+        "dateUTC": null,
+        "dateOnly": "2026-11-18",
+        "venue": "Ebara Wave Arena Ota",
+        "city": "Ota, Tokyo, Japan",
+        "href": "/events/One-Championship-ONE-Samurai-5-114378",
+        "mainEventFighters": [
+          "Joshua Pacio",
+          "Keito Yamakita"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Tatsumitsu Wada",
+            "b": "Jarred Brooks"
+          },
+          {
+            "a": "Ryugo Takeuchi",
+            "b": "Brandon Hashimoto"
+          },
+          {
+            "a": "Shosuke Kinoshita",
+            "b": "Takuya Shibamura"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Joshua Pacio|Keito Yamakita|2026-11-18"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Teremoana Teremoana vs Hemi Ahio",
+      "eventTag": "Boxing · Melbourne",
+      "homeTeam": "Teremoana Teremoana",
+      "awayTeam": "Hemi Ahio",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-18T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Wed 18 Nov, 20:00",
+      "localDate": "2026-11-18",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-teremoana-teremoana-vs-hemi-ahio-2026-11-18",
+        "name": "Teremoana Teremoana vs Hemi Ahio",
+        "dateUTC": "2026-11-18T20:00:00.000Z",
+        "dateOnly": "2026-11-18",
+        "venue": null,
+        "city": "Melbourne",
+        "mainEventFighters": [
+          "Teremoana Teremoana",
+          "Hemi Ahio"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/teremoana-teremoana-vs-hemi-ahio-2026-11-18"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/teremoana-teremoana-vs-hemi-ahio-2026-11-18"
+      },
+      "watchKey": "fights:Boxing|Teremoana Teremoana|Hemi Ahio|2026-11-18"
+    },
     {
       "org": "Boxing",
       "eventName": "Diego Pacheco-Darius Fulghum",
@@ -7734,30 +8097,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-19T07:00:00.000Z",
-      "endsAtUTC": "2026-11-19T08:00:00.000Z",
-      "timeUK": "Thu 19 Nov, 07:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Volkanovski v Holloway 3",
-      "sublabel": "UFC Main Events"
-    },
-    {
-      "airTimeUTC": "2026-11-19T08:00:00.000Z",
-      "endsAtUTC": "2026-11-19T09:00:00.000Z",
-      "timeUK": "Thu 19 Nov, 08:00",
-      "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
-      },
-      "market": "United States",
-      "label": "Namajunas v Zhang 2",
-      "sublabel": "UFC Main Events"
-    },
-    {
       "airTimeUTC": "2026-11-19T17:00:00.000Z",
       "endsAtUTC": "2026-11-19T19:00:00.000Z",
       "timeUK": "Thu 19 Nov, 17:00",
@@ -7806,6 +8145,18 @@
       "sublabel": "UFC Main Events"
     },
     {
+      "airTimeUTC": "2026-11-21T07:30:00.000Z",
+      "endsAtUTC": "2026-11-21T10:30:00.000Z",
+      "timeUK": "Sat 21 Nov, 07:30",
+      "channel": {
+        "name": "CBS Sports Network",
+        "logo": "/logos/channels/cbssports.com.png"
+      },
+      "market": "United States",
+      "label": "UFC 207: Nunes v Rousey",
+      "sublabel": "UFC Reloaded"
+    },
+    {
       "airTimeUTC": "2026-11-24T03:00:00.000Z",
       "endsAtUTC": "2026-11-24T07:00:00.000Z",
       "timeUK": "Tue 24 Nov, 03:00",
@@ -7828,6 +8179,18 @@
       "market": "UK",
       "label": "Cub Swanson v Choi Doo-ho at UFC 206",
       "sublabel": "UFC Greatest Fights"
+    },
+    {
+      "airTimeUTC": "2026-11-25T02:30:00.000Z",
+      "endsAtUTC": "2026-11-25T06:30:00.000Z",
+      "timeUK": "Wed 25 Nov, 02:30",
+      "channel": {
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "label": "Antonio Silva v Andrei Arlovski",
+      "sublabel": "UFC Reloaded"
     }
   ]
 }
