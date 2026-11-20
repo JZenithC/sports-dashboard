@@ -1,5 +1,20 @@
 [
   {
+    "timestamp": "2026-11-20T19:19:07.316Z",
+    "totalEvents": 30,
+    "added": [
+      "São Paulo vs Remo (Campeonato Brasileiro Série A) — Thu 26 Nov, 20:00"
+    ],
+    "removed": [
+      "Vasco da Gama vs Internacional (Campeonato Brasileiro Série A) — Thu 19 Nov, 19:30",
+      "Vitória vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Thu 19 Nov, 19:30",
+      "São Paulo vs Fluminense (Campeonato Brasileiro Série A) — Thu 19 Nov, 21:30"
+    ],
+    "channelsChanged": [
+      "Atlético Mineiro vs Boca Juniors (CONMEBOL Sudamericana) — Sat 21 Nov, 19:30: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, ESPN 2, Paramount+]"
+    ]
+  },
+  {
     "timestamp": "2026-11-19T19:40:59.442Z",
     "totalEvents": 32,
     "added": [
@@ -82,27 +97,5 @@
       "FC Juárez vs Atlas (Liga MX) — Fri 20 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
       "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX One]"
     ]
-  },
-  {
-    "timestamp": "2026-11-15T18:02:15.660Z",
-    "totalEvents": 18,
-    "added": [
-      "Defensa y Justicia vs Barracas Central (Liga Profesional de Fútbol) — Sat 21 Nov, 15:00",
-      "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30",
-      "Argentinos Juniors vs Independiente (Liga Profesional de Fútbol) — Sat 21 Nov, 17:00",
-      "Atlético Mineiro vs Boca Juniors (CONMEBOL Sudamericana) — Sat 21 Nov, 19:30",
-      "Santos Laguna vs Club León (Liga MX) — Sat 21 Nov, 17:00",
-      "Pachuca vs Toluca (Liga MX) — Sat 21 Nov, 17:00",
-      "Pumas UNAM vs Monterrey (Liga MX) — Sat 21 Nov, 19:00",
-      "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00",
-      "Athletico Paranaense vs Remo (Campeonato Brasileiro Série A) — Sun 22 Nov, 13:00"
-    ],
-    "removed": [
-      "Mirassol vs Atlético Mineiro (Campeonato Brasileiro Série A) — Sat 14 Nov, 18:30",
-      "Banfield vs Boca Juniors (Copa Argentina) — Sat 14 Nov, 19:00",
-      "Querétaro vs Monterrey (Liga MX) — Sat 14 Nov, 17:00",
-      "Chapecoense vs Vasco da Gama (Campeonato Brasileiro Série A) — Sat 14 Nov, 20:30"
-    ],
-    "channelsChanged": []
   }
 ]

@@ -1,181 +1,6 @@
 {
-  "generatedAt": "2026-11-19T19:43:23.438Z",
+  "generatedAt": "2026-11-20T19:20:49.560Z",
   "upcoming": [
-    {
-      "org": "MMA",
-      "eventName": "ACA Young Eagles 70",
-      "eventTag": "ACA Young Eagles 70 · Sport Hall Colloseum, Grozny, Chechnya, Russia",
-      "homeTeam": "Bashir Alisultanov",
-      "awayTeam": "Malik Abdurakhmanov",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Akhmed Bibiev v Ilya Kovalev",
-          "weightClass": null
-        },
-        {
-          "title": "Shamil Abdulkhamidov v Bilan Kortoev",
-          "weightClass": null
-        },
-        {
-          "title": "Magomedrasul Gadzhimagomedov v Sulim Asukhanov",
-          "weightClass": null
-        },
-        {
-          "title": "Ismail Ismailov v Alim Dagirov",
-          "weightClass": null
-        },
-        {
-          "title": "Vadim Fealkovskiy v Islam Albekov",
-          "weightClass": null
-        },
-        {
-          "title": "Akhadbek Ismonzhonov v Apti Mezhidov",
-          "weightClass": null
-        },
-        {
-          "title": "Tamerlan Kaisarov v Magomed Magomedov",
-          "weightClass": null
-        },
-        {
-          "title": "Zambek Shakhbiev v Tariel Kulumbegov",
-          "weightClass": null
-        },
-        {
-          "title": "Astimir Zakriev v Bekhan Shamaev",
-          "weightClass": null
-        },
-        {
-          "title": "Surkho Gadarboshev v Khasan Ibragimov",
-          "weightClass": null
-        },
-        {
-          "title": "Murad Khakishev v Shamil Ushaev",
-          "weightClass": null
-        },
-        {
-          "title": "Magomed Manatov v Adam Bekbulatov",
-          "weightClass": null
-        },
-        {
-          "title": "Hrant Kalachyan v Bekhan Besaev",
-          "weightClass": null
-        },
-        {
-          "title": "Tamerlan Bacharov v Akraman Gaisuev",
-          "weightClass": null
-        },
-        {
-          "title": "Sarmat Kozaev v Turpal-Ali Susurkaev",
-          "weightClass": null
-        },
-        {
-          "title": "Sulim Tepsaev v Kamronbek Mirzakarimov",
-          "weightClass": null
-        },
-        {
-          "title": "Salam Dykaev v Alexey Zaznobov",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-19T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-19",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-ACA-YE-70-ACA-Young-Eagles-70-115206",
-        "name": "ACA Young Eagles 70",
-        "dateUTC": null,
-        "dateOnly": "2026-11-19",
-        "venue": "Sport Hall Colloseum",
-        "city": "Grozny, Chechnya, Russia",
-        "href": "/events/ACA-YE-70-ACA-Young-Eagles-70-115206",
-        "mainEventFighters": [
-          "Bashir Alisultanov",
-          "Malik Abdurakhmanov"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Akhmed Bibiev",
-            "b": "Ilya Kovalev"
-          },
-          {
-            "a": "Shamil Abdulkhamidov",
-            "b": "Bilan Kortoev"
-          },
-          {
-            "a": "Magomedrasul Gadzhimagomedov",
-            "b": "Sulim Asukhanov"
-          },
-          {
-            "a": "Ismail Ismailov",
-            "b": "Alim Dagirov"
-          },
-          {
-            "a": "Vadim Fealkovskiy",
-            "b": "Islam Albekov"
-          },
-          {
-            "a": "Akhadbek Ismonzhonov",
-            "b": "Apti Mezhidov"
-          },
-          {
-            "a": "Tamerlan Kaisarov",
-            "b": "Magomed Magomedov"
-          },
-          {
-            "a": "Zambek Shakhbiev",
-            "b": "Tariel Kulumbegov"
-          },
-          {
-            "a": "Astimir Zakriev",
-            "b": "Bekhan Shamaev"
-          },
-          {
-            "a": "Surkho Gadarboshev",
-            "b": "Khasan Ibragimov"
-          },
-          {
-            "a": "Murad Khakishev",
-            "b": "Shamil Ushaev"
-          },
-          {
-            "a": "Magomed Manatov",
-            "b": "Adam Bekbulatov"
-          },
-          {
-            "a": "Hrant Kalachyan",
-            "b": "Bekhan Besaev"
-          },
-          {
-            "a": "Tamerlan Bacharov",
-            "b": "Akraman Gaisuev"
-          },
-          {
-            "a": "Sarmat Kozaev",
-            "b": "Turpal-Ali Susurkaev"
-          },
-          {
-            "a": "Sulim Tepsaev",
-            "b": "Kamronbek Mirzakarimov"
-          },
-          {
-            "a": "Salam Dykaev",
-            "b": "Alexey Zaznobov"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Bashir Alisultanov|Malik Abdurakhmanov|2026-11-19"
-    },
     {
       "org": "Boxing",
       "eventName": "Amari Jones vs DeAundre Pettus",
@@ -259,10 +84,6 @@
           "weightClass": null
         },
         {
-          "title": "Sarah Moussaddak v Dina da Silva Barbosa",
-          "weightClass": null
-        },
-        {
           "title": "Marvin Caperan v Bruno Pudins",
           "weightClass": null
         },
@@ -312,10 +133,6 @@
           {
             "a": "Nimo Djagbo",
             "b": "Sidney Aguero"
-          },
-          {
-            "a": "Sarah Moussaddak",
-            "b": "Dina da Silva Barbosa"
           },
           {
             "a": "Marvin Caperan",
@@ -611,8 +428,8 @@
       "org": "MMA",
       "eventName": "One Friday Fights 179",
       "eventTag": "One Friday Fights 179 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Mirmehti Miriyev",
-      "awayTeam": "Lutfullo Sohibnazarov",
+      "homeTeam": "Lutfullo Sohibnazarov",
+      "awayTeam": "Mirmehti Miriyev",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -620,7 +437,7 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Min Sung Kang v Hero Marco Manguray",
+          "title": "Hero Marco Manguray v Min Sung Kang",
           "weightClass": null
         }
       ],
@@ -641,18 +458,18 @@
         "city": "Bangkok, Thailand",
         "href": "/events/One-Championship-One-Friday-Fights-179-114882",
         "mainEventFighters": [
-          "Mirmehti Miriyev",
-          "Lutfullo Sohibnazarov"
+          "Lutfullo Sohibnazarov",
+          "Mirmehti Miriyev"
         ],
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Min Sung Kang",
-            "b": "Hero Marco Manguray"
+            "a": "Hero Marco Manguray",
+            "b": "Min Sung Kang"
           }
         ]
       },
-      "watchKey": "fights:MMA|Mirmehti Miriyev|Lutfullo Sohibnazarov|2026-11-20"
+      "watchKey": "fights:MMA|Lutfullo Sohibnazarov|Mirmehti Miriyev|2026-11-20"
     },
     {
       "org": "Boxing",
@@ -3992,12 +3809,20 @@
       "orgLogo": "/logos/orgs/pfl.png",
       "undercard": [
         {
+          "title": "Shelda Chipito v Mathilde Aschenbrenner",
+          "weightClass": "W Strawweight"
+        },
+        {
           "title": "Lorenzo Parente v Stiven Shehu",
           "weightClass": null
         },
         {
           "title": "Zakaria Hamou v Amin Bouazza",
           "weightClass": null
+        },
+        {
+          "title": "Adam Meskini v Brandon Brachet",
+          "weightClass": "Featherweight"
         },
         {
           "title": "Jan Cieplowski v Mauricio Partida",
@@ -4008,20 +3833,12 @@
           "weightClass": null
         },
         {
-          "title": "Shelda Chipito v Mathilde Aschenbrenner",
-          "weightClass": "W Strawweight"
-        },
-        {
-          "title": "Adam Meskini v Brandon Brachet",
-          "weightClass": "Featherweight"
+          "title": "Coby Bradford v Bafode Gassama",
+          "weightClass": "Light Heavyweight"
         },
         {
           "title": "Jack Cartwright v Baris Adiguzel",
           "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Coby Bradford v Bafode Gassama",
-          "weightClass": "Light Heavyweight"
         },
         {
           "title": "Fabian Edwards v Ilian Bouafia",
@@ -4087,6 +3904,11 @@
         ],
         "bouts": [
           {
+            "a": "Shelda Chipito",
+            "b": "Mathilde Aschenbrenner",
+            "weightClass": "W Strawweight"
+          },
+          {
             "a": "Lorenzo Parente",
             "b": "Stiven Shehu",
             "weightClass": null
@@ -4095,6 +3917,11 @@
             "a": "Zakaria Hamou",
             "b": "Amin Bouazza",
             "weightClass": null
+          },
+          {
+            "a": "Adam Meskini",
+            "b": "Brandon Brachet",
+            "weightClass": "Featherweight"
           },
           {
             "a": "Jan Cieplowski",
@@ -4107,24 +3934,14 @@
             "weightClass": null
           },
           {
-            "a": "Shelda Chipito",
-            "b": "Mathilde Aschenbrenner",
-            "weightClass": "W Strawweight"
-          },
-          {
-            "a": "Adam Meskini",
-            "b": "Brandon Brachet",
-            "weightClass": "Featherweight"
+            "a": "Coby Bradford",
+            "b": "Bafode Gassama",
+            "weightClass": "Light Heavyweight"
           },
           {
             "a": "Jack Cartwright",
             "b": "Baris Adiguzel",
             "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Coby Bradford",
-            "b": "Bafode Gassama",
-            "weightClass": "Light Heavyweight"
           },
           {
             "a": "Fabian Edwards",
@@ -4549,6 +4366,178 @@
       "watchKey": "fights:Boxing|Jarrell Miller|Tony Yoka|2026-12-20"
     },
     {
+      "org": "MMA",
+      "eventName": "Pancrase: 369",
+      "eventTag": "Pancrase · Tachikawa Stage Garden, Tachikawa, Tokyo, Japan",
+      "homeTeam": "Yuito Yanagawa",
+      "awayTeam": "Otabek Rajabov",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Rafael     Barbosa v Daichi Kamiya",
+          "weightClass": null
+        },
+        {
+          "title": "Ryusei Tokida v Satoru Enomoto",
+          "weightClass": null
+        },
+        {
+          "title": "Haruaki Motokawa v Carlos Hugo Mozambite",
+          "weightClass": null
+        },
+        {
+          "title": "Isao Kobayashi v Ryo Goto",
+          "weightClass": null
+        },
+        {
+          "title": "Rui Imura v Suguru Nii",
+          "weightClass": null
+        },
+        {
+          "title": "Shunma Sasaki v Tomoki Otsuka",
+          "weightClass": null
+        },
+        {
+          "title": "Mitsuhiro Taki v Reo Yamaguchi",
+          "weightClass": null
+        },
+        {
+          "title": "Joseph Camacho v Ayumu Kan",
+          "weightClass": null
+        },
+        {
+          "title": "Mahiro Yamaki v Taiga Tanimura",
+          "weightClass": null
+        },
+        {
+          "title": "Joji Shirai v Ayumu Yamamoto",
+          "weightClass": null
+        },
+        {
+          "title": "Takuma Okada v Shinsuke Kamei",
+          "weightClass": null
+        },
+        {
+          "title": "Sena Seki v Gaia Fukuzato",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-20T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-20",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Pancrase-369-114699",
+        "name": "Pancrase: 369",
+        "dateUTC": null,
+        "dateOnly": "2026-12-20",
+        "venue": "Tachikawa Stage Garden",
+        "city": "Tachikawa, Tokyo, Japan",
+        "href": "/events/Pancrase-369-114699",
+        "mainEventFighters": [
+          "Yuito Yanagawa",
+          "Otabek Rajabov"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Rafael     Barbosa",
+            "b": "Daichi Kamiya"
+          },
+          {
+            "a": "Ryusei Tokida",
+            "b": "Satoru Enomoto"
+          },
+          {
+            "a": "Haruaki Motokawa",
+            "b": "Carlos Hugo Mozambite"
+          },
+          {
+            "a": "Isao Kobayashi",
+            "b": "Ryo Goto"
+          },
+          {
+            "a": "Rui Imura",
+            "b": "Suguru Nii"
+          },
+          {
+            "a": "Shunma Sasaki",
+            "b": "Tomoki Otsuka"
+          },
+          {
+            "a": "Mitsuhiro Taki",
+            "b": "Reo Yamaguchi"
+          },
+          {
+            "a": "Joseph Camacho",
+            "b": "Ayumu Kan"
+          },
+          {
+            "a": "Mahiro Yamaki",
+            "b": "Taiga Tanimura"
+          },
+          {
+            "a": "Joji Shirai",
+            "b": "Ayumu Yamamoto"
+          },
+          {
+            "a": "Takuma Okada",
+            "b": "Shinsuke Kamei"
+          },
+          {
+            "a": "Sena Seki",
+            "b": "Gaia Fukuzato"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Yuito Yanagawa|Otabek Rajabov|2026-12-20"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Professional Shooto 2026 Final",
+      "eventTag": "Professional Shooto 2026 Final · Gorilla Hall Osaka, Osaka, Osaka, Japan",
+      "homeTeam": "Ryoga Arimoto",
+      "awayTeam": "Hiroki Takaoka",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-12-20T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-20",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Shooto-Professional-Shooto-2026-Final-115378",
+        "name": "Professional Shooto 2026 Final",
+        "dateUTC": null,
+        "dateOnly": "2026-12-20",
+        "venue": "Gorilla Hall Osaka",
+        "city": "Osaka, Osaka, Japan",
+        "href": "/events/Shooto-Professional-Shooto-2026-Final-115378",
+        "mainEventFighters": [
+          "Ryoga Arimoto",
+          "Hiroki Takaoka"
+        ],
+        "broadcasts": [],
+        "bouts": []
+      },
+      "watchKey": "fights:MMA|Ryoga Arimoto|Hiroki Takaoka|2026-12-20"
+    },
+    {
       "org": "Boxing",
       "eventName": "Ryan Garner vs James Dickens",
       "eventTag": "Boxing · Bournemouth",
@@ -4667,7 +4656,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Rodriguez vs. Garcia",
-      "eventTag": "UFC Fight Night · American Airlines Center, Dallas · 4-fight card · main card Sun 17 Jan, 01:00 UK",
+      "eventTag": "UFC Fight Night · American Airlines Center, Dallas · 13-fight card · main card Sun 17 Jan, 01:00 UK",
       "homeTeam": "Steve Garcia",
       "awayTeam": "Yair Rodriguez",
       "cardTitle": null,
@@ -4677,8 +4666,44 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "TBA v Opponent TBA",
+          "title": "Karolina Kowalkiewicz v Sam Hughes",
+          "weightClass": "W Strawweight"
+        },
+        {
+          "title": "Gokhan Saricam v Steven Asplund",
+          "weightClass": "Heavyweight"
+        },
+        {
+          "title": "Toshiomi Kazama v John Garza",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Magomed Zaynukov v Piero Guaylupo",
+          "weightClass": "Light Heavyweight"
+        },
+        {
+          "title": "Diego Ferreira v MarQuel Mederos",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Alden Coria v Michael Aljarouj",
+          "weightClass": "Flyweight"
+        },
+        {
+          "title": "Gilbert Urbina v Robert Valentin",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Kennedy Nzechukwu v Elisha Ellison",
           "weightClass": null
+        },
+        {
+          "title": "Ryan Spann v Louie Sutherland",
+          "weightClass": "Heavyweight"
+        },
+        {
+          "title": "Chris Curtis v Geoff Neal",
+          "weightClass": "Welterweight"
         },
         {
           "title": "Chidi Njokuani v Ignacio Bahamondes",
@@ -4736,9 +4761,54 @@
         ],
         "bouts": [
           {
-            "a": "TBA",
-            "b": "Opponent TBA",
+            "a": "Karolina Kowalkiewicz",
+            "b": "Sam Hughes",
+            "weightClass": "W Strawweight"
+          },
+          {
+            "a": "Gokhan Saricam",
+            "b": "Steven Asplund",
+            "weightClass": "Heavyweight"
+          },
+          {
+            "a": "Toshiomi Kazama",
+            "b": "John Garza",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Magomed Zaynukov",
+            "b": "Piero Guaylupo",
+            "weightClass": "Light Heavyweight"
+          },
+          {
+            "a": "Diego Ferreira",
+            "b": "MarQuel Mederos",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Alden Coria",
+            "b": "Michael Aljarouj",
+            "weightClass": "Flyweight"
+          },
+          {
+            "a": "Gilbert Urbina",
+            "b": "Robert Valentin",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Kennedy Nzechukwu",
+            "b": "Elisha Ellison",
             "weightClass": null
+          },
+          {
+            "a": "Ryan Spann",
+            "b": "Louie Sutherland",
+            "weightClass": "Heavyweight"
+          },
+          {
+            "a": "Chris Curtis",
+            "b": "Geoff Neal",
+            "weightClass": "Welterweight"
           },
           {
             "a": "Chidi Njokuani",
@@ -4757,7 +4827,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 4,
+        "boutCount": 13,
         "broadcasts": [
           "Paramount+"
         ]
@@ -5224,6 +5294,181 @@
     }
   ],
   "recent": [
+    {
+      "org": "MMA",
+      "eventName": "ACA Young Eagles 70",
+      "eventTag": "ACA Young Eagles 70 · Sport Hall Colloseum, Grozny, Chechnya, Russia",
+      "homeTeam": "Bashir Alisultanov",
+      "awayTeam": "Malik Abdurakhmanov",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Ilya Kovalev v Akhmed Bibiev",
+          "weightClass": null
+        },
+        {
+          "title": "Bilan Kortoev v Shamil Abdulkhamidov",
+          "weightClass": null
+        },
+        {
+          "title": "Magomedrasul Gadzhimagomedov v Sulim Asukhanov",
+          "weightClass": null
+        },
+        {
+          "title": "Ismail Ismailov v Alim Dagirov",
+          "weightClass": null
+        },
+        {
+          "title": "Vadim Fealkovskiy v Islam Albekov",
+          "weightClass": null
+        },
+        {
+          "title": "Akhadbek Ismonzhonov v Apti Mezhidov",
+          "weightClass": null
+        },
+        {
+          "title": "Tamerlan Kaisarov v Magomed Magomedov",
+          "weightClass": null
+        },
+        {
+          "title": "Zambek Shakhbiev v Tariel Kulumbegov",
+          "weightClass": null
+        },
+        {
+          "title": "Astimir Zakriev v Bekhan Shamaev",
+          "weightClass": null
+        },
+        {
+          "title": "Surkho Gadarboshev v Khasan Ibragimov",
+          "weightClass": null
+        },
+        {
+          "title": "Murad Khakishev v Shamil Ushaev",
+          "weightClass": null
+        },
+        {
+          "title": "Magomed Manatov v Adam Bekbulatov",
+          "weightClass": null
+        },
+        {
+          "title": "Hrant Kalachyan v Bekhan Besaev",
+          "weightClass": null
+        },
+        {
+          "title": "Tamerlan Bacharov v Akraman Gaisuev",
+          "weightClass": null
+        },
+        {
+          "title": "Sarmat Kozaev v Turpal-Ali Susurkaev",
+          "weightClass": null
+        },
+        {
+          "title": "Sulim Tepsaev v Kamronbek Mirzakarimov",
+          "weightClass": null
+        },
+        {
+          "title": "Salam Dykaev v Alexey Zaznobov",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-19T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-19",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-ACA-YE-70-ACA-Young-Eagles-70-115206",
+        "name": "ACA Young Eagles 70",
+        "dateUTC": null,
+        "dateOnly": "2026-11-19",
+        "venue": "Sport Hall Colloseum",
+        "city": "Grozny, Chechnya, Russia",
+        "href": "/events/ACA-YE-70-ACA-Young-Eagles-70-115206",
+        "mainEventFighters": [
+          "Bashir Alisultanov",
+          "Malik Abdurakhmanov"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Ilya Kovalev",
+            "b": "Akhmed Bibiev"
+          },
+          {
+            "a": "Bilan Kortoev",
+            "b": "Shamil Abdulkhamidov"
+          },
+          {
+            "a": "Magomedrasul Gadzhimagomedov",
+            "b": "Sulim Asukhanov"
+          },
+          {
+            "a": "Ismail Ismailov",
+            "b": "Alim Dagirov"
+          },
+          {
+            "a": "Vadim Fealkovskiy",
+            "b": "Islam Albekov"
+          },
+          {
+            "a": "Akhadbek Ismonzhonov",
+            "b": "Apti Mezhidov"
+          },
+          {
+            "a": "Tamerlan Kaisarov",
+            "b": "Magomed Magomedov"
+          },
+          {
+            "a": "Zambek Shakhbiev",
+            "b": "Tariel Kulumbegov"
+          },
+          {
+            "a": "Astimir Zakriev",
+            "b": "Bekhan Shamaev"
+          },
+          {
+            "a": "Surkho Gadarboshev",
+            "b": "Khasan Ibragimov"
+          },
+          {
+            "a": "Murad Khakishev",
+            "b": "Shamil Ushaev"
+          },
+          {
+            "a": "Magomed Manatov",
+            "b": "Adam Bekbulatov"
+          },
+          {
+            "a": "Hrant Kalachyan",
+            "b": "Bekhan Besaev"
+          },
+          {
+            "a": "Tamerlan Bacharov",
+            "b": "Akraman Gaisuev"
+          },
+          {
+            "a": "Sarmat Kozaev",
+            "b": "Turpal-Ali Susurkaev"
+          },
+          {
+            "a": "Sulim Tepsaev",
+            "b": "Kamronbek Mirzakarimov"
+          },
+          {
+            "a": "Salam Dykaev",
+            "b": "Alexey Zaznobov"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Bashir Alisultanov|Malik Abdurakhmanov|2026-11-19"
+    },
     {
       "org": "MMA",
       "eventName": "ONE Samurai 5",
@@ -8096,30 +8341,6 @@
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-11-19T17:00:00.000Z",
-      "endsAtUTC": "2026-11-19T19:00:00.000Z",
-      "timeUK": "Thu 19 Nov, 17:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "186: Bader v Vassell",
-      "sublabel": "Bellator MMA"
-    },
-    {
-      "airTimeUTC": "2026-11-20T03:00:00.000Z",
-      "endsAtUTC": "2026-11-20T04:00:00.000Z",
-      "timeUK": "Fri 20 Nov, 03:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Weir v Cohoon, Prelims",
-      "sublabel": "BKFC 96: Weir vs. Cohoon, Prelims"
-    },
     {
       "airTimeUTC": "2026-11-20T04:00:00.000Z",
       "endsAtUTC": "2026-11-20T07:00:00.000Z",
