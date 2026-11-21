@@ -1,5 +1,23 @@
 [
   {
+    "timestamp": "2026-11-21T18:16:02.937Z",
+    "totalEvents": 26,
+    "added": [
+      "Fluminense vs Cruzeiro (Campeonato Brasileiro Série A) — Fri 27 Nov, 20:00"
+    ],
+    "removed": [
+      "Vélez Sarsfield vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Fri 20 Nov, 20:00",
+      "Puebla vs Atlético San Luis (Liga MX) — Fri 20 Nov, 19:00",
+      "FC Juárez vs Atlas (Liga MX) — Fri 20 Nov, 21:00",
+      "Tijuana vs Atlante (Liga MX) — Fri 20 Nov, 21:10",
+      "Defensa y Justicia vs Barracas Central (Liga Profesional de Fútbol) — Sat 21 Nov, 15:00"
+    ],
+    "channelsChanged": [
+      "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Fanatiz YouTube, Flow Sports, Globo Internacional]",
+      "Santos vs Grêmio (Campeonato Brasileiro Série A) — Mon 23 Nov, 21:00: [Fanatiz (Míralo en vivo), Flow Sports]"
+    ]
+  },
+  {
     "timestamp": "2026-11-20T19:19:07.316Z",
     "totalEvents": 30,
     "added": [
@@ -79,23 +97,5 @@
     "added": [],
     "removed": [],
     "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-16T21:17:39.969Z",
-    "totalEvents": 25,
-    "added": [
-      "Fluminense vs Mirassol (Campeonato Brasileiro Série A) — Sun 22 Nov, 15:30",
-      "Rosario Central vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 22 Nov, 16:00",
-      "River Plate vs Lanús (Liga Profesional de Fútbol) — Sun 22 Nov, 19:00",
-      "Chivas Guadalajara vs Cruz Azul (Liga MX) — Sun 22 Nov, 17:07",
-      "Instituto (Córdoba) vs Huracán (Liga Profesional de Fútbol) — Sun 22 Nov, 22:00",
-      "Querétaro vs Necaxa (Liga MX) — Sun 22 Nov, 19:00",
-      "Gimnasia y Esgrima La Plata vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 23 Nov, 17:00"
-    ],
-    "removed": [],
-    "channelsChanged": [
-      "FC Juárez vs Atlas (Liga MX) — Fri 20 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
-      "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX One]"
-    ]
   }
 ]

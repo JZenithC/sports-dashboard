@@ -1,716 +1,6 @@
 {
-  "generatedAt": "2026-11-20T19:20:49.560Z",
+  "generatedAt": "2026-11-21T18:17:30.034Z",
   "upcoming": [
-    {
-      "org": "Boxing",
-      "eventName": "Amari Jones vs DeAundre Pettus",
-      "eventTag": "Boxing · Indio",
-      "homeTeam": "Amari Jones",
-      "awayTeam": "DeAundre Pettus",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-20T20:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Fri 20 Nov, 20:00",
-      "localDate": "2026-11-20",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "gbn-amari-jones-vs-deaundre-pettus-2026-11-20",
-        "name": "Amari Jones vs DeAundre Pettus",
-        "dateUTC": "2026-11-20T20:00:00.000Z",
-        "dateOnly": "2026-11-20",
-        "venue": null,
-        "city": "Indio",
-        "mainEventFighters": [
-          "Amari Jones",
-          "DeAundre Pettus"
-        ],
-        "bouts": [],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/amari-jones-vs-deaundre-pettus-2026-11-20"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/amari-jones-vs-deaundre-pettus-2026-11-20"
-      },
-      "watchKey": "fights:Boxing|Amari Jones|DeAundre Pettus|2026-11-20"
-    },
-    {
-      "org": "MMA",
-      "eventName": "ARES 45: Zebo vs. Baki 2",
-      "eventTag": "ARES 45 · Adidas Arena, Paris, France",
-      "homeTeam": "Zebo",
-      "awayTeam": "Baki 2",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Ghassen Jbalia v Modibo Diakite",
-          "weightClass": null
-        },
-        {
-          "title": "Amir Aliev v Matheus Malta",
-          "weightClass": null
-        },
-        {
-          "title": "Nimo Djagbo v Sidney Aguero",
-          "weightClass": null
-        },
-        {
-          "title": "Marvin Caperan v Bruno Pudins",
-          "weightClass": null
-        },
-        {
-          "title": "Ibrahima Wade v Jovan Todorovic",
-          "weightClass": null
-        },
-        {
-          "title": "Lamp Toure v Valeriu Asaftei",
-          "weightClass": null
-        },
-        {
-          "title": "Rony Bouzy v Ezequias Breno Matias Glim",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-20T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-20",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-ARES-45-Zebo-vs-Baki-2-112453",
-        "name": "ARES 45: Zebo vs. Baki 2",
-        "dateUTC": null,
-        "dateOnly": "2026-11-20",
-        "venue": "Adidas Arena",
-        "city": "Paris, France",
-        "href": "/events/ARES-45-Zebo-vs-Baki-2-112453",
-        "mainEventFighters": [
-          "Zebo",
-          "Baki 2"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Ghassen Jbalia",
-            "b": "Modibo Diakite"
-          },
-          {
-            "a": "Amir Aliev",
-            "b": "Matheus Malta"
-          },
-          {
-            "a": "Nimo Djagbo",
-            "b": "Sidney Aguero"
-          },
-          {
-            "a": "Marvin Caperan",
-            "b": "Bruno Pudins"
-          },
-          {
-            "a": "Ibrahima Wade",
-            "b": "Jovan Todorovic"
-          },
-          {
-            "a": "Lamp Toure",
-            "b": "Valeriu Asaftei"
-          },
-          {
-            "a": "Rony Bouzy",
-            "b": "Ezequias Breno Matias Glim"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Zebo|Baki 2|2026-11-20"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Fury FC: Challenger Series 18",
-      "eventTag": "Fury FC · Bayou City Event Center, Houston, Texas, United States",
-      "homeTeam": "Kyle Todrank",
-      "awayTeam": "Justin Robinson",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Tyler Ybarra v Anthony     Johnson",
-          "weightClass": null
-        },
-        {
-          "title": "Kenneth Thomas v Billy Adams",
-          "weightClass": null
-        },
-        {
-          "title": "Karla Torres v Cara Greenwell",
-          "weightClass": null
-        },
-        {
-          "title": "Merrick Nicholas v Carlos Martinez",
-          "weightClass": null
-        },
-        {
-          "title": "Ashley Maziol v Alexandra Carlson",
-          "weightClass": null
-        },
-        {
-          "title": "Dayron Vasquez v Shane Wright",
-          "weightClass": null
-        },
-        {
-          "title": "Jordan Plutin v Corey Flores",
-          "weightClass": null
-        },
-        {
-          "title": "Michael Capone v Cameron Veales",
-          "weightClass": null
-        },
-        {
-          "title": "Patrick Hutton v Jackson Nwokeoma",
-          "weightClass": null
-        },
-        {
-          "title": "Justin Hoffart v Evian Rodriguez",
-          "weightClass": null
-        },
-        {
-          "title": "Chris Velarde v Cristian Lopez",
-          "weightClass": null
-        },
-        {
-          "title": "Paul Garza v Andre Gibbons",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-20T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-20",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Fury-FC-Challenger-Series-18-114597",
-        "name": "Fury FC: Challenger Series 18",
-        "dateUTC": null,
-        "dateOnly": "2026-11-20",
-        "venue": "Bayou City Event Center",
-        "city": "Houston, Texas, United States",
-        "href": "/events/Fury-FC-Challenger-Series-18-114597",
-        "mainEventFighters": [
-          "Kyle Todrank",
-          "Justin Robinson"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Tyler Ybarra",
-            "b": "Anthony     Johnson"
-          },
-          {
-            "a": "Kenneth Thomas",
-            "b": "Billy Adams"
-          },
-          {
-            "a": "Karla Torres",
-            "b": "Cara Greenwell"
-          },
-          {
-            "a": "Merrick Nicholas",
-            "b": "Carlos Martinez"
-          },
-          {
-            "a": "Ashley Maziol",
-            "b": "Alexandra Carlson"
-          },
-          {
-            "a": "Dayron Vasquez",
-            "b": "Shane Wright"
-          },
-          {
-            "a": "Jordan Plutin",
-            "b": "Corey Flores"
-          },
-          {
-            "a": "Michael Capone",
-            "b": "Cameron Veales"
-          },
-          {
-            "a": "Patrick Hutton",
-            "b": "Jackson Nwokeoma"
-          },
-          {
-            "a": "Justin Hoffart",
-            "b": "Evian Rodriguez"
-          },
-          {
-            "a": "Chris Velarde",
-            "b": "Cristian Lopez"
-          },
-          {
-            "a": "Paul Garza",
-            "b": "Andre Gibbons"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Kyle Todrank|Justin Robinson|2026-11-20"
-    },
-    {
-      "org": "MMA",
-      "eventName": "LFA 247: Breno vs Torres",
-      "eventTag": "LFA 247 · Arizona Financial Theatre, Phoenix, Arizona, United States",
-      "homeTeam": "Breno",
-      "awayTeam": "Torres",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Chance Ikei v Agapito Orozco",
-          "weightClass": null
-        },
-        {
-          "title": "Lucas Ganin v Abbas Abasov",
-          "weightClass": null
-        },
-        {
-          "title": "Benjamin Orozco v Canon Swanson",
-          "weightClass": null
-        },
-        {
-          "title": "Aiden Ingram v Ricardo Hussein",
-          "weightClass": null
-        },
-        {
-          "title": "Dylan Smerillo v Ray Hayes",
-          "weightClass": null
-        },
-        {
-          "title": "Delton Kaufmann v Abasi Young",
-          "weightClass": null
-        },
-        {
-          "title": "Paul Marghitas v Sergio Mamone Jr.",
-          "weightClass": null
-        },
-        {
-          "title": "Zoe Nowicki v Mia Grawe",
-          "weightClass": null
-        },
-        {
-          "title": "Erickson Quinzo v Adam Amado",
-          "weightClass": null
-        },
-        {
-          "title": "Nolan Linebaugh v Joseph Rivas",
-          "weightClass": null
-        },
-        {
-          "title": "Talal Yousufzai v Josh Reynolds",
-          "weightClass": null
-        },
-        {
-          "title": "Sean Polk v Luke La Vanway",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-20T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-20",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-LFA-247-Breno-vs-Torres-114849",
-        "name": "LFA 247: Breno vs Torres",
-        "dateUTC": null,
-        "dateOnly": "2026-11-20",
-        "venue": "Arizona Financial Theatre",
-        "city": "Phoenix, Arizona, United States",
-        "href": "/events/LFA-247-Breno-vs-Torres-114849",
-        "mainEventFighters": [
-          "Breno",
-          "Torres"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Chance Ikei",
-            "b": "Agapito Orozco"
-          },
-          {
-            "a": "Lucas Ganin",
-            "b": "Abbas Abasov"
-          },
-          {
-            "a": "Benjamin Orozco",
-            "b": "Canon Swanson"
-          },
-          {
-            "a": "Aiden Ingram",
-            "b": "Ricardo Hussein"
-          },
-          {
-            "a": "Dylan Smerillo",
-            "b": "Ray Hayes"
-          },
-          {
-            "a": "Delton Kaufmann",
-            "b": "Abasi Young"
-          },
-          {
-            "a": "Paul Marghitas",
-            "b": "Sergio Mamone Jr."
-          },
-          {
-            "a": "Zoe Nowicki",
-            "b": "Mia Grawe"
-          },
-          {
-            "a": "Erickson Quinzo",
-            "b": "Adam Amado"
-          },
-          {
-            "a": "Nolan Linebaugh",
-            "b": "Joseph Rivas"
-          },
-          {
-            "a": "Talal Yousufzai",
-            "b": "Josh Reynolds"
-          },
-          {
-            "a": "Sean Polk",
-            "b": "Luke La Vanway"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Breno|Torres|2026-11-20"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Friday Fights 179",
-      "eventTag": "One Friday Fights 179 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Lutfullo Sohibnazarov",
-      "awayTeam": "Mirmehti Miriyev",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Hero Marco Manguray v Min Sung Kang",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-20T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-20",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-Friday-Fights-179-114882",
-        "name": "One Friday Fights 179",
-        "dateUTC": null,
-        "dateOnly": "2026-11-20",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-Friday-Fights-179-114882",
-        "mainEventFighters": [
-          "Lutfullo Sohibnazarov",
-          "Mirmehti Miriyev"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Hero Marco Manguray",
-            "b": "Min Sung Kang"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Lutfullo Sohibnazarov|Mirmehti Miriyev|2026-11-20"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Gabriela Fundora-Jasmina Zapotoczna",
-      "eventTag": "Boxing · Fantasy Springs Resort Casino, Indio, California",
-      "homeTeam": "Gabriela Fundora",
-      "awayTeam": "Jasmina Zapotoczna",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Amari Jones v DeAundre Pettus",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/fbec05896aa3d3cfab39.webp",
-        "attribution": "DAZN"
-      },
-      "kickoffUTC": "2026-11-21T01:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 21 Nov, 01:00",
-      "localDate": "2026-11-21",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "Listed by source",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "gabriela-fundora-jasmina-zapotoczna",
-        "name": "Gabriela Fundora-Jasmina Zapotoczna",
-        "dateUTC": "2026-11-21T01:00:00.000Z",
-        "dateOnly": "2026-11-20",
-        "venue": "Fantasy Springs Resort Casino",
-        "city": "Indio, California",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/gabrielafundorajasminazapotocznaartwork.webp",
-        "posterAttribution": "DAZN",
-        "mainEventFighters": [
-          "Gabriela Fundora",
-          "Jasmina Zapotoczna"
-        ],
-        "bouts": [
-          {
-            "a": "Gabriela Fundora",
-            "b": "Jasmina Zapotoczna"
-          },
-          {
-            "a": "Amari Jones",
-            "b": "DeAundre Pettus"
-          }
-        ],
-        "broadcasts": [
-          "DAZN"
-        ]
-      },
-      "watchKey": "fights:Boxing|Gabriela Fundora|Jasmina Zapotoczna|2026-11-21"
-    },
-    {
-      "org": "UFC",
-      "eventName": "UFC Fight Night: Procházka vs. Stirling",
-      "eventTag": "UFC Fight Night · ABHA Arena, Doha · 12-fight card · main card Sat 21 Nov, 18:00 UK",
-      "homeTeam": "Jiří Procházka",
-      "awayTeam": "Navajo Stirling",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/cze.png",
-      "awayLogo": "/logos/flags/nzl.png",
-      "orgName": "UFC",
-      "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [
-        {
-          "title": "Shoaib Yousaf v John Mitchell",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Diyar Nurgozhay v Alik Lorenz",
-          "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Nikolas Motta v Dom Mar Fan",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Jake Matthews v Tahir Abdullayev",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Amir Albazi v Alessandro Costa",
-          "weightClass": "Flyweight"
-        },
-        {
-          "title": "Shamil Gaziev v Tallison Teixeira",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Aleksandre Topuria v Santiago Luna",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Jared Cannonier v Ikram Aliskerov",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Kyoji Horiguchi v Asu Almabayev",
-          "weightClass": "Flyweight"
-        },
-        {
-          "title": "Brian Ortega v Dan Hooker",
-          "weightClass": "Lightweight"
-        },
-        {
-          "title": "Aljamain Sterling v Kevin Vallejos",
-          "weightClass": "Featherweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-21T15:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 21 Nov, 15:00",
-      "localDate": "2026-11-21",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        },
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports",
-              "url": "https://www.tntsports.co.uk/boxing/",
-              "logo": "/logos/channels/tntsports.co.uk.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "UFC",
-        "espnId": "600061665",
-        "name": "UFC Fight Night: Procházka vs. Stirling",
-        "dateUTC": "2026-11-21T15:00Z",
-        "mainCardUTC": "2026-11-21T18:00Z",
-        "venue": "ABHA Arena",
-        "city": "Doha",
-        "country": "Qatar",
-        "mainEventFighters": [
-          "Jiří Procházka",
-          "Navajo Stirling"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png"
-        ],
-        "bouts": [
-          {
-            "a": "Shoaib Yousaf",
-            "b": "John Mitchell",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Diyar Nurgozhay",
-            "b": "Alik Lorenz",
-            "weightClass": "Light Heavyweight"
-          },
-          {
-            "a": "Nikolas Motta",
-            "b": "Dom Mar Fan",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Jake Matthews",
-            "b": "Tahir Abdullayev",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Amir Albazi",
-            "b": "Alessandro Costa",
-            "weightClass": "Flyweight"
-          },
-          {
-            "a": "Shamil Gaziev",
-            "b": "Tallison Teixeira",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Aleksandre Topuria",
-            "b": "Santiago Luna",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Jared Cannonier",
-            "b": "Ikram Aliskerov",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Kyoji Horiguchi",
-            "b": "Asu Almabayev",
-            "weightClass": "Flyweight"
-          },
-          {
-            "a": "Brian Ortega",
-            "b": "Dan Hooker",
-            "weightClass": "Lightweight"
-          },
-          {
-            "a": "Aljamain Sterling",
-            "b": "Kevin Vallejos",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Jiří Procházka",
-            "b": "Navajo Stirling",
-            "weightClass": "Light Heavyweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 12,
-        "broadcasts": [
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:UFC|Jiří Procházka|Navajo Stirling|2026-11-21"
-    },
     {
       "org": "MMA",
       "eventName": "Oktagon 98: Legierski vs. Buchinger",
@@ -756,7 +46,7 @@
           "weightClass": null
         },
         {
-          "title": "Michaela Hlavacikova v Marta Sos",
+          "title": "Marta Sos v Michaela Hlavacikova",
           "weightClass": null
         }
       ],
@@ -815,8 +105,8 @@
             "b": "Sayed Murtaza Sadat"
           },
           {
-            "a": "Michaela Hlavacikova",
-            "b": "Marta Sos"
+            "a": "Marta Sos",
+            "b": "Michaela Hlavacikova"
           }
         ]
       },
@@ -1310,14 +600,19 @@
       "org": "MMA",
       "eventName": "One Friday Fights 180",
       "eventTag": "One Friday Fights 180 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "One Friday Fights 180",
+      "homeTeam": "Alistair Fitzharris",
+      "awayTeam": "Bhupen Mutum",
+      "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Aarti Khatri v Norika Ryu",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-11-27T23:59:00Z",
       "kickoffLocal": null,
@@ -1334,11 +629,19 @@
         "venue": "Lumpinee Boxing Stadium",
         "city": "Bangkok, Thailand",
         "href": "/events/One-Championship-One-Friday-Fights-180-115394",
-        "mainEventFighters": [],
+        "mainEventFighters": [
+          "Alistair Fitzharris",
+          "Bhupen Mutum"
+        ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Aarti Khatri",
+            "b": "Norika Ryu"
+          }
+        ]
       },
-      "watchKey": "fights:MMA|null|null|2026-11-27"
+      "watchKey": "fights:MMA|Alistair Fitzharris|Bhupen Mutum|2026-11-27"
     },
     {
       "org": "Boxing",
@@ -3136,7 +2439,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 335: Oliveira vs. Lopes",
-      "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 4-fight card · main card Sun 13 Dec, 02:00 UK",
+      "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 7-fight card · main card Sun 13 Dec, 02:00 UK",
       "homeTeam": "Charles Oliveira",
       "awayTeam": "Diego Lopes",
       "cardTitle": null,
@@ -3146,8 +2449,20 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
+          "title": "TBA v Opponent TBA",
+          "weightClass": null
+        },
+        {
           "title": "Junior Tafa v Quentin Pasley",
           "weightClass": "Light Heavyweight"
+        },
+        {
+          "title": "Kyler Phillips v Ethyn Ewing",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Damian Pinas v Baisangur Susurkaev",
+          "weightClass": "Middleweight"
         },
         {
           "title": "Brandon Moreno v Charles Johnson",
@@ -3205,9 +2520,24 @@
         ],
         "bouts": [
           {
+            "a": "TBA",
+            "b": "Opponent TBA",
+            "weightClass": null
+          },
+          {
             "a": "Junior Tafa",
             "b": "Quentin Pasley",
             "weightClass": "Light Heavyweight"
+          },
+          {
+            "a": "Kyler Phillips",
+            "b": "Ethyn Ewing",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Damian Pinas",
+            "b": "Baisangur Susurkaev",
+            "weightClass": "Middleweight"
           },
           {
             "a": "Brandon Moreno",
@@ -3226,7 +2556,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 4,
+        "boutCount": 7,
         "broadcasts": [
           "Paramount+"
         ]
@@ -3296,9 +2626,9 @@
       "org": "MMA",
       "eventName": "ONE 124",
       "eventTag": "ONE 124 · Shanghai Indoor Stadium, Shanghai, China",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "ONE 124",
+      "homeTeam": "Kai Tang",
+      "awayTeam": "Enkh-Orgil Baatarkhuu",
+      "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
@@ -3320,11 +2650,14 @@
         "venue": "Shanghai Indoor Stadium",
         "city": "Shanghai, China",
         "href": "/events/One-Championship-ONE-124-115450",
-        "mainEventFighters": [],
+        "mainEventFighters": [
+          "Kai Tang",
+          "Enkh-Orgil Baatarkhuu"
+        ],
         "broadcasts": [],
         "bouts": []
       },
-      "watchKey": "fights:MMA|null|null|2026-12-12"
+      "watchKey": "fights:MMA|Kai Tang|Enkh-Orgil Baatarkhuu|2026-12-12"
     },
     {
       "org": "MMA",
@@ -3676,11 +3009,11 @@
           "weightClass": null
         },
         {
-          "title": "Roberto Hernandez v Chris Mecate",
+          "title": "Brahyam Zurcher v Elvis Silva",
           "weightClass": null
         },
         {
-          "title": "Brahyam Zurcher v Elvis Silva",
+          "title": "Roberto Hernandez v Chris Mecate",
           "weightClass": null
         },
         {
@@ -3731,12 +3064,12 @@
             "b": "Wildemar Souza Santos"
           },
           {
-            "a": "Roberto Hernandez",
-            "b": "Chris Mecate"
-          },
-          {
             "a": "Brahyam Zurcher",
             "b": "Elvis Silva"
+          },
+          {
+            "a": "Roberto Hernandez",
+            "b": "Chris Mecate"
           },
           {
             "a": "Charlie Cleveland",
@@ -4977,7 +4310,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 336: Van vs. Kape",
-      "eventTag": "UFC 336 · Scotiabank Arena, Toronto · 4-fight card · main card Sun 31 Jan, 02:00 UK",
+      "eventTag": "UFC 336 · Scotiabank Arena, Toronto · 5-fight card · main card Sun 31 Jan, 02:00 UK",
       "homeTeam": "Manel Kape",
       "awayTeam": "Joshua Van",
       "cardTitle": null,
@@ -4987,12 +4320,16 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "TBA v Opponent TBA",
-          "weightClass": null
+          "title": "Sean Clancy Jr. v Cam Nelson",
+          "weightClass": "Welterweight"
         },
         {
-          "title": "TBA v Opponent TBA",
-          "weightClass": null
+          "title": "Serhiy Sidey v Louis Lee Scott",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Michael Johnson v Lance Gibson Jr.",
+          "weightClass": "Lightweight"
         },
         {
           "title": "Carlos Prates v Michael Morales",
@@ -5046,14 +4383,19 @@
         ],
         "bouts": [
           {
-            "a": "TBA",
-            "b": "Opponent TBA",
-            "weightClass": null
+            "a": "Sean Clancy Jr.",
+            "b": "Cam Nelson",
+            "weightClass": "Welterweight"
           },
           {
-            "a": "TBA",
-            "b": "Opponent TBA",
-            "weightClass": null
+            "a": "Serhiy Sidey",
+            "b": "Louis Lee Scott",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Michael Johnson",
+            "b": "Lance Gibson Jr.",
+            "weightClass": "Lightweight"
           },
           {
             "a": "Carlos Prates",
@@ -5067,7 +4409,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 4,
+        "boutCount": 5,
         "broadcasts": [
           "Paramount+"
         ]
@@ -5077,7 +4419,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Salkilld vs. Saint Denis",
-      "eventTag": "UFC Fight Night · Afterpay Arena, Sydney · 8-fight card · main card Sat 06 Feb, 22:00 UK",
+      "eventTag": "UFC Fight Night · Afterpay Arena, Sydney · 9-fight card · main card Sat 06 Feb, 22:00 UK",
       "homeTeam": "Benoît Saint Denis",
       "awayTeam": "Quillan Salkilld",
       "cardTitle": null,
@@ -5086,6 +4428,10 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Sam Patterson v Jonathan Micallef",
+          "weightClass": "Welterweight"
+        },
         {
           "title": "Meng Bo v Bo Hyun Park",
           "weightClass": "W Strawweight"
@@ -5162,6 +4508,11 @@
         ],
         "bouts": [
           {
+            "a": "Sam Patterson",
+            "b": "Jonathan Micallef",
+            "weightClass": "Welterweight"
+          },
+          {
             "a": "Meng Bo",
             "b": "Bo Hyun Park",
             "weightClass": "W Strawweight"
@@ -5203,7 +4554,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 8,
+        "boutCount": 9,
         "broadcasts": [
           "Paramount+"
         ]
@@ -5294,6 +4645,685 @@
     }
   ],
   "recent": [
+    {
+      "org": "UFC",
+      "eventName": "UFC Fight Night: Procházka vs. Stirling",
+      "eventTag": "UFC Fight Night · ABHA Arena, Doha · 12-fight card · main card Sat 21 Nov, 18:00 UK",
+      "homeTeam": "Jiří Procházka",
+      "awayTeam": "Navajo Stirling",
+      "cardTitle": null,
+      "homeLogo": "/logos/flags/cze.png",
+      "awayLogo": "/logos/flags/nzl.png",
+      "orgName": "UFC",
+      "orgLogo": "/logos/orgs/ufc.png",
+      "undercard": [
+        {
+          "title": "Shoaib Yousaf v John Mitchell",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Diyar Nurgozhay v Alik Lorenz",
+          "weightClass": "Light Heavyweight"
+        },
+        {
+          "title": "Nikolas Motta v Dom Mar Fan",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Jake Matthews v Tahir Abdullayev",
+          "weightClass": "Welterweight"
+        },
+        {
+          "title": "Amir Albazi v Alessandro Costa",
+          "weightClass": "Flyweight"
+        },
+        {
+          "title": "Shamil Gaziev v Tallison Teixeira",
+          "weightClass": "Heavyweight"
+        },
+        {
+          "title": "Aleksandre Topuria v Santiago Luna",
+          "weightClass": "Bantamweight"
+        },
+        {
+          "title": "Jared Cannonier v Ikram Aliskerov",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Kyoji Horiguchi v Asu Almabayev",
+          "weightClass": "Flyweight"
+        },
+        {
+          "title": "Brian Ortega v Dan Hooker",
+          "weightClass": "Lightweight"
+        },
+        {
+          "title": "Aljamain Sterling v Kevin Vallejos",
+          "weightClass": "Featherweight"
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-21T15:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 21 Nov, 15:00",
+      "localDate": "2026-11-21",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "US",
+          "channels": [
+            {
+              "name": "Paramount+",
+              "url": "https://www.paramountplus.com/",
+              "logo": "/logos/channels/paramountplus.com.png"
+            }
+          ]
+        },
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "TNT Sports",
+              "url": "https://www.tntsports.co.uk/boxing/",
+              "logo": "/logos/channels/tntsports.co.uk.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "UFC",
+        "espnId": "600061665",
+        "name": "UFC Fight Night: Procházka vs. Stirling",
+        "dateUTC": "2026-11-21T15:00Z",
+        "mainCardUTC": "2026-11-21T18:00Z",
+        "venue": "ABHA Arena",
+        "city": "Doha",
+        "country": "Qatar",
+        "mainEventFighters": [
+          "Jiří Procházka",
+          "Navajo Stirling"
+        ],
+        "mainEventFlagUrls": [
+          "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
+          "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png"
+        ],
+        "bouts": [
+          {
+            "a": "Shoaib Yousaf",
+            "b": "John Mitchell",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Diyar Nurgozhay",
+            "b": "Alik Lorenz",
+            "weightClass": "Light Heavyweight"
+          },
+          {
+            "a": "Nikolas Motta",
+            "b": "Dom Mar Fan",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Jake Matthews",
+            "b": "Tahir Abdullayev",
+            "weightClass": "Welterweight"
+          },
+          {
+            "a": "Amir Albazi",
+            "b": "Alessandro Costa",
+            "weightClass": "Flyweight"
+          },
+          {
+            "a": "Shamil Gaziev",
+            "b": "Tallison Teixeira",
+            "weightClass": "Heavyweight"
+          },
+          {
+            "a": "Aleksandre Topuria",
+            "b": "Santiago Luna",
+            "weightClass": "Bantamweight"
+          },
+          {
+            "a": "Jared Cannonier",
+            "b": "Ikram Aliskerov",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Kyoji Horiguchi",
+            "b": "Asu Almabayev",
+            "weightClass": "Flyweight"
+          },
+          {
+            "a": "Brian Ortega",
+            "b": "Dan Hooker",
+            "weightClass": "Lightweight"
+          },
+          {
+            "a": "Aljamain Sterling",
+            "b": "Kevin Vallejos",
+            "weightClass": "Featherweight"
+          },
+          {
+            "a": "Jiří Procházka",
+            "b": "Navajo Stirling",
+            "weightClass": "Light Heavyweight"
+          }
+        ],
+        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
+        "boutCount": 12,
+        "broadcasts": [
+          "Paramount+"
+        ]
+      },
+      "watchKey": "fights:UFC|Jiří Procházka|Navajo Stirling|2026-11-21",
+      "replayGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "TNT Sports 2",
+              "logo": "/logos/channels/tntsports.co.uk.png",
+              "timeUK": "Sun 22 Nov, 21:00",
+              "airTimeUTC": "2026-11-22T21:00:00.000Z"
+            },
+            {
+              "name": "TNT Sports 2",
+              "logo": "/logos/channels/tntsports.co.uk.png",
+              "timeUK": "Mon 23 Nov, 21:30",
+              "airTimeUTC": "2026-11-23T21:30:00.000Z"
+            },
+            {
+              "name": "TNT Sports 2",
+              "logo": "/logos/channels/tntsports.co.uk.png",
+              "timeUK": "Thu 26 Nov, 01:00",
+              "airTimeUTC": "2026-11-26T01:00:00.000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Gabriela Fundora-Jasmina Zapotoczna",
+      "eventTag": "Boxing · Fantasy Springs Resort Casino, Indio, California",
+      "homeTeam": "Gabriela Fundora",
+      "awayTeam": "Jasmina Zapotoczna",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Amari Jones v DeAundre Pettus",
+          "weightClass": null
+        }
+      ],
+      "poster": {
+        "src": "/logos/posters/fbec05896aa3d3cfab39.webp",
+        "attribution": "DAZN"
+      },
+      "kickoffUTC": "2026-11-21T01:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 21 Nov, 01:00",
+      "localDate": "2026-11-21",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "Listed by source",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gabriela-fundora-jasmina-zapotoczna",
+        "name": "Gabriela Fundora-Jasmina Zapotoczna",
+        "dateUTC": "2026-11-21T01:00:00.000Z",
+        "dateOnly": "2026-11-20",
+        "venue": "Fantasy Springs Resort Casino",
+        "city": "Indio, California",
+        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/gabrielafundorajasminazapotocznaartwork.webp",
+        "posterAttribution": "DAZN",
+        "mainEventFighters": [
+          "Gabriela Fundora",
+          "Jasmina Zapotoczna"
+        ],
+        "bouts": [
+          {
+            "a": "Gabriela Fundora",
+            "b": "Jasmina Zapotoczna"
+          },
+          {
+            "a": "Amari Jones",
+            "b": "DeAundre Pettus"
+          }
+        ],
+        "broadcasts": [
+          "DAZN"
+        ]
+      },
+      "watchKey": "fights:Boxing|Gabriela Fundora|Jasmina Zapotoczna|2026-11-21"
+    },
+    {
+      "org": "MMA",
+      "eventName": "One Friday Fights 179",
+      "eventTag": "One Friday Fights 179 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Lutfullo Sohibnazarov",
+      "awayTeam": "Mirmehti Miriyev",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Hero Marco Manguray v Min Sung Kang",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-20T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-20",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-Friday-Fights-179-114882",
+        "name": "One Friday Fights 179",
+        "dateUTC": null,
+        "dateOnly": "2026-11-20",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-Friday-Fights-179-114882",
+        "mainEventFighters": [
+          "Lutfullo Sohibnazarov",
+          "Mirmehti Miriyev"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Hero Marco Manguray",
+            "b": "Min Sung Kang"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Lutfullo Sohibnazarov|Mirmehti Miriyev|2026-11-20"
+    },
+    {
+      "org": "MMA",
+      "eventName": "LFA 247: Breno vs Torres",
+      "eventTag": "LFA 247 · Arizona Financial Theatre, Phoenix, Arizona, United States",
+      "homeTeam": "Breno",
+      "awayTeam": "Torres",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Chance Ikei v Agapito Orozco",
+          "weightClass": null
+        },
+        {
+          "title": "Abbas Abasov v Lucas Ganin",
+          "weightClass": null
+        },
+        {
+          "title": "Canon Swanson v Benjamin Orozco",
+          "weightClass": null
+        },
+        {
+          "title": "Ray Hayes v Dylan Smerillo",
+          "weightClass": null
+        },
+        {
+          "title": "Delton Kaufmann v Abasi Young",
+          "weightClass": null
+        },
+        {
+          "title": "Paul Marghitas v Sergio Mamone Jr.",
+          "weightClass": null
+        },
+        {
+          "title": "Zoe Nowicki v Mia Grawe",
+          "weightClass": null
+        },
+        {
+          "title": "Adam Amado v Erickson Quinzo",
+          "weightClass": null
+        },
+        {
+          "title": "Nolan Linebaugh v Joseph Rivas",
+          "weightClass": null
+        },
+        {
+          "title": "Talal Yousufzai v Josh Reynolds",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-20T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-20",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-LFA-247-Breno-vs-Torres-114849",
+        "name": "LFA 247: Breno vs Torres",
+        "dateUTC": null,
+        "dateOnly": "2026-11-20",
+        "venue": "Arizona Financial Theatre",
+        "city": "Phoenix, Arizona, United States",
+        "href": "/events/LFA-247-Breno-vs-Torres-114849",
+        "mainEventFighters": [
+          "Breno",
+          "Torres"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Chance Ikei",
+            "b": "Agapito Orozco"
+          },
+          {
+            "a": "Abbas Abasov",
+            "b": "Lucas Ganin"
+          },
+          {
+            "a": "Canon Swanson",
+            "b": "Benjamin Orozco"
+          },
+          {
+            "a": "Ray Hayes",
+            "b": "Dylan Smerillo"
+          },
+          {
+            "a": "Delton Kaufmann",
+            "b": "Abasi Young"
+          },
+          {
+            "a": "Paul Marghitas",
+            "b": "Sergio Mamone Jr."
+          },
+          {
+            "a": "Zoe Nowicki",
+            "b": "Mia Grawe"
+          },
+          {
+            "a": "Adam Amado",
+            "b": "Erickson Quinzo"
+          },
+          {
+            "a": "Nolan Linebaugh",
+            "b": "Joseph Rivas"
+          },
+          {
+            "a": "Talal Yousufzai",
+            "b": "Josh Reynolds"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Breno|Torres|2026-11-20"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Fury FC: Challenger Series 18",
+      "eventTag": "Fury FC · Bayou City Event Center, Houston, Texas, United States",
+      "homeTeam": "Justin Robinson",
+      "awayTeam": "Kyle Todrank",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Anthony     Johnson v Tyler Ybarra",
+          "weightClass": null
+        },
+        {
+          "title": "Kenneth Thomas v Billy Adams",
+          "weightClass": null
+        },
+        {
+          "title": "Cara Greenwell v Karla Torres",
+          "weightClass": null
+        },
+        {
+          "title": "Merrick Nicholas v Carlos Martinez",
+          "weightClass": null
+        },
+        {
+          "title": "Corey Flores v Jordan Plutin",
+          "weightClass": null
+        },
+        {
+          "title": "Cameron Veales v Michael Capone",
+          "weightClass": null
+        },
+        {
+          "title": "Jackson Nwokeoma v Patrick Hutton",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-20T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-20",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Fury-FC-Challenger-Series-18-114597",
+        "name": "Fury FC: Challenger Series 18",
+        "dateUTC": null,
+        "dateOnly": "2026-11-20",
+        "venue": "Bayou City Event Center",
+        "city": "Houston, Texas, United States",
+        "href": "/events/Fury-FC-Challenger-Series-18-114597",
+        "mainEventFighters": [
+          "Justin Robinson",
+          "Kyle Todrank"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Anthony     Johnson",
+            "b": "Tyler Ybarra"
+          },
+          {
+            "a": "Kenneth Thomas",
+            "b": "Billy Adams"
+          },
+          {
+            "a": "Cara Greenwell",
+            "b": "Karla Torres"
+          },
+          {
+            "a": "Merrick Nicholas",
+            "b": "Carlos Martinez"
+          },
+          {
+            "a": "Corey Flores",
+            "b": "Jordan Plutin"
+          },
+          {
+            "a": "Cameron Veales",
+            "b": "Michael Capone"
+          },
+          {
+            "a": "Jackson Nwokeoma",
+            "b": "Patrick Hutton"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Justin Robinson|Kyle Todrank|2026-11-20"
+    },
+    {
+      "org": "MMA",
+      "eventName": "ARES 45: Zebo vs. Baki 2",
+      "eventTag": "ARES 45 · Adidas Arena, Paris, France",
+      "homeTeam": "Zebo",
+      "awayTeam": "Baki 2",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Modibo Diakite v Ghassen Jbalia",
+          "weightClass": null
+        },
+        {
+          "title": "Amir Aliev v Matheus Malta",
+          "weightClass": null
+        },
+        {
+          "title": "Nimo Djagbo v Sidney Aguero",
+          "weightClass": null
+        },
+        {
+          "title": "Marvin Caperan v Bruno Pudins",
+          "weightClass": null
+        },
+        {
+          "title": "Ibrahima Wade v Jovan Todorovic",
+          "weightClass": null
+        },
+        {
+          "title": "Lamp Toure v Valeriu Asaftei",
+          "weightClass": null
+        },
+        {
+          "title": "Rony Bouzy v Ezequias Breno Matias Glim",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-20T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-20",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-ARES-45-Zebo-vs-Baki-2-112453",
+        "name": "ARES 45: Zebo vs. Baki 2",
+        "dateUTC": null,
+        "dateOnly": "2026-11-20",
+        "venue": "Adidas Arena",
+        "city": "Paris, France",
+        "href": "/events/ARES-45-Zebo-vs-Baki-2-112453",
+        "mainEventFighters": [
+          "Zebo",
+          "Baki 2"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Modibo Diakite",
+            "b": "Ghassen Jbalia"
+          },
+          {
+            "a": "Amir Aliev",
+            "b": "Matheus Malta"
+          },
+          {
+            "a": "Nimo Djagbo",
+            "b": "Sidney Aguero"
+          },
+          {
+            "a": "Marvin Caperan",
+            "b": "Bruno Pudins"
+          },
+          {
+            "a": "Ibrahima Wade",
+            "b": "Jovan Todorovic"
+          },
+          {
+            "a": "Lamp Toure",
+            "b": "Valeriu Asaftei"
+          },
+          {
+            "a": "Rony Bouzy",
+            "b": "Ezequias Breno Matias Glim"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Zebo|Baki 2|2026-11-20"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Amari Jones vs DeAundre Pettus",
+      "eventTag": "Boxing · Indio",
+      "homeTeam": "Amari Jones",
+      "awayTeam": "DeAundre Pettus",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2026-11-20T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Fri 20 Nov, 20:00",
+      "localDate": "2026-11-20",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-amari-jones-vs-deaundre-pettus-2026-11-20",
+        "name": "Amari Jones vs DeAundre Pettus",
+        "dateUTC": "2026-11-20T20:00:00.000Z",
+        "dateOnly": "2026-11-20",
+        "venue": null,
+        "city": "Indio",
+        "mainEventFighters": [
+          "Amari Jones",
+          "DeAundre Pettus"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/amari-jones-vs-deaundre-pettus-2026-11-20"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/amari-jones-vs-deaundre-pettus-2026-11-20"
+      },
+      "watchKey": "fights:Boxing|Amari Jones|DeAundre Pettus|2026-11-20"
+    },
     {
       "org": "MMA",
       "eventName": "ACA Young Eagles 70",
@@ -8134,248 +8164,52 @@
         ]
       },
       "watchKey": "fights:Boxing|Joshua Buatsi|Willy Hutchinson 2|2026-11-07"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Fight Night 49: Lucas Gabriel vs Alibeg Rasulov",
-      "eventTag": "One Fight Night 49",
-      "homeTeam": "Lucas Gabriel",
-      "awayTeam": "Alibeg Rasulov",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-07T02:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 07 Nov, 02:00",
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "Sky Sports Mix",
-              "url": null,
-              "logo": null
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "MMA",
-        "slug": "epg-gabriel|rasulov-2026-11-07",
-        "name": "One Fight Night 49: Lucas Gabriel vs Alibeg Rasulov",
-        "dateUTC": "2026-11-07T02:00:00.000Z",
-        "dateOnly": "2026-11-07",
-        "venue": null,
-        "city": null,
-        "mainEventFighters": [
-          "Lucas Gabriel",
-          "Alibeg Rasulov"
-        ],
-        "broadcasts": [
-          "Sky Sports Mix"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "Sky Sports Mix"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Lucas Gabriel|Alibeg Rasulov|2026-11-07"
-    },
-    {
-      "org": "MMA",
-      "eventName": "One Friday Fights 177",
-      "eventTag": "One Friday Fights 177 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Tye Ruotolo",
-      "awayTeam": "Christian Lee",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Chayut Rojanakat v Kentaro Okumura",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-06T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-06",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-Friday-Fights-177-114696",
-        "name": "One Friday Fights 177",
-        "dateUTC": null,
-        "dateOnly": "2026-11-06",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-Friday-Fights-177-114696",
-        "mainEventFighters": [
-          "Tye Ruotolo",
-          "Christian Lee"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Chayut Rojanakat",
-            "b": "Kentaro Okumura"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Tye Ruotolo|Christian Lee|2026-11-06"
-    },
-    {
-      "org": "MMA",
-      "eventName": "LUX 064: Monterrey",
-      "eventTag": "LUX 064 · Showcenter Complex, Monterrey, Nuevo Leon, Mexico",
-      "homeTeam": "Karla Pastrana",
-      "awayTeam": "Flor Hernandez",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Brandon Gonzalez v Cesar Vazquez",
-          "weightClass": null
-        },
-        {
-          "title": "Luis Rey Gallegos v Roberto Villalobos",
-          "weightClass": null
-        },
-        {
-          "title": "Saul Tijerina v Eliel Mota",
-          "weightClass": null
-        },
-        {
-          "title": "Alan Rodriguez v Javier Gil Fernandez",
-          "weightClass": null
-        },
-        {
-          "title": "Alejandro Corrales v Beto Barra",
-          "weightClass": null
-        },
-        {
-          "title": "Jorge Olea v Kenneth Zamarripa",
-          "weightClass": null
-        },
-        {
-          "title": "Osvaldo Gonzalez Lozano v Gabriel Tovar",
-          "weightClass": null
-        },
-        {
-          "title": "Jade Moctezuma v Danna Cortes",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-06T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-06",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-LUX-064-Monterrey-114284",
-        "name": "LUX 064: Monterrey",
-        "dateUTC": null,
-        "dateOnly": "2026-11-06",
-        "venue": "Showcenter Complex",
-        "city": "Monterrey, Nuevo Leon, Mexico",
-        "href": "/events/LUX-064-Monterrey-114284",
-        "mainEventFighters": [
-          "Karla Pastrana",
-          "Flor Hernandez"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Brandon Gonzalez",
-            "b": "Cesar Vazquez"
-          },
-          {
-            "a": "Luis Rey Gallegos",
-            "b": "Roberto Villalobos"
-          },
-          {
-            "a": "Saul Tijerina",
-            "b": "Eliel Mota"
-          },
-          {
-            "a": "Alan Rodriguez",
-            "b": "Javier Gil Fernandez"
-          },
-          {
-            "a": "Alejandro Corrales",
-            "b": "Beto Barra"
-          },
-          {
-            "a": "Jorge Olea",
-            "b": "Kenneth Zamarripa"
-          },
-          {
-            "a": "Osvaldo Gonzalez Lozano",
-            "b": "Gabriel Tovar"
-          },
-          {
-            "a": "Jade Moctezuma",
-            "b": "Danna Cortes"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Karla Pastrana|Flor Hernandez|2026-11-06"
     }
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-20T04:00:00.000Z",
-      "endsAtUTC": "2026-11-20T07:00:00.000Z",
-      "timeUK": "Fri 20 Nov, 04:00",
+      "airTimeUTC": "2026-11-21T18:00:00.000Z",
+      "endsAtUTC": "2026-11-21T22:00:00.000Z",
+      "timeUK": "Sat 21 Nov, 18:00",
       "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
+        "name": "TNT Sports 1",
+        "logo": "/logos/channels/tntsports.co.uk.png"
       },
-      "market": "Canada",
-      "label": "Weir v Cohoon",
-      "sublabel": "BKFC 96 Glasgow: Weir vs. Cohoon"
+      "market": "UK",
+      "label": "Jiri Prochazka v Navajo Stirling",
+      "sublabel": "UFC"
     },
     {
-      "airTimeUTC": "2026-11-20T08:00:00.000Z",
-      "endsAtUTC": "2026-11-20T09:00:00.000Z",
-      "timeUK": "Fri 20 Nov, 08:00",
+      "airTimeUTC": "2026-11-22T21:00:00.000Z",
+      "endsAtUTC": "2026-11-23T01:00:00.000Z",
+      "timeUK": "Sun 22 Nov, 21:00",
       "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
       },
-      "market": "United States",
-      "label": "Volkanovski v Holloway 3",
-      "sublabel": "UFC Main Events"
+      "market": "UK",
+      "watchKey": "fights:UFC|Jiří Procházka|Navajo Stirling|2026-11-21",
+      "label": "UFC Fight Night: Procházka vs. Stirling",
+      "logos": [
+        "/logos/orgs/ufc.png"
+      ],
+      "sublabel": "UFC · Sat 21 Nov, 15:00"
     },
     {
-      "airTimeUTC": "2026-11-21T07:30:00.000Z",
-      "endsAtUTC": "2026-11-21T10:30:00.000Z",
-      "timeUK": "Sat 21 Nov, 07:30",
+      "airTimeUTC": "2026-11-23T21:30:00.000Z",
+      "endsAtUTC": "2026-11-24T01:30:00.000Z",
+      "timeUK": "Mon 23 Nov, 21:30",
       "channel": {
-        "name": "CBS Sports Network",
-        "logo": "/logos/channels/cbssports.com.png"
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
       },
-      "market": "United States",
-      "label": "UFC 207: Nunes v Rousey",
-      "sublabel": "UFC Reloaded"
+      "market": "UK",
+      "watchKey": "fights:UFC|Jiří Procházka|Navajo Stirling|2026-11-21",
+      "label": "UFC Fight Night: Procházka vs. Stirling",
+      "logos": [
+        "/logos/orgs/ufc.png"
+      ],
+      "sublabel": "UFC · Sat 21 Nov, 15:00"
     },
     {
       "airTimeUTC": "2026-11-24T03:00:00.000Z",
@@ -8390,18 +8224,6 @@
       "sublabel": "UFC Reloaded"
     },
     {
-      "airTimeUTC": "2026-11-24T04:45:00.000Z",
-      "endsAtUTC": "2026-11-24T08:45:00.000Z",
-      "timeUK": "Tue 24 Nov, 04:45",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "label": "Cub Swanson v Choi Doo-ho at UFC 206",
-      "sublabel": "UFC Greatest Fights"
-    },
-    {
       "airTimeUTC": "2026-11-25T02:30:00.000Z",
       "endsAtUTC": "2026-11-25T06:30:00.000Z",
       "timeUK": "Wed 25 Nov, 02:30",
@@ -8412,6 +8234,22 @@
       "market": "UK",
       "label": "Antonio Silva v Andrei Arlovski",
       "sublabel": "UFC Reloaded"
+    },
+    {
+      "airTimeUTC": "2026-11-26T01:00:00.000Z",
+      "endsAtUTC": "2026-11-26T05:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 01:00",
+      "channel": {
+        "name": "TNT Sports 2",
+        "logo": "/logos/channels/tntsports.co.uk.png"
+      },
+      "market": "UK",
+      "watchKey": "fights:UFC|Jiří Procházka|Navajo Stirling|2026-11-21",
+      "label": "UFC Fight Night: Procházka vs. Stirling",
+      "logos": [
+        "/logos/orgs/ufc.png"
+      ],
+      "sublabel": "UFC · Sat 21 Nov, 15:00"
     }
   ]
 }
