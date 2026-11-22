@@ -1,5 +1,25 @@
 [
   {
+    "timestamp": "2026-11-22T18:41:59.673Z",
+    "totalEvents": 19,
+    "added": [
+      "Palmeiras vs Estudiantes de La Plata (CONMEBOL Libertadores) — Sat 28 Nov, 17:00",
+      "Corinthians vs Grêmio (Campeonato Brasileiro Série A) — Sun 29 Nov, 15:30"
+    ],
+    "removed": [
+      "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30",
+      "Argentinos Juniors vs Independiente (Liga Profesional de Fútbol) — Sat 21 Nov, 17:00",
+      "Bahía vs Coritiba (Campeonato Brasileiro Série A) — Sat 21 Nov, 17:30",
+      "Atlético Mineiro vs Boca Juniors (CONMEBOL Sudamericana) — Sat 21 Nov, 19:30",
+      "Pachuca vs Toluca (Liga MX) — Sat 21 Nov, 16:50",
+      "Santos Laguna vs Club León (Liga MX) — Sat 21 Nov, 17:00",
+      "Chapecoense vs Cruzeiro (Campeonato Brasileiro Série A) — Sat 21 Nov, 21:00",
+      "Pumas UNAM vs Monterrey (Liga MX) — Sat 21 Nov, 19:00",
+      "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00"
+    ],
+    "channelsChanged": []
+  },
+  {
     "timestamp": "2026-11-21T18:16:02.937Z",
     "totalEvents": 26,
     "added": [
@@ -90,12 +110,5 @@
       "River Plate vs Lanús (Liga Profesional de Fútbol) — Sun 22 Nov, 19:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
       "Gimnasia y Esgrima La Plata vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 23 Nov, 17:00: [Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
     ]
-  },
-  {
-    "timestamp": "2026-11-17T20:04:00.128Z",
-    "totalEvents": 25,
-    "added": [],
-    "removed": [],
-    "channelsChanged": []
   }
 ]

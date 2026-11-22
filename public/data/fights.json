@@ -1,226 +1,12 @@
 {
-  "generatedAt": "2026-11-21T18:17:30.034Z",
+  "generatedAt": "2026-11-22T18:43:16.079Z",
   "upcoming": [
-    {
-      "org": "MMA",
-      "eventName": "Oktagon 98: Legierski vs. Buchinger",
-      "eventTag": "Oktagon 98 · Werk Arena, Třinec, Czech Republic",
-      "homeTeam": "Legierski",
-      "awayTeam": "Buchinger",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Jakub Batfalsky v Ayton De Paepe",
-          "weightClass": null
-        },
-        {
-          "title": "Veronika Smolkova v Ivana Petrovic",
-          "weightClass": null
-        },
-        {
-          "title": "Tomasz Mudroch v Jason Ponet",
-          "weightClass": null
-        },
-        {
-          "title": "David Hosek v Mateusz Janur",
-          "weightClass": null
-        },
-        {
-          "title": "Ondrej Raska v Ahmet Rasim Pala",
-          "weightClass": null
-        },
-        {
-          "title": "Dawid Smielowski v Arbi Mezhidov",
-          "weightClass": null
-        },
-        {
-          "title": "Patrik Sebek v Adrian Hamerski",
-          "weightClass": null
-        },
-        {
-          "title": "James Hendin v Sayed Murtaza Sadat",
-          "weightClass": null
-        },
-        {
-          "title": "Marta Sos v Michaela Hlavacikova",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-21T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-21",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Oktagon-MMA-Oktagon-98-Legierski-vs-Buchinger-114298",
-        "name": "Oktagon 98: Legierski vs. Buchinger",
-        "dateUTC": null,
-        "dateOnly": "2026-11-21",
-        "venue": "Werk Arena",
-        "city": "Třinec, Czech Republic",
-        "href": "/events/Oktagon-MMA-Oktagon-98-Legierski-vs-Buchinger-114298",
-        "mainEventFighters": [
-          "Legierski",
-          "Buchinger"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Jakub Batfalsky",
-            "b": "Ayton De Paepe"
-          },
-          {
-            "a": "Veronika Smolkova",
-            "b": "Ivana Petrovic"
-          },
-          {
-            "a": "Tomasz Mudroch",
-            "b": "Jason Ponet"
-          },
-          {
-            "a": "David Hosek",
-            "b": "Mateusz Janur"
-          },
-          {
-            "a": "Ondrej Raska",
-            "b": "Ahmet Rasim Pala"
-          },
-          {
-            "a": "Dawid Smielowski",
-            "b": "Arbi Mezhidov"
-          },
-          {
-            "a": "Patrik Sebek",
-            "b": "Adrian Hamerski"
-          },
-          {
-            "a": "James Hendin",
-            "b": "Sayed Murtaza Sadat"
-          },
-          {
-            "a": "Marta Sos",
-            "b": "Michaela Hlavacikova"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Legierski|Buchinger|2026-11-21"
-    },
-    {
-      "org": "MMA",
-      "eventName": "KSW 123: Mircea vs. Held",
-      "eventTag": "KSW 123 · Netto Arena, Szczecin, Poland",
-      "homeTeam": "Mircea",
-      "awayTeam": "Held",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Marian Ziolkowski v Roman Szymanski",
-          "weightClass": null
-        },
-        {
-          "title": "Madars Bertholds-Fleminas v Mateusz Pawlik",
-          "weightClass": null
-        },
-        {
-          "title": "Kamil Szkaradek v Rogerio Bontorin",
-          "weightClass": null
-        },
-        {
-          "title": "Wojciech Kawa v Oleksandr Moisa",
-          "weightClass": null
-        },
-        {
-          "title": "Artur Szczepaniak v Arbi Dzhambulatov",
-          "weightClass": null
-        },
-        {
-          "title": "Przemyslaw Gorny v Dominik Dyminski",
-          "weightClass": null
-        },
-        {
-          "title": "Maciej Kazieczko v Bohdan Danylko",
-          "weightClass": null
-        },
-        {
-          "title": "Alain Van De Merckt v Szymon Herrmann",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-21T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-21",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-KSW-123-Mircea-vs-Held-114428",
-        "name": "KSW 123: Mircea vs. Held",
-        "dateUTC": null,
-        "dateOnly": "2026-11-21",
-        "venue": "Netto Arena",
-        "city": "Szczecin, Poland",
-        "href": "/events/KSW-123-Mircea-vs-Held-114428",
-        "mainEventFighters": [
-          "Mircea",
-          "Held"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Marian Ziolkowski",
-            "b": "Roman Szymanski"
-          },
-          {
-            "a": "Madars Bertholds-Fleminas",
-            "b": "Mateusz Pawlik"
-          },
-          {
-            "a": "Kamil Szkaradek",
-            "b": "Rogerio Bontorin"
-          },
-          {
-            "a": "Wojciech Kawa",
-            "b": "Oleksandr Moisa"
-          },
-          {
-            "a": "Artur Szczepaniak",
-            "b": "Arbi Dzhambulatov"
-          },
-          {
-            "a": "Przemyslaw Gorny",
-            "b": "Dominik Dyminski"
-          },
-          {
-            "a": "Maciej Kazieczko",
-            "b": "Bohdan Danylko"
-          },
-          {
-            "a": "Alain Van De Merckt",
-            "b": "Szymon Herrmann"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Mircea|Held|2026-11-21"
-    },
     {
       "org": "MMA",
       "eventName": "Deep: 134 Impact",
       "eventTag": "Deep · New Pier Hall, Minato, Tokyo, Japan",
-      "homeTeam": "Jin Aoi",
-      "awayTeam": "Shunki Mitsui",
+      "homeTeam": "Shunki Mitsui",
+      "awayTeam": "Jin Aoi",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -232,7 +18,7 @@
           "weightClass": null
         },
         {
-          "title": "Rikuto Shirakawa v Kenta Takizawa",
+          "title": "Kenta Takizawa v Rikuto Shirakawa",
           "weightClass": null
         },
         {
@@ -248,7 +34,7 @@
           "weightClass": null
         },
         {
-          "title": "Ryuki Asahina v Koki Akada",
+          "title": "Koki Akada v Ryuki Asahina",
           "weightClass": null
         },
         {
@@ -260,7 +46,7 @@
           "weightClass": null
         },
         {
-          "title": "Koshiro Takemi v Shoei Sato",
+          "title": "Shoei Sato v Koshiro Takemi",
           "weightClass": null
         },
         {
@@ -285,8 +71,8 @@
         "city": "Minato, Tokyo, Japan",
         "href": "/events/Deep-134-Impact-114513",
         "mainEventFighters": [
-          "Jin Aoi",
-          "Shunki Mitsui"
+          "Shunki Mitsui",
+          "Jin Aoi"
         ],
         "broadcasts": [],
         "bouts": [
@@ -295,8 +81,8 @@
             "b": "Kohei Kadono"
           },
           {
-            "a": "Rikuto Shirakawa",
-            "b": "Kenta Takizawa"
+            "a": "Kenta Takizawa",
+            "b": "Rikuto Shirakawa"
           },
           {
             "a": "Takeshi Izumi",
@@ -311,8 +97,8 @@
             "b": "Yasuhiro Kawamura"
           },
           {
-            "a": "Ryuki Asahina",
-            "b": "Koki Akada"
+            "a": "Koki Akada",
+            "b": "Ryuki Asahina"
           },
           {
             "a": "Yuushi Akimoto",
@@ -323,8 +109,8 @@
             "b": "Rizumu Hashimoto"
           },
           {
-            "a": "Koshiro Takemi",
-            "b": "Shoei Sato"
+            "a": "Shoei Sato",
+            "b": "Koshiro Takemi"
           },
           {
             "a": "Toa Kikuchi",
@@ -332,7 +118,7 @@
           }
         ]
       },
-      "watchKey": "fights:MMA|Jin Aoi|Shunki Mitsui|2026-11-22"
+      "watchKey": "fights:MMA|Shunki Mitsui|Jin Aoi|2026-11-22"
     },
     {
       "org": "MMA",
@@ -1230,7 +1016,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Adesanya vs Magomedov",
-      "eventTag": "UFC Fight Night · ANB Arena, Riyadh · 12-fight card · main card Sat 05 Dec, 18:00 UK",
+      "eventTag": "UFC Fight Night · ANB Arena, Riyadh · 13-fight card · main card Sat 05 Dec, 18:00 UK",
       "homeTeam": "Israel Adesanya",
       "awayTeam": "Shara Magomedov",
       "cardTitle": null,
@@ -1239,6 +1025,10 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Levan Chokheli v Islam Dulatov",
+          "weightClass": "Welterweight"
+        },
         {
           "title": "Abdul Hussein v Hecher Sosa",
           "weightClass": "Bantamweight"
@@ -1272,8 +1062,8 @@
           "weightClass": "Lightweight"
         },
         {
-          "title": "Levan Chokheli v Islam Dulatov",
-          "weightClass": "Welterweight"
+          "title": "Gabriel Santos v Luke Riley",
+          "weightClass": "Featherweight"
         },
         {
           "title": "Serghei Spivac v Mario Pinto",
@@ -1331,6 +1121,11 @@
         ],
         "bouts": [
           {
+            "a": "Levan Chokheli",
+            "b": "Islam Dulatov",
+            "weightClass": "Welterweight"
+          },
+          {
             "a": "Abdul Hussein",
             "b": "Hecher Sosa",
             "weightClass": "Bantamweight"
@@ -1371,9 +1166,9 @@
             "weightClass": "Lightweight"
           },
           {
-            "a": "Levan Chokheli",
-            "b": "Islam Dulatov",
-            "weightClass": "Welterweight"
+            "a": "Gabriel Santos",
+            "b": "Luke Riley",
+            "weightClass": "Featherweight"
           },
           {
             "a": "Serghei Spivac",
@@ -1392,7 +1187,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 12,
+        "boutCount": 13,
         "broadcasts": [
           "Paramount+"
         ]
@@ -4310,7 +4105,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 336: Van vs. Kape",
-      "eventTag": "UFC 336 · Scotiabank Arena, Toronto · 5-fight card · main card Sun 31 Jan, 02:00 UK",
+      "eventTag": "UFC 336 · Scotiabank Arena, Toronto · 6-fight card · main card Sun 31 Jan, 02:00 UK",
       "homeTeam": "Manel Kape",
       "awayTeam": "Joshua Van",
       "cardTitle": null,
@@ -4319,6 +4114,10 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Marc-Andre Barriault v Tresean Gore",
+          "weightClass": "Middleweight"
+        },
         {
           "title": "Sean Clancy Jr. v Cam Nelson",
           "weightClass": "Welterweight"
@@ -4383,6 +4182,11 @@
         ],
         "bouts": [
           {
+            "a": "Marc-Andre Barriault",
+            "b": "Tresean Gore",
+            "weightClass": "Middleweight"
+          },
+          {
             "a": "Sean Clancy Jr.",
             "b": "Cam Nelson",
             "weightClass": "Welterweight"
@@ -4409,7 +4213,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 5,
+        "boutCount": 6,
         "broadcasts": [
           "Paramount+"
         ]
@@ -4645,6 +4449,315 @@
     }
   ],
   "recent": [
+    {
+      "org": "MMA",
+      "eventName": "KSW 123: Mircea vs. Held",
+      "eventTag": "KSW 123 · Netto Arena, Szczecin, Poland",
+      "homeTeam": "Mircea",
+      "awayTeam": "Held",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Marian Ziolkowski v Roman Szymanski",
+          "weightClass": null
+        },
+        {
+          "title": "Madars Bertholds-Fleminas v Mateusz Pawlik",
+          "weightClass": null
+        },
+        {
+          "title": "Kamil Szkaradek v Rogerio Bontorin",
+          "weightClass": null
+        },
+        {
+          "title": "Oleksandr Moisa v Wojciech Kawa",
+          "weightClass": null
+        },
+        {
+          "title": "Oskar Szczepaniak v Arbi Dzhambulatov",
+          "weightClass": null
+        },
+        {
+          "title": "Dominik Dyminski v Przemyslaw Gorny",
+          "weightClass": null
+        },
+        {
+          "title": "Maciej Kazieczko v Bohdan Danylko",
+          "weightClass": null
+        },
+        {
+          "title": "Alain Van De Merckt v Szymon Herrmann",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-21T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-21",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-KSW-123-Mircea-vs-Held-114428",
+        "name": "KSW 123: Mircea vs. Held",
+        "dateUTC": null,
+        "dateOnly": "2026-11-21",
+        "venue": "Netto Arena",
+        "city": "Szczecin, Poland",
+        "href": "/events/KSW-123-Mircea-vs-Held-114428",
+        "mainEventFighters": [
+          "Mircea",
+          "Held"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Marian Ziolkowski",
+            "b": "Roman Szymanski"
+          },
+          {
+            "a": "Madars Bertholds-Fleminas",
+            "b": "Mateusz Pawlik"
+          },
+          {
+            "a": "Kamil Szkaradek",
+            "b": "Rogerio Bontorin"
+          },
+          {
+            "a": "Oleksandr Moisa",
+            "b": "Wojciech Kawa"
+          },
+          {
+            "a": "Oskar Szczepaniak",
+            "b": "Arbi Dzhambulatov"
+          },
+          {
+            "a": "Dominik Dyminski",
+            "b": "Przemyslaw Gorny"
+          },
+          {
+            "a": "Maciej Kazieczko",
+            "b": "Bohdan Danylko"
+          },
+          {
+            "a": "Alain Van De Merckt",
+            "b": "Szymon Herrmann"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Mircea|Held|2026-11-21"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Oktagon 98: Batfalsky vs. De Paepe",
+      "eventTag": "Oktagon 98 · Werk Arena, Třinec, Czech Republic",
+      "homeTeam": "Batfalsky",
+      "awayTeam": "De Paepe",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Veronika Smolkova v Ivana Petrovic",
+          "weightClass": null
+        },
+        {
+          "title": "Tomasz Mudroch v Jason Ponet",
+          "weightClass": null
+        },
+        {
+          "title": "Mateusz Janur v David Hosek",
+          "weightClass": null
+        },
+        {
+          "title": "Ondrej Raska v Ahmet Rasim Pala",
+          "weightClass": null
+        },
+        {
+          "title": "Patrik Sebek v Adrian Hamerski",
+          "weightClass": null
+        },
+        {
+          "title": "James Hendin v Sayed Murtaza Sadat",
+          "weightClass": null
+        },
+        {
+          "title": "Marta Sos v Michaela Hlavacikova",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-21T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-21",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Oktagon-MMA-Oktagon-98-Batfalsky-vs-De-Paepe-114298",
+        "name": "Oktagon 98: Batfalsky vs. De Paepe",
+        "dateUTC": null,
+        "dateOnly": "2026-11-21",
+        "venue": "Werk Arena",
+        "city": "Třinec, Czech Republic",
+        "href": "/events/Oktagon-MMA-Oktagon-98-Batfalsky-vs-De-Paepe-114298",
+        "mainEventFighters": [
+          "Batfalsky",
+          "De Paepe"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Veronika Smolkova",
+            "b": "Ivana Petrovic"
+          },
+          {
+            "a": "Tomasz Mudroch",
+            "b": "Jason Ponet"
+          },
+          {
+            "a": "Mateusz Janur",
+            "b": "David Hosek"
+          },
+          {
+            "a": "Ondrej Raska",
+            "b": "Ahmet Rasim Pala"
+          },
+          {
+            "a": "Patrik Sebek",
+            "b": "Adrian Hamerski"
+          },
+          {
+            "a": "James Hendin",
+            "b": "Sayed Murtaza Sadat"
+          },
+          {
+            "a": "Marta Sos",
+            "b": "Michaela Hlavacikova"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Batfalsky|De Paepe|2026-11-21"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Oktagon 98: Legierski vs. Buchinger",
+      "eventTag": "Oktagon 98 · Werk Arena, Třinec, Czech Republic",
+      "homeTeam": "Legierski",
+      "awayTeam": "Buchinger",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Jakub Batfalsky v Ayton De Paepe",
+          "weightClass": null
+        },
+        {
+          "title": "Veronika Smolkova v Ivana Petrovic",
+          "weightClass": null
+        },
+        {
+          "title": "Tomasz Mudroch v Jason Ponet",
+          "weightClass": null
+        },
+        {
+          "title": "David Hosek v Mateusz Janur",
+          "weightClass": null
+        },
+        {
+          "title": "Ondrej Raska v Ahmet Rasim Pala",
+          "weightClass": null
+        },
+        {
+          "title": "Dawid Smielowski v Arbi Mezhidov",
+          "weightClass": null
+        },
+        {
+          "title": "Patrik Sebek v Adrian Hamerski",
+          "weightClass": null
+        },
+        {
+          "title": "James Hendin v Sayed Murtaza Sadat",
+          "weightClass": null
+        },
+        {
+          "title": "Marta Sos v Michaela Hlavacikova",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-21T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-21",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Oktagon-MMA-Oktagon-98-Legierski-vs-Buchinger-114298",
+        "name": "Oktagon 98: Legierski vs. Buchinger",
+        "dateUTC": null,
+        "dateOnly": "2026-11-21",
+        "venue": "Werk Arena",
+        "city": "Třinec, Czech Republic",
+        "href": "/events/Oktagon-MMA-Oktagon-98-Legierski-vs-Buchinger-114298",
+        "mainEventFighters": [
+          "Legierski",
+          "Buchinger"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Jakub Batfalsky",
+            "b": "Ayton De Paepe"
+          },
+          {
+            "a": "Veronika Smolkova",
+            "b": "Ivana Petrovic"
+          },
+          {
+            "a": "Tomasz Mudroch",
+            "b": "Jason Ponet"
+          },
+          {
+            "a": "David Hosek",
+            "b": "Mateusz Janur"
+          },
+          {
+            "a": "Ondrej Raska",
+            "b": "Ahmet Rasim Pala"
+          },
+          {
+            "a": "Dawid Smielowski",
+            "b": "Arbi Mezhidov"
+          },
+          {
+            "a": "Patrik Sebek",
+            "b": "Adrian Hamerski"
+          },
+          {
+            "a": "James Hendin",
+            "b": "Sayed Murtaza Sadat"
+          },
+          {
+            "a": "Marta Sos",
+            "b": "Michaela Hlavacikova"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Legierski|Buchinger|2026-11-21"
+    },
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Procházka vs. Stirling",
@@ -7233,952 +7346,9 @@
         ]
       },
       "watchKey": "fights:MMA|Teixeira|Carvalho|2026-11-08"
-    },
-    {
-      "org": "MMA",
-      "eventName": "CFFC: NextGen 5",
-      "eventTag": "CFFC · Hard Rock Hotel & Casino, Atlantic City, New Jersey, United States",
-      "homeTeam": "Michael O'Brien",
-      "awayTeam": "Trig Tennant",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Berea Clark v Katelyn Ramos",
-          "weightClass": null
-        },
-        {
-          "title": "Liam O'Toole v Diego Espinoza",
-          "weightClass": null
-        },
-        {
-          "title": "Ahmed Carmino v Joseph Lepore",
-          "weightClass": null
-        },
-        {
-          "title": "Robert Scopelliti v David Fardzinov",
-          "weightClass": null
-        },
-        {
-          "title": "Nikoloz Tsintsadze v David Crow",
-          "weightClass": null
-        },
-        {
-          "title": "Isaac Pantano v Kelvin Cruz",
-          "weightClass": null
-        },
-        {
-          "title": "Matt Diaz v Sean Casey",
-          "weightClass": null
-        },
-        {
-          "title": "Maxudali Lutfaliev v Luis Pena",
-          "weightClass": null
-        },
-        {
-          "title": "Jordy Ventura v Jason Loi",
-          "weightClass": null
-        },
-        {
-          "title": "Nikolozi Bareladze v Shawn Young",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-07T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-CFFC-NextGen-5-115201",
-        "name": "CFFC: NextGen 5",
-        "dateUTC": null,
-        "dateOnly": "2026-11-07",
-        "venue": "Hard Rock Hotel & Casino",
-        "city": "Atlantic City, New Jersey, United States",
-        "href": "/events/CFFC-NextGen-5-115201",
-        "mainEventFighters": [
-          "Michael O'Brien",
-          "Trig Tennant"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Berea Clark",
-            "b": "Katelyn Ramos"
-          },
-          {
-            "a": "Liam O'Toole",
-            "b": "Diego Espinoza"
-          },
-          {
-            "a": "Ahmed Carmino",
-            "b": "Joseph Lepore"
-          },
-          {
-            "a": "Robert Scopelliti",
-            "b": "David Fardzinov"
-          },
-          {
-            "a": "Nikoloz Tsintsadze",
-            "b": "David Crow"
-          },
-          {
-            "a": "Isaac Pantano",
-            "b": "Kelvin Cruz"
-          },
-          {
-            "a": "Matt Diaz",
-            "b": "Sean Casey"
-          },
-          {
-            "a": "Maxudali Lutfaliev",
-            "b": "Luis Pena"
-          },
-          {
-            "a": "Jordy Ventura",
-            "b": "Jason Loi"
-          },
-          {
-            "a": "Nikolozi Bareladze",
-            "b": "Shawn Young"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Michael O'Brien|Trig Tennant|2026-11-07"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Shooto Germany: German Open 2026",
-      "eventTag": "Shooto Germany · Aschaffenburg, Germany",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "Shooto Germany: German Open 2026",
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-07T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Shooto-Germany-German-Open-2026-115113",
-        "name": "Shooto Germany: German Open 2026",
-        "dateUTC": null,
-        "dateOnly": "2026-11-07",
-        "venue": "Aschaffenburg",
-        "city": "Germany",
-        "href": "/events/Shooto-Germany-German-Open-2026-115113",
-        "mainEventFighters": [],
-        "broadcasts": [],
-        "bouts": []
-      },
-      "watchKey": "fights:MMA|null|null|2026-11-07"
-    },
-    {
-      "org": "MMA",
-      "eventName": "RCC: Intro 40",
-      "eventTag": "RCC · RMK Martial Arts Academy, Yekaterinburg, Russia",
-      "homeTeam": "Temirkhan Temirkhanov",
-      "awayTeam": "Raimundo Batista",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Ivan Podrugin v Gadzhi Omargadzhiev",
-          "weightClass": null
-        },
-        {
-          "title": "Ivan Bondarchuk v Reinaldo Ekson",
-          "weightClass": null
-        },
-        {
-          "title": "Alexander Vasiliev v Elder Allan Amorim",
-          "weightClass": null
-        },
-        {
-          "title": "Chingiz Minyazev v Jefferson Goncalves",
-          "weightClass": null
-        },
-        {
-          "title": "Maksim Fuks v Edgar Sargsyan",
-          "weightClass": null
-        },
-        {
-          "title": "Mikhail Kashurnikov v Pedram Mohammad Azimi",
-          "weightClass": null
-        },
-        {
-          "title": "Viktor Borisov v Bogdan Avetyan",
-          "weightClass": null
-        },
-        {
-          "title": "Artem Schupov v Nikita Chernyavskiy",
-          "weightClass": null
-        },
-        {
-          "title": "Dzhafar Nuraliev v Egor Borgoyakov",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-07T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-RCC-Intro-40-114962",
-        "name": "RCC: Intro 40",
-        "dateUTC": null,
-        "dateOnly": "2026-11-07",
-        "venue": "RMK Martial Arts Academy",
-        "city": "Yekaterinburg, Russia",
-        "href": "/events/RCC-Intro-40-114962",
-        "mainEventFighters": [
-          "Temirkhan Temirkhanov",
-          "Raimundo Batista"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Ivan Podrugin",
-            "b": "Gadzhi Omargadzhiev"
-          },
-          {
-            "a": "Ivan Bondarchuk",
-            "b": "Reinaldo Ekson"
-          },
-          {
-            "a": "Alexander Vasiliev",
-            "b": "Elder Allan Amorim"
-          },
-          {
-            "a": "Chingiz Minyazev",
-            "b": "Jefferson Goncalves"
-          },
-          {
-            "a": "Maksim Fuks",
-            "b": "Edgar Sargsyan"
-          },
-          {
-            "a": "Mikhail Kashurnikov",
-            "b": "Pedram Mohammad Azimi"
-          },
-          {
-            "a": "Viktor Borisov",
-            "b": "Bogdan Avetyan"
-          },
-          {
-            "a": "Artem Schupov",
-            "b": "Nikita Chernyavskiy"
-          },
-          {
-            "a": "Dzhafar Nuraliev",
-            "b": "Egor Borgoyakov"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Temirkhan Temirkhanov|Raimundo Batista|2026-11-07"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Oktagon 97: Severino vs. Holzer",
-      "eventTag": "Oktagon 97 · ZAG Arena, Hannover, Germany",
-      "homeTeam": "Severino",
-      "awayTeam": "Holzer",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Gjoni Palokaj v Zafar Mohsen",
-          "weightClass": null
-        },
-        {
-          "title": "Ozan Aslaner v Denis Frimpong",
-          "weightClass": null
-        },
-        {
-          "title": "Justin Detzel v Kacper Fratczak",
-          "weightClass": null
-        },
-        {
-          "title": "Karol Rysavy v Samuel Bark",
-          "weightClass": null
-        },
-        {
-          "title": "Petr Bartonek v Daniel Makin",
-          "weightClass": null
-        },
-        {
-          "title": "Haci Akseker v Jonatan Kujawa",
-          "weightClass": null
-        },
-        {
-          "title": "Jan Holzer v Jan Svagerko",
-          "weightClass": null
-        },
-        {
-          "title": "Islam Djabrailov v Kenji Bortoluzzi",
-          "weightClass": null
-        },
-        {
-          "title": "Josefine Lindgren Knutsson v Yasmin Guimaraes",
-          "weightClass": null
-        },
-        {
-          "title": "Matheus Severino v Mohammed Walid",
-          "weightClass": null
-        },
-        {
-          "title": "Kathrin Haberle v Poliana Albuquerque",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-07T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Oktagon-MMA-Oktagon-97-Severino-vs-Holzer-113641",
-        "name": "Oktagon 97: Severino vs. Holzer",
-        "dateUTC": null,
-        "dateOnly": "2026-11-07",
-        "venue": "ZAG Arena",
-        "city": "Hannover, Germany",
-        "href": "/events/Oktagon-MMA-Oktagon-97-Severino-vs-Holzer-113641",
-        "mainEventFighters": [
-          "Severino",
-          "Holzer"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Gjoni Palokaj",
-            "b": "Zafar Mohsen"
-          },
-          {
-            "a": "Ozan Aslaner",
-            "b": "Denis Frimpong"
-          },
-          {
-            "a": "Justin Detzel",
-            "b": "Kacper Fratczak"
-          },
-          {
-            "a": "Karol Rysavy",
-            "b": "Samuel Bark"
-          },
-          {
-            "a": "Petr Bartonek",
-            "b": "Daniel Makin"
-          },
-          {
-            "a": "Haci Akseker",
-            "b": "Jonatan Kujawa"
-          },
-          {
-            "a": "Jan Holzer",
-            "b": "Jan Svagerko"
-          },
-          {
-            "a": "Islam Djabrailov",
-            "b": "Kenji Bortoluzzi"
-          },
-          {
-            "a": "Josefine Lindgren Knutsson",
-            "b": "Yasmin Guimaraes"
-          },
-          {
-            "a": "Matheus Severino",
-            "b": "Mohammed Walid"
-          },
-          {
-            "a": "Kathrin Haberle",
-            "b": "Poliana Albuquerque"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Severino|Holzer|2026-11-07"
-    },
-    {
-      "org": "UFC",
-      "eventName": "UFC Fight Night: Cortes Acosta vs. Walker",
-      "eventTag": "UFC Fight Night · Meta APEX, Las Vegas · 14-fight card · main card Sun 08 Nov, 01:00 UK",
-      "homeTeam": "Johnny Walker",
-      "awayTeam": "Waldo Cortes Acosta",
-      "cardTitle": null,
-      "homeLogo": "/logos/flags/bra.png",
-      "awayLogo": "/logos/flags/dom.png",
-      "orgName": "UFC",
-      "orgLogo": "/logos/orgs/ufc.png",
-      "undercard": [
-        {
-          "title": "Jonny Parsons v José Souza",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Wellington Turman v Seokhyeon Ko",
-          "weightClass": "Welterweight"
-        },
-        {
-          "title": "Andre Petroski v Mantas Kondratavičius",
-          "weightClass": "Middleweight"
-        },
-        {
-          "title": "Austin Bashi v Carlos Calderon",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Jose Delano v Murtazali Magomedov",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Karine Silva v Gabriella Fernandes",
-          "weightClass": "W Flyweight"
-        },
-        {
-          "title": "Thomas Petersen v Gabriel Lorenço",
-          "weightClass": "Heavyweight"
-        },
-        {
-          "title": "Keiichiro Nakamura v Ollie Schmid",
-          "weightClass": "Featherweight"
-        },
-        {
-          "title": "Mitch Raposo v Marcos Degli",
-          "weightClass": "Flyweight"
-        },
-        {
-          "title": "Priscila Cachoeira v Nina Milošević",
-          "weightClass": "W Bantamweight"
-        },
-        {
-          "title": "Billy Elekana v Lucas Fernando",
-          "weightClass": "Light Heavyweight"
-        },
-        {
-          "title": "Davey Grant v Elijah Smith",
-          "weightClass": "Bantamweight"
-        },
-        {
-          "title": "Tatiana Suarez v Virna Jandiroba",
-          "weightClass": "W Strawweight"
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-07T22:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 07 Nov, 22:00",
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "US",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        },
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports",
-              "url": "https://www.tntsports.co.uk/boxing/",
-              "logo": "/logos/channels/tntsports.co.uk.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "UFC",
-        "espnId": "600061268",
-        "name": "UFC Fight Night: Cortes Acosta vs. Walker",
-        "dateUTC": "2026-11-07T22:00Z",
-        "mainCardUTC": "2026-11-08T01:00Z",
-        "venue": "Meta APEX",
-        "city": "Las Vegas",
-        "country": "USA",
-        "mainEventFighters": [
-          "Johnny Walker",
-          "Waldo Cortes Acosta"
-        ],
-        "mainEventFlagUrls": [
-          "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-          "https://a.espncdn.com/i/teamlogos/countries/500/dom.png"
-        ],
-        "bouts": [
-          {
-            "a": "Jonny Parsons",
-            "b": "José Souza",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Wellington Turman",
-            "b": "Seokhyeon Ko",
-            "weightClass": "Welterweight"
-          },
-          {
-            "a": "Andre Petroski",
-            "b": "Mantas Kondratavičius",
-            "weightClass": "Middleweight"
-          },
-          {
-            "a": "Austin Bashi",
-            "b": "Carlos Calderon",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Jose Delano",
-            "b": "Murtazali Magomedov",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Karine Silva",
-            "b": "Gabriella Fernandes",
-            "weightClass": "W Flyweight"
-          },
-          {
-            "a": "Thomas Petersen",
-            "b": "Gabriel Lorenço",
-            "weightClass": "Heavyweight"
-          },
-          {
-            "a": "Keiichiro Nakamura",
-            "b": "Ollie Schmid",
-            "weightClass": "Featherweight"
-          },
-          {
-            "a": "Mitch Raposo",
-            "b": "Marcos Degli",
-            "weightClass": "Flyweight"
-          },
-          {
-            "a": "Priscila Cachoeira",
-            "b": "Nina Milošević",
-            "weightClass": "W Bantamweight"
-          },
-          {
-            "a": "Billy Elekana",
-            "b": "Lucas Fernando",
-            "weightClass": "Light Heavyweight"
-          },
-          {
-            "a": "Davey Grant",
-            "b": "Elijah Smith",
-            "weightClass": "Bantamweight"
-          },
-          {
-            "a": "Tatiana Suarez",
-            "b": "Virna Jandiroba",
-            "weightClass": "W Strawweight"
-          },
-          {
-            "a": "Johnny Walker",
-            "b": "Waldo Cortes Acosta",
-            "weightClass": "Heavyweight"
-          }
-        ],
-        "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 14,
-        "broadcasts": [
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:UFC|Johnny Walker|Waldo Cortes Acosta|2026-11-07"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Abraham Perez vs Yankiel Rivera",
-      "eventTag": "Boxing · Albuquerque",
-      "homeTeam": "Abraham Perez",
-      "awayTeam": "Yankiel Rivera",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-07T20:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 07 Nov, 20:00",
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "gbn-abraham-perez-vs-yankiel-rivera-2026-11-07",
-        "name": "Abraham Perez vs Yankiel Rivera",
-        "dateUTC": "2026-11-07T20:00:00.000Z",
-        "dateOnly": "2026-11-07",
-        "venue": null,
-        "city": "Albuquerque",
-        "mainEventFighters": [
-          "Abraham Perez",
-          "Yankiel Rivera"
-        ],
-        "bouts": [],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/abraham-perez-vs-yankiel-rivera-2026-11-07"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/abraham-perez-vs-yankiel-rivera-2026-11-07"
-      },
-      "watchKey": "fights:Boxing|Abraham Perez|Yankiel Rivera|2026-11-07"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Chris Billam-Smith vs Cheavon Clarke",
-      "eventTag": "Boxing · London",
-      "homeTeam": "Chris Billam-Smith",
-      "awayTeam": "Cheavon Clarke",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-07T20:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 07 Nov, 20:00",
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            },
-            {
-              "name": "Sky Sports Main Event",
-              "url": "https://www.skysports.com/",
-              "logo": "/logos/channels/skysports.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "gbn-chris-billam-smith-vs-cheavon-clarke-2026-11-07",
-        "name": "Chris Billam-Smith vs Cheavon Clarke",
-        "dateUTC": "2026-11-07T20:00:00.000Z",
-        "dateOnly": "2026-11-07",
-        "venue": null,
-        "city": "London",
-        "mainEventFighters": [
-          "Chris Billam-Smith",
-          "Cheavon Clarke"
-        ],
-        "bouts": [],
-        "broadcasts": [
-          "Paramount+",
-          "Sky Sports Main Event"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "Paramount+",
-            "url": "https://www.paramountplus.com/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/chris-billam-smith-vs-cheavon-clarke-2026-11-07"
-          },
-          {
-            "market": "UK",
-            "name": "Sky Sports Main Event"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/chris-billam-smith-vs-cheavon-clarke-2026-11-07"
-      },
-      "watchKey": "fights:Boxing|Chris Billam-Smith|Cheavon Clarke|2026-11-07"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Joshua Buatsi vs Willy Hutchinson",
-      "eventTag": "Boxing · Manchester",
-      "homeTeam": "Joshua Buatsi",
-      "awayTeam": "Willy Hutchinson",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-07T20:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 07 Nov, 20:00",
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "gbn-joshua-buatsi-vs-willy-hutchinson-2026-11-07",
-        "name": "Joshua Buatsi vs Willy Hutchinson",
-        "dateUTC": "2026-11-07T20:00:00.000Z",
-        "dateOnly": "2026-11-07",
-        "venue": null,
-        "city": "Manchester",
-        "mainEventFighters": [
-          "Joshua Buatsi",
-          "Willy Hutchinson"
-        ],
-        "bouts": [],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/joshua-buatsi-vs-willy-hutchinson-2026-11-07"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/joshua-buatsi-vs-willy-hutchinson-2026-11-07"
-      },
-      "watchKey": "fights:Boxing|Joshua Buatsi|Willy Hutchinson|2026-11-07"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Denzel Bentley-Shane Mosley Jnr",
-      "eventTag": "Boxing · Copper Box Arena, London, United Kingdom",
-      "homeTeam": "Denzel Bentley",
-      "awayTeam": "Shane Mosley Jnr",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Denzel Bentely v Shane Mosley Jr.",
-          "weightClass": null
-        },
-        {
-          "title": "Zach Parker v Umar Dzambekov",
-          "weightClass": null
-        },
-        {
-          "title": "Chris Billam-Smith v Cheavon Clarke",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/183e898281d9becdd33b.webp",
-        "attribution": "Zuffa Boxing"
-      },
-      "kickoffUTC": "2026-11-07T19:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 07 Nov, 19:00",
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "Listed by source",
-          "channels": [
-            {
-              "name": "Sky Sports",
-              "url": "https://www.skysports.com/",
-              "logo": "/logos/channels/skysports.com.png"
-            },
-            {
-              "name": "Paramount+",
-              "url": "https://www.paramountplus.com/",
-              "logo": "/logos/channels/paramountplus.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "denzel-bentley-shane-mosley-jnr",
-        "name": "Denzel Bentley-Shane Mosley Jnr",
-        "dateUTC": "2026-11-07T19:00:00.000Z",
-        "dateOnly": "2026-11-07",
-        "venue": "Copper Box Arena",
-        "city": "London, United Kingdom",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/denzelbentleyshanemosleyjnrposter.webp",
-        "posterAttribution": "Zuffa Boxing",
-        "mainEventFighters": [
-          "Denzel Bentley",
-          "Shane Mosley Jnr"
-        ],
-        "bouts": [
-          {
-            "a": "Denzel Bentely",
-            "b": "Shane Mosley Jr."
-          },
-          {
-            "a": "Zach Parker",
-            "b": "Umar Dzambekov"
-          },
-          {
-            "a": "Chris Billam-Smith",
-            "b": "Cheavon Clarke"
-          }
-        ],
-        "broadcasts": [
-          "Sky Sports",
-          "Paramount+"
-        ]
-      },
-      "watchKey": "fights:Boxing|Denzel Bentley|Shane Mosley Jnr|2026-11-07"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Joshua Buatsi-Willy Hutchinson 2",
-      "eventTag": "Boxing · Manchester Arena, Manchester, United Kingdom",
-      "homeTeam": "Joshua Buatsi",
-      "awayTeam": "Willy Hutchinson 2",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Joshua Buatsi v Willy Hutchinson",
-          "weightClass": null
-        },
-        {
-          "title": "Jack Rafferty v Hovhannes Martirosyan",
-          "weightClass": null
-        },
-        {
-          "title": "Zak Miller v Gully Powar",
-          "weightClass": null
-        }
-      ],
-      "poster": {
-        "src": "/logos/posters/9f612a42b33e5902bf3a.jpg",
-        "attribution": "DAZN"
-      },
-      "kickoffUTC": "2026-11-07T19:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Sat 07 Nov, 19:00",
-      "localDate": "2026-11-07",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "Listed by source",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "joshua-buatsi-willy-hutchinson-2",
-        "name": "Joshua Buatsi-Willy Hutchinson 2",
-        "dateUTC": "2026-11-07T19:00:00.000Z",
-        "dateOnly": "2026-11-07",
-        "venue": "Manchester Arena",
-        "city": "Manchester, United Kingdom",
-        "posterUrl": "https://photo.boxingscene.com/thumbnails/300x225/JoshuaBuatsiWillyHutchinsonposter.jpg",
-        "posterAttribution": "DAZN",
-        "mainEventFighters": [
-          "Joshua Buatsi",
-          "Willy Hutchinson 2"
-        ],
-        "bouts": [
-          {
-            "a": "Joshua Buatsi",
-            "b": "Willy Hutchinson"
-          },
-          {
-            "a": "Jack Rafferty",
-            "b": "Hovhannes Martirosyan"
-          },
-          {
-            "a": "Zak Miller",
-            "b": "Gully Powar"
-          }
-        ],
-        "broadcasts": [
-          "DAZN"
-        ]
-      },
-      "watchKey": "fights:Boxing|Joshua Buatsi|Willy Hutchinson 2|2026-11-07"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-11-21T18:00:00.000Z",
-      "endsAtUTC": "2026-11-21T22:00:00.000Z",
-      "timeUK": "Sat 21 Nov, 18:00",
-      "channel": {
-        "name": "TNT Sports 1",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "label": "Jiri Prochazka v Navajo Stirling",
-      "sublabel": "UFC"
-    },
     {
       "airTimeUTC": "2026-11-22T21:00:00.000Z",
       "endsAtUTC": "2026-11-23T01:00:00.000Z",
