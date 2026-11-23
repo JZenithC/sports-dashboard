@@ -1,7 +1,35 @@
 {
-  "generatedAt": "2026-11-22T18:43:16.079Z",
+  "generatedAt": "2026-11-23T23:00:06.452Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-23T22:57:57.005Z",
+        "totalEvents": 17,
+        "added": [
+          "Toluca vs Atlas (Liga MX) — Wed 25 Nov, 19:00",
+          "Monterrey vs América (Liga MX) — Wed 25 Nov, 21:10",
+          "Pachuca vs Chivas Guadalajara (Liga MX) — Thu 26 Nov, 19:00",
+          "Club León vs Cruz Azul (Liga MX) — Thu 26 Nov, 21:10",
+          "Atlas vs Toluca (Liga MX) — Sat 28 Nov, 19:00",
+          "América vs Monterrey (Liga MX) — Sat 28 Nov, 21:10",
+          "Chivas Guadalajara vs Pachuca (Liga MX) — Sun 29 Nov, 19:07",
+          "Cruz Azul vs Club León (Liga MX) — Sun 29 Nov, 21:00"
+        ],
+        "removed": [
+          "Athletico Paranaense vs Remo (Campeonato Brasileiro Série A) — Sun 22 Nov, 16:00",
+          "Rosario Central vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 22 Nov, 16:00",
+          "Fluminense vs Mirassol (Campeonato Brasileiro Série A) — Sun 22 Nov, 18:30",
+          "River Plate vs Lanús (Liga Profesional de Fútbol) — Sun 22 Nov, 19:00",
+          "Red Bull Bragantino vs Vasco da Gama (Campeonato Brasileiro Série A) — Sun 22 Nov, 19:30",
+          "Chivas Guadalajara vs Cruz Azul (Liga MX) — Sun 22 Nov, 17:07",
+          "Instituto (Córdoba) vs Huracán (Liga Profesional de Fútbol) — Sun 22 Nov, 22:00",
+          "Querétaro vs Necaxa (Liga MX) — Sun 22 Nov, 19:10",
+          "Gimnasia y Esgrima La Plata vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 23 Nov, 17:00",
+          "Internacional vs Vitória (Campeonato Brasileiro Série A) — Mon 23 Nov, 19:30"
+        ],
+        "channelsChanged": [],
+        "total": 17
+      },
       {
         "timestamp": "2026-11-22T18:41:59.673Z",
         "totalEvents": 19,
@@ -380,28 +408,16 @@
           "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]"
         ],
         "total": 47
-      },
-      {
-        "timestamp": "2026-11-03T18:43:23.456Z",
-        "totalEvents": 35,
-        "added": [],
-        "removed": [
-          "Defensa y Justicia vs Independiente (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
-          "Platense vs Central Córdoba (Santiago del Estero) (Liga Profesional de Fútbol) — Mon 02 Nov, 19:00",
-          "Red Bull Bragantino vs Santos (Campeonato Brasileiro Série A) — Mon 02 Nov, 20:00",
-          "Atlético Tucumán vs Argentinos Juniors (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15",
-          "Independiente Rivadavia vs Banfield (Liga Profesional de Fútbol) — Mon 02 Nov, 21:15"
-        ],
-        "channelsChanged": [
-          "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Flow Sports, Globo Internacional]",
-          "São Paulo vs Corinthians (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30: [Fanatiz (Míralo en vivo), Fanatiz YouTube]",
-          "Palmeiras vs Remo (Campeonato Brasileiro Série A) — Thu 05 Nov, 19:30: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo), Flow Sports]",
-          "Vitória vs Fluminense (Campeonato Brasileiro Série A) — Fri 06 Nov, 20:00: [Azteca Deportes App, Azteca Deportes Network, Disney+ Premium, Fanatiz (Míralo en vivo)]"
-        ],
-        "total": 35
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-23T22:58:26.403Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-22T18:42:32.308Z",
         "total": 0,
@@ -534,16 +550,25 @@
         "added": [],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-11-03T18:43:57.625Z",
-        "total": 0,
-        "added": [],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-23T23:00:06.452Z",
+        "total": 51,
+        "added": [
+          "Deep: Tokyo Impact 2026 5th Round (2026-11-23)",
+          "Deep: Jewels 55 (2026-11-23)",
+          "Caroline Dubois vs Stephanie Han (2027-02-20)",
+          "UFC 337 (2027-02-20)"
+        ],
+        "removed": [
+          "Deep: 134 Impact (2026-11-22)",
+          "Deep: Tokyo Impact 2026 5th Round (2026-11-23)",
+          "Deep: Jewels 55 (2026-11-23)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-22T18:43:16.079Z",
         "total": 50,
@@ -809,16 +834,6 @@
         "removed": [
           "Oktagon 97: Severino vs. Holzer (2026-11-11)"
         ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-11-03T18:45:01.100Z",
-        "total": 59,
-        "added": [
-          "ACA Young Eagles 70 (2026-11-19)",
-          "Cage Warriors: Amateur Academy 2 (2026-11-29)"
-        ],
-        "removed": [],
         "channelsChanged": []
       }
     ]
