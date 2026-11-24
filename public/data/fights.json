@@ -1,268 +1,6 @@
 {
-  "generatedAt": "2026-11-23T23:00:06.451Z",
+  "generatedAt": "2026-11-24T21:35:36.285Z",
   "upcoming": [
-    {
-      "org": "MMA",
-      "eventName": "Deep: Tokyo Impact 2026 5th Round",
-      "eventTag": "Deep · New Pier Hall, Minato, Tokyo, Japan",
-      "homeTeam": "Kaito Yoshimura",
-      "awayTeam": "Takahiro Ashida",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Kouya Kanda v Soshi Yamamoto",
-          "weightClass": null
-        },
-        {
-          "title": "Yu Karino v Tetsuya Seki",
-          "weightClass": null
-        },
-        {
-          "title": "Taisei Suzuki v Kaisei Kuroi",
-          "weightClass": null
-        },
-        {
-          "title": "Tatsuya Takahashi v Yuki Shimizu",
-          "weightClass": null
-        },
-        {
-          "title": "Ryuichi Miki v Iru Ishihara",
-          "weightClass": null
-        },
-        {
-          "title": "Fuga Izawa v Ryuto Take",
-          "weightClass": null
-        },
-        {
-          "title": "Masato Nakamura v Yutaro Yoshida",
-          "weightClass": null
-        },
-        {
-          "title": "Koichi Hiraishi v Ayinta Ali",
-          "weightClass": null
-        },
-        {
-          "title": "Kento Takahashi v Ryutaro Watanabe",
-          "weightClass": null
-        },
-        {
-          "title": "Reiji Hamaguchi v Renya Konno",
-          "weightClass": null
-        },
-        {
-          "title": "Haruto Ueda v Kokushi Tanabe",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-23T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-23",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Deep-Tokyo-Impact-2026-5th-Round-114724",
-        "name": "Deep: Tokyo Impact 2026 5th Round",
-        "dateUTC": null,
-        "dateOnly": "2026-11-23",
-        "venue": "New Pier Hall",
-        "city": "Minato, Tokyo, Japan",
-        "href": "/events/Deep-Tokyo-Impact-2026-5th-Round-114724",
-        "mainEventFighters": [
-          "Kaito Yoshimura",
-          "Takahiro Ashida"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Kouya Kanda",
-            "b": "Soshi Yamamoto"
-          },
-          {
-            "a": "Yu Karino",
-            "b": "Tetsuya Seki"
-          },
-          {
-            "a": "Taisei Suzuki",
-            "b": "Kaisei Kuroi"
-          },
-          {
-            "a": "Tatsuya Takahashi",
-            "b": "Yuki Shimizu"
-          },
-          {
-            "a": "Ryuichi Miki",
-            "b": "Iru Ishihara"
-          },
-          {
-            "a": "Fuga Izawa",
-            "b": "Ryuto Take"
-          },
-          {
-            "a": "Masato Nakamura",
-            "b": "Yutaro Yoshida"
-          },
-          {
-            "a": "Koichi Hiraishi",
-            "b": "Ayinta Ali"
-          },
-          {
-            "a": "Kento Takahashi",
-            "b": "Ryutaro Watanabe"
-          },
-          {
-            "a": "Reiji Hamaguchi",
-            "b": "Renya Konno"
-          },
-          {
-            "a": "Haruto Ueda",
-            "b": "Kokushi Tanabe"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Kaito Yoshimura|Takahiro Ashida|2026-11-23"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Deep: Jewels 55",
-      "eventTag": "Deep · New Pier Hall, Minato, Tokyo, Japan",
-      "homeTeam": "Juki Sue",
-      "awayTeam": "Yoko Higashi",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "So Yul Kim v Moeri Suda",
-          "weightClass": null
-        },
-        {
-          "title": "Suzu Ooi v Mizuki Furuse",
-          "weightClass": null
-        },
-        {
-          "title": "Misaki Suda v Junna Tsukii",
-          "weightClass": null
-        },
-        {
-          "title": "Misaki Horiuchi v Yua Yokose",
-          "weightClass": null
-        },
-        {
-          "title": "Maho Tagawa v Mika Arai",
-          "weightClass": null
-        },
-        {
-          "title": "Rio Yamauchi v Destiny Grounds",
-          "weightClass": null
-        },
-        {
-          "title": "Mina Muramatsu v Miku Yokose",
-          "weightClass": null
-        },
-        {
-          "title": "Noa Saito v Manami Abe",
-          "weightClass": null
-        },
-        {
-          "title": "Asuka Yokoe v Seari Sumimura",
-          "weightClass": null
-        },
-        {
-          "title": "Cocoro Taniyama v Domiria Domiria",
-          "weightClass": null
-        },
-        {
-          "title": "Anouk Rossen v Takara Kii",
-          "weightClass": null
-        },
-        {
-          "title": "Soumeya Yousfi v Mia Melendez",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-11-23T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-23",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Deep-Jewels-55-114725",
-        "name": "Deep: Jewels 55",
-        "dateUTC": null,
-        "dateOnly": "2026-11-23",
-        "venue": "New Pier Hall",
-        "city": "Minato, Tokyo, Japan",
-        "href": "/events/Deep-Jewels-55-114725",
-        "mainEventFighters": [
-          "Juki Sue",
-          "Yoko Higashi"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "So Yul Kim",
-            "b": "Moeri Suda"
-          },
-          {
-            "a": "Suzu Ooi",
-            "b": "Mizuki Furuse"
-          },
-          {
-            "a": "Misaki Suda",
-            "b": "Junna Tsukii"
-          },
-          {
-            "a": "Misaki Horiuchi",
-            "b": "Yua Yokose"
-          },
-          {
-            "a": "Maho Tagawa",
-            "b": "Mika Arai"
-          },
-          {
-            "a": "Rio Yamauchi",
-            "b": "Destiny Grounds"
-          },
-          {
-            "a": "Mina Muramatsu",
-            "b": "Miku Yokose"
-          },
-          {
-            "a": "Noa Saito",
-            "b": "Manami Abe"
-          },
-          {
-            "a": "Asuka Yokoe",
-            "b": "Seari Sumimura"
-          },
-          {
-            "a": "Cocoro Taniyama",
-            "b": "Domiria Domiria"
-          },
-          {
-            "a": "Anouk Rossen",
-            "b": "Takara Kii"
-          },
-          {
-            "a": "Soumeya Yousfi",
-            "b": "Mia Melendez"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Juki Sue|Yoko Higashi|2026-11-23"
-    },
     {
       "org": "MMA",
       "eventName": "One Friday Fights 180",
@@ -723,7 +461,51 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Lucas Ribeiro Alves de Paula v Vinicius Ramires",
+          "title": "Leonardo Carvalho v Unknown Fighter",
+          "weightClass": null
+        },
+        {
+          "title": "Leandro Antunez v Carlos Veras",
+          "weightClass": null
+        },
+        {
+          "title": "Ivan Santos v Reidney de Oliveira Campos",
+          "weightClass": null
+        },
+        {
+          "title": "Gabriel Roque v Lucas Caldas",
+          "weightClass": null
+        },
+        {
+          "title": "Joao Victor Melo v Breno Ribeiro Rangel",
+          "weightClass": null
+        },
+        {
+          "title": "Gustavo Henrique v Micael Isaias Braga",
+          "weightClass": null
+        },
+        {
+          "title": "Jonathan Caetano v Thiago Fernandes de Almeida",
+          "weightClass": null
+        },
+        {
+          "title": "Joseph Vieira v Ricardo Amador Da Conceicao",
+          "weightClass": null
+        },
+        {
+          "title": "Jomy Salvador Nganga v Samuel Batista",
+          "weightClass": null
+        },
+        {
+          "title": "Hyago Vieira Silva v Alison Vicente",
+          "weightClass": null
+        },
+        {
+          "title": "Cristian Ferreira de Azevedo v Vinicius Ramires",
+          "weightClass": null
+        },
+        {
+          "title": "Lucas Oliveira de Carvalho v Nathan Alves",
           "weightClass": null
         }
       ],
@@ -750,8 +532,52 @@
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Lucas Ribeiro Alves de Paula",
+            "a": "Leonardo Carvalho",
+            "b": "Unknown Fighter"
+          },
+          {
+            "a": "Leandro Antunez",
+            "b": "Carlos Veras"
+          },
+          {
+            "a": "Ivan Santos",
+            "b": "Reidney de Oliveira Campos"
+          },
+          {
+            "a": "Gabriel Roque",
+            "b": "Lucas Caldas"
+          },
+          {
+            "a": "Joao Victor Melo",
+            "b": "Breno Ribeiro Rangel"
+          },
+          {
+            "a": "Gustavo Henrique",
+            "b": "Micael Isaias Braga"
+          },
+          {
+            "a": "Jonathan Caetano",
+            "b": "Thiago Fernandes de Almeida"
+          },
+          {
+            "a": "Joseph Vieira",
+            "b": "Ricardo Amador Da Conceicao"
+          },
+          {
+            "a": "Jomy Salvador Nganga",
+            "b": "Samuel Batista"
+          },
+          {
+            "a": "Hyago Vieira Silva",
+            "b": "Alison Vicente"
+          },
+          {
+            "a": "Cristian Ferreira de Azevedo",
             "b": "Vinicius Ramires"
+          },
+          {
+            "a": "Lucas Oliveira de Carvalho",
+            "b": "Nathan Alves"
           }
         ]
       },
@@ -897,7 +723,7 @@
     {
       "org": "UFC",
       "eventName": "UFC Fight Night: Adesanya vs Magomedov",
-      "eventTag": "UFC Fight Night · ANB Arena, Riyadh · 13-fight card · main card Sat 05 Dec, 18:00 UK",
+      "eventTag": "UFC Fight Night · ANB Arena, Riyadh · 14-fight card · main card Sat 05 Dec, 18:00 UK",
       "homeTeam": "Israel Adesanya",
       "awayTeam": "Shara Magomedov",
       "cardTitle": null,
@@ -906,6 +732,10 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Mateusz Rębecki v Elves Brener",
+          "weightClass": "Lightweight"
+        },
         {
           "title": "Abdul Hussein v Hecher Sosa",
           "weightClass": "Bantamweight"
@@ -1002,6 +832,11 @@
         ],
         "bouts": [
           {
+            "a": "Mateusz Rębecki",
+            "b": "Elves Brener",
+            "weightClass": "Lightweight"
+          },
+          {
             "a": "Abdul Hussein",
             "b": "Hecher Sosa",
             "weightClass": "Bantamweight"
@@ -1068,7 +903,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 13,
+        "boutCount": 14,
         "broadcasts": [
           "Paramount+"
         ]
@@ -1456,6 +1291,53 @@
         ]
       },
       "watchKey": "fights:MMA|Myrzabekov|Tumenov|2026-12-05"
+    },
+    {
+      "org": "MMA",
+      "eventName": "RCC: Intro 41",
+      "eventTag": "RCC · RMK Martial Arts Academy, Yekaterinburg, Russia",
+      "homeTeam": "Abdulmalik Mugidinov",
+      "awayTeam": "Nicholas Hwende",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Khaibula Musalov v Valery Myasnikov",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-05T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-05",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-RCC-Intro-41-115544",
+        "name": "RCC: Intro 41",
+        "dateUTC": null,
+        "dateOnly": "2026-12-05",
+        "venue": "RMK Martial Arts Academy",
+        "city": "Yekaterinburg, Russia",
+        "href": "/events/RCC-Intro-41-115544",
+        "mainEventFighters": [
+          "Abdulmalik Mugidinov",
+          "Nicholas Hwende"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Khaibula Musalov",
+            "b": "Valery Myasnikov"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Abdulmalik Mugidinov|Nicholas Hwende|2026-12-05"
     },
     {
       "org": "Boxing",
@@ -1910,6 +1792,10 @@
         {
           "title": "Maria Guedez Jr. v Natasa Pazarioti",
           "weightClass": null
+        },
+        {
+          "title": "Assita Ouattara v Ghita Chafik",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -1957,6 +1843,10 @@
           {
             "a": "Maria Guedez Jr.",
             "b": "Natasa Pazarioti"
+          },
+          {
+            "a": "Assita Ouattara",
+            "b": "Ghita Chafik"
           }
         ]
       },
@@ -2309,7 +2199,12 @@
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Lipeng Zhang v Chase Mann",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-12-12T23:59:00Z",
       "kickoffLocal": null,
@@ -2331,7 +2226,12 @@
           "Enkh-Orgil Baatarkhuu"
         ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Lipeng Zhang",
+            "b": "Chase Mann"
+          }
+        ]
       },
       "watchKey": "fights:MMA|Kai Tang|Enkh-Orgil Baatarkhuu|2026-12-12"
     },
@@ -2816,7 +2716,7 @@
     {
       "org": "PFL",
       "eventName": "PFL Lyon: Lapilus vs. McKee",
-      "eventTag": "PFL Lyon · LDLC Arena, Lyon · 13-fight card · main card Sat 19 Dec, 20:00 UK",
+      "eventTag": "PFL Lyon · LDLC Arena, Lyon · 14-fight card · main card Sat 19 Dec, 20:00 UK",
       "homeTeam": "Taylor Lapilus",
       "awayTeam": "Mitch McKee",
       "cardTitle": null,
@@ -2836,6 +2736,10 @@
         {
           "title": "Zakaria Hamou v Amin Bouazza",
           "weightClass": null
+        },
+        {
+          "title": "Ciaran Clarke v Gocha Shainidze",
+          "weightClass": "Bantamweight"
         },
         {
           "title": "Adam Meskini v Brandon Brachet",
@@ -2936,6 +2840,11 @@
             "weightClass": null
           },
           {
+            "a": "Ciaran Clarke",
+            "b": "Gocha Shainidze",
+            "weightClass": "Bantamweight"
+          },
+          {
             "a": "Adam Meskini",
             "b": "Brandon Brachet",
             "weightClass": "Featherweight"
@@ -2987,7 +2896,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/pfl.png",
-        "boutCount": 13,
+        "boutCount": 14,
         "broadcasts": [
           "ESPN+"
         ]
@@ -3994,7 +3903,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 336: Van vs. Kape",
-      "eventTag": "UFC 336 · Scotiabank Arena, Toronto · 6-fight card · main card Sun 31 Jan, 02:00 UK",
+      "eventTag": "UFC 336 · Scotiabank Arena, Toronto · 9-fight card · main card Sun 31 Jan, 02:00 UK",
       "homeTeam": "Manel Kape",
       "awayTeam": "Joshua Van",
       "cardTitle": null,
@@ -4003,6 +3912,18 @@
       "orgName": "UFC",
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
+        {
+          "title": "Julien LeBlanc v Vlasto Čepo",
+          "weightClass": "Middleweight"
+        },
+        {
+          "title": "Tanner Boser v José Montanha",
+          "weightClass": null
+        },
+        {
+          "title": "Gable Steveson v Terrance Chatman",
+          "weightClass": null
+        },
         {
           "title": "Marc-Andre Barriault v Tresean Gore",
           "weightClass": "Middleweight"
@@ -4071,6 +3992,21 @@
         ],
         "bouts": [
           {
+            "a": "Julien LeBlanc",
+            "b": "Vlasto Čepo",
+            "weightClass": "Middleweight"
+          },
+          {
+            "a": "Tanner Boser",
+            "b": "José Montanha",
+            "weightClass": null
+          },
+          {
+            "a": "Gable Steveson",
+            "b": "Terrance Chatman",
+            "weightClass": null
+          },
+          {
             "a": "Marc-Andre Barriault",
             "b": "Tresean Gore",
             "weightClass": "Middleweight"
@@ -4102,7 +4038,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 6,
+        "boutCount": 9,
         "broadcasts": [
           "Paramount+"
         ]
@@ -4478,6 +4414,268 @@
     }
   ],
   "recent": [
+    {
+      "org": "MMA",
+      "eventName": "Deep: Jewels 55",
+      "eventTag": "Deep · New Pier Hall, Minato, Tokyo, Japan",
+      "homeTeam": "Juki Sue",
+      "awayTeam": "Yoko Higashi",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "So Yul Kim v Moeri Suda",
+          "weightClass": null
+        },
+        {
+          "title": "Suzu Ooi v Mizuki Furuse",
+          "weightClass": null
+        },
+        {
+          "title": "Misaki Suda v Junna Tsukii",
+          "weightClass": null
+        },
+        {
+          "title": "Misaki Horiuchi v Yua Yokose",
+          "weightClass": null
+        },
+        {
+          "title": "Maho Tagawa v Mika Arai",
+          "weightClass": null
+        },
+        {
+          "title": "Rio Yamauchi v Destiny Grounds",
+          "weightClass": null
+        },
+        {
+          "title": "Mina Muramatsu v Miku Yokose",
+          "weightClass": null
+        },
+        {
+          "title": "Noa Saito v Manami Abe",
+          "weightClass": null
+        },
+        {
+          "title": "Asuka Yokoe v Seari Sumimura",
+          "weightClass": null
+        },
+        {
+          "title": "Cocoro Taniyama v Domiria Domiria",
+          "weightClass": null
+        },
+        {
+          "title": "Anouk Rossen v Takara Kii",
+          "weightClass": null
+        },
+        {
+          "title": "Soumeya Yousfi v Mia Melendez",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-23T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-23",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Deep-Jewels-55-114725",
+        "name": "Deep: Jewels 55",
+        "dateUTC": null,
+        "dateOnly": "2026-11-23",
+        "venue": "New Pier Hall",
+        "city": "Minato, Tokyo, Japan",
+        "href": "/events/Deep-Jewels-55-114725",
+        "mainEventFighters": [
+          "Juki Sue",
+          "Yoko Higashi"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "So Yul Kim",
+            "b": "Moeri Suda"
+          },
+          {
+            "a": "Suzu Ooi",
+            "b": "Mizuki Furuse"
+          },
+          {
+            "a": "Misaki Suda",
+            "b": "Junna Tsukii"
+          },
+          {
+            "a": "Misaki Horiuchi",
+            "b": "Yua Yokose"
+          },
+          {
+            "a": "Maho Tagawa",
+            "b": "Mika Arai"
+          },
+          {
+            "a": "Rio Yamauchi",
+            "b": "Destiny Grounds"
+          },
+          {
+            "a": "Mina Muramatsu",
+            "b": "Miku Yokose"
+          },
+          {
+            "a": "Noa Saito",
+            "b": "Manami Abe"
+          },
+          {
+            "a": "Asuka Yokoe",
+            "b": "Seari Sumimura"
+          },
+          {
+            "a": "Cocoro Taniyama",
+            "b": "Domiria Domiria"
+          },
+          {
+            "a": "Anouk Rossen",
+            "b": "Takara Kii"
+          },
+          {
+            "a": "Soumeya Yousfi",
+            "b": "Mia Melendez"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Juki Sue|Yoko Higashi|2026-11-23"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Deep: Tokyo Impact 2026 5th Round",
+      "eventTag": "Deep · New Pier Hall, Minato, Tokyo, Japan",
+      "homeTeam": "Kaito Yoshimura",
+      "awayTeam": "Takahiro Ashida",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Kouya Kanda v Soshi Yamamoto",
+          "weightClass": null
+        },
+        {
+          "title": "Yu Karino v Tetsuya Seki",
+          "weightClass": null
+        },
+        {
+          "title": "Taisei Suzuki v Kaisei Kuroi",
+          "weightClass": null
+        },
+        {
+          "title": "Tatsuya Takahashi v Yuki Shimizu",
+          "weightClass": null
+        },
+        {
+          "title": "Ryuichi Miki v Iru Ishihara",
+          "weightClass": null
+        },
+        {
+          "title": "Fuga Izawa v Ryuto Take",
+          "weightClass": null
+        },
+        {
+          "title": "Masato Nakamura v Yutaro Yoshida",
+          "weightClass": null
+        },
+        {
+          "title": "Koichi Hiraishi v Ayinta Ali",
+          "weightClass": null
+        },
+        {
+          "title": "Kento Takahashi v Ryutaro Watanabe",
+          "weightClass": null
+        },
+        {
+          "title": "Reiji Hamaguchi v Renya Konno",
+          "weightClass": null
+        },
+        {
+          "title": "Haruto Ueda v Kokushi Tanabe",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-11-23T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-11-23",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Deep-Tokyo-Impact-2026-5th-Round-114724",
+        "name": "Deep: Tokyo Impact 2026 5th Round",
+        "dateUTC": null,
+        "dateOnly": "2026-11-23",
+        "venue": "New Pier Hall",
+        "city": "Minato, Tokyo, Japan",
+        "href": "/events/Deep-Tokyo-Impact-2026-5th-Round-114724",
+        "mainEventFighters": [
+          "Kaito Yoshimura",
+          "Takahiro Ashida"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Kouya Kanda",
+            "b": "Soshi Yamamoto"
+          },
+          {
+            "a": "Yu Karino",
+            "b": "Tetsuya Seki"
+          },
+          {
+            "a": "Taisei Suzuki",
+            "b": "Kaisei Kuroi"
+          },
+          {
+            "a": "Tatsuya Takahashi",
+            "b": "Yuki Shimizu"
+          },
+          {
+            "a": "Ryuichi Miki",
+            "b": "Iru Ishihara"
+          },
+          {
+            "a": "Fuga Izawa",
+            "b": "Ryuto Take"
+          },
+          {
+            "a": "Masato Nakamura",
+            "b": "Yutaro Yoshida"
+          },
+          {
+            "a": "Koichi Hiraishi",
+            "b": "Ayinta Ali"
+          },
+          {
+            "a": "Kento Takahashi",
+            "b": "Ryutaro Watanabe"
+          },
+          {
+            "a": "Reiji Hamaguchi",
+            "b": "Renya Konno"
+          },
+          {
+            "a": "Haruto Ueda",
+            "b": "Kokushi Tanabe"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Kaito Yoshimura|Takahiro Ashida|2026-11-23"
+    },
     {
       "org": "MMA",
       "eventName": "Deep: 134 Impact",
@@ -5081,12 +5279,6 @@
         {
           "label": "UK",
           "channels": [
-            {
-              "name": "TNT Sports 2",
-              "logo": "/logos/channels/tntsports.co.uk.png",
-              "timeUK": "Mon 23 Nov, 21:30",
-              "airTimeUTC": "2026-11-23T21:30:00.000Z"
-            },
             {
               "name": "TNT Sports 2",
               "logo": "/logos/channels/tntsports.co.uk.png",
@@ -6729,34 +6921,6 @@
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-11-23T21:30:00.000Z",
-      "endsAtUTC": "2026-11-24T01:30:00.000Z",
-      "timeUK": "Mon 23 Nov, 21:30",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "watchKey": "fights:UFC|Jiří Procházka|Navajo Stirling|2026-11-21",
-      "label": "UFC Fight Night: Procházka vs. Stirling",
-      "logos": [
-        "/logos/orgs/ufc.png"
-      ],
-      "sublabel": "UFC · Sat 21 Nov, 15:00"
-    },
-    {
-      "airTimeUTC": "2026-11-24T03:00:00.000Z",
-      "endsAtUTC": "2026-11-24T07:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 03:00",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "label": "Rose Namajunas v Paige VanZant",
-      "sublabel": "UFC Reloaded"
-    },
     {
       "airTimeUTC": "2026-11-25T02:30:00.000Z",
       "endsAtUTC": "2026-11-25T06:30:00.000Z",

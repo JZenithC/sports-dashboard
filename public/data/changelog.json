@@ -1,5 +1,25 @@
 [
   {
+    "timestamp": "2026-11-24T21:34:04.550Z",
+    "totalEvents": 15,
+    "added": [
+      "Coritiba vs Flamengo (Campeonato Brasileiro Série A) — Sun 29 Nov, 16:00"
+    ],
+    "removed": [
+      "Botafogo vs São Paulo (Campeonato Brasileiro Série A) — Mon 23 Nov, 20:00",
+      "Santos vs Grêmio (Campeonato Brasileiro Série A) — Mon 23 Nov, 21:00",
+      "Chapecoense vs Palmeiras (Campeonato Brasileiro Série A) — Tue 24 Nov, 18:00"
+    ],
+    "channelsChanged": [
+      "Monterrey vs América (Liga MX) — Wed 25 Nov, 21:10: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+      "Pachuca vs Chivas Guadalajara (Liga MX) — Thu 26 Nov, 19:00: [FOX One, FOX+]",
+      "Club León vs Cruz Azul (Liga MX) — Thu 26 Nov, 21:10: [FOX One, FOX+]",
+      "Atlas vs Toluca (Liga MX) — Sat 28 Nov, 19:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+      "América vs Monterrey (Liga MX) — Sat 28 Nov, 21:10: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+      "Cruz Azul vs Club León (Liga MX) — Sun 29 Nov, 21:00: [Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]"
+    ]
+  },
+  {
     "timestamp": "2026-11-23T22:57:57.005Z",
     "totalEvents": 17,
     "added": [
@@ -77,34 +97,6 @@
     ],
     "channelsChanged": [
       "Atlético Mineiro vs Boca Juniors (CONMEBOL Sudamericana) — Sat 21 Nov, 19:30: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, ESPN 2, Paramount+]"
-    ]
-  },
-  {
-    "timestamp": "2026-11-19T19:40:59.442Z",
-    "totalEvents": 32,
-    "added": [
-      "Atlético Mineiro vs Corinthians (Campeonato Brasileiro Série A) — Wed 25 Nov, 20:00",
-      "Boca Juniors vs Independiente Rivadavia (Liga Profesional de Fútbol) — Wed 25 Nov, 21:00"
-    ],
-    "removed": [
-      "Coritiba vs Santos (Campeonato Brasileiro Série A) — Wed 18 Nov, 19:30",
-      "Remo vs Chapecoense (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:00",
-      "Cruzeiro vs Palmeiras (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:30",
-      "Flamengo vs Athletico Paranaense (Campeonato Brasileiro Série A) — Wed 18 Nov, 20:30",
-      "Grêmio vs Bahía (Campeonato Brasileiro Série A) — Wed 18 Nov, 21:30"
-    ],
-    "channelsChanged": [
-      "Vélez Sarsfield vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Fri 20 Nov, 20:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-      "Defensa y Justicia vs Barracas Central (Liga Profesional de Fútbol) — Sat 21 Nov, 15:00: [Disney+ Premium, ESPN Premium, Fanatiz (Míralo en vivo)]",
-      "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Fanatiz YouTube, Globo Internacional]",
-      "Argentinos Juniors vs Independiente (Liga Profesional de Fútbol) — Sat 21 Nov, 17:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00: [Azteca 7, Azteca Deportes App, Azteca Deportes Network, FOX, FOX One]",
-      "Rosario Central vs Gimnasia y Esgrima de Mendoza (Liga Profesional de Fútbol) — Sun 22 Nov, 16:00: [ESPN Premium, TyC Sports Internacional]",
-      "River Plate vs Lanús (Liga Profesional de Fútbol) — Sun 22 Nov, 19:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Instituto (Córdoba) vs Huracán (Liga Profesional de Fútbol) — Sun 22 Nov, 22:00: [ESPN Premium, TyC Sports Internacional]",
-      "Querétaro vs Necaxa (Liga MX) — Sun 22 Nov, 19:10: [FOX, FOX One]",
-      "Gimnasia y Esgrima La Plata vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 23 Nov, 17:00: [Disney+ Premium, Fanatiz (Míralo en vivo), TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-      "Botafogo vs São Paulo (Campeonato Brasileiro Série A) — Mon 23 Nov, 20:00: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo)]"
     ]
   }
 ]
