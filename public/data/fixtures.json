@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T21:34:04.550Z",
+  "generatedAt": "2026-11-25T20:42:30.631Z",
   "events": [
     {
       "competition": "Campeonato Brasileiro Série A",
@@ -34,6 +34,19 @@
             {
               "name": "Premiere",
               "logo": "/logos/channels/premiere.globo.com.png"
+            }
+          ]
+        },
+        {
+          "label": "Germany",
+          "channels": [
+            {
+              "name": "Sportdigital FUSSBALL2",
+              "logo": null
+            },
+            {
+              "name": "Sportdigital+",
+              "logo": null
             }
           ]
         },
@@ -143,8 +156,16 @@
           "label": "Spain",
           "channels": [
             {
-              "name": "M+ Liga de Campeones",
+              "name": "Movistar Plus+ (streaming)",
               "logo": "/logos/channels/movistar.es.png"
+            },
+            {
+              "name": "Movistar+ Liga de Campeones",
+              "logo": null
+            },
+            {
+              "name": "beIN Sports España",
+              "logo": "/logos/channels/beinsports.com.png"
             }
           ]
         },
@@ -154,6 +175,19 @@
             {
               "name": "Fox Deportes",
               "logo": "/logos/channels/foxdeportes.com.png"
+            }
+          ]
+        },
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "Premier Sports 2 HD",
+              "logo": null
+            },
+            {
+              "name": "Premier Sports Player",
+              "logo": null
             }
           ]
         },
@@ -184,11 +218,37 @@
           ]
         },
         {
+          "label": "Germany",
+          "channels": [
+            {
+              "name": "Sportdigital FUSSBALL",
+              "logo": null
+            },
+            {
+              "name": "Sportdigital+",
+              "logo": null
+            }
+          ]
+        },
+        {
+          "label": "Italy",
+          "channels": [
+            {
+              "name": "SportItalia",
+              "logo": null
+            }
+          ]
+        },
+        {
           "label": "Portugal",
           "channels": [
             {
               "name": "SPORT TV 2",
               "logo": "/logos/channels/sporttv.pt.png"
+            },
+            {
+              "name": "Sport TV2",
+              "logo": null
             }
           ]
         }
@@ -246,11 +306,19 @@
           "label": "Mexico",
           "channels": [
             {
-              "name": "FOX One",
-              "logo": "/logos/channels/fox.com.png"
+              "name": "Azteca 7",
+              "logo": "/logos/channels/aztecadeportes.com.png"
+            },
+            {
+              "name": "Canal 5",
+              "logo": null
             },
             {
               "name": "FOX",
+              "logo": "/logos/channels/fox.com.png"
+            },
+            {
+              "name": "FOX One",
               "logo": "/logos/channels/fox.com.png"
             },
             {
@@ -260,14 +328,6 @@
             {
               "name": "ViX Premium",
               "logo": "/logos/channels/vix.com.jpg"
-            },
-            {
-              "name": "Canal 5",
-              "logo": null
-            },
-            {
-              "name": "Azteca 7",
-              "logo": "/logos/channels/aztecadeportes.com.png"
             }
           ]
         }
@@ -341,6 +401,24 @@
               "logo": "/logos/channels/vix.com.jpg"
             }
           ]
+        },
+        {
+          "label": "US & Canada (Spanish)",
+          "channels": [
+            {
+              "name": "UniMás",
+              "logo": "/logos/channels/unimas.com.png"
+            }
+          ]
+        },
+        {
+          "label": "US & Canada (English)",
+          "channels": [
+            {
+              "name": "UniMás",
+              "logo": "/logos/channels/unimas.com.png"
+            }
+          ]
         }
       ],
       "watchKey": "football:monterrey|america|2026-11-25"
@@ -380,6 +458,15 @@
         }
       ],
       "broadcastGroups": [
+        {
+          "label": "Brazil",
+          "channels": [
+            {
+              "name": "Premiere",
+              "logo": "/logos/channels/premiere.globo.com.png"
+            }
+          ]
+        },
         {
           "label": "Argentina",
           "channels": [
@@ -450,6 +537,28 @@
             {
               "name": "FOX+",
               "logo": null
+            },
+            {
+              "name": "TUDN",
+              "logo": "/logos/channels/tudn.com.png"
+            }
+          ]
+        },
+        {
+          "label": "US & Canada (Spanish)",
+          "channels": [
+            {
+              "name": "TUDN",
+              "logo": "/logos/channels/tudn.com.png"
+            }
+          ]
+        },
+        {
+          "label": "US & Canada (English)",
+          "channels": [
+            {
+              "name": "TUDN",
+              "logo": "/logos/channels/tudn.com.png"
             }
           ]
         }
@@ -497,6 +606,28 @@
             {
               "name": "FOX+",
               "logo": null
+            },
+            {
+              "name": "TUDN",
+              "logo": "/logos/channels/tudn.com.png"
+            }
+          ]
+        },
+        {
+          "label": "US & Canada (Spanish)",
+          "channels": [
+            {
+              "name": "TUDN",
+              "logo": "/logos/channels/tudn.com.png"
+            }
+          ]
+        },
+        {
+          "label": "US & Canada (English)",
+          "channels": [
+            {
+              "name": "TUDN",
+              "logo": "/logos/channels/tudn.com.png"
             }
           ]
         }
@@ -626,8 +757,21 @@
               "logo": "/logos/channels/movistar.es.png"
             },
             {
+              "name": "M+ Liga de Campeones",
+              "logo": "/logos/channels/movistar.es.png"
+            },
+            {
               "name": "M+ Vamos",
               "logo": "/logos/channels/movistar.es.png"
+            }
+          ]
+        },
+        {
+          "label": "Germany",
+          "channels": [
+            {
+              "name": "Sportdigital1+",
+              "logo": "/logos/channels/sportdigital.de.png"
             }
           ]
         },
@@ -967,6 +1111,15 @@
       ],
       "broadcastGroups": [
         {
+          "label": "Spain",
+          "channels": [
+            {
+              "name": "OneFootball PPV",
+              "logo": "/logos/channels/onefootball.com.png"
+            }
+          ]
+        },
+        {
           "label": "Mexico",
           "channels": [
             {
@@ -1048,6 +1201,66 @@
         }
       ],
       "watchKey": "football:cruz azul|leon|2026-11-29"
+    },
+    {
+      "competition": "Copa Argentina",
+      "competitionLogo": null,
+      "country": "Argentina",
+      "crossCountry": null,
+      "homeTeam": "Boca Juniors",
+      "awayTeam": "Platense",
+      "homeLogo": "/logos/teams/abf76051189f0a3d044d.png",
+      "awayLogo": "/logos/teams/fac9d8e10abcadcb0d1c.png",
+      "kickoffUTC": "2026-12-02T00:00:00.000Z",
+      "kickoffLocal": "Tue 01 Dec, 21:00",
+      "kickoffUK": "Wed 02 Dec, 00:00",
+      "localDate": "2026-12-01",
+      "rivalry": false,
+      "mergeKey": "boca juniors|platense|2026-12-01",
+      "rawCompetitionLabel": "Final",
+      "rawCompetitionSlug": "copa-argentina",
+      "rawCompetitionCode": null,
+      "homeTeamKey": "boca juniors",
+      "awayTeamKey": "platense",
+      "channels": [
+        {
+          "name": "TyC Sports",
+          "logo": "/logos/channels/tycsports.com.png"
+        },
+        {
+          "name": "TyC Sports Play",
+          "logo": "/logos/channels/tycsports.com.png"
+        },
+        {
+          "name": "TyC Sports Internacional",
+          "logo": "/logos/channels/tycsports.com.png"
+        }
+      ],
+      "broadcastGroups": [
+        {
+          "label": "Argentina",
+          "channels": [
+            {
+              "name": "TyC Sports",
+              "logo": "/logos/channels/tycsports.com.png"
+            },
+            {
+              "name": "TyC Sports Play",
+              "logo": "/logos/channels/tycsports.com.png"
+            }
+          ]
+        },
+        {
+          "label": "Mexico",
+          "channels": [
+            {
+              "name": "TyC Sports Internacional",
+              "logo": "/logos/channels/tycsports.com.png"
+            }
+          ]
+        }
+      ],
+      "watchKey": "football:boca juniors|platense|2026-12-01"
     }
   ],
   "recentEvents": [
@@ -4136,397 +4349,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-24T01:20:00.000Z",
-      "endsAtUTC": "2026-11-24T03:10:00.000Z",
-      "timeUK": "Tue 24 Nov, 01:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:instituto|huracan|2026-11-22",
-      "label": "Instituto (Córdoba) v Huracán",
-      "logos": [
-        "/logos/teams/bf9a9a24ea8e78aa1422.png",
-        "/logos/teams/051774249e5f1fc77df6.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T03:00:00.000Z",
-      "endsAtUTC": "2026-11-24T04:50:00.000Z",
-      "timeUK": "Tue 24 Nov, 03:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T03:10:00.000Z",
-      "endsAtUTC": "2026-11-24T05:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 03:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
-      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
-      "logos": [
-        "/logos/teams/b00d7a8d05cb11bddf98.png",
-        "/logos/teams/3213e68d2cecea2bd71c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T03:30:00.000Z",
-      "endsAtUTC": "2026-11-24T05:30:00.000Z",
-      "timeUK": "Tue 24 Nov, 03:30",
-      "market": "Spain",
-      "channel": {
-        "name": "beIN Sports España",
-        "logo": "/logos/channels/beinsports.com.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T04:50:00.000Z",
-      "endsAtUTC": "2026-11-24T06:40:00.000Z",
-      "timeUK": "Tue 24 Nov, 04:50",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:instituto|huracan|2026-11-22",
-      "label": "Instituto (Córdoba) v Huracán",
-      "logos": [
-        "/logos/teams/bf9a9a24ea8e78aa1422.png",
-        "/logos/teams/051774249e5f1fc77df6.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T05:00:00.000Z",
-      "endsAtUTC": "2026-11-24T06:50:00.000Z",
-      "timeUK": "Tue 24 Nov, 05:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
-      "label": "Argentinos Juniors v Independiente",
-      "logos": [
-        "/logos/teams/33b63e62059eae3bb223.png",
-        "/logos/teams/0adb2156cbed7830f889.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T06:50:00.000Z",
-      "endsAtUTC": "2026-11-24T08:40:00.000Z",
-      "timeUK": "Tue 24 Nov, 06:50",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T07:30:00.000Z",
-      "endsAtUTC": "2026-11-24T09:30:00.000Z",
-      "timeUK": "Tue 24 Nov, 07:30",
-      "market": "UK",
-      "channel": {
-        "name": "Premier Sports 1",
-        "logo": "/logos/channels/premiersports.com.png"
-      },
-      "watchKey": "football:santos|gremio|2026-11-23",
-      "label": "Santos v Grêmio",
-      "logos": [
-        "/logos/teams/e17eb5f05c159e9b98d9.png",
-        "/logos/teams/c52aa80373b5a5124d96.png"
-      ],
-      "sublabel": "Full replay · Campeonato Brasileiro Série A · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T07:30:00.000Z",
-      "endsAtUTC": "2026-11-24T09:30:00.000Z",
-      "timeUK": "Tue 24 Nov, 07:30",
-      "market": "Spain",
-      "channel": {
-        "name": "beIN Sports España",
-        "logo": "/logos/channels/beinsports.com.png"
-      },
-      "watchKey": "football:santos|gremio|2026-11-23",
-      "label": "Santos v Grêmio",
-      "logos": [
-        "/logos/teams/e17eb5f05c159e9b98d9.png",
-        "/logos/teams/c52aa80373b5a5124d96.png"
-      ],
-      "sublabel": "Full replay · Campeonato Brasileiro Série A · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T09:00:00.000Z",
-      "endsAtUTC": "2026-11-24T10:50:00.000Z",
-      "timeUK": "Tue 24 Nov, 09:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
-      "label": "Argentinos Juniors v Independiente",
-      "logos": [
-        "/logos/teams/33b63e62059eae3bb223.png",
-        "/logos/teams/0adb2156cbed7830f889.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T10:30:00.000Z",
-      "endsAtUTC": "2026-11-24T11:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 10:30",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Highlights · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T11:00:00.000Z",
-      "endsAtUTC": "2026-11-24T12:20:00.000Z",
-      "timeUK": "Tue 24 Nov, 11:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T12:20:00.000Z",
-      "endsAtUTC": "2026-11-24T14:10:00.000Z",
-      "timeUK": "Tue 24 Nov, 12:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
-      "label": "Argentinos Juniors v Independiente",
-      "logos": [
-        "/logos/teams/33b63e62059eae3bb223.png",
-        "/logos/teams/0adb2156cbed7830f889.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T13:10:00.000Z",
-      "endsAtUTC": "2026-11-24T15:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 13:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T14:10:00.000Z",
-      "endsAtUTC": "2026-11-24T16:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 14:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
-      "label": "Defensa y Justicia v Barracas Central",
-      "logos": [
-        "/logos/teams/934d417aaec6f300189a.png",
-        "/logos/teams/99b2c31a0d8d31a2d47c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T15:00:00.000Z",
-      "endsAtUTC": "2026-11-24T16:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 15:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN 2 Argentina",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:atletico mineiro|boca juniors|2026-11-21",
-      "label": "Atlético Mineiro v Boca Juniors",
-      "logos": [
-        "/logos/teams/f37e5b48368f5b9ca49f.png",
-        "/logos/teams/abf76051189f0a3d044d.png"
-      ],
-      "sublabel": "Highlights · CONMEBOL Sudamericana · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T16:00:00.000Z",
-      "endsAtUTC": "2026-11-24T17:50:00.000Z",
-      "timeUK": "Tue 24 Nov, 16:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
-      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
-      "logos": [
-        "/logos/teams/b00d7a8d05cb11bddf98.png",
-        "/logos/teams/3213e68d2cecea2bd71c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T16:54:45.000Z",
-      "endsAtUTC": "2026-11-24T19:25:08.000Z",
-      "timeUK": "Tue 24 Nov, 16:54",
-      "market": "Portugal",
-      "channel": {
-        "name": "SPORT TV 2",
-        "logo": "/logos/channels/sporttv.pt.png"
-      },
-      "watchKey": "football:atletico mineiro|boca juniors|2026-11-21",
-      "label": "Atlético Mineiro v Boca Juniors",
-      "logos": [
-        "/logos/teams/f37e5b48368f5b9ca49f.png",
-        "/logos/teams/abf76051189f0a3d044d.png"
-      ],
-      "sublabel": "Full replay · CONMEBOL Sudamericana · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T17:50:00.000Z",
-      "endsAtUTC": "2026-11-24T19:40:00.000Z",
-      "timeUK": "Tue 24 Nov, 17:50",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:instituto|huracan|2026-11-22",
-      "label": "Instituto (Córdoba) v Huracán",
-      "logos": [
-        "/logos/teams/bf9a9a24ea8e78aa1422.png",
-        "/logos/teams/051774249e5f1fc77df6.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T19:00:00.000Z",
-      "endsAtUTC": "2026-11-24T21:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 19:00",
-      "market": "US & Canada (Spanish)",
-      "channel": {
-        "name": "Fox Deportes",
-        "logo": "/logos/channels/foxdeportes.com.png"
-      },
-      "watchKey": "football:guadalajara|cruz azul|2026-11-22",
-      "label": "Chivas Guadalajara v Cruz Azul",
-      "logos": [
-        "/logos/teams/6b34b00284389a659e36.png",
-        "/logos/teams/24216a391bc6be432ed9.png"
-      ],
-      "sublabel": "Full replay · Liga MX · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T19:40:00.000Z",
-      "endsAtUTC": "2026-11-24T21:30:00.000Z",
-      "timeUK": "Tue 24 Nov, 19:40",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T23:20:00.000Z",
-      "endsAtUTC": "2026-11-25T01:10:00.000Z",
-      "timeUK": "Tue 24 Nov, 23:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T01:10:00.000Z",
-      "endsAtUTC": "2026-11-25T03:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 01:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
-      "label": "Defensa y Justicia v Barracas Central",
-      "logos": [
-        "/logos/teams/934d417aaec6f300189a.png",
-        "/logos/teams/99b2c31a0d8d31a2d47c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
       "airTimeUTC": "2026-11-25T03:00:00.000Z",
       "endsAtUTC": "2026-11-25T04:50:00.000Z",
       "timeUK": "Wed 25 Nov, 03:00",
@@ -4542,23 +4364,6 @@
         "/logos/teams/0adb2156cbed7830f889.png"
       ],
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T04:00:00.000Z",
-      "endsAtUTC": "2026-11-25T06:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 04:00",
-      "market": "US & Canada (Spanish)",
-      "channel": {
-        "name": "beIN Sports en Español",
-        "logo": "/logos/channels/beinsports.com.png"
-      },
-      "watchKey": "football:palmeiras|flamengo|2026-11-21",
-      "label": "Palmeiras v Flamengo",
-      "logos": [
-        "/logos/teams/a64bbbb7b42a9547bd4f.png",
-        "/logos/teams/c095deec6052bacd6817.png"
-      ],
-      "sublabel": "Full replay · Campeonato Brasileiro Série A · played Sat 21 Nov"
     },
     {
       "airTimeUTC": "2026-11-25T04:50:00.000Z",
@@ -4952,6 +4757,23 @@
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
     },
     {
+      "airTimeUTC": "2026-11-26T08:00:00.000Z",
+      "endsAtUTC": "2026-11-26T09:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 08:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:monterrey|america|2026-11-25",
+      "label": "Monterrey v América",
+      "logos": [
+        "/logos/teams/6adfc5fdff6a46e7c5c3.png",
+        "/logos/teams/5b9091de6b8a902c45d0.png"
+      ],
+      "sublabel": "Highlights · Liga MX · played Wed 25 Nov"
+    },
+    {
       "airTimeUTC": "2026-11-26T08:30:00.000Z",
       "endsAtUTC": "2026-11-26T10:20:00.000Z",
       "timeUK": "Thu 26 Nov, 08:30",
@@ -5156,6 +4978,23 @@
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
     },
     {
+      "airTimeUTC": "2026-11-26T19:00:00.000Z",
+      "endsAtUTC": "2026-11-26T21:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 19:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "Fox Deportes",
+        "logo": "/logos/channels/foxdeportes.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
       "airTimeUTC": "2026-11-26T19:30:00.000Z",
       "endsAtUTC": "2026-11-26T21:20:00.000Z",
       "timeUK": "Thu 26 Nov, 19:30",
@@ -5258,6 +5097,312 @@
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
     },
     {
+      "airTimeUTC": "2026-11-27T03:00:00.000Z",
+      "endsAtUTC": "2026-11-27T04:50:00.000Z",
+      "timeUK": "Fri 27 Nov, 03:00",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:40:00.000Z",
+      "endsAtUTC": "2026-11-27T06:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:40",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
+      "label": "Argentinos Juniors v Independiente",
+      "logos": [
+        "/logos/teams/33b63e62059eae3bb223.png",
+        "/logos/teams/0adb2156cbed7830f889.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:44:57.000Z",
+      "endsAtUTC": "2026-11-27T07:11:31.000Z",
+      "timeUK": "Fri 27 Nov, 04:44",
+      "market": "Portugal",
+      "channel": {
+        "name": "SPORT TV 1",
+        "logo": "/logos/channels/sporttv.pt.png"
+      },
+      "watchKey": "football:atletico mineiro|boca juniors|2026-11-21",
+      "label": "Atlético Mineiro v Boca Juniors",
+      "logos": [
+        "/logos/teams/f37e5b48368f5b9ca49f.png",
+        "/logos/teams/abf76051189f0a3d044d.png"
+      ],
+      "sublabel": "Full replay · CONMEBOL Sudamericana · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:50:00.000Z",
+      "endsAtUTC": "2026-11-27T06:40:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:50",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
+      "logos": [
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T06:30:00.000Z",
+      "endsAtUTC": "2026-11-27T08:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 06:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
+      "logos": [
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T06:40:00.000Z",
+      "endsAtUTC": "2026-11-27T08:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 06:40",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
+      "label": "Argentinos Juniors v Independiente",
+      "logos": [
+        "/logos/teams/33b63e62059eae3bb223.png",
+        "/logos/teams/0adb2156cbed7830f889.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T08:00:00.000Z",
+      "endsAtUTC": "2026-11-27T09:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 08:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:pachuca|guadalajara|2026-11-26",
+      "label": "Pachuca v Chivas Guadalajara",
+      "logos": [
+        "/logos/teams/aa74a1f7d5facbda4d6b.png",
+        "/logos/teams/6b34b00284389a659e36.png"
+      ],
+      "sublabel": "Highlights · Liga MX · played Thu 26 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T09:30:00.000Z",
+      "endsAtUTC": "2026-11-27T11:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 09:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T10:10:00.000Z",
+      "endsAtUTC": "2026-11-27T12:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 10:10",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:instituto|huracan|2026-11-22",
+      "label": "Instituto (Córdoba) v Huracán",
+      "logos": [
+        "/logos/teams/bf9a9a24ea8e78aa1422.png",
+        "/logos/teams/051774249e5f1fc77df6.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T11:20:00.000Z",
+      "endsAtUTC": "2026-11-27T13:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 11:20",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T12:00:00.000Z",
+      "endsAtUTC": "2026-11-27T13:50:00.000Z",
+      "timeUK": "Fri 27 Nov, 12:00",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
+      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
+      "logos": [
+        "/logos/teams/4f9d7b429bf272f5276c.png",
+        "/logos/teams/10e447e0c91329fd2b5d.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T13:10:00.000Z",
+      "endsAtUTC": "2026-11-27T15:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 13:10",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:instituto|huracan|2026-11-22",
+      "label": "Instituto (Córdoba) v Huracán",
+      "logos": [
+        "/logos/teams/bf9a9a24ea8e78aa1422.png",
+        "/logos/teams/051774249e5f1fc77df6.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T13:50:00.000Z",
+      "endsAtUTC": "2026-11-27T15:40:00.000Z",
+      "timeUK": "Fri 27 Nov, 13:50",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T14:54:04.000Z",
+      "endsAtUTC": "2026-11-27T16:50:40.000Z",
+      "timeUK": "Fri 27 Nov, 14:54",
+      "market": "Portugal",
+      "channel": {
+        "name": "SPORT TV 1",
+        "logo": "/logos/channels/sporttv.pt.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T15:40:00.000Z",
+      "endsAtUTC": "2026-11-27T17:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 15:40",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T17:30:00.000Z",
+      "endsAtUTC": "2026-11-27T18:25:00.000Z",
+      "timeUK": "Fri 27 Nov, 17:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Highlights · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T18:30:00.000Z",
+      "endsAtUTC": "2026-11-27T20:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 18:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
+      "label": "Defensa y Justicia v Barracas Central",
+      "logos": [
+        "/logos/teams/934d417aaec6f300189a.png",
+        "/logos/teams/99b2c31a0d8d31a2d47c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T20:20:00.000Z",
+      "endsAtUTC": "2026-11-27T22:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 20:20",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
+      "label": "Argentinos Juniors v Independiente",
+      "logos": [
+        "/logos/teams/33b63e62059eae3bb223.png",
+        "/logos/teams/0adb2156cbed7830f889.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
       "airTimeUTC": "2026-11-27T20:30:00.000Z",
       "endsAtUTC": "2026-11-27T22:45:00.000Z",
       "timeUK": "Fri 27 Nov, 20:30",
@@ -5275,76 +5420,25 @@
       "sublabel": "Full replay · Campeonato Brasileiro Série A · played Sat 21 Nov"
     },
     {
-      "airTimeUTC": "2026-11-28T02:30:00.000Z",
-      "endsAtUTC": "2026-11-28T03:00:00.000Z",
-      "timeUK": "Sat 28 Nov, 02:30",
-      "market": "Germany",
+      "airTimeUTC": "2026-11-27T22:10:00.000Z",
+      "endsAtUTC": "2026-11-28T00:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 22:10",
+      "market": "Argentina",
       "channel": {
-        "name": "Sportdigital1+",
-        "logo": "/logos/channels/sportdigital.de.png"
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
       },
-      "watchKey": "football:palmeiras|flamengo|2026-11-21",
-      "label": "Palmeiras v Flamengo",
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
       "logos": [
-        "/logos/teams/a64bbbb7b42a9547bd4f.png",
-        "/logos/teams/c095deec6052bacd6817.png"
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
       ],
-      "sublabel": "Highlights · Campeonato Brasileiro Série A · played Sat 21 Nov"
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
     }
   ],
   "brazilReplaySchedule": [],
   "brazilGuideSchedule": [
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Brazil",
-      "channel": {
-        "name": "CazéTV",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Brazil",
-      "channel": {
-        "name": "Premiere",
-        "logo": "/logos/channels/premiere.globo.com.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Brazil",
-      "channel": {
-        "name": "Record",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
     {
       "airTimeUTC": "2026-11-25T23:00:00.000Z",
       "endsAtUTC": "2026-11-26T01:00:00.000Z",
@@ -5412,315 +5506,26 @@
         "/logos/teams/8812fe72f92f22b39e1e.png"
       ],
       "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T23:00:00.000Z",
+      "endsAtUTC": "2026-11-27T01:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 23:00",
+      "market": "Brazil",
+      "channel": {
+        "name": "Premiere",
+        "logo": "/logos/channels/premiere.globo.com.png"
+      },
+      "watchKey": "football:sao paulo|remo|2026-11-26",
+      "label": "São Paulo v Remo",
+      "logos": [
+        "/logos/teams/7916c257cc4f76efd523.png",
+        "/logos/teams/6503d299bee65d90679d.png"
+      ],
+      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
     }
   ],
   "argentinaReplaySchedule": [
-    {
-      "airTimeUTC": "2026-11-24T01:20:00.000Z",
-      "endsAtUTC": "2026-11-24T03:10:00.000Z",
-      "timeUK": "Tue 24 Nov, 01:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:instituto|huracan|2026-11-22",
-      "label": "Instituto (Córdoba) v Huracán",
-      "logos": [
-        "/logos/teams/bf9a9a24ea8e78aa1422.png",
-        "/logos/teams/051774249e5f1fc77df6.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T03:00:00.000Z",
-      "endsAtUTC": "2026-11-24T04:50:00.000Z",
-      "timeUK": "Tue 24 Nov, 03:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T03:10:00.000Z",
-      "endsAtUTC": "2026-11-24T05:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 03:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
-      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
-      "logos": [
-        "/logos/teams/b00d7a8d05cb11bddf98.png",
-        "/logos/teams/3213e68d2cecea2bd71c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T04:50:00.000Z",
-      "endsAtUTC": "2026-11-24T06:40:00.000Z",
-      "timeUK": "Tue 24 Nov, 04:50",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:instituto|huracan|2026-11-22",
-      "label": "Instituto (Córdoba) v Huracán",
-      "logos": [
-        "/logos/teams/bf9a9a24ea8e78aa1422.png",
-        "/logos/teams/051774249e5f1fc77df6.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T05:00:00.000Z",
-      "endsAtUTC": "2026-11-24T06:50:00.000Z",
-      "timeUK": "Tue 24 Nov, 05:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
-      "label": "Argentinos Juniors v Independiente",
-      "logos": [
-        "/logos/teams/33b63e62059eae3bb223.png",
-        "/logos/teams/0adb2156cbed7830f889.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T06:50:00.000Z",
-      "endsAtUTC": "2026-11-24T08:40:00.000Z",
-      "timeUK": "Tue 24 Nov, 06:50",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T09:00:00.000Z",
-      "endsAtUTC": "2026-11-24T10:50:00.000Z",
-      "timeUK": "Tue 24 Nov, 09:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
-      "label": "Argentinos Juniors v Independiente",
-      "logos": [
-        "/logos/teams/33b63e62059eae3bb223.png",
-        "/logos/teams/0adb2156cbed7830f889.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T10:30:00.000Z",
-      "endsAtUTC": "2026-11-24T11:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 10:30",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Highlights · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T11:00:00.000Z",
-      "endsAtUTC": "2026-11-24T12:20:00.000Z",
-      "timeUK": "Tue 24 Nov, 11:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T12:20:00.000Z",
-      "endsAtUTC": "2026-11-24T14:10:00.000Z",
-      "timeUK": "Tue 24 Nov, 12:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
-      "label": "Argentinos Juniors v Independiente",
-      "logos": [
-        "/logos/teams/33b63e62059eae3bb223.png",
-        "/logos/teams/0adb2156cbed7830f889.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T13:10:00.000Z",
-      "endsAtUTC": "2026-11-24T15:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 13:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T14:10:00.000Z",
-      "endsAtUTC": "2026-11-24T16:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 14:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
-      "label": "Defensa y Justicia v Barracas Central",
-      "logos": [
-        "/logos/teams/934d417aaec6f300189a.png",
-        "/logos/teams/99b2c31a0d8d31a2d47c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T15:00:00.000Z",
-      "endsAtUTC": "2026-11-24T16:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 15:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN 2 Argentina",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:atletico mineiro|boca juniors|2026-11-21",
-      "label": "Atlético Mineiro v Boca Juniors",
-      "logos": [
-        "/logos/teams/f37e5b48368f5b9ca49f.png",
-        "/logos/teams/abf76051189f0a3d044d.png"
-      ],
-      "sublabel": "Highlights · CONMEBOL Sudamericana · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T16:00:00.000Z",
-      "endsAtUTC": "2026-11-24T17:50:00.000Z",
-      "timeUK": "Tue 24 Nov, 16:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
-      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
-      "logos": [
-        "/logos/teams/b00d7a8d05cb11bddf98.png",
-        "/logos/teams/3213e68d2cecea2bd71c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T17:50:00.000Z",
-      "endsAtUTC": "2026-11-24T19:40:00.000Z",
-      "timeUK": "Tue 24 Nov, 17:50",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:instituto|huracan|2026-11-22",
-      "label": "Instituto (Córdoba) v Huracán",
-      "logos": [
-        "/logos/teams/bf9a9a24ea8e78aa1422.png",
-        "/logos/teams/051774249e5f1fc77df6.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T19:40:00.000Z",
-      "endsAtUTC": "2026-11-24T21:30:00.000Z",
-      "timeUK": "Tue 24 Nov, 19:40",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-24T23:20:00.000Z",
-      "endsAtUTC": "2026-11-25T01:10:00.000Z",
-      "timeUK": "Tue 24 Nov, 23:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T01:10:00.000Z",
-      "endsAtUTC": "2026-11-25T03:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 01:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
-      "label": "Defensa y Justicia v Barracas Central",
-      "logos": [
-        "/logos/teams/934d417aaec6f300189a.png",
-        "/logos/teams/99b2c31a0d8d31a2d47c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
     {
       "airTimeUTC": "2026-11-25T03:00:00.000Z",
       "endsAtUTC": "2026-11-25T04:50:00.000Z",
@@ -6332,75 +6137,28 @@
         "/logos/teams/99b2c31a0d8d31a2d47c.png"
       ],
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    }
-  ],
-  "argentinaGuideSchedule": [
-    {
-      "airTimeUTC": "2026-11-24T21:30:00.000Z",
-      "endsAtUTC": "2026-11-24T23:20:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:30",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": null,
-      "label": "Rosario Central v Gimnasia y Esgrima",
-      "logos": [],
-      "sublabel": "Argentina guide"
     },
     {
-      "airTimeUTC": "2026-11-24T23:20:00.000Z",
-      "endsAtUTC": "2026-11-25T01:10:00.000Z",
-      "timeUK": "Tue 24 Nov, 23:20",
+      "airTimeUTC": "2026-11-27T03:00:00.000Z",
+      "endsAtUTC": "2026-11-27T04:50:00.000Z",
+      "timeUK": "Fri 27 Nov, 03:00",
       "market": "Argentina",
       "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
       },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
       "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
       ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
     },
     {
-      "airTimeUTC": "2026-11-25T01:10:00.000Z",
-      "endsAtUTC": "2026-11-25T03:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 01:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
-      "label": "Defensa y Justicia v Barracas Central",
-      "logos": [
-        "/logos/teams/934d417aaec6f300189a.png",
-        "/logos/teams/99b2c31a0d8d31a2d47c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T02:00:00.000Z",
-      "endsAtUTC": "2026-11-25T04:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 02:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "Fox Sports Argentina",
-        "logo": "/logos/channels/foxsports.com.ar.jpg"
-      },
-      "watchKey": null,
-      "label": "Corinthians v Estudiantes",
-      "logos": [],
-      "sublabel": "Argentina guide"
-    },
-    {
-      "airTimeUTC": "2026-11-25T03:00:00.000Z",
-      "endsAtUTC": "2026-11-25T04:50:00.000Z",
-      "timeUK": "Wed 25 Nov, 03:00",
+      "airTimeUTC": "2026-11-27T04:40:00.000Z",
+      "endsAtUTC": "2026-11-27T06:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:40",
       "market": "Argentina",
       "channel": {
         "name": "ESPN Premium",
@@ -6415,23 +6173,26 @@
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
     },
     {
-      "airTimeUTC": "2026-11-25T04:00:00.000Z",
-      "endsAtUTC": "2026-11-25T06:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 04:00",
+      "airTimeUTC": "2026-11-27T04:50:00.000Z",
+      "endsAtUTC": "2026-11-27T06:40:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:50",
       "market": "Argentina",
       "channel": {
-        "name": "Fox Sports Argentina",
-        "logo": "/logos/channels/foxsports.com.ar.jpg"
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
       },
-      "watchKey": null,
-      "label": "LDU de Quito v Palmeiras",
-      "logos": [],
-      "sublabel": "Argentina guide"
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
+      "logos": [
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
     },
     {
-      "airTimeUTC": "2026-11-25T04:50:00.000Z",
-      "endsAtUTC": "2026-11-25T06:40:00.000Z",
-      "timeUK": "Wed 25 Nov, 04:50",
+      "airTimeUTC": "2026-11-27T06:30:00.000Z",
+      "endsAtUTC": "2026-11-27T08:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 06:30",
       "market": "Argentina",
       "channel": {
         "name": "ESPN Premium",
@@ -6446,142 +6207,9 @@
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
     },
     {
-      "airTimeUTC": "2026-11-25T06:30:00.000Z",
-      "endsAtUTC": "2026-11-25T08:20:00.000Z",
-      "timeUK": "Wed 25 Nov, 06:30",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
-      "label": "Defensa y Justicia v Barracas Central",
-      "logos": [
-        "/logos/teams/934d417aaec6f300189a.png",
-        "/logos/teams/99b2c31a0d8d31a2d47c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T06:40:00.000Z",
-      "endsAtUTC": "2026-11-25T08:30:00.000Z",
-      "timeUK": "Wed 25 Nov, 06:40",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:instituto|huracan|2026-11-22",
-      "label": "Instituto (Córdoba) v Huracán",
-      "logos": [
-        "/logos/teams/bf9a9a24ea8e78aa1422.png",
-        "/logos/teams/051774249e5f1fc77df6.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T08:30:00.000Z",
-      "endsAtUTC": "2026-11-25T10:20:00.000Z",
-      "timeUK": "Wed 25 Nov, 08:30",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T09:30:00.000Z",
-      "endsAtUTC": "2026-11-25T11:20:00.000Z",
-      "timeUK": "Wed 25 Nov, 09:30",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
-      "label": "Defensa y Justicia v Barracas Central",
-      "logos": [
-        "/logos/teams/934d417aaec6f300189a.png",
-        "/logos/teams/99b2c31a0d8d31a2d47c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T10:00:00.000Z",
-      "endsAtUTC": "2026-11-25T12:30:00.000Z",
-      "timeUK": "Wed 25 Nov, 10:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "DSports",
-        "logo": "/logos/channels/directvsports.com.png"
-      },
-      "watchKey": "football:atletico mineiro|boca juniors|2026-11-21",
-      "label": "Atlético Mineiro v Boca Juniors",
-      "logos": [
-        "/logos/teams/f37e5b48368f5b9ca49f.png",
-        "/logos/teams/abf76051189f0a3d044d.png"
-      ],
-      "sublabel": "Full replay · CONMEBOL Sudamericana · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T10:20:00.000Z",
-      "endsAtUTC": "2026-11-25T12:10:00.000Z",
-      "timeUK": "Wed 25 Nov, 10:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T11:20:00.000Z",
-      "endsAtUTC": "2026-11-25T13:10:00.000Z",
-      "timeUK": "Wed 25 Nov, 11:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": null,
-      "label": "Rosario Central v Gimnasia y Esgrima",
-      "logos": [],
-      "sublabel": "Argentina guide"
-    },
-    {
-      "airTimeUTC": "2026-11-25T12:10:00.000Z",
-      "endsAtUTC": "2026-11-25T14:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 12:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T13:10:00.000Z",
-      "endsAtUTC": "2026-11-25T15:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 13:10",
+      "airTimeUTC": "2026-11-27T06:40:00.000Z",
+      "endsAtUTC": "2026-11-27T08:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 06:40",
       "market": "Argentina",
       "channel": {
         "name": "TNT Sports Argentina",
@@ -6596,37 +6224,26 @@
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
     },
     {
-      "airTimeUTC": "2026-11-25T14:00:00.000Z",
-      "endsAtUTC": "2026-11-25T15:50:00.000Z",
-      "timeUK": "Wed 25 Nov, 14:00",
+      "airTimeUTC": "2026-11-27T09:30:00.000Z",
+      "endsAtUTC": "2026-11-27T11:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 09:30",
       "market": "Argentina",
       "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
       },
-      "watchKey": null,
-      "label": "Rosario Central v Gimnasia y Esgrima",
-      "logos": [],
-      "sublabel": "Argentina guide"
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
     },
     {
-      "airTimeUTC": "2026-11-25T16:00:00.000Z",
-      "endsAtUTC": "2026-11-25T16:25:00.000Z",
-      "timeUK": "Wed 25 Nov, 16:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": null,
-      "label": "Boca Juniors v River Plate",
-      "logos": [],
-      "sublabel": "Argentina guide"
-    },
-    {
-      "airTimeUTC": "2026-11-25T16:25:00.000Z",
-      "endsAtUTC": "2026-11-25T18:15:00.000Z",
-      "timeUK": "Wed 25 Nov, 16:25",
+      "airTimeUTC": "2026-11-27T10:10:00.000Z",
+      "endsAtUTC": "2026-11-27T12:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 10:10",
       "market": "Argentina",
       "channel": {
         "name": "ESPN Premium",
@@ -6641,9 +6258,26 @@
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
     },
     {
-      "airTimeUTC": "2026-11-25T18:15:00.000Z",
-      "endsAtUTC": "2026-11-25T20:05:00.000Z",
-      "timeUK": "Wed 25 Nov, 18:15",
+      "airTimeUTC": "2026-11-27T11:20:00.000Z",
+      "endsAtUTC": "2026-11-27T13:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 11:20",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T12:00:00.000Z",
+      "endsAtUTC": "2026-11-27T13:50:00.000Z",
+      "timeUK": "Fri 27 Nov, 12:00",
       "market": "Argentina",
       "channel": {
         "name": "ESPN Premium",
@@ -6657,6 +6291,127 @@
       ],
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
     },
+    {
+      "airTimeUTC": "2026-11-27T13:10:00.000Z",
+      "endsAtUTC": "2026-11-27T15:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 13:10",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:instituto|huracan|2026-11-22",
+      "label": "Instituto (Córdoba) v Huracán",
+      "logos": [
+        "/logos/teams/bf9a9a24ea8e78aa1422.png",
+        "/logos/teams/051774249e5f1fc77df6.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T13:50:00.000Z",
+      "endsAtUTC": "2026-11-27T15:40:00.000Z",
+      "timeUK": "Fri 27 Nov, 13:50",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T15:40:00.000Z",
+      "endsAtUTC": "2026-11-27T17:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 15:40",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T17:30:00.000Z",
+      "endsAtUTC": "2026-11-27T18:25:00.000Z",
+      "timeUK": "Fri 27 Nov, 17:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Highlights · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T18:30:00.000Z",
+      "endsAtUTC": "2026-11-27T20:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 18:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
+      "label": "Defensa y Justicia v Barracas Central",
+      "logos": [
+        "/logos/teams/934d417aaec6f300189a.png",
+        "/logos/teams/99b2c31a0d8d31a2d47c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T20:20:00.000Z",
+      "endsAtUTC": "2026-11-27T22:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 20:20",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
+      "label": "Argentinos Juniors v Independiente",
+      "logos": [
+        "/logos/teams/33b63e62059eae3bb223.png",
+        "/logos/teams/0adb2156cbed7830f889.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T22:10:00.000Z",
+      "endsAtUTC": "2026-11-28T00:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 22:10",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
+      "logos": [
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
+    }
+  ],
+  "argentinaGuideSchedule": [
     {
       "airTimeUTC": "2026-11-25T20:05:00.000Z",
       "endsAtUTC": "2026-11-25T21:55:00.000Z",
@@ -7292,6 +7047,306 @@
         "/logos/teams/99b2c31a0d8d31a2d47c.png"
       ],
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T03:00:00.000Z",
+      "endsAtUTC": "2026-11-27T04:50:00.000Z",
+      "timeUK": "Fri 27 Nov, 03:00",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:00:00.000Z",
+      "endsAtUTC": "2026-11-27T06:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:00",
+      "market": "Argentina",
+      "channel": {
+        "name": "Fox Sports Argentina",
+        "logo": "/logos/channels/foxsports.com.ar.jpg"
+      },
+      "watchKey": null,
+      "label": "Fluminense v Palmeiras",
+      "logos": [],
+      "sublabel": "Argentina guide"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:40:00.000Z",
+      "endsAtUTC": "2026-11-27T06:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:40",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
+      "label": "Argentinos Juniors v Independiente",
+      "logos": [
+        "/logos/teams/33b63e62059eae3bb223.png",
+        "/logos/teams/0adb2156cbed7830f889.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:50:00.000Z",
+      "endsAtUTC": "2026-11-27T06:40:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:50",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
+      "logos": [
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T06:30:00.000Z",
+      "endsAtUTC": "2026-11-27T08:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 06:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
+      "logos": [
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T06:40:00.000Z",
+      "endsAtUTC": "2026-11-27T08:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 06:40",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
+      "label": "Argentinos Juniors v Independiente",
+      "logos": [
+        "/logos/teams/33b63e62059eae3bb223.png",
+        "/logos/teams/0adb2156cbed7830f889.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T08:20:00.000Z",
+      "endsAtUTC": "2026-11-27T10:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 08:20",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": null,
+      "label": "Rosario Central v Gimnasia y Esgrima",
+      "logos": [],
+      "sublabel": "Argentina guide"
+    },
+    {
+      "airTimeUTC": "2026-11-27T09:30:00.000Z",
+      "endsAtUTC": "2026-11-27T11:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 09:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T10:10:00.000Z",
+      "endsAtUTC": "2026-11-27T12:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 10:10",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:instituto|huracan|2026-11-22",
+      "label": "Instituto (Córdoba) v Huracán",
+      "logos": [
+        "/logos/teams/bf9a9a24ea8e78aa1422.png",
+        "/logos/teams/051774249e5f1fc77df6.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T11:20:00.000Z",
+      "endsAtUTC": "2026-11-27T13:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 11:20",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T12:00:00.000Z",
+      "endsAtUTC": "2026-11-27T13:50:00.000Z",
+      "timeUK": "Fri 27 Nov, 12:00",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
+      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
+      "logos": [
+        "/logos/teams/4f9d7b429bf272f5276c.png",
+        "/logos/teams/10e447e0c91329fd2b5d.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T13:10:00.000Z",
+      "endsAtUTC": "2026-11-27T15:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 13:10",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:instituto|huracan|2026-11-22",
+      "label": "Instituto (Córdoba) v Huracán",
+      "logos": [
+        "/logos/teams/bf9a9a24ea8e78aa1422.png",
+        "/logos/teams/051774249e5f1fc77df6.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T13:50:00.000Z",
+      "endsAtUTC": "2026-11-27T15:40:00.000Z",
+      "timeUK": "Fri 27 Nov, 13:50",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T15:40:00.000Z",
+      "endsAtUTC": "2026-11-27T17:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 15:40",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T17:30:00.000Z",
+      "endsAtUTC": "2026-11-27T18:25:00.000Z",
+      "timeUK": "Fri 27 Nov, 17:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Highlights · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T18:30:00.000Z",
+      "endsAtUTC": "2026-11-27T20:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 18:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
+      "label": "Defensa y Justicia v Barracas Central",
+      "logos": [
+        "/logos/teams/934d417aaec6f300189a.png",
+        "/logos/teams/99b2c31a0d8d31a2d47c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T20:20:00.000Z",
+      "endsAtUTC": "2026-11-27T22:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 20:20",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
+      "label": "Argentinos Juniors v Independiente",
+      "logos": [
+        "/logos/teams/33b63e62059eae3bb223.png",
+        "/logos/teams/0adb2156cbed7830f889.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T22:10:00.000Z",
+      "endsAtUTC": "2026-11-28T00:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 22:10",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
+      "logos": [
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
     }
   ],
   "mexicoReplaySchedule": [],
@@ -7331,6 +7386,23 @@
       "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
     },
     {
+      "airTimeUTC": "2026-11-26T01:00:00.000Z",
+      "endsAtUTC": "2026-11-26T03:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 01:00",
+      "market": "Mexico",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:toluca|atlas|2026-11-25",
+      "label": "Toluca v Atlas",
+      "logos": [
+        "/logos/teams/c8da71ef290dba8ded61.png",
+        "/logos/teams/f6c52c61e1ee0b54a191.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
+    },
+    {
       "airTimeUTC": "2026-11-26T03:00:00.000Z",
       "endsAtUTC": "2026-11-26T05:00:00.000Z",
       "timeUK": "Thu 26 Nov, 03:00",
@@ -7346,147 +7418,44 @@
         "/logos/teams/5b9091de6b8a902c45d0.png"
       ],
       "sublabel": "Live / scheduled · Liga MX"
-    }
-  ],
-  "spainReplaySchedule": [
-    {
-      "airTimeUTC": "2026-11-24T03:30:00.000Z",
-      "endsAtUTC": "2026-11-24T05:30:00.000Z",
-      "timeUK": "Tue 24 Nov, 03:30",
-      "market": "Spain",
-      "channel": {
-        "name": "beIN Sports España",
-        "logo": "/logos/channels/beinsports.com.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
     },
     {
-      "airTimeUTC": "2026-11-24T07:30:00.000Z",
-      "endsAtUTC": "2026-11-24T09:30:00.000Z",
-      "timeUK": "Tue 24 Nov, 07:30",
-      "market": "Spain",
+      "airTimeUTC": "2026-11-27T01:00:00.000Z",
+      "endsAtUTC": "2026-11-27T03:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 01:00",
+      "market": "Mexico",
       "channel": {
-        "name": "beIN Sports España",
-        "logo": "/logos/channels/beinsports.com.png"
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
       },
-      "watchKey": "football:santos|gremio|2026-11-23",
-      "label": "Santos v Grêmio",
+      "watchKey": "football:pachuca|guadalajara|2026-11-26",
+      "label": "Pachuca v Chivas Guadalajara",
       "logos": [
-        "/logos/teams/e17eb5f05c159e9b98d9.png",
-        "/logos/teams/c52aa80373b5a5124d96.png"
+        "/logos/teams/aa74a1f7d5facbda4d6b.png",
+        "/logos/teams/6b34b00284389a659e36.png"
       ],
-      "sublabel": "Full replay · Campeonato Brasileiro Série A · played Mon 23 Nov"
+      "sublabel": "Live / scheduled · Liga MX"
+    },
+    {
+      "airTimeUTC": "2026-11-27T03:10:00.000Z",
+      "endsAtUTC": "2026-11-27T05:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 03:10",
+      "market": "Mexico",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:leon|cruz azul|2026-11-26",
+      "label": "Club León v Cruz Azul",
+      "logos": [
+        "/logos/teams/549b693c7edf67d188bf.png",
+        "/logos/teams/24216a391bc6be432ed9.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
     }
   ],
+  "spainReplaySchedule": [],
   "spainGuideSchedule": [
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "M+ Vamos 2",
-        "logo": "/logos/channels/movistar.es.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "Fanatiz",
-        "logo": "/logos/channels/fanatiz.com.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "M+ #Vamos Bar 2",
-        "logo": "/logos/channels/movistar.es.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "M+ Liga de Campeones 9",
-        "logo": "/logos/channels/movistar.es.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "Movistar+",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "Movistar Plus+ (streaming)",
-        "logo": "/logos/channels/movistar.es.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
     {
       "airTimeUTC": "2026-11-25T23:00:00.000Z",
       "endsAtUTC": "2026-11-26T01:00:00.000Z",
@@ -7503,6 +7472,23 @@
         "/logos/teams/26056dabd7e25dbc7099.png"
       ],
       "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
+    },
+    {
+      "airTimeUTC": "2026-11-25T23:50:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Wed 25 Nov, 23:50",
+      "market": "Spain",
+      "channel": {
+        "name": "beIN Sports España",
+        "logo": "/logos/channels/beinsports.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
     },
     {
       "airTimeUTC": "2026-11-26T00:00:00.000Z",
@@ -7528,6 +7514,40 @@
       "market": "Spain",
       "channel": {
         "name": "M+ Liga de Campeones",
+        "logo": "/logos/channels/movistar.es.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
+      "market": "Spain",
+      "channel": {
+        "name": "Movistar+ Liga de Campeones",
+        "logo": null
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
+      "market": "Spain",
+      "channel": {
+        "name": "Movistar Plus+ (streaming)",
         "logo": "/logos/channels/movistar.es.png"
       },
       "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
@@ -7607,6 +7627,23 @@
       "sublabel": "Live / scheduled · CONMEBOL Libertadores"
     },
     {
+      "airTimeUTC": "2026-11-28T20:00:00.000Z",
+      "endsAtUTC": "2026-11-28T22:00:00.000Z",
+      "timeUK": "Sat 28 Nov, 20:00",
+      "market": "Spain",
+      "channel": {
+        "name": "M+ Liga de Campeones",
+        "logo": "/logos/channels/movistar.es.png"
+      },
+      "watchKey": "football:palmeiras|estudiantes lp|2026-11-28",
+      "label": "Palmeiras v Estudiantes de La Plata",
+      "logos": [
+        "/logos/teams/a64bbbb7b42a9547bd4f.png",
+        "/logos/teams/a6101fde5327ca9940dc.png"
+      ],
+      "sublabel": "Live / scheduled · CONMEBOL Libertadores"
+    },
+    {
       "airTimeUTC": "2026-11-29T19:00:00.000Z",
       "endsAtUTC": "2026-11-29T21:00:00.000Z",
       "timeUK": "Sun 29 Nov, 19:00",
@@ -7639,730 +7676,26 @@
         "/logos/teams/c095deec6052bacd6817.png"
       ],
       "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
+    },
+    {
+      "airTimeUTC": "2026-11-30T01:07:00.000Z",
+      "endsAtUTC": "2026-11-30T03:07:00.000Z",
+      "timeUK": "Mon 30 Nov, 01:07",
+      "market": "Spain",
+      "channel": {
+        "name": "OneFootball PPV",
+        "logo": "/logos/channels/onefootball.com.png"
+      },
+      "watchKey": "football:guadalajara|pachuca|2026-11-29",
+      "label": "Chivas Guadalajara v Pachuca",
+      "logos": [
+        "/logos/teams/6b34b00284389a659e36.png",
+        "/logos/teams/aa74a1f7d5facbda4d6b.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
     }
   ],
   "allGuideSchedule": [
-    {
-      "airTimeUTC": "2026-11-24T20:55:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 20:55",
-      "market": "UK",
-      "channel": {
-        "name": "Premier Sports 1",
-        "logo": "/logos/channels/premiersports.com.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "M+ Vamos 2",
-        "logo": "/logos/channels/movistar.es.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "Fanatiz",
-        "logo": "/logos/channels/fanatiz.com.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "M+ #Vamos Bar 2",
-        "logo": "/logos/channels/movistar.es.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "M+ Liga de Campeones 9",
-        "logo": "/logos/channels/movistar.es.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Brazil",
-      "channel": {
-        "name": "CazéTV",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Brazil",
-      "channel": {
-        "name": "Premiere",
-        "logo": "/logos/channels/premiere.globo.com.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Brazil",
-      "channel": {
-        "name": "Record",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Germany",
-      "channel": {
-        "name": "Sportdigital+",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Germany",
-      "channel": {
-        "name": "Sportdigital FUSSBALL",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Germany",
-      "channel": {
-        "name": "Sportdigital FUSSBALL2",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "Movistar+",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Spain",
-      "channel": {
-        "name": "Movistar Plus+ (streaming)",
-        "logo": "/logos/channels/movistar.es.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "Portugal",
-      "channel": {
-        "name": "Canal 11",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "UK",
-      "channel": {
-        "name": "Premier Sports 1 HD",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "UK",
-      "channel": {
-        "name": "Premier Sports 1 UK",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "UK",
-      "channel": {
-        "name": "Premier Sports Player",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:00:00.000Z",
-      "endsAtUTC": "2026-11-24T23:00:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:00",
-      "market": "US & Canada (English)",
-      "channel": {
-        "name": "Fanatiz USA",
-        "logo": null
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
-    },
-    {
-      "airTimeUTC": "2026-11-24T21:30:00.000Z",
-      "endsAtUTC": "2026-11-24T23:20:00.000Z",
-      "timeUK": "Tue 24 Nov, 21:30",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": null,
-      "label": "Rosario Central v Gimnasia y Esgrima",
-      "logos": [],
-      "sublabel": "All channels"
-    },
-    {
-      "airTimeUTC": "2026-11-24T23:20:00.000Z",
-      "endsAtUTC": "2026-11-25T01:10:00.000Z",
-      "timeUK": "Tue 24 Nov, 23:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T01:10:00.000Z",
-      "endsAtUTC": "2026-11-25T03:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 01:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
-      "label": "Defensa y Justicia v Barracas Central",
-      "logos": [
-        "/logos/teams/934d417aaec6f300189a.png",
-        "/logos/teams/99b2c31a0d8d31a2d47c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T02:00:00.000Z",
-      "endsAtUTC": "2026-11-25T04:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 02:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "Fox Sports Argentina",
-        "logo": "/logos/channels/foxsports.com.ar.jpg"
-      },
-      "watchKey": null,
-      "label": "Corinthians v Estudiantes",
-      "logos": [],
-      "sublabel": "All channels"
-    },
-    {
-      "airTimeUTC": "2026-11-25T03:00:00.000Z",
-      "endsAtUTC": "2026-11-25T04:50:00.000Z",
-      "timeUK": "Wed 25 Nov, 03:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
-      "label": "Argentinos Juniors v Independiente",
-      "logos": [
-        "/logos/teams/33b63e62059eae3bb223.png",
-        "/logos/teams/0adb2156cbed7830f889.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T04:00:00.000Z",
-      "endsAtUTC": "2026-11-25T06:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 04:00",
-      "market": "US & Canada (Spanish)",
-      "channel": {
-        "name": "beIN Sports en Español",
-        "logo": "/logos/channels/beinsports.com.png"
-      },
-      "watchKey": "football:palmeiras|flamengo|2026-11-21",
-      "label": "Palmeiras v Flamengo",
-      "logos": [
-        "/logos/teams/a64bbbb7b42a9547bd4f.png",
-        "/logos/teams/c095deec6052bacd6817.png"
-      ],
-      "sublabel": "Full replay · Campeonato Brasileiro Série A · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T04:00:00.000Z",
-      "endsAtUTC": "2026-11-25T06:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 04:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "Fox Sports Argentina",
-        "logo": "/logos/channels/foxsports.com.ar.jpg"
-      },
-      "watchKey": null,
-      "label": "LDU de Quito v Palmeiras",
-      "logos": [],
-      "sublabel": "All channels"
-    },
-    {
-      "airTimeUTC": "2026-11-25T04:50:00.000Z",
-      "endsAtUTC": "2026-11-25T06:40:00.000Z",
-      "timeUK": "Wed 25 Nov, 04:50",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
-      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
-      "logos": [
-        "/logos/teams/b00d7a8d05cb11bddf98.png",
-        "/logos/teams/3213e68d2cecea2bd71c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T06:30:00.000Z",
-      "endsAtUTC": "2026-11-25T08:30:00.000Z",
-      "timeUK": "Wed 25 Nov, 06:30",
-      "market": "UK",
-      "channel": {
-        "name": "Premier Sports 1",
-        "logo": "/logos/channels/premiersports.com.png"
-      },
-      "watchKey": "football:chapecoense|palmeiras|2026-11-24",
-      "label": "Chapecoense v Palmeiras",
-      "logos": [
-        "/logos/teams/a9f2574a820b141d3ad7.png",
-        "/logos/teams/a64bbbb7b42a9547bd4f.png"
-      ],
-      "sublabel": "Full replay · Campeonato Brasileiro Série A · played Tue 24 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T06:30:00.000Z",
-      "endsAtUTC": "2026-11-25T08:20:00.000Z",
-      "timeUK": "Wed 25 Nov, 06:30",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
-      "label": "Defensa y Justicia v Barracas Central",
-      "logos": [
-        "/logos/teams/934d417aaec6f300189a.png",
-        "/logos/teams/99b2c31a0d8d31a2d47c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T06:40:00.000Z",
-      "endsAtUTC": "2026-11-25T08:30:00.000Z",
-      "timeUK": "Wed 25 Nov, 06:40",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:instituto|huracan|2026-11-22",
-      "label": "Instituto (Córdoba) v Huracán",
-      "logos": [
-        "/logos/teams/bf9a9a24ea8e78aa1422.png",
-        "/logos/teams/051774249e5f1fc77df6.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T08:30:00.000Z",
-      "endsAtUTC": "2026-11-25T10:20:00.000Z",
-      "timeUK": "Wed 25 Nov, 08:30",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T09:30:00.000Z",
-      "endsAtUTC": "2026-11-25T11:20:00.000Z",
-      "timeUK": "Wed 25 Nov, 09:30",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
-      "label": "Defensa y Justicia v Barracas Central",
-      "logos": [
-        "/logos/teams/934d417aaec6f300189a.png",
-        "/logos/teams/99b2c31a0d8d31a2d47c.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T10:00:00.000Z",
-      "endsAtUTC": "2026-11-25T12:30:00.000Z",
-      "timeUK": "Wed 25 Nov, 10:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "DSports",
-        "logo": "/logos/channels/directvsports.com.png"
-      },
-      "watchKey": "football:atletico mineiro|boca juniors|2026-11-21",
-      "label": "Atlético Mineiro v Boca Juniors",
-      "logos": [
-        "/logos/teams/f37e5b48368f5b9ca49f.png",
-        "/logos/teams/abf76051189f0a3d044d.png"
-      ],
-      "sublabel": "Full replay · CONMEBOL Sudamericana · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T10:20:00.000Z",
-      "endsAtUTC": "2026-11-25T12:10:00.000Z",
-      "timeUK": "Wed 25 Nov, 10:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T11:20:00.000Z",
-      "endsAtUTC": "2026-11-25T13:10:00.000Z",
-      "timeUK": "Wed 25 Nov, 11:20",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": null,
-      "label": "Rosario Central v Gimnasia y Esgrima",
-      "logos": [],
-      "sublabel": "All channels"
-    },
-    {
-      "airTimeUTC": "2026-11-25T12:10:00.000Z",
-      "endsAtUTC": "2026-11-25T14:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 12:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:river plate|lanus|2026-11-22",
-      "label": "River Plate v Lanús",
-      "logos": [
-        "/logos/teams/6af619d1b2a285ecde08.png",
-        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T13:10:00.000Z",
-      "endsAtUTC": "2026-11-25T15:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 13:10",
-      "market": "Argentina",
-      "channel": {
-        "name": "TNT Sports Argentina",
-        "logo": "/logos/channels/tntsports.com.ar.png"
-      },
-      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
-      "label": "Argentinos Juniors v Independiente",
-      "logos": [
-        "/logos/teams/33b63e62059eae3bb223.png",
-        "/logos/teams/0adb2156cbed7830f889.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T14:00:00.000Z",
-      "endsAtUTC": "2026-11-25T15:50:00.000Z",
-      "timeUK": "Wed 25 Nov, 14:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": null,
-      "label": "Rosario Central v Gimnasia y Esgrima",
-      "logos": [],
-      "sublabel": "All channels"
-    },
-    {
-      "airTimeUTC": "2026-11-25T14:04:55.000Z",
-      "endsAtUTC": "2026-11-25T16:29:11.000Z",
-      "timeUK": "Wed 25 Nov, 14:04",
-      "market": "Portugal",
-      "channel": {
-        "name": "SPORT TV 1",
-        "logo": "/logos/channels/sporttv.pt.png"
-      },
-      "watchKey": "football:atletico mineiro|boca juniors|2026-11-21",
-      "label": "Atlético Mineiro v Boca Juniors",
-      "logos": [
-        "/logos/teams/f37e5b48368f5b9ca49f.png",
-        "/logos/teams/abf76051189f0a3d044d.png"
-      ],
-      "sublabel": "Full replay · CONMEBOL Sudamericana · played Sat 21 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T16:00:00.000Z",
-      "endsAtUTC": "2026-11-25T16:25:00.000Z",
-      "timeUK": "Wed 25 Nov, 16:00",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": null,
-      "label": "Boca Juniors v River Plate",
-      "logos": [],
-      "sublabel": "All channels"
-    },
-    {
-      "airTimeUTC": "2026-11-25T16:25:00.000Z",
-      "endsAtUTC": "2026-11-25T18:15:00.000Z",
-      "timeUK": "Wed 25 Nov, 16:25",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:instituto|huracan|2026-11-22",
-      "label": "Instituto (Córdoba) v Huracán",
-      "logos": [
-        "/logos/teams/bf9a9a24ea8e78aa1422.png",
-        "/logos/teams/051774249e5f1fc77df6.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T18:00:00.000Z",
-      "endsAtUTC": "2026-11-25T18:30:00.000Z",
-      "timeUK": "Wed 25 Nov, 18:00",
-      "market": "US & Canada (English)",
-      "channel": {
-        "name": "beIN Sports",
-        "logo": "/logos/channels/beinsports.com.png"
-      },
-      "watchKey": null,
-      "label": "Fluminense v Palmeiras",
-      "logos": [],
-      "sublabel": "All channels"
-    },
-    {
-      "airTimeUTC": "2026-11-25T18:00:00.000Z",
-      "endsAtUTC": "2026-11-25T20:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 18:00",
-      "market": "US & Canada (Spanish)",
-      "channel": {
-        "name": "beIN Sports en Español",
-        "logo": "/logos/channels/beinsports.com.png"
-      },
-      "watchKey": null,
-      "label": "Flamengo v Estudiantes",
-      "logos": [],
-      "sublabel": "All channels"
-    },
-    {
-      "airTimeUTC": "2026-11-25T18:15:00.000Z",
-      "endsAtUTC": "2026-11-25T20:05:00.000Z",
-      "timeUK": "Wed 25 Nov, 18:15",
-      "market": "Argentina",
-      "channel": {
-        "name": "ESPN Premium",
-        "logo": "/logos/channels/espn.com.png"
-      },
-      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
-      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
-      "logos": [
-        "/logos/teams/4f9d7b429bf272f5276c.png",
-        "/logos/teams/10e447e0c91329fd2b5d.png"
-      ],
-      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-25T18:30:00.000Z",
-      "endsAtUTC": "2026-11-25T19:00:00.000Z",
-      "timeUK": "Wed 25 Nov, 18:30",
-      "market": "US & Canada (English)",
-      "channel": {
-        "name": "beIN Sports",
-        "logo": "/logos/channels/beinsports.com.png"
-      },
-      "watchKey": null,
-      "label": "Estudiantes v Flamengo",
-      "logos": [],
-      "sublabel": "All channels"
-    },
     {
       "airTimeUTC": "2026-11-25T19:00:00.000Z",
       "endsAtUTC": "2026-11-25T21:00:00.000Z",
@@ -8480,6 +7813,40 @@
       "airTimeUTC": "2026-11-25T23:00:00.000Z",
       "endsAtUTC": "2026-11-26T01:00:00.000Z",
       "timeUK": "Wed 25 Nov, 23:00",
+      "market": "Germany",
+      "channel": {
+        "name": "Sportdigital+",
+        "logo": null
+      },
+      "watchKey": "football:atletico mineiro|corinthians|2026-11-25",
+      "label": "Atlético Mineiro v Corinthians",
+      "logos": [
+        "/logos/teams/f37e5b48368f5b9ca49f.png",
+        "/logos/teams/26056dabd7e25dbc7099.png"
+      ],
+      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
+    },
+    {
+      "airTimeUTC": "2026-11-25T23:00:00.000Z",
+      "endsAtUTC": "2026-11-26T01:00:00.000Z",
+      "timeUK": "Wed 25 Nov, 23:00",
+      "market": "Germany",
+      "channel": {
+        "name": "Sportdigital FUSSBALL2",
+        "logo": null
+      },
+      "watchKey": "football:atletico mineiro|corinthians|2026-11-25",
+      "label": "Atlético Mineiro v Corinthians",
+      "logos": [
+        "/logos/teams/f37e5b48368f5b9ca49f.png",
+        "/logos/teams/26056dabd7e25dbc7099.png"
+      ],
+      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
+    },
+    {
+      "airTimeUTC": "2026-11-25T23:00:00.000Z",
+      "endsAtUTC": "2026-11-26T01:00:00.000Z",
+      "timeUK": "Wed 25 Nov, 23:00",
       "market": "US & Canada (English)",
       "channel": {
         "name": "Fanatiz USA",
@@ -8501,6 +7868,23 @@
       "channel": {
         "name": "ESPN Premium",
         "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-25T23:50:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Wed 25 Nov, 23:50",
+      "market": "Spain",
+      "channel": {
+        "name": "beIN Sports España",
+        "logo": "/logos/channels/beinsports.com.png"
       },
       "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
       "label": "Boca Juniors v Independiente Rivadavia",
@@ -8746,10 +8130,163 @@
       "airTimeUTC": "2026-11-26T00:00:00.000Z",
       "endsAtUTC": "2026-11-26T02:00:00.000Z",
       "timeUK": "Thu 26 Nov, 00:00",
+      "market": "Germany",
+      "channel": {
+        "name": "Sportdigital+",
+        "logo": null
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
+      "market": "Germany",
+      "channel": {
+        "name": "Sportdigital FUSSBALL",
+        "logo": null
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
+      "market": "Spain",
+      "channel": {
+        "name": "Movistar+ Liga de Campeones",
+        "logo": null
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
+      "market": "Spain",
+      "channel": {
+        "name": "Movistar Plus+ (streaming)",
+        "logo": "/logos/channels/movistar.es.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
+      "market": "Italy",
+      "channel": {
+        "name": "SportItalia",
+        "logo": null
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
       "market": "Mexico",
       "channel": {
         "name": "TyC Sports Internacional",
         "logo": "/logos/channels/tycsports.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
+      "market": "Portugal",
+      "channel": {
+        "name": "Sport TV2",
+        "logo": null
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
+      "market": "UK",
+      "channel": {
+        "name": "Premier Sports 2 HD",
+        "logo": null
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
+      "market": "UK",
+      "channel": {
+        "name": "Premier Sports 2 UK",
+        "logo": null
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:00:00.000Z",
+      "endsAtUTC": "2026-11-26T02:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:00",
+      "market": "UK",
+      "channel": {
+        "name": "Premier Sports Player",
+        "logo": null
       },
       "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
       "label": "Boca Juniors v Independiente Rivadavia",
@@ -8775,6 +8312,74 @@
         "/logos/teams/8812fe72f92f22b39e1e.png"
       ],
       "sublabel": "Live / scheduled · Liga Profesional de Fútbol"
+    },
+    {
+      "airTimeUTC": "2026-11-26T00:30:00.000Z",
+      "endsAtUTC": "2026-11-26T03:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 00:30",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:toluca|atlas|2026-11-25",
+      "label": "Toluca v Atlas",
+      "logos": [
+        "/logos/teams/c8da71ef290dba8ded61.png",
+        "/logos/teams/f6c52c61e1ee0b54a191.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
+    },
+    {
+      "airTimeUTC": "2026-11-26T01:00:00.000Z",
+      "endsAtUTC": "2026-11-26T03:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 01:00",
+      "market": "Mexico",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:toluca|atlas|2026-11-25",
+      "label": "Toluca v Atlas",
+      "logos": [
+        "/logos/teams/c8da71ef290dba8ded61.png",
+        "/logos/teams/f6c52c61e1ee0b54a191.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
+    },
+    {
+      "airTimeUTC": "2026-11-26T03:00:00.000Z",
+      "endsAtUTC": "2026-11-26T05:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 03:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:monterrey|america|2026-11-25",
+      "label": "Monterrey v América",
+      "logos": [
+        "/logos/teams/6adfc5fdff6a46e7c5c3.png",
+        "/logos/teams/5b9091de6b8a902c45d0.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
+    },
+    {
+      "airTimeUTC": "2026-11-26T03:00:00.000Z",
+      "endsAtUTC": "2026-11-26T05:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 03:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "UniMás",
+        "logo": "/logos/channels/unimas.com.png"
+      },
+      "watchKey": "football:monterrey|america|2026-11-25",
+      "label": "Monterrey v América",
+      "logos": [
+        "/logos/teams/6adfc5fdff6a46e7c5c3.png",
+        "/logos/teams/5b9091de6b8a902c45d0.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
     },
     {
       "airTimeUTC": "2026-11-26T03:00:00.000Z",
@@ -8809,23 +8414,6 @@
         "/logos/teams/8812fe72f92f22b39e1e.png"
       ],
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
-    },
-    {
-      "airTimeUTC": "2026-11-26T03:00:00.000Z",
-      "endsAtUTC": "2026-11-26T05:00:00.000Z",
-      "timeUK": "Thu 26 Nov, 03:00",
-      "market": "Mexico",
-      "channel": {
-        "name": "TUDN",
-        "logo": "/logos/channels/tudn.com.png"
-      },
-      "watchKey": "football:monterrey|america|2026-11-25",
-      "label": "Monterrey v América",
-      "logos": [
-        "/logos/teams/6adfc5fdff6a46e7c5c3.png",
-        "/logos/teams/5b9091de6b8a902c45d0.png"
-      ],
-      "sublabel": "Live / scheduled · Liga MX"
     },
     {
       "airTimeUTC": "2026-11-26T03:30:00.000Z",
@@ -8939,6 +8527,23 @@
         "/logos/teams/8812fe72f92f22b39e1e.png"
       ],
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-26T08:00:00.000Z",
+      "endsAtUTC": "2026-11-26T09:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 08:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:monterrey|america|2026-11-25",
+      "label": "Monterrey v América",
+      "logos": [
+        "/logos/teams/6adfc5fdff6a46e7c5c3.png",
+        "/logos/teams/5b9091de6b8a902c45d0.png"
+      ],
+      "sublabel": "Highlights · Liga MX · played Wed 25 Nov"
     },
     {
       "airTimeUTC": "2026-11-26T08:30:00.000Z",
@@ -9128,6 +8733,48 @@
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
     },
     {
+      "airTimeUTC": "2026-11-26T18:00:00.000Z",
+      "endsAtUTC": "2026-11-26T18:30:00.000Z",
+      "timeUK": "Thu 26 Nov, 18:00",
+      "market": "US & Canada (English)",
+      "channel": {
+        "name": "beIN Sports",
+        "logo": "/logos/channels/beinsports.com.png"
+      },
+      "watchKey": null,
+      "label": "Palmeiras v Fluminense",
+      "logos": [],
+      "sublabel": "All channels"
+    },
+    {
+      "airTimeUTC": "2026-11-26T18:00:00.000Z",
+      "endsAtUTC": "2026-11-26T20:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 18:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "beIN Sports en Español",
+        "logo": "/logos/channels/beinsports.com.png"
+      },
+      "watchKey": null,
+      "label": "Estudiantes v Flamengo",
+      "logos": [],
+      "sublabel": "All channels"
+    },
+    {
+      "airTimeUTC": "2026-11-26T18:30:00.000Z",
+      "endsAtUTC": "2026-11-26T19:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 18:30",
+      "market": "US & Canada (English)",
+      "channel": {
+        "name": "beIN Sports",
+        "logo": "/logos/channels/beinsports.com.png"
+      },
+      "watchKey": null,
+      "label": "Flamengo v Estudiantes",
+      "logos": [],
+      "sublabel": "All channels"
+    },
+    {
       "airTimeUTC": "2026-11-26T18:44:44.000Z",
       "endsAtUTC": "2026-11-26T20:42:33.000Z",
       "timeUK": "Thu 26 Nov, 18:44",
@@ -9135,6 +8782,23 @@
       "channel": {
         "name": "SPORT TV 1",
         "logo": "/logos/channels/sporttv.pt.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-26T19:00:00.000Z",
+      "endsAtUTC": "2026-11-26T21:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 19:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "Fox Deportes",
+        "logo": "/logos/channels/foxdeportes.com.png"
       },
       "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
       "label": "Boca Juniors v Independiente Rivadavia",
@@ -9210,6 +8874,40 @@
       "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
     },
     {
+      "airTimeUTC": "2026-11-26T23:00:00.000Z",
+      "endsAtUTC": "2026-11-27T01:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 23:00",
+      "market": "Brazil",
+      "channel": {
+        "name": "Premiere",
+        "logo": "/logos/channels/premiere.globo.com.png"
+      },
+      "watchKey": "football:sao paulo|remo|2026-11-26",
+      "label": "São Paulo v Remo",
+      "logos": [
+        "/logos/teams/7916c257cc4f76efd523.png",
+        "/logos/teams/6503d299bee65d90679d.png"
+      ],
+      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
+    },
+    {
+      "airTimeUTC": "2026-11-26T23:00:00.000Z",
+      "endsAtUTC": "2026-11-27T01:00:00.000Z",
+      "timeUK": "Thu 26 Nov, 23:00",
+      "market": "US & Canada (English)",
+      "channel": {
+        "name": "Fanatiz USA",
+        "logo": null
+      },
+      "watchKey": "football:sao paulo|remo|2026-11-26",
+      "label": "São Paulo v Remo",
+      "logos": [
+        "/logos/teams/7916c257cc4f76efd523.png",
+        "/logos/teams/6503d299bee65d90679d.png"
+      ],
+      "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
+    },
+    {
       "airTimeUTC": "2026-11-26T23:10:00.000Z",
       "endsAtUTC": "2026-11-27T01:00:00.000Z",
       "timeUK": "Thu 26 Nov, 23:10",
@@ -9275,6 +8973,37 @@
       "sublabel": "All channels"
     },
     {
+      "airTimeUTC": "2026-11-27T00:30:00.000Z",
+      "endsAtUTC": "2026-11-27T03:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 00:30",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:pachuca|guadalajara|2026-11-26",
+      "label": "Pachuca v Chivas Guadalajara",
+      "logos": [
+        "/logos/teams/aa74a1f7d5facbda4d6b.png",
+        "/logos/teams/6b34b00284389a659e36.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
+    },
+    {
+      "airTimeUTC": "2026-11-27T00:54:25.000Z",
+      "endsAtUTC": "2026-11-27T02:50:07.000Z",
+      "timeUK": "Fri 27 Nov, 00:54",
+      "market": "Portugal",
+      "channel": {
+        "name": "SPORT TV 1",
+        "logo": "/logos/channels/sporttv.pt.png"
+      },
+      "watchKey": null,
+      "label": "ROSARIO CENTRAL v GIMNASIA MENDONZA",
+      "logos": [],
+      "sublabel": "All channels"
+    },
+    {
       "airTimeUTC": "2026-11-27T01:00:00.000Z",
       "endsAtUTC": "2026-11-27T02:50:00.000Z",
       "timeUK": "Fri 27 Nov, 01:00",
@@ -9287,6 +9016,23 @@
       "label": "Rosario Central v Gimnasia y Esgrima",
       "logos": [],
       "sublabel": "All channels"
+    },
+    {
+      "airTimeUTC": "2026-11-27T01:00:00.000Z",
+      "endsAtUTC": "2026-11-27T03:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 01:00",
+      "market": "Mexico",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:pachuca|guadalajara|2026-11-26",
+      "label": "Pachuca v Chivas Guadalajara",
+      "logos": [
+        "/logos/teams/aa74a1f7d5facbda4d6b.png",
+        "/logos/teams/6b34b00284389a659e36.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
     },
     {
       "airTimeUTC": "2026-11-27T02:00:00.000Z",
@@ -9320,6 +9066,388 @@
       "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
     },
     {
+      "airTimeUTC": "2026-11-27T03:00:00.000Z",
+      "endsAtUTC": "2026-11-27T05:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 03:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:leon|cruz azul|2026-11-26",
+      "label": "Club León v Cruz Azul",
+      "logos": [
+        "/logos/teams/549b693c7edf67d188bf.png",
+        "/logos/teams/24216a391bc6be432ed9.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
+    },
+    {
+      "airTimeUTC": "2026-11-27T03:00:00.000Z",
+      "endsAtUTC": "2026-11-27T04:50:00.000Z",
+      "timeUK": "Fri 27 Nov, 03:00",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T03:10:00.000Z",
+      "endsAtUTC": "2026-11-27T05:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 03:10",
+      "market": "Mexico",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:leon|cruz azul|2026-11-26",
+      "label": "Club León v Cruz Azul",
+      "logos": [
+        "/logos/teams/549b693c7edf67d188bf.png",
+        "/logos/teams/24216a391bc6be432ed9.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:00:00.000Z",
+      "endsAtUTC": "2026-11-27T06:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "beIN Sports en Español",
+        "logo": "/logos/channels/beinsports.com.png"
+      },
+      "watchKey": null,
+      "label": "Fluminense FC v Palmeiras",
+      "logos": [],
+      "sublabel": "All channels"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:00:00.000Z",
+      "endsAtUTC": "2026-11-27T06:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:00",
+      "market": "Argentina",
+      "channel": {
+        "name": "Fox Sports Argentina",
+        "logo": "/logos/channels/foxsports.com.ar.jpg"
+      },
+      "watchKey": null,
+      "label": "Fluminense v Palmeiras",
+      "logos": [],
+      "sublabel": "All channels"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:40:00.000Z",
+      "endsAtUTC": "2026-11-27T06:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:40",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
+      "label": "Argentinos Juniors v Independiente",
+      "logos": [
+        "/logos/teams/33b63e62059eae3bb223.png",
+        "/logos/teams/0adb2156cbed7830f889.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:44:57.000Z",
+      "endsAtUTC": "2026-11-27T07:11:31.000Z",
+      "timeUK": "Fri 27 Nov, 04:44",
+      "market": "Portugal",
+      "channel": {
+        "name": "SPORT TV 1",
+        "logo": "/logos/channels/sporttv.pt.png"
+      },
+      "watchKey": "football:atletico mineiro|boca juniors|2026-11-21",
+      "label": "Atlético Mineiro v Boca Juniors",
+      "logos": [
+        "/logos/teams/f37e5b48368f5b9ca49f.png",
+        "/logos/teams/abf76051189f0a3d044d.png"
+      ],
+      "sublabel": "Full replay · CONMEBOL Sudamericana · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:50:00.000Z",
+      "endsAtUTC": "2026-11-27T06:40:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:50",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
+      "logos": [
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T06:30:00.000Z",
+      "endsAtUTC": "2026-11-27T08:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 06:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
+      "logos": [
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T06:40:00.000Z",
+      "endsAtUTC": "2026-11-27T08:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 06:40",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
+      "label": "Argentinos Juniors v Independiente",
+      "logos": [
+        "/logos/teams/33b63e62059eae3bb223.png",
+        "/logos/teams/0adb2156cbed7830f889.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T08:00:00.000Z",
+      "endsAtUTC": "2026-11-27T09:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 08:00",
+      "market": "US & Canada (Spanish)",
+      "channel": {
+        "name": "TUDN",
+        "logo": "/logos/channels/tudn.com.png"
+      },
+      "watchKey": "football:pachuca|guadalajara|2026-11-26",
+      "label": "Pachuca v Chivas Guadalajara",
+      "logos": [
+        "/logos/teams/aa74a1f7d5facbda4d6b.png",
+        "/logos/teams/6b34b00284389a659e36.png"
+      ],
+      "sublabel": "Highlights · Liga MX · played Thu 26 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T08:20:00.000Z",
+      "endsAtUTC": "2026-11-27T10:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 08:20",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": null,
+      "label": "Rosario Central v Gimnasia y Esgrima",
+      "logos": [],
+      "sublabel": "All channels"
+    },
+    {
+      "airTimeUTC": "2026-11-27T09:30:00.000Z",
+      "endsAtUTC": "2026-11-27T11:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 09:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T10:10:00.000Z",
+      "endsAtUTC": "2026-11-27T12:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 10:10",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:instituto|huracan|2026-11-22",
+      "label": "Instituto (Córdoba) v Huracán",
+      "logos": [
+        "/logos/teams/bf9a9a24ea8e78aa1422.png",
+        "/logos/teams/051774249e5f1fc77df6.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T11:20:00.000Z",
+      "endsAtUTC": "2026-11-27T13:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 11:20",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T12:00:00.000Z",
+      "endsAtUTC": "2026-11-27T13:50:00.000Z",
+      "timeUK": "Fri 27 Nov, 12:00",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:gimnasia lp|newells old boys|2026-11-23",
+      "label": "Gimnasia y Esgrima La Plata v Newell's Old Boys",
+      "logos": [
+        "/logos/teams/4f9d7b429bf272f5276c.png",
+        "/logos/teams/10e447e0c91329fd2b5d.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Mon 23 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T13:10:00.000Z",
+      "endsAtUTC": "2026-11-27T15:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 13:10",
+      "market": "Argentina",
+      "channel": {
+        "name": "TNT Sports Argentina",
+        "logo": "/logos/channels/tntsports.com.ar.png"
+      },
+      "watchKey": "football:instituto|huracan|2026-11-22",
+      "label": "Instituto (Córdoba) v Huracán",
+      "logos": [
+        "/logos/teams/bf9a9a24ea8e78aa1422.png",
+        "/logos/teams/051774249e5f1fc77df6.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T13:50:00.000Z",
+      "endsAtUTC": "2026-11-27T15:40:00.000Z",
+      "timeUK": "Fri 27 Nov, 13:50",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T14:54:04.000Z",
+      "endsAtUTC": "2026-11-27T16:50:40.000Z",
+      "timeUK": "Fri 27 Nov, 14:54",
+      "market": "Portugal",
+      "channel": {
+        "name": "SPORT TV 1",
+        "logo": "/logos/channels/sporttv.pt.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T15:40:00.000Z",
+      "endsAtUTC": "2026-11-27T17:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 15:40",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:river plate|lanus|2026-11-22",
+      "label": "River Plate v Lanús",
+      "logos": [
+        "/logos/teams/6af619d1b2a285ecde08.png",
+        "/logos/teams/5b3a0d90f1ebcc67d5fa.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sun 22 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T17:30:00.000Z",
+      "endsAtUTC": "2026-11-27T18:25:00.000Z",
+      "timeUK": "Fri 27 Nov, 17:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:boca juniors|independiente rivadavia|2026-11-25",
+      "label": "Boca Juniors v Independiente Rivadavia",
+      "logos": [
+        "/logos/teams/abf76051189f0a3d044d.png",
+        "/logos/teams/8812fe72f92f22b39e1e.png"
+      ],
+      "sublabel": "Highlights · Liga Profesional de Fútbol · played Wed 25 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T18:30:00.000Z",
+      "endsAtUTC": "2026-11-27T20:20:00.000Z",
+      "timeUK": "Fri 27 Nov, 18:30",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:defensa y justicia|barracas central|2026-11-21",
+      "label": "Defensa y Justicia v Barracas Central",
+      "logos": [
+        "/logos/teams/934d417aaec6f300189a.png",
+        "/logos/teams/99b2c31a0d8d31a2d47c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T20:20:00.000Z",
+      "endsAtUTC": "2026-11-27T22:10:00.000Z",
+      "timeUK": "Fri 27 Nov, 20:20",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:argentinos juniors|independiente|2026-11-21",
+      "label": "Argentinos Juniors v Independiente",
+      "logos": [
+        "/logos/teams/33b63e62059eae3bb223.png",
+        "/logos/teams/0adb2156cbed7830f889.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Sat 21 Nov"
+    },
+    {
       "airTimeUTC": "2026-11-27T20:30:00.000Z",
       "endsAtUTC": "2026-11-27T22:45:00.000Z",
       "timeUK": "Fri 27 Nov, 20:30",
@@ -9335,6 +9463,23 @@
         "/logos/teams/c095deec6052bacd6817.png"
       ],
       "sublabel": "Full replay · Campeonato Brasileiro Série A · played Sat 21 Nov"
+    },
+    {
+      "airTimeUTC": "2026-11-27T22:10:00.000Z",
+      "endsAtUTC": "2026-11-28T00:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 22:10",
+      "market": "Argentina",
+      "channel": {
+        "name": "ESPN Premium",
+        "logo": "/logos/channels/espn.com.png"
+      },
+      "watchKey": "football:velez sarsfield|belgrano|2026-11-20",
+      "label": "Vélez Sarsfield v Belgrano (Córdoba)",
+      "logos": [
+        "/logos/teams/b00d7a8d05cb11bddf98.png",
+        "/logos/teams/3213e68d2cecea2bd71c.png"
+      ],
+      "sublabel": "Full replay · Liga Profesional de Fútbol · played Fri 20 Nov"
     },
     {
       "airTimeUTC": "2026-11-27T23:00:00.000Z",
@@ -9354,21 +9499,49 @@
       "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
     },
     {
-      "airTimeUTC": "2026-11-28T02:30:00.000Z",
-      "endsAtUTC": "2026-11-28T03:00:00.000Z",
-      "timeUK": "Sat 28 Nov, 02:30",
+      "airTimeUTC": "2026-11-28T12:45:00.000Z",
+      "endsAtUTC": "2026-11-28T14:50:00.000Z",
+      "timeUK": "Sat 28 Nov, 12:45",
       "market": "Germany",
       "channel": {
         "name": "Sportdigital1+",
         "logo": "/logos/channels/sportdigital.de.png"
       },
-      "watchKey": "football:palmeiras|flamengo|2026-11-21",
-      "label": "Palmeiras v Flamengo",
+      "watchKey": null,
+      "label": "Palmeiras v Fluminense",
+      "logos": [],
+      "sublabel": "All channels"
+    },
+    {
+      "airTimeUTC": "2026-11-28T14:50:00.000Z",
+      "endsAtUTC": "2026-11-28T16:55:00.000Z",
+      "timeUK": "Sat 28 Nov, 14:50",
+      "market": "Germany",
+      "channel": {
+        "name": "Sportdigital1+",
+        "logo": "/logos/channels/sportdigital.de.png"
+      },
+      "watchKey": null,
+      "label": "Flamengo v Estudiantes",
+      "logos": [],
+      "sublabel": "All channels"
+    },
+    {
+      "airTimeUTC": "2026-11-28T19:30:00.000Z",
+      "endsAtUTC": "2026-11-28T22:30:00.000Z",
+      "timeUK": "Sat 28 Nov, 19:30",
+      "market": "Germany",
+      "channel": {
+        "name": "Sportdigital1+",
+        "logo": "/logos/channels/sportdigital.de.png"
+      },
+      "watchKey": "football:palmeiras|estudiantes lp|2026-11-28",
+      "label": "Palmeiras v Estudiantes de La Plata",
       "logos": [
         "/logos/teams/a64bbbb7b42a9547bd4f.png",
-        "/logos/teams/c095deec6052bacd6817.png"
+        "/logos/teams/a6101fde5327ca9940dc.png"
       ],
-      "sublabel": "Highlights · Campeonato Brasileiro Série A · played Sat 21 Nov"
+      "sublabel": "Live / scheduled · CONMEBOL Libertadores"
     },
     {
       "airTimeUTC": "2026-11-28T20:00:00.000Z",
@@ -9405,6 +9578,40 @@
       "sublabel": "Live / scheduled · CONMEBOL Libertadores"
     },
     {
+      "airTimeUTC": "2026-11-28T20:00:00.000Z",
+      "endsAtUTC": "2026-11-28T22:00:00.000Z",
+      "timeUK": "Sat 28 Nov, 20:00",
+      "market": "Spain",
+      "channel": {
+        "name": "M+ Liga de Campeones",
+        "logo": "/logos/channels/movistar.es.png"
+      },
+      "watchKey": "football:palmeiras|estudiantes lp|2026-11-28",
+      "label": "Palmeiras v Estudiantes de La Plata",
+      "logos": [
+        "/logos/teams/a64bbbb7b42a9547bd4f.png",
+        "/logos/teams/a6101fde5327ca9940dc.png"
+      ],
+      "sublabel": "Live / scheduled · CONMEBOL Libertadores"
+    },
+    {
+      "airTimeUTC": "2026-11-29T02:30:00.000Z",
+      "endsAtUTC": "2026-11-29T04:30:00.000Z",
+      "timeUK": "Sun 29 Nov, 02:30",
+      "market": "Germany",
+      "channel": {
+        "name": "Sportdigital1+",
+        "logo": "/logos/channels/sportdigital.de.png"
+      },
+      "watchKey": "football:palmeiras|flamengo|2026-11-21",
+      "label": "Palmeiras v Flamengo",
+      "logos": [
+        "/logos/teams/a64bbbb7b42a9547bd4f.png",
+        "/logos/teams/c095deec6052bacd6817.png"
+      ],
+      "sublabel": "Full replay · Campeonato Brasileiro Série A · played Sat 21 Nov"
+    },
+    {
       "airTimeUTC": "2026-11-29T19:00:00.000Z",
       "endsAtUTC": "2026-11-29T21:00:00.000Z",
       "timeUK": "Sun 29 Nov, 19:00",
@@ -9437,6 +9644,23 @@
         "/logos/teams/c095deec6052bacd6817.png"
       ],
       "sublabel": "Live / scheduled · Campeonato Brasileiro Série A"
+    },
+    {
+      "airTimeUTC": "2026-11-30T01:07:00.000Z",
+      "endsAtUTC": "2026-11-30T03:07:00.000Z",
+      "timeUK": "Mon 30 Nov, 01:07",
+      "market": "Spain",
+      "channel": {
+        "name": "OneFootball PPV",
+        "logo": "/logos/channels/onefootball.com.png"
+      },
+      "watchKey": "football:guadalajara|pachuca|2026-11-29",
+      "label": "Chivas Guadalajara v Pachuca",
+      "logos": [
+        "/logos/teams/6b34b00284389a659e36.png",
+        "/logos/teams/aa74a1f7d5facbda4d6b.png"
+      ],
+      "sublabel": "Live / scheduled · Liga MX"
     }
   ]
 }

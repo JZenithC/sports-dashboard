@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T21:35:36.285Z",
+  "generatedAt": "2026-11-25T20:43:56.795Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -450,9 +450,9 @@
     },
     {
       "org": "MMA",
-      "eventName": "Shooto Brazil 142: Guerson vs. Castro",
+      "eventName": "Shooto Brazil 142: Guersone vs. Castro",
       "eventTag": "Shooto Brazil 142 · Upper Arena, Rio de Janeiro, Rio de Janeiro, Brazil",
-      "homeTeam": "Guerson",
+      "homeTeam": "Guersone",
       "awayTeam": "Castro",
       "cardTitle": null,
       "homeLogo": null,
@@ -477,6 +477,10 @@
           "weightClass": null
         },
         {
+          "title": "Cristian Torres v Danilo de Souza Martins",
+          "weightClass": null
+        },
+        {
           "title": "Joao Victor Melo v Breno Ribeiro Rangel",
           "weightClass": null
         },
@@ -490,6 +494,10 @@
         },
         {
           "title": "Joseph Vieira v Ricardo Amador Da Conceicao",
+          "weightClass": null
+        },
+        {
+          "title": "Atila Lourenco v Jorge Lucas",
           "weightClass": null
         },
         {
@@ -518,15 +526,15 @@
       "broadcastGroups": null,
       "source": {
         "org": "MMA",
-        "slug": "sherdog-Shooto-Brazil-142-Guerson-vs-Castro-111969",
-        "name": "Shooto Brazil 142: Guerson vs. Castro",
+        "slug": "sherdog-Shooto-Brazil-142-Guersone-vs-Castro-111969",
+        "name": "Shooto Brazil 142: Guersone vs. Castro",
         "dateUTC": null,
         "dateOnly": "2026-12-04",
         "venue": "Upper Arena",
         "city": "Rio de Janeiro, Rio de Janeiro, Brazil",
-        "href": "/events/Shooto-Brazil-142-Guerson-vs-Castro-111969",
+        "href": "/events/Shooto-Brazil-142-Guersone-vs-Castro-111969",
         "mainEventFighters": [
-          "Guerson",
+          "Guersone",
           "Castro"
         ],
         "broadcasts": [],
@@ -548,6 +556,10 @@
             "b": "Lucas Caldas"
           },
           {
+            "a": "Cristian Torres",
+            "b": "Danilo de Souza Martins"
+          },
+          {
             "a": "Joao Victor Melo",
             "b": "Breno Ribeiro Rangel"
           },
@@ -562,6 +574,10 @@
           {
             "a": "Joseph Vieira",
             "b": "Ricardo Amador Da Conceicao"
+          },
+          {
+            "a": "Atila Lourenco",
+            "b": "Jorge Lucas"
           },
           {
             "a": "Jomy Salvador Nganga",
@@ -581,7 +597,7 @@
           }
         ]
       },
-      "watchKey": "fights:MMA|Guerson|Castro|2026-12-04"
+      "watchKey": "fights:MMA|Guersone|Castro|2026-12-04"
     },
     {
       "org": "MMA",
@@ -737,6 +753,10 @@
           "weightClass": "Lightweight"
         },
         {
+          "title": "Gabriel Santos v Luke Riley",
+          "weightClass": "Featherweight"
+        },
+        {
           "title": "Abdul Hussein v Hecher Sosa",
           "weightClass": "Bantamweight"
         },
@@ -771,10 +791,6 @@
         {
           "title": "Levan Chokheli v Islam Dulatov",
           "weightClass": "Welterweight"
-        },
-        {
-          "title": "Gabriel Santos v Luke Riley",
-          "weightClass": "Featherweight"
         },
         {
           "title": "Serghei Spivac v Mario Pinto",
@@ -837,6 +853,11 @@
             "weightClass": "Lightweight"
           },
           {
+            "a": "Gabriel Santos",
+            "b": "Luke Riley",
+            "weightClass": "Featherweight"
+          },
+          {
             "a": "Abdul Hussein",
             "b": "Hecher Sosa",
             "weightClass": "Bantamweight"
@@ -880,11 +901,6 @@
             "a": "Levan Chokheli",
             "b": "Islam Dulatov",
             "weightClass": "Welterweight"
-          },
-          {
-            "a": "Gabriel Santos",
-            "b": "Luke Riley",
-            "weightClass": "Featherweight"
           },
           {
             "a": "Serghei Spivac",
@@ -2190,8 +2206,8 @@
     },
     {
       "org": "MMA",
-      "eventName": "ONE 124",
-      "eventTag": "ONE 124 · Shanghai Indoor Stadium, Shanghai, China",
+      "eventName": "One 174: Shanghai",
+      "eventTag": "One 174 · Shanghai Indoor Stadium, Shanghai, China",
       "homeTeam": "Kai Tang",
       "awayTeam": "Enkh-Orgil Baatarkhuu",
       "cardTitle": null,
@@ -2214,13 +2230,13 @@
       "broadcastGroups": null,
       "source": {
         "org": "MMA",
-        "slug": "sherdog-One-Championship-ONE-124-115450",
-        "name": "ONE 124",
+        "slug": "sherdog-One-Championship-One-174-Shanghai-115450",
+        "name": "One 174: Shanghai",
         "dateUTC": null,
         "dateOnly": "2026-12-12",
         "venue": "Shanghai Indoor Stadium",
         "city": "Shanghai, China",
-        "href": "/events/One-Championship-ONE-124-115450",
+        "href": "/events/One-Championship-One-174-Shanghai-115450",
         "mainEventFighters": [
           "Kai Tang",
           "Enkh-Orgil Baatarkhuu"
@@ -2515,61 +2531,6 @@
     },
     {
       "org": "MMA",
-      "eventName": "One on Prime Video 50",
-      "eventTag": "One on Prime Video 50 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Maurice Abevi",
-      "awayTeam": "Dzhabir Dzhabrailov",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [
-        {
-          "title": "Antonio Cesar v Viet Anh Do",
-          "weightClass": null
-        },
-        {
-          "title": "Pedro Dantas v Adlan Umarov",
-          "weightClass": null
-        }
-      ],
-      "poster": null,
-      "kickoffUTC": "2026-12-18T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-12-18",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-One-Championship-One-on-Prime-Video-50-115087",
-        "name": "One on Prime Video 50",
-        "dateUTC": null,
-        "dateOnly": "2026-12-18",
-        "venue": "Lumpinee Boxing Stadium",
-        "city": "Bangkok, Thailand",
-        "href": "/events/One-Championship-One-on-Prime-Video-50-115087",
-        "mainEventFighters": [
-          "Maurice Abevi",
-          "Dzhabir Dzhabrailov"
-        ],
-        "broadcasts": [],
-        "bouts": [
-          {
-            "a": "Antonio Cesar",
-            "b": "Viet Anh Do"
-          },
-          {
-            "a": "Pedro Dantas",
-            "b": "Adlan Umarov"
-          }
-        ]
-      },
-      "watchKey": "fights:MMA|Maurice Abevi|Dzhabir Dzhabrailov|2026-12-18"
-    },
-    {
-      "org": "MMA",
       "eventName": "LFA 248: Costa vs Hartshorn",
       "eventTag": "LFA 248 · Pearl Theater at Palms, Las Vegas, Nevada, United States",
       "homeTeam": "Costa",
@@ -2712,6 +2673,61 @@
         "bouts": []
       },
       "watchKey": "fights:MMA|null|null|2026-12-18"
+    },
+    {
+      "org": "MMA",
+      "eventName": "One on Prime Video 50",
+      "eventTag": "One on Prime Video 50 · Lumpinee Boxing Stadium, Bangkok, Thailand",
+      "homeTeam": "Maurice Abevi",
+      "awayTeam": "Dzhabir Dzhabrailov",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Antonio Cesar v Viet Anh Do",
+          "weightClass": null
+        },
+        {
+          "title": "Pedro Dantas v Adlan Umarov",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-18T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-18",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-One-Championship-One-on-Prime-Video-50-115087",
+        "name": "One on Prime Video 50",
+        "dateUTC": null,
+        "dateOnly": "2026-12-18",
+        "venue": "Lumpinee Boxing Stadium",
+        "city": "Bangkok, Thailand",
+        "href": "/events/One-Championship-One-on-Prime-Video-50-115087",
+        "mainEventFighters": [
+          "Maurice Abevi",
+          "Dzhabir Dzhabrailov"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Antonio Cesar",
+            "b": "Viet Anh Do"
+          },
+          {
+            "a": "Pedro Dantas",
+            "b": "Adlan Umarov"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Maurice Abevi|Dzhabir Dzhabrailov|2026-12-18"
     },
     {
       "org": "PFL",
@@ -3464,6 +3480,133 @@
       "watchKey": "fights:MMA|Ryoga Arimoto|Hiroki Takaoka|2026-12-20"
     },
     {
+      "org": "MMA",
+      "eventName": "ACA 211: Shlemenko vs. Emeev",
+      "eventTag": "ACA 211 · Sibur Arena, St. Petersburg, Russia",
+      "homeTeam": "Shlemenko",
+      "awayTeam": "Emeev",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Anatoliy Kondratyev v Aren Akopyan",
+          "weightClass": null
+        },
+        {
+          "title": "Artem Reznikov v Zaur Gadzhiev",
+          "weightClass": null
+        },
+        {
+          "title": "Azamat Pshukov v Saygid Abdulaev",
+          "weightClass": null
+        },
+        {
+          "title": "Mekhroch Mamadshoev v Enrique Barzola",
+          "weightClass": null
+        },
+        {
+          "title": "Pavel Gordeev v Mohammad Heibati",
+          "weightClass": null
+        },
+        {
+          "title": "Vener Galiev v Davi Ramos",
+          "weightClass": null
+        },
+        {
+          "title": "Alexander Grozin v Saifullah Dzhabrailov",
+          "weightClass": null
+        },
+        {
+          "title": "Mehdi Baydulaev v Gleb Khabibullin",
+          "weightClass": null
+        },
+        {
+          "title": "Eduard Vartanyan v Alexey Shurkevich",
+          "weightClass": null
+        },
+        {
+          "title": "Mansur Khatuev v Oleg Borisov",
+          "weightClass": null
+        },
+        {
+          "title": "Magomed Sardalov v Francisco Figueiredo",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-25T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-25",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-ACA-211-Shlemenko-vs-Emeev-115055",
+        "name": "ACA 211: Shlemenko vs. Emeev",
+        "dateUTC": null,
+        "dateOnly": "2026-12-25",
+        "venue": "Sibur Arena",
+        "city": "St. Petersburg, Russia",
+        "href": "/events/ACA-211-Shlemenko-vs-Emeev-115055",
+        "mainEventFighters": [
+          "Shlemenko",
+          "Emeev"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Anatoliy Kondratyev",
+            "b": "Aren Akopyan"
+          },
+          {
+            "a": "Artem Reznikov",
+            "b": "Zaur Gadzhiev"
+          },
+          {
+            "a": "Azamat Pshukov",
+            "b": "Saygid Abdulaev"
+          },
+          {
+            "a": "Mekhroch Mamadshoev",
+            "b": "Enrique Barzola"
+          },
+          {
+            "a": "Pavel Gordeev",
+            "b": "Mohammad Heibati"
+          },
+          {
+            "a": "Vener Galiev",
+            "b": "Davi Ramos"
+          },
+          {
+            "a": "Alexander Grozin",
+            "b": "Saifullah Dzhabrailov"
+          },
+          {
+            "a": "Mehdi Baydulaev",
+            "b": "Gleb Khabibullin"
+          },
+          {
+            "a": "Eduard Vartanyan",
+            "b": "Alexey Shurkevich"
+          },
+          {
+            "a": "Mansur Khatuev",
+            "b": "Oleg Borisov"
+          },
+          {
+            "a": "Magomed Sardalov",
+            "b": "Francisco Figueiredo"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Shlemenko|Emeev|2026-12-25"
+    },
+    {
       "org": "Boxing",
       "eventName": "Ryan Garner vs James Dickens",
       "eventTag": "Boxing · Bournemouth",
@@ -3605,7 +3748,7 @@
         },
         {
           "title": "Magomed Zaynukov v Piero Guaylupo",
-          "weightClass": "Light Heavyweight"
+          "weightClass": "Lightweight"
         },
         {
           "title": "Diego Ferreira v MarQuel Mederos",
@@ -3621,7 +3764,7 @@
         },
         {
           "title": "Kennedy Nzechukwu v Elisha Ellison",
-          "weightClass": null
+          "weightClass": "Heavyweight"
         },
         {
           "title": "Ryan Spann v Louie Sutherland",
@@ -3704,7 +3847,7 @@
           {
             "a": "Magomed Zaynukov",
             "b": "Piero Guaylupo",
-            "weightClass": "Light Heavyweight"
+            "weightClass": "Lightweight"
           },
           {
             "a": "Diego Ferreira",
@@ -3724,7 +3867,7 @@
           {
             "a": "Kennedy Nzechukwu",
             "b": "Elisha Ellison",
-            "weightClass": null
+            "weightClass": "Heavyweight"
           },
           {
             "a": "Ryan Spann",
@@ -6922,18 +7065,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-25T02:30:00.000Z",
-      "endsAtUTC": "2026-11-25T06:30:00.000Z",
-      "timeUK": "Wed 25 Nov, 02:30",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "label": "Antonio Silva v Andrei Arlovski",
-      "sublabel": "UFC Reloaded"
-    },
-    {
       "airTimeUTC": "2026-11-26T01:00:00.000Z",
       "endsAtUTC": "2026-11-26T05:00:00.000Z",
       "timeUK": "Thu 26 Nov, 01:00",
@@ -6948,6 +7079,54 @@
         "/logos/orgs/ufc.png"
       ],
       "sublabel": "UFC · Sat 21 Nov, 15:00"
+    },
+    {
+      "airTimeUTC": "2026-11-27T03:00:00.000Z",
+      "endsAtUTC": "2026-11-27T04:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 03:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Reber v Street, Prelims",
+      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
+    },
+    {
+      "airTimeUTC": "2026-11-27T04:00:00.000Z",
+      "endsAtUTC": "2026-11-27T06:30:00.000Z",
+      "timeUK": "Fri 27 Nov, 04:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Reber v Street",
+      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
+    },
+    {
+      "airTimeUTC": "2026-11-27T18:00:00.000Z",
+      "endsAtUTC": "2026-11-27T22:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 18:00",
+      "channel": {
+        "name": "Sky Sports Mix",
+        "logo": null
+      },
+      "market": "UK",
+      "label": "Oshae Jones v Elia Carranza",
+      "sublabel": "MVP Boxing"
+    },
+    {
+      "airTimeUTC": "2026-11-27T19:00:00.000Z",
+      "endsAtUTC": "2026-11-27T23:00:00.000Z",
+      "timeUK": "Fri 27 Nov, 19:00",
+      "channel": {
+        "name": "Sky Sports Mix",
+        "logo": null
+      },
+      "market": "UK",
+      "label": "Amanda Serrano v Cheyenne Hanson",
+      "sublabel": "MVP Boxing"
     }
   ]
 }

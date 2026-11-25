@@ -1,5 +1,14 @@
 [
   {
+    "timestamp": "2026-11-25T20:42:30.631Z",
+    "totalEvents": 16,
+    "added": [
+      "Boca Juniors vs Platense (Copa Argentina) — Tue 01 Dec, 21:00"
+    ],
+    "removed": [],
+    "channelsChanged": []
+  },
+  {
     "timestamp": "2026-11-24T21:34:04.550Z",
     "totalEvents": 15,
     "added": [
@@ -82,21 +91,6 @@
     "channelsChanged": [
       "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Fanatiz YouTube, Flow Sports, Globo Internacional]",
       "Santos vs Grêmio (Campeonato Brasileiro Série A) — Mon 23 Nov, 21:00: [Fanatiz (Míralo en vivo), Flow Sports]"
-    ]
-  },
-  {
-    "timestamp": "2026-11-20T19:19:07.316Z",
-    "totalEvents": 30,
-    "added": [
-      "São Paulo vs Remo (Campeonato Brasileiro Série A) — Thu 26 Nov, 20:00"
-    ],
-    "removed": [
-      "Vasco da Gama vs Internacional (Campeonato Brasileiro Série A) — Thu 19 Nov, 19:30",
-      "Vitória vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Thu 19 Nov, 19:30",
-      "São Paulo vs Fluminense (Campeonato Brasileiro Série A) — Thu 19 Nov, 21:30"
-    ],
-    "channelsChanged": [
-      "Atlético Mineiro vs Boca Juniors (CONMEBOL Sudamericana) — Sat 21 Nov, 19:30: [Amazon Prime Video (Ver en vivo), DGO, DSports (610/1610), Disney+ Premium, ESPN, ESPN 2, Paramount+]"
     ]
   }
 ]

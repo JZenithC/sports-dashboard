@@ -1,7 +1,17 @@
 {
-  "generatedAt": "2026-11-24T21:35:36.286Z",
+  "generatedAt": "2026-11-25T20:43:56.795Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-25T20:42:30.631Z",
+        "totalEvents": 16,
+        "added": [
+          "Boca Juniors vs Platense (Copa Argentina) — Tue 01 Dec, 21:00"
+        ],
+        "removed": [],
+        "channelsChanged": [],
+        "total": 16
+      },
       {
         "timestamp": "2026-11-24T21:34:04.550Z",
         "totalEvents": 15,
@@ -370,39 +380,16 @@
           "Querétaro vs Puebla (Liga MX) — Sun 08 Nov, 18:00: [FOX, FOX One]"
         ],
         "total": 38
-      },
-      {
-        "timestamp": "2026-11-05T19:03:38.938Z",
-        "totalEvents": 42,
-        "added": [],
-        "removed": [
-          "Flamengo vs Grêmio (Campeonato Brasileiro Série A) — Wed 04 Nov, 19:30",
-          "Athletico Paranaense vs Vasco da Gama (Campeonato Brasileiro Série A) — Wed 04 Nov, 19:30",
-          "Botafogo vs Atlético Mineiro (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30",
-          "São Paulo vs Corinthians (Campeonato Brasileiro Série A) — Wed 04 Nov, 21:30",
-          "Aldosivi vs River Plate (Liga Profesional de Fútbol) — Thu 05 Nov, 15:00"
-        ],
-        "channelsChanged": [
-          "Gimnasia y Esgrima La Plata vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Thu 05 Nov, 19:15: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Barracas Central vs Racing Club (Liga Profesional de Fútbol) — Fri 06 Nov, 15:00: [ESPN Premium, TyC Sports Internacional]",
-          "San Lorenzo vs Platense (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15: [ESPN Premium, TyC Sports Internacional]",
-          "Necaxa vs Tijuana (Liga MX) — Fri 06 Nov, 19:00: [FOX One, FOX+]",
-          "Tigre vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00: [Disney+ Premium, ESPN Premium]",
-          "Banfield vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Talleres de Córdoba vs Estudiantes de La Plata (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00: [Disney+ Premium, ESPN Premium]",
-          "Gimnasia y Esgrima de Mendoza vs Independiente Rivadavia (Liga Profesional de Fútbol) — Sat 07 Nov, 15:00: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Argentinos Juniors vs Huracán (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30: [TNT, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Boca Juniors vs Defensa y Justicia (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30: [Disney+ Premium, ESPN Premium, TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol)]",
-          "Rosario Central vs Estudiantes de Río Cuarto (Liga Profesional de Fútbol) — Sat 07 Nov, 17:30: [Disney+ Premium, ESPN 2]",
-          "Instituto (Córdoba) vs Newell's Old Boys (Liga Profesional de Fútbol) — Sat 07 Nov, 22:00: [Disney+ Premium, ESPN Premium]",
-          "Central Córdoba (Santiago del Estero) vs Lanús (Liga Profesional de Fútbol) — Sun 08 Nov, 19:30: [TNT Sports Premium, TNT Sports en HBO MAX (Suscripción Pack fútbol), TyC Sports Internacional]",
-          "Querétaro vs Puebla (Liga MX) — Sun 08 Nov, 18:00: [FOX One]",
-          "Club León vs Chivas Guadalajara (Liga MX) — Sun 08 Nov, 20:00: [FOX One, FOX+]"
-        ],
-        "total": 42
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-25T20:43:06.628Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-24T21:34:38.877Z",
         "total": 0,
@@ -535,16 +522,21 @@
         "added": [],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-11-05T19:04:14.970Z",
-        "total": 0,
-        "added": [],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-25T20:43:56.795Z",
+        "total": 51,
+        "added": [
+          "Shooto Brazil 142: Guersone vs. Castro (2026-12-04)",
+          "ACA 211: Shlemenko vs. Emeev (2026-12-25)"
+        ],
+        "removed": [
+          "Shooto Brazil 142: Guerson vs. Castro (2026-12-04)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-24T21:35:36.286Z",
         "total": 50,
@@ -814,16 +806,6 @@
         "removed": [
           "One Friday Fights 177 (2026-11-06)"
         ],
-        "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-11-05T19:05:26.941Z",
-        "total": 64,
-        "added": [
-          "Oktagon 99: Aras vs. Flores (2026-12-05)",
-          "ACA 210: Myrzabekov vs. Tumenov (2026-12-05)"
-        ],
-        "removed": [],
         "channelsChanged": []
       }
     ]
