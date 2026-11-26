@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T20:43:56.795Z",
+  "generatedAt": "2026-11-26T20:37:33.793Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -3453,7 +3453,40 @@
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
-      "undercard": [],
+      "undercard": [
+        {
+          "title": "Dinesh Nain v Yuma Onishi",
+          "weightClass": null
+        },
+        {
+          "title": "Tomoe Katayama v Emi Yasuda",
+          "weightClass": null
+        },
+        {
+          "title": "Mio Shimaya v Shiho Fukai",
+          "weightClass": null
+        },
+        {
+          "title": "Kotaro Ito v Yuta Hasuike",
+          "weightClass": null
+        },
+        {
+          "title": "Kosuke Eda v Kazuo Miyazawa",
+          "weightClass": null
+        },
+        {
+          "title": "Shinsaku Midori v Nobuyuki Fujii",
+          "weightClass": null
+        },
+        {
+          "title": "Souta Miura v Shun Komiyama",
+          "weightClass": null
+        },
+        {
+          "title": "Takamichi Oku v Masateru Takemura",
+          "weightClass": null
+        }
+      ],
       "poster": null,
       "kickoffUTC": "2026-12-20T23:59:00Z",
       "kickoffLocal": null,
@@ -3475,7 +3508,40 @@
           "Hiroki Takaoka"
         ],
         "broadcasts": [],
-        "bouts": []
+        "bouts": [
+          {
+            "a": "Dinesh Nain",
+            "b": "Yuma Onishi"
+          },
+          {
+            "a": "Tomoe Katayama",
+            "b": "Emi Yasuda"
+          },
+          {
+            "a": "Mio Shimaya",
+            "b": "Shiho Fukai"
+          },
+          {
+            "a": "Kotaro Ito",
+            "b": "Yuta Hasuike"
+          },
+          {
+            "a": "Kosuke Eda",
+            "b": "Kazuo Miyazawa"
+          },
+          {
+            "a": "Shinsaku Midori",
+            "b": "Nobuyuki Fujii"
+          },
+          {
+            "a": "Souta Miura",
+            "b": "Shun Komiyama"
+          },
+          {
+            "a": "Takamichi Oku",
+            "b": "Masateru Takemura"
+          }
+        ]
       },
       "watchKey": "fights:MMA|Ryoga Arimoto|Hiroki Takaoka|2026-12-20"
     },
@@ -4042,6 +4108,64 @@
         ]
       },
       "watchKey": "fights:UFC|Sean Brady|Gabriel Bonfim|2027-01-23"
+    },
+    {
+      "org": "Boxing",
+      "eventName": "Daniel Dubois vs Joseph Parker",
+      "eventTag": "Boxing · Manchester",
+      "homeTeam": "Daniel Dubois",
+      "awayTeam": "Joseph Parker",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "Boxing",
+      "orgLogo": null,
+      "undercard": [],
+      "poster": null,
+      "kickoffUTC": "2027-01-30T20:00:00.000Z",
+      "kickoffLocal": null,
+      "kickoffUK": "Sat 30 Jan, 20:00",
+      "localDate": "2027-01-30",
+      "channels": [],
+      "broadcastGroups": [
+        {
+          "label": "UK",
+          "channels": [
+            {
+              "name": "DAZN",
+              "url": "https://www.dazn.com/en-GB/",
+              "logo": "/logos/channels/dazn.com.png"
+            }
+          ]
+        }
+      ],
+      "source": {
+        "org": "Boxing",
+        "slug": "gbn-daniel-dubois-vs-joseph-parker-2027-01-30",
+        "name": "Daniel Dubois vs Joseph Parker",
+        "dateUTC": "2027-01-30T20:00:00.000Z",
+        "dateOnly": "2027-01-30",
+        "venue": null,
+        "city": "Manchester",
+        "mainEventFighters": [
+          "Daniel Dubois",
+          "Joseph Parker"
+        ],
+        "bouts": [],
+        "broadcasts": [
+          "DAZN"
+        ],
+        "broadcastMarkets": [
+          {
+            "market": "UK",
+            "name": "DAZN",
+            "url": "https://www.dazn.com/en-GB/",
+            "sourceUrl": "https://globalboxingnews.co.uk/events/daniel-dubois-vs-joseph-parker-2027-01-30"
+          }
+        ],
+        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/daniel-dubois-vs-joseph-parker-2027-01-30"
+      },
+      "watchKey": "fights:Boxing|Daniel Dubois|Joseph Parker|2027-01-30"
     },
     {
       "org": "UFC",
@@ -5417,20 +5541,7 @@
           "Paramount+"
         ]
       },
-      "watchKey": "fights:UFC|Jiří Procházka|Navajo Stirling|2026-11-21",
-      "replayGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "TNT Sports 2",
-              "logo": "/logos/channels/tntsports.co.uk.png",
-              "timeUK": "Thu 26 Nov, 01:00",
-              "airTimeUTC": "2026-11-26T01:00:00.000Z"
-            }
-          ]
-        }
-      ]
+      "watchKey": "fights:UFC|Jiří Procházka|Navajo Stirling|2026-11-21"
     },
     {
       "org": "Boxing",
@@ -6969,117 +7080,9 @@
         ]
       },
       "watchKey": "fights:MMA|Natakorn  Kasorn|Mathew Gesto|2026-11-13"
-    },
-    {
-      "org": "Boxing",
-      "eventName": "Steven Butler vs Erik Bazinyan",
-      "eventTag": "Boxing · Montreal",
-      "homeTeam": "Steven Butler",
-      "awayTeam": "Erik Bazinyan",
-      "cardTitle": null,
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "Boxing",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-12T20:00:00.000Z",
-      "kickoffLocal": null,
-      "kickoffUK": "Thu 12 Nov, 20:00",
-      "localDate": "2026-11-12",
-      "channels": [],
-      "broadcastGroups": [
-        {
-          "label": "UK",
-          "channels": [
-            {
-              "name": "DAZN",
-              "url": "https://www.dazn.com/en-GB/",
-              "logo": "/logos/channels/dazn.com.png"
-            }
-          ]
-        }
-      ],
-      "source": {
-        "org": "Boxing",
-        "slug": "gbn-steven-butler-vs-erik-bazinyan-2026-11-12",
-        "name": "Steven Butler vs Erik Bazinyan",
-        "dateUTC": "2026-11-12T20:00:00.000Z",
-        "dateOnly": "2026-11-12",
-        "venue": null,
-        "city": "Montreal",
-        "mainEventFighters": [
-          "Steven Butler",
-          "Erik Bazinyan"
-        ],
-        "bouts": [],
-        "broadcasts": [
-          "DAZN"
-        ],
-        "broadcastMarkets": [
-          {
-            "market": "UK",
-            "name": "DAZN",
-            "url": "https://www.dazn.com/en-GB/",
-            "sourceUrl": "https://globalboxingnews.co.uk/events/steven-butler-vs-erik-bazinyan-2026-11-12"
-          }
-        ],
-        "broadcastSourceUrl": "https://globalboxingnews.co.uk/events/steven-butler-vs-erik-bazinyan-2026-11-12"
-      },
-      "watchKey": "fights:Boxing|Steven Butler|Erik Bazinyan|2026-11-12"
-    },
-    {
-      "org": "MMA",
-      "eventName": "Oktagon: Cage Game 2",
-      "eventTag": "Oktagon · Bobyhall Brno, Brno, Czech Republic",
-      "homeTeam": null,
-      "awayTeam": null,
-      "cardTitle": "Oktagon: Cage Game 2",
-      "homeLogo": null,
-      "awayLogo": null,
-      "orgName": "MMA",
-      "orgLogo": null,
-      "undercard": [],
-      "poster": null,
-      "kickoffUTC": "2026-11-11T23:59:00Z",
-      "kickoffLocal": null,
-      "kickoffUK": null,
-      "localDate": "2026-11-11",
-      "channels": [],
-      "broadcastGroups": null,
-      "source": {
-        "org": "MMA",
-        "slug": "sherdog-Oktagon-MMA-Oktagon-Cage-Game-2-115319",
-        "name": "Oktagon: Cage Game 2",
-        "dateUTC": null,
-        "dateOnly": "2026-11-11",
-        "venue": "Bobyhall Brno",
-        "city": "Brno, Czech Republic",
-        "href": "/events/Oktagon-MMA-Oktagon-Cage-Game-2-115319",
-        "mainEventFighters": [],
-        "broadcasts": [],
-        "bouts": []
-      },
-      "watchKey": "fights:MMA|null|null|2026-11-11"
     }
   ],
   "replaySchedule": [
-    {
-      "airTimeUTC": "2026-11-26T01:00:00.000Z",
-      "endsAtUTC": "2026-11-26T05:00:00.000Z",
-      "timeUK": "Thu 26 Nov, 01:00",
-      "channel": {
-        "name": "TNT Sports 2",
-        "logo": "/logos/channels/tntsports.co.uk.png"
-      },
-      "market": "UK",
-      "watchKey": "fights:UFC|Jiří Procházka|Navajo Stirling|2026-11-21",
-      "label": "UFC Fight Night: Procházka vs. Stirling",
-      "logos": [
-        "/logos/orgs/ufc.png"
-      ],
-      "sublabel": "UFC · Sat 21 Nov, 15:00"
-    },
     {
       "airTimeUTC": "2026-11-27T03:00:00.000Z",
       "endsAtUTC": "2026-11-27T04:00:00.000Z",

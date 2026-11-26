@@ -1,5 +1,29 @@
 [
   {
+    "timestamp": "2026-11-26T20:34:52.982Z",
+    "totalEvents": 19,
+    "added": [
+      "Botafogo vs Bahía (Campeonato Brasileiro Série A) — Sat 28 Nov, 21:00",
+      "Vitória vs Santos (Campeonato Brasileiro Série A) — Sun 29 Nov, 16:00",
+      "Internacional vs Red Bull Bragantino (Campeonato Brasileiro Série A) — Sun 29 Nov, 18:30",
+      "Mirassol vs Athletico Paranaense (Campeonato Brasileiro Série A) — Sun 29 Nov, 18:30",
+      "Atlético Mineiro vs Vasco da Gama (Campeonato Brasileiro Série A) — Sun 29 Nov, 19:30",
+      "Boca Juniors vs Platense (Copa Argentina) — Wed 02 Dec, 20:00",
+      "Flamengo vs Chapecoense (Campeonato Brasileiro Série A) — Wed 02 Dec, 21:30"
+    ],
+    "removed": [
+      "Atlético Mineiro vs Corinthians (Campeonato Brasileiro Série A) — Wed 25 Nov, 20:00",
+      "Boca Juniors vs Independiente Rivadavia (Liga Profesional de Fútbol) — Wed 25 Nov, 21:00",
+      "Toluca vs Atlas (Liga MX) — Wed 25 Nov, 19:00",
+      "Monterrey vs América (Liga MX) — Wed 25 Nov, 21:10"
+    ],
+    "channelsChanged": [
+      "América vs Monterrey (Liga MX) — Sat 28 Nov, 21:10: [Azteca 7, Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]",
+      "Coritiba vs Flamengo (Campeonato Brasileiro Série A) — Sun 29 Nov, 16:00: [Fanatiz (Míralo en vivo), Globo Internacional]",
+      "Corinthians vs Grêmio (Campeonato Brasileiro Série A) — Sun 29 Nov, 18:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo)]"
+    ]
+  },
+  {
     "timestamp": "2026-11-25T20:42:30.631Z",
     "totalEvents": 16,
     "added": [
@@ -74,23 +98,5 @@
       "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00"
     ],
     "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-21T18:16:02.937Z",
-    "totalEvents": 26,
-    "added": [
-      "Fluminense vs Cruzeiro (Campeonato Brasileiro Série A) — Fri 27 Nov, 20:00"
-    ],
-    "removed": [
-      "Vélez Sarsfield vs Belgrano (Córdoba) (Liga Profesional de Fútbol) — Fri 20 Nov, 20:00",
-      "Puebla vs Atlético San Luis (Liga MX) — Fri 20 Nov, 19:00",
-      "FC Juárez vs Atlas (Liga MX) — Fri 20 Nov, 21:00",
-      "Tijuana vs Atlante (Liga MX) — Fri 20 Nov, 21:10",
-      "Defensa y Justicia vs Barracas Central (Liga Profesional de Fútbol) — Sat 21 Nov, 15:00"
-    ],
-    "channelsChanged": [
-      "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30: [Azteca Deportes App, Azteca Deportes Network, Fanatiz (Míralo en vivo), Fanatiz YouTube, Flow Sports, Globo Internacional]",
-      "Santos vs Grêmio (Campeonato Brasileiro Série A) — Mon 23 Nov, 21:00: [Fanatiz (Míralo en vivo), Flow Sports]"
-    ]
   }
 ]
