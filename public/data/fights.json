@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T20:37:33.793Z",
+  "generatedAt": "2026-11-27T20:23:51.760Z",
   "upcoming": [
     {
       "org": "MMA",
@@ -14,7 +14,7 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Aarti Khatri v Norika Ryu",
+          "title": "Norika Ryu v Aarti Khatri",
           "weightClass": null
         }
       ],
@@ -41,8 +41,8 @@
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Aarti Khatri",
-            "b": "Norika Ryu"
+            "a": "Norika Ryu",
+            "b": "Aarti Khatri"
           }
         ]
       },
@@ -281,18 +281,14 @@
       "org": "MMA",
       "eventName": "ONE Samurai 6",
       "eventTag": "ONE Samurai 6 · Yokohama Buntai, Yokohama, Kanagawa, Japan",
-      "homeTeam": "Chihiro Sawada",
-      "awayTeam": "Anastasia Nikolakakos",
+      "homeTeam": "Koha Minowa",
+      "awayTeam": "Fabio Henrique Dourado",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
       "orgName": "MMA",
       "orgLogo": null,
       "undercard": [
-        {
-          "title": "Koha Minowa v Fabio Henrique Dourado",
-          "weightClass": null
-        },
         {
           "title": "Taiga Orii v Ryo Hirayama",
           "weightClass": null
@@ -315,22 +311,18 @@
         "city": "Yokohama, Kanagawa, Japan",
         "href": "/events/One-Championship-ONE-Samurai-6-114889",
         "mainEventFighters": [
-          "Chihiro Sawada",
-          "Anastasia Nikolakakos"
+          "Koha Minowa",
+          "Fabio Henrique Dourado"
         ],
         "broadcasts": [],
         "bouts": [
-          {
-            "a": "Koha Minowa",
-            "b": "Fabio Henrique Dourado"
-          },
           {
             "a": "Taiga Orii",
             "b": "Ryo Hirayama"
           }
         ]
       },
-      "watchKey": "fights:MMA|Chihiro Sawada|Anastasia Nikolakakos|2026-12-02"
+      "watchKey": "fights:MMA|Koha Minowa|Fabio Henrique Dourado|2026-12-02"
     },
     {
       "org": "Boxing",
@@ -620,15 +612,7 @@
           "weightClass": null
         },
         {
-          "title": "Jackson Stanford v Justin Smith",
-          "weightClass": null
-        },
-        {
-          "title": "Sandra Jerez v Karli Jo Patton",
-          "weightClass": null
-        },
-        {
-          "title": "Monique Dodson v Rosalani Ikei",
+          "title": "Rosalani Ikei v Monique Dodson",
           "weightClass": null
         },
         {
@@ -636,11 +620,19 @@
           "weightClass": null
         },
         {
+          "title": "Jackson Stanford v Justin Smith",
+          "weightClass": null
+        },
+        {
+          "title": "Drew Cheezum v Imed Eddine Dziri",
+          "weightClass": null
+        },
+        {
           "title": "Jack Sheehan v Dakota Howard",
           "weightClass": null
         },
         {
-          "title": "Ian Russell v Myles Dillahunty",
+          "title": "Marshall Lee v Michael Bartolo",
           "weightClass": null
         }
       ],
@@ -675,28 +667,28 @@
             "b": "Kestin McClain"
           },
           {
-            "a": "Jackson Stanford",
-            "b": "Justin Smith"
-          },
-          {
-            "a": "Sandra Jerez",
-            "b": "Karli Jo Patton"
-          },
-          {
-            "a": "Monique Dodson",
-            "b": "Rosalani Ikei"
+            "a": "Rosalani Ikei",
+            "b": "Monique Dodson"
           },
           {
             "a": "Deandre Anderson",
             "b": "Christian Carr"
           },
           {
+            "a": "Jackson Stanford",
+            "b": "Justin Smith"
+          },
+          {
+            "a": "Drew Cheezum",
+            "b": "Imed Eddine Dziri"
+          },
+          {
             "a": "Jack Sheehan",
             "b": "Dakota Howard"
           },
           {
-            "a": "Ian Russell",
-            "b": "Myles Dillahunty"
+            "a": "Marshall Lee",
+            "b": "Michael Bartolo"
           }
         ]
       },
@@ -1812,6 +1804,10 @@
         {
           "title": "Assita Ouattara v Ghita Chafik",
           "weightClass": null
+        },
+        {
+          "title": "Ale Joseph v Khamzat Akhmadov",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -1863,6 +1859,10 @@
           {
             "a": "Assita Ouattara",
             "b": "Ghita Chafik"
+          },
+          {
+            "a": "Ale Joseph",
+            "b": "Khamzat Akhmadov"
           }
         ]
       },
@@ -2021,7 +2021,7 @@
     {
       "org": "UFC",
       "eventName": "UFC 335: Oliveira vs. Lopes",
-      "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 7-fight card · main card Sun 13 Dec, 02:00 UK",
+      "eventTag": "UFC 335 · T-Mobile Arena, Las Vegas · 8-fight card · main card Sun 13 Dec, 02:00 UK",
       "homeTeam": "Charles Oliveira",
       "awayTeam": "Diego Lopes",
       "cardTitle": null,
@@ -2031,8 +2031,12 @@
       "orgLogo": "/logos/orgs/ufc.png",
       "undercard": [
         {
-          "title": "TBA v Opponent TBA",
-          "weightClass": null
+          "title": "Jacqueline Cavalcanti v Michelle Montague",
+          "weightClass": "W Bantamweight"
+        },
+        {
+          "title": "Roque Conceição v Nilson Rojas",
+          "weightClass": "Flyweight"
         },
         {
           "title": "Junior Tafa v Quentin Pasley",
@@ -2102,9 +2106,14 @@
         ],
         "bouts": [
           {
-            "a": "TBA",
-            "b": "Opponent TBA",
-            "weightClass": null
+            "a": "Jacqueline Cavalcanti",
+            "b": "Michelle Montague",
+            "weightClass": "W Bantamweight"
+          },
+          {
+            "a": "Roque Conceição",
+            "b": "Nilson Rojas",
+            "weightClass": "Flyweight"
           },
           {
             "a": "Junior Tafa",
@@ -2138,7 +2147,7 @@
           }
         ],
         "orgLogoUrl": "https://a.espncdn.com/i/teamlogos/leagues/500/ufc.png",
-        "boutCount": 7,
+        "boutCount": 8,
         "broadcasts": [
           "Paramount+"
         ]
@@ -2217,7 +2226,15 @@
       "orgLogo": null,
       "undercard": [
         {
+          "title": "Ben Tynan v Marlon Godoy",
+          "weightClass": null
+        },
+        {
           "title": "Lipeng Zhang v Chase Mann",
+          "weightClass": null
+        },
+        {
+          "title": "Karen Ghazaryan v Gilbert Nakatani",
           "weightClass": null
         }
       ],
@@ -2244,8 +2261,16 @@
         "broadcasts": [],
         "bouts": [
           {
+            "a": "Ben Tynan",
+            "b": "Marlon Godoy"
+          },
+          {
             "a": "Lipeng Zhang",
             "b": "Chase Mann"
+          },
+          {
+            "a": "Karen Ghazaryan",
+            "b": "Gilbert Nakatani"
           }
         ]
       },
@@ -2678,8 +2703,8 @@
       "org": "MMA",
       "eventName": "One on Prime Video 50",
       "eventTag": "One on Prime Video 50 · Lumpinee Boxing Stadium, Bangkok, Thailand",
-      "homeTeam": "Maurice Abevi",
-      "awayTeam": "Dzhabir Dzhabrailov",
+      "homeTeam": "Antonio Cesar",
+      "awayTeam": "Viet Anh Do",
       "cardTitle": null,
       "homeLogo": null,
       "awayLogo": null,
@@ -2687,11 +2712,11 @@
       "orgLogo": null,
       "undercard": [
         {
-          "title": "Antonio Cesar v Viet Anh Do",
+          "title": "Pedro Dantas v Adlan Umarov",
           "weightClass": null
         },
         {
-          "title": "Pedro Dantas v Adlan Umarov",
+          "title": "Maurice Abevi v Dzhabir Dzhabrailov",
           "weightClass": null
         }
       ],
@@ -2712,22 +2737,22 @@
         "city": "Bangkok, Thailand",
         "href": "/events/One-Championship-One-on-Prime-Video-50-115087",
         "mainEventFighters": [
-          "Maurice Abevi",
-          "Dzhabir Dzhabrailov"
+          "Antonio Cesar",
+          "Viet Anh Do"
         ],
         "broadcasts": [],
         "bouts": [
           {
-            "a": "Antonio Cesar",
-            "b": "Viet Anh Do"
-          },
-          {
             "a": "Pedro Dantas",
             "b": "Adlan Umarov"
+          },
+          {
+            "a": "Maurice Abevi",
+            "b": "Dzhabir Dzhabrailov"
           }
         ]
       },
-      "watchKey": "fights:MMA|Maurice Abevi|Dzhabir Dzhabrailov|2026-12-18"
+      "watchKey": "fights:MMA|Antonio Cesar|Viet Anh Do|2026-12-18"
     },
     {
       "org": "PFL",
@@ -3068,6 +3093,10 @@
           "weightClass": null
         },
         {
+          "title": "Daniel Tarchila v Michal Domin",
+          "weightClass": null
+        },
+        {
           "title": "Dawid Kuczmarski v Adam Niedzwiedz",
           "weightClass": null
         },
@@ -3123,6 +3152,10 @@
             "b": "Oleksii Polishchuk"
           },
           {
+            "a": "Daniel Tarchila",
+            "b": "Michal Domin"
+          },
+          {
             "a": "Dawid Kuczmarski",
             "b": "Adam Niedzwiedz"
           },
@@ -3159,7 +3192,7 @@
           "weightClass": null
         },
         {
-          "title": "Brandon Bohannan v Safarmamad Akhmadov",
+          "title": "Tyler Berger v Khetag Morgoev",
           "weightClass": null
         },
         {
@@ -3179,11 +3212,19 @@
           "weightClass": null
         },
         {
-          "title": "Amber Medina v Paige Wilcox",
+          "title": "Tom Hinz v Sebastian Seagraves",
           "weightClass": null
         },
         {
           "title": "Juwan Gonzales v Austin Yalowitz",
+          "weightClass": null
+        },
+        {
+          "title": "Amber Medina v Paige Wilcox",
+          "weightClass": null
+        },
+        {
+          "title": "Giuseppe Milano v Edwin Romero",
           "weightClass": null
         }
       ],
@@ -3218,8 +3259,8 @@
             "b": "Xhelal Lleshi"
           },
           {
-            "a": "Brandon Bohannan",
-            "b": "Safarmamad Akhmadov"
+            "a": "Tyler Berger",
+            "b": "Khetag Morgoev"
           },
           {
             "a": "Eman Hardy",
@@ -3238,12 +3279,20 @@
             "b": "George Lo"
           },
           {
-            "a": "Amber Medina",
-            "b": "Paige Wilcox"
+            "a": "Tom Hinz",
+            "b": "Sebastian Seagraves"
           },
           {
             "a": "Juwan Gonzales",
             "b": "Austin Yalowitz"
+          },
+          {
+            "a": "Amber Medina",
+            "b": "Paige Wilcox"
+          },
+          {
+            "a": "Giuseppe Milano",
+            "b": "Edwin Romero"
           }
         ]
       },
@@ -3600,6 +3649,18 @@
         {
           "title": "Magomed Sardalov v Francisco Figueiredo",
           "weightClass": null
+        },
+        {
+          "title": "Kirill Kornilov v Amir Aliakbari",
+          "weightClass": null
+        },
+        {
+          "title": "Alexander Maslov v Vitaly Bigdash",
+          "weightClass": null
+        },
+        {
+          "title": "Dauren Ermekov v Nikola Dipchikov",
+          "weightClass": null
         }
       ],
       "poster": null,
@@ -3667,10 +3728,260 @@
           {
             "a": "Magomed Sardalov",
             "b": "Francisco Figueiredo"
+          },
+          {
+            "a": "Kirill Kornilov",
+            "b": "Amir Aliakbari"
+          },
+          {
+            "a": "Alexander Maslov",
+            "b": "Vitaly Bigdash"
+          },
+          {
+            "a": "Dauren Ermekov",
+            "b": "Nikola Dipchikov"
           }
         ]
       },
       "watchKey": "fights:MMA|Shlemenko|Emeev|2026-12-25"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Deep: Osaka Impact 2026 6th Round",
+      "eventTag": "Deep · Sumiyoshi Kumin Center, Osaka, Osaka, Japan",
+      "homeTeam": "Ryuki Kirishima",
+      "awayTeam": "Takuto Hashimoto",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Sora Enmei v Doteki Ogawa",
+          "weightClass": null
+        },
+        {
+          "title": "Takashi Matsuba v Daiki Yahiro",
+          "weightClass": null
+        },
+        {
+          "title": "Daisuke Tatsumi v Sora Fujita",
+          "weightClass": null
+        },
+        {
+          "title": "Haruka Suzuki v Ruri Ueyama",
+          "weightClass": null
+        },
+        {
+          "title": "Mao Watanabe v Marin Yamabuki",
+          "weightClass": null
+        },
+        {
+          "title": "Shuto Kosaka v Mitsuru Konegawa",
+          "weightClass": null
+        },
+        {
+          "title": "Tatsumi Sawada v Yutaro Gondo",
+          "weightClass": null
+        },
+        {
+          "title": "Atsuki Okuno v Shuichiro Nakai",
+          "weightClass": null
+        },
+        {
+          "title": "Daigo Gondo v Fernando Inafuku",
+          "weightClass": null
+        },
+        {
+          "title": "Taiga Koyanagi v Rikuto Urata",
+          "weightClass": null
+        },
+        {
+          "title": "Nobuaki Osawa v Ietatsu Ohara",
+          "weightClass": null
+        },
+        {
+          "title": "Takuto Takamatsu v Takuma Mori",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-26T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-26",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Deep-Osaka-Impact-2026-6th-Round-115300",
+        "name": "Deep: Osaka Impact 2026 6th Round",
+        "dateUTC": null,
+        "dateOnly": "2026-12-26",
+        "venue": "Sumiyoshi Kumin Center",
+        "city": "Osaka, Osaka, Japan",
+        "href": "/events/Deep-Osaka-Impact-2026-6th-Round-115300",
+        "mainEventFighters": [
+          "Ryuki Kirishima",
+          "Takuto Hashimoto"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Sora Enmei",
+            "b": "Doteki Ogawa"
+          },
+          {
+            "a": "Takashi Matsuba",
+            "b": "Daiki Yahiro"
+          },
+          {
+            "a": "Daisuke Tatsumi",
+            "b": "Sora Fujita"
+          },
+          {
+            "a": "Haruka Suzuki",
+            "b": "Ruri Ueyama"
+          },
+          {
+            "a": "Mao Watanabe",
+            "b": "Marin Yamabuki"
+          },
+          {
+            "a": "Shuto Kosaka",
+            "b": "Mitsuru Konegawa"
+          },
+          {
+            "a": "Tatsumi Sawada",
+            "b": "Yutaro Gondo"
+          },
+          {
+            "a": "Atsuki Okuno",
+            "b": "Shuichiro Nakai"
+          },
+          {
+            "a": "Daigo Gondo",
+            "b": "Fernando Inafuku"
+          },
+          {
+            "a": "Taiga Koyanagi",
+            "b": "Rikuto Urata"
+          },
+          {
+            "a": "Nobuaki Osawa",
+            "b": "Ietatsu Ohara"
+          },
+          {
+            "a": "Takuto Takamatsu",
+            "b": "Takuma Mori"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Ryuki Kirishima|Takuto Hashimoto|2026-12-26"
+    },
+    {
+      "org": "MMA",
+      "eventName": "Deep: Osaka Impact 2026 7th Round",
+      "eventTag": "Deep · Sumiyoshi Kumin Center, Osaka, Osaka, Japan",
+      "homeTeam": "Kiichi Kunimoto",
+      "awayTeam": "Amiru Mano",
+      "cardTitle": null,
+      "homeLogo": null,
+      "awayLogo": null,
+      "orgName": "MMA",
+      "orgLogo": null,
+      "undercard": [
+        {
+          "title": "Yu Dozono v Musashi Yano",
+          "weightClass": null
+        },
+        {
+          "title": "Masashi Osawa v Yudai Tanaka",
+          "weightClass": null
+        },
+        {
+          "title": "Yuri Suda v Shinnosuke Hatsuda",
+          "weightClass": null
+        },
+        {
+          "title": "Yuuki Tanioka v Sumito Konishi",
+          "weightClass": null
+        },
+        {
+          "title": "Ken Morris v Satoki Saimon",
+          "weightClass": null
+        },
+        {
+          "title": "Taisei Mizusugi v Tom Tom",
+          "weightClass": null
+        },
+        {
+          "title": "Stephane Coignon v Masaki Nishikawa",
+          "weightClass": null
+        },
+        {
+          "title": "Reito Kato v Mitsuki Hosokawa",
+          "weightClass": null
+        }
+      ],
+      "poster": null,
+      "kickoffUTC": "2026-12-26T23:59:00Z",
+      "kickoffLocal": null,
+      "kickoffUK": null,
+      "localDate": "2026-12-26",
+      "channels": [],
+      "broadcastGroups": null,
+      "source": {
+        "org": "MMA",
+        "slug": "sherdog-Deep-Osaka-Impact-2026-7th-Round-115301",
+        "name": "Deep: Osaka Impact 2026 7th Round",
+        "dateUTC": null,
+        "dateOnly": "2026-12-26",
+        "venue": "Sumiyoshi Kumin Center",
+        "city": "Osaka, Osaka, Japan",
+        "href": "/events/Deep-Osaka-Impact-2026-7th-Round-115301",
+        "mainEventFighters": [
+          "Kiichi Kunimoto",
+          "Amiru Mano"
+        ],
+        "broadcasts": [],
+        "bouts": [
+          {
+            "a": "Yu Dozono",
+            "b": "Musashi Yano"
+          },
+          {
+            "a": "Masashi Osawa",
+            "b": "Yudai Tanaka"
+          },
+          {
+            "a": "Yuri Suda",
+            "b": "Shinnosuke Hatsuda"
+          },
+          {
+            "a": "Yuuki Tanioka",
+            "b": "Sumito Konishi"
+          },
+          {
+            "a": "Ken Morris",
+            "b": "Satoki Saimon"
+          },
+          {
+            "a": "Taisei Mizusugi",
+            "b": "Tom Tom"
+          },
+          {
+            "a": "Stephane Coignon",
+            "b": "Masaki Nishikawa"
+          },
+          {
+            "a": "Reito Kato",
+            "b": "Mitsuki Hosokawa"
+          }
+        ]
+      },
+      "watchKey": "fights:MMA|Kiichi Kunimoto|Amiru Mano|2026-12-26"
     },
     {
       "org": "Boxing",
@@ -7084,30 +7395,6 @@
   ],
   "replaySchedule": [
     {
-      "airTimeUTC": "2026-11-27T03:00:00.000Z",
-      "endsAtUTC": "2026-11-27T04:00:00.000Z",
-      "timeUK": "Fri 27 Nov, 03:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Reber v Street, Prelims",
-      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
-    },
-    {
-      "airTimeUTC": "2026-11-27T04:00:00.000Z",
-      "endsAtUTC": "2026-11-27T06:30:00.000Z",
-      "timeUK": "Fri 27 Nov, 04:00",
-      "channel": {
-        "name": "Fight Network",
-        "logo": "/logos/channels/fightnetwork.com.jpg"
-      },
-      "market": "Canada",
-      "label": "Reber v Street",
-      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
-    },
-    {
       "airTimeUTC": "2026-11-27T18:00:00.000Z",
       "endsAtUTC": "2026-11-27T22:00:00.000Z",
       "timeUK": "Fri 27 Nov, 18:00",
@@ -7130,6 +7417,54 @@
       "market": "UK",
       "label": "Amanda Serrano v Cheyenne Hanson",
       "sublabel": "MVP Boxing"
+    },
+    {
+      "airTimeUTC": "2026-11-29T02:00:00.000Z",
+      "endsAtUTC": "2026-11-29T03:00:00.000Z",
+      "timeUK": "Sun 29 Nov, 02:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Richardson v Oxendine Prelims",
+      "sublabel": "BKFC Fight Night Myrtle Beach: Richardso"
+    },
+    {
+      "airTimeUTC": "2026-11-29T03:00:00.000Z",
+      "endsAtUTC": "2026-11-29T06:00:00.000Z",
+      "timeUK": "Sun 29 Nov, 03:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Richardson v Oxendine",
+      "sublabel": "BKFC Fight Night Myrtle Beach: Richardso"
+    },
+    {
+      "airTimeUTC": "2026-11-29T07:00:00.000Z",
+      "endsAtUTC": "2026-11-29T08:00:00.000Z",
+      "timeUK": "Sun 29 Nov, 07:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Reber v Street, Prelims",
+      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
+    },
+    {
+      "airTimeUTC": "2026-11-29T08:00:00.000Z",
+      "endsAtUTC": "2026-11-29T10:30:00.000Z",
+      "timeUK": "Sun 29 Nov, 08:00",
+      "channel": {
+        "name": "Fight Network",
+        "logo": "/logos/channels/fightnetwork.com.jpg"
+      },
+      "market": "Canada",
+      "label": "Reber v Street",
+      "sublabel": "BKFC Fight Night Clearwater: Reber vs. S"
     }
   ]
 }

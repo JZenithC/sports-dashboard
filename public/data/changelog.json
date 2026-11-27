@@ -1,5 +1,23 @@
 [
   {
+    "timestamp": "2026-11-27T20:21:25.609Z",
+    "totalEvents": 20,
+    "added": [
+      "Vélez Sarsfield vs Independiente (Liga Profesional de Fútbol) — Sat 28 Nov, 20:00",
+      "Instituto (Córdoba) vs River Plate (Liga Profesional de Fútbol) — Sat 28 Nov, 22:00",
+      "Rosario Central vs Barracas Central (Liga Profesional de Fútbol) — Sun 29 Nov, 17:00",
+      "Boca Juniors vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Sun 29 Nov, 20:30"
+    ],
+    "removed": [
+      "São Paulo vs Remo (Campeonato Brasileiro Série A) — Thu 26 Nov, 20:00",
+      "Pachuca vs Chivas Guadalajara (Liga MX) — Thu 26 Nov, 19:00",
+      "Club León vs Cruz Azul (Liga MX) — Thu 26 Nov, 21:10"
+    ],
+    "channelsChanged": [
+      "Atlas vs Toluca (Liga MX) — Sat 28 Nov, 19:00: [Azteca 7, Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]"
+    ]
+  },
+  {
     "timestamp": "2026-11-26T20:34:52.982Z",
     "totalEvents": 19,
     "added": [
@@ -76,26 +94,6 @@
       "Querétaro vs Necaxa (Liga MX) — Sun 22 Nov, 19:10",
       "Gimnasia y Esgrima La Plata vs Newell's Old Boys (Liga Profesional de Fútbol) — Mon 23 Nov, 17:00",
       "Internacional vs Vitória (Campeonato Brasileiro Série A) — Mon 23 Nov, 19:30"
-    ],
-    "channelsChanged": []
-  },
-  {
-    "timestamp": "2026-11-22T18:41:59.673Z",
-    "totalEvents": 19,
-    "added": [
-      "Palmeiras vs Estudiantes de La Plata (CONMEBOL Libertadores) — Sat 28 Nov, 17:00",
-      "Corinthians vs Grêmio (Campeonato Brasileiro Série A) — Sun 29 Nov, 15:30"
-    ],
-    "removed": [
-      "Palmeiras vs Flamengo (Campeonato Brasileiro Série A) — Sat 21 Nov, 16:30",
-      "Argentinos Juniors vs Independiente (Liga Profesional de Fútbol) — Sat 21 Nov, 17:00",
-      "Bahía vs Coritiba (Campeonato Brasileiro Série A) — Sat 21 Nov, 17:30",
-      "Atlético Mineiro vs Boca Juniors (CONMEBOL Sudamericana) — Sat 21 Nov, 19:30",
-      "Pachuca vs Toluca (Liga MX) — Sat 21 Nov, 16:50",
-      "Santos Laguna vs Club León (Liga MX) — Sat 21 Nov, 17:00",
-      "Chapecoense vs Cruzeiro (Campeonato Brasileiro Série A) — Sat 21 Nov, 21:00",
-      "Pumas UNAM vs Monterrey (Liga MX) — Sat 21 Nov, 19:00",
-      "Tigres UANL vs América (Liga MX) — Sat 21 Nov, 21:00"
     ],
     "channelsChanged": []
   }

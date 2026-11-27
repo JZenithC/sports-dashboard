@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-11-26T20:37:33.794Z",
+  "generatedAt": "2026-11-27T20:23:51.761Z",
   "sports": {
     "football": [
+      {
+        "timestamp": "2026-11-27T20:21:25.609Z",
+        "totalEvents": 20,
+        "added": [
+          "Vélez Sarsfield vs Independiente (Liga Profesional de Fútbol) — Sat 28 Nov, 20:00",
+          "Instituto (Córdoba) vs River Plate (Liga Profesional de Fútbol) — Sat 28 Nov, 22:00",
+          "Rosario Central vs Barracas Central (Liga Profesional de Fútbol) — Sun 29 Nov, 17:00",
+          "Boca Juniors vs Gimnasia y Esgrima La Plata (Liga Profesional de Fútbol) — Sun 29 Nov, 20:30"
+        ],
+        "removed": [
+          "São Paulo vs Remo (Campeonato Brasileiro Série A) — Thu 26 Nov, 20:00",
+          "Pachuca vs Chivas Guadalajara (Liga MX) — Thu 26 Nov, 19:00",
+          "Club León vs Cruz Azul (Liga MX) — Thu 26 Nov, 21:10"
+        ],
+        "channelsChanged": [
+          "Atlas vs Toluca (Liga MX) — Sat 28 Nov, 19:00: [Azteca 7, Canal 5, Layvtime, Layvtime YouTube, TUDN, ViX Premium]"
+        ],
+        "total": 20
+      },
       {
         "timestamp": "2026-11-26T20:34:52.982Z",
         "totalEvents": 19,
@@ -358,27 +377,16 @@
         ],
         "channelsChanged": [],
         "total": 20
-      },
-      {
-        "timestamp": "2026-11-07T17:03:11.819Z",
-        "totalEvents": 29,
-        "added": [],
-        "removed": [
-          "Independiente vs Deportivo Riestra (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15",
-          "San Lorenzo vs Platense (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15",
-          "Unión Santa Fe vs Vélez Sarsfield (Liga Profesional de Fútbol) — Fri 06 Nov, 19:15",
-          "Vitória vs Fluminense (Campeonato Brasileiro Série A) — Fri 06 Nov, 20:00",
-          "Necaxa vs Tijuana (Liga MX) — Fri 06 Nov, 19:00",
-          "Tigre vs Sarmiento de Junín (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00",
-          "Banfield vs Atlético Tucumán (Liga Profesional de Fútbol) — Fri 06 Nov, 22:00",
-          "Atlante vs Santos Laguna (Liga MX) — Fri 06 Nov, 21:00",
-          "Atlético San Luis vs FC Juárez (Liga MX) — Fri 06 Nov, 22:00"
-        ],
-        "channelsChanged": [],
-        "total": 29
       }
     ],
     "mlb": [
+      {
+        "timestamp": "2026-11-27T20:21:55.445Z",
+        "total": 0,
+        "added": [],
+        "removed": [],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-26T20:35:22.504Z",
         "total": 0,
@@ -511,16 +519,24 @@
         "added": [],
         "removed": [],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-11-07T17:03:46.587Z",
-        "total": 0,
-        "added": [],
-        "removed": [],
-        "channelsChanged": []
       }
     ],
     "fights": [
+      {
+        "timestamp": "2026-11-27T20:23:51.761Z",
+        "total": 54,
+        "added": [
+          "ONE Samurai 6 (2026-12-02)",
+          "One on Prime Video 50 (2026-12-18)",
+          "Deep: Osaka Impact 2026 6th Round (2026-12-26)",
+          "Deep: Osaka Impact 2026 7th Round (2026-12-26)"
+        ],
+        "removed": [
+          "ONE Samurai 6 (2026-12-02)",
+          "One on Prime Video 50 (2026-12-18)"
+        ],
+        "channelsChanged": []
+      },
       {
         "timestamp": "2026-11-26T20:37:33.794Z",
         "total": 52,
@@ -785,19 +801,6 @@
           "One Friday Fights 178 (2026-11-13)"
         ],
         "channelsChanged": []
-      },
-      {
-        "timestamp": "2026-11-07T17:04:29.719Z",
-        "total": 64,
-        "added": [],
-        "removed": [
-          "LUX 064: Monterrey (2026-11-06)",
-          "One Friday Fights 177 (2026-11-06)",
-          "One Fight Night 49: Lucas Gabriel vs Alibeg Rasulov (2026-11-07)"
-        ],
-        "channelsChanged": [
-          "Elif Nur Turhan-Alycia Baumgardner (2026-11-09): [ESPN, ESPN+, Fight Network]"
-        ]
       }
     ]
   }
